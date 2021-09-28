@@ -12,10 +12,12 @@
     </author>
     
       <item>
-        <title>My First Post</title>
-        <description>&lt;p&gt;This is the first post on my website!&lt;/p&gt;
+        <title>My first post!</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/panda1.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is my first post!&lt;/p&gt;
 </description>
-        <pubDate>Mon, 27 Sep 2021 00:00:00 +0330</pubDate>
+        <pubDate>Sat, 28 Aug 2021 00:00:00 +0430</pubDate>
         <link>//My-First-Post</link>
         <link href="/My-First-Post"/>
         <guid isPermaLink="true">/My-First-Post</guid>
