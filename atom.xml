@@ -4,22 +4,24 @@
     <title>Diaries of a Modern Ninja!</title>
     <description>Nima&apos;s Diaries!</description>
     <link></link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/atom.xml" rel="self" type="application/rss+xml" />
     <author>
       <name>Nima</name>
-      <email>csh4rk0x00@ProtonMail.com</email>
+      <email></email>
       <uri>https://csh4rk.github.io/</uri>
     </author>
     <image>
-     <url>https://nima.ninja/assets/ninja1.png</url>
-     <title>Diaries of a Modern Ninja!</title>
-     <link>https://nima.ninja</link>
-     <description>Nima's Diaries!</description>
+      <url>https://nima.ninja/assets/ninja1.png</url>
+      <title>Diaries of a Modern Ninja!</title>
+      <link>https://nima.ninja</link>
+      <width>32</width>
+      <height>32</height>
     </image>
+
     
       <item>
         <title>Think and Grow Rich</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Think-Grow-Rich-Publication-Foundation-ebook/dp/B07P896HSJ/ref=sr_1_1?dchild=1&amp;amp;keywords=think+%26+grow+rich+original&amp;amp;qid=1632985183&amp;amp;s=digital-text&amp;amp;sr=1-1&quot;&gt;&lt;img src=&quot;/assets/thinkandgrowrich_book.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Think-Grow-Rich-Publication-Foundation-ebook/dp/B07P896HSJ/ref=sr_1_1?dchild=1&amp;amp;keywords=think+%26+grow+rich+original&amp;amp;qid=1632985183&amp;amp;s=digital-text&amp;amp;sr=1-1&quot;&gt;&lt;img src=&quot;/books/assets/thinkandgrowrich_book.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;author-napoleon-hill&quot;&gt;Author: Napoleon Hill&lt;/h4&gt;
 &lt;h4 id=&quot;category-personal-success-classic&quot;&gt;Category: Personal Success Classic&lt;/h4&gt;
@@ -49,7 +51,7 @@
     
       <item>
         <title>Sandworm_A New Era of Cyberwar and the Hunt for the Kremlin&apos;s Most Dangerous Hackers</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Sandworm-Cyberwar-Kremlins-Dangerous-Hackers-ebook/dp/B07GD4MFW2&quot;&gt;&lt;img src=&quot;/assets/sandworm_book.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Sandworm-Cyberwar-Kremlins-Dangerous-Hackers-ebook/dp/B07GD4MFW2&quot;&gt;&lt;img src=&quot;/books/assets/sandworm_book.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;author-andy-greenberg&quot;&gt;Author: Andy Greenberg&lt;/h4&gt;
 &lt;h4 id=&quot;category-misc-cybersecurity-book&quot;&gt;Category: Misc. Cybersecurity Book&lt;/h4&gt;
@@ -77,7 +79,7 @@
     
       <item>
         <title>Limitless_Upgrade Your Brain, Learn Anything Faster, and Unlock Your Exceptional Life</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Limitless-Upgrade-Anything-Faster-Exceptional-ebook/dp/B082ZQDH63/ref=sr_1_1?dchild=1&amp;amp;keywords=limitless&amp;amp;qid=1632985085&amp;amp;s=digital-text&amp;amp;sr=1-1&quot;&gt;&lt;img src=&quot;/assets/limitless_book.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Limitless-Upgrade-Anything-Faster-Exceptional-ebook/dp/B082ZQDH63/ref=sr_1_1?dchild=1&amp;amp;keywords=limitless&amp;amp;qid=1632985085&amp;amp;s=digital-text&amp;amp;sr=1-1&quot;&gt;&lt;img src=&quot;/books/assets/limitless_book.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;author-jim-kwik&quot;&gt;Author: Jim Kwik&lt;/h4&gt;
 &lt;h4 id=&quot;category-personal-transformation&quot;&gt;Category: Personal Transformation&lt;/h4&gt;
@@ -113,7 +115,7 @@ We’ve applied the latest neuroscience for accelerated learning. Our process, p
     
       <item>
         <title>Flow_The Psychology of Optimal Experience</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Flow-Psychology-Experience-Perennial-Classics-ebook/dp/B000W94FE6/ref=sr_1_1?crid=3S0FE0VDE81LY&amp;amp;dchild=1&amp;amp;keywords=flow+the+psychology+of+optimal+experience&amp;amp;qid=1632985238&amp;amp;s=digital-text&amp;amp;sprefix=flow%2Cdigital-text%2C735&amp;amp;sr=1-1&quot;&gt;&lt;img src=&quot;/assets/flow_book.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Flow-Psychology-Experience-Perennial-Classics-ebook/dp/B000W94FE6/ref=sr_1_1?crid=3S0FE0VDE81LY&amp;amp;dchild=1&amp;amp;keywords=flow+the+psychology+of+optimal+experience&amp;amp;qid=1632985238&amp;amp;s=digital-text&amp;amp;sprefix=flow%2Cdigital-text%2C735&amp;amp;sr=1-1&quot;&gt;&lt;img src=&quot;/books/assets/flow_book.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;author-mihaly-csikszentmihalyi&quot;&gt;Author: Mihaly Csikszentmihalyi&lt;/h4&gt;
 &lt;h4 id=&quot;category-psychology-of-creativity--genius&quot;&gt;Category: Psychology of Creativity &amp;amp; Genius&lt;/h4&gt;
@@ -141,7 +143,7 @@ We’ve applied the latest neuroscience for accelerated learning. Our process, p
     
       <item>
         <title>Essentialism_The Disciplined Pursuit of Less</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Essentialism-Disciplined-Pursuit-Greg-McKeown-ebook/dp/B00G1J1D28/ref=sr_1_1?dchild=1&amp;amp;keywords=essentialism&amp;amp;qid=1632985276&amp;amp;s=digital-text&amp;amp;sr=1-1&quot;&gt;&lt;img src=&quot;/assets/essentialism_book.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Essentialism-Disciplined-Pursuit-Greg-McKeown-ebook/dp/B00G1J1D28/ref=sr_1_1?dchild=1&amp;amp;keywords=essentialism&amp;amp;qid=1632985276&amp;amp;s=digital-text&amp;amp;sr=1-1&quot;&gt;&lt;img src=&quot;/books/assets/essentialism_book.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;author-greg-mckeown&quot;&gt;Author: Greg Mckeown&lt;/h4&gt;
 &lt;h4 id=&quot;category-business-decision-making&quot;&gt;Category: Business Decision-Making&lt;/h4&gt;
@@ -177,7 +179,7 @@ We’ve applied the latest neuroscience for accelerated learning. Our process, p
     
       <item>
         <title>Deep Work_Rules for Focused Success in a Distracted World</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Deep-Work-Focused-Success-Distracted-ebook/dp/B00X47ZVXM/ref=sr_1_1?dchild=1&amp;amp;keywords=deep+work&amp;amp;qid=1632985269&amp;amp;s=digital-text&amp;amp;sr=1-1&quot;&gt;&lt;img src=&quot;/assets/deepwork_book.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Deep-Work-Focused-Success-Distracted-ebook/dp/B00X47ZVXM/ref=sr_1_1?dchild=1&amp;amp;keywords=deep+work&amp;amp;qid=1632985269&amp;amp;s=digital-text&amp;amp;sr=1-1&quot;&gt;&lt;img src=&quot;/books/assets/deepwork_book.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;author-cal-newport&quot;&gt;Author: Cal Newport&lt;/h4&gt;
 &lt;h4 id=&quot;category-time-management--career-guide&quot;&gt;Category: Time Management / Career Guide&lt;/h4&gt;
@@ -214,7 +216,7 @@ A Business Book of the Week at 800-CEO-READ&lt;/p&gt;
     
       <item>
         <title>The Compound Effect_Jumpstart Your Income, Your Life, Your Success</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Compound-Effect-Jumpstart-Income-Success-ebook/dp/B089GM2W99/ref=sr_1_2?dchild=1&amp;amp;keywords=compund+effect&amp;amp;qid=1632986805&amp;amp;s=digital-text&amp;amp;sr=1-2&quot;&gt;&lt;img src=&quot;/assets/compoundeffect_book.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Compound-Effect-Jumpstart-Income-Success-ebook/dp/B089GM2W99/ref=sr_1_2?dchild=1&amp;amp;keywords=compund+effect&amp;amp;qid=1632986805&amp;amp;s=digital-text&amp;amp;sr=1-2&quot;&gt;&lt;img src=&quot;/books/assets/compoundeffect_book.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;author-darren-hardy&quot;&gt;Author: Darren Hardy&lt;/h4&gt;
 &lt;h4 id=&quot;category-personal-transformation&quot;&gt;Category: Personal Transformation&lt;/h4&gt;
@@ -243,7 +245,7 @@ If you’re serious about living an extraordinary life, use the power of The Com
     
       <item>
         <title>Atomic Habits_An Easy &amp; Proven Way to Build Good Habits &amp; Break Bad Ones</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Atomic-Habits-Proven-Build-Break-ebook/dp/B07D23CFGR/ref=sr_1_1?dchild=1&amp;amp;keywords=atomic+habits&amp;amp;qid=1632985127&amp;amp;s=digital-text&amp;amp;sr=1-1&quot;&gt;&lt;img src=&quot;/assets/atomichabits_book.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Atomic-Habits-Proven-Build-Break-ebook/dp/B07D23CFGR/ref=sr_1_1?dchild=1&amp;amp;keywords=atomic+habits&amp;amp;qid=1632985127&amp;amp;s=digital-text&amp;amp;sr=1-1&quot;&gt;&lt;img src=&quot;/books/assets/atomichabits_book.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;author-james-clear&quot;&gt;Author: James Clear&lt;/h4&gt;
 &lt;h4 id=&quot;category-personal-transformation&quot;&gt;Category: Personal Transformation&lt;/h4&gt;
@@ -281,7 +283,7 @@ It is highly recommended. Read it with &lt;a href=&quot;/CompoundEffect&quot;&gt
     
       <item>
         <title>My first post!</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/panda1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/panda1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This is my first post!&lt;/p&gt;
 </description>
