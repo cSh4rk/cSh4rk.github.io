@@ -145,7 +145,7 @@ a:active, a:focus { outline: 0; border: none; -moz-outline-style: none; }
 /* Icons */
 .icon > svg { display: inline-block; width: 16px; height: 16px; vertical-align: middle; }
 
-.icon > svg path { fill: #009423; }
+.icon > svg path { fill: #aaa; }
 
 .icon-nofill > svg { display: inline-block; width: 16px; height: 16px; vertical-align: middle; }
 
