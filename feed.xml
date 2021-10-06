@@ -5,14 +5,27 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 Oct 2021 18:29:31 +0330</pubDate>
-    <lastBuildDate>Wed, 06 Oct 2021 18:29:31 +0330</lastBuildDate>
+    <pubDate>Wed, 06 Oct 2021 18:46:42 +0330</pubDate>
+    <lastBuildDate>Wed, 06 Oct 2021 18:46:42 +0330</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
      <title>Diaries of a Modern Ninja</title>
      <link>https://nima.ninja</link>
     </image>
+    
+      <item>
+        <title>NetworkChuck</title>
+        <description>&lt;p&gt;He produces super cool &lt;a href=&quot;https://www.youtube.com/channel/UC9x0AN7BWHpCDHSm9NiJFJQ&quot;&gt;youtube videos&lt;/a&gt; about different aspects of tech, I like this guy! :)&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 Oct 2021 00:00:00 +0330</pubDate>
+        <link>https://nima.ninja/networkchuck</link>
+        <guid isPermaLink="true">https://nima.ninja/networkchuck</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
     
       <item>
         <title>Think and Grow Rich</title>
@@ -122,19 +135,6 @@
         
         
         <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>NetworkChuck</title>
-        <description>&lt;p&gt;He produces super cool &lt;a href=&quot;https://www.youtube.com/channel/UC9x0AN7BWHpCDHSm9NiJFJQ&quot;&gt;youtube videos&lt;/a&gt; about different aspects of tech, I like this guy! :)&lt;/p&gt;
-</description>
-        <pubDate>Thu, 10 Jun 2021 00:00:00 +0430</pubDate>
-        <link>https://nima.ninja/networkchuck</link>
-        <guid isPermaLink="true">https://nima.ninja/networkchuck</guid>
-        
-        
-        <category>links</category>
         
       </item>
     
