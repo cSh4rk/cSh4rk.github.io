@@ -136,6 +136,8 @@ a:active, a:focus { outline: 0; border: none; -moz-outline-style: none; }
 /* .footer-col { text-align: center; font-size: 15px; float: left; padding-left: 10px; //margin-bottom: }*/
 .footer-col-social { text-align: left; font-size: 14px; float: left; }
 
+.footer-col-htb { text-align: left; font-size: 14px; float: right; }
+
 .footer-col-copyright { text-align: center; font-size: 15px; float: left; }
 
 .social-media-list { list-style: none; }
