@@ -127,7 +127,7 @@ a:active, a:focus { outline: 0; border: none; -moz-outline-style: none; }
 
 @media only screen and (min-width: 600px) { /* For tablets: */ .col-s-1 { width: 10%; } .col-s-2 { width: 20%; } .col-s-3 { width: 30%; } .col-s-4 { width: 40%; } .col-s-5 { width: 50%; } .col-s-6 { width: 60%; } .col-s-7 { width: 70%; } .col-s-8 { width: 80%; } .col-s-9 { width: 90%; } .col-s-10 { width: 100%; } }
 
-@media only screen and (min-width: 768px) { /* For desktop: */ .col-1 { width: 10%; } .col-2 { width: 20%; } .col-3 { width: 30%; } .col-4 { width: 40%; } .col-5 { width: 50%; } .col-6 { width: 60%; } .col-7 { width: 70%; } .col-8 { width: 80%; } .col-9 { width: 90%; } .col-10 { width: 100%; } }
+@media only screen and (min-width: 840px) { /* For desktop: */ .col-1 { width: 10%; } .col-2 { width: 20%; } .col-3 { width: 30%; } .col-4 { width: 40%; } .col-5 { width: 50%; } .col-6 { width: 60%; } .col-7 { width: 70%; } .col-8 { width: 80%; } .col-9 { width: 90%; } .col-10 { width: 100%; } }
 
 /* Make footer stick to bottom */
 /*footer { height: 100px; line-height: 50px; text-align: center; border-top: 1px dashed $dove-grey; }*/
