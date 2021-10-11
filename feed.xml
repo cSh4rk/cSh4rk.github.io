@@ -5,14 +5,26 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 Oct 2021 04:10:55 +0330</pubDate>
-    <lastBuildDate>Mon, 11 Oct 2021 04:10:55 +0330</lastBuildDate>
+    <pubDate>Mon, 11 Oct 2021 07:31:35 +0330</pubDate>
+    <lastBuildDate>Mon, 11 Oct 2021 07:31:35 +0330</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
      <title>Diaries of a Modern Ninja</title>
      <link>https://nima.ninja</link>
     </image>
+    
+      <item>
+        <title>Up and Running with GitHub Pages</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=EvYs1idcGnM&amp;amp;list=PLWzwUIYZpnJuT0sH4BN56P5oWTdHJiTNq&amp;amp;index=1&quot;&gt;&lt;img src=&quot;/links/assets/octojekyll.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt; &lt;p&gt;If you want to learn how to use Jekyll with Github pages to build your own website or blog, one of cool resources is these Up and Running series from Bill Raymond’s youtube page. He teaches great tips that can really make your design process easier.&lt;/p&gt; &lt;p&gt;Here are his comments about these videos:&lt;/p&gt; &lt;p&gt;“In this slides-only video, I walk you through the basics of GitHub Pages. You will learn how it...</description>
+        <pubDate>Mon, 11 Oct 2021 00:00:00 +0330</pubDate>
+        <link>https://nima.ninja/up-and-running-with-github-pages</link>
+        <guid isPermaLink="true">https://nima.ninja/up-and-running-with-github-pages</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
     
       <item>
         <title>My OSCP Journey — A Review</title>
@@ -120,18 +132,6 @@
         <pubDate>Thu, 30 Sep 2021 00:00:00 +0330</pubDate>
         <link>https://nima.ninja/sandworm-a-new-era-of-cyberwar</link>
         <guid isPermaLink="true">https://nima.ninja/sandworm-a-new-era-of-cyberwar</guid>
-        
-        
-        <category>books</category>
-        
-      </item>
-    
-      <item>
-        <title>Limitless: Upgrade Your Brain, Learn Anything Faster, and Unlock Your Exceptional Life</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Limitless-Upgrade-Anything-Faster-Exceptional-ebook/dp/B082ZQDH63/ref=sr_1_1?dchild=1&amp;amp;keywords=limitless&amp;amp;qid=1632985085&amp;amp;s=digital-text&amp;amp;sr=1-1&quot;&gt;&lt;img src=&quot;/books/assets/limitless_book.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt; &lt;h4 id=&quot;author-jim-kwik&quot;&gt;Author: Jim Kwik&lt;/h4&gt; &lt;h4 id=&quot;category-personal-transformation&quot;&gt;Category: Personal Transformation&lt;/h4&gt; &lt;h4 id=&quot;publisher-hay-house-inc-april-28-2020&quot;&gt;Publisher: Hay House Inc. (April 28, 2020)&lt;/h4&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon Description:&lt;/h3&gt; &lt;p&gt;“JIM KWIK, the world’s #1 brain coach, has written the owner’s manual for mental expansion and brain fitness. Limitless gives people the ability to accomplish more, more productivity, more transformation, more personal success, and business achievement, by changing their Mindset, Motivation, and Methods.&lt;/p&gt; &lt;p&gt;These “3 M’s” live in the pages of Limitless...</description>
-        <pubDate>Thu, 30 Sep 2021 00:00:00 +0330</pubDate>
-        <link>https://nima.ninja/limitless-upgrade-your-brain-learn-everything-faster</link>
-        <guid isPermaLink="true">https://nima.ninja/limitless-upgrade-your-brain-learn-everything-faster</guid>
         
         
         <category>books</category>
