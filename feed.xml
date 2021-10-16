@@ -5,8 +5,8 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 15 Oct 2021 18:47:14 +0330</pubDate>
-    <lastBuildDate>Fri, 15 Oct 2021 18:47:14 +0330</lastBuildDate>
+    <pubDate>Sat, 16 Oct 2021 05:34:55 +0330</pubDate>
+    <lastBuildDate>Sat, 16 Oct 2021 05:34:55 +0330</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
@@ -16,7 +16,7 @@
     
       <item>
         <title>My Discord Server is Up and Running!</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/discord-logo.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;At last I did it! I had Discord account and even a simple server for some years but never put the effort necessary to fully set up and customize my server. Finally I’ve put some time this week (maybe around 100 hours!! Yeah it’s no joke if you want a great server!) to set up and complete my own Discord server. For those of you who may not know, Discord is...</description>
+        <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/discord-logo.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;At last I did it! I had Discord account and even a simple server for some years but never put in the necessary effort to fully set up and customize my server. Finally I’ve put some time this week (maybe around 100 hours!! Yeah it’s no joke if you want a great server!) to set up and complete my own Discord server. For those of you who may not know, Discord...</description>
         <pubDate>Fri, 15 Oct 2021 00:00:00 +0330</pubDate>
         <link>https://nima.ninja/my-discord-server-is-up-and-running</link>
         <guid isPermaLink="true">https://nima.ninja/my-discord-server-is-up-and-running</guid>
