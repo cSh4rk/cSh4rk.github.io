@@ -5,8 +5,8 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Oct 2021 18:16:16 +0330</pubDate>
-    <lastBuildDate>Wed, 20 Oct 2021 18:16:16 +0330</lastBuildDate>
+    <pubDate>Wed, 20 Oct 2021 22:47:15 +0330</pubDate>
+    <lastBuildDate>Wed, 20 Oct 2021 22:47:15 +0330</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
@@ -33,6 +33,10 @@
         
         <category>Anonymity</category>
         
+        <category>Youtube</category>
+        
+        <category>Channel</category>
+        
       </item>
     
       <item>
@@ -51,6 +55,10 @@
         
         <category>Anonymity</category>
         
+        <category>Tor</category>
+        
+        <category>Linux</category>
+        
         <category>Advanced</category>
         
       </item>
@@ -65,6 +73,14 @@
         <category>blog</category>
         
         
+        <category>Discord</category>
+        
+        <category>Bots</category>
+        
+        <category>Zapier</category>
+        
+        <category>Social Networking</category>
+        
       </item>
     
       <item>
@@ -76,6 +92,26 @@
         
         <category>links</category>
         
+        
+        <category>Github</category>
+        
+        <category>Github Pages</category>
+        
+        <category>Jekyll</category>
+        
+        <category>Youtube</category>
+        
+        <category>Channel</category>
+        
+        <category>Static Site Generator</category>
+        
+        <category>Website</category>
+        
+        <category>Blog</category>
+        
+        <category>Open Source Software</category>
+        
+        <category>Tutorial</category>
         
       </item>
     
@@ -92,6 +128,16 @@
         <category>links</category>
         
         
+        <category>OSCP</category>
+        
+        <category>Penetration Test</category>
+        
+        <category>Certifications</category>
+        
+        <category>Offensive Security</category>
+        
+        <category>Hack the Box</category>
+        
       </item>
     
       <item>
@@ -103,6 +149,12 @@
         
         <category>books</category>
         
+        
+        <category>Neuroscience</category>
+        
+        <category>Sleep</category>
+        
+        <category>Top Science Book</category>
         
       </item>
     
@@ -116,6 +168,12 @@
         <category>books</category>
         
         
+        <category>Sociology</category>
+        
+        <category>Evolution</category>
+        
+        <category>Memetics</category>
+        
       </item>
     
       <item>
@@ -127,6 +185,14 @@
         
         <category>books</category>
         
+        
+        <category>Personal Transformation</category>
+        
+        <category>Psychology</category>
+        
+        <category>Creativity</category>
+        
+        <category>Genius</category>
         
       </item>
     
@@ -140,6 +206,14 @@
         <category>books</category>
         
         
+        <category>Evolution</category>
+        
+        <category>Richard Dawkins</category>
+        
+        <category>Top Science Book</category>
+        
+        <category>Top Book</category>
+        
       </item>
     
       <item>
@@ -151,6 +225,14 @@
         
         <category>books</category>
         
+        
+        <category>Psychology</category>
+        
+        <category>Consciousness</category>
+        
+        <category>Spirituality</category>
+        
+        <category>Weird</category>
         
       </item>
     
