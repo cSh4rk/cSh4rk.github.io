@@ -5,14 +5,31 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Oct 2021 19:33:56 +0330</pubDate>
-    <lastBuildDate>Mon, 18 Oct 2021 19:33:56 +0330</lastBuildDate>
+    <pubDate>Wed, 20 Oct 2021 16:13:01 +0330</pubDate>
+    <lastBuildDate>Wed, 20 Oct 2021 16:13:01 +0330</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
      <title>Diaries of a Modern Ninja</title>
      <link>https://nima.ninja</link>
     </image>
+    
+      <item>
+        <title>Techlore: Privacy and Security for the masses</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCs6KfncB4OV6Vug4o_bzijg&quot;&gt;&lt;img src=&quot;/links/assets/techlore.svg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCs6KfncB4OV6Vug4o_bzijg&quot;&gt;Techlore Youtube Channel&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This Youtube channel has great tips for Privacy and Anonymity.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Oct 2021 00:00:00 +0330</pubDate>
+        <link>https://nima.ninja/links/2021/techlore</link>
+        <guid isPermaLink="true">https://nima.ninja/links/2021/techlore</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
     
       <item>
         <title>My Discord Server is Up and Running!</title>
@@ -123,18 +140,6 @@
         
         
         <category>links</category>
-        
-      </item>
-    
-      <item>
-        <title>Think and Grow Rich</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Think-Grow-Rich-Publication-Foundation-ebook/dp/B07P896HSJ/ref=sr_1_1?dchild=1&amp;amp;keywords=think+%26+grow+rich+original&amp;amp;qid=1632985183&amp;amp;s=digital-text&amp;amp;sr=1-1&quot;&gt;&lt;img src=&quot;/books/assets/thinkandgrowrich_book.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt; &lt;h4 id=&quot;author-napoleon-hill&quot;&gt;Author: Napoleon Hill&lt;/h4&gt; &lt;h4 id=&quot;category-personal-success-classic&quot;&gt;Category: Personal Success Classic&lt;/h4&gt; &lt;h4 id=&quot;publisher-sound-wisdom-original-edition-march-1-2019&quot;&gt;Publisher: Sound Wisdom; Original Edition (March 1, 2019)&lt;/h4&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon Description:&lt;/h3&gt; &lt;p&gt;“Think and Grow Rich - Over 80 Million Copies Sold&lt;/p&gt; &lt;p&gt;This edition of Napoleon Hill’s classic Think and Grow Rich is a reproduction of Napoleon Hill’s personal copy of the first edition, the ONLY original version recommended by The Napoleon Hill Foundation, originally printed in March of 1937.&lt;/p&gt; &lt;p&gt;The most...</description>
-        <pubDate>Thu, 30 Sep 2021 00:00:00 +0330</pubDate>
-        <link>https://nima.ninja/books/2021/think-and-grow-rich</link>
-        <guid isPermaLink="true">https://nima.ninja/books/2021/think-and-grow-rich</guid>
-        
-        
-        <category>books</category>
         
       </item>
     
