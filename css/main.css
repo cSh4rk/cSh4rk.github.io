@@ -51,7 +51,7 @@ body { margin: 0; padding: 0; background: #151515 url("../assets/bkg.png") 0 0; 
 
 section { display: block; margin: 0 0 20px 0; }
 
-h1, h2, h3, h4, h5, h6 { margin: 0 0 20px; }
+h1, h2, h3, h4, h5, h6, .postitem { margin: 0 0 20px; }
 
 li { line-height: 1.4; }
 
@@ -72,7 +72,7 @@ header h2 { font-size: 18px; font-weight: 300; color: #666; }
 
 section img { max-width: 100%; }
 
-h1, h2, h3, h4, h5, h6 { font-weight: normal; font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; color: #b5e853; letter-spacing: -0.03em; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1); }
+h1, h2, h3, h4, h5, h6, .postitem { font-weight: normal; font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; color: #b5e853; letter-spacing: -0.03em; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1); }
 
 #main_content h1 { font-size: 30px; }
 
@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: normal; font-family: Monaco, "Bitstream Ve
 
 #main_content h5 { font-size: 12px; text-transform: uppercase; margin: 0 0 5px 0; }
 
-#main_content h6 { font-size: 12px; text-transform: capitalize; color: #999; margin: 0 0 5px 0; }
+#main_content h6, #main_content .postitem { font-size: 12px; text-transform: capitalize; color: #999; margin: 0 0 5px 0; }
 
 dt { font-style: italic; font-weight: bold; }
 
@@ -110,9 +110,9 @@ hr { height: 0; border: 0; border-bottom: 1px dashed #b5e853; color: #b5e853; }
 
 .btn:hover { background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.6), rgba(35, 35, 35, 0.6) 50%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 0.8)); }
 
-.btn .icon { display: inline-block; width: 16px; height: 16px; margin: 1px 8px 0 0; float: left; }
+.btn .icon, .btn .icon-small { display: inline-block; width: 16px; height: 16px; margin: 1px 8px 0 0; float: left; }
 
-.btn-github .icon { opacity: 0.6; background: url("../images/blacktocat.png") 0 0 no-repeat; }
+.btn-github .icon, .btn-github .icon-small { opacity: 0.6; background: url("../images/blacktocat.png") 0 0 no-repeat; }
 
 /* Links a, a:hover, a:visited */
 a { color: #63c0f5; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); }
@@ -145,16 +145,22 @@ a:active, a:focus { outline: 0; border: none; -moz-outline-style: none; }
 .pagination { height: 50px; line-height: 50px; text-align: center; }
 
 /* Icons */
-.icon > svg { display: inline-block; width: 16px; height: 16px; vertical-align: middle; }
+.icon > svg, .icon-small > svg { display: inline-block; width: 16px; height: 16px; vertical-align: middle; }
 
-.icon > svg path { fill: #aaa; }
+.icon > svg path, .icon-small > svg path { fill: #aaa; }
 
 .icon-nofill > svg { display: inline-block; width: 16px; height: 16px; vertical-align: middle; }
+
+.icon-small { margin: 0 0 0 5px; }
+
+.icon-small > svg { width: 12px; height: 12px; }
 
 .no-decoration { text-decoration: none; /*&:hover { text-decoration: underline; }*/ }
 
 #wrapper { min-height: calc(100vh - 100px); }
 
 .center { display: block; margin-left: auto; margin-right: auto; }
+
+code.posttag { background: rgba(0, 0, 0, 0.9); border: 1px solid rgba(255, 255, 255, 0.15); padding: 0px 3px; margin: 0px -3px; border-radius: 2px; }
 
 /*# sourceMappingURL=main.css.map */
