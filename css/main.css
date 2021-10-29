@@ -131,16 +131,16 @@ a:active, a:focus { outline: 0; border: none; -moz-outline-style: none; }
 
 /* Make footer stick to bottom */
 /*footer { height: 100px; line-height: 50px; text-align: center; border-top: 1px dashed $dove-grey; }*/
-.site-footer { height: 100px; line-height: 50px; border-top: 1px dashed #666; }
+.site-footer { border-top: 1px dashed #666; }
 
 /* .footer-col { text-align: center; font-size: 15px; float: left; padding-left: 10px; //margin-bottom: }*/
 .footer-col-social { text-align: left; font-size: 14px; float: left; }
 
-.footer-col-htb { text-align: left; font-size: 14px; float: right; }
+.footer-col-htb { text-align: left; font-size: 14px; float: right; margin-bottom: 20px; }
 
-.footer-col-copyright { text-align: center; font-size: 15px; float: left; }
+.footer-col-copyright { text-align: center; font-size: 15px; float: left; margin-bottom: 8px; }
 
-.social-media-list { list-style: none; }
+.social-media-list { list-style: none; margin-bottom: 5px; }
 
 .pagination { height: 50px; line-height: 50px; text-align: center; }
 
