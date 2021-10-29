@@ -5,8 +5,8 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 29 Oct 2021 03:25:34 +0330</pubDate>
-    <lastBuildDate>Fri, 29 Oct 2021 03:25:34 +0330</lastBuildDate>
+    <pubDate>Fri, 29 Oct 2021 03:28:36 +0330</pubDate>
+    <lastBuildDate>Fri, 29 Oct 2021 03:28:36 +0330</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
@@ -23,6 +23,29 @@ This is a temporary page for workflow automation. Please skip it…&lt;/p&gt;
         <pubDate>Fri, 29 Oct 2021 00:00:00 +0330</pubDate>
         <link>https://nima.ninja/blog/2021/automation-test-page</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2021/automation-test-page</guid>
+        
+        <category>blog</category>
+        
+        
+        <category>Test</category>
+        
+        <category>Automation</category>
+        
+        <category>Robots</category>
+        
+        <category>Skip</category>
+        
+      </item>
+    
+      <item>
+        <title>Automation Test page 2</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/robot1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a temporary page for workflow automation. Please skip it…&lt;/p&gt;
+</description>
+        <pubDate>Fri, 29 Oct 2021 00:00:00 +0330</pubDate>
+        <link>https://nima.ninja/blog/2021/automation-test-page-2</link>
+        <guid isPermaLink="true">https://nima.ninja/blog/2021/automation-test-page-2</guid>
         
         <category>blog</category>
         
@@ -216,26 +239,6 @@ This is a temporary page for workflow automation. Please skip it…&lt;/p&gt;
         <category>Creativity</category>
         
         <category>Genius</category>
-        
-      </item>
-    
-      <item>
-        <title>The Selfish Gene: 40th Anniversary edition (Oxford Landmark Science)</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Selfish-Gene-Anniversary-Landmark-Science-ebook/dp/B01GI5F2FS&quot;&gt;&lt;img src=&quot;/books/assets/the_selfish_gene.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt; &lt;h4 id=&quot;author-richard-dawkins&quot;&gt;Author: Richard Dawkins&lt;/h4&gt; &lt;h4 id=&quot;category-evolution&quot;&gt;Category: Evolution&lt;/h4&gt; &lt;h4 id=&quot;publisher-oup-oxford-4th-edition-june-2-2016&quot;&gt;Publisher: OUP Oxford; 4th edition (June 2, 2016)&lt;/h4&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon Description:&lt;/h3&gt; &lt;p&gt;“The million copy international bestseller, critically acclaimed and translated into over 25 languages.&lt;/p&gt; &lt;p&gt;As influential today as when it was first published, The Selfish Gene has become a classic exposition of evolutionary thought. Professor Dawkins articulates a gene’s eye view of evolution - a view giving centre stage to these persistent units...</description>
-        <pubDate>Thu, 07 Oct 2021 00:00:00 +0330</pubDate>
-        <link>https://nima.ninja/books/2021/the-selfish-gene</link>
-        <guid isPermaLink="true">https://nima.ninja/books/2021/the-selfish-gene</guid>
-        
-        <category>books</category>
-        
-        
-        <category>Evolution</category>
-        
-        <category>Richard Dawkins</category>
-        
-        <category>Top Science Book</category>
-        
-        <category>Top Book</category>
         
       </item>
     
