@@ -140,7 +140,7 @@ a:active, a:focus { outline: 0; border: none; -moz-outline-style: none; }
 
 .footer-col-copyright { text-align: center; font-size: 15px; float: left; margin-bottom: 8px; }
 
-.social-media-list { list-style: none; margin-bottom: 5px; }
+.social-media-list { list-style: none; margin-bottom: 2px; }
 
 .pagination { height: 50px; line-height: 50px; text-align: center; }
 
