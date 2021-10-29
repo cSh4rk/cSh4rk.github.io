@@ -5,14 +5,38 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 29 Oct 2021 07:56:22 +0330</pubDate>
-    <lastBuildDate>Fri, 29 Oct 2021 07:56:22 +0330</lastBuildDate>
+    <pubDate>Fri, 29 Oct 2021 18:31:00 +0330</pubDate>
+    <lastBuildDate>Fri, 29 Oct 2021 18:31:00 +0330</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
      <title>Diaries of a Modern Ninja</title>
      <link>https://nima.ninja</link>
     </image>
+    
+      <item>
+        <title>Whonix: Software That Can Anonymize Everything You Do Online</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.whonix.org/&quot;&gt;&lt;img src=&quot;/blog/assets/whonix-logo.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt; &lt;h3 id=&quot;whonix-tor-gateway&quot;&gt;&lt;a href=&quot;https://www.whonix.org/wiki/Download&quot;&gt;Whonix Tor Gateway&lt;/a&gt;&lt;/h3&gt; &lt;p&gt;You can anonymize all of your web requests by using Whonix Tor Gateway. You download and use a Whonix VirtualBox VM which is a hardened Linux distro and this VM can act as your Tor gateway for all of your web requests, it is great because it prevents possible DNS and IP leaks which can happen with most of VPNs and it also uses Tor network.&lt;/p&gt;...</description>
+        <pubDate>Wed, 20 Oct 2021 03:30:01 +0330</pubDate>
+        <link>https://nima.ninja/blog/2021/whonix-tor-gateway</link>
+        <guid isPermaLink="true">https://nima.ninja/blog/2021/whonix-tor-gateway</guid>
+        
+        <category>blog</category>
+        
+        
+        <category>Whonix</category>
+        
+        <category>Privacy</category>
+        
+        <category>Anonymity</category>
+        
+        <category>Tor</category>
+        
+        <category>Linux</category>
+        
+        <category>Advanced</category>
+        
+      </item>
     
       <item>
         <title>Techlore: Privacy and Security for the masses</title>
@@ -36,30 +60,6 @@
         <category>Youtube</category>
         
         <category>Channel</category>
-        
-      </item>
-    
-      <item>
-        <title>Whonix: Software That Can Anonymize Everything You Do Online</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.whonix.org/&quot;&gt;&lt;img src=&quot;/blog/assets/whonix-logo.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt; &lt;h3 id=&quot;whonix-tor-gateway&quot;&gt;&lt;a href=&quot;https://www.whonix.org/wiki/Download&quot;&gt;Whonix Tor Gateway&lt;/a&gt;&lt;/h3&gt; &lt;p&gt;You can anonymize all of your web requests by using Whonix Tor Gateway. You download and use a Whonix VirtualBox VM which is a hardened Linux distro and this VM can act as your Tor gateway for all of your web requests, it is great because it prevents possible DNS and IP leaks which can happen with most of VPNs and it also uses Tor network.&lt;/p&gt;...</description>
-        <pubDate>Wed, 20 Oct 2021 00:00:00 +0330</pubDate>
-        <link>https://nima.ninja/blog/2021/whonix-tor-gateway</link>
-        <guid isPermaLink="true">https://nima.ninja/blog/2021/whonix-tor-gateway</guid>
-        
-        <category>blog</category>
-        
-        
-        <category>Whonix</category>
-        
-        <category>Privacy</category>
-        
-        <category>Anonymity</category>
-        
-        <category>Tor</category>
-        
-        <category>Linux</category>
-        
-        <category>Advanced</category>
         
       </item>
     
