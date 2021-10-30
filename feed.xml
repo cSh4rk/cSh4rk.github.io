@@ -5,14 +5,36 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 30 Oct 2021 04:47:52 +0330</pubDate>
-    <lastBuildDate>Sat, 30 Oct 2021 04:47:52 +0330</lastBuildDate>
+    <pubDate>Sat, 30 Oct 2021 07:02:53 +0330</pubDate>
+    <lastBuildDate>Sat, 30 Oct 2021 07:02:53 +0330</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
      <title>Diaries of a Modern Ninja</title>
      <link>https://nima.ninja</link>
     </image>
+    
+      <item>
+        <title>Obsidian: A second brain, for you, forever.</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://obsidian.md/&quot;&gt;&lt;img src=&quot;/blog/assets/obsidian1.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt; &lt;p&gt;In rare moments, an application is found which works great and also feels great to work with; Obsidian is one of those rare gems. It is a powerful knowledge base on top of a local folder of plain text Markdown files. If you want to start a project, research on a topic or prepare for an exam, you can use it as your personal knowledge management to store your notes and...</description>
+        <pubDate>Sat, 30 Oct 2021 03:30:00 +0330</pubDate>
+        <link>https://nima.ninja/blog/2021/obsidian-a-second-brain-for-you-forever</link>
+        <guid isPermaLink="true">https://nima.ninja/blog/2021/obsidian-a-second-brain-for-you-forever</guid>
+        
+        <category>blog</category>
+        
+        
+        <category>Obsidian</category>
+        
+        <category>Knowledge Base</category>
+        
+        <category>Personal Knowledge Management</category>
+        
+        <category>Note Taking</category>
+        
+        <category>Markdown</category>
+        
+      </item>
     
       <item>
         <title>Whonix: Software That Can Anonymize Everything You Do Online</title>
@@ -112,6 +134,8 @@
         <category>Open Source Software</category>
         
         <category>Tutorial</category>
+        
+        <category>Markdown</category>
         
       </item>
     
@@ -213,26 +237,6 @@
         <category>Top Science Book</category>
         
         <category>Top Book</category>
-        
-      </item>
-    
-      <item>
-        <title>Prometheus Rising</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Prometheus-Rising-Robert-Anton-Wilson-dp-1561840564/dp/1561840564/ref=dp_ob_title_bk&quot;&gt;&lt;img src=&quot;/books/assets/prometheus_rising.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt; &lt;h4 id=&quot;author-robert-anton-wilson&quot;&gt;Author: Robert Anton Wilson&lt;/h4&gt; &lt;h4 id=&quot;category-new-age--spirituality&quot;&gt;Category: New Age &amp;amp; Spirituality&lt;/h4&gt; &lt;h4 id=&quot;publisher-new-falcon-publications-reprint-edition-january-1-2009&quot;&gt;Publisher: New Falcon Publications; Reprint edition (January 1, 2009)&lt;/h4&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon Description:&lt;/h3&gt; &lt;p&gt;“Imagine trying to make sense of an amalgam of Timothy Leary’s eight neurological circuits, G.I. Gurdjieff’s self-observation exercises, Alfred Korzybski’s general semantics, Aleister Crowley’s magical theorems, and the several disciplines of Yoga; not to mention Christian Science, relativity, quantum mechanics, and many other approaches to understanding the...</description>
-        <pubDate>Thu, 07 Oct 2021 00:00:00 +0330</pubDate>
-        <link>https://nima.ninja/books/2021/prometheus-rising</link>
-        <guid isPermaLink="true">https://nima.ninja/books/2021/prometheus-rising</guid>
-        
-        <category>books</category>
-        
-        
-        <category>Psychology</category>
-        
-        <category>Consciousness</category>
-        
-        <category>Spirituality</category>
-        
-        <category>Weird</category>
         
       </item>
     
