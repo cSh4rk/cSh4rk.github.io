@@ -51,7 +51,7 @@ body { margin: 0; padding: 0; background: #151515 url("../assets/bkg.png") 0 0; 
 
 section { display: block; margin: 0 0 20px 0; }
 
-h1, h2, h3, h4, h5, h6, .postitem { margin: 0 0 20px; }
+h1, h2, h3, h4, h5, h6 { margin: 0 0 20px; }
 
 li { line-height: 1.4; }
 
@@ -72,7 +72,7 @@ header h2 { font-size: 18px; font-weight: 300; color: #666; }
 
 section img { max-width: 100%; }
 
-h1, h2, h3, h4, h5, h6, .postitem { font-weight: normal; font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; color: #b5e853; letter-spacing: -0.03em; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1); }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; color: #b5e853; letter-spacing: -0.03em; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1); }
 
 #main_content h1 { font-size: 30px; }
 
@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6, .postitem { font-weight: normal; font-family: Monaco, "B
 
 #main_content h5 { font-size: 12px; text-transform: uppercase; margin: 0 0 5px 0; }
 
-#main_content h6, #main_content .postitem { font-size: 12px; text-transform: capitalize; color: #999; margin: 0 0 5px 0; }
+#main_content h6 { font-size: 12px; text-transform: capitalize; color: #999; margin: 0 0 5px 0; }
 
 dt { font-style: italic; font-weight: bold; }
 
@@ -162,5 +162,7 @@ a:active, a:focus { outline: 0; border: none; -moz-outline-style: none; }
 .center { display: block; margin-left: auto; margin-right: auto; }
 
 code.posttag { background: rgba(0, 0, 0, 0.9); border: 1px solid rgba(255, 255, 255, 0.15); padding: 0px 3px; margin: 0px -3px; border-radius: 2px; }
+
+.postitem { font-weight: normal; font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; color: #b5e853; letter-spacing: -0.03em; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1); font-size: 12px; text-transform: capitalize; color: #999; margin: 0 0 5px 0; }
 
 /*# sourceMappingURL=main.css.map */
