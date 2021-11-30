@@ -5,14 +5,144 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 30 Nov 2021 07:19:02 +0330</pubDate>
-    <lastBuildDate>Tue, 30 Nov 2021 07:19:02 +0330</lastBuildDate>
+    <pubDate>Tue, 30 Nov 2021 10:13:52 +0330</pubDate>
+    <lastBuildDate>Tue, 30 Nov 2021 10:13:52 +0330</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
      <title>Diaries of a Modern Ninja</title>
      <link>https://nima.ninja</link>
     </image>
+    
+      <item>
+        <title>Bug Bounty Bootcamp: The Guide to Finding and Reporting Web Vulnerabilities</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Bug-Bounty-Bootcamp-Reporting-Vulnerabilities-ebook/dp/B08YK368Y3&quot;&gt;&lt;img src=&quot;/books/assets/bug_bounty_bootcamp_book.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt; &lt;h4 id=&quot;author-vickie-li&quot;&gt;Author: Vickie Li&lt;/h4&gt; &lt;h4 id=&quot;category-computer-programming-debugging-software-testing-computer-networking&quot;&gt;Category: &lt;a href=&quot;https://www.amazon.com/gp/bestsellers/books/3974/ref=pd_zg_hrsr_books&quot;&gt;Computer Programming Debugging&lt;/a&gt;, &lt;a href=&quot;https://www.amazon.com/gp/bestsellers/books/4133/ref=pd_zg_hrsr_books&quot;&gt;Software Testing&lt;/a&gt;, &lt;a href=&quot;https://www.amazon.com/gp/bestsellers/books/491302/ref=pd_zg_hrsr_books&quot;&gt;Computer Networking&lt;/a&gt;&lt;/h4&gt; &lt;h4 id=&quot;publisher-no-starch-press-december-7-2021&quot;&gt;Publisher: No Starch Press (December 7, 2021)&lt;/h4&gt; &lt;h4 id=&quot;paperback-416-pages&quot;&gt;Paperback: 416 pages&lt;/h4&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon Description:&lt;/h3&gt; &lt;p&gt;Bug Bounty Bootcamp teaches you how to hack web applications. You will learn how to perform reconnaissance on a target, how to identify vulnerabilities, and how to exploit them. You’ll also learn how to navigate bug bounty programs set up...</description>
+        <pubDate>Tue, 30 Nov 2021 03:30:04 +0330</pubDate>
+        <link>https://nima.ninja/books/2021/bug-bounty-bootcamp</link>
+        <guid isPermaLink="true">https://nima.ninja/books/2021/bug-bounty-bootcamp</guid>
+        
+        <category>books</category>
+        
+        
+        <category>Web Application Security</category>
+        
+        <category>Bug Bounty</category>
+        
+        <category>Hacking</category>
+        
+        <category>Hackers</category>
+        
+        <category>Prerequisites</category>
+        
+        <category>Newcomers</category>
+        
+        <category>Top Book</category>
+        
+        <category>Top Hacking Book</category>
+        
+      </item>
+    
+      <item>
+        <title>Penetration Testing: A Hands-On Introduction to Hacking 1st Edition</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Penetration-Testing-Hands-Introduction-Hacking/dp/1593275641&quot;&gt;&lt;img src=&quot;/books/assets/penetration_testing_book.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt; &lt;h4 id=&quot;author-georgia-weidman&quot;&gt;Author: Georgia Weidman&lt;/h4&gt; &lt;h4 id=&quot;category-penetration-testing-computer-networking&quot;&gt;Category: Penetration Testing, &lt;a href=&quot;https://www.amazon.com/gp/bestsellers/books/491302/ref=pd_zg_hrsr_books&quot;&gt;Computer Networking&lt;/a&gt;&lt;/h4&gt; &lt;h4 id=&quot;publisher-no-starch-press-1st-edition-june-14-2014&quot;&gt;Publisher: No Starch Press; 1st edition (June 14, 2014)&lt;/h4&gt; &lt;h4 id=&quot;paperback-528-pages&quot;&gt;Paperback: 528 pages&lt;/h4&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon Description:&lt;/h3&gt; &lt;p&gt;Penetration testers simulate cyber attacks to find security weaknesses in networks, operating systems, and applications. Information security experts worldwide use penetration techniques to evaluate enterprise defenses.&lt;/p&gt; &lt;p&gt;In Penetration Testing, security expert, researcher, and trainer Georgia Weidman introduces you to the core skills and...</description>
+        <pubDate>Tue, 30 Nov 2021 03:30:03 +0330</pubDate>
+        <link>https://nima.ninja/books/2021/penetration-testing-a-hands-on-introduction-to-hacking</link>
+        <guid isPermaLink="true">https://nima.ninja/books/2021/penetration-testing-a-hands-on-introduction-to-hacking</guid>
+        
+        <category>books</category>
+        
+        
+        <category>Penetration Testing</category>
+        
+        <category>Hacking</category>
+        
+        <category>Hackers</category>
+        
+        <category>Hands-On</category>
+        
+        <category>Prerequisites</category>
+        
+        <category>Newcomers</category>
+        
+        <category>Top Book</category>
+        
+        <category>Top Hacking Book</category>
+        
+        <category>OSCP</category>
+        
+      </item>
+    
+      <item>
+        <title>Linux Basics for Hackers: Getting Started with Networking, Scripting, and Security in Kali Illustrated Edition</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Linux-Basics-Hackers-Networking-Scripting/dp/1593278551&quot;&gt;&lt;img src=&quot;/books/assets/linux_basics_for_hackers_book.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt; &lt;h4 id=&quot;author-occupytheweb&quot;&gt;Author: OccupyTheWeb&lt;/h4&gt; &lt;h4 id=&quot;category-linux-networking--system-administration&quot;&gt;Category: &lt;a href=&quot;https://www.amazon.com/gp/bestsellers/books/291380/ref=pd_zg_hrsr_books&quot;&gt;Linux Networking &amp;amp; System Administration&lt;/a&gt;&lt;/h4&gt; &lt;h4 id=&quot;publisher-no-starch-press-illustrated-edition-december-4-2018&quot;&gt;Publisher: No Starch Press; Illustrated edition (December 4, 2018)&lt;/h4&gt; &lt;h4 id=&quot;paperback-248-pages&quot;&gt;Paperback: 248 pages&lt;/h4&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon Description:&lt;/h3&gt; &lt;p&gt;This practical, tutorial-style book uses the Kali Linux distribution to teach Linux basics with a focus on how hackers would use them. Topics include Linux command line basics, filesystems, networking, BASH basics, package management, logging, and the Linux kernel and drivers.&lt;/p&gt; &lt;p&gt;If you’re...</description>
+        <pubDate>Tue, 30 Nov 2021 03:30:02 +0330</pubDate>
+        <link>https://nima.ninja/books/2021/linux-basics-for-hackers</link>
+        <guid isPermaLink="true">https://nima.ninja/books/2021/linux-basics-for-hackers</guid>
+        
+        <category>books</category>
+        
+        
+        <category>OccupyTheWeb</category>
+        
+        <category>Linux</category>
+        
+        <category>Hackers</category>
+        
+        <category>Prerequisites</category>
+        
+        <category>Newcomers</category>
+        
+        <category>Top Book</category>
+        
+      </item>
+    
+      <item>
+        <title>CEH v11 Certified Ethical Hacker Study Guide</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Certified-Ethical-Hacker-Study-Guide/dp/1119800285&quot;&gt;&lt;img src=&quot;/books/assets/ceh_book.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt; &lt;h4 id=&quot;author-ric-messier&quot;&gt;Author: Ric Messier&lt;/h4&gt; &lt;h4 id=&quot;category-security-certifications&quot;&gt;Category: &lt;a href=&quot;https://www.amazon.com/gp/bestsellers/books/10806585011/ref=pd_zg_hrsr_books&quot;&gt;Security Certifications&lt;/a&gt;&lt;/h4&gt; &lt;h4 id=&quot;publisher-sybex-1st-edition-august-3-2021&quot;&gt;Publisher: Sybex; 1st edition (August 3, 2021)&lt;/h4&gt; &lt;h4 id=&quot;paperback-704-pages&quot;&gt;Paperback: 704 pages&lt;/h4&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon Description:&lt;/h3&gt; &lt;h4 id=&quot;editorial-reviews&quot;&gt;Editorial Reviews&lt;/h4&gt; &lt;p&gt;Your complete guide to preparing for the Certified Ethical Hacker version 11 Certification exam&lt;/p&gt; &lt;p&gt;CEH v11 Certified Ethical Hacker Study Guide gives you a hands-on resource for preparing for the challenging body of knowledge covered in the exam. This Sybex Study Guide covers 100%...</description>
+        <pubDate>Tue, 30 Nov 2021 03:30:01 +0330</pubDate>
+        <link>https://nima.ninja/books/2021/certified-ethical-hacker</link>
+        <guid isPermaLink="true">https://nima.ninja/books/2021/certified-ethical-hacker</guid>
+        
+        <category>books</category>
+        
+        
+        <category>EC-Council</category>
+        
+        <category>CEH</category>
+        
+        <category>Certifications</category>
+        
+        <category>Hackers</category>
+        
+        <category>Prerequisites</category>
+        
+        <category>Newcomers</category>
+        
+      </item>
+    
+      <item>
+        <title>CompTIA Network+ Study Guide: Exam N10-007</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/CompTIA-Network-Study-Guide-Authorized/dp/1119432251&quot;&gt;&lt;img src=&quot;/books/assets/network+_book.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt; &lt;h4 id=&quot;author-todd-lammle&quot;&gt;Author: Todd Lammle&lt;/h4&gt; &lt;h4 id=&quot;category-computer-networks-computer--technology-certification-guides&quot;&gt;Category: &lt;a href=&quot;https://www.amazon.com/gp/bestsellers/books/3747/ref=pd_zg_hrsr_books&quot;&gt;Computer Networks&lt;/a&gt;, &lt;a href=&quot;https://www.amazon.com/gp/bestsellers/books/3448/ref=pd_zg_hrsr_books&quot;&gt;Computer &amp;amp; Technology Certification Guides&lt;/a&gt;&lt;/h4&gt; &lt;h4 id=&quot;publisher-sybex-4th-edition-may-8-2018&quot;&gt;Publisher: Sybex; 4th edition (May 8, 2018)&lt;/h4&gt; &lt;h4 id=&quot;paperback-1008-pages&quot;&gt;Paperback: 1008 pages&lt;/h4&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon Description:&lt;/h3&gt; &lt;h4 id=&quot;editorial-reviews&quot;&gt;Editorial Reviews&lt;/h4&gt; &lt;p&gt;Comprehensive preparation for the CompTIA Network+ exam, with real-world insight and online study tools!&lt;/p&gt; &lt;p&gt;The CompTIA Network+ Study Guide is your one-stop resource for the ultimate in exam preparation. Featuring 100 percent coverage of Exam N10-007 objectives, this...</description>
+        <pubDate>Tue, 30 Nov 2021 03:30:00 +0330</pubDate>
+        <link>https://nima.ninja/books/2021/network+</link>
+        <guid isPermaLink="true">https://nima.ninja/books/2021/network+</guid>
+        
+        <category>books</category>
+        
+        
+        <category>CompTIA</category>
+        
+        <category>Network</category>
+        
+        <category>Network+</category>
+        
+        <category>Certifications</category>
+        
+        <category>Prerequisites</category>
+        
+        <category>Newcomers</category>
+        
+      </item>
     
       <item>
         <title>Looking for iOS Kernel Bugs</title>
@@ -125,121 +255,6 @@
         <category>Zapier</category>
         
         <category>Social Networking</category>
-        
-      </item>
-    
-      <item>
-        <title>Up and Running with GitHub Pages</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=EvYs1idcGnM&amp;amp;list=PLWzwUIYZpnJuT0sH4BN56P5oWTdHJiTNq&amp;amp;index=1&quot;&gt;&lt;img src=&quot;/links/assets/octojekyll.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt; &lt;p&gt;If you want to learn how to use Jekyll with Github pages to build your own website or blog, one of cool resources is these Up and Running series from Bill Raymond’s youtube page. He teaches great tips that can really make your design process easier.&lt;/p&gt; &lt;p&gt;Here are his comments about these videos:&lt;/p&gt; &lt;p&gt;“In this slides-only video, I walk you through the basics of GitHub Pages. You will learn how it...</description>
-        <pubDate>Mon, 11 Oct 2021 00:00:00 +0330</pubDate>
-        <link>https://nima.ninja/links/2021/up-and-running-with-github-pages</link>
-        <guid isPermaLink="true">https://nima.ninja/links/2021/up-and-running-with-github-pages</guid>
-        
-        <category>links</category>
-        
-        
-        <category>Github</category>
-        
-        <category>Github Pages</category>
-        
-        <category>Jekyll</category>
-        
-        <category>Youtube</category>
-        
-        <category>Channel</category>
-        
-        <category>Static Site Generator</category>
-        
-        <category>Website</category>
-        
-        <category>Blog</category>
-        
-        <category>Open Source Software</category>
-        
-        <category>Tutorial</category>
-        
-        <category>Markdown</category>
-        
-      </item>
-    
-      <item>
-        <title>My OSCP Journey — A Review</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/my-oscp-journey-a-review&quot;&gt;&lt;img src=&quot;/links/assets/oscp1.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Great tips on how to pass the OSCP exam.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 07 Oct 2021 00:00:00 +0330</pubDate>
-        <link>https://nima.ninja/links/2021/my-oscp-journey-a-review</link>
-        <guid isPermaLink="true">https://nima.ninja/links/2021/my-oscp-journey-a-review</guid>
-        
-        <category>links</category>
-        
-        
-        <category>OSCP</category>
-        
-        <category>Penetration Test</category>
-        
-        <category>Certification</category>
-        
-        <category>Offensive Security</category>
-        
-        <category>Hack the Box</category>
-        
-      </item>
-    
-      <item>
-        <title>Why We Sleep: Unlocking the Power of Sleep and Dreams</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Why-We-Sleep-Unlocking-Dreams/dp/1501144316&quot;&gt;&lt;img src=&quot;/books/assets/why_we_sleep.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt; &lt;h4 id=&quot;author-matthew-walker&quot;&gt;Author: Matthew Walker&lt;/h4&gt; &lt;h4 id=&quot;category-neuroscience&quot;&gt;Category: Neuroscience&lt;/h4&gt; &lt;h4 id=&quot;publisher-scribner-1st-edition-october-1-2017&quot;&gt;Publisher: Scribner; 1st edition (October 1, 2017)&lt;/h4&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon Description:&lt;/h3&gt; &lt;p&gt;““Why We Sleep is an important and fascinating book…Walker taught me a lot about this basic activity that every person on Earth needs. I suspect his book will do the same for you.” —Bill Gates&lt;/p&gt; &lt;p&gt;A New York Times bestseller and international sensation, this “stimulating and important book” (Financial Times) is a fascinating...</description>
-        <pubDate>Thu, 07 Oct 2021 00:00:00 +0330</pubDate>
-        <link>https://nima.ninja/books/2021/why-we-sleep-unlocking-the-power-of-sleep-and-dreams</link>
-        <guid isPermaLink="true">https://nima.ninja/books/2021/why-we-sleep-unlocking-the-power-of-sleep-and-dreams</guid>
-        
-        <category>books</category>
-        
-        
-        <category>Neuroscience</category>
-        
-        <category>Sleep</category>
-        
-        <category>Top Science Book</category>
-        
-      </item>
-    
-      <item>
-        <title>Virus of the Mind: The New Science of the Meme</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Virus-Mind-New-Science-Meme/dp/1401924697&quot;&gt;&lt;img src=&quot;/books/assets/virus_of_the_mind.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt; &lt;h4 id=&quot;author-richard-brodie&quot;&gt;Author: Richard Brodie&lt;/h4&gt; &lt;h4 id=&quot;category-sociology--evolution&quot;&gt;Category: Sociology / Evolution&lt;/h4&gt; &lt;h4 id=&quot;publisher-hay-house-reissue-edition-february-15-2011&quot;&gt;Publisher: Hay House; Reissue edition (February 15, 2011)&lt;/h4&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon Description:&lt;/h3&gt; &lt;p&gt;“Virus of the Mind is the first popular book devoted to the science of memetics, a controversial new field that transcends psychology, biology, anthropology, and cognitive science. Memetics is the science of memes, the invisible but very real DNA of human society. In Virus of the Mind, Richard Brodie carefully...</description>
-        <pubDate>Thu, 07 Oct 2021 00:00:00 +0330</pubDate>
-        <link>https://nima.ninja/books/2021/virus-of-the-mind-the-new-science-of-the-meme</link>
-        <guid isPermaLink="true">https://nima.ninja/books/2021/virus-of-the-mind-the-new-science-of-the-meme</guid>
-        
-        <category>books</category>
-        
-        
-        <category>Sociology</category>
-        
-        <category>Evolution</category>
-        
-        <category>Memetics</category>
-        
-      </item>
-    
-      <item>
-        <title>The Talent Code: Greatness Isn&apos;t Born. It&apos;s Grown. Here&apos;s How.</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Talent-Code-Greatness-Born-Grown/dp/055380684X&quot;&gt;&lt;img src=&quot;/books/assets/the_talent_code.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt; &lt;h4 id=&quot;author-daniel-coyle&quot;&gt;Author: Daniel Coyle&lt;/h4&gt; &lt;h4 id=&quot;category-personal-transformation--popular-psychology-creativity--genius&quot;&gt;Category: Personal Transformation / Popular Psychology Creativity &amp;amp; Genius&lt;/h4&gt; &lt;h4 id=&quot;publisher-bantam-1st-edition-april-28-2009&quot;&gt;Publisher: Bantam; 1st edition (April 28, 2009)&lt;/h4&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon Description:&lt;/h3&gt; &lt;p&gt;“What is the secret of talent? How do we unlock it? In this groundbreaking work, journalist and New York Times bestselling author Daniel Coyle provides parents, teachers, coaches, businesspeople—and everyone else—with tools they can use to maximize potential in themselves and others.&lt;/p&gt; &lt;p&gt;Whether you’re coaching soccer...</description>
-        <pubDate>Thu, 07 Oct 2021 00:00:00 +0330</pubDate>
-        <link>https://nima.ninja/books/2021/the-talent-code-greatness-isnt-born-its-grown-heres-how</link>
-        <guid isPermaLink="true">https://nima.ninja/books/2021/the-talent-code-greatness-isnt-born-its-grown-heres-how</guid>
-        
-        <category>books</category>
-        
-        
-        <category>Personal Transformation</category>
-        
-        <category>Psychology</category>
-        
-        <category>Creativity</category>
-        
-        <category>Genius</category>
         
       </item>
     
