@@ -5,34 +5,14 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 08 Jan 2022 06:36:58 +0330</pubDate>
-    <lastBuildDate>Sat, 08 Jan 2022 06:36:58 +0330</lastBuildDate>
+    <pubDate>Sat, 08 Jan 2022 07:17:28 +0330</pubDate>
+    <lastBuildDate>Sat, 08 Jan 2022 07:17:28 +0330</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
      <title>Diaries of a Modern Ninja</title>
      <link>https://nima.ninja</link>
     </image>
-    
-      <item>
-        <title>The China Study: The Most Comprehensive Study of Nutrition Ever Conducted And the Startling Implications for Diet, Weight Loss, And Long-term Health</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/China-Study-Comprehensive-Nutrition-Implications/dp/1932100660&quot;&gt;&lt;img src=&quot;/books/assets/the_china_study.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt; &lt;h4 id=&quot;authors-t-colin-campbell-thomas-campbell&quot;&gt;Authors: T. Colin Campbell, Thomas Campbell&lt;/h4&gt; &lt;h4 id=&quot;category-food-science-nutrition&quot;&gt;Category: &lt;a href=&quot;https://www.amazon.com/gp/bestsellers/books/14494/ref=pd_zg_hrsr_books&quot;&gt;Food Science&lt;/a&gt;, &lt;a href=&quot;https://www.amazon.com/gp/bestsellers/books/282861/ref=pd_zg_hrsr_books&quot;&gt;Nutrition&lt;/a&gt;&lt;/h4&gt; &lt;h4 id=&quot;publisher-benbella-books-1st-edition-may-11-2006&quot;&gt;Publisher: BenBella Books; 1st edition (May 11, 2006)&lt;/h4&gt; &lt;h4 id=&quot;paperback-419-pages&quot;&gt;Paperback: 419 pages&lt;/h4&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon Description:&lt;/h3&gt; &lt;p&gt;Even today, as trendy diets and a weight-loss frenzy sweep the nation, two-thirds of adults are still obese and children are being diagnosed with Type 2 diabetes, typically an “adult” disease, at an alarming rate. If we’re obsessed with being thin...</description>
-        <pubDate>Sat, 08 Jan 2022 00:00:00 +0330</pubDate>
-        <link>https://nima.ninja/books/2022/the-china-study-the-most-comprehensive-study-of-nutrition-ever-conducted</link>
-        <guid isPermaLink="true">https://nima.ninja/books/2022/the-china-study-the-most-comprehensive-study-of-nutrition-ever-conducted</guid>
-        
-        <category>books</category>
-        
-        
-        <category>Nutrition</category>
-        
-        <category>Health</category>
-        
-        <category>Performance Improvement</category>
-        
-        <category>Top Book</category>
-        
-      </item>
     
       <item>
         <title>99 percent discount Treasure Hunt</title>
@@ -250,6 +230,31 @@
         <category>Linux</category>
         
         <category>Advanced</category>
+        
+      </item>
+    
+      <item>
+        <title>Techlore: Privacy and Security for the masses</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCs6KfncB4OV6Vug4o_bzijg&quot;&gt;&lt;img src=&quot;/links/assets/techlore.svg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCs6KfncB4OV6Vug4o_bzijg&quot;&gt;Techlore Youtube Channel&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This Youtube channel has great tips for Privacy and Anonymity.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Oct 2021 00:00:00 +0330</pubDate>
+        <link>https://nima.ninja/links/2021/techlore</link>
+        <guid isPermaLink="true">https://nima.ninja/links/2021/techlore</guid>
+        
+        <category>links</category>
+        
+        
+        <category>Privacy</category>
+        
+        <category>Anonymity</category>
+        
+        <category>Youtube</category>
+        
+        <category>Channel</category>
         
       </item>
     
