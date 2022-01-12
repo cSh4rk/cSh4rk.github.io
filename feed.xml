@@ -5,14 +5,37 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 08 Jan 2022 08:16:19 +0330</pubDate>
-    <lastBuildDate>Sat, 08 Jan 2022 08:16:19 +0330</lastBuildDate>
-    <generator>Jekyll v4.2.0</generator>
+    <pubDate>Wed, 12 Jan 2022 05:26:52 +0330</pubDate>
+    <lastBuildDate>Wed, 12 Jan 2022 05:26:52 +0330</lastBuildDate>
+    <generator>Jekyll v4.2.1</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
      <title>Diaries of a Modern Ninja</title>
      <link>https://nima.ninja</link>
     </image>
+    
+      <item>
+        <title>TED Talk: Your can grow new brain cells. Here is how</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.ted.com/talks/sandrine_thuret_you_can_grow_new_brain_cells_here_s_how?language=en&quot;&gt;&lt;img src=&quot;/links/assets/mind-body-green-icon.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.ted.com/talks/sandrine_thuret_you_can_grow_new_brain_cells_here_s_how?language=en&quot;&gt;LINK&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Can we, as adults, grow new neurons? Neuroscientist Sandrine Thuret says that we can, and she offers research and practical advice on how we can help our brains better perform neurogenesis—improving mood, increasing memory formation and preventing the decline associated with aging along the way.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 08 Jan 2022 00:00:00 +0330</pubDate>
+        <link>https://nima.ninja/links/2022/you-can-grow-new-brain-cells-here-is-how</link>
+        <guid isPermaLink="true">https://nima.ninja/links/2022/you-can-grow-new-brain-cells-here-is-how</guid>
+        
+        <category>links</category>
+        
+        
+        <category>Neuroscience</category>
+        
+        <category>Neurogenesis</category>
+        
+        <category>Performance Improvement</category>
+        
+      </item>
     
       <item>
         <title>The China Study: The Most Comprehensive Study of Nutrition Ever Conducted And the Startling Implications for Diet, Weight Loss, And Long-term Health</title>
@@ -226,30 +249,6 @@
         <category>Note Taking</category>
         
         <category>Markdown</category>
-        
-      </item>
-    
-      <item>
-        <title>Whonix: Software That Can Anonymize Everything You Do Online</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.whonix.org/&quot;&gt;&lt;img src=&quot;/blog/assets/whonix-logo.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt; &lt;h3 id=&quot;whonix-tor-gateway&quot;&gt;&lt;a href=&quot;https://www.whonix.org/wiki/Download&quot;&gt;Whonix Tor Gateway&lt;/a&gt;&lt;/h3&gt; &lt;p&gt;You can anonymize all of your web requests by using Whonix Tor Gateway. You download and use a Whonix VirtualBox VM which is a hardened Linux distro and this VM can act as your Tor gateway for all of your web requests, it is great because it prevents possible DNS and IP leaks which can happen with most of VPNs and it also uses Tor network.&lt;/p&gt;...</description>
-        <pubDate>Wed, 20 Oct 2021 03:30:01 +0330</pubDate>
-        <link>https://nima.ninja/blog/2021/whonix-tor-gateway</link>
-        <guid isPermaLink="true">https://nima.ninja/blog/2021/whonix-tor-gateway</guid>
-        
-        <category>blog</category>
-        
-        
-        <category>Whonix</category>
-        
-        <category>Privacy</category>
-        
-        <category>Anonymity</category>
-        
-        <category>Tor</category>
-        
-        <category>Linux</category>
-        
-        <category>Advanced</category>
         
       </item>
     
