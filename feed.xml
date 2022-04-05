@@ -5,14 +5,38 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 05 Apr 2022 06:06:53 +0430</pubDate>
-    <lastBuildDate>Tue, 05 Apr 2022 06:06:53 +0430</lastBuildDate>
+    <pubDate>Tue, 05 Apr 2022 06:40:54 +0430</pubDate>
+    <lastBuildDate>Tue, 05 Apr 2022 06:40:54 +0430</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
      <title>Diaries of a Modern Ninja</title>
      <link>https://nima.ninja</link>
     </image>
+    
+      <item>
+        <title>Dopamine Nation: Finding Balance in the Age of Indulgence</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Dopamine-Nation-Finding-Balance-Indulgence/dp/152474672X&quot;&gt;&lt;img src=&quot;/books/assets/dopamine_nation_book.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt; &lt;h4 id=&quot;author-dr-anna-lembke&quot;&gt;Author: Dr. Anna Lembke&lt;/h4&gt; &lt;h4 id=&quot;category-sociological-study-of-medicine-medical-clinical-psychology-biology-books&quot;&gt;Category: &lt;a href=&quot;https://www.amazon.com/gp/bestsellers/books/16311191/ref=pd_zg_hrsr_books&quot;&gt;Sociological Study of Medicine&lt;/a&gt;, &lt;a href=&quot;https://www.amazon.com/gp/bestsellers/books/11143/ref=pd_zg_hrsr_books&quot;&gt;Medical Clinical Psychology&lt;/a&gt;, &lt;a href=&quot;https://www.amazon.com/gp/bestsellers/books/226688/ref=pd_zg_hrsr_books&quot;&gt;Biology (Books)&lt;/a&gt;&lt;/h4&gt; &lt;h4 id=&quot;publisher-dutton-august-24-2021&quot;&gt;Publisher: Dutton (August 24, 2021)&lt;/h4&gt; &lt;h4 id=&quot;paperback-304-pages&quot;&gt;Paperback: 304 pages&lt;/h4&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon Description:&lt;/h3&gt; &lt;p&gt;INSTANT NEW YORK TIMES and LOS ANGELES TIMES BESTSELLER “Brilliant… riveting, scary, cogent, and cleverly argued.”—Beth Macy, author of Dopesick As heard on Fresh Air&lt;/p&gt; &lt;p&gt;This book is about pleasure. It’s also about pain. Most important, it’s about how...</description>
+        <pubDate>Tue, 05 Apr 2022 00:00:00 +0430</pubDate>
+        <link>https://nima.ninja/books/2022/dopamine-nation-finding-balance-in-the-age-of-indulgence</link>
+        <guid isPermaLink="true">https://nima.ninja/books/2022/dopamine-nation-finding-balance-in-the-age-of-indulgence</guid>
+        
+        <category>books</category>
+        
+        
+        <category>Biology</category>
+        
+        <category>Neuroscience</category>
+        
+        <category>Health</category>
+        
+        <category>Performance Improvement</category>
+        
+        <category>Top Science Book</category>
+        
+        <category>Top Book</category>
+        
+      </item>
     
       <item>
         <title>11 Neurosciece Hacks to Wire Your Brain for Success</title>
@@ -223,29 +247,6 @@
         <category>Python</category>
         
         <category>Fun</category>
-        
-      </item>
-    
-      <item>
-        <title>Looking for iOS Kernel Bugs</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://twitter.com/fasthm00/status/1458084944195080207&quot;&gt;&lt;img src=&quot;/blog/assets/meme1.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 11 Nov 2021 00:00:00 +0330</pubDate>
-        <link>https://nima.ninja/blog/2021/looking-for-ios-kernel-bugs</link>
-        <guid isPermaLink="true">https://nima.ninja/blog/2021/looking-for-ios-kernel-bugs</guid>
-        
-        <category>blog</category>
-        
-        
-        <category>Fun</category>
-        
-        <category>iOS</category>
-        
-        <category>Kernel</category>
-        
-        <category>Bugs</category>
-        
-        <category>Memes</category>
         
       </item>
     
