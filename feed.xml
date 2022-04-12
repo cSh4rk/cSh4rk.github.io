@@ -5,14 +5,30 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 12 Apr 2022 09:16:40 +0430</pubDate>
-    <lastBuildDate>Tue, 12 Apr 2022 09:16:40 +0430</lastBuildDate>
+    <pubDate>Tue, 12 Apr 2022 16:54:47 +0430</pubDate>
+    <lastBuildDate>Tue, 12 Apr 2022 16:54:47 +0430</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
      <title>Diaries of a Modern Ninja</title>
      <link>https://nima.ninja</link>
     </image>
+    
+      <item>
+        <title>Duolingo: An Effective Way to Learn a New Language</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/links/assets/duolingo-icon.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;my-comment&quot;&gt;My Comment&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;Learning a new language can be hard and time-consuming but with a proper method, it can be fun and smooth. Duolingo is a very fun and effective way to learn a new language. It has many great features. One of them is streak, which is built if you complete your lessons every day. It even sends you a notification if you don’t do your...</description>
+        <pubDate>Tue, 12 Apr 2022 00:00:00 +0430</pubDate>
+        <link>https://nima.ninja/links/2022/duolingo-an-effective-way-to-learn-a-new-language</link>
+        <guid isPermaLink="true">https://nima.ninja/links/2022/duolingo-an-effective-way-to-learn-a-new-language</guid>
+        
+        <category>links</category>
+        
+        
+        <category>Languages</category>
+        
+        <category>Learning Languages</category>
+        
+      </item>
     
       <item>
         <title>COEP COOP CORP CORS CORB - CRAP that&apos;s a lot of new stuff!</title>
@@ -271,30 +287,6 @@
         <category>Newcomers</category>
         
         <category>Top Book</category>
-        
-      </item>
-    
-      <item>
-        <title>CEH v11 Certified Ethical Hacker Study Guide</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/books/assets/ceh_book.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon Description&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;As protecting information continues to be a growing concern for today’s businesses, certifications in IT security have become highly desirable, even as the number of certifications has grown. Now you can set yourself apart with the Certified Ethical Hacker (CEH v11) certification. The CEH v11 Certified Ethical Hacker Study Guide offers a comprehensive overview of the CEH certification requirements using concise and easy-to-follow instructions....</description>
-        <pubDate>Tue, 30 Nov 2021 03:30:01 +0330</pubDate>
-        <link>https://nima.ninja/books/2021/certified-ethical-hacker</link>
-        <guid isPermaLink="true">https://nima.ninja/books/2021/certified-ethical-hacker</guid>
-        
-        <category>books</category>
-        
-        
-        <category>EC-Council</category>
-        
-        <category>CEH</category>
-        
-        <category>Certifications</category>
-        
-        <category>Hackers</category>
-        
-        <category>Prerequisites</category>
-        
-        <category>Newcomers</category>
         
       </item>
     
