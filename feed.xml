@@ -5,8 +5,8 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 12 Apr 2022 04:35:49 +0430</pubDate>
-    <lastBuildDate>Tue, 12 Apr 2022 04:35:49 +0430</lastBuildDate>
+    <pubDate>Tue, 12 Apr 2022 05:07:32 +0430</pubDate>
+    <lastBuildDate>Tue, 12 Apr 2022 05:07:32 +0430</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
@@ -55,6 +55,34 @@
         <category>Web Applications</category>
         
         <category>Web Application Security</category>
+        
+        <category>HTTP Headers</category>
+        
+        <category>Security Headers</category>
+        
+      </item>
+    
+      <item>
+        <title>Handy Benchmarking Tools for your Server</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/chart-search-icon.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;This is a list of some handy Server Benchmarking Tools that might be useful for you:&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;performance-and-speed-testing&quot;&gt;Performance and Speed Testing&lt;/h3&gt; &lt;hr /&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;https://gtmetrix.com/&quot;&gt;GTmetrix&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;https://pagespeed.web.dev/?utm_source=psi&amp;amp;utm_medium=redirect&quot;&gt;PageSpeed Insights&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;structure-check&quot;&gt;Structure check&lt;/h3&gt; &lt;hr /&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;https://validator.w3.org/nu/&quot;&gt;Nu Html Checker&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;https://validator.w3.org/feed/&quot;&gt;Feed Validation Service&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;security-check&quot;&gt;Security Check&lt;/h3&gt; &lt;hr /&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;https://en.internet.nl/&quot;&gt;Is your Internet UP to Date?&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h5 id=&quot;tls-check&quot;&gt;TLS Check&lt;/h5&gt; &lt;ul&gt;...</description>
+        <pubDate>Tue, 12 Apr 2022 00:00:00 +0430</pubDate>
+        <link>https://nima.ninja/blog/2022/handy-benchmarking-tools-for-your-website</link>
+        <guid isPermaLink="true">https://nima.ninja/blog/2022/handy-benchmarking-tools-for-your-website</guid>
+        
+        <category>blog</category>
+        
+        
+        <category>Web</category>
+        
+        <category>Benchmarking Tools</category>
+        
+        <category>Website Security</category>
+        
+        <category>Website Performance Testing</category>
+        
+        <category>DNSSEC</category>
+        
+        <category>TLS</category>
         
         <category>HTTP Headers</category>
         
@@ -263,30 +291,6 @@
         <category>Certifications</category>
         
         <category>Hackers</category>
-        
-        <category>Prerequisites</category>
-        
-        <category>Newcomers</category>
-        
-      </item>
-    
-      <item>
-        <title>CompTIA Network+ Study Guide: Exam N10-007</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/books/assets/network+_book.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon Description&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;To complement the CompTIA Network+ Study Guide: Exam N10-007, 4e, and the CompTIA Network+ Deluxe Study Guide: Exam N10-007, 4e, look at CompTIA Network+ Practice Tests: Exam N10-007 (9781119432128).&lt;/p&gt; &lt;p&gt;Todd Lammle’s bestselling CompTIA Network+ Study Guide for the N10-007 exam!&lt;/p&gt; &lt;p&gt;CompTIA’s Network+ certification tells the world you have the skills to install, configure, and troubleshoot today’s basic networking hardware peripherals and protocols. First, however,...</description>
-        <pubDate>Tue, 30 Nov 2021 03:30:00 +0330</pubDate>
-        <link>https://nima.ninja/books/2021/network+</link>
-        <guid isPermaLink="true">https://nima.ninja/books/2021/network+</guid>
-        
-        <category>books</category>
-        
-        
-        <category>CompTIA</category>
-        
-        <category>Network</category>
-        
-        <category>Network+</category>
-        
-        <category>Certifications</category>
         
         <category>Prerequisites</category>
         
