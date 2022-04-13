@@ -4,11 +4,11 @@
 
 ## Theme
 
-The theme is [The Hacker-Blog](https://github.com/tocttou/hacker-blog) which is a modified version of [Hacker Theme](https://github.com/pages-themes/hacker).
+Feel Free to Use the Theme. The theme is [The Hacker-Blog](https://github.com/tocttou/hacker-blog) which is a modified version of [Hacker Theme](https://github.com/pages-themes/hacker).
 
 It is a minimalistic, responsive jekyll theme built for hackers.
 
-Some parts of page styles will be edited and additional features will be added to it.
+Some parts of page styles are edited and enhanced and additional features are added to it.
 
 ## Technology Introduction
 
