@@ -3,23 +3,23 @@
   <channel>
     <title>Diaries of a Modern Ninja</title>
     <description>Nima&apos;s Diaries</description>
-    <link>http://localhost:4000</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 Apr 2022 16:34:47 +0430</pubDate>
-    <lastBuildDate>Wed, 13 Apr 2022 16:34:47 +0430</lastBuildDate>
+    <link>https://nima.ninja</link>
+    <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 13 Apr 2022 16:55:41 +0430</pubDate>
+    <lastBuildDate>Wed, 13 Apr 2022 16:55:41 +0430</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     <image>
-     <url>http://localhost:4000/assets/ninja1.png</url>
+     <url>https://nima.ninja/assets/ninja1.png</url>
      <title>Diaries of a Modern Ninja</title>
-     <link>http://localhost:4000</link>
+     <link>https://nima.ninja</link>
     </image>
     
       <item>
         <title>Duolingo: An Effective Way to Learn a New Language</title>
         <description>&lt;p&gt;&lt;img src=&quot;/links/assets/duolingo-icon.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;my-comment&quot;&gt;My Comment&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;Learning a new language can be hard and time-consuming but with a proper method, it can be fun and smooth. Duolingo is a very fun and effective way to learn a new language. It has many great features. One of them is streak, which is built if you complete your lessons every day. It even sends you a notification if you don’t do your...</description>
         <pubDate>Tue, 12 Apr 2022 00:00:00 +0430</pubDate>
-        <link>http://localhost:4000/links/2022/duolingo-an-effective-way-to-learn-a-new-language</link>
-        <guid isPermaLink="true">http://localhost:4000/links/2022/duolingo-an-effective-way-to-learn-a-new-language</guid>
+        <link>https://nima.ninja/links/2022/duolingo-an-effective-way-to-learn-a-new-language</link>
+        <guid isPermaLink="true">https://nima.ninja/links/2022/duolingo-an-effective-way-to-learn-a-new-language</guid>
         
         <category>links</category>
         
@@ -58,8 +58,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 12 Apr 2022 00:00:00 +0430</pubDate>
-        <link>http://localhost:4000/links/2022/coep-coop-corp-cors-corb-crap-thats-a-lot-of-new-stuff</link>
-        <guid isPermaLink="true">http://localhost:4000/links/2022/coep-coop-corp-cors-corb-crap-thats-a-lot-of-new-stuff</guid>
+        <link>https://nima.ninja/links/2022/coep-coop-corp-cors-corb-crap-thats-a-lot-of-new-stuff</link>
+        <guid isPermaLink="true">https://nima.ninja/links/2022/coep-coop-corp-cors-corb-crap-thats-a-lot-of-new-stuff</guid>
         
         <category>links</category>
         
@@ -82,8 +82,8 @@
         <title>Handy Benchmarking Tools for your Server</title>
         <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/chart-search-icon.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;This is a list of some handy Server Benchmarking Tools that might be useful for you:&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;performance-and-speed-testing&quot;&gt;Performance and Speed Testing&lt;/h3&gt; &lt;hr /&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;https://gtmetrix.com/&quot;&gt;GTmetrix&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;https://pagespeed.web.dev/?utm_source=psi&amp;amp;utm_medium=redirect&quot;&gt;PageSpeed Insights&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;structure-check&quot;&gt;Structure check&lt;/h3&gt; &lt;hr /&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;https://validator.w3.org/nu/&quot;&gt;Nu Html Checker&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;https://validator.w3.org/feed/&quot;&gt;Feed Validation Service&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;security-check&quot;&gt;Security Check&lt;/h3&gt; &lt;hr /&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;https://en.internet.nl/&quot;&gt;Is your Internet UP to Date?&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;https://observatory.mozilla.org/&quot;&gt;The Mozilla Observatory&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt;...</description>
         <pubDate>Tue, 12 Apr 2022 00:00:00 +0430</pubDate>
-        <link>http://localhost:4000/blog/2022/handy-benchmarking-tools-for-your-server</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2022/handy-benchmarking-tools-for-your-server</guid>
+        <link>https://nima.ninja/blog/2022/handy-benchmarking-tools-for-your-server</link>
+        <guid isPermaLink="true">https://nima.ninja/blog/2022/handy-benchmarking-tools-for-your-server</guid>
         
         <category>blog</category>
         
@@ -110,8 +110,8 @@
         <title>Dopamine Nation: Finding Balance in the Age of Indulgence</title>
         <description>&lt;p&gt;&lt;img src=&quot;/books/assets/dopamine_nation_book.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon Description&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;INSTANT NEW YORK TIMES and LOS ANGELES TIMES BESTSELLER “Brilliant… riveting, scary, cogent, and cleverly argued.”—Beth Macy, author of Dopesick As heard on Fresh Air&lt;/p&gt; &lt;p&gt;This book is about pleasure. It’s also about pain. Most important, it’s about how to find the delicate balance between the two, and why now more than ever finding balance is essential. We’re living in a time of unprecedented...</description>
         <pubDate>Tue, 05 Apr 2022 00:00:00 +0430</pubDate>
-        <link>http://localhost:4000/books/2022/dopamine-nation-finding-balance-in-the-age-of-indulgence</link>
-        <guid isPermaLink="true">http://localhost:4000/books/2022/dopamine-nation-finding-balance-in-the-age-of-indulgence</guid>
+        <link>https://nima.ninja/books/2022/dopamine-nation-finding-balance-in-the-age-of-indulgence</link>
+        <guid isPermaLink="true">https://nima.ninja/books/2022/dopamine-nation-finding-balance-in-the-age-of-indulgence</guid>
         
         <category>books</category>
         
@@ -156,8 +156,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 06 Feb 2022 00:00:00 +0330</pubDate>
-        <link>http://localhost:4000/links/2022/11-neuroscience-hacks-to-wire-your-brain-for-success</link>
-        <guid isPermaLink="true">http://localhost:4000/links/2022/11-neuroscience-hacks-to-wire-your-brain-for-success</guid>
+        <link>https://nima.ninja/links/2022/11-neuroscience-hacks-to-wire-your-brain-for-success</link>
+        <guid isPermaLink="true">https://nima.ninja/links/2022/11-neuroscience-hacks-to-wire-your-brain-for-success</guid>
         
         <category>links</category>
         
@@ -174,8 +174,8 @@
         <title>TED Talk: Your Can Grow New Brain Cells. Here is How</title>
         <description>&lt;p&gt;&lt;img src=&quot;/links/assets/mind-body-green-icon.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;my-comment&quot;&gt;My Comment&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;Can we, as adults, grow new neurons? Neuroscientist Sandrine Thuret says that we can, and she offers research and practical advice on how we can help our brains better perform neurogenesis, improving mood, increasing memory formation and preventing the decline associated with aging along the way.&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;external-links&quot;&gt;&lt;em&gt;External Links&lt;/em&gt;&lt;/h3&gt; &lt;hr /&gt; &lt;ul&gt; &lt;li&gt; &lt;h4 id=&quot;your-can-grow-new-brain-cells-here-is-how&quot;&gt;&lt;a href=&quot;https://www.ted.com/talks/sandrine_thuret_you_can_grow_new_brain_cells_here_s_how?language=en&quot;&gt;Your Can Grow New Brain Cells. Here...</description>
         <pubDate>Sat, 08 Jan 2022 00:00:00 +0330</pubDate>
-        <link>http://localhost:4000/links/2022/you-can-grow-new-brain-cells-here-is-how</link>
-        <guid isPermaLink="true">http://localhost:4000/links/2022/you-can-grow-new-brain-cells-here-is-how</guid>
+        <link>https://nima.ninja/links/2022/you-can-grow-new-brain-cells-here-is-how</link>
+        <guid isPermaLink="true">https://nima.ninja/links/2022/you-can-grow-new-brain-cells-here-is-how</guid>
         
         <category>links</category>
         
@@ -192,8 +192,8 @@
         <title>The China Study: The Most Comprehensive Study of Nutrition Ever Conducted And the Startling Implications for Diet, Weight Loss, And Long-term Health</title>
         <description>&lt;p&gt;&lt;img src=&quot;/books/assets/the_china_study.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon Description&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;Even today, as trendy diets and a weight-loss frenzy sweep the nation, two-thirds of adults are still obese and children are being diagnosed with Type 2 diabetes, typically an “adult” disease, at an alarming rate. If we’re obsessed with being thin more so than ever before, why are Americans stricken with heart disease as much as we were 30 years ago?&lt;/p&gt; &lt;p&gt;In The China...</description>
         <pubDate>Sat, 08 Jan 2022 00:00:00 +0330</pubDate>
-        <link>http://localhost:4000/books/2022/the-china-study-the-most-comprehensive-study-of-nutrition-ever-conducted</link>
-        <guid isPermaLink="true">http://localhost:4000/books/2022/the-china-study-the-most-comprehensive-study-of-nutrition-ever-conducted</guid>
+        <link>https://nima.ninja/books/2022/the-china-study-the-most-comprehensive-study-of-nutrition-ever-conducted</link>
+        <guid isPermaLink="true">https://nima.ninja/books/2022/the-china-study-the-most-comprehensive-study-of-nutrition-ever-conducted</guid>
         
         <category>books</category>
         
@@ -212,11 +212,13 @@
         <title>Bug Bounty Bootcamp: The Guide to Finding and Reporting Web Vulnerabilities</title>
         <description>&lt;p&gt;&lt;img src=&quot;/books/assets/bug_bounty_bootcamp_book.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon Description&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;&lt;strong&gt;Bug Bounty Bootcamp teaches you how to hack web applications. You will learn how to perform reconnaissance on a target, how to identify vulnerabilities, and how to exploit them. You’ll also learn how to navigate bug bounty programs set up by companies to reward security professionals for finding bugs in their web applications.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Bug bounty programs are company-sponsored programs that invite researchers to search...</description>
         <pubDate>Tue, 30 Nov 2021 03:30:04 +0330</pubDate>
-        <link>http://localhost:4000/books/2021/bug-bounty-bootcamp</link>
-        <guid isPermaLink="true">http://localhost:4000/books/2021/bug-bounty-bootcamp</guid>
+        <link>https://nima.ninja/books/2021/bug-bounty-bootcamp</link>
+        <guid isPermaLink="true">https://nima.ninja/books/2021/bug-bounty-bootcamp</guid>
         
         <category>books</category>
         
+        
+        <category>Web</category>
         
         <category>Web Application Security</category>
         
@@ -234,14 +236,20 @@
         
         <category>Top Hacking Book</category>
         
+        <category>HTTP</category>
+        
+        <category>HTTP Headers</category>
+        
+        <category>Security Headers</category>
+        
       </item>
     
       <item>
         <title>Penetration Testing: A Hands-On Introduction to Hacking</title>
         <description>&lt;p&gt;&lt;img src=&quot;/books/assets/penetration_testing_book.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon Description&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;Penetration testers simulate cyber attacks to find security weaknesses in networks, operating systems, and applications. Information security experts worldwide use penetration techniques to evaluate enterprise defenses.&lt;/p&gt; &lt;p&gt;In Penetration Testing, security expert, researcher, and trainer Georgia Weidman introduces you to the core skills and techniques that every pentester needs. Using a virtual machine–based lab that includes Kali Linux and vulnerable operating systems, you’ll run through...</description>
         <pubDate>Tue, 30 Nov 2021 03:30:03 +0330</pubDate>
-        <link>http://localhost:4000/books/2021/penetration-testing-a-hands-on-introduction-to-hacking</link>
-        <guid isPermaLink="true">http://localhost:4000/books/2021/penetration-testing-a-hands-on-introduction-to-hacking</guid>
+        <link>https://nima.ninja/books/2021/penetration-testing-a-hands-on-introduction-to-hacking</link>
+        <guid isPermaLink="true">https://nima.ninja/books/2021/penetration-testing-a-hands-on-introduction-to-hacking</guid>
         
         <category>books</category>
         
@@ -270,8 +278,8 @@
         <title>Linux Basics for Hackers: Getting Started with Networking, Scripting, and Security in Kali</title>
         <description>&lt;p&gt;&lt;img src=&quot;/books/assets/linux_basics_for_hackers_book.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon Description&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;This practical, tutorial-style book uses the Kali Linux distribution to teach Linux basics with a focus on how hackers would use them. Topics include Linux command line basics, filesystems, networking, BASH basics, package management, logging, and the Linux kernel and drivers.&lt;/p&gt; &lt;p&gt;If you’re getting started along the exciting path of hacking, cybersecurity, and pentesting, Linux Basics for Hackers is an excellent first step. Using...</description>
         <pubDate>Tue, 30 Nov 2021 03:30:02 +0330</pubDate>
-        <link>http://localhost:4000/books/2021/linux-basics-for-hackers</link>
-        <guid isPermaLink="true">http://localhost:4000/books/2021/linux-basics-for-hackers</guid>
+        <link>https://nima.ninja/books/2021/linux-basics-for-hackers</link>
+        <guid isPermaLink="true">https://nima.ninja/books/2021/linux-basics-for-hackers</guid>
         
         <category>books</category>
         
