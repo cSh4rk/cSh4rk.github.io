@@ -155,7 +155,7 @@ a:active, a:focus { outline: 0; border: none; -moz-outline-style: none; }
 
 .icon-small > svg { width: 12px; height: 12px; }
 
-.no-decoration { text-decoration: none; /*&:hover { text-decoration: underline; }*/ }
+.no-decoration { text-decoration: none; color: #999; /*&:hover { text-decoration: underline; }*/ }
 
 #wrapper { min-height: calc(100vh - 100px); }
 
