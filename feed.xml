@@ -5,8 +5,8 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 26 Apr 2022 04:22:11 +0430</pubDate>
-    <lastBuildDate>Tue, 26 Apr 2022 04:22:11 +0430</lastBuildDate>
+    <pubDate>Tue, 26 Apr 2022 21:00:40 +0430</pubDate>
+    <lastBuildDate>Tue, 26 Apr 2022 21:00:40 +0430</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
@@ -80,7 +80,7 @@
     
       <item>
         <title>Handy Benchmarking Tools for your Server</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/chart-search-icon.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;This is a list of some handy Server Benchmarking Tools that might be useful for you:&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;performance-and-speed-testing&quot;&gt;Performance and Speed Testing&lt;/h3&gt; &lt;hr /&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;https://gtmetrix.com/&quot;&gt;GTmetrix&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;https://pagespeed.web.dev/?utm_source=psi&amp;amp;utm_medium=redirect&quot;&gt;PageSpeed Insights&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;structure-check&quot;&gt;Structure check&lt;/h3&gt; &lt;hr /&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;https://validator.w3.org/nu/&quot;&gt;Nu Html Checker&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;https://validator.w3.org/feed/&quot;&gt;Feed Validation Service&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;security-check&quot;&gt;Security Check&lt;/h3&gt; &lt;hr /&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;https://en.internet.nl/&quot;&gt;Is your Internet UP to Date?&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;https://observatory.mozilla.org/&quot;&gt;The Mozilla Observatory&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt;...</description>
+        <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/chart-search-icon.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;This is a list of some handy Server Benchmarking Tools that might be useful for you:&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;external-links&quot;&gt;&lt;em&gt;External Links&lt;/em&gt;&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;performance-and-speed-testing&quot;&gt;Performance and Speed Testing&lt;/h3&gt; &lt;hr /&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;https://gtmetrix.com/&quot;&gt;GTmetrix&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;https://pagespeed.web.dev/?utm_source=psi&amp;amp;utm_medium=redirect&quot;&gt;PageSpeed Insights&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;structure-check&quot;&gt;Structure check&lt;/h3&gt; &lt;hr /&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;https://validator.w3.org/nu/&quot;&gt;Nu Html Checker&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;https://validator.w3.org/feed/&quot;&gt;Feed Validation Service&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;security-check&quot;&gt;Security Check&lt;/h3&gt; &lt;hr /&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;https://en.internet.nl/&quot;&gt;Is your Internet UP to Date?&lt;/a&gt;&lt;/li&gt;...</description>
         <pubDate>Tue, 12 Apr 2022 00:00:00 +0430</pubDate>
         <link>https://nima.ninja/blog/2022/handy-benchmarking-tools-for-your-server</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2022/handy-benchmarking-tools-for-your-server</guid>
