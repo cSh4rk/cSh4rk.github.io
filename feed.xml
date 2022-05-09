@@ -5,14 +5,40 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 08 May 2022 20:49:14 +0430</pubDate>
-    <lastBuildDate>Sun, 08 May 2022 20:49:14 +0430</lastBuildDate>
+    <pubDate>Mon, 09 May 2022 23:29:55 +0430</pubDate>
+    <lastBuildDate>Mon, 09 May 2022 23:29:55 +0430</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
      <title>Diaries of a Modern Ninja</title>
      <link>https://nima.ninja</link>
     </image>
+    
+      <item>
+        <title>Expert Lab: Web Shell Upload via Race Condition</title>
+        <description>&lt;p&gt;&lt;br /&gt; &lt;img src=&quot;/blog/assets/skull1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;lab-description&quot;&gt;Lab Description&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;&lt;br /&gt; This lab contains a vulnerable image upload function. Although it performs robust validation on any files that are uploaded, it is possible to bypass this validation entirely by exploiting a race condition in the way it processes them.&lt;/p&gt; &lt;p&gt;To solve the lab, upload a basic PHP web shell, then use it to exfiltrate the contents of the file /home/carlos/secret. Submit...</description>
+        <pubDate>Mon, 09 May 2022 00:00:00 +0430</pubDate>
+        <link>https://nima.ninja/blog/2022/expert-lab-web-shell-upload-via-race-condition</link>
+        <guid isPermaLink="true">https://nima.ninja/blog/2022/expert-lab-web-shell-upload-via-race-condition</guid>
+        
+        <category>blog</category>
+        
+        
+        <category>Web Application Security</category>
+        
+        <category>Web Security Academy</category>
+        
+        <category>Expert Labs</category>
+        
+        <category>File Upload Vulnerabilities</category>
+        
+        <category>Race Condition Vulnerabilities</category>
+        
+        <category>Turbo Intruder</category>
+        
+        <category>Exiftool</category>
+        
+      </item>
     
       <item>
         <title>Hide Malicious Shell in Image File</title>
@@ -261,36 +287,6 @@
         <category>HTTP Headers</category>
         
         <category>Security Headers</category>
-        
-      </item>
-    
-      <item>
-        <title>Penetration Testing: A Hands-On Introduction to Hacking</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/books/assets/penetration_testing_book.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon Description&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;Penetration testers simulate cyber attacks to find security weaknesses in networks, operating systems, and applications. Information security experts worldwide use penetration techniques to evaluate enterprise defenses.&lt;/p&gt; &lt;p&gt;In Penetration Testing, security expert, researcher, and trainer Georgia Weidman introduces you to the core skills and techniques that every pentester needs. Using a virtual machine–based lab that includes Kali Linux and vulnerable operating systems, you’ll run through...</description>
-        <pubDate>Tue, 30 Nov 2021 03:30:03 +0330</pubDate>
-        <link>https://nima.ninja/books/2021/penetration-testing-a-hands-on-introduction-to-hacking</link>
-        <guid isPermaLink="true">https://nima.ninja/books/2021/penetration-testing-a-hands-on-introduction-to-hacking</guid>
-        
-        <category>books</category>
-        
-        
-        <category>Penetration Testing</category>
-        
-        <category>Hacking</category>
-        
-        <category>Hackers</category>
-        
-        <category>Hands-On</category>
-        
-        <category>Prerequisite</category>
-        
-        <category>Newcomers</category>
-        
-        <category>Top Book</category>
-        
-        <category>Top Hacking Book</category>
-        
-        <category>OSCP</category>
         
       </item>
     
