@@ -5,8 +5,8 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 02 Jun 2022 07:08:49 +0430</pubDate>
-    <lastBuildDate>Thu, 02 Jun 2022 07:08:49 +0430</lastBuildDate>
+    <pubDate>Thu, 02 Jun 2022 07:37:19 +0430</pubDate>
+    <lastBuildDate>Thu, 02 Jun 2022 07:37:19 +0430</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
@@ -235,22 +235,14 @@
       </item>
     
       <item>
-        <title>The China Study: The Most Comprehensive Study of Nutrition Ever Conducted And the Startling Implications for Diet, Weight Loss, And Long-term Health</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/books/assets/the_china_study.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon Description&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;Even today, as trendy diets and a weight-loss frenzy sweep the nation, two-thirds of adults are still obese and children are being diagnosed with Type 2 diabetes, typically an “adult” disease, at an alarming rate. If we’re obsessed with being thin more so than ever before, why are Americans stricken with heart disease as much as we were 30 years ago?&lt;/p&gt; &lt;p&gt;In The China...</description>
+        <title>The China Study The Most Comprehensive Study Of Nutrition Ever Conducted</title>
+        <description>&lt;hr /&gt; &lt;p&gt;title: “The China Study: The Most Comprehensive Study of Nutrition Ever Conducted And the Startling Implications for Diet, Weight Loss, And Long-term Health” published: true tags: [Nutrition, Health, Performance Improvement, Top Book] image: /books/assets/the_china_study.jpg&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/books/assets/the_china_study.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon Description&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;Even today, as trendy diets and a weight-loss frenzy sweep the nation, two-thirds of adults are still obese and children are being diagnosed with Type 2 diabetes, typically...</description>
         <pubDate>Sat, 08 Jan 2022 00:00:00 +0330</pubDate>
         <link>https://nima.ninja/books/2022/the-china-study-the-most-comprehensive-study-of-nutrition-ever-conducted</link>
         <guid isPermaLink="true">https://nima.ninja/books/2022/the-china-study-the-most-comprehensive-study-of-nutrition-ever-conducted</guid>
         
         <category>books</category>
         
-        
-        <category>Nutrition</category>
-        
-        <category>Health</category>
-        
-        <category>Performance Improvement</category>
-        
-        <category>Top Book</category>
         
       </item>
     
