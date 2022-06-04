@@ -5,14 +5,38 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 03 Jun 2022 01:22:07 +0430</pubDate>
-    <lastBuildDate>Fri, 03 Jun 2022 01:22:07 +0430</lastBuildDate>
+    <pubDate>Sat, 04 Jun 2022 09:25:59 +0430</pubDate>
+    <lastBuildDate>Sat, 04 Jun 2022 09:25:59 +0430</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
      <title>Diaries of a Modern Ninja</title>
      <link>https://nima.ninja</link>
     </image>
+    
+      <item>
+        <title>Expert Lab: Reflected XSS in a JavaScript URL with some characters blocked</title>
+        <description>&lt;p&gt;&lt;br /&gt; &lt;img src=&quot;/blog/assets/poison-icon.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;link&quot;&gt;Link&lt;/h3&gt; &lt;p&gt;&lt;a href=&quot;https://portswigger.net/web-security/cross-site-scripting/contexts/lab-javascript-url-some-characters-blocked&quot;&gt;Lab: Reflected XSS in a JavaScript URL with some characters blocked&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;lab-description&quot;&gt;Lab Description&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;&lt;br /&gt; This lab reflects your input in a JavaScript URL, but all is not as it seems. This initially seems like a trivial challenge; however, the application is blocking some characters in an attempt to prevent XSS attacks.&lt;/p&gt; &lt;p&gt;To solve the lab, perform a cross-site...</description>
+        <pubDate>Sat, 04 Jun 2022 00:00:00 +0430</pubDate>
+        <link>https://nima.ninja/blog/2022/reflected-xss-in-a-javascript-url-with-some-characters-blocked</link>
+        <guid isPermaLink="true">https://nima.ninja/blog/2022/reflected-xss-in-a-javascript-url-with-some-characters-blocked</guid>
+        
+        <category>blog</category>
+        
+        
+        <category>Web Application Security</category>
+        
+        <category>Web Security Academy</category>
+        
+        <category>Expert Labs</category>
+        
+        <category>Cross-Site Scripting</category>
+        
+        <category>XSS</category>
+        
+        <category>Javascript</category>
+        
+      </item>
     
       <item>
         <title>Expert Lab: Web Shell Upload via Race Condition</title>
@@ -243,42 +267,6 @@
         
         <category>books</category>
         
-        
-      </item>
-    
-      <item>
-        <title>Bug Bounty Bootcamp: The Guide to Finding and Reporting Web Vulnerabilities</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/books/assets/bug_bounty_bootcamp_book.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon Description&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;&lt;strong&gt;Bug Bounty Bootcamp teaches you how to hack web applications. You will learn how to perform reconnaissance on a target, how to identify vulnerabilities, and how to exploit them. You’ll also learn how to navigate bug bounty programs set up by companies to reward security professionals for finding bugs in their web applications.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Bug bounty programs are company-sponsored programs that invite researchers to search...</description>
-        <pubDate>Tue, 30 Nov 2021 03:30:04 +0330</pubDate>
-        <link>https://nima.ninja/books/2021/bug-bounty-bootcamp</link>
-        <guid isPermaLink="true">https://nima.ninja/books/2021/bug-bounty-bootcamp</guid>
-        
-        <category>books</category>
-        
-        
-        <category>Web</category>
-        
-        <category>Web Application Security</category>
-        
-        <category>Bug Bounty</category>
-        
-        <category>Hacking</category>
-        
-        <category>Hackers</category>
-        
-        <category>Prerequisite</category>
-        
-        <category>Newcomers</category>
-        
-        <category>Top Book</category>
-        
-        <category>Top Hacking Book</category>
-        
-        <category>HTTP</category>
-        
-        <category>HTTP Headers</category>
-        
-        <category>Security Headers</category>
         
       </item>
     
