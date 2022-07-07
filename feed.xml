@@ -5,14 +5,36 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Jul 2022 08:23:49 +0430</pubDate>
-    <lastBuildDate>Sun, 03 Jul 2022 08:23:49 +0430</lastBuildDate>
+    <pubDate>Thu, 07 Jul 2022 07:33:56 +0430</pubDate>
+    <lastBuildDate>Thu, 07 Jul 2022 07:33:56 +0430</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
      <title>Diaries of a Modern Ninja</title>
      <link>https://nima.ninja</link>
     </image>
+    
+      <item>
+        <title>Cross-site WebSocket hijacking (CSWSH)</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/links/assets/socket-icon.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;See the first link below to become familiar with various Cross-site WebSocket hijacking (CSWSH) attacks.&lt;/p&gt; &lt;p&gt;If you are not familiar with Websocket vulnerabilities, take a look at the second link for more details.&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;external-links&quot;&gt;&lt;em&gt;External Links&lt;/em&gt;&lt;/h3&gt; &lt;hr /&gt; &lt;ul&gt; &lt;li&gt; &lt;h3 id=&quot;cross-site-websocket-hijacking-cswsh&quot;&gt;&lt;a href=&quot;https://book.hacktricks.xyz/pentesting-web/cross-site-websocket-hijacking-cswsh&quot;&gt;Cross-site WebSocket hijacking (CSWSH)&lt;/a&gt;&lt;/h3&gt; &lt;/li&gt; &lt;li&gt; &lt;h3 id=&quot;testing-for-websockets-security-vulnerabilities&quot;&gt;&lt;a href=&quot;https://portswigger.net/web-security/websockets&quot;&gt;Testing for WebSockets security vulnerabilities&lt;/a&gt;&lt;/h3&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;references&quot;&gt;&lt;em&gt;References&lt;/em&gt;&lt;/h3&gt; &lt;hr /&gt; &lt;ul&gt; &lt;li&gt; &lt;h6 id=&quot;graphic-by-everaldo--yellowicon-is-free-for-non-commercial-use&quot;&gt;&lt;a href=&quot;https://icons.iconarchive.com/icons/everaldo/kids-icons/128/socket-icon.png&quot;&gt;Graphic&lt;/a&gt; by...</description>
+        <pubDate>Thu, 07 Jul 2022 00:00:00 +0430</pubDate>
+        <link>https://nima.ninja/links/2022/cross-site-websocket-hijacking-cswsh</link>
+        <guid isPermaLink="true">https://nima.ninja/links/2022/cross-site-websocket-hijacking-cswsh</guid>
+        
+        <category>links</category>
+        
+        
+        <category>Web</category>
+        
+        <category>Web Applications</category>
+        
+        <category>Web Application Security</category>
+        
+        <category>Web Security Academy</category>
+        
+        <category>Websockets</category>
+        
+      </item>
     
       <item>
         <title>Expert Lab: Reflected XSS in a JavaScript URL with some characters blocked</title>
@@ -255,18 +277,6 @@
         <category>Neurogenesis</category>
         
         <category>Performance Improvement</category>
-        
-      </item>
-    
-      <item>
-        <title>The China Study The Most Comprehensive Study Of Nutrition Ever Conducted</title>
-        <description>&lt;hr /&gt; &lt;p&gt;title: “The China Study: The Most Comprehensive Study of Nutrition Ever Conducted And the Startling Implications for Diet, Weight Loss, And Long-term Health” published: true tags: [Nutrition, Health, Performance Improvement, Top Book] image: /books/assets/the_china_study.jpg&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/books/assets/the_china_study.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon Description&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;Even today, as trendy diets and a weight-loss frenzy sweep the nation, two-thirds of adults are still obese and children are being diagnosed with Type 2 diabetes, typically...</description>
-        <pubDate>Sat, 08 Jan 2022 00:00:00 +0330</pubDate>
-        <link>https://nima.ninja/books/2022/the-china-study-the-most-comprehensive-study-of-nutrition-ever-conducted</link>
-        <guid isPermaLink="true">https://nima.ninja/books/2022/the-china-study-the-most-comprehensive-study-of-nutrition-ever-conducted</guid>
-        
-        <category>books</category>
-        
         
       </item>
     
