@@ -5,14 +5,38 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 Jul 2022 07:33:56 +0430</pubDate>
-    <lastBuildDate>Thu, 07 Jul 2022 07:33:56 +0430</lastBuildDate>
+    <pubDate>Fri, 12 Aug 2022 11:26:50 +0430</pubDate>
+    <lastBuildDate>Fri, 12 Aug 2022 11:26:50 +0430</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
      <title>Diaries of a Modern Ninja</title>
      <link>https://nima.ninja</link>
     </image>
+    
+      <item>
+        <title>Lab: Exploiting PHP deserialization with a pre-built gadget chain</title>
+        <description>&lt;p&gt;&lt;br /&gt; &lt;img src=&quot;/blog/assets/supply-chain.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;link&quot;&gt;Link&lt;/h3&gt; &lt;p&gt;&lt;a href=&quot;https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-exploiting-php-deserialization-with-a-pre-built-gadget-chain&quot;&gt;Lab: Exploiting PHP deserialization with a pre-built gadget chain&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;lab-description&quot;&gt;Lab Description&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;&lt;br /&gt; This lab has a serialization-based session mechanism that uses a signed cookie. It also uses a common PHP framework. Although you don’t have source code access, you can still exploit this lab’s insecure deserialization using pre-built gadget chains.&lt;/p&gt; &lt;p&gt;To solve the lab, identify the target framework...</description>
+        <pubDate>Thu, 11 Aug 2022 00:00:00 +0430</pubDate>
+        <link>https://nima.ninja/blog/2022/exploiting-php-deserialization-with-a-pre-built-gadget-chain</link>
+        <guid isPermaLink="true">https://nima.ninja/blog/2022/exploiting-php-deserialization-with-a-pre-built-gadget-chain</guid>
+        
+        <category>blog</category>
+        
+        
+        <category>Web Application Security</category>
+        
+        <category>Web Security Academy</category>
+        
+        <category>Labs</category>
+        
+        <category>Insecure Deserialization</category>
+        
+        <category>PHP</category>
+        
+        <category>PHPGGC</category>
+        
+      </item>
     
       <item>
         <title>Cross-site WebSocket hijacking (CSWSH)</title>
@@ -259,24 +283,6 @@
         <category>Performance Improvement</category>
         
         <category>Biohacks</category>
-        
-      </item>
-    
-      <item>
-        <title>TED Talk: Your Can Grow New Brain Cells. Here is How</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/links/assets/mind-body-green-icon.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;Can we, as adults, grow new neurons? Neuroscientist Sandrine Thuret says that we can, and she offers research and practical advice on how we can help our brains better perform neurogenesis, improving mood, increasing memory formation and preventing the decline associated with aging along the way.&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;external-links&quot;&gt;&lt;em&gt;External Links&lt;/em&gt;&lt;/h3&gt; &lt;hr /&gt; &lt;ul&gt; &lt;li&gt; &lt;h3 id=&quot;your-can-grow-new-brain-cells-here-is-how&quot;&gt;&lt;a href=&quot;https://www.ted.com/talks/sandrine_thuret_you_can_grow_new_brain_cells_here_s_how?language=en&quot;&gt;Your Can Grow New Brain Cells. Here is How&lt;/a&gt;&lt;/h3&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3...</description>
-        <pubDate>Sat, 08 Jan 2022 00:00:00 +0330</pubDate>
-        <link>https://nima.ninja/links/2022/you-can-grow-new-brain-cells-here-is-how</link>
-        <guid isPermaLink="true">https://nima.ninja/links/2022/you-can-grow-new-brain-cells-here-is-how</guid>
-        
-        <category>links</category>
-        
-        
-        <category>Neuroscience</category>
-        
-        <category>Neurogenesis</category>
-        
-        <category>Performance Improvement</category>
         
       </item>
     

@@ -157,6 +157,10 @@
 <lastmod>2022-07-07T00:00:00+04:30</lastmod>
 </url>
 <url>
+<loc>https://nima.ninja/blog/2022/exploiting-php-deserialization-with-a-pre-built-gadget-chain</loc>
+<lastmod>2022-08-11T00:00:00+04:30</lastmod>
+</url>
+<url>
 <loc>https://nima.ninja/404</loc>
 </url>
 <url>
@@ -215,5 +219,8 @@
 </url>
 <url>
 <loc>https://nima.ninja/page/13/</loc>
+</url>
+<url>
+<loc>https://nima.ninja/page/14/</loc>
 </url>
 </urlset>
