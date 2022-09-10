@@ -15,8 +15,8 @@
 <meta property="og:title" content="Expert Lab: Reflected XSS in a JavaScript URL with some characters blocked" />
 <meta name="author" content="Nima" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Nima’s Diaries" />
-<meta property="og:description" content="Nima’s Diaries" />
+<meta name="description" content="1 Link Lab: Reflected XSS in a JavaScript URL with some characters blocked Graphic by Aha-Soft, License URL is free for non-commercial use. &#8617;" />
+<meta property="og:description" content="1 Link Lab: Reflected XSS in a JavaScript URL with some characters blocked Graphic by Aha-Soft, License URL is free for non-commercial use. &#8617;" />
 <link rel="canonical" href="https://nima.ninja/blog/2022/reflected-xss-in-a-javascript-url-with-some-characters-blocked" />
 <meta property="og:url" content="https://nima.ninja/blog/2022/reflected-xss-in-a-javascript-url-with-some-characters-blocked" />
 <meta property="og:site_name" content="Diaries of a Modern Ninja" />
@@ -29,7 +29,7 @@
 <meta name="twitter:site" content="@cSh4rk" />
 <meta name="twitter:creator" content="@cSh4rk" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Nima"},"dateModified":"2022-06-04T00:00:00+04:30","datePublished":"2022-06-04T00:00:00+04:30","description":"Nima’s Diaries","headline":"Expert Lab: Reflected XSS in a JavaScript URL with some characters blocked","image":"https://nima.ninja/blog/assets/poison-icon.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://nima.ninja/blog/2022/reflected-xss-in-a-javascript-url-with-some-characters-blocked"},"url":"https://nima.ninja/blog/2022/reflected-xss-in-a-javascript-url-with-some-characters-blocked"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Nima"},"dateModified":"2022-06-04T00:00:00+04:30","datePublished":"2022-06-04T00:00:00+04:30","description":"1 Link Lab: Reflected XSS in a JavaScript URL with some characters blocked Graphic by Aha-Soft, License URL is free for non-commercial use. &#8617;","headline":"Expert Lab: Reflected XSS in a JavaScript URL with some characters blocked","image":"https://nima.ninja/blog/assets/poison-icon.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://nima.ninja/blog/2022/reflected-xss-in-a-javascript-url-with-some-characters-blocked"},"url":"https://nima.ninja/blog/2022/reflected-xss-in-a-javascript-url-with-some-characters-blocked"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -81,9 +81,10 @@
   </div>
   <time datetime="2022-06-04T00:00:00+04:30" class="by-line">04 Jun 2022</time>
   <p><br />
-<img src="/blog/assets/poison-icon.png" alt="" /></p>
-
-<p><br /></p>
+<img src="/blog/assets/poison-icon.png" alt="" />
+<br />
+<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>
+<br /></p>
 <h3 id="link">Link</h3>
 <p><a href="https://portswigger.net/web-security/cross-site-scripting/contexts/lab-javascript-url-some-characters-blocked">Lab: Reflected XSS in a JavaScript URL with some characters blocked</a></p>
 
@@ -117,7 +118,7 @@ This lab reflects your input in a JavaScript URL, but all is not as it seems. Th
 <p>As throw is a statement, it cannot be used as an expression. Instead, we need to use arrow functions to create a block so that the throw statement can be used. We then need to call this function, so we assign it to the toString property of window and trigger this by forcing a string conversion on window.</p>
 
 <p><br />
-Here are some explanations about the Javascript code used above:</p>
+Here are some explanations about the Javascript code used above<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>:</p>
 
 <p>First of all, the code is using the comma operator. What the comma operator does is allow you to evaluate multiple expressions. In particular in this case, you have three:</p>
 
@@ -197,8 +198,7 @@ Here is the full code with explanation and formatting for clarity:</p>
 
 <p><br /></p>
 <h3 id="solution-2">Solution 2:</h3>
-<p>Another interesting solution is to use <em>JavaScript without parentheses using DOMMatrix</em> which is explained in detail by Gareth Heyes in a great post. You can find the link below in the References section of this post.
-To solve this lab with DOMMatrix payload, use:</p>
+<p>Another interesting solution is to use <em>JavaScript without parentheses using DOMMatrix</em> which is explained in detail by Gareth Heyes in a great post<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>. To solve this lab with DOMMatrix payload, use:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://your-lab-id.web-security-academy.net/post?postId=5&amp;%27},x=z=%3E{x=new/**/DOMMatrix;matrix=alert;x.a=1337;location='javascript'%2b':'%2bx},toString=x,window%2b%27%27,{x:%27
 </code></pre></div></div>
@@ -225,20 +225,19 @@ To solve this lab with DOMMatrix payload, use:</p>
 <p><br /></p>
 <h3 id="references"><em>References</em></h3>
 <hr />
-<ul>
-  <li>
-    <h6 id="xss-without-parentheses-and-semi-colons"><a href="https://portswigger.net/research/xss-without-parentheses-and-semi-colons">XSS without parentheses and semi-colons</a></h6>
-  </li>
-  <li>
-    <h6 id="javascript-without-parentheses-using-dommatrix"><a href="https://portswigger.net/research/javascript-without-parentheses-using-dommatrix">JavaScript without parentheses using DOMMatrix</a></h6>
-  </li>
-  <li>
-    <h6 id="javascript-window-object-window-what-does-this-code-do"><a href="https://stackoverflow.com/questions/64416874/javascript-window-object-window-what-does-this-code-do">Javascript window object, window+’’, what does this code do</a></h6>
-  </li>
-  <li>
-    <h6 id="graphic-by-aha-soft-license-url-is-free-for-non-commercial-use"><a href="https://icons.iconarchive.com/icons/aha-soft/food/256/poison-icon.png">Graphic</a> by <a href="https://iconarchive.com/artist/aha-soft.html">Aha-Soft</a>, <a href="https://iconarchive.com/icons/aha-soft/food/license.txt">License URL</a> is Free for non-commercial use.</h6>
-  </li>
-</ul>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p><a href="https://icons.iconarchive.com/icons/aha-soft/food/256/poison-icon.png">Graphic</a> by <a href="https://iconarchive.com/artist/aha-soft.html">Aha-Soft</a>, <a href="https://iconarchive.com/icons/aha-soft/food/license.txt">License URL</a> is free for non-commercial use. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p><a href="https://stackoverflow.com/questions/64416874/javascript-window-object-window-what-does-this-code-do">Javascript window object, window+’’, what does this code do</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p><a href="https://portswigger.net/research/javascript-without-parentheses-using-dommatrix">JavaScript without parentheses using DOMMatrix</a>, also see: <a href="https://portswigger.net/research/xss-without-parentheses-and-semi-colons">XSS without parentheses and semi-colons</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 
 </article>
 

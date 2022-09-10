@@ -163,4 +163,14 @@ a:active, a:focus { outline: 0; border: none; -moz-outline-style: none; }
 
 code.posttag { background: rgba(0, 0, 0, 0.9); border: 1px solid rgba(255, 255, 255, 0.15); padding: 0px 3px; margin: 0px -3px; border-radius: 2px; }
 
+.font, .footnote, .footnotes { font-weight: normal; font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; letter-spacing: -0.03em; font-size: 12px; margin: 0 0 5px 0; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1); }
+
+.footnotes { color: #999; }
+
+.footnote { color: #63c0f5; text-decoration: none; }
+
+a.footnote:before { content: "["; }
+
+a.footnote:after { content: "]"; }
+
 /*# sourceMappingURL=main.css.map */

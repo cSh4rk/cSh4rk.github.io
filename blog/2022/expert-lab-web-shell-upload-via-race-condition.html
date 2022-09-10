@@ -15,8 +15,8 @@
 <meta property="og:title" content="Expert Lab: Web Shell Upload via Race Condition" />
 <meta name="author" content="Nima" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Nima’s Diaries" />
-<meta property="og:description" content="Nima’s Diaries" />
+<meta name="description" content="1 Link Lab: Web shell upload via race condition Graphic by Th3 ProphetMan, License URL is licensed under CC Attribution-Noncommercial-Share Alike 4.0. &#8617;" />
+<meta property="og:description" content="1 Link Lab: Web shell upload via race condition Graphic by Th3 ProphetMan, License URL is licensed under CC Attribution-Noncommercial-Share Alike 4.0. &#8617;" />
 <link rel="canonical" href="https://nima.ninja/blog/2022/expert-lab-web-shell-upload-via-race-condition" />
 <meta property="og:url" content="https://nima.ninja/blog/2022/expert-lab-web-shell-upload-via-race-condition" />
 <meta property="og:site_name" content="Diaries of a Modern Ninja" />
@@ -29,7 +29,7 @@
 <meta name="twitter:site" content="@cSh4rk" />
 <meta name="twitter:creator" content="@cSh4rk" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Nima"},"dateModified":"2022-05-09T00:00:00+04:30","datePublished":"2022-05-09T00:00:00+04:30","description":"Nima’s Diaries","headline":"Expert Lab: Web Shell Upload via Race Condition","image":"https://nima.ninja/blog/assets/skull1.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://nima.ninja/blog/2022/expert-lab-web-shell-upload-via-race-condition"},"url":"https://nima.ninja/blog/2022/expert-lab-web-shell-upload-via-race-condition"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Nima"},"dateModified":"2022-05-09T00:00:00+04:30","datePublished":"2022-05-09T00:00:00+04:30","description":"1 Link Lab: Web shell upload via race condition Graphic by Th3 ProphetMan, License URL is licensed under CC Attribution-Noncommercial-Share Alike 4.0. &#8617;","headline":"Expert Lab: Web Shell Upload via Race Condition","image":"https://nima.ninja/blog/assets/skull1.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://nima.ninja/blog/2022/expert-lab-web-shell-upload-via-race-condition"},"url":"https://nima.ninja/blog/2022/expert-lab-web-shell-upload-via-race-condition"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -83,9 +83,10 @@
   </div>
   <time datetime="2022-05-09T00:00:00+04:30" class="by-line">09 May 2022</time>
   <p><br />
-<img src="/blog/assets/skull1.png" alt="" /></p>
-
-<p><br /></p>
+<img src="/blog/assets/skull1.png" alt="" />
+<br />
+<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>
+<br /></p>
 <h3 id="link">Link</h3>
 <p><a href="https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-race-condition">Lab: Web shell upload via race condition</a></p>
 
@@ -142,7 +143,7 @@ The vulnerable code that introduces this race condition is as follows:</p>
 <hr />
 <p><br /></p>
 <h4 id="solution-1-my-solution">Solution 1: My Solution</h4>
-<p>The main logic for me to solve this lab was to upload a suitable sized file(not small not that large) then because of this vulnerable code exposed in hint section, I knew that my PHP file would be on the server for a fraction of a second then the virus and extension check would be done on it then because it is a PHP file and not a JPG or PNG, it would be deleted, so I could use race condition to read the PHP file in a few milliseconds that the file exists on the server before deletion so: I used Burp Turbo Intruder for solving this lab to be able to send GET requests to read the PHP file as fast as I can. A simple code is used in Turbo Intruder for solving this lab:</p>
+<p>The main logic for me to solve this lab was to upload a suitable sized file(not small not that large) then because of this vulnerable code exposed in hint section, I knew that my PHP file would be on the server for a fraction of a second then the virus and extension check would be done on it then because it is a PHP file and not a JPG or PNG, it would be deleted, so I could use race condition to read the PHP file in a few milliseconds that the file exists on the server before deletion so: I used Burp Turbo Intruder<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup> for solving this lab to be able to send GET requests to read the PHP file as fast as I can. A simple code is used in Turbo Intruder for solving this lab:</p>
 
 <div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">queueRequests</span><span class="p">(</span><span class="n">target</span><span class="p">,</span> <span class="n">wordlists</span><span class="p">):</span>
 
@@ -318,19 +319,21 @@ The vulnerable code that introduces this race condition is as follows:</p>
   <li>
     <h4 id="lab-web-shell-upload-via-race-condition"><a href="https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-race-condition">Lab: Web shell upload via race condition</a></h4>
   </li>
-  <li>
-    <h4 id="turbo-intruder"><a href="https://portswigger.net/bappstore/9abaa233088242e8be252cd4ff534988">Turbo Intruder</a></h4>
-  </li>
 </ul>
 
 <p><br /></p>
 <h3 id="references"><em>References</em></h3>
 <hr />
-<ul>
-  <li>
-    <h6 id="graphic-by-th3-prophetman-license-url-is-licensed-under-cc-attribution-noncommercial-share-alike-40"><a href="https://icons.iconarchive.com/icons/th3-prophetman/game/256/Gears-of-War-Skull-2-icon.png">Graphic</a> by <a href="https://iconarchive.com/artist/th3-prophetman.html">Th3 ProphetMan</a>, <a href="http://moskis.net/extra/icons/readme-en/">License URL</a> is Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC Attribution-Noncommercial-Share Alike 4.0</a></h6>
-  </li>
-</ul>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p><a href="https://icons.iconarchive.com/icons/th3-prophetman/game/256/Gears-of-War-Skull-2-icon.png">Graphic</a> by <a href="https://iconarchive.com/artist/th3-prophetman.html">Th3 ProphetMan</a>, <a href="http://moskis.net/extra/icons/readme-en/">License URL</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC Attribution-Noncommercial-Share Alike 4.0</a>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p><a href="https://portswigger.net/bappstore/9abaa233088242e8be252cd4ff534988">Turbo Intruder</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 
 </article>
 
