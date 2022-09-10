@@ -173,4 +173,6 @@ a.footnote:before { content: "["; }
 
 a.footnote:after { content: "]"; }
 
+:target { background: rgba(92, 92, 92, 0.2); border-radius: .3em; padding: .3em; }
+
 /*# sourceMappingURL=main.css.map */
