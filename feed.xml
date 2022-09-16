@@ -5,14 +5,38 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 Sep 2022 01:39:19 +0430</pubDate>
-    <lastBuildDate>Mon, 12 Sep 2022 01:39:19 +0430</lastBuildDate>
+    <pubDate>Fri, 16 Sep 2022 13:03:28 +0430</pubDate>
+    <lastBuildDate>Fri, 16 Sep 2022 13:03:28 +0430</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
      <title>Diaries of a Modern Ninja</title>
      <link>https://nima.ninja</link>
     </image>
+    
+      <item>
+        <title>The God Equation: The Quest for a Theory of Everything</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/books/assets/the_god_equation_book.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; Description&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;&lt;strong&gt;#1 NEW YORK TIMES BEST SELLER • The epic story of the greatest quest in all of science—the holy grail of physics that would explain the creation of the universe—from renowned theoretical physicist and author of The Future of the Mind and The Future of Humanity&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;When Newton discovered the law of gravity, he unified the rules governing the...</description>
+        <pubDate>Fri, 16 Sep 2022 00:00:00 +0430</pubDate>
+        <link>https://nima.ninja/books/2022/the-god-equation-the-quest-for-a-theory-of-everything</link>
+        <guid isPermaLink="true">https://nima.ninja/books/2022/the-god-equation-the-quest-for-a-theory-of-everything</guid>
+        
+        <category>books</category>
+        
+        
+        <category>Physics</category>
+        
+        <category>Michio Kaku</category>
+        
+        <category>String Theory</category>
+        
+        <category>Quantum Physics</category>
+        
+        <category>Top Book</category>
+        
+        <category>Top Science Book</category>
+        
+      </item>
     
       <item>
         <title>Lab: Exploiting PHP deserialization with a pre-built gadget chain</title>
@@ -223,24 +247,6 @@
         <category>Top Book</category>
         
         <category>Top Science Book</category>
-        
-      </item>
-    
-      <item>
-        <title>11 Neurosciece Hacks to Wire Your Brain for Success</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/links/assets/bulb-icon.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt; &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt; &lt;p&gt;A few simple but very important daily hacks for a sharper brain.&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;external-links&quot;&gt;&lt;em&gt;External Links&lt;/em&gt;&lt;/h3&gt; &lt;hr /&gt; &lt;ul&gt; &lt;li&gt; &lt;h4 id=&quot;11-neurosciece-hacks-to-wire-your-brain-for-success&quot;&gt;&lt;a href=&quot;https://www.forbes.com/sites/deeppatel/2017/04/10/11-neuroscience-hacks-to-wire-your-brain-for-success/?sh=182aa9275d32&quot;&gt;11 Neurosciece Hacks to Wire Your Brain for Success&lt;/a&gt;&lt;/h4&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;references&quot;&gt;&lt;em&gt;References&lt;/em&gt;&lt;/h3&gt; &lt;hr /&gt; &lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt; &lt;ol&gt; &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://icons.iconarchive.com/icons/vexels/office/256/bulb-icon.png&quot;&gt;Graphic&lt;/a&gt; by &lt;a href=&quot;https://iconarchive.com/artist/vexels.html&quot;&gt;Vexels&lt;/a&gt; is licensed under &lt;a href=&quot;https://www.vexels.com/&quot;&gt;Linkware&lt;/a&gt;. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt; &lt;/li&gt; &lt;/ol&gt; &lt;/div&gt;...</description>
-        <pubDate>Sun, 06 Feb 2022 00:00:00 +0330</pubDate>
-        <link>https://nima.ninja/links/2022/11-neuroscience-hacks-to-wire-your-brain-for-success</link>
-        <guid isPermaLink="true">https://nima.ninja/links/2022/11-neuroscience-hacks-to-wire-your-brain-for-success</guid>
-        
-        <category>links</category>
-        
-        
-        <category>Neuroscience</category>
-        
-        <category>Performance Improvement</category>
-        
-        <category>Biohacks</category>
         
       </item>
     
