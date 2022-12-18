@@ -5,14 +5,32 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 02 Dec 2022 01:21:44 +0330</pubDate>
-    <lastBuildDate>Fri, 02 Dec 2022 01:21:44 +0330</lastBuildDate>
+    <pubDate>Sun, 18 Dec 2022 16:24:24 +0330</pubDate>
+    <lastBuildDate>Sun, 18 Dec 2022 16:24:24 +0330</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
      <title>Diaries of a Modern Ninja</title>
      <link>https://nima.ninja</link>
     </image>
+    
+      <item>
+        <title>Learn Regex step by step, from zero to advanced</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/links/assets/regex.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt; &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt; &lt;p&gt;Learning Regex is easier than you think. You can use this tool to easily learn, practice, test and share Regex.&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;external-links&quot;&gt;&lt;em&gt;External Links&lt;/em&gt;&lt;/h3&gt; &lt;hr /&gt; &lt;ul&gt; &lt;li&gt; &lt;h4 id=&quot;learn-regex-step-by-step-from-zero-to-advanced&quot;&gt;&lt;a href=&quot;https://regexlearn.com&quot;&gt;Learn Regex step by step, from zero to advanced.&lt;/a&gt;&lt;/h4&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;references&quot;&gt;&lt;em&gt;References&lt;/em&gt;&lt;/h3&gt; &lt;hr /&gt; &lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt; &lt;ol&gt; &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.flaticon.com/free-icon/expressions_8167795?term=regular%20expressions&amp;amp;page=1&amp;amp;position=2&amp;amp;page=1&amp;amp;position=2&amp;amp;related_id=8167795&amp;amp;origin=style&quot;&gt;Icon&lt;/a&gt; made by &lt;a href=&quot;https://www.flaticon.com/authors/orvipixel&quot;&gt;Orvipixel&lt;/a&gt; from &lt;a...</description>
+        <pubDate>Sun, 18 Dec 2022 00:00:00 +0330</pubDate>
+        <link>https://nima.ninja/links/2022/learn-regex-step-by-step-from-zero-to-advanced</link>
+        <guid isPermaLink="true">https://nima.ninja/links/2022/learn-regex-step-by-step-from-zero-to-advanced</guid>
+        
+        <category>links</category>
+        
+        
+        <category>Regex</category>
+        
+        <category>Useful Skills</category>
+        
+        <category>Linux</category>
+        
+      </item>
     
       <item>
         <title>The God Equation: The Quest for a Theory of Everything</title>
@@ -225,28 +243,6 @@
         <category>HTTP Headers</category>
         
         <category>Security Headers</category>
-        
-      </item>
-    
-      <item>
-        <title>Dopamine Nation: Finding Balance in the Age of Indulgence</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/books/assets/dopamine_nation_book.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; Description&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;INSTANT NEW YORK TIMES and LOS ANGELES TIMES BESTSELLER “Brilliant… riveting, scary, cogent, and cleverly argued.”—Beth Macy, author of Dopesick As heard on Fresh Air&lt;/p&gt; &lt;p&gt;This book is about pleasure. It’s also about pain. Most important, it’s about how to find the delicate balance between the two, and why now more than ever finding balance is essential. We’re living...</description>
-        <pubDate>Tue, 05 Apr 2022 00:00:00 +0430</pubDate>
-        <link>https://nima.ninja/books/2022/dopamine-nation-finding-balance-in-the-age-of-indulgence</link>
-        <guid isPermaLink="true">https://nima.ninja/books/2022/dopamine-nation-finding-balance-in-the-age-of-indulgence</guid>
-        
-        <category>books</category>
-        
-        
-        <category>Health</category>
-        
-        <category>Neuroscience</category>
-        
-        <category>Performance Improvement</category>
-        
-        <category>Top Book</category>
-        
-        <category>Top Science Book</category>
         
       </item>
     
