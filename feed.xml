@@ -5,8 +5,8 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 23 Dec 2022 16:34:30 +0330</pubDate>
-    <lastBuildDate>Fri, 23 Dec 2022 16:34:30 +0330</lastBuildDate>
+    <pubDate>Fri, 23 Dec 2022 16:39:17 +0330</pubDate>
+    <lastBuildDate>Fri, 23 Dec 2022 16:39:17 +0330</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
@@ -16,7 +16,7 @@
     
       <item>
         <title>Insecure Deserialization - How to trace down a gadget chain</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/links/assets/supply-chain.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt; &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt; &lt;p&gt;This article clearly explains the process of finding a sample gadget chain and then writing a small code to build the payload for insecure deserialization exploitation in cases where there are no existing pre-built gadget chains.&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;external-links&quot;&gt;&lt;em&gt;External Links&lt;/em&gt;&lt;/h3&gt; &lt;hr /&gt; &lt;ul&gt; &lt;li&gt; &lt;h4 id=&quot;insecure-deserialization---how-to-trace-down-a-gadget-chain&quot;&gt;&lt;a href=&quot;https://blog.redteam-pentesting.de/2021/deserialization-gadget-chain/&quot;&gt;Insecure Deserialization - How to trace down a gadget chain&lt;/a&gt;&lt;/h4&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;references&quot;&gt;&lt;em&gt;References&lt;/em&gt;&lt;/h3&gt;...</description>
+        <description>&lt;p&gt;&lt;img src=&quot;/links/assets/supply-chain.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt; &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt; &lt;p&gt;This article explains clearly the process of finding a sample gadget chain and then writing a small code to build the payload for insecure deserialization exploitation in cases where there are no existing pre-built gadget chains.&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;external-links&quot;&gt;&lt;em&gt;External Links&lt;/em&gt;&lt;/h3&gt; &lt;hr /&gt; &lt;ul&gt; &lt;li&gt; &lt;h4 id=&quot;insecure-deserialization---how-to-trace-down-a-gadget-chain&quot;&gt;&lt;a href=&quot;https://blog.redteam-pentesting.de/2021/deserialization-gadget-chain/&quot;&gt;Insecure Deserialization - How to trace down a gadget chain&lt;/a&gt;&lt;/h4&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;references&quot;&gt;&lt;em&gt;References&lt;/em&gt;&lt;/h3&gt;...</description>
         <pubDate>Fri, 23 Dec 2022 00:00:00 +0330</pubDate>
         <link>https://nima.ninja/links/2022/insecure-deserialization-how-to-trace-down-a-gadget-chain</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/insecure-deserialization-how-to-trace-down-a-gadget-chain</guid>
