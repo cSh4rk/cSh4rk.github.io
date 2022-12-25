@@ -5,14 +5,38 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 25 Dec 2022 12:51:04 +0330</pubDate>
-    <lastBuildDate>Sun, 25 Dec 2022 12:51:04 +0330</lastBuildDate>
+    <pubDate>Sun, 25 Dec 2022 15:08:51 +0330</pubDate>
+    <lastBuildDate>Sun, 25 Dec 2022 15:08:51 +0330</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
      <title>Diaries of a Modern Ninja</title>
      <link>https://nima.ninja</link>
     </image>
+    
+      <item>
+        <title>Insecure Deserialization - How to trace down a gadget chain - Other examples in Ruby</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/links/assets/supply-chain2.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt; &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt; &lt;p&gt;These are some Ruby examples equivalents of my previous post&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;(about gadget chains in PHP), that show the process of finding gadget chains in Ruby programming language, also as one of these articles mentions, there may still be some undiscovered gadget chains for cybersecurity researchers to find.&lt;/p&gt; &lt;p&gt;Also there is a Web Security Academy lab to practice these types...</description>
+        <pubDate>Sun, 25 Dec 2022 00:00:00 +0330</pubDate>
+        <link>https://nima.ninja/links/2022/insecure-deserialization-how-to-trace-down-a-gadget-chain-other-examples-in-ruby</link>
+        <guid isPermaLink="true">https://nima.ninja/links/2022/insecure-deserialization-how-to-trace-down-a-gadget-chain-other-examples-in-ruby</guid>
+        
+        <category>links</category>
+        
+        
+        <category>Web Application Security</category>
+        
+        <category>Web Security Academy</category>
+        
+        <category>Labs</category>
+        
+        <category>Insecure Deserialization</category>
+        
+        <category>Remote Code Execution</category>
+        
+        <category>Ruby</category>
+        
+      </item>
     
       <item>
         <title>Insecure Deserialization - How to trace down a gadget chain</title>
@@ -217,30 +241,6 @@
         <category>Languages</category>
         
         <category>Learning Languages</category>
-        
-      </item>
-    
-      <item>
-        <title>COEP COOP CORP CORS CORB - CRAP that&apos;s a lot of new stuff!</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/links/assets/web-icon.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt; &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt; &lt;p&gt;Great article about some relatively new HTTP Security Headers.&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;external-links&quot;&gt;&lt;em&gt;External Links&lt;/em&gt;&lt;/h3&gt; &lt;hr /&gt; &lt;ul&gt; &lt;li&gt; &lt;h4 id=&quot;coep-coop-corp-cors-corb---crap-thats-a-lot-of-new-stuff&quot;&gt;&lt;a href=&quot;https://scotthelme.co.uk/coop-and-coep/&quot;&gt;COEP COOP CORP CORS CORB - CRAP that’s a lot of new stuff!&lt;/a&gt;&lt;/h4&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;references&quot;&gt;&lt;em&gt;References&lt;/em&gt;&lt;/h3&gt; &lt;hr /&gt; &lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt; &lt;ol&gt; &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://icons.iconarchive.com/icons/aha-soft/desktop-halloween/256/Web-icon.png&quot;&gt;Icon&lt;/a&gt; by &lt;a href=&quot;https://iconarchive.com/artist/aha-soft.html&quot;&gt;Aha-Soft&lt;/a&gt; is licensed under &lt;a href=&quot;http://www.aha-soft.com/&quot;&gt;Linkware&lt;/a&gt;. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt; &lt;/li&gt; &lt;/ol&gt;...</description>
-        <pubDate>Tue, 12 Apr 2022 00:00:00 +0430</pubDate>
-        <link>https://nima.ninja/links/2022/coep-coop-corp-cors-corb-crap-thats-a-lot-of-new-stuff</link>
-        <guid isPermaLink="true">https://nima.ninja/links/2022/coep-coop-corp-cors-corb-crap-thats-a-lot-of-new-stuff</guid>
-        
-        <category>links</category>
-        
-        
-        <category>Web</category>
-        
-        <category>HTTP</category>
-        
-        <category>Web Applications</category>
-        
-        <category>Web Application Security</category>
-        
-        <category>HTTP Headers</category>
-        
-        <category>Security Headers</category>
         
       </item>
     
