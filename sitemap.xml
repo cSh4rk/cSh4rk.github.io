@@ -149,7 +149,7 @@
 <lastmod>2022-05-09T00:00:00+04:30</lastmod>
 </url>
 <url>
-<loc>https://nima.ninja/blog/2022/reflected-xss-in-a-javascript-url-with-some-characters-blocked</loc>
+<loc>https://nima.ninja/blog/2022/expert-lab-reflected-xss-in-a-javascript-url-with-some-characters-blocked</loc>
 <lastmod>2022-06-04T00:00:00+04:30</lastmod>
 </url>
 <url>
@@ -175,6 +175,10 @@
 <url>
 <loc>https://nima.ninja/links/2022/insecure-deserialization-how-to-trace-down-a-gadget-chain-other-examples-in-ruby</loc>
 <lastmod>2022-12-25T00:00:00+03:30</lastmod>
+</url>
+<url>
+<loc>https://nima.ninja/blog/2023/expert-lab-developing-a-custom-gadget-chain-for-php-deserialization</loc>
+<lastmod>2023-01-18T00:00:00+03:30</lastmod>
 </url>
 <url>
 <loc>https://nima.ninja/404</loc>
