@@ -229,9 +229,11 @@ You can sometimes read source code by appending a tilde (~) to a filename to ret
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$this</span><span class="o">-&gt;</span><span class="n">default_desc_type</span> <span class="o">=</span> <span class="s1">'rm /home/carlos/morale.txt'</span><span class="p">;</span>
 </code></pre></div></div>
 
-<p>and if we follow the code, we arrive at the last part in <code class="language-plaintext highlighter-rouge">Product</code> class constructor being:</p>
+<p>and if we follow the code, we arrive at the last part in <code class="language-plaintext highlighter-rouge">Product</code> class constructor that gets the above <code class="language-plaintext highlighter-rouge">$this-&gt;desc</code> and <code class="language-plaintext highlighter-rouge">$this-&gt;default_desc_type</code> values as parameters and assign them to <code class="language-plaintext highlighter-rouge">$this-&gt;desc</code> of its own:</p>
 
-<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$this</span><span class="o">-&gt;</span><span class="n">desc</span> <span class="o">=</span> <span class="nv">$desc</span><span class="o">-&gt;</span><span class="nv">$default_desc_type</span><span class="p">;</span> 
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">function</span> <span class="n">__construct</span><span class="p">(</span><span class="nv">$default_desc_type</span><span class="p">,</span> <span class="nv">$desc</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nv">$this</span><span class="o">-&gt;</span><span class="n">desc</span> <span class="o">=</span> <span class="nv">$desc</span><span class="o">-&gt;</span><span class="nv">$default_desc_type</span><span class="p">;</span>
+<span class="p">}</span>
 </code></pre></div></div>
 
 <p>which is exactly what we want and is the same as the third line of our code above: <code class="language-plaintext highlighter-rouge">$test-&gt;$command;</code> which results in our arbitrary code being executed.</p>
