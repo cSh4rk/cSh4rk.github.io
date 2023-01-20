@@ -196,9 +196,9 @@ You can sometimes read source code by appending a tilde (~) to a filename to ret
 
 <p>Also we can assign any value to <code class="language-plaintext highlighter-rouge">$this-&gt;callback</code> in the class constructor:</p>
 
-<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="k">public</span> <span class="k">function</span> <span class="n">__construct</span><span class="p">(</span><span class="nv">$callback</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nv">$this</span><span class="o">-&gt;</span><span class="n">callback</span> <span class="o">=</span> <span class="nv">$callback</span><span class="p">;</span>
-    <span class="p">}</span>
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">function</span> <span class="n">__construct</span><span class="p">(</span><span class="nv">$callback</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nv">$this</span><span class="o">-&gt;</span><span class="n">callback</span> <span class="o">=</span> <span class="nv">$callback</span><span class="p">;</span>
+<span class="p">}</span>
 </code></pre></div></div>
 
 <p>So for example we can have a remote code execution in a code similar to this:</p>
