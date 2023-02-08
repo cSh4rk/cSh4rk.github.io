@@ -5,8 +5,8 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 08 Feb 2023 18:29:00 +0330</pubDate>
-    <lastBuildDate>Wed, 08 Feb 2023 18:29:00 +0330</lastBuildDate>
+    <pubDate>Wed, 08 Feb 2023 18:42:56 +0330</pubDate>
+    <lastBuildDate>Wed, 08 Feb 2023 18:42:56 +0330</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
@@ -241,10 +241,6 @@
         
         <category>links</category>
         
-        
-        <category>Web</category>
-        
-        <category>Web Applications</category>
         
         <category>Web Application Security</category>
         
