@@ -5,8 +5,8 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 28 Jan 2023 15:17:18 +0330</pubDate>
-    <lastBuildDate>Sat, 28 Jan 2023 15:17:18 +0330</lastBuildDate>
+    <pubDate>Wed, 08 Feb 2023 18:29:00 +0330</pubDate>
+    <lastBuildDate>Wed, 08 Feb 2023 18:29:00 +0330</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
@@ -170,15 +170,15 @@
         <category>links</category>
         
         
-        <category>Web</category>
-        
-        <category>Web Applications</category>
-        
         <category>Web Application Security</category>
         
         <category>Web Security Academy</category>
         
         <category>Websockets</category>
+        
+        <category>Cross-Site Request Forgery</category>
+        
+        <category>CSRF</category>
         
       </item>
     
