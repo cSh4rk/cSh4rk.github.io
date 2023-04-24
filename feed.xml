@@ -5,14 +5,40 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 09 Apr 2023 15:00:54 +0430</pubDate>
-    <lastBuildDate>Sun, 09 Apr 2023 15:00:54 +0430</lastBuildDate>
+    <pubDate>Mon, 24 Apr 2023 18:38:37 +0430</pubDate>
+    <lastBuildDate>Mon, 24 Apr 2023 18:38:37 +0430</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
      <title>Diaries of a Modern Ninja</title>
      <link>https://nima.ninja</link>
     </image>
+    
+      <item>
+        <title>Expert Lab: Server-side Templete Injection with a Custom Exploit</title>
+        <description>&lt;p&gt;&lt;br /&gt; &lt;img src=&quot;/blog/assets/ssti-custom-exploit-twig.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt; &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;lab-link&quot;&gt;Lab Link&lt;/h3&gt; &lt;p&gt;&lt;a href=&quot;https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-with-a-custom-exploit&quot;&gt;Lab: Server-side template injection with a custom exploit&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;lab-description&quot;&gt;Lab Description&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;&lt;br /&gt; This lab is vulnerable to server-side template injection&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. To solve the lab, create a custom exploit to delete the file &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/.ssh/id_rsa&lt;/code&gt; from Carlos’s home directory.&lt;/p&gt; &lt;p&gt;You can log in to your...</description>
+        <pubDate>Mon, 24 Apr 2023 00:00:00 +0430</pubDate>
+        <link>https://nima.ninja/blog/2023/expert-lab-server-side-template-injection-with-a-custom-exploit</link>
+        <guid isPermaLink="true">https://nima.ninja/blog/2023/expert-lab-server-side-template-injection-with-a-custom-exploit</guid>
+        
+        <category>blog</category>
+        
+        
+        <category>Web Application Security</category>
+        
+        <category>Web Security Academy</category>
+        
+        <category>Expert Labs</category>
+        
+        <category>Server-Side Template Injection</category>
+        
+        <category>SSTI</category>
+        
+        <category>PHP</category>
+        
+        <category>Twig</category>
+        
+      </item>
     
       <item>
         <title>Expert Lab: Developing a custom gadget chain for PHP deserialization</title>
@@ -227,30 +253,6 @@
         <category>Race Condition Vulnerabilities</category>
         
         <category>Turbo Intruder</category>
-        
-        <category>Exiftool</category>
-        
-      </item>
-    
-      <item>
-        <title>Hide Malicious Shell in Image File</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/links/assets/beach.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt; &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt; &lt;p&gt;There are many ways to bypass flawed validation of file uploads to upload web shells on web applications, this link explains some ways like creating a polyglot image file containing malicious code in its metadata using tools like exiftool, this method is interesting, check it out.&lt;/p&gt; &lt;p&gt;Also you can practice this vulnerability in Web Security Academy, check the link below.&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3...</description>
-        <pubDate>Sun, 08 May 2022 00:00:00 +0430</pubDate>
-        <link>https://nima.ninja/links/2022/hide-malicious-shell-in-image-file</link>
-        <guid isPermaLink="true">https://nima.ninja/links/2022/hide-malicious-shell-in-image-file</guid>
-        
-        <category>links</category>
-        
-        
-        <category>Web Application Security</category>
-        
-        <category>Web Security Academy</category>
-        
-        <category>Labs</category>
-        
-        <category>File Upload Vulnerabilities</category>
-        
-        <category>Malicious Metadata</category>
         
         <category>Exiftool</category>
         

@@ -181,6 +181,10 @@
 <lastmod>2023-01-18T00:00:00+03:30</lastmod>
 </url>
 <url>
+<loc>https://nima.ninja/blog/2023/expert-lab-server-side-template-injection-with-a-custom-exploit</loc>
+<lastmod>2023-04-24T00:00:00+04:30</lastmod>
+</url>
+<url>
 <loc>https://nima.ninja/404</loc>
 </url>
 <url>
@@ -245,5 +249,8 @@
 </url>
 <url>
 <loc>https://nima.ninja/page/15/</loc>
+</url>
+<url>
+<loc>https://nima.ninja/page/16/</loc>
 </url>
 </urlset>
