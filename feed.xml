@@ -5,8 +5,8 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 26 Apr 2023 00:41:17 +0430</pubDate>
-    <lastBuildDate>Wed, 26 Apr 2023 00:41:17 +0430</lastBuildDate>
+    <pubDate>Sat, 06 May 2023 22:58:09 +0330</pubDate>
+    <lastBuildDate>Sat, 06 May 2023 22:58:09 +0330</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
@@ -15,9 +15,54 @@
     </image>
     
       <item>
+        <title>Stanford Web Security Course</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/links/assets/websecurity.png&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;
+&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;This course is a gold mine for every web application security enthusiast.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;external-links&quot;&gt;&lt;em&gt;External Links&lt;/em&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;stanford-cs-253-web-security&quot;&gt;&lt;a href=&quot;https://web.stanford.edu/class/cs253/&quot;&gt;Stanford CS 253 Web Security&lt;/a&gt;&lt;/h4&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;references&quot;&gt;&lt;em&gt;References&lt;/em&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.flaticon.com/free-icon/browser_9889253&quot;&gt;Icon&lt;/a&gt; made by &lt;a href=&quot;https://www.flaticon.com/authors/muhammad-atif&quot;&gt;Muhammad Atif&lt;/a&gt; from &lt;a href=&quot;https://www.flaticon.com&quot;&gt;www.flaticon.com&lt;/a&gt;. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 06 May 2023 00:00:00 +0330</pubDate>
+        <link>https://nima.ninja/links/2023/stanford-web-security-course</link>
+        <guid isPermaLink="true">https://nima.ninja/links/2023/stanford-web-security-course</guid>
+        
+        <category>links</category>
+        
+        
+        <category>Web Applications</category>
+        
+        <category>Web Application Security</category>
+        
+        <category>Hacking</category>
+        
+        <category>Courses</category>
+        
+      </item>
+    
+      <item>
         <title>ChatGPT for Bug Bounty: Faster Hunting and Reporting</title>
         <description>&lt;p&gt;&lt;img src=&quot;/links/assets/ai.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt; &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt; &lt;p&gt;Nice sample prompts that will give you some ideas on how to use ChatGPT more effectively for Bug Hunting.&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;external-links&quot;&gt;&lt;em&gt;External Links&lt;/em&gt;&lt;/h3&gt; &lt;hr /&gt; &lt;ul&gt; &lt;li&gt; &lt;h4 id=&quot;chatgpt-for-bug-bounty-faster-hunting-and-reporting&quot;&gt;&lt;a href=&quot;https://infosecwriteups.com/chatgpt-for-bug-bounty-faster-hunting-and-reporting-ad8b556f79f3&quot;&gt;ChatGPT for Bug Bounty: Faster Hunting and Reporting&lt;/a&gt;&lt;/h4&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;references&quot;&gt;&lt;em&gt;References&lt;/em&gt;&lt;/h3&gt; &lt;hr /&gt; &lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt; &lt;ol&gt; &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.flaticon.com/free-icon/interaction_9626711&quot;&gt;Icon&lt;/a&gt; made by &lt;a href=&quot;https://www.flaticon.com/authors/freepik&quot;&gt;Freepik&lt;/a&gt; from &lt;a href=&quot;https://www.flaticon.com&quot;&gt;www.flaticon.com&lt;/a&gt;. &lt;a href=&quot;#fnref:1&quot;...</description>
-        <pubDate>Tue, 25 Apr 2023 00:00:00 +0430</pubDate>
+        <pubDate>Tue, 25 Apr 2023 00:00:00 +0330</pubDate>
         <link>https://nima.ninja/links/2023/chatgpt-for-bug-bounty-faster-hunting-and-reporting</link>
         <guid isPermaLink="true">https://nima.ninja/links/2023/chatgpt-for-bug-bounty-faster-hunting-and-reporting</guid>
         
@@ -62,7 +107,7 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Tue, 25 Apr 2023 00:00:00 +0430</pubDate>
+        <pubDate>Tue, 25 Apr 2023 00:00:00 +0330</pubDate>
         <link>https://nima.ninja/links/2023/beginner-s-guide-to-oscp-2023</link>
         <guid isPermaLink="true">https://nima.ninja/links/2023/beginner-s-guide-to-oscp-2023</guid>
         
@@ -88,7 +133,7 @@
       <item>
         <title>Expert Lab: Server-side Template Injection with a Custom Exploit</title>
         <description>&lt;p&gt;&lt;br /&gt; &lt;img src=&quot;/blog/assets/ssti-custom-exploit-twig.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt; &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;lab-link&quot;&gt;Lab Link&lt;/h3&gt; &lt;p&gt;&lt;a href=&quot;https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-with-a-custom-exploit&quot;&gt;Lab: Server-side template injection with a custom exploit&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;lab-description&quot;&gt;Lab Description&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;&lt;br /&gt; This lab is vulnerable to server-side template injection&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. To solve the lab, create a custom exploit to delete the file &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/.ssh/id_rsa&lt;/code&gt; from Carlos’s home directory.&lt;/p&gt; &lt;p&gt;You can log in to your...</description>
-        <pubDate>Mon, 24 Apr 2023 00:00:00 +0430</pubDate>
+        <pubDate>Mon, 24 Apr 2023 00:00:00 +0330</pubDate>
         <link>https://nima.ninja/blog/2023/expert-lab-server-side-template-injection-with-a-custom-exploit</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2023/expert-lab-server-side-template-injection-with-a-custom-exploit</guid>
         
@@ -232,7 +277,7 @@
       <item>
         <title>Lab: Exploiting PHP deserialization with a pre-built gadget chain</title>
         <description>&lt;p&gt;&lt;br /&gt; &lt;img src=&quot;/blog/assets/supply-chain.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt; &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;lab-link&quot;&gt;Lab Link&lt;/h3&gt; &lt;p&gt;&lt;a href=&quot;https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-exploiting-php-deserialization-with-a-pre-built-gadget-chain&quot;&gt;Lab: Exploiting PHP deserialization with a pre-built gadget chain&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;lab-description&quot;&gt;Lab Description&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;&lt;br /&gt; This lab has a serialization-based session mechanism that uses a signed cookie. It also uses a common PHP framework. Although you don’t have source code access, you can still exploit this lab’s insecure deserialization&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot;...</description>
-        <pubDate>Thu, 11 Aug 2022 00:00:00 +0430</pubDate>
+        <pubDate>Thu, 11 Aug 2022 00:00:00 +0330</pubDate>
         <link>https://nima.ninja/blog/2022/exploiting-php-deserialization-with-a-pre-built-gadget-chain</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2022/exploiting-php-deserialization-with-a-pre-built-gadget-chain</guid>
         
@@ -254,28 +299,6 @@
         <category>PHP</category>
         
         <category>PHPGGC</category>
-        
-      </item>
-    
-      <item>
-        <title>Cross-site WebSocket hijacking (CSWSH)</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/links/assets/socket-icon.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt; &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt; &lt;p&gt;See the first link below to become familiar with various Cross-site WebSocket hijacking (CSWSH) attacks.&lt;/p&gt; &lt;p&gt;If you are not familiar with Websocket vulnerabilities, take a look at the second link for more details.&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;external-links&quot;&gt;&lt;em&gt;External Links&lt;/em&gt;&lt;/h3&gt; &lt;hr /&gt; &lt;ul&gt; &lt;li&gt; &lt;h4 id=&quot;cross-site-websocket-hijacking-cswsh&quot;&gt;&lt;a href=&quot;https://book.hacktricks.xyz/pentesting-web/cross-site-websocket-hijacking-cswsh&quot;&gt;Cross-site WebSocket hijacking (CSWSH)&lt;/a&gt;&lt;/h4&gt; &lt;/li&gt; &lt;li&gt; &lt;h4 id=&quot;testing-for-websockets-security-vulnerabilities&quot;&gt;&lt;a href=&quot;https://portswigger.net/web-security/websockets&quot;&gt;Testing for WebSockets security vulnerabilities&lt;/a&gt;&lt;/h4&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;references&quot;&gt;&lt;em&gt;References&lt;/em&gt;&lt;/h3&gt;...</description>
-        <pubDate>Thu, 07 Jul 2022 00:00:00 +0430</pubDate>
-        <link>https://nima.ninja/links/2022/cross-site-websocket-hijacking-cswsh</link>
-        <guid isPermaLink="true">https://nima.ninja/links/2022/cross-site-websocket-hijacking-cswsh</guid>
-        
-        <category>links</category>
-        
-        
-        <category>Web Application Security</category>
-        
-        <category>Web Security Academy</category>
-        
-        <category>Websockets</category>
-        
-        <category>Cross-Site Request Forgery</category>
-        
-        <category>CSRF</category>
         
       </item>
     
