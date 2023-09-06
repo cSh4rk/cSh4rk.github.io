@@ -1,12 +1,16 @@
-# cSh4rk.github.io
+## The Hacker Theme, Shark Edition ☕
 
-* * *
+This is an updated version of [The Hacker-Blog Theme](https://github.com/tocttou/hacker-blog) which itself is a modified version of [Hacker Theme](https://github.com/pages-themes/hacker), a minimalistic, responsive jekyll theme built for hackers.
 
-## Theme
+In this edition of the Hacker Theme: 
 
-This is a modified and enhanced version of [The Hacker-Blog Theme](https://github.com/tocttou/hacker-blog) which is also a modified version of [Hacker Theme](https://github.com/pages-themes/hacker), a minimalistic, responsive jekyll theme built for hackers.
+✔ Some parts of page styles are edited and enhanced and some additional features such as post tags, site footer, responsive classes, post references, additional social media options, additional post categories... are added.
 
-In my enhanced version, some parts of page styles are edited and enhanced and also some additional features such as tags, footer, responsive classes... are added. Also some bugs in the original theme are fixed. Feel free to use this theme.
+✔ Multiple bugs in the original theme are fixed. 
+
+✔ Updates and improvements are constantly coming, and new bugs are getting fixed when found.
+
+All changes are made with ❤, Feel free to use this updated edition.
 
 ## Technology Introduction
 
@@ -39,9 +43,9 @@ There are three different methods to use a custom, pre-built Jekyll theme on you
 
   The downside is [Github-Pages only supports a limited number of themes that you can choose](https://pages.github.com/themes/), each theme has its own Gem files and [not all  Gem files are supported by Github Pages](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll#plugins), so you cannot use  every Jekyll theme that you see online. If you like one of the themes that Github-Pages supports, use this method.
 
-3) Use whatever Jekyll theme you see and like on the web with any custom Gem files then Jekyll build your website locally, preferably on a different branch, for example mine is named "gh-pages" branch, then use this branch instead of master/main branch for Github pages website, in this branch you have the Jekyll built website files: no Ruby Gem files and only html (no Markdown md files either).
+3) Use whatever Jekyll theme you see and like on the web with any custom Gem files then Jekyll build your website locally, preferably on a different branch, for example mine is named `gh-pages` branch, then use this branch instead of master/main branch for Github pages website, in this branch you have the Jekyll built website files: no Ruby Gem files and only html (no Markdown md files either).
 
-In other words in this way you work with two branches, the main/master branch is used for your local editing and website changes and seeing your changes locally with "bundle exec Jekyll serve" command, then when finished editing, build your website with "bundle exec Jekyll build" (always use [bundler](https://jekyllrb.com/docs/ruby-101/#bundler) to handle your Gem file dependencies and avoid dependency hell), then your website files are ready in a "_site" folder, use the contents of this folder in your second branch (for example gh-pages) for your website files.
+In other words in this way you work with two branches, the main/master branch is used for your local editing and website changes and seeing your changes locally with `bundle exec Jekyll serve` command, then when finished editing, build your website with `bundle exec Jekyll build` (always use [bundler](https://jekyllrb.com/docs/ruby-101/#bundler) to handle your Gem file dependencies and avoid dependency hell), then your website files are ready in a `_site` folder, use the contents of this folder in your second branch (for example gh-pages) for your website files.
 
 ## Notes
 
