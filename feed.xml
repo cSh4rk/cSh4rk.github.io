@@ -5,8 +5,8 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 07 Feb 2024 11:39:01 -0800</pubDate>
-    <lastBuildDate>Wed, 07 Feb 2024 11:39:01 -0800</lastBuildDate>
+    <pubDate>Wed, 07 Feb 2024 15:59:12 -0500</pubDate>
+    <lastBuildDate>Wed, 07 Feb 2024 15:59:12 -0500</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
@@ -42,7 +42,7 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Sat, 06 May 2023 00:00:00 -0800</pubDate>
+        <pubDate>Sat, 06 May 2023 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/links/2023/stanford-web-security-course</link>
         <guid isPermaLink="true">https://nima.ninja/links/2023/stanford-web-security-course</guid>
         
@@ -62,7 +62,7 @@
       <item>
         <title>ChatGPT for Bug Bounty: Faster Hunting and Reporting</title>
         <description>&lt;p&gt;&lt;img src=&quot;/links/assets/ai.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt; &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt; &lt;p&gt;Nice sample prompts that will give you some ideas on how to use ChatGPT more effectively for Bug Hunting.&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;external-links&quot;&gt;&lt;em&gt;External Links&lt;/em&gt;&lt;/h3&gt; &lt;hr /&gt; &lt;ul&gt; &lt;li&gt; &lt;h4 id=&quot;chatgpt-for-bug-bounty-faster-hunting-and-reporting&quot;&gt;&lt;a href=&quot;https://infosecwriteups.com/chatgpt-for-bug-bounty-faster-hunting-and-reporting-ad8b556f79f3&quot;&gt;ChatGPT for Bug Bounty: Faster Hunting and Reporting&lt;/a&gt;&lt;/h4&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;references&quot;&gt;&lt;em&gt;References&lt;/em&gt;&lt;/h3&gt; &lt;hr /&gt; &lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt; &lt;ol&gt; &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.flaticon.com/free-icon/interaction_9626711&quot;&gt;Icon&lt;/a&gt; made by &lt;a href=&quot;https://www.flaticon.com/authors/freepik&quot;&gt;Freepik&lt;/a&gt; from &lt;a href=&quot;https://www.flaticon.com&quot;&gt;www.flaticon.com&lt;/a&gt;. &lt;a href=&quot;#fnref:1&quot;...</description>
-        <pubDate>Tue, 25 Apr 2023 00:00:00 -0800</pubDate>
+        <pubDate>Tue, 25 Apr 2023 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/links/2023/chatgpt-for-bug-bounty-faster-hunting-and-reporting</link>
         <guid isPermaLink="true">https://nima.ninja/links/2023/chatgpt-for-bug-bounty-faster-hunting-and-reporting</guid>
         
@@ -107,7 +107,7 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Tue, 25 Apr 2023 00:00:00 -0800</pubDate>
+        <pubDate>Tue, 25 Apr 2023 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/links/2023/beginner-s-guide-to-oscp-2023</link>
         <guid isPermaLink="true">https://nima.ninja/links/2023/beginner-s-guide-to-oscp-2023</guid>
         
@@ -133,7 +133,7 @@
       <item>
         <title>Expert Lab: Server-side Template Injection with a Custom Exploit</title>
         <description>&lt;p&gt;&lt;br /&gt; &lt;img src=&quot;/blog/assets/ssti-custom-exploit-twig.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt; &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;lab-link&quot;&gt;Lab Link&lt;/h3&gt; &lt;p&gt;&lt;a href=&quot;https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-with-a-custom-exploit&quot;&gt;Lab: Server-side template injection with a custom exploit&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;lab-description&quot;&gt;Lab Description&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;&lt;br /&gt; This lab is vulnerable to server-side template injection&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. To solve the lab, create a custom exploit to delete the file &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/.ssh/id_rsa&lt;/code&gt; from Carlos’s home directory.&lt;/p&gt; &lt;p&gt;You can log in to your...</description>
-        <pubDate>Mon, 24 Apr 2023 00:00:00 -0800</pubDate>
+        <pubDate>Mon, 24 Apr 2023 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/blog/2023/expert-lab-server-side-template-injection-with-a-custom-exploit</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2023/expert-lab-server-side-template-injection-with-a-custom-exploit</guid>
         
@@ -159,7 +159,7 @@
       <item>
         <title>Expert Lab: Developing a custom gadget chain for PHP deserialization</title>
         <description>&lt;p&gt;&lt;br /&gt; &lt;img src=&quot;/blog/assets/supply-chain2.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt; &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;lab-link&quot;&gt;Lab Link&lt;/h3&gt; &lt;p&gt;&lt;a href=&quot;https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-developing-a-custom-gadget-chain-for-php-deserialization&quot;&gt;Lab: Developing a custom gadget chain for PHP deserialization&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;lab-description&quot;&gt;Lab Description&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;&lt;br /&gt; This lab uses a serialization-based session mechanism. By deploying a custom gadget chain, you can exploit its insecure deserialization to achieve remote code execution. To solve the lab, delete the morale.txt file from Carlos’s home directory.&lt;/p&gt; &lt;p&gt;You...</description>
-        <pubDate>Wed, 18 Jan 2023 00:00:00 -0800</pubDate>
+        <pubDate>Wed, 18 Jan 2023 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/blog/2023/expert-lab-developing-a-custom-gadget-chain-for-php-deserialization</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2023/expert-lab-developing-a-custom-gadget-chain-for-php-deserialization</guid>
         
@@ -185,7 +185,7 @@
       <item>
         <title>Insecure Deserialization - How to trace down a gadget chain - Other examples in Ruby</title>
         <description>&lt;p&gt;&lt;img src=&quot;/links/assets/supply-chain2.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt; &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt; &lt;p&gt;These are some Ruby examples equivalents of my previous post&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;(about gadget chains in PHP), that show the process of finding gadget chains in Ruby programming language; also as mentioned in one of these articles, there may still be some undiscovered gadget chains for cybersecurity researchers to find.&lt;/p&gt; &lt;p&gt;Also there is a Web Security Academy lab to practice these...</description>
-        <pubDate>Sun, 25 Dec 2022 00:00:00 -0800</pubDate>
+        <pubDate>Sun, 25 Dec 2022 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/links/2022/insecure-deserialization-how-to-trace-down-a-gadget-chain-other-examples-in-ruby</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/insecure-deserialization-how-to-trace-down-a-gadget-chain-other-examples-in-ruby</guid>
         
@@ -211,7 +211,7 @@
       <item>
         <title>Insecure Deserialization - How to trace down a gadget chain</title>
         <description>&lt;p&gt;&lt;img src=&quot;/links/assets/supply-chain.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt; &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt; &lt;p&gt;This article explains clearly the process of finding a sample gadget chain and then writing a small code to build the payload for insecure deserialization exploitation in cases where there are no existing pre-built gadget chains.&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;external-links&quot;&gt;&lt;em&gt;External Links&lt;/em&gt;&lt;/h3&gt; &lt;hr /&gt; &lt;ul&gt; &lt;li&gt; &lt;h4 id=&quot;insecure-deserialization---how-to-trace-down-a-gadget-chain&quot;&gt;&lt;a href=&quot;https://blog.redteam-pentesting.de/2021/deserialization-gadget-chain/&quot;&gt;Insecure Deserialization - How to trace down a gadget chain&lt;/a&gt;&lt;/h4&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;references&quot;&gt;&lt;em&gt;References&lt;/em&gt;&lt;/h3&gt;...</description>
-        <pubDate>Fri, 23 Dec 2022 00:00:00 -0800</pubDate>
+        <pubDate>Fri, 23 Dec 2022 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/links/2022/insecure-deserialization-how-to-trace-down-a-gadget-chain</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/insecure-deserialization-how-to-trace-down-a-gadget-chain</guid>
         
@@ -233,7 +233,7 @@
       <item>
         <title>Learn Regex step by step, from zero to advanced</title>
         <description>&lt;p&gt;&lt;img src=&quot;/links/assets/parentheses.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt; &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt; &lt;p&gt;Learning Regex is easier than you think. You can use this tool to easily learn, practice, test and share Regex.&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;external-links&quot;&gt;&lt;em&gt;External Links&lt;/em&gt;&lt;/h3&gt; &lt;hr /&gt; &lt;ul&gt; &lt;li&gt; &lt;h4 id=&quot;learn-regex-step-by-step-from-zero-to-advanced&quot;&gt;&lt;a href=&quot;https://regexlearn.com&quot;&gt;Learn Regex step by step, from zero to advanced.&lt;/a&gt;&lt;/h4&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;references&quot;&gt;&lt;em&gt;References&lt;/em&gt;&lt;/h3&gt; &lt;hr /&gt; &lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt; &lt;ol&gt; &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt; &lt;p&gt;&lt;a href=&quot;https://www.flaticon.com/free-icon/parentheses_7426860&quot;&gt;Icon&lt;/a&gt; made by &lt;a href=&quot;https://www.flaticon.com/authors/freepik&quot;&gt;Freepik&lt;/a&gt; from &lt;a...</description>
-        <pubDate>Sun, 18 Dec 2022 00:00:00 -0800</pubDate>
+        <pubDate>Sun, 18 Dec 2022 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/links/2022/learn-regex-step-by-step-from-zero-to-advanced</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/learn-regex-step-by-step-from-zero-to-advanced</guid>
         
@@ -253,7 +253,7 @@
       <item>
         <title>The God Equation: The Quest for a Theory of Everything</title>
         <description>&lt;p&gt;&lt;img src=&quot;/books/assets/the_god_equation_book.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; Description&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;&lt;strong&gt;#1 NEW YORK TIMES BEST SELLER • The epic story of the greatest quest in all of science—the holy grail of physics that would explain the creation of the universe—from renowned theoretical physicist and author of The Future of the Mind and The Future of Humanity&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;When Newton discovered the law of gravity, he unified the rules governing the...</description>
-        <pubDate>Fri, 16 Sep 2022 00:00:00 -0800</pubDate>
+        <pubDate>Fri, 16 Sep 2022 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/books/2022/the-god-equation-the-quest-for-a-theory-of-everything</link>
         <guid isPermaLink="true">https://nima.ninja/books/2022/the-god-equation-the-quest-for-a-theory-of-everything</guid>
         
@@ -277,7 +277,7 @@
       <item>
         <title>Lab: Exploiting PHP deserialization with a pre-built gadget chain</title>
         <description>&lt;p&gt;&lt;br /&gt; &lt;img src=&quot;/blog/assets/supply-chain.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt; &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;lab-link&quot;&gt;Lab Link&lt;/h3&gt; &lt;p&gt;&lt;a href=&quot;https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-exploiting-php-deserialization-with-a-pre-built-gadget-chain&quot;&gt;Lab: Exploiting PHP deserialization with a pre-built gadget chain&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;lab-description&quot;&gt;Lab Description&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;&lt;br /&gt; This lab has a serialization-based session mechanism that uses a signed cookie. It also uses a common PHP framework. Although you don’t have source code access, you can still exploit this lab’s insecure deserialization&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot;...</description>
-        <pubDate>Thu, 11 Aug 2022 00:00:00 -0800</pubDate>
+        <pubDate>Thu, 11 Aug 2022 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/blog/2022/exploiting-php-deserialization-with-a-pre-built-gadget-chain</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2022/exploiting-php-deserialization-with-a-pre-built-gadget-chain</guid>
         
