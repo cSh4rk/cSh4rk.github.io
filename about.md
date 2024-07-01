@@ -45,7 +45,7 @@ I like almost all technical fields of Cybersecurity but prefer Offensive Securit
 ### Some of my Experiences
 * * *
 
-* In the [PortSwigger's Web Security Academy Hall of Fame](https://portswigger.net/web-security/hall-of-fame) (TOP 50, [Jan 2024: Rank 13](https://web.archive.org/web/20240121103136/https://portswigger.net/web-security/hall-of-fame))
+* In the [PortSwigger's Web Security Academy Hall of Fame](https://portswigger.net/web-security/hall-of-fame) (TOP 50, [Jan 2024: Ranked #13](https://web.archive.org/web/20240121103136/https://portswigger.net/web-security/hall-of-fame))
 
 * Solved most of [Web Security Academy](https://portswigger.net/web-security/learning-path) Labs (more than 260) and really appreciate the great effort they've been putting to prepare this world-class material. Web Security Academy is the best place to learn and get hands-on experience for the latest and most advanced web vulnerabilities and attacks with over 25 different categories. [PortSwigger](https://portswigger.net)'s Research is the best in Web Security and all of their services including Web Security Academy and Burp Suite are highly recommended.
 
@@ -59,7 +59,7 @@ I like almost all technical fields of Cybersecurity but prefer Offensive Securit
 
 * Multiple VoIP Certifications ( ECE: Elastix Certified Engineer, ESM: Elastix Security Master, Asterisk Programming(AMI,AGI, Dial Plans Scripting, PHP, .NET Core APIs...) ).
 
-* Network+, CEH: Certified Ethical Hacker.
+* Knowledge of some basic but important technical courses: Network+, CEH: Certified Ethical Hacker.
 
 * Some Physical Training Certifications: Nutrition, Human Anatomy, Bodybuilding, also years of experience in physical training and Bodybuilding.
 
