@@ -1,11 +1,13 @@
 ---
 layout: page
 title: Contact
-image: /assets/ninja2.jpg
+image: /assets/ninja2.png
 robots: noindex,nofollow
 ---
 
-![](/assets/ninja2.jpg)
+![](/assets/ninja2.png)
+<br>
+<br>
 
 {% if site.social.email %}
   - Email: <a href="mailto:{{ site.social.email }}"><span>{{ site.social.email }}</span></a> {% if site.social.email2 %}or <a href="mailto:{{ site.social.email2 }}"><span>{{ site.social.email2 }}</span></a>{% endif %}
@@ -49,3 +51,8 @@ robots: noindex,nofollow
 {% if site.social.tellonym %}
   - Send Anonymous Message: <a href="https://tellonym.me/{{ site.social.tellonym }}"><span>@{{ site.social.tellonym | replace: "_", "\_" }}</span></a>
 {% endif %}
+
+<br>
+#### _References_
+* * *
+<h6 style="text-transform: none; margin: 15px 0 0 20px;">Icon made by <a href="https://www.flaticon.com/authors/freepik">Freepik</a> from <a href="https://www.flaticon.com">www.flaticon.com</a></h6>

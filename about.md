@@ -9,7 +9,7 @@ robots: noindex,nofollow
 ## ~$ whoami
 * * *
 
-![](/assets/ninja1.png)Hello. My name is Nima, Welcome to my Website!
+![](/assets/ninja1.png) Hello. My name is Nima, Welcome to my Website!
 
 I am a Network Penetration Tester, Web Security Researcher and I also used to be a Software Developer.
 
@@ -96,3 +96,8 @@ I like almost all technical fields of Cybersecurity but prefer Offensive Securit
 ### Other Areas of Interest
 * * *
 <a href="https://portswigger.net/" class="no-decoration"><code class="language-plaintext highlighter-rouge">PortSwigger</code></a>, <a href="https://tryhackme.com/" class="no-decoration"><code class="language-plaintext highlighter-rouge">TryHackMe</code></a>, <a href="https://www.offsec.com/" class="no-decoration"><code class="language-plaintext highlighter-rouge">OffSec</code></a>, `Anonymization`, `Online Privacy and Invisibility`, `OSINT`, `Linux`, `OS Hardening`, `Covert Cyber-Attacks`, `Side-Channel Attacks`, `Bypassing Air-Gaps`, `Automation`, `Github and Open-Source Software`, `CTFs`, `Blockchain`, `ICS`, `AI`, `Quantum Computing`, `Neuroscience`, `Evolution`, `Personal Transformation`, `Performance Improvement`...
+
+<br>
+#### _References_
+* * *
+<h6 style="text-transform: none; margin: 15px 0 0 20px;">Icon made by <a href="https://www.flaticon.com/authors/freepik">Freepik</a> from <a href="https://www.flaticon.com">www.flaticon.com</a></h6>
