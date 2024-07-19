@@ -6,7 +6,7 @@ image: /books/assets/poison4.png
 
 ![](/books/assets/poison4.png)
 <br>
-[^1]
+<br>
 
 Here are my book recommendations:
 
@@ -50,6 +50,6 @@ Here are my book recommendations:
 </section>
 
 <br>
-### _References_
+#### _References_
 * * *
-[^1]: [Icon](https://icons.iconarchive.com/icons/mirella-gabriele/fantasy-mediaeval/128/Poison-green-icon.png) by [mirella.design](https://iconarchive.com/artist/mirella-gabriele.html) is free for non-commercial use.
+<h6 style="text-transform: none; margin: 15px 0 0 20px;">Icon made by <a href="https://iconarchive.com/artist/mirella-gabriele.html">mirella.design</a>.</h6>
