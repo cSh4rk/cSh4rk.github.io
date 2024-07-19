@@ -99,7 +99,7 @@ section {
   margin: 0 0 20px 0;
 }
 
-h1, h2, h3, h4, h5, h6, .postitem {
+h1, h2, h3, h4, h5, h6, .tiny, .postitem {
   margin: 0 0 7px;
 }
 
@@ -157,7 +157,7 @@ section img {
   max-width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, .postitem {
+h1, h2, h3, h4, h5, h6, .tiny, .postitem {
   font-weight: normal;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: #b5e853;
@@ -186,7 +186,7 @@ h1, h2, h3, h4, h5, h6, .postitem {
   margin: 0 0 5px 0;
 }
 
-#main_content h6, #main_content .postitem {
+#main_content h6, #main_content .tiny, #main_content .postitem {
   font-size: 12px;
   text-transform: capitalize;
   color: #999;
@@ -538,6 +538,11 @@ a.footnote:after {
   border-radius: 0.3em;
   padding: 0.3em;
   transition: background-color 0.5s;
+}
+
+.tiny {
+  text-transform: none !important;
+  margin: 0 0 0 20px !important;
 }
 
 /*# sourceMappingURL=main.css.map */
