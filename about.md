@@ -100,4 +100,4 @@ I like almost all technical fields of Cybersecurity but prefer Offensive Securit
 <br>
 #### _References_
 * * *
-<h6 style="text-transform: none; margin: 15px 0 0 20px;">Icon made by <a href="https://www.flaticon.com/authors/freepik">Freepik</a> from <a href="https://www.flaticon.com">www.flaticon.com</a></h6>
+<span class="tiny">Icon made by <a href="https://www.flaticon.com/authors/freepik">Freepik</a> from <a href="https://www.flaticon.com">www.flaticon.com</a></span>

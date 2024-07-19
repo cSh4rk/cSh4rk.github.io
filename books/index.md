@@ -52,4 +52,4 @@ Here are my book recommendations:
 <br>
 #### _References_
 * * *
-<h6 style="text-transform: none; margin: 15px 0 0 20px;">Icon made by <a href="https://iconarchive.com/artist/mirella-gabriele.html">mirella.design</a>.</h6>
+<span class="tiny">Icon made by <a href="https://iconarchive.com/artist/mirella-gabriele.html">mirella.design</a>.</span>
