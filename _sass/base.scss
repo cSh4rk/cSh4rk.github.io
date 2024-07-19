@@ -500,6 +500,14 @@ a.footnote:after {
 .tiny {
   @extend h6;
   text-transform: none !important;
-  margin: 0 0 0 20px !important; 
+  margin: 0 0 0 20px !important;
 }
+
+.tiny-footer {
+  @extend .tiny;
+  margin: 0 0 0 0 !important;
+  font-size: 12px !important;
+  color: #999 !important;
+}
+
 // End of Footnotes
