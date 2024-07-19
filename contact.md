@@ -55,4 +55,4 @@ robots: noindex,nofollow
 <br>
 #### _References_
 * * *
-<span class="tiny">Icon made by <a href="https://www.flaticon.com/authors/freepik">Freepik</a> from <a href="https://www.flaticon.com">www.flaticon.com</a></span>
+<span class="tiny">Icon made by <a href="https://iconarchive.com">Icon Archive</a>.</span>
