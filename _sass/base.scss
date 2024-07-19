@@ -407,11 +407,11 @@ a:active, a:focus {
 
 .icon-small {
   @extend .icon;
+  margin: 0 0 0 5px;
   > svg {
       width: 12px;
       height: 12px;
   }
-  margin: 0 0 0 5px;
 }
 
 .no-decoration {
