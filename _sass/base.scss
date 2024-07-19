@@ -497,4 +497,9 @@ a.footnote:after {
   transition: background-color 0.5s;
 }
 
+.tiny {
+  @extend h6;
+  text-transform: none !important;
+  margin: 0 0 0 20px !important; 
+}
 // End of Footnotes
