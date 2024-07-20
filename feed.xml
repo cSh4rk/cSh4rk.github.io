@@ -20,10 +20,6 @@ layout: null
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>
-          {% if post.image %}
-            <p><img src="{{ site.url }}{{ post.image }}" alt="" /></p>
-          {% endif %}
-          <br />
           <p>{{ post.content | strip_html | truncatewords:50 | replace_first: "1", "" | xml_escape }}</p>
         </description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
