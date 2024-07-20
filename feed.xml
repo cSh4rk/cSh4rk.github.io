@@ -5,8 +5,8 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Jul 2024 19:54:06 -0400</pubDate>
-    <lastBuildDate>Fri, 19 Jul 2024 19:54:06 -0400</lastBuildDate>
+    <pubDate>Fri, 19 Jul 2024 20:05:20 -0400</pubDate>
+    <lastBuildDate>Fri, 19 Jul 2024 20:05:20 -0400</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
@@ -17,10 +17,6 @@
       <item>
         <title>Stanford Web Security Course</title>
         <description>
-          
-            <p><img src="https://nima.ninja/links/assets/websecurity.png" alt="" /></p>
-          
-          <br />
           <p>
 
 
@@ -68,10 +64,6 @@ References
       <item>
         <title>ChatGPT for Bug Bounty: Faster Hunting and Reporting</title>
         <description>
-          
-            <p><img src="https://nima.ninja/links/assets/ai.png" alt="" /></p>
-          
-          <br />
           <p>
 
 
@@ -119,10 +111,6 @@ References
       <item>
         <title>Beginner’s Guide To OSCP 2023</title>
         <description>
-          
-            <p><img src="https://nima.ninja/links/assets/hacker.png" alt="" /></p>
-          
-          <br />
           <p>
 
 
@@ -176,10 +164,6 @@ References
       <item>
         <title>Expert Lab: Server-side Template Injection with a Custom Exploit</title>
         <description>
-          
-            <p><img src="https://nima.ninja/blog/assets/ssti-custom-exploit-twig.png" alt="" /></p>
-          
-          <br />
           <p> Lab Link Lab: Server-side template injection with a custom exploit Lab Description This lab is vulnerable to server-side template injection2. To solve the lab, create a custom exploit to delete the file /.ssh/id_rsa from Carlos’s home directory. You can log in to your own account using the following credentials:...</p>
         </description>
         <pubDate>Mon, 24 Apr 2023 00:00:00 -0400</pubDate>
@@ -208,10 +192,6 @@ References
       <item>
         <title>Expert Lab: Developing a custom gadget chain for PHP deserialization</title>
         <description>
-          
-            <p><img src="https://nima.ninja/blog/assets/supply-chain2.png" alt="" /></p>
-          
-          <br />
           <p> Lab Link Lab: Developing a custom gadget chain for PHP deserialization Lab Description This lab uses a serialization-based session mechanism. By deploying a custom gadget chain, you can exploit its insecure deserialization to achieve remote code execution. To solve the lab, delete the morale.txt file from Carlos’s home directory....</p>
         </description>
         <pubDate>Wed, 18 Jan 2023 00:00:00 -0400</pubDate>
@@ -240,10 +220,6 @@ References
       <item>
         <title>Insecure Deserialization - How to trace down a gadget chain - Other examples in Ruby</title>
         <description>
-          
-            <p><img src="https://nima.ninja/links/assets/supply-chain2.png" alt="" /></p>
-          
-          <br />
           <p> These are some Ruby examples equivalents of my previous post2(about gadget chains in PHP), that show the process of finding gadget chains in Ruby programming language; also as mentioned in one of these articles, there may still be some undiscovered gadget chains for cybersecurity researchers to find. Also there...</p>
         </description>
         <pubDate>Sun, 25 Dec 2022 00:00:00 -0400</pubDate>
@@ -272,10 +248,6 @@ References
       <item>
         <title>Insecure Deserialization - How to trace down a gadget chain</title>
         <description>
-          
-            <p><img src="https://nima.ninja/links/assets/supply-chain.png" alt="" /></p>
-          
-          <br />
           <p> This article explains clearly the process of finding a sample gadget chain and then writing a small code to build the payload for insecure deserialization exploitation in cases where there are no existing pre-built gadget chains. External Links Insecure Deserialization - How to trace down a gadget chain References...</p>
         </description>
         <pubDate>Fri, 23 Dec 2022 00:00:00 -0400</pubDate>
@@ -300,10 +272,6 @@ References
       <item>
         <title>Learn Regex step by step, from zero to advanced</title>
         <description>
-          
-            <p><img src="https://nima.ninja/links/assets/parentheses.png" alt="" /></p>
-          
-          <br />
           <p>
 
 
@@ -351,10 +319,6 @@ References
       <item>
         <title>The God Equation: The Quest for a Theory of Everything</title>
         <description>
-          
-            <p><img src="https://nima.ninja/books/assets/the_god_equation_book.jpg" alt="" /></p>
-          
-          <br />
           <p>Amazon Description #1 NEW YORK TIMES BEST SELLER • The epic story of the greatest quest in all of science—the holy grail of physics that would explain the creation of the universe—from renowned theoretical physicist and author of The Future of the Mind and The Future of Humanity When Newton...</p>
         </description>
         <pubDate>Fri, 16 Sep 2022 00:00:00 -0400</pubDate>
@@ -381,10 +345,6 @@ References
       <item>
         <title>Lab: Exploiting PHP deserialization with a pre-built gadget chain</title>
         <description>
-          
-            <p><img src="https://nima.ninja/blog/assets/supply-chain.png" alt="" /></p>
-          
-          <br />
           <p> Lab Link Lab: Exploiting PHP deserialization with a pre-built gadget chain Lab Description This lab has a serialization-based session mechanism that uses a signed cookie. It also uses a common PHP framework. Although you don’t have source code access, you can still exploit this lab’s insecure deserialization2 using pre-built...</p>
         </description>
         <pubDate>Thu, 11 Aug 2022 00:00:00 -0400</pubDate>
