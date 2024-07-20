@@ -20,7 +20,7 @@ layout: null
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>
-          <p>{{ post.content | strip_html | truncatewords:50 | replace_first: "1", "" | xml_escape }}</p>
+          <p>{{ post.content | strip_html | truncatewords:40 | replace_first: "1", "" | xml_escape | strip_newlines | strip }}</p>
         </description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
