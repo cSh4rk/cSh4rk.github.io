@@ -12,7 +12,7 @@ layout: null
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
     <image>
-     <url>{{ site.url }}/assets/ninja1.png</url>
+     <url>{{ site.url }}/assets/ninja.png</url>
      <title>Diaries of a Modern Ninja</title>
      <link>{{ site.url }}{{ site.baseurl }}</link>
     </image>
