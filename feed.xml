@@ -20,7 +20,7 @@ layout: null
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>
-          <p>{{ post.content | strip_html | truncatewords:40 | replace_first: "1", "" | xml_escape | strip_newlines | strip }}</p>
+          <p>{{ post.content | replace_first: '<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>', "" | xml_escape | truncatewords:30 }}</p>
         </description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
