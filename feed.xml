@@ -5,8 +5,8 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Jul 2024 20:28:25 -0400</pubDate>
-    <lastBuildDate>Fri, 19 Jul 2024 20:28:25 -0400</lastBuildDate>
+    <pubDate>Fri, 19 Jul 2024 21:02:15 -0400</pubDate>
+    <lastBuildDate>Fri, 19 Jul 2024 21:02:15 -0400</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
     <image>
      <url>https://nima.ninja/assets/ninja1.png</url>
@@ -17,7 +17,7 @@
       <item>
         <title>Stanford Web Security Course</title>
         <description>
-          <p>This course is a gold mine for every web application security enthusiast.External Links      Stanford CS 253 Web Security  References            Icon made by Muhammad Atif from www.flaticon.com. &amp;#8617;</p>
+          <p>&lt;p&gt;&lt;img src=&quot;/links/assets/websecurity.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt; &lt;p&gt;This course is a gold mine for every web application security enthusiast.&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;external-links&quot;&gt;&lt;em&gt;External Links&lt;/em&gt;&lt;/h3&gt; &lt;hr /&gt; &lt;ul&gt; &lt;li&gt; &lt;h4 id=&quot;stanford-cs-253-web-security&quot;&gt;&lt;a href=&quot;https://web.stanford.edu/class/cs253/&quot;&gt;Stanford...</p>
         </description>
         <pubDate>Sat, 06 May 2023 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2023/stanford-web-security-course</link>
@@ -39,7 +39,7 @@
       <item>
         <title>ChatGPT for Bug Bounty: Faster Hunting and Reporting</title>
         <description>
-          <p>Nice sample prompts that will give you some ideas on how to use ChatGPT more effectively for Bug Hunting.External Links      ChatGPT for Bug Bounty: Faster Hunting and Reporting  References            Icon made by Freepik from www.flaticon.com. &amp;#8617;</p>
+          <p>&lt;p&gt;&lt;img src=&quot;/links/assets/ai.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt; &lt;p&gt;Nice sample prompts that will give you some ideas on how to use ChatGPT more effectively for Bug Hunting.&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;external-links&quot;&gt;&lt;em&gt;External Links&lt;/em&gt;&lt;/h3&gt;...</p>
         </description>
         <pubDate>Tue, 25 Apr 2023 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2023/chatgpt-for-bug-bounty-faster-hunting-and-reporting</link>
@@ -61,7 +61,7 @@
       <item>
         <title>Beginner’s Guide To OSCP 2023</title>
         <description>
-          <p>A valuable guide for beginners on how to get prepared for the OSCP certification exam.External Links      Beginner’s Guide To OSCP 2023  References            Icon made by Graphiqa from www.flaticon.com. &amp;#8617;</p>
+          <p>&lt;p&gt;&lt;img src=&quot;/links/assets/hacker.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt; &lt;p&gt;A valuable guide for beginners on how to get prepared for the OSCP certification exam.&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;external-links&quot;&gt;&lt;em&gt;External Links&lt;/em&gt;&lt;/h3&gt; &lt;hr /&gt; &lt;ul&gt; &lt;li&gt;...</p>
         </description>
         <pubDate>Tue, 25 Apr 2023 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2023/beginner-s-guide-to-oscp-2023</link>
@@ -89,7 +89,7 @@
       <item>
         <title>Expert Lab: Server-side Template Injection with a Custom Exploit</title>
         <description>
-          <p>Lab Link Lab: Server-side template injection with a custom exploit Lab Description This lab is vulnerable to server-side template injection2. To solve the lab, create a custom exploit to delete the file /.ssh/id_rsa from Carlos’s home directory. You can...</p>
+          <p>&lt;p&gt;&lt;br /&gt; &lt;img src=&quot;/blog/assets/ssti-custom-exploit-twig.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt; &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;lab-link&quot;&gt;Lab Link&lt;/h3&gt; &lt;p&gt;&lt;a href=&quot;https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-with-a-custom-exploit&quot;&gt;Lab: Server-side template injection with a custom exploit&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt;...</p>
         </description>
         <pubDate>Mon, 24 Apr 2023 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/blog/2023/expert-lab-server-side-template-injection-with-a-custom-exploit</link>
@@ -117,7 +117,7 @@
       <item>
         <title>Expert Lab: Developing a custom gadget chain for PHP deserialization</title>
         <description>
-          <p>Lab Link Lab: Developing a custom gadget chain for PHP deserialization Lab Description This lab uses a serialization-based session mechanism. By deploying a custom gadget chain, you can exploit its insecure deserialization to achieve remote code execution. To solve...</p>
+          <p>&lt;p&gt;&lt;br /&gt; &lt;img src=&quot;/blog/assets/supply-chain2.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt; &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;lab-link&quot;&gt;Lab Link&lt;/h3&gt; &lt;p&gt;&lt;a href=&quot;https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-developing-a-custom-gadget-chain-for-php-deserialization&quot;&gt;Lab: Developing a custom gadget chain for PHP deserialization&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;br...</p>
         </description>
         <pubDate>Wed, 18 Jan 2023 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/blog/2023/expert-lab-developing-a-custom-gadget-chain-for-php-deserialization</link>
@@ -145,7 +145,7 @@
       <item>
         <title>Insecure Deserialization - How to trace down a gadget chain - Other examples in Ruby</title>
         <description>
-          <p>These are some Ruby examples equivalents of my previous post2(about gadget chains in PHP), that show the process of finding gadget chains in Ruby programming language; also as mentioned in one of these articles, there may still be some...</p>
+          <p>&lt;p&gt;&lt;img src=&quot;/links/assets/supply-chain2.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt; &lt;p&gt;These are some Ruby examples equivalents of my previous post&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;(about gadget chains in PHP), that show the process of...</p>
         </description>
         <pubDate>Sun, 25 Dec 2022 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2022/insecure-deserialization-how-to-trace-down-a-gadget-chain-other-examples-in-ruby</link>
@@ -173,7 +173,7 @@
       <item>
         <title>Insecure Deserialization - How to trace down a gadget chain</title>
         <description>
-          <p>This article explains clearly the process of finding a sample gadget chain and then writing a small code to build the payload for insecure deserialization exploitation in cases where there are no existing pre-built gadget chains. External Links Insecure...</p>
+          <p>&lt;p&gt;&lt;img src=&quot;/links/assets/supply-chain.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt; &lt;p&gt;This article explains clearly the process of finding a sample gadget chain and then writing a small code to build the payload for insecure...</p>
         </description>
         <pubDate>Fri, 23 Dec 2022 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2022/insecure-deserialization-how-to-trace-down-a-gadget-chain</link>
@@ -197,7 +197,7 @@
       <item>
         <title>Learn Regex step by step, from zero to advanced</title>
         <description>
-          <p>Learning Regex is easier than you think. You can use this tool to easily learn, practice, test and share Regex.External Links      Learn Regex step by step, from zero to advanced.  References            Icon made by Freepik from www.flaticon.com. &amp;#8617;</p>
+          <p>&lt;p&gt;&lt;img src=&quot;/links/assets/parentheses.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt; &lt;p&gt;Learning Regex is easier than you think. You can use this tool to easily learn, practice, test and share Regex.&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;external-links&quot;&gt;&lt;em&gt;External...</p>
         </description>
         <pubDate>Sun, 18 Dec 2022 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2022/learn-regex-step-by-step-from-zero-to-advanced</link>
@@ -219,7 +219,7 @@
       <item>
         <title>The God Equation: The Quest for a Theory of Everything</title>
         <description>
-          <p>Amazon Description #1 NEW YORK TIMES BEST SELLER • The epic story of the greatest quest in all of science—the holy grail of physics that would explain the creation of the universe—from renowned theoretical physicist and author of The Future...</p>
+          <p>&lt;p&gt;&lt;img src=&quot;/books/assets/the_god_equation_book.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;amazon-description&quot;&gt;Amazon&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; Description&lt;/h3&gt; &lt;hr /&gt; &lt;p&gt;&lt;strong&gt;#1 NEW YORK TIMES BEST SELLER • The epic story of the greatest quest...</p>
         </description>
         <pubDate>Fri, 16 Sep 2022 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/books/2022/the-god-equation-the-quest-for-a-theory-of-everything</link>
@@ -245,7 +245,7 @@
       <item>
         <title>Lab: Exploiting PHP deserialization with a pre-built gadget chain</title>
         <description>
-          <p>Lab Link Lab: Exploiting PHP deserialization with a pre-built gadget chain Lab Description This lab has a serialization-based session mechanism that uses a signed cookie. It also uses a common PHP framework. Although you don’t have source code access,...</p>
+          <p>&lt;p&gt;&lt;br /&gt; &lt;img src=&quot;/blog/assets/supply-chain.png&quot; alt=&quot;&quot; /&gt; &lt;br /&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;lab-link&quot;&gt;Lab Link&lt;/h3&gt; &lt;p&gt;&lt;a href=&quot;https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-exploiting-php-deserialization-with-a-pre-built-gadget-chain&quot;&gt;Lab: Exploiting PHP deserialization with a pre-built gadget chain&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;lab-description&quot;&gt;Lab Description&lt;/h3&gt; &lt;hr /&gt;...</p>
         </description>
         <pubDate>Thu, 11 Aug 2022 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/blog/2022/exploiting-php-deserialization-with-a-pre-built-gadget-chain</link>
