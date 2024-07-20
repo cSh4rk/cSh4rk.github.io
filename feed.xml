@@ -16,7 +16,7 @@ layout: null
      <title>Diaries of a Modern Ninja</title>
      <link>{{ site.url }}{{ site.baseurl }}</link>
     </image>
-    {% for post in site.posts limit:10 %}
+    {% for post in site.posts limit:40 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>
