@@ -3,7 +3,7 @@ title: "Beginner’s Guide To OSCP 2023"
 published: true
 tags: [Penetration Testing, Hacking, Prerequisite, Newcomers, Offsec, Certifications, OSCP]
 image: /links/assets/hacker.png
-description: "External Link: A valuable guide for beginners on how to get prepared for the OSCP certification exam."
+description: "A valuable guide for beginners on how to get prepared for the OSCP certification exam."
 ---
 
 ![](/links/assets/hacker.png)

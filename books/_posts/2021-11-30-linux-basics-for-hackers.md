@@ -4,7 +4,7 @@ published: true
 date: 2021-11-30 00:00:02
 tags: [OccupyTheWeb, Linux, Hacking, Prerequisite, Newcomers, Top Book]
 image: /books/assets/linux_basics_for_hackers_book.jpg
-description: "Book Description: This practical, tutorial-style book uses the Kali Linux distribution to teach Linux basics with a focus on how hackers would use them. Topics include Linux command line basics, filesystems, networking, BASH basics, package management, logging, and the Linux kernel and drivers."
+description: "This practical, tutorial-style book uses the Kali Linux distribution to teach Linux basics with a focus on how hackers would use them. Topics include Linux command line basics, filesystems, networking, BASH basics, package management, logging, and the Linux kernel and drivers."
 ---
 
 ![](/books/assets/linux_basics_for_hackers_book.jpg)

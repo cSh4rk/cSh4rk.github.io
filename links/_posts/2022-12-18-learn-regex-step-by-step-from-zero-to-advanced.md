@@ -3,7 +3,7 @@ title: "Learn Regex step by step, from zero to advanced"
 published: true
 tags: [Regex, Useful Skills, Programming, Linux]
 image: /links/assets/parentheses.png
-description: "External Link: Learning Regex is easier than you think. You can use this tool to easily learn, practice, test and share Regex."
+description: "Learning Regex is easier than you think. You can use this tool to easily learn, practice, test and share Regex."
 ---
 
 ![](/links/assets/parentheses.png)

@@ -3,7 +3,7 @@ title: "Cross-site WebSocket hijacking (CSWSH)"
 published: true
 tags: [Web Application Security, Web Security Academy, Websockets, Cross-Site Request Forgery, CSRF]
 image: /links/assets/websocket.png
-description: "External Link: Introduction to some WebSocket vulnerabilities."
+description: "Introduction to some WebSocket vulnerabilities."
 ---
 
 ![](/links/assets/websocket.png)

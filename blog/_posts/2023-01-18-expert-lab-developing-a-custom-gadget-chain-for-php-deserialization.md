@@ -3,7 +3,7 @@ title: "Expert Lab: Developing a custom gadget chain for PHP deserialization"
 published: true
 tags: [Web Application Security, Web Security Academy, Expert Labs, Insecure Deserialization, Remote Code Execution, Gadget Chains, PHP]
 image: /blog/assets/supply-chain2.png
-description: "Solution for the Expert Lab, Lab Description: This lab uses a serialization-based session mechanism. By deploying a custom gadget chain, you can exploit its insecure deserialization to achieve remote code execution."
+description: "Lab Description: This lab uses a serialization-based session mechanism. By deploying a custom gadget chain, you can exploit its insecure deserialization to achieve remote code execution."
 ---
 
 <br>

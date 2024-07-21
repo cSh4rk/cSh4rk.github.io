@@ -3,7 +3,7 @@ title: "Duolingo: An Effective Way to Learn a New Language"
 published: true
 tags: [Languages, Learning Languages]
 image: /links/assets/duolingo.png
-description: "External Link: Duolingo is a very fun and effective way to learn a new language."
+description: "Duolingo is a very fun and effective way to learn a new language."
 ---
 
 ![](/links/assets/duolingo.png)

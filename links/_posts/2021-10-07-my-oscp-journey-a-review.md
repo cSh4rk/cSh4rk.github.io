@@ -3,7 +3,7 @@ title: "My OSCP Journey -  A Review"
 published: true
 tags: [Penetration Testing, Hacking, Offsec, Certifications, OSCP, Hack the Box]
 image: /links/assets/oscp.png
-description: "External Link: Great tips on how to pass the OSCP exam."
+description: "Great tips on how to pass the OSCP exam."
 ---
 
 ![](/links/assets/oscp.png)

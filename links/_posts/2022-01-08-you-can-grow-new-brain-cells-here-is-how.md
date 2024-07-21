@@ -3,7 +3,7 @@ title: "TED Talk: Your Can Grow New Brain Cells. Here is How"
 published: true
 tags: [Neuroscience, Neurogenesis, Performance Improvement]
 image: /links/assets/powerfulbrain.png
-description: "External Link: Can we, as adults, grow new neurons? Neuroscientist Sandrine Thuret says that we can, and she offers research and practical advice on how we can help our brains better perform neurogenesis, improving mood, increasing memory formation and preventing the decline associated with aging along the way."
+description: "Can we, as adults, grow new neurons? Neuroscientist Sandrine Thuret says that we can, and she offers research and practical advice on how we can help our brains better perform neurogenesis, improving mood, increasing memory formation and preventing the decline associated with aging along the way."
 ---
 
 ![](/links/assets/powerfulbrain.png)

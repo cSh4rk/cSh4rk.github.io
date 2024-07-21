@@ -3,7 +3,7 @@ title: "The Talent Code: Greatness Isn't Born. It's Grown. Here's How."
 published: true
 tags: [Neuroscience, Personal Transformation, Psychology, Creativity, Genius]
 image: /books/assets/the_talent_code.jpg
-description: "Book Description: What is the secret of talent? How do we unlock it? In this groundbreaking work, journalist and New York Times bestselling author Daniel Coyle provides parents, teachers, coaches, businesspeople—and everyone else—with tools they can use to maximize potential in themselves and others."
+description: "What is the secret of talent? How do we unlock it? In this groundbreaking work, journalist and New York Times bestselling author Daniel Coyle provides parents, teachers, coaches, businesspeople—and everyone else—with tools they can use to maximize potential in themselves and others."
 ---
 
 ![](/books/assets/the_talent_code.jpg)
