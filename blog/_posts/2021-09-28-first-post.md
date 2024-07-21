@@ -1,11 +1,11 @@
 ---
 title: "My First Post!"
 published: true
-tags: [Fun, Panda, Darth Vader, Memes]
-image: /blog/assets/panda1.jpg
+tags: [First Post, Fun]
+image: /blog/assets/sapling.png
 description: "This is my first post on my website!"
 ---
 
-![](/blog/assets/panda1.jpg)
+![](/blog/assets/sapling.png)
 
-This is my first post!!
+This is my first post!
