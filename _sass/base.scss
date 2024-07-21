@@ -422,6 +422,10 @@ a:active, a:focus {
   }*/
 }
 
+.default-color {
+  color: $body-foreground !important;
+}
+
 #wrapper {
   min-height: calc(100vh - 100px);
 }
