@@ -9,7 +9,7 @@ description: "Here I talk about anything, mostly technical topics."
 <br>
 <br>
 
-Here I talk about anything, mostly technical topics:
+<h3 class="no-decoration">Here I talk about anything, mostly technical topics:</h3>
 
 <br>
 <section>

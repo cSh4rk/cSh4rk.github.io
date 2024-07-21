@@ -9,7 +9,7 @@ description: "Here I share web links that I've found interesting."
 <br>
 <br>
 
-Here I share web links that I've found interesting:
+<h3 class="no-decoration">Here I share web links that I've found interesting:</h3>
 
 <br>
 <section>

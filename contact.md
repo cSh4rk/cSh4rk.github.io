@@ -10,6 +10,9 @@ description: "Contact me through one of these channels."
 <br>
 <br>
 
+<h3 class="no-decoration">Contact me through one of these channels:</h3>
+<br>
+
 {% if site.social.email %}
   - Email: <a href="mailto:{{ site.social.email }}"><span>{{ site.social.email }}</span></a> {% if site.social.email2 %}or <a href="mailto:{{ site.social.email2 }}"><span>{{ site.social.email2 }}</span></a>{% endif %}
 {% endif %}

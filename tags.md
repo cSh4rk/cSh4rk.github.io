@@ -10,7 +10,7 @@ description: "Search through all the topics and tags included in website posts."
 <br>
 <br>
 
-Search through all the topics and tags included in website posts:
+<h3 class="no-decoration">Search through all the topics and tags included in website posts:</h3>
 
 <br>
 <ul>

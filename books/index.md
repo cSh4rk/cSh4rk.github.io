@@ -9,7 +9,7 @@ description: "Here are my book recommendations."
 <br>
 <br>
 
-Here are my book recommendations:
+<h3 class="no-decoration">Here are my book recommendations:</h3>
 
 <br>
 <section>
