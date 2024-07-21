@@ -2,6 +2,7 @@
 layout: page
 title: Links
 image: /links/assets/poison5.png
+description: "Here I share web links that I've found interesting."
 ---
 
 ![](/links/assets/poison5.png)

@@ -4,6 +4,7 @@ published: true
 date: 2021-10-30 00:00:00
 tags: [Obsidian, Knowledge Base, Personal Knowledge Management, Note Taking, Markdown]
 image: /blog/assets/obsidian1.png
+description: "Here are some details about this gorgeous modern note taking and knowledge management app."
 ---
 
 ![](/blog/assets/obsidian1.png)

@@ -3,6 +3,7 @@ title: "Insecure Deserialization - How to trace down a gadget chain - Other exam
 published: true
 tags: [Web Application Security, Web Security Academy, Labs, Insecure Deserialization, Remote Code Execution, Gadget Chains, Ruby]
 image: /links/assets/supply-chain2.png
+description: "External Link: These are some Ruby examples that show the process of finding gadget chains in Ruby programming language."
 ---
 
 ![](/links/assets/supply-chain2.png)
@@ -22,6 +23,6 @@ Also there is a Web Security Academy lab to practice these types of documented g
 <br>
 ### _References_
 * * *
-[^1]: [Icon](https://www.flaticon.com/free-icon/supply-chain_4905154) made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com).
+[^1]: Icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)
 [^2]: [Insecure Deserialization - How to trace down a gadget chain](/links/2022/insecure-deserialization-how-to-trace-down-a-gadget-chain)
 [^3]: [Lab: Exploiting Ruby deserialization using a documented gadget chain](https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-exploiting-ruby-deserialization-using-a-documented-gadget-chain)

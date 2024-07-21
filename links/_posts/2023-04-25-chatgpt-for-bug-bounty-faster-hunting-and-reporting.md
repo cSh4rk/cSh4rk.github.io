@@ -3,6 +3,7 @@ title: "ChatGPT for Bug Bounty: Faster Hunting and Reporting"
 published: true
 tags: [Web Application Security, Bug Bounty, AI, ChatGPT]
 image: /links/assets/ai.png
+description: "External Link: Nice sample prompts that will give you some ideas on how to use ChatGPT more effectively for Bug Hunting."
 ---
 
 ![](/links/assets/ai.png)
@@ -19,4 +20,4 @@ Nice sample prompts that will give you some ideas on how to use ChatGPT more eff
 <br>
 ### _References_
 * * *
-[^1]: [Icon](https://www.flaticon.com/free-icon/interaction_9626711) made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com).
+[^1]: Icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)

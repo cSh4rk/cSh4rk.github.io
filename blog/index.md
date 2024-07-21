@@ -2,6 +2,7 @@
 layout: page
 title: Blog
 image: /blog/assets/poison3.png
+description: "Here I talk about anything, mostly technical topics."
 ---
 
 ![](/blog/assets/poison3.png)

@@ -2,10 +2,11 @@
 title: "11 Neurosciece Hacks to Wire Your Brain for Success"
 published: true
 tags: [Neuroscience, Performance Improvement, Biohacks]
-image: /links/assets/bulb-icon.png
+image: /links/assets/neurosciencehacks.png
+description: "External Link: A few simple but very important daily hacks for a sharper brain."
 ---
 
-![](/links/assets/bulb-icon.png)
+![](/links/assets/neurosciencehacks.png)
 <br>
 [^1]
 
@@ -19,4 +20,4 @@ A few simple but very important daily hacks for a sharper brain.
 <br>
 ### _References_
 * * *
-[^1]: [Icon](https://icons.iconarchive.com/icons/vexels/office/256/bulb-icon.png) by [Vexels](https://iconarchive.com/artist/vexels.html) is licensed under [Linkware](https://www.vexels.com/).
+[^1]: Icon made by [Paul J.](https://www.flaticon.com/authors/paul-j) from [www.flaticon.com](https://www.flaticon.com/)

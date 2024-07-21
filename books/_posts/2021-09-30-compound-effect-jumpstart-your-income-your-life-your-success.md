@@ -3,6 +3,7 @@ title: "The Compound Effect: Jumpstart Your Income, Your Life, Your Success"
 published: true
 tags: [Personal Transformation, Performance Improvement, Top Book]
 image: /books/assets/compoundeffect_book.jpg
+description: "Book Description: Do you want success? More success than you have now? And even more success than you ever imagined possible? That is what this book is about. Achieving it."
 ---
 
 ![](/books/assets/compoundeffect_book.jpg)

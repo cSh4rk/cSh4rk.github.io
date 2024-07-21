@@ -3,6 +3,7 @@ title: "Expert Lab: Reflected XSS in a JavaScript URL with some characters block
 published: true
 tags: [Web Application Security, Web Security Academy, Expert Labs, Cross-Site Scripting, XSS, Javascript]
 image: /blog/assets/hacker.png
+description: "Solution for the Expert Lab, Lab Description: This lab reflects your input in a JavaScript URL, but all is not as it seems. This initially seems like a trivial challenge; however, the application is blocking some characters in an attempt to prevent XSS attacks."
 ---
 
 <br>
@@ -153,6 +154,6 @@ As explained in Solution 1: `/**/` is used to bypass space restriction, also cli
 <br>
 ### _References_
 * * *
-[^1]: [Icon](https://www.flaticon.com/free-icon/hacker_3104024) made by [Flat Icons](https://www.flaticon.com/authors/flat-icons) from [www.flaticon.com](https://www.flaticon.com).
+[^1]: Icon made by [Flat Icons](https://www.flaticon.com/authors/flat-icons) from [www.flaticon.com](https://www.flaticon.com/)
 [^2]: [Javascript window object, window+'', what does this code do](https://stackoverflow.com/questions/64416874/javascript-window-object-window-what-does-this-code-do)
 [^3]: [JavaScript without parentheses using DOMMatrix](https://portswigger.net/research/javascript-without-parentheses-using-dommatrix), also see: [XSS without parentheses and semi-colons](https://portswigger.net/research/xss-without-parentheses-and-semi-colons)

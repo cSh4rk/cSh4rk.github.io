@@ -3,6 +3,7 @@ title: "Hide Malicious Shell in Image File"
 published: true
 tags: [Web Application Security, Web Security Academy, Labs, File Upload Vulnerabilities, Malicious Metadata, Exiftool]
 image: /links/assets/beach.png
+description: "External Link: There are many ways to bypass flawed validation of file uploads to upload web shells on web applications, this link explains some ways like creating a polyglot image file containing malicious code in its metadata using tools like exiftool, this method is interesting, check it out."
 ---
 
 ![](/links/assets/beach.png)
@@ -22,4 +23,4 @@ Also you can practice this vulnerability in Web Security Academy, check the link
 <br>
 ### _References_
 * * *
-[^1]: [Icon](https://www.flaticon.com/free-icon/beach_4866977) made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com).
+[^1]: Icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)

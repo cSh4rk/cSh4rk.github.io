@@ -4,6 +4,7 @@ published: true
 date: 2021-11-30 00:00:01
 tags: [EC-Council, CEH, Certifications, Hacking, Prerequisite, Newcomers]
 image: /books/assets/ceh_book.jpg
+description: "Book Description: As protecting information continues to be a growing concern for today’s businesses, certifications in IT security have become highly desirable, even as the number of certifications has grown. Now you can set yourself apart with the Certified Ethical Hacker (CEH v11) certification. The CEH v11 Certified Ethical Hacker Study Guide offers a comprehensive overview of the CEH certification requirements using concise and easy-to-follow instructions."
 ---
 
 ![](/books/assets/ceh_book.jpg)

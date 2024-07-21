@@ -3,6 +3,7 @@ title: "Expert Lab: Web Shell Upload via Race Condition"
 published: true
 tags: [Web Application Security, Web Security Academy, Expert Labs, File Upload Vulnerabilities, Race Condition Vulnerabilities, Turbo Intruder, Exiftool]
 image: /blog/assets/console.png
+description: "Solution for the Expert Lab, Lab Description: This lab contains a vulnerable image upload function. Although it performs robust validation on any files that are uploaded, it is possible to bypass this validation entirely by exploiting a race condition in the way it processes them."
 ---
 
 <br>
@@ -227,5 +228,5 @@ def handleResponse(req, interesting):
 <br>
 ### _References_
 * * *
-[^1]: [Icon](https://www.flaticon.com/free-icon/console_3296094) made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com).
+[^1]: Icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)
 [^2]: [Turbo Intruder](https://portswigger.net/bappstore/9abaa233088242e8be252cd4ff534988)

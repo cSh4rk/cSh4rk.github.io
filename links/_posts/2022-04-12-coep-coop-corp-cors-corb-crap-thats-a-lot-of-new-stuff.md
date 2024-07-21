@@ -3,6 +3,7 @@ title: "COEP COOP CORP CORS CORB... that's a lot of new stuff!"
 published: true
 tags: [Web, HTTP, Web Applications, Web Application Security, HTTP Headers, Security Headers]
 image: /links/assets/web-icon.png
+description: "External Link: Great article about some relatively new HTTP Security Headers."
 ---
 
 ![](/links/assets/web-icon.png)
@@ -19,4 +20,4 @@ Great article about some relatively new HTTP Security Headers.
 <br>
 ### _References_
 * * *
-[^1]: [Icon](https://icons.iconarchive.com/icons/aha-soft/desktop-halloween/256/Web-icon.png) by [Aha-Soft](https://iconarchive.com/artist/aha-soft.html) is licensed under [Linkware](http://www.aha-soft.com/).
+[^1]: Icon made by [Aha-Soft](https://iconarchive.com/artist/aha-soft.html) from [www.iconarchive.com](https://www.iconarchive.com/)

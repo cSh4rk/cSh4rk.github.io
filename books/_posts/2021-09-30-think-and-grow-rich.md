@@ -3,6 +3,7 @@ title: "Think and Grow Rich"
 published: true
 tags: [Classic, Personal Success, Top Book]
 image: /books/assets/thinkandgrowrich_book.jpg
+description: "Book Description: The most famous of all teachers of success spent \"a fortune and the better part of a lifetime of effort\" to produce the \"Law of Success\" philosophy that forms the basis of his books and that is so powerfully summarized and explained for the general public in this book."
 ---
 
 ![](/books/assets/thinkandgrowrich_book.jpg)

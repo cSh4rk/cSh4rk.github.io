@@ -3,13 +3,14 @@ layout: page
 title: About
 image: /assets/ninja1.png
 robots: noindex,nofollow
+description: "This page is all about me!"
 ---
 
 <br>
 ## ~$ whoami
 * * *
 
-![](/assets/ninja1.png) Hello. My name is Nima, Welcome to my Website!
+![](/assets/ninja1_small.png) Hello. My name is Nima, Welcome to my Website!
 
 I am a Network Penetration Tester, Web Security Researcher and I also used to be a Software Developer.
 

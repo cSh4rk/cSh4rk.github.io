@@ -2,6 +2,7 @@
 layout: page
 title: Books
 image: /books/assets/poison4.png
+description: "Here are my book recommendations."
 ---
 
 ![](/books/assets/poison4.png)

@@ -1,7 +1,8 @@
 ---
 layout: page
 title: "RIP Kevin Mitnick 🖤" 
-image: /assets/kevin.jpg
+image: /assets/kevin-mitnick.jpg
+description: "Legends Never Die"
 ---
 
 ![](/assets/kevin.jpg)

@@ -2,10 +2,17 @@
 layout: default
 title: "Tags"
 permalink: /tags/
+image: /assets/poison2.png
+description: "Search through all the topics and tags included in website posts."
 ---
 
-<h2>Tags:</h2>
+![](/assets/poison2.png)
+<br>
+<br>
 
+Search through all the topics and tags included in website posts:
+
+<br>
 <ul>
   {% assign list = site.tags | sort %}
     {% for tag in list %}

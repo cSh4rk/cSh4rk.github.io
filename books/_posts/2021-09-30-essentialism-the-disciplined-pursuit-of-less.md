@@ -3,6 +3,7 @@ title: "Essentialism: The Disciplined Pursuit of Less"
 published: true
 tags: [Business Decision-Making]
 image: /books/assets/essentialism_book.jpg
+description: "Book Description: Essentialism is more than a time-management strategy or a productivity technique. It is a systematic discipline for discerning what is absolutely essential, then eliminating everything that is not, so we can make the highest possible contribution toward the things that really matter."
 ---
 
 ![](/books/assets/essentialism_book.jpg)

@@ -2,10 +2,11 @@
 title: "Duolingo: An Effective Way to Learn a New Language"
 published: true
 tags: [Languages, Learning Languages]
-image: /links/assets/duolingo-icon.png
+image: /links/assets/duolingo.png
+description: "External Link: Duolingo is a very fun and effective way to learn a new language."
 ---
 
-![](/links/assets/duolingo-icon.png)
+![](/links/assets/duolingo.png)
 <br>
 [^1]
 
@@ -16,8 +17,3 @@ I'm using Duolingo to learn German and it has been a fun and effective experienc
 ### _External Links_
 * * *
 * #### [Duolingo Website](https://www.duolingo.com/)
-
-<br>
-### _References_
-* * *
-[^1]: [Icon](https://icons.iconarchive.com/icons/martz90/hex/256/duolingo-icon.png) by [Martz90](https://iconarchive.com/artist/martz90.html) is licensed under [CC Attribution-No Derivative 4.0](https://creativecommons.org/licenses/by-nd/4.0/).

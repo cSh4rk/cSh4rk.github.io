@@ -2,10 +2,11 @@
 title: Up and Running with GitHub Pages
 published: true
 tags: [Github, Github Pages, Jekyll, Youtube Channel, Static Site Generator, Website, Blog, Open Source Software, Tutorial, Markdown]
-image: /links/assets/octojekyll.png
+image: /links/assets/github.png
+description: "External Link: If you want to learn how to use Jekyll with Github pages to build your own website or blog, one of cool resources is these Up and Running series from Bill Raymond's youtube page."
 ---
 
-![](/links/assets/octojekyll.png)
+![](/links/assets/github.png)
 
 If you want to learn how to use Jekyll with Github pages to build your own website or blog, one of cool resources is these Up and Running series from Bill Raymond's youtube page. He teaches great tips that can really make your design process easier.  
 

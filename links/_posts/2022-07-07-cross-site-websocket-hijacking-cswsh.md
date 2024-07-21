@@ -2,10 +2,11 @@
 title: "Cross-site WebSocket hijacking (CSWSH)"
 published: true
 tags: [Web Application Security, Web Security Academy, Websockets, Cross-Site Request Forgery, CSRF]
-image: /links/assets/socket-icon.png
+image: /links/assets/websocket.png
+description: "External Link: Introduction to some WebSocket vulnerabilities."
 ---
 
-![](/links/assets/socket-icon.png)
+![](/links/assets/websocket.png)
 <br>
 [^1]
 
@@ -22,4 +23,6 @@ If you are not familiar with Websocket vulnerabilities, take a look at the secon
 <br>
 ### _References_
 * * *
-[^1]: [Icon](https://icons.iconarchive.com/icons/everaldo/kids-icons/128/socket-icon.png) by [Everaldo / Yellowicon](https://iconarchive.com/artist/everaldo.html) is free for non-commercial use.
+[^1]: Icon made by [Three musketeers](https://www.flaticon.com/authors/three-musketeers) from [www.flaticon.com](https://www.flaticon.com/)
+
+

@@ -4,6 +4,7 @@ published: true
 date: 2021-10-20 00:00:01
 tags: [Whonix, Privacy, Anonymity, Tor, Linux, Advanced]
 image: /blog/assets/whonix-logo.png
+description: "What is Whonix Tor gateway and how to use it?"
 ---
 
 ![](/blog/assets/whonix-logo.png)

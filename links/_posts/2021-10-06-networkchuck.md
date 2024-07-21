@@ -2,6 +2,7 @@
 title: "NetworkChuck"
 published: true
 tags: [Network, IT, Youtube Channel, Fun]
+description: "External Link: NetworkChuck Youtube Channel: Interesting technical videos."
 ---
 
 He produces super cool youtube videos about different aspects of tech, He is so passionate about IT, Computer Networks and Technology, I like this guy!
