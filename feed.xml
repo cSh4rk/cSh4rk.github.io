@@ -5,8 +5,8 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 21 Jul 2024 08:09:26 -0400</pubDate>
-    <lastBuildDate>Sun, 21 Jul 2024 08:09:26 -0400</lastBuildDate>
+    <pubDate>Sun, 21 Jul 2024 08:22:59 -0400</pubDate>
+    <lastBuildDate>Sun, 21 Jul 2024 08:22:59 -0400</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
     <image>
      <url>https://nima.ninja/assets/ninja.png</url>
@@ -152,7 +152,7 @@ References
           
             <![CDATA[<p><img src="https://nima.ninja/blog/assets/ssti-custom-exploit-twig.png" alt="" /></p>]]>
           
-          Lab Link Lab: Server-side template injection with a custom exploit Lab Description This lab is vulnerable to server-side template injection2. To solve the lab, create a custom exploit to delete the file /.ssh/id_rsa from Carlos’s home directory. You can log...
+          Lab Link Lab: Server-side template injection with a custom exploit Lab Description This lab is vulnerable to server-side template injection. To solve the lab, create a custom exploit to delete the file /.ssh/id_rsa from Carlos’s home directory. You can log...
         </description>
         <pubDate>Mon, 24 Apr 2023 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/blog/2023/expert-lab-server-side-template-injection-with-a-custom-exploit</link>
@@ -214,7 +214,7 @@ References
           
             <![CDATA[<p><img src="https://nima.ninja/links/assets/supply-chain2.png" alt="" /></p>]]>
           
-          These are some Ruby examples equivalents of my previous post2(about gadget chains in PHP), that show the process of finding gadget chains in Ruby programming language; also as mentioned in one of these articles, there may still be some undiscovered...
+          These are some Ruby examples equivalents of my previous post(about gadget chains in PHP), that show the process of finding gadget chains in Ruby programming language; also as mentioned in one of these articles, there may still be some undiscovered...
         </description>
         <pubDate>Sun, 25 Dec 2022 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2022/insecure-deserialization-how-to-trace-down-a-gadget-chain-other-examples-in-ruby</link>
@@ -951,7 +951,7 @@ External Links
           
             <![CDATA[<p><img src="https://nima.ninja/blog/assets/whonix-logo.png" alt="" /></p>]]>
           
-          Whonix Tor Gateway You can anonymize all of your web requests by using Whonix Tor Gateway2. You download and use a Whonix VirtualBox VM which is a hardened Linux distro and this VM can act as your Tor gateway for...
+          Whonix Tor Gateway You can anonymize all of your web requests by using Whonix Tor Gateway. You download and use a Whonix VirtualBox VM which is a hardened Linux distro and this VM can act as your Tor gateway for...
         </description>
         <pubDate>Tue, 19 Oct 2021 20:00:01 -0400</pubDate>
         <link>https://nima.ninja/blog/2021/whonix-tor-gateway</link>
