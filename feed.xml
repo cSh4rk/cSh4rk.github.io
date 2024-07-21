@@ -5,8 +5,8 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 20 Jul 2024 17:27:40 -0400</pubDate>
-    <lastBuildDate>Sat, 20 Jul 2024 17:27:40 -0400</lastBuildDate>
+    <pubDate>Sat, 20 Jul 2024 20:56:10 -0400</pubDate>
+    <lastBuildDate>Sat, 20 Jul 2024 20:56:10 -0400</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
     <image>
      <url>https://nima.ninja/assets/ninja.png</url>
@@ -37,7 +37,7 @@ References
 
   
     
-      Icon made by Muhammad Atif from www.flaticon.com. &amp;#8617;
+      Icon made by Muhammad Atif from www.flaticon.com &amp;#8617;
         </description>
         <pubDate>Sat, 06 May 2023 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2023/stanford-web-security-course</link>
@@ -79,7 +79,7 @@ References
 
   
     
-      Icon made by Freepik from www.flaticon.com. &amp;#8617;
+      Icon made by Freepik from www.flaticon.com &amp;#8617;
         </description>
         <pubDate>Tue, 25 Apr 2023 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2023/chatgpt-for-bug-bounty-faster-hunting-and-reporting</link>
@@ -121,7 +121,7 @@ References
 
   
     
-      Icon made by Graphiqa from www.flaticon.com. &amp;#8617;
+      Icon made by Graphiqa from www.flaticon.com &amp;#8617;
         </description>
         <pubDate>Tue, 25 Apr 2023 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2023/beginner-s-guide-to-oscp-2023</link>
@@ -289,7 +289,7 @@ References
 
   
     
-      Icon made by Freepik from www.flaticon.com. &amp;#8617;
+      Icon made by Freepik from www.flaticon.com &amp;#8617;
         </description>
         <pubDate>Sun, 18 Dec 2022 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2022/learn-regex-step-by-step-from-zero-to-advanced</link>
@@ -374,7 +374,7 @@ References
         <title>Cross-site WebSocket hijacking (CSWSH)</title>
         <description>
           
-            <![CDATA[<p><img src="https://nima.ninja/links/assets/socket-icon.png" alt="" /></p>]]>
+            <![CDATA[<p><img src="https://nima.ninja/links/assets/websocket.png" alt="" /></p>]]>
           
           See the first link below to become familiar with various Cross-site WebSocket hijacking (CSWSH) attacks. If you are not familiar with Websocket vulnerabilities, take a look at the second link for more details. External Links Cross-site WebSocket hijacking (CSWSH) Testing...
         </description>
@@ -490,9 +490,9 @@ References
         <title>Duolingo: An Effective Way to Learn a New Language</title>
         <description>
           
-            <![CDATA[<p><img src="https://nima.ninja/links/assets/duolingo-icon.png" alt="" /></p>]]>
+            <![CDATA[<p><img src="https://nima.ninja/links/assets/duolingo.png" alt="" /></p>]]>
           
-          Learning a new language can be hard and time-consuming but with a proper method, it can be fun and smooth. Duolingo is a very fun and effective way to learn a new language. It has many great features. One of...
+          [^] Learning a new language can be hard and time-consuming but with a proper method, it can be fun and smooth. Duolingo is a very fun and effective way to learn a new language. It has many great features. One...
         </description>
         <pubDate>Tue, 12 Apr 2022 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2022/duolingo-an-effective-way-to-learn-a-new-language</link>
@@ -530,7 +530,7 @@ References
 
   
     
-      Icon by Aha-Soft is licensed under Linkware. &amp;#8617;
+      Icon made by Aha-Soft from www.iconarchive.com &amp;#8617;
         </description>
         <pubDate>Tue, 12 Apr 2022 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2022/coep-coop-corp-cors-corb-crap-thats-a-lot-of-new-stuff</link>
@@ -617,7 +617,7 @@ References
         <title>11 Neurosciece Hacks to Wire Your Brain for Success</title>
         <description>
           
-            <![CDATA[<p><img src="https://nima.ninja/links/assets/bulb-icon.png" alt="" /></p>]]>
+            <![CDATA[<p><img src="https://nima.ninja/links/assets/neurosciencehacks.png" alt="" /></p>]]>
           
           A few simple but very important daily hacks for a sharper brain.
 
@@ -636,7 +636,7 @@ References
 
   
     
-      Icon by Vexels is licensed under Linkware. &amp;#8617;
+      Icon made by Paul J. from www.flaticon.com &amp;#8617;
         </description>
         <pubDate>Sun, 06 Feb 2022 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2022/11-neuroscience-hacks-to-wire-your-brain-for-success</link>
@@ -657,7 +657,7 @@ References
         <title>TED Talk: Your Can Grow New Brain Cells. Here is How</title>
         <description>
           
-            <![CDATA[<p><img src="https://nima.ninja/links/assets/mind-body-green-icon.png" alt="" /></p>]]>
+            <![CDATA[<p><img src="https://nima.ninja/links/assets/powerfulbrain.png" alt="" /></p>]]>
           
           Can we, as adults, grow new neurons? Neuroscientist Sandrine Thuret says that we can, and she offers research and practical advice on how we can help our brains better perform neurogenesis, improving mood, increasing memory formation and preventing the decline...
         </description>
@@ -1001,7 +1001,7 @@ External Links
         <title>Up and Running with GitHub Pages</title>
         <description>
           
-            <![CDATA[<p><img src="https://nima.ninja/links/assets/octojekyll.png" alt="" /></p>]]>
+            <![CDATA[<p><img src="https://nima.ninja/links/assets/github.png" alt="" /></p>]]>
           
           If you want to learn how to use Jekyll with Github pages to build your own website or blog, one of cool resources is these Up and Running series from Bill Raymond’s youtube page. He teaches great tips that can...
         </description>
@@ -1038,7 +1038,7 @@ External Links
         <title>My OSCP Journey -  A Review</title>
         <description>
           
-            <![CDATA[<p><img src="https://nima.ninja/links/assets/oscp1.jpg" alt="" /></p>]]>
+            <![CDATA[<p><img src="https://nima.ninja/links/assets/oscp.png" alt="" /></p>]]>
           
           Great tips on how to pass the OSCP exam.
 
