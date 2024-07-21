@@ -19,7 +19,7 @@ image: /assets/ninja.png
         {% if post.image %}
           <p><img src="{{post.image}}" alt=""></p>
         {% endif %}
-        <p>{{ post.content | strip_html | replace_first: "1", "" | truncatewords:50 }}</p>
+        <p>{{ post.description | strip_html | replace_first: "1", "" | truncatewords:50 }}</p>
         <!--{% for cat in post.categories %}
         <code class="language-plaintext highlighter-rouge">{{ cat | xml_escape }}</code>
         {% endfor %}-->
