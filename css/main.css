@@ -479,6 +479,10 @@ a:active, a:focus {
   }*/
 }
 
+.default-color {
+  color: #eaeaea !important;
+}
+
 #wrapper {
   min-height: calc(100vh - 100px);
 }
