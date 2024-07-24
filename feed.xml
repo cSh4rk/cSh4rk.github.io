@@ -5,8 +5,8 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 21 Jul 2024 08:22:59 -0400</pubDate>
-    <lastBuildDate>Sun, 21 Jul 2024 08:22:59 -0400</lastBuildDate>
+    <pubDate>Wed, 24 Jul 2024 03:30:58 -0400</pubDate>
+    <lastBuildDate>Wed, 24 Jul 2024 03:30:58 -0400</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
     <image>
      <url>https://nima.ninja/assets/ninja.png</url>
@@ -918,8 +918,10 @@ References
       </item>
     
       <item>
-        <title>Techlore: Privacy and Security for the masses</title>
+        <title>Techlore: Digital rights for all</title>
         <description>
+          
+            <![CDATA[<p><img src="https://nima.ninja/links/assets/techlore.png" alt="" /></p>]]>
           
           This Youtube channel has great tips for Privacy and Anonymity.
 
@@ -977,6 +979,8 @@ External Links
       <item>
         <title>My Discord Server is Up and Running!</title>
         <description>
+          
+            <![CDATA[<p><img src="https://nima.ninja/blog/assets/discord.png" alt="" /></p>]]>
           
           At last I did it! I had Discord account and even a simple server for some years but never put in the necessary effort to fully set up and customize my server. Finally I’ve put some time this week (maybe...
         </description>
@@ -1194,8 +1198,10 @@ External Links
       </item>
     
       <item>
-        <title>NetworkChuck</title>
+        <title>NetworkChuck: Coffee, Hacking, Tech</title>
         <description>
+          
+            <![CDATA[<p><img src="https://nima.ninja/links/assets/networkchuck.png" alt="" /></p>]]>
           
           He produces super cool youtube videos about different aspects of tech, He is so passionate about IT, Computer Networks and Technology, I like this guy!
 
