@@ -1,7 +1,7 @@
 ---
 title: "Can't Hurt Me: Master Your Mind and Defy the Odds"
 published: true
-tags: [Personal Transformation, Motivational, Health, Fitness]
+tags: [Personal Transformation, Motivational, Try Harder, Health, Fitness]
 image: /books/assets/cant_hurt_me_book.jpg
 description: "For David Goggins, childhood was a nightmare -- poverty, prejudice, and physical abuse colored his days and haunted his nights. But through self-discipline, mental toughness, and hard work, Goggins transformed himself from a depressed, overweight young man with no future into a U.S. Armed Forces icon and one of the world's top endurance athletes. The only man in history to complete elite training as a Navy SEAL, Army Ranger, and Air Force Tactical Air Controller, he went on to set records in numerous endurance events, inspiring Outside magazine to name him \"The Fittest (Real) Man in America.\"
 In \"Can't Hurt Me\", he shares his astonishing life story and reveals that most of us tap into only 40% of our capabilities. Goggins calls this The 40% Rule, and his story illuminates a path that anyone can follow to push past pain, demolish fear, and reach their full potential."
@@ -58,7 +58,7 @@ Paperback: 364 pages
 * * *
 This is a great motivational book that shows we have far more mental and physical capacities than we usually feel and we can achieve far greater goals if we try harder than usual, written by a man who has lived what he's talking about.
 
-The 40% percent rule mentioned in the book is eye-opening, that most of us usually tap into only 40 percent of our capabilities and this is the point our body and mind tells us it's enough and we need to stop, but we can surpass this point and achieve far greater outcomes if we have trained our mind good enough.
+The 40% percent rule mentioned in the book is eye-opening, that most of us usually tap into only 40 percent of our capabilities and this is the point our body and mind tell us it's enough and we need to stop, but we can surpass this point and achieve far greater outcomes if we have trained our mind good enough.
 
 Goggins makes us more familiar with our powerful mind and body with his real-life experiences and stories that are beyond what most of us think are humanly possible yet almost all of us can achieve.
 
