@@ -5,14 +5,41 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 16 Sep 2024 23:13:52 -0400</pubDate>
-    <lastBuildDate>Mon, 16 Sep 2024 23:13:52 -0400</lastBuildDate>
+    <pubDate>Fri, 18 Oct 2024 17:00:20 -0400</pubDate>
+    <lastBuildDate>Fri, 18 Oct 2024 17:00:20 -0400</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
     <image>
      <url>https://nima.ninja/assets/ninja.png</url>
      <title>Diaries of a Modern Ninja</title>
      <link>https://nima.ninja</link>
     </image>
+    
+      <item>
+        <title>The Parasitic Mind: How Infectious Ideas Are Killing Common Sense</title>
+        <description>
+          
+            <![CDATA[<p><img src="https://nima.ninja/books/assets/the-parasitic_mind_book.jpg" alt="" /></p>]]>
+          
+          Amazon Description “Read this book, strengthen your resolve, and help us all return to reason.” —JORDAN PETERSON USA TODAY NATIONAL BESTSELLER There’s a war against truth… and if we don’t win it, intellectual freedom will be a casualty. The West’s...
+        </description>
+        <pubDate>Fri, 18 Oct 2024 00:00:00 -0400</pubDate>
+        <link>https://nima.ninja/books/2024/the-parasitic-mind-how-infectious-ideas-are-killing-common-sense</link>
+        <guid isPermaLink="true">https://nima.ninja/books/2024/the-parasitic-mind-how-infectious-ideas-are-killing-common-sense</guid>
+        
+        <category>books</category>
+        
+        
+        <category>Personal Transformation</category>
+        
+        <category>Psychology</category>
+        
+        <category>Evolution</category>
+        
+        <category>Memetics</category>
+        
+        <category>Mind Viruses</category>
+        
+      </item>
     
       <item>
         <title>Can&apos;t Hurt Me: Master Your Mind and Defy the Odds</title>
@@ -1145,6 +1172,8 @@ External Links
         
         <category>Memetics</category>
         
+        <category>Mind Viruses</category>
+        
       </item>
     
       <item>
@@ -1221,38 +1250,6 @@ External Links
         <category>Spirituality</category>
         
         <category>Weird</category>
-        
-      </item>
-    
-      <item>
-        <title>NetworkChuck: Coffee, Hacking, Tech</title>
-        <description>
-          
-            <![CDATA[<p><img src="https://nima.ninja/links/assets/networkchuck.png" alt="" /></p>]]>
-          
-          He produces super cool youtube videos about different aspects of tech, He is so passionate about IT, Computer Networks and Technology, I like this guy!
-
-
-External Links
-
-
-  
-    NetworkChuck Youtube Channel
-        </description>
-        <pubDate>Wed, 06 Oct 2021 00:00:00 -0400</pubDate>
-        <link>https://nima.ninja/links/2021/networkchuck</link>
-        <guid isPermaLink="true">https://nima.ninja/links/2021/networkchuck</guid>
-        
-        <category>links</category>
-        
-        
-        <category>Network</category>
-        
-        <category>IT</category>
-        
-        <category>Youtube Channel</category>
-        
-        <category>Fun</category>
         
       </item>
     
