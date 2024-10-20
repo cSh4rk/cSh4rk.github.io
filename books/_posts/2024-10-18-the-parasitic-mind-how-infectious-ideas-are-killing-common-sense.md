@@ -57,7 +57,7 @@ Paperback: 264 pages
 * * *
 I think this is a necessary read to become more familiar and immune to some dangerous mind viruses that threaten the very fabric of the free world that we have taken for granted. 
 
-Also praised and recommended by Elon Musk[^5]. 
+Also praised[^5] and recommended[^6] by Elon Musk on X. 
 
 <br>
 ### _References_
@@ -66,4 +66,5 @@ Also praised and recommended by Elon Musk[^5].
 [^2]: [Civil Rights & Liberties Category on Amazon](https://www.amazon.com/gp/bestsellers/books/10550)
 [^3]: [Political Commentary & Opinion Category on Amazon](https://www.amazon.com/gp/bestsellers/books/5571260011)
 [^4]: [Political Conservatism & Liberalism Category on Amazon](https://www.amazon.com/gp/bestsellers/books/5571265011)
-[^5]: [Elon Musk's comments about The Parasitic Mind on X](https://x.com/search?q=from%3Aelonmusk%20%22parasitic%20mind%22&src=typed_query&f=top)
+[^5]: [Elon Musk praises The Parasitic Mind on X](https://x.com/elonmusk/status/1733761970807943230)
+[^6]: [Elon Musk recommends The Parasitic Mind on X](https://x.com/elonmusk/status/1818364618412376140)
