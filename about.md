@@ -50,7 +50,7 @@ I like almost all technical fields of Cybersecurity but prefer Offensive Securit
 
 * Solved most of [Web Security Academy](https://portswigger.net/web-security/learning-path) Labs (more than 260) and really appreciate the great effort they've been putting to prepare this world-class material. Web Security Academy is the best place to learn and get hands-on experience for the latest and most advanced web vulnerabilities and attacks with over 25 different categories. [PortSwigger](https://portswigger.net)'s Research is the best in Web Security and all of their services including Web Security Academy and Burp Suite are highly recommended.
 
-* In the [Top 1% of TryHackMe](https://tryhackme.com/p/nima), solved more than 200 rooms. This is another great world-class resource that I highly recommend. It is extremely addictive perhaps even more than video games! and you'll also learn a ton and grow as a Cybersecurity expert, both blue and red team contents are fantastic.
+* In the [Top 1% of TryHackMe](https://tryhackme.com/p/nima), solved more than 250 rooms. This is another great world-class resource that I highly recommend. It is extremely addictive perhaps even more than video games! and you'll also learn a ton and grow as a Cybersecurity expert, both blue and red team contents are fantastic.
 
 * Multiple [TryHackMe](https://tryhackme.com) certificates for offensive, defensive and general Cybersecurity pathways, and also planning to get the remaining certificates (currently there are around 14 of them).
 
