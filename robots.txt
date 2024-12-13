@@ -1,1 +1,3 @@
-Sitemap: https://nima.ninja/sitemap.xml
+User-agent: *
+Disallow: /contact.html
+Disallow: /about.html
