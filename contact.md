@@ -52,8 +52,12 @@ description: "Contact me through one of these channels."
   - Linktree: <a href="https://linktr.ee/{{ site.social.linktree }}"><span>@{{ site.social.linktree }}</span></a>
 {% endif %}
 
-{% if site.social.tellonym %}
+<!--{% if site.social.tellonym %}
   - Send Anonymous Message: <a href="https://tellonym.me/{{ site.social.tellonym }}"><span>@{{ site.social.tellonym | replace: "_", "\_" }}</span></a>
+{% endif %}-->
+
+{% if site.social.whispa %}
+  - Send Anonymous Message: <a href="https://whispa.sh/@{{ site.social.whispa }}"><span>@{{ site.social.whispa }}</span></a>
 {% endif %}
 
 <br>
