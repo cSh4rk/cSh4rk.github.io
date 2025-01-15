@@ -14,15 +14,13 @@ description: "This page is all about me!"
 
 I am a Network Penetration Tester, Web Security Researcher and I also used to be a Software Developer.
 
-I have been using computers and been programming from an early age since the prehistoric MS-DOS ages (GW/QBasic and FoxPro) then Visual Basic 6 in old Windows versions and then C#, Microsoft Visual FoxPro, PHP, JavaScript, Python... in Windows and Linux.
-
 <br>
 ### My Prior Roles and Works in the Software Field
 * * *
 
-* Full Stack Software Developer working in all layers of Software Development, also some experience in Sales, Support and Deployment. But always preferred technical fields.
+* Full Stack Software Developer.
 
-* Full-Time Legacy Code Maintenance, Bug Fixes, Enhancement and New Features Development.
+* Full-Time Legacy Code Maintenance, Bug Fixes, and Code Refactoring.
 
 * Full Stack VoIP Engineer: VoIP Software Solutions and the whole VoIP stack including Software Development, Deployment, Network Infrastructure, Security, Support...
 
@@ -48,23 +46,13 @@ I like almost all technical fields of Cybersecurity but prefer Offensive Securit
 
 * In the [PortSwigger's Web Security Academy Hall of Fame](https://portswigger.net/web-security/hall-of-fame) (TOP 50, [Jan 2024: Ranked #13](https://web.archive.org/web/20240121103136/https://portswigger.net/web-security/hall-of-fame),[Aug 2024: Ranked #5](https://web.archive.org/web/20240810053949/https://portswigger.net/web-security/hall-of-fame))
 
-* Solved most of [Web Security Academy](https://portswigger.net/web-security/learning-path) Labs (more than 260) and really appreciate the great effort they've been putting to prepare this world-class material. Web Security Academy is the best place to learn and get hands-on experience for the latest and most advanced web vulnerabilities and attacks with over 25 different categories. [PortSwigger](https://portswigger.net)'s Research is the best in Web Security and all of their services including Web Security Academy and Burp Suite are highly recommended.
+* In the [Top 1% of TryHackMe](https://tryhackme.com/p/nima).
 
-* In the [Top 1% of TryHackMe](https://tryhackme.com/p/nima), solved more than 250 rooms. This is another great world-class resource that I highly recommend. It is extremely addictive perhaps even more than video games! and you'll also learn a ton and grow as a Cybersecurity expert, both blue and red team contents are fantastic.
-
-* Multiple [TryHackMe](https://tryhackme.com) certificates for offensive, defensive and general Cybersecurity pathways, and also planning to get the remaining certificates (currently there are around 14 of them).
-
-* Currently learning German as my fourth language! Putting a few minutes aside every day to learn this language. I think I'll continue my daily learning routine for at least 5-6 more years to gain mastery or at least C1/C2 level fluency then I'll start my next language.
-
-* Some other certificate courses in Cybersecurity and some Programming language courses.
+* Currently learning German as my fourth language.
 
 * Multiple VoIP Certifications ( ECE: Elastix Certified Engineer, ESM: Elastix Security Master, Asterisk Programming(AMI,AGI, Dial Plans Scripting, PHP, .NET Core APIs...) ).
 
-* Knowledge of some basic but important technical courses: Network+, CEH: Certified Ethical Hacker.
-
-* Some Physical Training Certifications: Nutrition, Human Anatomy, Bodybuilding, also years of experience in physical training and Bodybuilding.
-
-* As a hobby, I also like to study different science fields in order to get a better view of what `Life` is.
+* Years of experience in Bodybuilding, Nutrition and Human Anatomy. 
 
 <br>
 ### Certifications (that I'm interested in)
@@ -77,7 +65,7 @@ I like almost all technical fields of Cybersecurity but prefer Offensive Securit
 
   - [WEB-300 OSWE(ADVANCED WEB ATTACKS AND EXPLOITATION)](https://www.offsec.com/courses/web-300/)
 
-  - Exploit Analysis and Development (not in my priority list now but I might pursue this path in the future): [EXP-301 OSED(WINDOWS USER MODE EXPLOIT DEVELOPMENT)](https://www.offsec.com/courses/exp-301/) then [EXP-401 OSEE(ADVANCED WINDOWS EXPLOITATION)](https://www.offsec.com/courses/exp-401/) certifications.
+  - Exploit Analysis and Development: [EXP-301 OSED(WINDOWS USER MODE EXPLOIT DEVELOPMENT)](https://www.offsec.com/courses/exp-301/) then [EXP-401 OSEE(ADVANCED WINDOWS EXPLOITATION)](https://www.offsec.com/courses/exp-401/) certifications.
 
 - Some SANS courses and certifications:
 
