@@ -26,11 +26,11 @@ I am a Penetration Tester, Cybersecurity Researcher and I also used to be a Soft
 
 * Connecting Legacy Systems to Newer VoIP and Software Technologies.
 
-* Finding solutions for difficult or impossible IT/Software problems. Such as finding novel solutions for bypassing some limitations of a closed-source proprietary legacy programming language and finding workarounds for some programming language bugs. I have solved _every_ important technical problem that was handed to me during my career. Some of them were difficult and challenging enough that they were left unsolved for years, I believe:
+* Finding solutions for difficult or impossible IT/Software problems. Such as finding novel solutions for bypassing some limitations of a proprietary legacy programming language and finding workarounds for some programming language bugs. I have solved _every_ important technical problem that was handed to me during my career. Some of them were difficult and challenging enough that they were left unsolved for years, I believe:
 
 > Nothing is impossible in IT and Security and the only limitation is in our own Imagination!
 
-* Expanded open-source IP telephony system and developed soft-phones with SIP,RTP protocols and connected these systems and their services to legacy software.  
+* Expanded open-source IP telephony system and developed softphones with SIP,RTP protocols and connected these systems and their services to legacy software.  
 
 <br>
 ### My Work Now
