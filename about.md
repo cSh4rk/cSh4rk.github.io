@@ -12,7 +12,7 @@ description: "This page is all about me!"
 
 ![](/assets/ninja1_small.png) Hello. My name is Nima, Welcome to my Website!
 
-I am a Network Penetration Tester, Web Security Researcher and I also used to be a Software Developer.
+I am a Penetration Tester, Cybersecurity Researcher and I also used to be a Software Developer.
 
 <br>
 ### My Prior Roles and Works in the Software Field
