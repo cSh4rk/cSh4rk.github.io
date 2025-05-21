@@ -5,8 +5,8 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 22 Feb 2025 21:59:18 -0500</pubDate>
-    <lastBuildDate>Sat, 22 Feb 2025 21:59:18 -0500</lastBuildDate>
+    <pubDate>Wed, 21 May 2025 03:38:08 -0400</pubDate>
+    <lastBuildDate>Wed, 21 May 2025 03:38:08 -0400</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
     <image>
      <url>https://nima.ninja/assets/ninja.png</url>
@@ -22,7 +22,7 @@
           
           Amazon Description “Read this book, strengthen your resolve, and help us all return to reason.” —JORDAN PETERSON USA TODAY NATIONAL BESTSELLER There’s a war against truth… and if we don’t win it, intellectual freedom will be a casualty. The West’s...
         </description>
-        <pubDate>Fri, 18 Oct 2024 00:00:00 -0500</pubDate>
+        <pubDate>Fri, 18 Oct 2024 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/books/2024/the-parasitic-mind-how-infectious-ideas-are-killing-common-sense</link>
         <guid isPermaLink="true">https://nima.ninja/books/2024/the-parasitic-mind-how-infectious-ideas-are-killing-common-sense</guid>
         
@@ -49,7 +49,7 @@
           
           Amazon Description For David Goggins, childhood was a nightmare – poverty, prejudice, and physical abuse colored his days and haunted his nights. But through self-discipline, mental toughness, and hard work, Goggins transformed himself from a depressed, overweight young man with...
         </description>
-        <pubDate>Mon, 16 Sep 2024 00:00:00 -0500</pubDate>
+        <pubDate>Mon, 16 Sep 2024 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/books/2024/cant-hurt-me-master-your-mind-and-defy-the-odds</link>
         <guid isPermaLink="true">https://nima.ninja/books/2024/cant-hurt-me-master-your-mind-and-defy-the-odds</guid>
         
@@ -93,7 +93,7 @@ References
     
       Icon made by Muhammad Atif from www.flaticon.com &amp;#8617;
         </description>
-        <pubDate>Sat, 06 May 2023 00:00:00 -0500</pubDate>
+        <pubDate>Sat, 06 May 2023 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2023/stanford-web-security-course</link>
         <guid isPermaLink="true">https://nima.ninja/links/2023/stanford-web-security-course</guid>
         
@@ -135,7 +135,7 @@ References
     
       Icon made by Freepik from www.flaticon.com &amp;#8617;
         </description>
-        <pubDate>Tue, 25 Apr 2023 00:00:00 -0500</pubDate>
+        <pubDate>Tue, 25 Apr 2023 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2023/chatgpt-for-bug-bounty-faster-hunting-and-reporting</link>
         <guid isPermaLink="true">https://nima.ninja/links/2023/chatgpt-for-bug-bounty-faster-hunting-and-reporting</guid>
         
@@ -177,7 +177,7 @@ References
     
       Icon made by Graphiqa from www.flaticon.com &amp;#8617;
         </description>
-        <pubDate>Tue, 25 Apr 2023 00:00:00 -0500</pubDate>
+        <pubDate>Tue, 25 Apr 2023 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2023/beginner-s-guide-to-oscp-2023</link>
         <guid isPermaLink="true">https://nima.ninja/links/2023/beginner-s-guide-to-oscp-2023</guid>
         
@@ -208,7 +208,7 @@ References
           
           Lab Link Lab: Server-side template injection with a custom exploit Lab Description This lab is vulnerable to server-side template injection. To solve the lab, create a custom exploit to delete the file /.ssh/id_rsa from Carlos’s home directory. You can log...
         </description>
-        <pubDate>Mon, 24 Apr 2023 00:00:00 -0500</pubDate>
+        <pubDate>Mon, 24 Apr 2023 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/blog/2023/expert-lab-server-side-template-injection-with-a-custom-exploit</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2023/expert-lab-server-side-template-injection-with-a-custom-exploit</guid>
         
@@ -239,7 +239,7 @@ References
           
           Lab Link Lab: Developing a custom gadget chain for PHP deserialization Lab Description This lab uses a serialization-based session mechanism. By deploying a custom gadget chain, you can exploit its insecure deserialization to achieve remote code execution. To solve the...
         </description>
-        <pubDate>Wed, 18 Jan 2023 00:00:00 -0500</pubDate>
+        <pubDate>Wed, 18 Jan 2023 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/blog/2023/expert-lab-developing-a-custom-gadget-chain-for-php-deserialization</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2023/expert-lab-developing-a-custom-gadget-chain-for-php-deserialization</guid>
         
@@ -270,7 +270,7 @@ References
           
           These are some Ruby examples equivalents of my previous post(about gadget chains in PHP), that show the process of finding gadget chains in Ruby programming language; also as mentioned in one of these articles, there may still be some undiscovered...
         </description>
-        <pubDate>Sun, 25 Dec 2022 00:00:00 -0500</pubDate>
+        <pubDate>Sun, 25 Dec 2022 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2022/insecure-deserialization-how-to-trace-down-a-gadget-chain-other-examples-in-ruby</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/insecure-deserialization-how-to-trace-down-a-gadget-chain-other-examples-in-ruby</guid>
         
@@ -301,7 +301,7 @@ References
           
           This article explains clearly the process of finding a sample gadget chain and then writing a small code to build the payload for insecure deserialization exploitation in cases where there are no existing pre-built gadget chains. External Links Insecure Deserialization...
         </description>
-        <pubDate>Fri, 23 Dec 2022 00:00:00 -0500</pubDate>
+        <pubDate>Fri, 23 Dec 2022 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2022/insecure-deserialization-how-to-trace-down-a-gadget-chain</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/insecure-deserialization-how-to-trace-down-a-gadget-chain</guid>
         
@@ -345,7 +345,7 @@ References
     
       Icon made by Freepik from www.flaticon.com &amp;#8617;
         </description>
-        <pubDate>Sun, 18 Dec 2022 00:00:00 -0500</pubDate>
+        <pubDate>Sun, 18 Dec 2022 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2022/learn-regex-step-by-step-from-zero-to-advanced</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/learn-regex-step-by-step-from-zero-to-advanced</guid>
         
@@ -370,7 +370,7 @@ References
           
           Amazon Description #1 NEW YORK TIMES BEST SELLER • The epic story of the greatest quest in all of science—the holy grail of physics that would explain the creation of the universe—from renowned theoretical physicist and author of The Future...
         </description>
-        <pubDate>Fri, 16 Sep 2022 00:00:00 -0500</pubDate>
+        <pubDate>Fri, 16 Sep 2022 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/books/2022/the-god-equation-the-quest-for-a-theory-of-everything</link>
         <guid isPermaLink="true">https://nima.ninja/books/2022/the-god-equation-the-quest-for-a-theory-of-everything</guid>
         
@@ -399,7 +399,7 @@ References
           
           Lab Link Lab: Exploiting PHP deserialization with a pre-built gadget chain Lab Description This lab has a serialization-based session mechanism that uses a signed cookie. It also uses a common PHP framework. Although you don’t have source code access, you...
         </description>
-        <pubDate>Thu, 11 Aug 2022 00:00:00 -0500</pubDate>
+        <pubDate>Thu, 11 Aug 2022 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/blog/2022/exploiting-php-deserialization-with-a-pre-built-gadget-chain</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2022/exploiting-php-deserialization-with-a-pre-built-gadget-chain</guid>
         
@@ -432,7 +432,7 @@ References
           
           See the first link below to become familiar with various Cross-site WebSocket hijacking (CSWSH) attacks. If you are not familiar with Websocket vulnerabilities, take a look at the second link for more details. External Links Cross-site WebSocket hijacking (CSWSH) Testing...
         </description>
-        <pubDate>Thu, 07 Jul 2022 00:00:00 -0500</pubDate>
+        <pubDate>Thu, 07 Jul 2022 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2022/cross-site-websocket-hijacking-cswsh</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/cross-site-websocket-hijacking-cswsh</guid>
         
@@ -459,7 +459,7 @@ References
           
           Lab Link Lab: Reflected XSS in a JavaScript URL with some characters blocked Lab Description This lab reflects your input in a JavaScript URL, but all is not as it seems. This initially seems like a trivial challenge; however, the...
         </description>
-        <pubDate>Sat, 04 Jun 2022 00:00:00 -0500</pubDate>
+        <pubDate>Sat, 04 Jun 2022 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/blog/2022/expert-lab-reflected-xss-in-a-javascript-url-with-some-characters-blocked</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2022/expert-lab-reflected-xss-in-a-javascript-url-with-some-characters-blocked</guid>
         
@@ -488,7 +488,7 @@ References
           
           Lab Link Lab: Web shell upload via race condition Lab Description This lab contains a vulnerable image upload function. Although it performs robust validation on any files that are uploaded, it is possible to bypass this validation entirely by exploiting...
         </description>
-        <pubDate>Mon, 09 May 2022 00:00:00 -0500</pubDate>
+        <pubDate>Mon, 09 May 2022 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/blog/2022/expert-lab-web-shell-upload-via-race-condition</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2022/expert-lab-web-shell-upload-via-race-condition</guid>
         
@@ -519,7 +519,7 @@ References
           
           There are many ways to bypass flawed validation of file uploads to upload web shells on web applications, this link explains some ways like creating a polyglot image file containing malicious code in its metadata using tools like exiftool, this...
         </description>
-        <pubDate>Sun, 08 May 2022 00:00:00 -0500</pubDate>
+        <pubDate>Sun, 08 May 2022 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2022/hide-malicious-shell-in-image-file</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/hide-malicious-shell-in-image-file</guid>
         
@@ -548,7 +548,7 @@ References
           
           Learning a new language can be hard and time-consuming but with a proper method, it can be fun and smooth. Duolingo is a very fun and effective way to learn a new language. It has many great features. One of...
         </description>
-        <pubDate>Tue, 12 Apr 2022 00:00:00 -0500</pubDate>
+        <pubDate>Tue, 12 Apr 2022 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2022/duolingo-an-effective-way-to-learn-a-new-language</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/duolingo-an-effective-way-to-learn-a-new-language</guid>
         
@@ -586,7 +586,7 @@ References
     
       Icon made by Aha-Soft from www.iconarchive.com &amp;#8617;
         </description>
-        <pubDate>Tue, 12 Apr 2022 00:00:00 -0500</pubDate>
+        <pubDate>Tue, 12 Apr 2022 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2022/coep-coop-corp-cors-corb-crap-thats-a-lot-of-new-stuff</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/coep-coop-corp-cors-corb-crap-thats-a-lot-of-new-stuff</guid>
         
@@ -615,7 +615,7 @@ References
           
           This is a list of some handy Server Benchmarking Tools that might be useful for you: External Links Performance and Speed Testing GTmetrix PageSpeed Insights Structure check Nu Html Checker Feed Validation Service Security Check Is your Internet UP to...
         </description>
-        <pubDate>Tue, 12 Apr 2022 00:00:00 -0500</pubDate>
+        <pubDate>Tue, 12 Apr 2022 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/blog/2022/handy-benchmarking-tools-for-your-server</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2022/handy-benchmarking-tools-for-your-server</guid>
         
@@ -648,7 +648,7 @@ References
           
           Amazon Description INSTANT NEW YORK TIMES and LOS ANGELES TIMES BESTSELLER “Brilliant… riveting, scary, cogent, and cleverly argued.”—Beth Macy, author of Dopesick As heard on Fresh Air This book is about pleasure. It’s also about pain. Most important, it’s about...
         </description>
-        <pubDate>Tue, 05 Apr 2022 00:00:00 -0500</pubDate>
+        <pubDate>Tue, 05 Apr 2022 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/books/2022/dopamine-nation-finding-balance-in-the-age-of-indulgence</link>
         <guid isPermaLink="true">https://nima.ninja/books/2022/dopamine-nation-finding-balance-in-the-age-of-indulgence</guid>
         
@@ -692,7 +692,7 @@ References
     
       Icon made by Paul J. from www.flaticon.com &amp;#8617;
         </description>
-        <pubDate>Sun, 06 Feb 2022 00:00:00 -0500</pubDate>
+        <pubDate>Sun, 06 Feb 2022 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2022/11-neuroscience-hacks-to-wire-your-brain-for-success</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/11-neuroscience-hacks-to-wire-your-brain-for-success</guid>
         
@@ -715,7 +715,7 @@ References
           
           Can we, as adults, grow new neurons? Neuroscientist Sandrine Thuret says that we can, and she offers research and practical advice on how we can help our brains better perform neurogenesis, improving mood, increasing memory formation and preventing the decline...
         </description>
-        <pubDate>Sat, 08 Jan 2022 00:00:00 -0500</pubDate>
+        <pubDate>Sat, 08 Jan 2022 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2022/you-can-grow-new-brain-cells-here-is-how</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/you-can-grow-new-brain-cells-here-is-how</guid>
         
@@ -738,7 +738,7 @@ References
           
           Amazon Description Even today, as trendy diets and a weight-loss frenzy sweep the nation, two-thirds of adults are still obese and children are being diagnosed with Type 2 diabetes, typically an “adult” disease, at an alarming rate. If we’re obsessed...
         </description>
-        <pubDate>Sat, 08 Jan 2022 00:00:00 -0500</pubDate>
+        <pubDate>Sat, 08 Jan 2022 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/books/2022/the-china-study-the-most-comprehensive-study-of-nutrition-ever-conducted</link>
         <guid isPermaLink="true">https://nima.ninja/books/2022/the-china-study-the-most-comprehensive-study-of-nutrition-ever-conducted</guid>
         
@@ -763,7 +763,7 @@ References
           
           Amazon Description Bug Bounty Bootcamp teaches you how to hack web applications. You will learn how to perform reconnaissance on a target, how to identify vulnerabilities, and how to exploit them. You’ll also learn how to navigate bug bounty programs...
         </description>
-        <pubDate>Mon, 29 Nov 2021 19:00:04 -0500</pubDate>
+        <pubDate>Mon, 29 Nov 2021 20:00:04 -0400</pubDate>
         <link>https://nima.ninja/books/2021/bug-bounty-bootcamp</link>
         <guid isPermaLink="true">https://nima.ninja/books/2021/bug-bounty-bootcamp</guid>
         
@@ -800,7 +800,7 @@ References
           
           Amazon Description Penetration testers simulate cyber attacks to find security weaknesses in networks, operating systems, and applications. Information security experts worldwide use penetration techniques to evaluate enterprise defenses. In Penetration Testing, security expert, researcher, and trainer Georgia Weidman introduces you...
         </description>
-        <pubDate>Mon, 29 Nov 2021 19:00:03 -0500</pubDate>
+        <pubDate>Mon, 29 Nov 2021 20:00:03 -0400</pubDate>
         <link>https://nima.ninja/books/2021/penetration-testing-a-hands-on-introduction-to-hacking</link>
         <guid isPermaLink="true">https://nima.ninja/books/2021/penetration-testing-a-hands-on-introduction-to-hacking</guid>
         
@@ -833,7 +833,7 @@ References
           
           Amazon Description This practical, tutorial-style book uses the Kali Linux distribution to teach Linux basics with a focus on how hackers would use them. Topics include Linux command line basics, filesystems, networking, BASH basics, package management, logging, and the Linux...
         </description>
-        <pubDate>Mon, 29 Nov 2021 19:00:02 -0500</pubDate>
+        <pubDate>Mon, 29 Nov 2021 20:00:02 -0400</pubDate>
         <link>https://nima.ninja/books/2021/linux-basics-for-hackers</link>
         <guid isPermaLink="true">https://nima.ninja/books/2021/linux-basics-for-hackers</guid>
         
@@ -862,7 +862,7 @@ References
           
           Amazon Description As protecting information continues to be a growing concern for today’s businesses, certifications in IT security have become highly desirable, even as the number of certifications has grown. Now you can set yourself apart with the Certified Ethical...
         </description>
-        <pubDate>Mon, 29 Nov 2021 19:00:01 -0500</pubDate>
+        <pubDate>Mon, 29 Nov 2021 20:00:01 -0400</pubDate>
         <link>https://nima.ninja/books/2021/certified-ethical-hacker</link>
         <guid isPermaLink="true">https://nima.ninja/books/2021/certified-ethical-hacker</guid>
         
@@ -891,7 +891,7 @@ References
           
           Amazon Description To complement the CompTIA Network+ Study Guide: Exam N10-007, 4e, and the CompTIA Network+ Deluxe Study Guide: Exam N10-007, 4e, look at CompTIA Network+ Practice Tests: Exam N10-007 (9781119432128). Todd Lammle’s bestselling CompTIA Network+ Study Guide for the...
         </description>
-        <pubDate>Mon, 29 Nov 2021 19:00:00 -0500</pubDate>
+        <pubDate>Mon, 29 Nov 2021 20:00:00 -0400</pubDate>
         <link>https://nima.ninja/books/2021/network+</link>
         <guid isPermaLink="true">https://nima.ninja/books/2021/network+</guid>
         
@@ -925,7 +925,7 @@ References
     
       X Post &amp;#8617;
         </description>
-        <pubDate>Thu, 11 Nov 2021 00:00:00 -0500</pubDate>
+        <pubDate>Thu, 11 Nov 2021 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/blog/2021/looking-for-ios-kernel-bugs</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2021/looking-for-ios-kernel-bugs</guid>
         
@@ -952,7 +952,7 @@ References
           
           In rare moments, an application is found which works great and also feels great to work with; Obsidian is one of those rare gems. It is a powerful knowledge base on top of a local folder of plain text Markdown...
         </description>
-        <pubDate>Fri, 29 Oct 2021 19:00:00 -0500</pubDate>
+        <pubDate>Fri, 29 Oct 2021 20:00:00 -0400</pubDate>
         <link>https://nima.ninja/blog/2021/obsidian-a-second-brain-for-you-forever</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2021/obsidian-a-second-brain-for-you-forever</guid>
         
@@ -986,7 +986,7 @@ External Links
   
     Techlore Youtube Channel
         </description>
-        <pubDate>Wed, 20 Oct 2021 00:00:00 -0500</pubDate>
+        <pubDate>Wed, 20 Oct 2021 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2021/techlore</link>
         <guid isPermaLink="true">https://nima.ninja/links/2021/techlore</guid>
         
@@ -1009,7 +1009,7 @@ External Links
           
           Whonix Tor Gateway You can anonymize all of your web requests by using Whonix Tor Gateway. You download and use a Whonix VirtualBox VM which is a hardened Linux distro and this VM can act as your Tor gateway for...
         </description>
-        <pubDate>Tue, 19 Oct 2021 19:00:01 -0500</pubDate>
+        <pubDate>Tue, 19 Oct 2021 20:00:01 -0400</pubDate>
         <link>https://nima.ninja/blog/2021/whonix-tor-gateway</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2021/whonix-tor-gateway</guid>
         
@@ -1038,7 +1038,7 @@ External Links
           
           At last I did it! I had Discord account and even a simple server for some years but never put in the necessary effort to fully set up and customize my server. Finally I’ve put some time this week (maybe...
         </description>
-        <pubDate>Fri, 15 Oct 2021 00:00:00 -0500</pubDate>
+        <pubDate>Fri, 15 Oct 2021 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/blog/2021/my-discord-server-is-up-and-running</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2021/my-discord-server-is-up-and-running</guid>
         
@@ -1063,7 +1063,7 @@ External Links
           
           If you want to learn how to use Jekyll with Github pages to build your own website or blog, one of cool resources is these Up and Running series from Bill Raymond’s youtube page. He teaches great tips that can...
         </description>
-        <pubDate>Mon, 11 Oct 2021 00:00:00 -0500</pubDate>
+        <pubDate>Mon, 11 Oct 2021 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2021/up-and-running-with-github-pages</link>
         <guid isPermaLink="true">https://nima.ninja/links/2021/up-and-running-with-github-pages</guid>
         
@@ -1107,7 +1107,7 @@ External Links
   
     My OSCP Journey - A Review
         </description>
-        <pubDate>Thu, 07 Oct 2021 00:00:00 -0500</pubDate>
+        <pubDate>Thu, 07 Oct 2021 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/links/2021/my-oscp-journey-a-review</link>
         <guid isPermaLink="true">https://nima.ninja/links/2021/my-oscp-journey-a-review</guid>
         
@@ -1136,7 +1136,7 @@ External Links
           
           Amazon Description “Why We Sleep is an important and fascinating book…Walker taught me a lot about this basic activity that every person on Earth needs. I suspect his book will do the same for you.” —Bill Gates A New York...
         </description>
-        <pubDate>Thu, 07 Oct 2021 00:00:00 -0500</pubDate>
+        <pubDate>Thu, 07 Oct 2021 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/books/2021/why-we-sleep-unlocking-the-power-of-sleep-and-dreams</link>
         <guid isPermaLink="true">https://nima.ninja/books/2021/why-we-sleep-unlocking-the-power-of-sleep-and-dreams</guid>
         
@@ -1159,7 +1159,7 @@ External Links
           
           Amazon Description “Virus of the Mind is the first popular book devoted to the science of memetics, a controversial new field that transcends psychology, biology, anthropology, and cognitive science. Memetics is the science of memes, the invisible but very real...
         </description>
-        <pubDate>Thu, 07 Oct 2021 00:00:00 -0500</pubDate>
+        <pubDate>Thu, 07 Oct 2021 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/books/2021/virus-of-the-mind-the-new-science-of-the-meme</link>
         <guid isPermaLink="true">https://nima.ninja/books/2021/virus-of-the-mind-the-new-science-of-the-meme</guid>
         
@@ -1184,7 +1184,7 @@ External Links
           
           Amazon Description “What is the secret of talent? How do we unlock it? In this groundbreaking work, journalist and New York Times bestselling author Daniel Coyle provides parents, teachers, coaches, businesspeople—and everyone else—with tools they can use to maximize potential...
         </description>
-        <pubDate>Thu, 07 Oct 2021 00:00:00 -0500</pubDate>
+        <pubDate>Thu, 07 Oct 2021 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/books/2021/the-talent-code-greatness-isnt-born-its-grown-heres-how</link>
         <guid isPermaLink="true">https://nima.ninja/books/2021/the-talent-code-greatness-isnt-born-its-grown-heres-how</guid>
         
@@ -1211,7 +1211,7 @@ External Links
           
           Amazon Description “The million copy international bestseller, critically acclaimed and translated into over 25 languages. As influential today as when it was first published, The Selfish Gene has become a classic exposition of evolutionary thought. Professor Dawkins articulates a gene’s...
         </description>
-        <pubDate>Thu, 07 Oct 2021 00:00:00 -0500</pubDate>
+        <pubDate>Thu, 07 Oct 2021 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/books/2021/the-selfish-gene</link>
         <guid isPermaLink="true">https://nima.ninja/books/2021/the-selfish-gene</guid>
         
@@ -1236,7 +1236,7 @@ External Links
           
           Amazon Description “Imagine trying to make sense of an amalgam of Timothy Leary’s eight neurological circuits, G.I. Gurdjieff’s self-observation exercises, Alfred Korzybski’s general semantics, Aleister Crowley’s magical theorems, and the several disciplines of Yoga; not to mention Christian Science, relativity,...
         </description>
-        <pubDate>Thu, 07 Oct 2021 00:00:00 -0500</pubDate>
+        <pubDate>Thu, 07 Oct 2021 00:00:00 -0400</pubDate>
         <link>https://nima.ninja/books/2021/prometheus-rising</link>
         <guid isPermaLink="true">https://nima.ninja/books/2021/prometheus-rising</guid>
         
