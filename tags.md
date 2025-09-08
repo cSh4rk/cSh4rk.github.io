@@ -2,11 +2,11 @@
 layout: default
 title: "Tags"
 permalink: /tags/
-image: /assets/poison2.png
+image: /assets/robot4.png
 description: "Search through all the topics and tags included in website posts."
 ---
 
-![](/assets/poison2.png)
+![](/assets/robot4.png)
 <br>
 <br>
 

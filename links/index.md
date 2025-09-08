@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Links
-image: /links/assets/poison5.png
+image: /links/assets/robot3.png
 description: "Here I share web links that I've found interesting."
 ---
 
-![](/links/assets/poison5.png)
+![](/links/assets/robot3.png)
 <br>
 <br>
 
@@ -50,8 +50,3 @@ description: "Here I share web links that I've found interesting."
 
   {% endif %}
 </section>
-
-<br>
-#### _References_
-* * *
-<span class="tiny">Icon made by <a href="https://iconarchive.com/artist/mirella-gabriele.html">mirella.design</a>.</span>

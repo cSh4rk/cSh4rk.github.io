@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Blog
-image: /blog/assets/poison3.png
+image: /blog/assets/robot1.png
 description: "Here I talk about anything, mostly technical topics."
 ---
 
-![](/blog/assets/poison3.png)
+![](/blog/assets/robot1.png)
 <br>
 <br>
 
@@ -49,8 +49,3 @@ description: "Here I talk about anything, mostly technical topics."
     {% endfor %}
   {% endif %}
 </section>
-
-<br>
-#### _References_
-* * *
-<span class="tiny">Icon made by <a href="https://iconarchive.com/artist/mirella-gabriele.html">mirella.design</a>.</span>

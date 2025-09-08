@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Books
-image: /books/assets/poison4.png
+image: /books/assets/robot2.png
 description: "Here are my book recommendations."
 ---
 
-![](/books/assets/poison4.png)
+![](/books/assets/robot2.png)
 <br>
 <br>
 
@@ -49,8 +49,3 @@ description: "Here are my book recommendations."
     {% endfor %}
   {% endif %}
 </section>
-
-<br>
-#### _References_
-* * *
-<span class="tiny">Icon made by <a href="https://iconarchive.com/artist/mirella-gabriele.html">mirella.design</a>.</span>

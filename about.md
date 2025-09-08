@@ -85,8 +85,3 @@ I like almost all technical fields of Cybersecurity but prefer Offensive Securit
 ### Other Areas of Interest
 * * *
 <a href="https://portswigger.net/" class="no-decoration"><code class="language-plaintext highlighter-rouge">PortSwigger</code></a>, <a href="https://tryhackme.com/" class="no-decoration"><code class="language-plaintext highlighter-rouge">TryHackMe</code></a>, <a href="https://www.offsec.com/" class="no-decoration"><code class="language-plaintext highlighter-rouge">OffSec</code></a>, `Anonymization`, `Online Privacy and Invisibility`, `OSINT`, `Linux`, `OS Hardening`, `Covert Cyber-Attacks`, `Side-Channel Attacks`, `Bypassing Air-Gaps`, `Automation`, `Github and Open-Source Software`, `CTFs`, `Blockchain`, `ICS`, `AI`, `Quantum Computing`, `Neuroscience`, `Evolution`, `Personal Transformation`, `Performance Improvement`...
-
-<br>
-#### _References_
-* * *
-<span class="tiny">Icon made by <a href="https://www.flaticon.com/authors/freepik">Freepik</a> from <a href="https://www.flaticon.com">www.flaticon.com</a></span>

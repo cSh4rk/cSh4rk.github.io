@@ -63,8 +63,3 @@ description: "Contact me through one of these channels."
 <!--{% if site.social.tellonym %}
   - Send Anonymous Message: <a href="https://tellonym.me/{{ site.social.tellonym }}"><span>@{{ site.social.tellonym | replace: "_", "\_" }}</span></a>
 {% endif %}-->
-
-<br>
-#### _References_
-* * *
-<span class="tiny">Icon made by <a href="https://iconarchive.com">Icon Archive</a>.</span>
