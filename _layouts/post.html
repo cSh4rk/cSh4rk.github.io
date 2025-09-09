@@ -12,6 +12,7 @@ layout: default
       <code class="posttag"><a href="/tags/#{{ tag | replace: " " , "-" | downcase }}" class="no-decoration">{{ tag | xml_escape }}</a></code>
     {% endfor %}
   </div>
+  <span class="icon">{% include icon-calendar.svg %}</span>
   <time datetime="{{ page.date | date_to_xmlschema }}" class="by-line"><strong>Published: </strong>{{ page.date | date_to_string }}</time>
   {% if page.updated %}<time datetime="{{ page.updated | date_to_xmlschema }}" class="by-line">&nbsp;&nbsp;<strong>Updated: </strong>{{ page.updated | date_to_string }}</time>{% endif %}
   {{ content }}
