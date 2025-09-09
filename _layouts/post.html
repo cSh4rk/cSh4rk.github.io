@@ -12,6 +12,7 @@ layout: default
       <code class="posttag"><a href="/tags/#{{ tag | replace: " " , "-" | downcase }}" class="no-decoration">{{ tag | xml_escape }}</a></code>
     {% endfor %}
   </div>
-  <time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time>
+  <time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">Published: {{ page.date | date_to_string }}</time>
+  {% if page.updated %}<time datetime="{{ page.updated | date_to_xmlschema }}" class="by-line">&nbsp;&nbsp;Updated: {{ page.updated | date_to_string }}</time>{% endif %}
   {{ content }}
 </article>
