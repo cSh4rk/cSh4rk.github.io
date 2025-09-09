@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Contact
-image: /assets/ninja2.png
+image: /assets/robot5.png
 robots: noindex,nofollow
 description: "Contact me through one of these channels."
 ---
 
-![](/assets/ninja2.png)
+![](/assets/robot5.png)
 <br>
 <br>
 

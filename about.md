@@ -10,7 +10,7 @@ description: "This page is all about me!"
 ## ~$ whoami
 * * *
 
-![](/assets/mask1.gif) Hello. My name is Nima, Welcome to my Website!
+![](/assets/mask1.png) Hello. My name is Nima, Welcome to my Website!
 
 I am a Penetration Tester, Cybersecurity Researcher and I also used to be a Software Developer.
 
