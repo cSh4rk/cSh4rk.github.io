@@ -4,9 +4,11 @@ published: true
 tags: [Psychology, Creativity, Genius]
 image: /books/assets/flow_book.jpg
 description: "Legendary psychologist Mihaly Csikszentmihalyi's famous investigations of \"optimal experience\" have revealed that what makes an experience genuinely satisfying is a state of consciousness called flow. During flow, people typically experience deep enjoyment, creativity, and a total involvement with life. In this new edition of his groundbreaking classic work, Csikszentmihalyi (\"the leading researcher into ‘flow states’\" —Newsweek) demonstrates the ways this positive state can be controlled, not just left to chance."
+image_width: "264"
+image_height: "400"
 ---
 
-![](/books/assets/flow_book.jpg)
+![](/books/assets/flow_book.jpg){: width="264" height="400"}
 
 <br>
 ### Amazon[^1] Description

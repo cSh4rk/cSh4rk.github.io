@@ -4,9 +4,11 @@ published: true
 tags: [Psychology, Consciousness, Spirituality, Weird]
 image: /books/assets/prometheus_rising.jpg
 description: "Imagine trying to make sense of an amalgam of Timothy Leary's eight neurological circuits, G.I. Gurdjieff's self-observation exercises, Alfred Korzybski's general semantics, Aleister Crowley's magical theorems, and the several disciplines of Yoga; not to mention Christian Science, relativity, quantum mechanics, and many other approaches to understanding the world around us. That is exactly what Robert Anton Wilson does in Prometheus Rising. In short, this is a book about how the human mind works and what you can do to make the most of yours."
+image_width: "242"
+image_height: "400"
 ---
 
-![](/books/assets/prometheus_rising.jpg)
+![](/books/assets/prometheus_rising.jpg){: width="242" height="400"}
 
 <br>
 ### Amazon[^1] Description

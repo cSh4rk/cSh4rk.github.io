@@ -5,7 +5,7 @@ image: /books/assets/robot2.png
 description: "Here are my book recommendations."
 ---
 
-![](/books/assets/robot2.png)
+![](/books/assets/robot2.png){: width="461" height="307"}
 <br>
 <br>
 

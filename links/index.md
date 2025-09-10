@@ -5,7 +5,7 @@ image: /links/assets/robot3.png
 description: "Here I share web links that I've found interesting."
 ---
 
-![](/links/assets/robot3.png)
+![](/links/assets/robot3.png){: width="307" height="461"}
 <br>
 <br>
 

@@ -4,9 +4,11 @@ published: true
 tags: [Web Application Security, Bug Bounty, AI, ChatGPT]
 image: /links/assets/ai.png
 description: "Nice sample prompts that will give you some ideas on how to use ChatGPT more effectively for Bug Hunting."
+image_width: "256"
+image_height: "256"
 ---
 
-![](/links/assets/ai.png)
+![](/links/assets/ai.png){: width="256" height="256"}
 <br>
 [^1]
 

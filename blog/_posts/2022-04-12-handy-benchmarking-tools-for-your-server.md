@@ -4,9 +4,11 @@ published: true
 tags: [Web, Benchmarking Tools, Web Application Security, Web Application Performance Testing, DNSSEC, TLS, HTTP Headers, Security Headers]
 image: /blog/assets/chart-search-icon.png
 description: "These tools help you benchmark your website and find performance and technical issues."
+image_width: "256"
+image_height: "256"
 ---
 
-![](/blog/assets/chart-search-icon.png)
+![](/blog/assets/chart-search-icon.png){: width="256" height="256"}
 <br>
 [^1]
 

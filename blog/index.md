@@ -5,7 +5,7 @@ image: /blog/assets/robot1.png
 description: "Here I talk about anything, mostly technical topics."
 ---
 
-![](/blog/assets/robot1.png)
+![](/blog/assets/robot1.png){: width="307" height="461"}
 <br>
 <br>
 

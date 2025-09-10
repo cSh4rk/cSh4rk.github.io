@@ -100,9 +100,27 @@ header h2 {
   width: 100%;
   -webkit-font-smoothing: antialiased;
 }
-section img {
-  max-width: 100%
+
+
+// Fix Layout Shift issue(combined with adding width and height to html img tag) (09102025 Added)
+
+img {
+  max-width: 100%;  /* makes it responsive */
+  height: auto;     /* keeps aspect ratio */
+  display: block;   /* avoids inline spacing issues */
 }
+
+img.no-responsive {
+  max-width: none;
+  height: auto;
+  display: inline;
+}
+
+//
+
+/*section img {
+  max-width: 100%
+}*/
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;

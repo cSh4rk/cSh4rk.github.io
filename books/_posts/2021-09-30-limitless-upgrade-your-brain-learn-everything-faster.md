@@ -4,9 +4,11 @@ published: true
 tags: [Personal Transformation, Performance Improvement, Genius]
 image: /books/assets/limitless_book.jpg
 description: "JIM KWIK, the world's #1 brain coach, has written the owner's manual for mental expansion and brain fitness. Limitless gives people the ability to accomplish more, more productivity, more transformation, more personal success, and business achievement, by changing their Mindset, Motivation, and Methods."
+image_width: "267"
+image_height: "400"
 ---
 
-![](/books/assets/limitless_book.jpg)
+![](/books/assets/limitless_book.jpg){: width="267" height="400"}
 
 <br>
 ### Amazon[^1] Description

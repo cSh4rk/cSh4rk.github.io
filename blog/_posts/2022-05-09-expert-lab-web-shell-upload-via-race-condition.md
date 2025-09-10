@@ -4,10 +4,12 @@ published: true
 tags: [Web Application Security, Web Security Academy, Expert Labs, File Upload Vulnerabilities, Race Condition Vulnerabilities, Turbo Intruder, Exiftool]
 image: /blog/assets/console.png
 description: "Lab Description: This lab contains a vulnerable image upload function. Although it performs robust validation on any files that are uploaded, it is possible to bypass this validation entirely by exploiting a race condition in the way it processes them."
+image_width: "256"
+image_height: "256"
 ---
 
 <br>
-![](/blog/assets/console.png)
+![](/blog/assets/console.png){: width="256" height="256"}
 <br>
 [^1]
 <br>

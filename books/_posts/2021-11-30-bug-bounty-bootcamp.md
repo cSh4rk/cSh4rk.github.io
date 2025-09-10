@@ -5,9 +5,11 @@ date: 2021-11-30 00:00:04
 tags: [Web Application Security, Bug Bounty, Hacking, Prerequisite, Newcomers, Top Book, Top Hacking Book, HTTP, HTTP Headers, Security Headers]
 image: /books/assets/bug_bounty_bootcamp_book.jpg
 description: "Bug Bounty Bootcamp teaches you how to hack web applications. You will learn how to perform reconnaissance on a target, how to identify vulnerabilities, and how to exploit them. You'll also learn how to navigate bug bounty programs set up by companies to reward security professionals for finding bugs in their web applications."
+image_width: "300"
+image_height: "400"
 ---
 
-![](/books/assets/bug_bounty_bootcamp_book.jpg)
+![](/books/assets/bug_bounty_bootcamp_book.jpg){: width="300" height="400"}
 
 <br>
 ### Amazon[^1] Description

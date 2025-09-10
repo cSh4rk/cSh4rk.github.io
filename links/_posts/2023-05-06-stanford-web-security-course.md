@@ -4,9 +4,11 @@ published: true
 tags: [Web Applications, Web Application Security, Hacking, Courses]
 image: /links/assets/websecurity.png
 description: "This course from Stanford university is a gold mine for every web application security enthusiast."
+image_width: "256"
+image_height: "256"
 ---
 
-![](/links/assets/websecurity.png)
+![](/links/assets/websecurity.png){: width="256" height="256"}
 <br>
 [^1]
 

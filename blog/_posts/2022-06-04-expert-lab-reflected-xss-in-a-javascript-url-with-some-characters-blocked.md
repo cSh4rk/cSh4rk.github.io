@@ -4,10 +4,12 @@ published: true
 tags: [Web Application Security, Web Security Academy, Expert Labs, Cross-Site Scripting, XSS, Javascript]
 image: /blog/assets/hacker.png
 description: "Lab Description: This lab reflects your input in a JavaScript URL, but all is not as it seems. This initially seems like a trivial challenge; however, the application is blocking some characters in an attempt to prevent XSS attacks."
+image_width: "256"
+image_height: "256"
 ---
 
 <br>
-![](/blog/assets/hacker.png)
+![](/blog/assets/hacker.png){: width="256" height="256"}
 <br>
 [^1]
 <br>

@@ -4,9 +4,11 @@ published: true
 tags: [Business Decision-Making]
 image: /books/assets/essentialism_book.jpg
 description: "Essentialism is more than a time-management strategy or a productivity technique. It is a systematic discipline for discerning what is absolutely essential, then eliminating everything that is not, so we can make the highest possible contribution toward the things that really matter."
+image_width: "260"
+image_height: "400"
 ---
 
-![](/books/assets/essentialism_book.jpg)
+![](/books/assets/essentialism_book.jpg){: width="260" height="400"}
 
 <br>
 ### Amazon[^1] Description

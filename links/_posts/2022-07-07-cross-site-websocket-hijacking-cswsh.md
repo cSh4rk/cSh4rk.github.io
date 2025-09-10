@@ -4,9 +4,11 @@ published: true
 tags: [Web Application Security, Web Security Academy, Websockets, Cross-Site Request Forgery, CSRF]
 image: /links/assets/websocket.png
 description: "Introduction to some WebSocket vulnerabilities."
+image_width: "256"
+image_height: "256"
 ---
 
-![](/links/assets/websocket.png)
+![](/links/assets/websocket.png){: width="256" height="256"}
 <br>
 [^1]
 

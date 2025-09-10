@@ -4,9 +4,11 @@ published: true
 tags: [Fun, iOS, Kernel, Bugs, Memes]
 image: /blog/assets/meme1.jpg
 description: "Not really!!! :))"
+image_width: "400"
+image_height: "447"
 ---
 
-![](/blog/assets/meme1.jpg)
+![](/blog/assets/meme1.jpg){: width="400" height="447"}
 <br>
 [^1]
 <br>

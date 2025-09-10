@@ -4,9 +4,11 @@ published: true
 tags: [Neuroscience, Personal Transformation, Psychology, Creativity, Genius]
 image: /books/assets/the_talent_code.jpg
 description: "What is the secret of talent? How do we unlock it? In this groundbreaking work, journalist and New York Times bestselling author Daniel Coyle provides parents, teachers, coaches, businesspeople—and everyone else—with tools they can use to maximize potential in themselves and others."
+image_width: "268"
+image_height: "400"
 ---
 
-![](/books/assets/the_talent_code.jpg)
+![](/books/assets/the_talent_code.jpg){: width="268" height="400"}
 
 <br>
 ### Amazon[^1] Description

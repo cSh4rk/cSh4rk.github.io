@@ -4,9 +4,11 @@ published: true
 tags: [Web, HTTP, Web Applications, Web Application Security, HTTP Headers, Security Headers]
 image: /links/assets/web-icon.png
 description: "Great article about some relatively new HTTP Security Headers."
+image_width: "256"
+image_height: "256"
 ---
 
-![](/links/assets/web-icon.png)
+![](/links/assets/web-icon.png){: width="256" height="256"}
 <br>
 [^1]
 

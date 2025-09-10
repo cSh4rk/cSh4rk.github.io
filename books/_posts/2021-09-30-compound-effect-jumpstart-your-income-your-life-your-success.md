@@ -4,9 +4,11 @@ published: true
 tags: [Personal Transformation, Performance Improvement, Top Book]
 image: /books/assets/compoundeffect_book.jpg
 description: "Do you want success? More success than you have now? And even more success than you ever imagined possible? That is what this book is about. Achieving it."
+image_width: "289"
+image_height: "400"
 ---
 
-![](/books/assets/compoundeffect_book.jpg)
+![](/books/assets/compoundeffect_book.jpg){: width="289" height="400"}
 
 <br>
 ### Amazon[^1] Description

@@ -6,7 +6,7 @@ robots: noindex,nofollow
 description: "Contact me through one of these channels."
 ---
 
-![](/assets/robot5.png)
+![](/assets/robot5.png){: width="410" height="410"}
 <br>
 <br>
 

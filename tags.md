@@ -6,7 +6,7 @@ image: /assets/robot4.png
 description: "Search through all the topics and tags included in website posts."
 ---
 
-![](/assets/robot4.png)
+![](/assets/robot4.png){: width="461" height="307"}
 <br>
 <br>
 

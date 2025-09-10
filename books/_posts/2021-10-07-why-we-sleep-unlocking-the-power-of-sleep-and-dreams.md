@@ -4,9 +4,11 @@ published: true
 tags: [Neuroscience, Sleep, Top Science Book]
 image: /books/assets/why_we_sleep.jpg
 description: "Sleep is one of the most important but least understood aspects of our life, wellness, and longevity. Until very recently, science had no answer to the question of why we sleep, or what good it served, or why we suffer such devastating health consequences when we don't sleep. Compared to the other basic drives in life—eating, drinking, and reproducing—the purpose of sleep remained elusive."
+image_width: "263"
+image_height: "400"
 ---
 
-![](/books/assets/why_we_sleep.jpg)
+![](/books/assets/why_we_sleep.jpg){: width="263" height="400"}
 
 <br>
 ### Amazon[^1] Description
