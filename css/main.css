@@ -153,10 +153,21 @@ header h2 {
   -webkit-font-smoothing: antialiased;
 }
 
-section img {
-  max-width: 100%;
+img {
+  max-width: 100%; /* makes it responsive */
+  height: auto; /* keeps aspect ratio */
+  display: block; /* avoids inline spacing issues */
 }
 
+img.no-responsive {
+  max-width: none;
+  height: auto;
+  display: inline;
+}
+
+/*section img {
+  max-width: 100%
+}*/
 h1, h2, h3, h4, h5, h6, .tiny, .tiny-footer, .postitem {
   font-weight: normal;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
