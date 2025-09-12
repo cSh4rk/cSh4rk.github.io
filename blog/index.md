@@ -3,6 +3,7 @@ layout: page
 title: Blog
 image: /blog/assets/robot1.png
 description: "Here I talk about anything, mostly technical topics."
+hero-poster: /blog/assets/robot1.avif
 ---
 
 <!-- 
@@ -11,7 +12,7 @@ description: "Here I talk about anything, mostly technical topics."
   - Older browsers that don't support AVIF just see a blank before playback.
   - Video still plays fine, so UX impact is minimal.
 -->
-<video autoplay muted loop playsinline width="308" height="462" poster="/blog/assets/robot1.avif">
+<video autoplay muted loop playsinline width="308" height="462" poster="{{ page.hero-poster }}">
   <source src="/blog/assets/robot1.webm" type="video/webm">
   <source src="/blog/assets/robot1.mp4" type="video/mp4">
 </video>

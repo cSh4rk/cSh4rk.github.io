@@ -8,7 +8,7 @@ image_width: "258"
 image_height: "400"
 ---
 
-![](/books/assets/thinkandgrowrich_book.jpg){: width="258" height="400"}
+![](/books/assets/thinkandgrowrich_book.jpg){: width="258" height="400" fetchpriority="high" loading="eager"}
 
 <br>
 ### Amazon[^1] Description

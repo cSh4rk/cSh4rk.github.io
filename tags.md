@@ -4,9 +4,10 @@ title: "Tags"
 permalink: /tags/
 image: /assets/robot4.png
 description: "Search through all the topics and tags included in website posts."
+hero-poster: /assets/robot4.avif
 ---
 
-<video autoplay muted loop playsinline width="462" height="308" poster="/assets/robot4.avif">
+<video autoplay muted loop playsinline width="462" height="308" poster="{{ page.hero-poster }}">
   <source src="/assets/robot4.webm" type="video/webm">
   <source src="/assets/robot4.mp4" type="video/mp4">
 </video>

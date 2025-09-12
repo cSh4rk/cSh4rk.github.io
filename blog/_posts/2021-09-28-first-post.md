@@ -8,6 +8,6 @@ image_width: "256"
 image_height: "256"
 ---
 
-![](/blog/assets/sapling.png){: width="256" height="256"}
+![](/blog/assets/sapling.png){: width="256" height="256" fetchpriority="high"}
 
 This is my first post!

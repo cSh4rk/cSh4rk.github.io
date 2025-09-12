@@ -8,7 +8,7 @@ image_width: "256"
 image_height: "256"
 ---
 
-![](/links/assets/github.png){: width="256" height="256"}
+![](/links/assets/github.png){: width="256" height="256" fetchpriority="high" loading="eager"}
 
 If you want to learn how to use Jekyll with Github pages to build your own website or blog, one of cool resources is these Up and Running series from Bill Raymond's youtube page. He teaches great tips that can really make your design process easier.  
 

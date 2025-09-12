@@ -8,7 +8,7 @@ image_width: "256"
 image_height: "256"
 ---
 
-![](/links/assets/networkchuck.png){: width="256" height="256"}
+![](/links/assets/networkchuck.png){: width="256" height="256" fetchpriority="high" loading="eager"}
 
 He produces super cool youtube videos about different aspects of tech, He is so passionate about IT, Computer Networks and Technology, I like this guy!
 

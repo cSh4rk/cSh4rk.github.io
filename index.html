@@ -19,7 +19,25 @@ image: /assets/ninja_big.png
         <time datetime="{{ post.date | date_to_xmlschema }}"><strong>Published: </strong>{{ post.date | date_to_string }}</time>
         {% if post.updated %}<time datetime="{{ post.updated | date_to_xmlschema }}" class="by-line">&nbsp;&nbsp;<strong>Updated: </strong>{{ post.updated | date_to_string }}</time>{% endif %}
         {% if post.image %}
-          <p><img src="{{post.image}}" width="{{post.image_width}}" height="{{post.image_height}}" alt=""></p>
+          {% if forloop.first %}
+            <p>
+              <img src="{{ post.image }}"
+                  width="{{ post.image_width }}"
+                  height="{{ post.image_height }}"
+                  alt=""
+                  fetchpriority="high"
+                  loading="eager">
+            </p>
+          {% else %}
+            <p>
+              <img src="{{ post.image }}"
+                  width="{{ post.image_width }}"
+                  height="{{ post.image_height }}"
+                  alt=""
+                  loading="lazy"
+                  decoding="async">
+            </p>
+          {% endif %}
         {% endif %}
         <p>{{ post.content | 
           replace_first: 'rel="footnote">1</a>' , 'rel="footnote"></a>' |

@@ -9,7 +9,7 @@ image_width: "320"
 image_height: "400"
 ---
 
-![](/books/assets/ceh_book.jpg){: width="320" height="400"}
+![](/books/assets/ceh_book.jpg){: width="320" height="400" fetchpriority="high" loading="eager"}
 
 <br>
 ### Amazon[^1] Description

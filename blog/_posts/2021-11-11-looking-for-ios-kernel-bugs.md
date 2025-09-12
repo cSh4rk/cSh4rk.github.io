@@ -8,7 +8,7 @@ image_width: "400"
 image_height: "447"
 ---
 
-![](/blog/assets/meme1.jpg){: width="400" height="447"}
+![](/blog/assets/meme1.jpg){: width="400" height="447" fetchpriority="high" loading="eager"}
 <br>
 [^1]
 <br>

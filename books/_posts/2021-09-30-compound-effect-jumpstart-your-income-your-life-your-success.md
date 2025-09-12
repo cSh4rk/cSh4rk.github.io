@@ -8,7 +8,7 @@ image_width: "289"
 image_height: "400"
 ---
 
-![](/books/assets/compoundeffect_book.jpg){: width="289" height="400"}
+![](/books/assets/compoundeffect_book.jpg){: width="289" height="400" fetchpriority="high" loading="eager"}
 
 <br>
 ### Amazon[^1] Description

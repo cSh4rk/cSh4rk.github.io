@@ -9,7 +9,7 @@ image_width: "260"
 image_height: "400"
 ---
 
-![](/books/assets/the_god_equation_book.jpg){: width="260" height="400"}
+![](/books/assets/the_god_equation_book.jpg){: width="260" height="400" fetchpriority="high" loading="eager"}
 
 <br>
 ### Amazon[^1] Description

@@ -8,7 +8,7 @@ image_width: "268"
 image_height: "400"
 ---
 
-![](/books/assets/the_talent_code.jpg){: width="268" height="400"}
+![](/books/assets/the_talent_code.jpg){: width="268" height="400" fetchpriority="high" loading="eager"}
 
 <br>
 ### Amazon[^1] Description

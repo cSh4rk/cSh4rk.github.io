@@ -8,7 +8,7 @@ image_width: "265"
 image_height: "400"
 ---
 
-![](/books/assets/atomichabits_book.jpg){: width="265" height="400"}
+![](/books/assets/atomichabits_book.jpg){: width="265" height="400" fetchpriority="high" loading="eager"}
 
 <br>
 ### Amazon[^1] Description

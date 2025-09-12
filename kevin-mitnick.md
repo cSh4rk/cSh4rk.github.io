@@ -5,7 +5,7 @@ image: /assets/kevin-mitnick.jpg
 description: "Legends Never Die"
 ---
 
-![](/assets/kevin.jpg){: width="720" height="378"}
+![](/assets/kevin.jpg){: width="720" height="378" fetchpriority="high" loading="eager"}
 
 <br>
 

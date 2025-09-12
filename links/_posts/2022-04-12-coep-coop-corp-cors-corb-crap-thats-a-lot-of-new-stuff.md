@@ -8,7 +8,7 @@ image_width: "256"
 image_height: "256"
 ---
 
-![](/links/assets/web-icon.png){: width="256" height="256"}
+![](/links/assets/web-icon.png){: width="256" height="256" fetchpriority="high" loading="eager"}
 <br>
 [^1]
 

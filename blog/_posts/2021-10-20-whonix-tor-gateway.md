@@ -9,7 +9,7 @@ image_width: "388"
 image_height: "128"
 ---
 
-![](/blog/assets/whonix-logo.png){: width="388" height="128"}
+![](/blog/assets/whonix-logo.png){: width="388" height="128" fetchpriority="high" loading="eager"}
 
 <br>
 ### Whonix[^1] Tor Gateway
@@ -25,17 +25,17 @@ First set up the necessary Whonix VM network adapters:
 
 Don't change this default network adapter:
 
-![](/blog/assets/whonix1.png){: width="641" height="525"}
+![](/blog/assets/whonix1.png){: width="641" height="525" loading="eager" decoding="async"}
 
 Add a secondary network adapter or edit it like this if it already exists:
 
-![](/blog/assets/whonix2.png){: width="647" height="529"}
+![](/blog/assets/whonix2.png){: width="647" height="529" loading="lazy" decoding="async"}
 
 Next step is to be able to use this network in VMware workstation:
 
 Go to Edit -> Virtual Network Editor... and add a new network like the selected one in the picture:
 
-![](/blog/assets/vmware1.png){: width="602" height="525"}
+![](/blog/assets/vmware1.png){: width="602" height="525" loading="lazy" decoding="async"}
 
 Now you can use Whonix Tor Gateway in your VMware VMs. Just do the network config necessary to connect to this network in each of your VMs that you want to use this Tor gateway. You must set IP,Netmask and Gateway according the network that is set in your Whonix, Your Gateway address is the Whonix Tor Gateway IP, and also set your DNS settings according to Whonix Tor gateway.
 

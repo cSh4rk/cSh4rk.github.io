@@ -9,7 +9,7 @@ image_width: "303"
 image_height: "400"
 ---
 
-![](/books/assets/linux_basics_for_hackers_book.jpg){: width="303" height="400"}
+![](/books/assets/linux_basics_for_hackers_book.jpg){: width="303" height="400" fetchpriority="high" loading="eager"}
 
 <br>
 ### Amazon[^1] Description

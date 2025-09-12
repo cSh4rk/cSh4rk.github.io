@@ -8,7 +8,7 @@ image_width: "267"
 image_height: "400"
 ---
 
-![](/books/assets/the_china_study.jpg){: width="267" height="400"}
+![](/books/assets/the_china_study.jpg){: width="267" height="400" fetchpriority="high" loading="eager"}
 
 <br>
 ### Amazon[^1] Description

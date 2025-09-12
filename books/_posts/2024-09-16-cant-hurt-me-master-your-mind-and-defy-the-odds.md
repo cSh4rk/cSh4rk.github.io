@@ -9,7 +9,7 @@ image_width: "266"
 image_height: "400"
 ---
 
-![](/books/assets/cant_hurt_me_book.jpg){: width="266" height="400"}
+![](/books/assets/cant_hurt_me_book.jpg){: width="266" height="400" fetchpriority="high" loading="eager"}
 
 <br>
 ### Amazon[^1] Description

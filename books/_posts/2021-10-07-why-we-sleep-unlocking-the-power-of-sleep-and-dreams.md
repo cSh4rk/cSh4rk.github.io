@@ -8,7 +8,7 @@ image_width: "263"
 image_height: "400"
 ---
 
-![](/books/assets/why_we_sleep.jpg){: width="263" height="400"}
+![](/books/assets/why_we_sleep.jpg){: width="263" height="400" fetchpriority="high" loading="eager"}
 
 <br>
 ### Amazon[^1] Description

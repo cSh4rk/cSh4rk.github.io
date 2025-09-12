@@ -4,9 +4,10 @@ title: Contact
 image: /assets/robot5.png
 robots: noindex,nofollow
 description: "Contact me through one of these channels."
+hero-poster: /assets/robot5.avif
 ---
 
-<video autoplay muted loop playsinline width="410" height="410" poster="/assets/robot5.avif">
+<video autoplay muted loop playsinline width="410" height="410" poster="{{ page.hero-poster }}">
   <source src="/assets/robot5.webm" type="video/webm">
   <source src="/assets/robot5.mp4" type="video/mp4">
 </video>

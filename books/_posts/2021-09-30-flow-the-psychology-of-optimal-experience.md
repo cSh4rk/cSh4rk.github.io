@@ -8,7 +8,7 @@ image_width: "264"
 image_height: "400"
 ---
 
-![](/books/assets/flow_book.jpg){: width="264" height="400"}
+![](/books/assets/flow_book.jpg){: width="264" height="400" fetchpriority="high" loading="eager"}
 
 <br>
 ### Amazon[^1] Description

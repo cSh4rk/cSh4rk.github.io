@@ -9,7 +9,7 @@ image_height: "256"
 ---
 
 <br>
-![](/blog/assets/hacker.png){: width="256" height="256"}
+![](/blog/assets/hacker.png){: width="256" height="256" fetchpriority="high" loading="eager"}
 <br>
 [^1]
 <br>

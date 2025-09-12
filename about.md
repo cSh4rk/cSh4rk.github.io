@@ -4,13 +4,14 @@ title: About
 image: /assets/mask1_big.png
 robots: noindex,nofollow
 description: "This page is all about me!"
+hero-poster: /assets/mask1.avif
 ---
 
 <br>
 ## ~$ whoami
 * * *
 
-<video autoplay muted loop playsinline width="256" height="256" poster="/assets/mask1.avif">
+<video autoplay muted loop playsinline width="256" height="256" poster="{{ page.hero-poster }}">
   <source src="/assets/mask1.webm" type="video/webm">
   <source src="/assets/mask1.mp4" type="video/mp4">
 </video>

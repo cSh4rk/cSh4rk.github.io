@@ -8,7 +8,7 @@ image_width: "242"
 image_height: "400"
 ---
 
-![](/books/assets/prometheus_rising.jpg){: width="242" height="400"}
+![](/books/assets/prometheus_rising.jpg){: width="242" height="400" fetchpriority="high" loading="eager"}
 
 <br>
 ### Amazon[^1] Description

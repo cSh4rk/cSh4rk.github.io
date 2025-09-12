@@ -9,7 +9,7 @@ image_width: "300"
 image_height: "400"
 ---
 
-![](/books/assets/bug_bounty_bootcamp_book.jpg){: width="300" height="400"}
+![](/books/assets/bug_bounty_bootcamp_book.jpg){: width="300" height="400" fetchpriority="high" loading="eager"}
 
 <br>
 ### Amazon[^1] Description
