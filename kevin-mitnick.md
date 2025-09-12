@@ -9,5 +9,5 @@ description: "Legends Never Die"
 
 <br>
 
-<a href="https://x.com/hashtag/RIPKevinMitnick" class="no-decoration"><strong>Legends Never Die</strong><br><br>His passion brought life to Cybersecurity and inspired many lives.<br><br><strong>RIP Kevin Mitnick 🖤</strong></a>
+<a href="https://x.com/hashtag/RIPKevinMitnick" class="no-decoration"><strong>Legends Never Die</strong><br><br>Your passion brought life to Cybersecurity and inspired millions.<br><br>You will be remembered forever...<br><br><strong>RIP Kevin Mitnick 🖤</strong></a>
 
