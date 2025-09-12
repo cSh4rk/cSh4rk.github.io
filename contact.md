@@ -6,7 +6,13 @@ robots: noindex,nofollow
 description: "Contact me through one of these channels."
 ---
 
-![](/assets/robot5.png){: width="410" height="410"}
+<video autoplay muted loop playsinline width="410" height="410" poster="/assets/robot5.png">
+  <source src="/assets/robot5.webm" type="video/webm">
+  <source src="/assets/robot5.mp4" type="video/mp4">
+  
+  <!-- Fallback image -->
+  <img src="/assets/robot5.png" alt="Your video is not supported on this device">
+</video>
 <br>
 <br>
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-image: /assets/mask1.png
+image: /assets/mask1_big.png
 robots: noindex,nofollow
 description: "This page is all about me!"
 ---
@@ -10,7 +10,13 @@ description: "This page is all about me!"
 ## ~$ whoami
 * * *
 
-![](/assets/mask1.png){: width="256" height="256"} 
+<video autoplay muted loop playsinline width="256" height="256" poster="/assets/mask1.png">
+  <source src="/assets/mask1.webm" type="video/webm">
+  <source src="/assets/mask1.mp4" type="video/mp4">
+  
+  <!-- Fallback image -->
+  <img src="/assets/mask1.png" alt="Your video is not supported on this device">
+</video>
 
 Hello. My name is Nima, Welcome to my Website!
 

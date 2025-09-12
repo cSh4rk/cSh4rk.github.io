@@ -5,7 +5,13 @@ image: /links/assets/robot3.png
 description: "Here I share web links that I've found interesting."
 ---
 
-![](/links/assets/robot3.png){: width="307" height="461"}
+<video autoplay muted loop playsinline width="308" height="462" poster="/links/assets/robot3.png">
+  <source src="/links/assets/robot3.webm" type="video/webm">
+  <source src="/links/assets/robot3.mp4" type="video/mp4">
+  
+  <!-- Fallback image -->
+  <img src="/links/assets/robot3.png" alt="Your video is not supported on this device">
+</video>
 <br>
 <br>
 
