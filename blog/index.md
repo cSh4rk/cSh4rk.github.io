@@ -5,7 +5,7 @@ image: /blog/assets/robot1.png
 description: "Here I talk about anything, mostly technical topics."
 ---
 
-<video autoplay muted loop playsinline width="308" height="462" poster="/blog/assets/robot1.png">
+<video autoplay muted loop playsinline width="308" height="462" poster="/blog/assets/robot1.webp">
   <source src="/blog/assets/robot1.webm" type="video/webm">
   <source src="/blog/assets/robot1.mp4" type="video/mp4">
   
