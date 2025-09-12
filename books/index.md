@@ -5,12 +5,9 @@ image: /books/assets/robot2.png
 description: "Here are my book recommendations."
 ---
 
-<video autoplay muted loop playsinline width="462" height="308" poster="/books/assets/robot2.png">
+<video autoplay muted loop playsinline width="462" height="308" poster="/books/assets/robot2.avif">
   <source src="/books/assets/robot2.webm" type="video/webm">
   <source src="/books/assets/robot2.mp4" type="video/mp4">
-  
-  <!-- Fallback image -->
-  <img src="/books/assets/robot2.png" alt="Your video is not supported on this device">
 </video>
 <br>
 <br>

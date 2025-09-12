@@ -10,12 +10,9 @@ description: "This page is all about me!"
 ## ~$ whoami
 * * *
 
-<video autoplay muted loop playsinline width="256" height="256" poster="/assets/mask1.png">
+<video autoplay muted loop playsinline width="256" height="256" poster="/assets/mask1.avif">
   <source src="/assets/mask1.webm" type="video/webm">
   <source src="/assets/mask1.mp4" type="video/mp4">
-  
-  <!-- Fallback image -->
-  <img src="/assets/mask1.png" alt="Your video is not supported on this device">
 </video>
 
 Hello. My name is Nima, Welcome to my Website!

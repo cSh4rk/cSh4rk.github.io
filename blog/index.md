@@ -5,12 +5,15 @@ image: /blog/assets/robot1.png
 description: "Here I talk about anything, mostly technical topics."
 ---
 
-<video autoplay muted loop playsinline width="308" height="462" poster="/blog/assets/robot1.webp">
+<!-- 
+  Using AVIF poster only:
+  - ~95% of users see the poster correctly (modern browsers).
+  - Older browsers that don't support AVIF just see a blank before playback.
+  - Video still plays fine, so UX impact is minimal.
+-->
+<video autoplay muted loop playsinline width="308" height="462" poster="/blog/assets/robot1.avif">
   <source src="/blog/assets/robot1.webm" type="video/webm">
   <source src="/blog/assets/robot1.mp4" type="video/mp4">
-  
-  <!-- Fallback image -->
-  <img src="/blog/assets/robot1.png" alt="Your video is not supported on this device">
 </video>
 <br>
 <br>

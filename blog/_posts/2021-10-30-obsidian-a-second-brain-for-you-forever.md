@@ -18,7 +18,7 @@ Each has its own pros and cons, Obsidian has some great characteristics that I r
 
 - The UI feels great. It has many themes that you can use to customize the environment to your liking.
 
- ![](/blog/assets/obsidian2.png){: width="800" height="492"}
+<img src="/blog/assets/obsidian2.avif" width="800" height="492" fetchpriority="high">
 
 - It doesn't impose its structure and format on you, because it doesn't have any rigid structure like Notation outlines and other applications: You are the real boss here! You can decide how to structure your data and your thinking. It is very important because in the long run, applications that we use also shape us and direct our thinking in specific ways or add some limitations to our thinking because of their specific formats.
 - You use it locally and offline so you have total control on your data.
@@ -26,7 +26,7 @@ Each has its own pros and cons, Obsidian has some great characteristics that I r
 - It's free! Yes all of the core features are free and you don't need to pay for them.
 - It uses Markdown language for text formatting, if you are familiar with Markdown, you feel at home, you can also use HTML syntax and it supports CSS and many JavaScript libraries like PrismJS[^2]... It uses Mermaid[^3] language for drawing diagrams and graphs.
 
-![](/blog/assets/obsidian5.png){: width="817" height="498"}
+<img src="/blog/assets/obsidian5.avif" width="817" height="498" loading="lazy">
 
 - It has many great official and community plugins, I personally don't use community plugins for security reasons but it also has many official plugins and new ones are developed constantly.
 - It draws a graph of your notes and their relations which is super cool and helpful in organizing your thoughts and have a visual view of all of your tasks, here is one of my graphs that it has drawn from my notes and their connections:
@@ -43,7 +43,7 @@ I have a tight schedule to study for multiple Cybersecurity Certifications and e
 
 I also highly recommend that you open GitHub or GitLab private repositories to save a copy of your notes so you don't risk losing them, here are mine:
 
-![](/blog/assets/obsidian6.png){: width="818" height="371"}
+<img src="/blog/assets/obsidian6.avif" width="818" height="371" loading="lazy">
 
 The *Command Center* is the core of my life, my daily tasks and my goals and research topics. The *Certification* is another repository that I use to follow my different certification study paths, I use a new Obsidian vault for each certification that I want to get, for example I created a new vault for my OSCP journey.
 
