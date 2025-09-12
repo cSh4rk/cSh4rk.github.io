@@ -102,15 +102,15 @@ header h2 {
 }
 
 
-// Fix Layout Shift issue(combined with adding width and height to html img tag) (09102025 Added):
+// Fix Layout Shift issue(combined with adding width and height to html img and video tags) (09102025 Added):
 
-img {
+img, video {
   max-width: 100%;  /* makes it responsive */
   height: auto;     /* keeps aspect ratio */
   display: block;   /* avoids inline spacing issues */
 }
 
-img.no-responsive {
+img.no-responsive, video.no-responsive {
   max-width: none;
   height: auto;
   display: inline;
