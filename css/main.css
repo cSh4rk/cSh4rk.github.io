@@ -153,13 +153,13 @@ header h2 {
   -webkit-font-smoothing: antialiased;
 }
 
-img {
+img, video {
   max-width: 100%; /* makes it responsive */
   height: auto; /* keeps aspect ratio */
   display: block; /* avoids inline spacing issues */
 }
 
-img.no-responsive {
+img.no-responsive, video.no-responsive {
   max-width: none;
   height: auto;
   display: inline;
