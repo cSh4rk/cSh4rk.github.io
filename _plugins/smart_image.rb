@@ -50,7 +50,7 @@ module Jekyll
       # Optional attributes
       width_attr  = width.empty? ? "" : " width=\"#{width}\""
       height_attr = height.empty? ? "" : " height=\"#{height}\""
-      alt_attr    = alt.empty? ? "" : " alt=\"#{alt}\""
+      alt_attr      = " alt=\"#{alt}\""
       loading_attr = loading.empty? ? "" : " loading=\"#{loading}\""
       fetch_attr   = fetchpriority.empty? ? "" : " fetchpriority=\"#{fetchpriority}\""
       decoding_attr = decoding.empty? ? "" : " decoding=\"#{decoding}\""
