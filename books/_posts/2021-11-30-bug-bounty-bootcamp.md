@@ -9,9 +9,10 @@ image_width: "300"
 image_height: "400"
 ---
 
-![](/books/assets/bug_bounty_bootcamp_book.jpg){: width="300" height="400" fetchpriority="high" loading="eager"}
-
 <br>
+{% smart_image/books/assets/bug_bounty_bootcamp_book.jpg 300 400 "" eager high %}
+<br>
+
 ### Amazon[^1] Description
 * * *
 **Bug Bounty Bootcamp teaches you how to hack web applications. You will learn how to perform reconnaissance on a target, how to identify vulnerabilities, and how to exploit them. You'll also learn how to navigate bug bounty programs set up by companies to reward security professionals for finding bugs in their web applications.**

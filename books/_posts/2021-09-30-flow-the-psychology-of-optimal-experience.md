@@ -8,9 +8,10 @@ image_width: "264"
 image_height: "400"
 ---
 
-![](/books/assets/flow_book.jpg){: width="264" height="400" fetchpriority="high" loading="eager"}
-
 <br>
+{% smart_image /books/assets/flow_book.jpg 264 400 "" eager high %}
+<br>
+
 ### Amazon[^1] Description
 * * *
 "'Explores a happy state of mind called flow, the feeling of complete engagement in a creative or playful activity.' — Time

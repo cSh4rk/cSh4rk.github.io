@@ -8,9 +8,10 @@ image_width: "256"
 image_height: "256"
 ---
 
-![](/links/assets/neurosciencehacks.png){: width="256" height="256" fetchpriority="high" loading="eager"}
 <br>
+{% smart_image /links/assets/neurosciencehacks.png 256 256 "" eager high %}
 [^1]
+<br>
 
 A few simple but very important daily hacks for a sharper brain.
 

@@ -8,9 +8,10 @@ image_width: "256"
 image_height: "256"
 ---
 
-![](/links/assets/beach.png){: width="256" height="256" fetchpriority="high" loading="eager"}
 <br>
+{% smart_image /links/assets/beach.png 256 256 "" eager high %}
 [^1]
+<br>
 
 There are many ways to bypass flawed validation of file uploads to upload web shells on web applications, this link explains some ways like creating a polyglot image file containing malicious code in its metadata using tools like exiftool, this method is interesting, check it out.
 

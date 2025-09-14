@@ -7,10 +7,10 @@ description: "These tools help you benchmark your website and find performance a
 image_width: "256"
 image_height: "256"
 ---
-
-![](/blog/assets/chart-search-icon.png){: width="256" height="256" fetchpriority="high" loading="eager"}
 <br>
+{% smart_image /blog/assets/chart-search-icon.png 256 256 "" eager high %}
 [^1]
+<br>
 
 This is a list of some handy Server Benchmarking Tools that might be useful for you:
 

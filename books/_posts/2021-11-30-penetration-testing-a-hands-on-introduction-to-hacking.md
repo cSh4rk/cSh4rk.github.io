@@ -9,9 +9,10 @@ image_width: "303"
 image_height: "400"
 ---
 
-![](/books/assets/penetration_testing_book.jpg){: width="303" height="400" fetchpriority="high" loading="eager"}
-
 <br>
+{% smart_image /books/assets/penetration_testing_book.jpg 303 400 "" eager high %}
+<br>
+
 ### Amazon[^1] Description
 * * *
 Penetration testers simulate cyber attacks to find security weaknesses in networks, operating systems, and applications. Information security experts worldwide use penetration techniques to evaluate enterprise defenses.

@@ -8,9 +8,10 @@ image_width: "256"
 image_height: "256"
 ---
 
-![](/links/assets/websocket.png){: width="256" height="256" fetchpriority="high" loading="eager"}
 <br>
+{% smart_image /links/assets/websocket.png 256 256 "" eager high %}
 [^1]
+<br>
 
 See the first link below to become familiar with various Cross-site WebSocket hijacking (CSWSH) attacks.
 

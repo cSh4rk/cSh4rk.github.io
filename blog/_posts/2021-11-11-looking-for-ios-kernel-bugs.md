@@ -8,8 +8,8 @@ image_width: "400"
 image_height: "447"
 ---
 
-![](/blog/assets/meme1.jpg){: width="400" height="447" fetchpriority="high" loading="eager"}
 <br>
+{% smart_image /blog/assets/meme1.jpg 400 447 "" eager high %}
 [^1]
 <br>
 ### _References_

@@ -7,7 +7,7 @@ description: "This is my first post on my website!"
 image_width: "256"
 image_height: "256"
 ---
-
-![](/blog/assets/sapling.png){: width="256" height="256" fetchpriority="high"}
-
+<br>
+{% smart_image /blog/assets/sapling.png 256 256 "" eager high %}
+<br>
 This is my first post!

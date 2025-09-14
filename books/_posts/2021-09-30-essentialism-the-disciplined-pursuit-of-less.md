@@ -8,9 +8,10 @@ image_width: "260"
 image_height: "400"
 ---
 
-![](/books/assets/essentialism_book.jpg){: width="260" height="400" fetchpriority="high" loading="eager"}
-
 <br>
+{% smart_image /books/assets/essentialism_book.jpg 260 400 "" eager high %}
+<br>
+
 ### Amazon[^1] Description
 * * *
 "NEW YORK TIMES BESTSELLER • More than one million copies sold! Essentialism isn’t about getting more done in less time. It’s about getting only the right things done.

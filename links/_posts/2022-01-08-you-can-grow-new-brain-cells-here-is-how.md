@@ -8,9 +8,10 @@ image_width: "256"
 image_height: "256"
 ---
 
-![](/links/assets/powerfulbrain.png){: width="256" height="256" fetchpriority="high" loading="eager"}
 <br>
+{% smart_image /links/assets/powerfulbrain.png 256 256 "" eager high %}
 [^1]
+<br>
 
 Can we, as adults, grow new neurons? Neuroscientist Sandrine Thuret says that we can, and she offers research and practical advice on how we can help our brains better perform neurogenesis, improving mood, increasing memory formation and preventing the decline associated with aging along the way.
 

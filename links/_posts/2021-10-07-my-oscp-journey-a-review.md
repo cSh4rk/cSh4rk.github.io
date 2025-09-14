@@ -8,7 +8,9 @@ image_width: "256"
 image_height: "256"
 ---
 
-![](/links/assets/oscp.png){: width="256" height="256" fetchpriority="high" loading="eager"}
+<br>
+{% smart_image /links/assets/oscp.png 256 256 "" eager high %}
+<br>
 
 Great tips on how to pass the OSCP exam.
 

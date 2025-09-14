@@ -8,9 +8,10 @@ image_width: "289"
 image_height: "400"
 ---
 
-![](/books/assets/compoundeffect_book.jpg){: width="289" height="400" fetchpriority="high" loading="eager"}
-
 <br>
+{% smart_image /books/assets/compoundeffect_book.jpg 289 400 "" eager high %}
+<br>
+
 ### Amazon[^1] Description
 * * *
 "Do you want success? More success than you have now? And even more success than you ever imagined possible? That is what this book is about. Achieving it.

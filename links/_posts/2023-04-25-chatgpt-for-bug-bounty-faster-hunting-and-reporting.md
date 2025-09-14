@@ -8,9 +8,10 @@ image_width: "256"
 image_height: "256"
 ---
 
-![](/links/assets/ai.png){: width="256" height="256" fetchpriority="high" loading="eager"}
 <br>
+{% smart_image /links/assets/ai.png 256 256 "" eager high %}
 [^1]
+<br>
 
 Nice sample prompts that will give you some ideas on how to use ChatGPT more effectively for Bug Hunting.
 

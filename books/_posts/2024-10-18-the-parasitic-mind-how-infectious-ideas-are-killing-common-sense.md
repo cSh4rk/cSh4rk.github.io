@@ -12,9 +12,10 @@ image_width: "262"
 image_height: "400"
 ---
 
-![](/books/assets/the_parasitic_mind_book.jpg){: width="262" height="400" fetchpriority="high" loading="eager"}
-
 <br>
+{% smart_image /books/assets/the_parasitic_mind_book.jpg 262 400 "" eager high %}
+<br>
+
 ### Amazon[^1] Description
 * * *
 

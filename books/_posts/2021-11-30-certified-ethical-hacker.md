@@ -9,9 +9,10 @@ image_width: "320"
 image_height: "400"
 ---
 
-![](/books/assets/ceh_book.jpg){: width="320" height="400" fetchpriority="high" loading="eager"}
-
 <br>
+{% smart_image /books/assets/ceh_book.jpg 320 400 "" eager high %}
+<br>
+
 ### Amazon[^1] Description
 * * *
 As protecting information continues to be a growing concern for today’s businesses, certifications in IT security have become highly desirable, even as the number of certifications has grown. Now you can set yourself apart with the Certified Ethical Hacker (CEH v11) certification. The CEH v11 Certified Ethical Hacker Study Guide offers a comprehensive overview of the CEH certification requirements using concise and easy-to-follow instructions. Chapters are organized by exam objective, with a handy section that maps each objective to its corresponding chapter, so you can keep track of your progress. The text provides thorough coverage of all topics, along with challenging chapter review questions and Exam Essentials, a key feature that identifies critical study areas. Subjects include common attack practices like reconnaissance and scanning. Also covered are topics like intrusion detection, DoS attacks, buffer overflows, wireless attacks, mobile attacks, Internet of Things (IoT) and more.

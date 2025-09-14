@@ -2,15 +2,16 @@
 title: "Why We Sleep: Unlocking the Power of Sleep and Dreams"
 published: true
 tags: [Neuroscience, Sleep, Top Science Book]
-image: /books/assets/why_we_sleep.jpg
+image: /books/assets/why_we_sleep_book.jpg
 description: "Sleep is one of the most important but least understood aspects of our life, wellness, and longevity. Until very recently, science had no answer to the question of why we sleep, or what good it served, or why we suffer such devastating health consequences when we don't sleep. Compared to the other basic drives in life—eating, drinking, and reproducing—the purpose of sleep remained elusive."
 image_width: "263"
 image_height: "400"
 ---
 
-![](/books/assets/why_we_sleep.jpg){: width="263" height="400" fetchpriority="high" loading="eager"}
-
 <br>
+{% smart_image /books/assets/why_we_sleep_book.jpg 263 400 "" eager high %}
+<br>
+
 ### Amazon[^1] Description
 * * *
 **“Why We Sleep is an important and fascinating book…Walker taught me a lot about this basic activity that every person on Earth needs. I suspect his book will do the same for you.” —Bill Gates**

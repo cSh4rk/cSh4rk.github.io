@@ -9,10 +9,10 @@ image_height: "256"
 ---
 
 <br>
-![](/blog/assets/hacker.png){: width="256" height="256" fetchpriority="high" loading="eager"}
-<br>
+{% smart_image /blog/assets/hacker.png 256 256 "" eager high %}
 [^1]
 <br>
+
 ### Lab Link
 [Lab: Reflected XSS in a JavaScript URL with some characters blocked](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-javascript-url-some-characters-blocked)
 

@@ -9,10 +9,10 @@ image_height: "256"
 ---
 
 <br>
-![](/blog/assets/supply-chain2.png){: width="256" height="256" fetchpriority="high" loading="eager"}
-<br>
+{% smart_image /blog/assets/supply-chain2.png 256 256 "" eager high %}
 [^1]
 <br>
+
 ### Lab Link
 [Lab: Developing a custom gadget chain for PHP deserialization](https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-developing-a-custom-gadget-chain-for-php-deserialization)
 
@@ -113,7 +113,9 @@ class DefaultMap {
 
 So we might have a leak of some part the website code here. Also after we log in, we check the session cookie, and it turns out it is a serialized php object:
 
-![](/blog/assets/custom-gadget-chain-php1.png){: width="1260" height="823" loading="lazy" decoding="async"}
+<br>
+{% smart_image /blog/assets/custom-gadget-chain-php1.png 1260 823 "" lazy "" avif async %}
+<br>
 
 So we can check if this website is vulnerable to insecure deserialization[^2]. 
 
@@ -243,7 +245,9 @@ TzoxNDoiQ3VzdG9tVGVtcGxhdGUiOjI6e3M6MzM6IgBDdXN0b21UZW1wbGF0ZQBkZWZhdWx0X2Rlc2Nf
 
  and paste it here in the session cookie in the Burp suite repeater:
 
-![](/blog/assets/custom-gadget-chain-php2.png){: width="1263" height="818" loading="lazy" decoding="async"}
+<br>
+{% smart_image /blog/assets/custom-gadget-chain-php2.png 1263 818 "" lazy "" avif async %}
+<br>
 
  and click apply and send, then boom! the carlos's morale.txt file is removed from the server and the lab is solved!
 

@@ -8,9 +8,10 @@ image_width: "256"
 image_height: "256"
 ---
 
-![](/links/assets/parentheses.png){: width="256" height="256" fetchpriority="high" loading="eager"}
 <br>
+{% smart_image /links/assets/parentheses.png 256 256 "" eager high %}
 [^1]
+<br>
 
 Learning Regex is easier than you think. You can use this tool to easily learn, practice, test and share Regex.
 

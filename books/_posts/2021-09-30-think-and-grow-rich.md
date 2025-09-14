@@ -8,9 +8,10 @@ image_width: "258"
 image_height: "400"
 ---
 
-![](/books/assets/thinkandgrowrich_book.jpg){: width="258" height="400" fetchpriority="high" loading="eager"}
-
 <br>
+{% smart_image /books/assets/thinkandgrowrich_book.jpg 258 400 "" eager high %}
+<br>
+
 ### Amazon[^1] Description
 * * *
 "Think and Grow Rich - Over 80 Million Copies Sold

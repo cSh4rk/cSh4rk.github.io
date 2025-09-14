@@ -8,7 +8,8 @@ image_width: "256"
 image_height: "256"
 ---
 
-![](/links/assets/duolingo.png){: width="256" height="256" fetchpriority="high" loading="eager"}
+<br>
+{% smart_image /links/assets/duolingo.png 256 256 "" eager high %}
 <br>
 
 Learning a new language can be hard and time-consuming but with a proper method, it can be fun and smooth. 

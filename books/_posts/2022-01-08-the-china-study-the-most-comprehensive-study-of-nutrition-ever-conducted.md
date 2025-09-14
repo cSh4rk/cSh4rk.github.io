@@ -2,15 +2,16 @@
 title: "The China Study: The Most Comprehensive Study of Nutrition Ever Conducted And the Startling Implications for Diet, Weight Loss, And Long-term Health"
 published: true
 tags: [Nutrition, Health, Performance Improvement, Top Book]
-image: /books/assets/the_china_study.jpg
+image: /books/assets/the_china_study_book.jpg
 description: "In The China Study, Dr. T. Colin Campbell details the connection between nutrition and heart disease, diabetes, and cancer. The report also examines the source of nutritional confusion produced by powerful lobbies, government entities, and opportunistic scientists. The New York Times has recognized the study as the \"Grand Prix of epidemiology\" and the \"most comprehensive large study ever undertaken of the relationship between diet and the risk of developing disease.\""
 image_width: "267"
 image_height: "400"
 ---
 
-![](/books/assets/the_china_study.jpg){: width="267" height="400" fetchpriority="high" loading="eager"}
-
 <br>
+{% smart_image /books/assets/the_china_study_book.jpg 267 400 "" eager high %}
+<br>
+
 ### Amazon[^1] Description
 * * *
 Even today, as trendy diets and a weight-loss frenzy sweep the nation, two-thirds of adults are still obese and children are being diagnosed with Type 2 diabetes, typically an “adult” disease, at an alarming rate. If we’re obsessed with being thin more so than ever before, why are Americans stricken with heart disease as much as we were 30 years ago?

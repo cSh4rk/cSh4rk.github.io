@@ -8,9 +8,10 @@ image_width: "265"
 image_height: "400"
 ---
 
-![](/books/assets/deepwork_book.jpg){: width="265" height="400" fetchpriority="high" loading="eager"}
-
 <br>
+{% smart_image /books/assets/deepwork_book.jp 265 400 "" eager high %}
+<br>
+
 ### Amazon[^1] Description
 * * *
 "Master one of our economy’s most rare skills and achieve groundbreaking results with this “exciting” book (Daniel H. Pink) from an “exceptional” author (New York Times Book Review).

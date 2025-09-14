@@ -8,9 +8,10 @@ image_width: "256"
 image_height: "256"
 ---
 
-![](/links/assets/supply-chain2.png){: width="256" height="256" fetchpriority="high" loading="eager"}
 <br>
+{% smart_image /links/assets/supply-chain2.png 256 256 "" eager high %}
 [^1]
+<br>
 
 These are some Ruby examples equivalents of my previous post[^2](about gadget chains in PHP), that show the process of finding gadget chains in Ruby programming language; also as mentioned in one of these articles, there may still be some undiscovered gadget chains for cybersecurity researchers to find.
 

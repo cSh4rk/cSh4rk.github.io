@@ -9,10 +9,10 @@ image_height: "256"
 ---
 
 <br>
-![](/blog/assets/console.png){: width="256" height="256" fetchpriority="high" loading="eager"}
-<br>
+{% smart_image /blog/assets/console.png 256 256 "" eager high %}
 [^1]
 <br>
+
 ### Lab Link
 [Lab: Web shell upload via race condition](https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-race-condition)
 

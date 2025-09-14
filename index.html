@@ -21,21 +21,11 @@ image: /assets/ninja_big.png
         {% if post.image %}
           {% if forloop.first %}
             <p>
-              <img src="{{ post.image }}"
-                  width="{{ post.image_width }}"
-                  height="{{ post.image_height }}"
-                  alt=""
-                  fetchpriority="high"
-                  loading="eager">
+              {% smart_image post.image post.image_width post.image_height "" eager high %}
             </p>
           {% else %}
             <p>
-              <img src="{{ post.image }}"
-                  width="{{ post.image_width }}"
-                  height="{{ post.image_height }}"
-                  alt=""
-                  loading="lazy"
-                  decoding="async">
+              {% smart_image post.image post.image_width post.image_height "" lazy "" avif async %}
             </p>
           {% endif %}
         {% endif %}
@@ -49,6 +39,7 @@ image: /assets/ninja_big.png
         <!--{% for cat in post.categories %}
         <code class="language-plaintext highlighter-rouge">{{ cat | xml_escape }}</code>
         {% endfor %}-->
+        <br>
       </li>
     {% endfor %}
 </ul>

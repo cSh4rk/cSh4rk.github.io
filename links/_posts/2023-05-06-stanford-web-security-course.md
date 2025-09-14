@@ -8,9 +8,10 @@ image_width: "256"
 image_height: "256"
 ---
 
-![](/links/assets/websecurity.png){: width="256" height="256" fetchpriority="high" loading="eager"}
 <br>
+{% smart_image /links/assets/websecurity.png 256 256 "" eager high %}
 [^1]
+<br>
 
 This course is a gold mine for every web application security enthusiast.
 

@@ -8,9 +8,10 @@ image_width: "265"
 image_height: "400"
 ---
 
-![](/books/assets/atomichabits_book.jpg){: width="265" height="400" fetchpriority="high" loading="eager"}
-
 <br>
+{% smart_image /books/assets/atomichabits_book.jpg 256 400 "" eager high %}
+<br>
+
 ### Amazon[^1] Description
 * * *
 "The #1 New York Times bestseller. Over 3 million copies sold!

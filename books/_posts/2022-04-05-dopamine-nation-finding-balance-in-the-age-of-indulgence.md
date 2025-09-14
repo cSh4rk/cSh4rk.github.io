@@ -8,9 +8,10 @@ image_width: "265"
 image_height: "400"
 ---
 
-![](/books/assets/dopamine_nation_book.jpg){: width="265" height="400" fetchpriority="high" loading="eager"}
-
 <br>
+{% smart_image /books/assets/dopamine_nation_book.jpg 265 400 "" eager high %}
+<br>
+
 ### Amazon[^1] Description
 * * *
 
