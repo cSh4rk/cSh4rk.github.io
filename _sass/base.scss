@@ -383,6 +383,13 @@ a:active, a:focus {
   margin-bottom: 8px;
 }
 
+.footer-col-copyright a {
+  display: inline-block;       // allows padding to increase touch area
+  padding: 6px 8px;            // small padding to expand tap target
+  line-height: 1.4;            // ensures vertical spacing
+  text-decoration: underline;  // optional, improves discoverability
+}
+
 .social-media-list {
   list-style: none;
   //margin-left: 0;
