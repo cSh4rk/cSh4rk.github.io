@@ -443,6 +443,13 @@ a:active, a:focus {
   margin-bottom: 8px;
 }
 
+.footer-col-copyright a {
+  display: inline-block;
+  padding: 6px 8px;
+  line-height: 1.4;
+  text-decoration: underline;
+}
+
 .social-media-list {
   list-style: none;
   margin-bottom: 2px;
