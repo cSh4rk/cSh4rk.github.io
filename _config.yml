@@ -28,6 +28,9 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
+sass:
+  style: compressed
+  
 #google_analytics: [Your Google Analytics tracking ID]
 
 # Custom variables
