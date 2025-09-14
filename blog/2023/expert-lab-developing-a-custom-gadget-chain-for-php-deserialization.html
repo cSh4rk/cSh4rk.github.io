@@ -90,11 +90,16 @@
   <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3H18V1H16V3H8V1H6V3H5C3.9 3 3 3.89 3 5V19C3 20.11 3.9 21 5 21H19C20.11 21 21 20.11 21 19V5C21 3.89 20.11 3 19 3M19 19H5V9H19V19M19 7H5V5H19M7 11H12V16H7" /></svg></span>
   <time datetime="2023-01-18T00:00:00-04:00" class="by-line"><strong>Published: </strong>18 Jan 2023</time>
   
-  <p><br />
-<img src="/blog/assets/supply-chain2.png" alt="" width="256" height="256" fetchpriority="high" loading="eager" />
-<br />
-<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>
+  <p><br /></p>
+<picture>
+  <source srcset="/blog/assets/supply-chain2.avif" type="image/avif" />
+<source srcset="/blog/assets/supply-chain2.webp" type="image/webp" />
+  <img src="/blog/assets/supply-chain2.png" width="256" height="256" loading="eager" fetchpriority="high" />
+</picture>
+
+<p><sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>
 <br /></p>
+
 <h3 id="lab-link">Lab Link</h3>
 <p><a href="https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-developing-a-custom-gadget-chain-for-php-deserialization">Lab: Developing a custom gadget chain for PHP deserialization</a></p>
 
@@ -192,7 +197,14 @@ You can sometimes read source code by appending a tilde (~) to a filename to ret
 
 <p>So we might have a leak of some part the website code here. Also after we log in, we check the session cookie, and it turns out it is a serialized php object:</p>
 
-<p><img src="/blog/assets/custom-gadget-chain-php1.png" alt="" width="1260" height="823" loading="lazy" decoding="async" /></p>
+<p><br /></p>
+<picture>
+  <source srcset="/blog/assets/custom-gadget-chain-php1.avif" type="image/avif" />
+<source srcset="/blog/assets/custom-gadget-chain-php1.webp" type="image/webp" />
+  <img src="/blog/assets/custom-gadget-chain-php1.png" width="1260" height="823" loading="lazy" decoding="async" />
+</picture>
+
+<p><br /></p>
 
 <p>So we can check if this website is vulnerable to insecure deserialization<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>.</p>
 
@@ -310,7 +322,14 @@ rather than a CHAR or TEXT field.
 
 <p>and paste it here in the session cookie in the Burp suite repeater:</p>
 
-<p><img src="/blog/assets/custom-gadget-chain-php2.png" alt="" width="1263" height="818" loading="lazy" decoding="async" /></p>
+<p><br /></p>
+<picture>
+  <source srcset="/blog/assets/custom-gadget-chain-php2.avif" type="image/avif" />
+<source srcset="/blog/assets/custom-gadget-chain-php2.webp" type="image/webp" />
+  <img src="/blog/assets/custom-gadget-chain-php2.png" width="1263" height="818" loading="lazy" decoding="async" />
+</picture>
+
+<p><br /></p>
 
 <p>and click apply and send, then boom! the carlos’s morale.txt file is removed from the server and the lab is solved!</p>
 
