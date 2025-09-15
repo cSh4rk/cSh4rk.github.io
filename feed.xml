@@ -5,14 +5,39 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 14 Sep 2025 18:22:24 -0400</pubDate>
-    <lastBuildDate>Sun, 14 Sep 2025 18:22:24 -0400</lastBuildDate>
+    <pubDate>Mon, 15 Sep 2025 17:03:01 -0400</pubDate>
+    <lastBuildDate>Mon, 15 Sep 2025 17:03:01 -0400</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
     <image>
      <url>https://nima.ninja/assets/ninja.png</url>
      <title>Diaries of a Modern Ninja</title>
      <link>https://nima.ninja</link>
     </image>
+    
+      <item>
+        <title>Until it&apos;s done, tell none.</title>
+        <description>
+          
+            <![CDATA[<p><img src="https://nima.ninja/links/assets/tom.jpg" alt="" /></p>]]>
+          
+          My first post after a long time, although it seems like a purely fun post, it’s got a powerful psychological message: Don’t talk about your goals and what you’re doing unless it’s already done. You lose the motivation and mental...
+        </description>
+        <pubDate>Mon, 15 Sep 2025 00:00:00 -0400</pubDate>
+        <link>https://nima.ninja/links/2025/until-its-done-tell-none</link>
+        <guid isPermaLink="true">https://nima.ninja/links/2025/until-its-done-tell-none</guid>
+        
+        <category>links</category>
+        
+        
+        <category>Fun</category>
+        
+        <category>Mindset</category>
+        
+        <category>Psychology</category>
+        
+        <category>Goals</category>
+        
+      </item>
     
       <item>
         <title>The Parasitic Mind: How Infectious Ideas Are Killing Common Sense</title>
@@ -1225,31 +1250,6 @@ External Links
         <category>Top Science Book</category>
         
         <category>Top Book</category>
-        
-      </item>
-    
-      <item>
-        <title>Prometheus Rising</title>
-        <description>
-          
-            <![CDATA[<p><img src="https://nima.ninja/books/assets/prometheus_rising_book.jpg" alt="" /></p>]]>
-          
-          Amazon Description “Imagine trying to make sense of an amalgam of Timothy Leary’s eight neurological circuits, G.I. Gurdjieff’s self-observation exercises, Alfred Korzybski’s general semantics, Aleister Crowley’s magical theorems, and the several disciplines of Yoga; not to mention Christian Science, relativity,...
-        </description>
-        <pubDate>Thu, 07 Oct 2021 00:00:00 -0400</pubDate>
-        <link>https://nima.ninja/books/2021/prometheus-rising</link>
-        <guid isPermaLink="true">https://nima.ninja/books/2021/prometheus-rising</guid>
-        
-        <category>books</category>
-        
-        
-        <category>Psychology</category>
-        
-        <category>Consciousness</category>
-        
-        <category>Spirituality</category>
-        
-        <category>Weird</category>
         
       </item>
     

@@ -69,6 +69,52 @@
           <ul>
     
       <li>
+        <h2><a href="/blog/2022/exploiting-php-deserialization-with-a-pre-built-gadget-chain">Lab: Exploiting PHP deserialization with a pre-built gadget chain</a></h2>
+        <div class="postitem">
+          
+            <a href="/blog/" class="no-decoration"><code class="language-plaintext highlighter-rouge">blog</code></a>
+          
+          
+            <code class="posttag"><a href="/tags/#web-application-security" class="no-decoration">Web Application Security</a></code>
+          
+            <code class="posttag"><a href="/tags/#web-security-academy" class="no-decoration">Web Security Academy</a></code>
+          
+            <code class="posttag"><a href="/tags/#labs" class="no-decoration">Labs</a></code>
+          
+            <code class="posttag"><a href="/tags/#insecure-deserialization" class="no-decoration">Insecure Deserialization</a></code>
+          
+            <code class="posttag"><a href="/tags/#remote-code-execution" class="no-decoration">Remote Code Execution</a></code>
+          
+            <code class="posttag"><a href="/tags/#gadget-chains" class="no-decoration">Gadget Chains</a></code>
+          
+            <code class="posttag"><a href="/tags/#php" class="no-decoration">PHP</a></code>
+          
+            <code class="posttag"><a href="/tags/#phpggc" class="no-decoration">PHPGGC</a></code>
+          
+        </div>
+        <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3H18V1H16V3H8V1H6V3H5C3.9 3 3 3.89 3 5V19C3 20.11 3.9 21 5 21H19C20.11 21 21 20.11 21 19V5C21 3.89 20.11 3 19 3M19 19H5V9H19V19M19 7H5V5H19M7 11H12V16H7" /></svg></span>
+        <time datetime="2022-08-11T00:00:00-04:00"><strong>Published: </strong>11 Aug 2022</time>
+        
+        
+          
+            <p>
+              <picture>
+  <source srcset="/blog/assets/supply-chain.avif" type="image/avif">
+<source srcset="/blog/assets/supply-chain.webp" type="image/webp">
+  <img src="/blog/assets/supply-chain.png" width="256" height="256" alt="" loading="eager" fetchpriority="high">
+</picture>
+
+            </p>
+          
+        
+        <p>Lab Link Lab: Exploiting PHP deserialization with a pre-built gadget chain Lab Description This lab has a serialization-based session mechanism that uses a signed cookie. It also uses a common PHP framework. Although you don’t have source code access, you can still exploit this lab’s insecure deserialization using pre-built gadget...</p>
+        <!--
+        <code class="language-plaintext highlighter-rouge">blog</code>
+        -->
+        <br>
+      </li>
+    
+      <li>
         <h2><a href="/links/2022/cross-site-websocket-hijacking-cswsh">Cross-site WebSocket hijacking (CSWSH)</a></h2>
         <div class="postitem">
           
@@ -95,7 +141,7 @@
               <picture>
   <source srcset="/links/assets/websocket.avif" type="image/avif">
 <source srcset="/links/assets/websocket.webp" type="image/webp">
-  <img src="/links/assets/websocket.png" width="256" height="256" alt="" loading="eager" fetchpriority="high">
+  <img src="/links/assets/websocket.png" width="256" height="256" alt="" loading="lazy" decoding="async">
 </picture>
 
             </p>
@@ -144,50 +190,6 @@
           
         
         <p>Lab Link Lab: Reflected XSS in a JavaScript URL with some characters blocked Lab Description This lab reflects your input in a JavaScript URL, but all is not as it seems. This initially seems like a trivial challenge; however, the application is blocking some characters in an attempt to prevent...</p>
-        <!--
-        <code class="language-plaintext highlighter-rouge">blog</code>
-        -->
-        <br>
-      </li>
-    
-      <li>
-        <h2><a href="/blog/2022/expert-lab-web-shell-upload-via-race-condition">Expert Lab: Web Shell Upload via Race Condition</a></h2>
-        <div class="postitem">
-          
-            <a href="/blog/" class="no-decoration"><code class="language-plaintext highlighter-rouge">blog</code></a>
-          
-          
-            <code class="posttag"><a href="/tags/#web-application-security" class="no-decoration">Web Application Security</a></code>
-          
-            <code class="posttag"><a href="/tags/#web-security-academy" class="no-decoration">Web Security Academy</a></code>
-          
-            <code class="posttag"><a href="/tags/#expert-labs" class="no-decoration">Expert Labs</a></code>
-          
-            <code class="posttag"><a href="/tags/#file-upload-vulnerabilities" class="no-decoration">File Upload Vulnerabilities</a></code>
-          
-            <code class="posttag"><a href="/tags/#race-condition-vulnerabilities" class="no-decoration">Race Condition Vulnerabilities</a></code>
-          
-            <code class="posttag"><a href="/tags/#turbo-intruder" class="no-decoration">Turbo Intruder</a></code>
-          
-            <code class="posttag"><a href="/tags/#exiftool" class="no-decoration">Exiftool</a></code>
-          
-        </div>
-        <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3H18V1H16V3H8V1H6V3H5C3.9 3 3 3.89 3 5V19C3 20.11 3.9 21 5 21H19C20.11 21 21 20.11 21 19V5C21 3.89 20.11 3 19 3M19 19H5V9H19V19M19 7H5V5H19M7 11H12V16H7" /></svg></span>
-        <time datetime="2022-05-09T00:00:00-04:00"><strong>Published: </strong>09 May 2022</time>
-        
-        
-          
-            <p>
-              <picture>
-  <source srcset="/blog/assets/console.avif" type="image/avif">
-<source srcset="/blog/assets/console.webp" type="image/webp">
-  <img src="/blog/assets/console.png" width="256" height="256" alt="" loading="lazy" decoding="async">
-</picture>
-
-            </p>
-          
-        
-        <p>Lab Link Lab: Web shell upload via race condition Lab Description This lab contains a vulnerable image upload function. Although it performs robust validation on any files that are uploaded, it is possible to bypass this validation entirely by exploiting a race condition in the way it processes them. To...</p>
         <!--
         <code class="language-plaintext highlighter-rouge">blog</code>
         -->
