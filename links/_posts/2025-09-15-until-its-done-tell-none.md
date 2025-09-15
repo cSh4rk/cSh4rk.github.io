@@ -11,6 +11,7 @@ image_height: "540"
 {% smart_image /links/assets/tom.jpg 432 540 "" eager high %}
 [^1]
 <br>
+
 My first post after a long time, although it seems like a purely fun post, it's got a powerful psychological message: 
 
 ***Don't talk about your goals and what you're doing unless they're already done.***
