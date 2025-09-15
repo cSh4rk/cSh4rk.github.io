@@ -13,7 +13,7 @@ image_height: "540"
 <br>
 My first post after a long time, although it seems like a purely fun post, it's got a powerful psychological message: 
 
-***Don't talk about your goals and what you're doing unless it's already done.***
+***Don't talk about your goals and what you're doing unless they're already done.***
 
 You lose the motivation and mental energy necessary to achieve your goals if you talk about them prematurely. There are already some credible researches done about this subject.
 
