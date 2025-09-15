@@ -15,9 +15,11 @@ My first post after a long time, although it seems like a purely fun post, it's 
 
 ***Don't talk about your goals and what you're doing unless it's already done.***
 
-You lose the motivation and mental energy necessary to achieve your goals if you talk about them prematurely. There are already some credible researches done on this matter.
+You lose the motivation and mental energy necessary to achieve your goals if you talk about them prematurely. There are already some credible researches done about this subject.
 
-Also follow the "Mindset Machine" page on X, it's a great motivational/inspirational source.
+Also there are other reasons for not talking about your goals but this one is the most important.
+
+You can follow the "Mindset Machine" page on X for more high quality motivational/inspirational posts.
 
 <br>
 
