@@ -1,15 +1,33 @@
 <ul>
-  {% if site.social.hackthebox %}
+  {% if site.badges.hackthebox %}
     <li class="social-media-list">
-      <!-- Self-hosting HTB badge image for now to increase the viewer's privacy by not using bot protection cookie -->
-      <a title="Hack The Box Profile" href="https://app.hackthebox.com/profile/{{ site.social.hackthebox }}">{% smart_image /assets/768488.png 220 50 "Hack The Box Profile" lazy "" avif async "no-responsive" %}</a>
-      <!--<a title="Hack The Box Profile" href="https://app.hackthebox.com/profile/{{ site.social.hackthebox }}"><img src="https://www.hackthebox.eu/badge/image/{{ site.social.hackthebox }}" width="220" height="50" loading="lazy" decoding="async" alt="Hack The Box" class="no-responsive"></a>-->
+      {% if site.badges.selfhost_hackthebox %}
+        <!-- local HTB badge -->
+        <a title="Hack The Box Profile" href="https://app.hackthebox.com/profile/{{ site.badges.hackthebox }}">
+          {% smart_image "/assets/{{ site.badges.hackthebox }}.png" 220 50 "Hack The Box Profile" lazy "" avif async "no-responsive" %}
+        </a>
+      {% else %}
+        <!-- upstream HTB badge -->
+        <a title="Hack The Box Profile" href="https://app.hackthebox.com/profile/{{ site.badges.hackthebox }}">
+          <img src="https://www.hackthebox.eu/badge/image/{{ site.badges.hackthebox }}" width="220" height="50" loading="lazy" decoding="async" alt="Hack The Box" class="no-responsive">
+        </a>
+      {% endif %}
     </li>
   {% endif %}
 
-  {% if site.social.tryhackme %}
+  {% if site.badges.tryhackme %}
     <li class="social-media-list">
-      <a title="TryHackMe Profile" href="https://tryhackme.com/p/{{ site.social.tryhackme }}"><img src="https://tryhackme-badges.s3.amazonaws.com/{{ site.social.tryhackme }}.png" width="329" height="88" loading="lazy" decoding="async" alt="TryHackMe Profile" class="no-responsive" ></a>
+      {% if site.badges.selfhost_tryhackme %}
+        <!-- local TryHackMe badge -->
+        <a title="TryHackMe Profile" href="https://tryhackme.com/p/{{ site.badges.tryhackme }}">
+          {% smart_image "/assets/{{ site.badges.tryhackme }}.png" 329 88 "TryHackMe Profile" lazy "" avif async "no-responsive" %}
+        </a>
+      {% else %}
+        <!-- upstream TryHackMe badge -->
+        <a title="TryHackMe Profile" href="https://tryhackme.com/p/{{ site.badges.tryhackme }}">
+          <img src="https://tryhackme-badges.s3.amazonaws.com/{{ site.badges.tryhackme }}.png" width="329" height="88" loading="lazy" decoding="async" alt="TryHackMe Profile" class="no-responsive">
+        </a>
+      {% endif %}
     </li>
   {% endif %}
 </ul>

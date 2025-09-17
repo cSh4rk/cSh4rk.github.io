@@ -55,8 +55,6 @@ social:
   mastodonname: "Shark"
   linkedin: 
   pgpkey: "CEE9A66A2F5C6187E4242B0425669795B037FEF2.asc"
-  hackthebox: "768488"
-  tryhackme: "nima"
   discorduser: "csh4rk"
   discordserver: "4btHxXWwgQ"
   discordservername: "Sharks"
@@ -68,4 +66,12 @@ social:
   links:
     - https://twitter.com/cSh4rk
     - https://github.com/cSh4rk
+
+badges:
+  hackthebox: "768488"
+  selfhost_hackthebox: true
+  tryhackme: "nima"
+  selfhost_tryhackme: true
 # End of Contact
+
+
