@@ -6,6 +6,7 @@ image: /blog/assets/discord.png
 description: "I finally created my Discord server, Here are the details."
 image_width: "256"
 image_height: "256"
+updated: 2025-09-17
 ---
 
 <br>
