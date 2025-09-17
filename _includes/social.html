@@ -1,10 +1,4 @@
 <ul>
-  {% if site.social.email %}
-    <li class="social-media-list">
-      <a title="Email Address" href="mailto:{{ site.social.email }}"><span class="icon">{% include icon-email.svg %}</span><span>{{ site.social.email }}</span></a>
-    </li>
-  {% endif %}
-
   {% if site.social.github %}
     <li class="social-media-list">
       <a title="GitHub Profile" href="https://github.com/{{ site.social.github }}"><span class="icon">{% include icon-github.svg %}</span><span>{{ site.social.githubname }}</span></a>
@@ -30,7 +24,7 @@
   {% endif %}
 
 
-  <!--{% if site.social.discordserver %}
+  {% if site.social.discordserver %}
     <li class="social-media-list">
       <a title="Discord Server" href="https://discord.gg/{{ site.social.discordserver }}"><span class="icon">{% include icon-discord.svg %}</span><span>{{ site.social.discordservername }}</span></a>
     </li>
@@ -38,7 +32,7 @@
     <li class="social-media-list">
       <span class="icon">{% include icon-discord.svg %}</span><span>{{ site.social.discorduser }}</span>
     </li>
-  {% endif %}-->
+  {% endif %}
 
   {% if site.social.pgpkey %}
     <li class="social-media-list">
