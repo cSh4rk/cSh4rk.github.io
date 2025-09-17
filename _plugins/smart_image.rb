@@ -9,10 +9,10 @@ module Jekyll
       @args = Shellwords.split(markup)
     end
 
-    # Resolve Liquid variables if possible
+    # Resolve Liquid variables in arguments
     def resolve_arg(context, arg)
       return "" if arg.nil? || arg.empty?
-      context[arg] || arg
+      Liquid::Template.parse(arg).render(context)
     end
 
     def render(context)
