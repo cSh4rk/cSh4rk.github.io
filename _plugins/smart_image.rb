@@ -4,8 +4,9 @@ module Jekyll
 
     def initialize(tag_name, markup, tokens)
       super
-      # Arguments: image [width] [height] [alt] [loading] [fetchpriority] [first_format] [decoding]
-      @args = markup.strip.split(/\s+/)
+      # Arguments: image [width] [height] [alt] [loading] [fetchpriority] [first_format] [decoding] [classname]
+      require 'shellwords'
+      @args = Shellwords.split(markup)
     end
 
     # Resolve Liquid variables if possible
@@ -28,6 +29,7 @@ module Jekyll
       fetchpriority = resolve_arg(context, @args[5] || "").to_s
       first_format  = resolve_arg(context, @args[6] || "avif").to_s
       decoding = resolve_arg(context, @args[7] || "").to_s
+      classname = resolve_arg(context, @args[8] || "").to_s
 
       # Handle filenames with multiple dots
       parts = image.split(".")
@@ -54,13 +56,13 @@ module Jekyll
       loading_attr = loading.empty? ? "" : " loading=\"#{loading}\""
       fetch_attr   = fetchpriority.empty? ? "" : " fetchpriority=\"#{fetchpriority}\""
       decoding_attr = decoding.empty? ? "" : " decoding=\"#{decoding}\""
-
+      classname_attr = classname.empty? ? "" : " class=\"#{classname}\""
 
       # Build <picture> block
       <<~HTML
       <picture>
         #{sources}
-        <img src="#{image}"#{width_attr}#{height_attr}#{alt_attr}#{loading_attr}#{fetch_attr}#{decoding_attr}>
+        <img src="#{image}"#{width_attr}#{height_attr}#{alt_attr}#{loading_attr}#{fetch_attr}#{decoding_attr}#{classname_attr}>
       </picture>
       HTML
     end
