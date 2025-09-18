@@ -6,7 +6,7 @@ layout: default
   <h2>{{ page.title }}</h2>
   <div class="postitem">
     {% for cat in page.categories %}
-      <a href="/{{ cat | xml_escape | downcase }}/" class="no-decoration"><code class="language-plaintext highlighter-rouge">{{ cat | xml_escape }}</code></a>
+      <a href="/{{ cat | xml_escape | downcase }}/" class="no-decoration"><code class="language-plaintext highlighter-rouge-tag">{{ cat | xml_escape }}</code></a>
     {% endfor %}
     {% for tag in page.tags %}
       <code class="posttag"><a href="/tags/#{{ tag | replace: " " , "-" | downcase }}" class="no-decoration">{{ tag | xml_escape }}</a></code>

@@ -467,8 +467,13 @@ code.posttag{
   background: rgba(0,0,0,0.9);
   border: 1px solid rgba(255, 255, 255, 0.15);
   padding: 0px 3px;
-  margin: 0px -3px;
+  margin: 0px -2px;
   border-radius: 2px;
+}
+
+code.highlighter-rouge-tag {
+  @extend .posttag;
+  color: #aa759f;
 }
 
 .postitem {
