@@ -253,6 +253,21 @@ a {
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 
+a:hover {
+  color: #90d7ff; /* brighter blue */
+  text-shadow: 0 0 8px rgba(144, 215, 255, 0.8); /* stronger glow */
+}
+
+a:hover h1 {
+  color: #d6ff6b; /* lighter neon green */
+  text-shadow: 0 0 8px rgba(181, 232, 83, 0.8); /* glowing green */
+}
+
+a:hover h2 {
+  color: #ffffff; /* gray → white */
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.6);
+}
+
 a:active, a:focus {
   outline: 0;
   border: none;
