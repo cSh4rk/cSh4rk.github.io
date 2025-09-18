@@ -268,8 +268,8 @@ a:hover h2 {
   text-shadow: 0 0 6px rgba(255, 255, 255, 0.6);
 }
 
-a code.highlighter-rouge:hover,
-a code.highlighter-rouge-tag:hover {
+a:hover code.highlighter-rouge,
+a:hover code.highlighter-rouge-tag {
   color: #f0aaff; /* neon pink/purple */
   text-shadow: 0 0 5px rgba(240, 170, 255, 0.6);
 }
