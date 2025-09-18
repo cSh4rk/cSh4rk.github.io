@@ -1,7 +1,3 @@
-/*
-   original: https://github.com/pages-themes/hacker
-*/
-
 @import "rouge-base16-dark";
 @import "default_colors";
 
@@ -29,14 +25,13 @@ body {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
-/* General & 'Reset' Stuff */
+// General
 
 .container {
   width: 90%;
   max-width: 1000px;
   margin: 0 auto;
 }
-
 
 section {
   display: block;
@@ -51,11 +46,7 @@ li {
   line-height: 1.4 ;
 }
 
-/* Header, <header>
-   header   - container
-   h1       - project name
-   h2       - project description
-*/
+// Header
 
 header {
   background: rgba(0, 0, 0, 0.1);
@@ -93,14 +84,12 @@ header h2 {
   color: #666;
 }
 
-/* Main Content
-*/
+// Main Content
 
 #main_content {
   width: 100%;
   -webkit-font-smoothing: antialiased;
 }
-
 
 // Fix Layout Shift issue(combined with adding width and height to html img and video tags) (09102025 Added):
 
@@ -221,8 +210,7 @@ hr {
   color: #b5e853;
 }
 
-/* Buttons
-*/
+// Buttons
 
 .btn {
   display: inline-block;
@@ -258,9 +246,7 @@ hr {
   background: url("../images/blacktocat.png") 0 0 no-repeat;
 }
 
-/* Links
-   a, a:hover, a:visited
-*/
+// Links
 
 a {
   color: #63c0f5;
@@ -406,9 +392,8 @@ a:active, a:focus {
   margin-bottom: 13px;
 }
 
-/*
- * Icons
- */
+// Icons
+
 .icon {
 
     > svg {
