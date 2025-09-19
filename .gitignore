@@ -4,7 +4,6 @@ CNAME
 # Node modules
 node_modules/
 npm-debug.log
-package-lock.json
 
 # Jekyll build cache
 .jekyll-cache/
