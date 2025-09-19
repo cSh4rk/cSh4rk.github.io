@@ -8,8 +8,7 @@ export default {
       css: ['./_site/css/main.css'],
       safelist: [
         ':target' // keeps fragment highlight animations intact
-      ],
-      rejected: true, // logs removed selectors
+      ]
     }),
   ],
 };
