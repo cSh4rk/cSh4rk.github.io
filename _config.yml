@@ -28,6 +28,12 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
+exclude:
+  - package.json
+  - package-lock.json
+  - postcss.config.js
+  - copy-css.js
+  
 sass:
   style: compressed
   sourcemap: never
@@ -74,9 +80,3 @@ badges:
   tryhackme: "nima"
   selfhost_tryhackme: true
 # End of Contact
-
-exclude:
-  - package.json
-  - package-lock.json
-  - postcss.config.js
-  - copy-css.js
