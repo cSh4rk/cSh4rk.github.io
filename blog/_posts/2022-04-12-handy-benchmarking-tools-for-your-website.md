@@ -13,7 +13,7 @@ updated: 2025-09-20
 [^1]
 <br>
 
-This is a list of some handy Server Benchmarking Tools that might be useful for you:
+Here is a list of some handy benchmarking tools for your website:
 
 <br>
 ### _External Links_
@@ -64,16 +64,16 @@ This is a list of some handy Server Benchmarking Tools that might be useful for 
 * [CookieMetrix](https://www.cookiemetrix.com/)
 
 <br>
-### Create web-optimized image/video formats
+### Other useful tools
 ***
+#### Create web-optimized image/video formats
 * [FFMPEG](https://ffmpeg.org/download.html)
 * [ImageMagick](https://imagemagick.org/script/download.php)
 * [CWEBP](https://developers.google.com/speed/webp/download)
 * [Squoosh](https://squoosh.app/)
 
 <br>
-### RSS Readers
-***
+#### RSS Readers
 * [Feedly online RSS reader](https://feedly.com/)
 * [NewsFlow](https://apps.microsoft.com/detail/9nblggh58s5r)
 
