@@ -15,7 +15,7 @@ In this edition of the Hacker Theme:
   - Ability to show updated date for posts (in addition to published date)
   - Smart image format selector plugin: this Ruby plugin is built for easier implementation of pictures on web pages, this plugin uses a fallback mechanism for pictures: it searches for the picture in avif format and uses it, if avif wasn't found, searches for webP and if it wasn't found either, it searches for original picture format(PNG,JPG...) AVIF -> webP -> Original format(PNG,JPG...) with the ability to set some attributes for images (`width` `height` `alt` `loading` `fetchpriority` `first_format` `decoding` `classname`)
   - Expanded page style codes for more features: hover effects for different hyperlinks, fragment highlight animations, responsive classes and more
-  - Ability to use PurgeCSS post website build to remove unused CSS codes( use `npm init -y` and `npm install --save-dev @fullhuman/postcss-purgecss postcss postcss-cli` in project folder )
+  - Ability to use PurgeCSS post website build to remove unused CSS codes( use `npm install` in project folder )
   - Favicon is chosen based on the viewer's device
   - Fixed and completed RSS feed
   - Added new options for page frontmatter, examples: robots: add robots rules for the page, hero-poster: add hero poster for hero videos on pages to use them with preload for faster load(it sets fetchpriority=high for hero poster)
