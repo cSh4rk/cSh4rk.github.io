@@ -6,13 +6,14 @@ image: /books/assets/2021/deepwork_book.jpg
 description: "Deep work is the ability to focus without distraction on a cognitively demanding task. It's a skill that allows you to quickly master complicated information and produce better results in less time. Deep Work will make you better at what you do and provide the sense of true fulfillment that comes from craftsmanship. In short, deep work is like a super power in our increasingly competitive twenty-first century economy. And yet, most people have lost the ability to go deep-spending their days instead in a frantic blur of e-mail and social media, not even realizing there's a better way."
 image_width: "265"
 image_height: "400"
+updated: 2025-09-26
 ---
 
 <br>
 {% smart_image /books/assets/2021/deepwork_book.jp 265 400 "" eager high %}
 <br>
 
-### Amazon[^1] Description
+## Amazon[^1] Description
 * * *
 "Master one of our economy’s most rare skills and achieve groundbreaking results with this “exciting” book (Daniel H. Pink) from an “exceptional” author (New York Times Book Review).
 
@@ -32,7 +33,7 @@ Wall Street Journal Business Bestseller
 A Business Book of the Week at 800-CEO-READ"
 
 <br>
-### Book Details
+## Book Details
 * * *
 Author: Cal Newport
 
@@ -41,11 +42,13 @@ Category: Personal Transformation / Time Management / Career Guide
 Publisher: Grand Central Publishing; 1st edition (January 5, 2016)
 
 <br>
-### My Comment
+## My Comment
 * * *
 This is also one of the best books that I've read. It has very good points on what life distractions are and how to remove them, that's the only way to have a meaningful life and to lead a career that makes a difference.
 
+Also check the author's other book: [So Good They Can't Ignore You](/books/2025/so-good-they-cant-ignore-you-why-skills-trump-passion-in-the-quest-for-work-you-love).
+
 <br>
-### _References_
+## _References_
 * * *
 [^1]: [The Book on Amazon Website](https://www.amazon.com/Deep-Work-Focused-Success-Distracted-ebook/dp/B00X47ZVXM/ref=sr_1_1?dchild=1&keywords=deep+work&qid=1632985269&s=digital-text&sr=1-1)
