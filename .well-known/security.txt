@@ -1,0 +1,7 @@
+---
+layout: null
+---
+
+Contact: https://nima.ninja/contact
+Expires: {{ "now" | date: "%Y" | plus: 1 }}-{{ "now" | date: "%m-%d" }}T00:00:00Z
+Canonical: https://nima.ninja/.well-known/security.txt
