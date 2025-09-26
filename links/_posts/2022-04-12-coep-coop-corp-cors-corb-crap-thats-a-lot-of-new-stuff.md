@@ -2,14 +2,14 @@
 title: "COEP COOP CORP CORS CORB... that's a lot of new stuff!"
 published: true
 tags: [Web, HTTP, Web Applications, Web Application Security, HTTP Headers, Security Headers]
-image: /links/assets/web-icon.png
+image: /links/assets/2022/web-icon.png
 description: "Great article about some relatively new HTTP Security Headers."
 image_width: "256"
 image_height: "256"
 ---
 
 <br>
-{% smart_image /links/assets/web-icon.png 256 256 "" eager high %}
+{% smart_image /links/assets/2022/web-icon.png 256 256 "" eager high %}
 [^1]
 <br>
 

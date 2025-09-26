@@ -2,14 +2,14 @@
 title: "Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers"
 published: true
 tags: [Cybersecurity, Story, Cyberattacks, Cyberwar, Hackers, Top Hackers, Misc., Ransomware, ICS, APT]
-image: /books/assets/sandworm_book.jpg
+image: /books/assets/2021/sandworm_book.jpg
 description: "The true story of the most devastating cyberattack in history and the desperate hunt to identify and track the elite Russian agents behind it, from Wired senior writer Andy Greenberg."
 image_width: "260"
 image_height: "400"
 ---
 
 <br>
-{% smart_image /books/assets/sandworm_book.jpg 260 400 "" eager high %}
+{% smart_image /books/assets/2021/sandworm_book.jpg 260 400 "" eager high %}
 <br>
 
 ### Amazon[^1] Description

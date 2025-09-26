@@ -2,14 +2,14 @@
 title: "Expert Lab: Web Shell Upload via Race Condition"
 published: true
 tags: [Web Application Security, Web Security Academy, Expert Labs, File Upload Vulnerabilities, Race Condition Vulnerabilities, Turbo Intruder, Exiftool]
-image: /blog/assets/console.png
+image: /blog/assets/2022/console.png
 description: "Lab Description: This lab contains a vulnerable image upload function. Although it performs robust validation on any files that are uploaded, it is possible to bypass this validation entirely by exploiting a race condition in the way it processes them."
 image_width: "256"
 image_height: "256"
 ---
 
 <br>
-{% smart_image /blog/assets/console.png 256 256 "" eager high %}
+{% smart_image /blog/assets/2022/console.png 256 256 "" eager high %}
 [^1]
 <br>
 

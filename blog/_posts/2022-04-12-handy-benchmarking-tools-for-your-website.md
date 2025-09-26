@@ -1,15 +1,15 @@
 ---
 title: "Handy Benchmarking Tools for your Website"
 published: true
-tags: [Web, Benchmarking Tools, Web Application Security, Web Application Performance Testing, DNSSEC, TLS, HTTP Headers, Security Headers]
-image: /blog/assets/chart-search-icon.png
+tags: [Web, Website, Web Benchmarking Tools, Website Performance, Website Security, DNSSEC, TLS, HTTP Headers, Security Headers]
+image: /blog/assets/2022/chart-search-icon.png
 description: "These tools help you benchmark your website and find performance and technical issues."
 image_width: "256"
 image_height: "256"
-updated: 2025-09-20
+updated: 2025-09-24
 ---
 <br>
-{% smart_image /blog/assets/chart-search-icon.png 256 256 "" eager high %}
+{% smart_image /blog/assets/2022/chart-search-icon.png 256 256 "" eager high %}
 [^1]
 <br>
 

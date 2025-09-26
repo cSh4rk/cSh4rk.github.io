@@ -2,14 +2,14 @@
 title: "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones"
 published: true
 tags: [Personal Transformation, Performance Improvement, Habits, Top Book]
-image: /books/assets/atomichabits_book.jpg
+image: /books/assets/2021/atomichabits_book.jpg
 description: "No matter your goals, Atomic Habits offers a proven framework for improving--every day. James Clear, one of the world's leading experts on habit formation, reveals practical strategies that will teach you exactly how to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results..."
 image_width: "265"
 image_height: "400"
 ---
 
 <br>
-{% smart_image /books/assets/atomichabits_book.jpg 256 400 "" eager high %}
+{% smart_image /books/assets/2021/atomichabits_book.jpg 256 400 "" eager high %}
 <br>
 
 ### Amazon[^1] Description

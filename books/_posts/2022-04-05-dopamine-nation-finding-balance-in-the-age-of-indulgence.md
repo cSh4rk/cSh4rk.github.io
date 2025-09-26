@@ -2,14 +2,14 @@
 title: "Dopamine Nation: Finding Balance in the Age of Indulgence"
 published: true
 tags: [Health, Neuroscience, Performance Improvement, Top Book, Top Science Book]
-image: /books/assets/dopamine_nation_book.jpg
+image: /books/assets/2022/dopamine_nation_book.jpg
 description: "This book is about pleasure. It’s also about pain. Most important, it’s about how to find the delicate balance between the two, and why now more than ever finding balance is essential. We’re living in a time of unprecedented access to high-reward, high-dopamine stimuli: drugs, food, news, gambling, shopping, gaming, texting, sexting, Facebooking, Instagramming, YouTubing, tweeting… The increased numbers, variety, and potency is staggering. The smartphone is the modern-day hypodermic needle, delivering digital dopamine 24/7 for a wired generation. As such we’ve all become vulnerable to compulsive overconsumption."
 image_width: "265"
 image_height: "400"
 ---
 
 <br>
-{% smart_image /books/assets/dopamine_nation_book.jpg 265 400 "" eager high %}
+{% smart_image /books/assets/2022/dopamine_nation_book.jpg 265 400 "" eager high %}
 <br>
 
 ### Amazon[^1] Description

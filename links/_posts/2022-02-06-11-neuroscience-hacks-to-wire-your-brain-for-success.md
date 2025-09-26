@@ -2,14 +2,14 @@
 title: "11 Neurosciece Hacks to Wire Your Brain for Success"
 published: true
 tags: [Neuroscience, Performance Improvement, Biohacks]
-image: /links/assets/neurosciencehacks.png
+image: /links/assets/2022/neurosciencehacks.png
 description: "A few simple but very important daily hacks for a sharper brain."
 image_width: "256"
 image_height: "256"
 ---
 
 <br>
-{% smart_image /links/assets/neurosciencehacks.png 256 256 "" eager high %}
+{% smart_image /links/assets/2022/neurosciencehacks.png 256 256 "" eager high %}
 [^1]
 <br>
 

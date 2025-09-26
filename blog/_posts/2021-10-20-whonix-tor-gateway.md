@@ -3,14 +3,14 @@ title: "Whonix: Software That Can Anonymize Everything You Do Online"
 published: true
 date: 2021-10-20 00:00:01
 tags: [Whonix, Privacy, Anonymity, Tor, Linux, Advanced]
-image: /blog/assets/whonix-logo.png
+image: /blog/assets/2021/whonix-logo.png
 description: "What is Whonix Tor gateway and how to use it?"
 image_width: "388"
 image_height: "128"
 ---
 
 <br>
-{% smart_image /blog/assets/whonix-logo.png 388 128 "" eager high %}
+{% smart_image /blog/assets/2021/whonix-logo.png 388 128 "" eager high %}
 <br>
 
 ### Whonix[^1] Tor Gateway
@@ -27,13 +27,13 @@ First set up the necessary Whonix VM network adapters:
 Don't change this default network adapter:
 
 <br>
-{% smart_image /blog/assets/whonix1.png 641 525 "" eager "" webp async %}
+{% smart_image /blog/assets/2021/whonix1.png 641 525 "" eager "" webp async %}
 <br>
 
 Add a secondary network adapter or edit it like this if it already exists:
 
 <br>
-{% smart_image /blog/assets/whonix2.png 647 529 "" lazy "" webp async %}
+{% smart_image /blog/assets/2021/whonix2.png 647 529 "" lazy "" webp async %}
 <br>
 
 Next step is to be able to use this network in VMware workstation:
@@ -41,7 +41,7 @@ Next step is to be able to use this network in VMware workstation:
 Go to Edit -> Virtual Network Editor... and add a new network like the selected one in the picture:
 
 <br>
-{% smart_image /blog/assets/vmware1.png 602 525 "" lazy "" webp async %}
+{% smart_image /blog/assets/2021/vmware1.png 602 525 "" lazy "" webp async %}
 <br>
 
 Now you can use Whonix Tor Gateway in your VMware VMs. Just do the network config necessary to connect to this network in each of your VMs that you want to use this Tor gateway. You must set IP,Netmask and Gateway according the network that is set in your Whonix, Your Gateway address is the Whonix Tor Gateway IP, and also set your DNS settings according to Whonix Tor gateway.

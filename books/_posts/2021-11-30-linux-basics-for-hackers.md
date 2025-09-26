@@ -3,14 +3,14 @@ title: "Linux Basics for Hackers: Getting Started with Networking, Scripting, an
 published: true
 date: 2021-11-30 00:00:02
 tags: [OccupyTheWeb, Linux, Hacking, Prerequisite, Newcomers, Top Book]
-image: /books/assets/linux_basics_for_hackers_book.jpg
+image: /books/assets/2021/linux_basics_for_hackers_book.jpg
 description: "This practical, tutorial-style book uses the Kali Linux distribution to teach Linux basics with a focus on how hackers would use them. Topics include Linux command line basics, filesystems, networking, BASH basics, package management, logging, and the Linux kernel and drivers."
 image_width: "303"
 image_height: "400"
 ---
 
 <br>
-{% smart_image /books/assets/linux_basics_for_hackers_book.jpg 303 400 "" eager high %}
+{% smart_image /books/assets/2021/linux_basics_for_hackers_book.jpg 303 400 "" eager high %}
 <br>
 
 ### Amazon[^1] Description

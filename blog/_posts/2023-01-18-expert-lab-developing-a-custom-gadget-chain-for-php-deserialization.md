@@ -2,14 +2,14 @@
 title: "Expert Lab: Developing a custom gadget chain for PHP deserialization"
 published: true
 tags: [Web Application Security, Web Security Academy, Expert Labs, Insecure Deserialization, Remote Code Execution, Gadget Chains, PHP]
-image: /blog/assets/supply-chain2.png
+image: /blog/assets/2023/supply-chain2.png
 description: "Lab Description: This lab uses a serialization-based session mechanism. By deploying a custom gadget chain, you can exploit its insecure deserialization to achieve remote code execution."
 image_width: "256"
 image_height: "256"
 ---
 
 <br>
-{% smart_image /blog/assets/supply-chain2.png 256 256 "" eager high %}
+{% smart_image /blog/assets/2023/supply-chain2.png 256 256 "" eager high %}
 [^1]
 <br>
 
@@ -114,7 +114,7 @@ class DefaultMap {
 So we might have a leak of some part the website code here. Also after we log in, we check the session cookie, and it turns out it is a serialized php object:
 
 <br>
-{% smart_image /blog/assets/custom-gadget-chain-php1.png 1260 823 "" lazy "" avif async %}
+{% smart_image /blog/assets/2023/custom-gadget-chain-php1.png 1260 823 "" lazy "" avif async %}
 <br>
 
 So we can check if this website is vulnerable to insecure deserialization[^2]. 
@@ -246,7 +246,7 @@ TzoxNDoiQ3VzdG9tVGVtcGxhdGUiOjI6e3M6MzM6IgBDdXN0b21UZW1wbGF0ZQBkZWZhdWx0X2Rlc2Nf
  and paste it here in the session cookie in the Burp suite repeater:
 
 <br>
-{% smart_image /blog/assets/custom-gadget-chain-php2.png 1263 818 "" lazy "" avif async %}
+{% smart_image /blog/assets/2023/custom-gadget-chain-php2.png 1263 818 "" lazy "" avif async %}
 <br>
 
  and click apply and send, then boom! the carlos's morale.txt file is removed from the server and the lab is solved!

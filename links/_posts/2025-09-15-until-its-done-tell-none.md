@@ -2,13 +2,13 @@
 title: "Until it's done, tell none."
 published: true
 tags: [Fun, Mindset, Psychology, Goals]
-image: /links/assets/tom.jpg
+image: /links/assets/2025/tom.jpg
 description: "Until it's done, tell none. That's law."
 image_width: "432"
 image_height: "540"
 ---
 <br>
-{% smart_image /links/assets/tom.jpg 432 540 "" eager high %}
+{% smart_image /links/assets/2025/tom.jpg 432 540 "" eager high %}
 [^1]
 <br>
 

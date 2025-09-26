@@ -2,7 +2,7 @@
 title: "Can't Hurt Me: Master Your Mind and Defy the Odds"
 published: true
 tags: [Personal Transformation, Motivational, Try Harder, Health, Fitness]
-image: /books/assets/cant_hurt_me_book.jpg
+image: /books/assets/2024/cant_hurt_me_book.jpg
 description: "For David Goggins, childhood was a nightmare -- poverty, prejudice, and physical abuse colored his days and haunted his nights. But through self-discipline, mental toughness, and hard work, Goggins transformed himself from a depressed, overweight young man with no future into a U.S. Armed Forces icon and one of the world's top endurance athletes. The only man in history to complete elite training as a Navy SEAL, Army Ranger, and Air Force Tactical Air Controller, he went on to set records in numerous endurance events, inspiring Outside magazine to name him \"The Fittest (Real) Man in America.\"
 In \"Can't Hurt Me\", he shares his astonishing life story and reveals that most of us tap into only 40% of our capabilities. Goggins calls this The 40% Rule, and his story illuminates a path that anyone can follow to push past pain, demolish fear, and reach their full potential."
 image_width: "266"
@@ -10,7 +10,7 @@ image_height: "400"
 ---
 
 <br>
-{% smart_image /books/assets/cant_hurt_me_book.jpg 266 400 "" eager high %}
+{% smart_image /books/assets/2024/cant_hurt_me_book.jpg 266 400 "" eager high %}
 <br>
 
 ### Amazon[^1] Description

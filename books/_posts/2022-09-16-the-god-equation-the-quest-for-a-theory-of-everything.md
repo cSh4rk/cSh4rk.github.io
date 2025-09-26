@@ -2,7 +2,7 @@
 title: "The God Equation: The Quest for a Theory of Everything"
 published: true
 tags: [Physics, Michio Kaku, String Theory, Quantum Physics, Top Book, Top Science Book]
-image: /books/assets/the_god_equation_book.jpg
+image: /books/assets/2022/the_god_equation_book.jpg
 description: "When Newton discovered the law of gravity, he unified the rules governing the heavens and the Earth. Since then, physicists have been placing new forces into ever-grander theories.
 But perhaps the ultimate challenge is achieving a monumental synthesis of the two remaining theories—relativity and the quantum theory. This would be the crowning achievement of science, a profound merging of all the forces of nature into one beautiful, magnificent equation to unlock the deepest mysteries in science: What happened before the Big Bang? What lies on the other side of a black hole? Are there other universes and dimensions? Is time travel possible? Why are we here?"
 image_width: "260"
@@ -10,7 +10,7 @@ image_height: "400"
 ---
 
 <br>
-{% smart_image /books/assets/the_god_equation_book.jpg 260 400 "" eager high %}
+{% smart_image /books/assets/2022/the_god_equation_book.jpg 260 400 "" eager high %}
 <br>
 
 ### Amazon[^1] Description
