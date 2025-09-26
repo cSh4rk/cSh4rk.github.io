@@ -24,7 +24,7 @@ These are some tips to improve your website, examples are for Jekyll as my websi
   Speed -> Settings: (In the Site Recommendations section): Enable/Disable according to the picture:
 
   <br>
-  {% smart_image /blog/assets/2025/website-boost-cloudflare.png 1059 1136 "" lazy "" webp async "" figure %}
+  {% smart_image /blog/assets/2025/website-boost-cloudflare.png 1059 1136 "" lazy "" webp async "" list %}
   <br>
 
   Enable: HTTP/2, HTTP/3, HTTP/2 to Origin, Always use HTTPS, TLS 1.3, Early Hints
@@ -44,7 +44,7 @@ These are some tips to improve your website, examples are for Jekyll as my websi
   Minimum TLS version: TLS 1.2
 
   <br>
-  {% smart_image /blog/assets/2025/website-boost-cloudflare2.png 1034 196 "" lazy "" webp async "" figure %}
+  {% smart_image /blog/assets/2025/website-boost-cloudflare2.png 1034 196 "" lazy "" webp async "" list %}
   <br>
 
   > How I found it was TLS issue? I used RSS Validator[^3] for checking the validity of my website RSS feed after some changes and it returned TLS error, so I got suspicious that it might be due to only TLS 1.3 being enabled and I tested after enabling TLS 1.2 and voila! My RSS feed clients started working again! 
@@ -64,7 +64,7 @@ These are some tips to improve your website, examples are for Jekyll as my websi
   While there you can also enable Hotlink Protection.
 
   <br>
-  {% smart_image /blog/assets/2025/website-boost-cloudflare3.png 1031 542 "" lazy "" webp async "" figure %}
+  {% smart_image /blog/assets/2025/website-boost-cloudflare3.png 1031 542 "" lazy "" webp async "" list %}
   <br>
 
 <br>
