@@ -58,13 +58,14 @@ module Jekyll
       decoding_attr = decoding.empty? ? "" : " decoding=\"#{decoding}\""
       classname_attr = classname.empty? ? "" : " class=\"#{classname}\""
 
-      # Build <picture> block
-      <<~HTML
-      <picture>
-        #{sources}
-        <img src="#{image}"#{width_attr}#{height_attr}#{alt_attr}#{loading_attr}#{fetch_attr}#{decoding_attr}#{classname_attr}>
-      </picture>
-      HTML
+      # Build <picture> block inline-safe for lists
+      picture_html = if sources.strip.empty?
+                       "<img src=\"#{image}\"#{width_attr}#{height_attr}#{alt_attr}#{loading_attr}#{fetch_attr}#{decoding_attr}#{classname_attr}>"
+                     else
+                       "<picture>#{sources}<img src=\"#{image}\"#{width_attr}#{height_attr}#{alt_attr}#{loading_attr}#{fetch_attr}#{decoding_attr}#{classname_attr}></picture>"
+                     end
+
+      picture_html
     end
   end
 end
