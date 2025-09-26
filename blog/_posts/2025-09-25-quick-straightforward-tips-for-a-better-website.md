@@ -398,7 +398,7 @@ These are some tips to improve your website, examples are for Jekyll as my websi
   ```
   {% endraw %}
 
-  The result is built website code committed and pushed to my `gh-pages`[^14] branch on GitHub.
+  The result is built website code committed and pushed to the `gh-pages` branch of my website[^14] on GitHub.
 
 <br>
 <br>
@@ -418,4 +418,4 @@ These are some tips to improve your website, examples are for Jekyll as my websi
 [^11]: [Penthouse: Generate critical css for your web pages](https://github.com/pocketjoso/penthouse)
 [^12]: [Critters: A Webpack plugin to inline your critical CSS and lazy-load the rest.](https://github.com/GoogleChromeLabs/critters)
 [^13]: [Crittr: High performance critical css extraction with a great configuration abilities](https://github.com/philipp-winterle/crittr)
-[^14]: [My gh-pages branch of my website on GitHub](https://github.com/cSh4rk/cSh4rk.github.io/tree/gh-pages)
+[^14]: [The gh-pages branch of my website on GitHub](https://github.com/cSh4rk/cSh4rk.github.io/tree/gh-pages)
