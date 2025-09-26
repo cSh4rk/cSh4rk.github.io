@@ -27,9 +27,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
-
-include:
-  - .well-known
   
 exclude:
   - package.json
