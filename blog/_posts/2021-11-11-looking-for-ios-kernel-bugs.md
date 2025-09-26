@@ -12,6 +12,6 @@ image_height: "447"
 {% smart_image /blog/assets/2021/meme1.jpg 400 447 "" eager high %}
 [^1]
 <br>
-### _References_
+## _References_
 * * *
 [^1]: [X Post](https://x.com/fasthm00/status/1458084944195080207)

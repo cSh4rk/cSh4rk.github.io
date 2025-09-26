@@ -15,6 +15,6 @@ image_height: "256"
 Great tips on how to pass the OSCP exam.
 
 <br>
-### _External Links_
+## _External Links_
 * * *
-* #### [My OSCP Journey - A Review](https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/my-oscp-journey-a-review)
+* ### [My OSCP Journey - A Review](https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/my-oscp-journey-a-review)

@@ -12,7 +12,7 @@ image_height: "400"
 {% smart_image /books/assets/2021/why_we_sleep_book.jpg 263 400 "" eager high %}
 <br>
 
-### Amazon[^1] Description
+## Amazon[^1] Description
 * * *
 **“Why We Sleep is an important and fascinating book…Walker taught me a lot about this basic activity that every person on Earth needs. I suspect his book will do the same for you.” —Bill Gates**
 
@@ -25,10 +25,10 @@ An explosion of scientific discoveries in the last twenty years has shed new lig
 Walker answers important questions about sleep: how do caffeine and alcohol affect sleep? What really happens during REM sleep? Why do our sleep patterns change across a lifetime? How do common sleep aids affect us and can they do long-term damage? Charting cutting-edge scientific breakthroughs, and synthesizing decades of research and clinical practice, Walker explains how we can harness sleep to improve learning, mood, and energy levels; regulate hormones; prevent cancer, Alzheimer’s, and diabetes; slow the effects of aging; increase longevity; enhance the education and lifespan of our children, and boost the efficiency, success, and productivity of our businesses. Clear-eyed, fascinating, and accessible, Why We Sleep is a crucial and illuminating book."
 
 <br>
-### Editorial Reviews
+## Editorial Reviews
 * * *
 <br>
-##### Review
+### Review
 “A thoughtful tour through the still dimly understood state of being asleep … Why We Sleep is a book on a mission. Walker is in love with sleep and wants us to fall in love with sleep, too. And it is urgent. He makes the argument, persuasively, that we are in the midst of a ‘silent sleep loss epidemic’ that poses ‘the greatest public health challenge we face in the 21st century’ … Why We Sleep mounts a persuasive, exuberant case for addressing our societal sleep deficit and for the virtues of sleep itself. It is recommended for night-table reading in the most pragmatic sense.”
 —New York Times Book Review
 
@@ -57,11 +57,11 @@ Walker answers important questions about sleep: how do caffeine and alcohol affe
 —Mark R. Rosekind, Ph.D., former NHTSA Administrator, NTSB member, and NASA scientist
 
 <br>
-##### About the Author
+### About the Author
 Matthew Walker is a professor of neuroscience and psychology at UC Berkeley, the Director of its Sleep and Neuroimaging Lab, and a former professor of psychiatry at Harvard University. He has published over 100 scientific studies and has appeared on 60 Minutes, Nova, BBC News, and NPR’s Science Friday. Why We Sleep is his first book.
 
 <br>
-### Book Details
+## Book Details
 * * *
 Author: Matthew Walker
 
@@ -70,7 +70,7 @@ Category: Neuroscience, Sleep Disorders[^2]
 Publisher: Scribner; 1st edition (October 1, 2017)
 
 <br>
-### My Comment
+## My Comment
 * * *
 Why do we and almost all living things sleep? Why is it necessary?
 
@@ -83,7 +83,7 @@ How does lack of sleep affect our learning abilities?
 In this book you'll find answers to these and many other important questions about sleep from the latest discoveries of Neuroscience field.
 
 <br>
-### _References_
+## _References_
 * * *
 [^1]: [The Book on Amazon Website](https://www.amazon.com/Why-We-Sleep-Unlocking-Dreams/dp/1501144316)
 [^2]: [Sleep Disorders Category on Amazon](https://www.amazon.com/gp/bestsellers/books/282817/ref=pd_zg_hrsr_books)

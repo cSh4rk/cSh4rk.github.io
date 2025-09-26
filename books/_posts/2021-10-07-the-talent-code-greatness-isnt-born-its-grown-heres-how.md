@@ -12,7 +12,7 @@ image_height: "400"
 {% smart_image /books/assets/2021/the_talent_code_book.jpg 268 400 "" eager high %}
 <br>
 
-### Amazon[^1] Description
+## Amazon[^1] Description
 * * *
 "What is the secret of talent? How do we unlock it? In this groundbreaking work, journalist and New York Times bestselling author Daniel Coyle provides parents, teachers, coaches, businesspeople—and everyone else—with tools they can use to maximize potential in themselves and others.
 
@@ -31,7 +31,7 @@ These three elements work together within your brain to form myelin, a microscop
 Combining revelatory analysis with illuminating examples of regular people who have achieved greatness, this book will not only change the way you think about talent, but equip you to reach your own highest potential."
 
 <br>
-### Book Details
+## Book Details
 * * *
 Author: Daniel Coyle
 
@@ -40,7 +40,7 @@ Category: Personal Transformation / Popular Psychology Creativity & Genius
 Publisher: Bantam; 1st edition (April 28, 2009)
 
 <br>
-### My Comment
+## My Comment
 * * *
 Is genius born or made? If it is made, what is the process and how can we develop the same level of mastery in our selected field in life? This book answers these questions and teaches a very specific method we can use in any field to develop mastery and reach genius levels.
 
@@ -49,6 +49,6 @@ The interesting thing about this book is that it shows real biologic changes tha
 This book is in the same category as some other books that I suggested here like [Deep Work](/books/2021/deep-work-rules-for-focused-success-in-a-distracted-world) and it's recommended that you read these books together to have a more complete picture of the whole subject.
 
 <br>
-### _References_
+## _References_
 * * *
 [^1]: [The Book on Amazon Website](https://www.amazon.com/Talent-Code-Greatness-Born-Grown/dp/055380684X)

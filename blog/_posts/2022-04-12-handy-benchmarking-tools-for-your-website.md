@@ -16,7 +16,7 @@ updated: 2025-09-24
 Here is a list of some handy benchmarking tools for your website:
 
 <br>
-### _External Links_
+## _External Links_
 * * *
 <br>
 ### Performance and Speed Testing
@@ -78,6 +78,6 @@ Here is a list of some handy benchmarking tools for your website:
 * [NewsFlow](https://apps.microsoft.com/detail/9nblggh58s5r)
 
 <br>
-### _References_
+## _References_
 * * *
 [^1]: Icon made by [Lokas Software](https://iconarchive.com/artist/awicons.html) from [www.iconarchive.com](https://www.iconarchive.com/)

@@ -12,7 +12,7 @@ image_height: "400"
 {% smart_image /books/assets/2021/thinkandgrowrich_book.jpg 258 400 "" eager high %}
 <br>
 
-### Amazon[^1] Description
+## Amazon[^1] Description
 * * *
 "Think and Grow Rich - Over 80 Million Copies Sold
 
@@ -27,7 +27,7 @@ Money and material things are essential for freedom of body and mind, but there 
 BE PREPARED! When you expose yourself to the influence of this philosophy, you may experience a CHANGED LIFE which can help you negotiate your way through life with harmony and understanding and prepare you for the accumulation of abundant material riches."
 
 <br>
-### Book Details
+## Book Details
 * * *
 Author: Napoleon Hill
 
@@ -36,11 +36,11 @@ Category: Personal Success Classic
 Publisher: Sound Wisdom; Original Edition (March 1, 2019)
 
 <br>
-### My Comment
+## My Comment
 * * *
 Probably the most well-known book on success and definitely one of the best! It was a source of inspiration for many other authors and books...
 
 <br>
-### _References_
+## _References_
 * * *
 [^1]: [The Book on Amazon Website](https://www.amazon.com/Think-Grow-Rich-Publication-Foundation-ebook/dp/B07P896HSJ/ref=sr_1_1?dchild=1&keywords=think+%26+grow+rich+original&qid=1632985183&s=digital-text&sr=1-1)

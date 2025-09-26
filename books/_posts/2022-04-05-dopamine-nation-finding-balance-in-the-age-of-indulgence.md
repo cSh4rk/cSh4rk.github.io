@@ -12,7 +12,7 @@ image_height: "400"
 {% smart_image /books/assets/2022/dopamine_nation_book.jpg 265 400 "" eager high %}
 <br>
 
-### Amazon[^1] Description
+## Amazon[^1] Description
 * * *
 
 INSTANT NEW YORK TIMES and LOS ANGELES TIMES BESTSELLER
@@ -24,10 +24,10 @@ This book is about pleasure. It’s also about pain. Most important, it’s abou
 In Dopamine Nation, Dr. Anna Lembke, psychiatrist and author, explores the exciting new scientific discoveries that explain why the relentless pursuit of pleasure leads to pain…and what to do about it. Condensing complex neuroscience into easy-to-understand metaphors, Lembke illustrates how finding contentment and connectedness means keeping dopamine in check. The lived experiences of her patients are the gripping fabric of her narrative. Their riveting stories of suffering and redemption give us all hope for managing our consumption and transforming our lives. In essence, Dopamine Nation shows that the secret to finding balance is combining the science of desire with the wisdom of recovery.
 
 <br>
-### Editorial Reviews
+## Editorial Reviews
 * * *
 <br>
-##### Review
+### Review
 “Anna Lembke deeply understands an experience I hear about often in the therapy room at the nexus between our modern addictions and our primal brains. Her stories of guiding people to find a healthy balance between pleasure and pain have the power to transform your life.”
 —Lori Gottlieb, “Dear Therapist” columnist at The Atlantic, New York Times bestselling author of Maybe You Should Talk to Someone
 
@@ -47,11 +47,11 @@ In Dopamine Nation, Dr. Anna Lembke, psychiatrist and author, explores the excit
 —Kirkus Reviews
 
 <br>
-##### About the Author
+### About the Author
 Anna Lembke is the medical director of Stanford Addiction Medicine, program director for the Stanford Addiction Medicine Fellowship, and chief of the Stanford Addiction Medicine Dual Diagnosis Clinic. She is the recipient of numerous awards for outstanding research in mental illness, for excellence in teaching, and for clinical innovation in treatment. A clinician scholar, she has published more than a hundred peer-reviewed papers, book chapters, and commentaries in prestigious outlets such as The New England Journal of Medicine and JAMA. She sits on the board of several state and national addiction-focused organizations, has testified before various committees in the United States House of Representatives and Senate, keeps an active speaking calendar, and maintains a thriving clinical practice.
 
 <br>
-### Book Details
+## Book Details
 * * *
 
 Author: Dr. Anna Lembke
@@ -63,13 +63,13 @@ Publisher: Dutton (August 24, 2021)
 Paperback: 304 pages
 
 <br>
-### My Comment
+## My Comment
 * * *
 
 This is an important topic in this day and age, especially for the tech savvy and heavy computer and digital devices users in order to maintain health and well-being. This is a great book. Probably the best book that I've seen about Dopamine hormone because it explains this hard Neuroscience topic in an easy to understand manner. In my opinion, this is a very important and informative book which is a necessary read and its message is probably as important as [The Selfish Gene](/books/2021/the-selfish-gene) for us, so it is highly recommended.
 
 <br>
-### _References_
+## _References_
 * * *
 [^1]: [The Book on Amazon Website](https://www.amazon.com/Dopamine-Nation-Finding-Balance-Indulgence/dp/152474672X)
 [^2]: [Sociological Study of Medicine Category on Amazon](https://www.amazon.com/gp/bestsellers/books/16311191/ref=pd_zg_hrsr_books)

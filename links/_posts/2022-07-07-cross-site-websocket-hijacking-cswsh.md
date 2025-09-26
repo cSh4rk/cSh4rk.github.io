@@ -18,13 +18,13 @@ See the first link below to become familiar with various Cross-site WebSocket hi
 If you are not familiar with Websocket vulnerabilities, take a look at the second link for more details.
 
 <br>
-### _External Links_
+## _External Links_
 * * *
-* #### [Cross-site WebSocket hijacking (CSWSH)](https://book.hacktricks.xyz/pentesting-web/cross-site-websocket-hijacking-cswsh)
-* #### [Testing for WebSockets security vulnerabilities](https://portswigger.net/web-security/websockets)
+* ### [Cross-site WebSocket hijacking (CSWSH)](https://book.hacktricks.xyz/pentesting-web/cross-site-websocket-hijacking-cswsh)
+* ### [Testing for WebSockets security vulnerabilities](https://portswigger.net/web-security/websockets)
 
 <br>
-### _References_
+## _References_
 * * *
 [^1]: Icon made by [Three musketeers](https://www.flaticon.com/authors/three-musketeers) from [www.flaticon.com](https://www.flaticon.com/)
 

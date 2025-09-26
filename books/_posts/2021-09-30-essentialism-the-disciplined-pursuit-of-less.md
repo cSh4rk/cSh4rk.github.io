@@ -12,7 +12,7 @@ image_height: "400"
 {% smart_image /books/assets/2021/essentialism_book.jpg 260 400 "" eager high %}
 <br>
 
-### Amazon[^1] Description
+## Amazon[^1] Description
 * * *
 "NEW YORK TIMES BESTSELLER • More than one million copies sold! Essentialism isn’t about getting more done in less time. It’s about getting only the right things done.
 
@@ -33,7 +33,7 @@ By forcing us to apply more selective criteria for what is Essential, the discip
 Essentialism is not one more thing—it’s a whole new way of doing everything. It’s about doing less, but better, in every area of our lives. Essentialism is a movement whose time has come."
 
 <br>
-### Book Details
+## Book Details
 * * *
 Author: Greg Mckeown
 
@@ -42,11 +42,11 @@ Category: Business Decision-Making
 Publisher: Currency; 1st edition (April 15, 2014)
 
 <br>
-### My Comment
+## My Comment
 * * *
 This books shows the power and importance of essentialism and removing distractions and trivial things to focus all of our energy on our primary and most important goals in life.
 
 <br>
-### _References_
+## _References_
 * * *
 [^1]: [The Book on Amazon Website](https://www.amazon.com/Essentialism-Disciplined-Pursuit-Greg-McKeown-ebook/dp/B00G1J1D28/ref=sr_1_1?dchild=1&keywords=essentialism&qid=1632985276&s=digital-text&sr=1-1)

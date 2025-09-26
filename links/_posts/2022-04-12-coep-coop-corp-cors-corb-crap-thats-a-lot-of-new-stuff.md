@@ -16,11 +16,11 @@ image_height: "256"
 Great article about some relatively new HTTP Security Headers.
 
 <br>
-### _External Links_
+## _External Links_
 * * *
-* #### [COEP COOP CORP CORS CORB - CRAP that's a lot of new stuff!](https://scotthelme.co.uk/coop-and-coep/)
+* ### [COEP COOP CORP CORS CORB - CRAP that's a lot of new stuff!](https://scotthelme.co.uk/coop-and-coep/)
 
 <br>
-### _References_
+## _References_
 * * *
 [^1]: Icon made by [Aha-Soft](https://iconarchive.com/artist/aha-soft.html) from [www.iconarchive.com](https://www.iconarchive.com/)

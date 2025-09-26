@@ -13,7 +13,7 @@ image_height: "400"
 {% smart_image /books/assets/2021/linux_basics_for_hackers_book.jpg 303 400 "" eager high %}
 <br>
 
-### Amazon[^1] Description
+## Amazon[^1] Description
 * * *
 This practical, tutorial-style book uses the Kali Linux distribution to teach Linux basics with a focus on how hackers would use them. Topics include Linux command line basics, filesystems, networking, BASH basics, package management, logging, and the Linux kernel and drivers.
 
@@ -31,7 +31,7 @@ First, you'll learn how to install Kali on a virtual machine and get an introduc
 Hacking is complex, and there is no single way in. Why not start at the beginning with Linux Basics for Hackers?
 
 <br>
-### Editorial Reviews
+## Editorial Reviews
 * * *
 <br>
 ##### Review
@@ -54,11 +54,11 @@ Hacking is complex, and there is no single way in. Why not start at the beginnin
 —@hackerb0t
 
 <br>
-##### About the Author
+### About the Author
 OccupyTheWeb is an InfoSec consultant, forensic investigator, and trainer with more than 20 years in the industry. He maintains the Hackers-Arise training site (https://www.hackers-arise.com/) and trains US military personnel, Department of Defense contractors, and federal employees in information security and hacking.
 
 <br>
-### Book Details
+## Book Details
 * * *
 Author: OccupyTheWeb
 
@@ -69,13 +69,13 @@ Publisher: No Starch Press; Illustrated edition (December 4, 2018)
 Paperback: 248 pages
 
 <br>
-### My Comment
+## My Comment
 * * *
 I think this is one of the best Linux books for newcomers, if you want to start in ethical hacking field, you need to learn Linux and this is one the best books to read first. The book is small, the author OTW is an amazing writer, he explains every topic very smoothly. Learn Bash, Python, Networking basics in Linux, Learn how to use Proxychains...
 Read every article and book this author writes because his writing style is great and his knowledge in the InfoSec field is unbelievable.
 
 <br>
-### _References_
+## _References_
 * * *
 [^1]: [The Book on Amazon Website](https://www.amazon.com/Linux-Basics-Hackers-Networking-Scripting/dp/1593278551)
 [^2]: [Linux Networking & System Administration Category on Amazon](https://www.amazon.com/gp/bestsellers/books/291380/ref=pd_zg_hrsr_books)

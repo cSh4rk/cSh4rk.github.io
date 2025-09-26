@@ -19,7 +19,7 @@ For those of you who may not know, Discord is a VoIP platform for being in touch
 As you may already know from [About Me](/about) section, one area of my expertise is VoIP systems and I confirm that this platform has almost all of the VoIP capabilities, and the great thing is that it's free! Yeah you can pay and boost your server but you don't have to and you can have a fully functioning server for free! And the limitation in customizing your server is in your own imagination!
 
 <br>
-### Capabilities of Discord
+## Capabilities of Discord
 * * *
 * Building text and voice channels and have text chat and voice/video conference with many people at the same time.
 * Share your desktop/files... with many people.
@@ -39,7 +39,7 @@ And much more.
 I'm really excited about this platform as it has unlimited features but although the whole process of building a simple server is easy and fast, it takes time to fully customize and configure your server but it is definitely worth the effort. So start building your own Discord server now! :)
 
 <br>
-### My Discord Server
+## My Discord Server
 * * *
 Have a look at my Discord server and join if you like.
 
@@ -48,7 +48,7 @@ The default role is Guest now with limited permissions and most of my server roo
 I should also mention that this platform has normal encryption mechanisms and is not intended for secure end-to-end encryption connections but it's ok for normal use if you properly set up your server security mechanisms and use a trusted VPN for your connections.
 
 <br>
-### Useful Discord Bots Tips
+## Useful Discord Bots Tips
 * * *
 *And finally I have some tips about some useful Discord bots that I used, These tips may make your sever setup more smooth and faster:*
 
@@ -79,6 +79,6 @@ Update 12/25/2022:
 9) IFTTT is used for automation, I use it now to announce my new website posts and my latest Github commits in some announcement channels in the Discord server. Also I use IFTTT service to announce my latest website posts in my X. 
 
 <br>
-### _References_
+## _References_
 * * *
 [^1]: My Discord Server: {% if site.social.discordserver %}<a href="https://discord.gg/{{ site.social.discordserver }}"><span>{{ site.social.discordservername }}</span></a>{% endif %}

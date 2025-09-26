@@ -24,6 +24,6 @@ Also you choose your daily goal from 5 different levels: Basic, Casual, Regular,
 I'm using Duolingo to learn German and it has been a fun and effective experience so far.
 
 <br>
-### _External Links_
+## _External Links_
 * * *
-* #### [Duolingo Website](https://www.duolingo.com/)
+* ### [Duolingo Website](https://www.duolingo.com/)

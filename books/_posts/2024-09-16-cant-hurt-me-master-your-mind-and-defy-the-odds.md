@@ -13,17 +13,17 @@ image_height: "400"
 {% smart_image /books/assets/2024/cant_hurt_me_book.jpg 266 400 "" eager high %}
 <br>
 
-### Amazon[^1] Description
+## Amazon[^1] Description
 * * *
 For **David Goggins**, childhood was a nightmare -- poverty, prejudice, and physical abuse colored his days and haunted his nights. But through self-discipline, mental toughness, and hard work, Goggins transformed himself from a depressed, overweight young man with no future into a U.S. Armed Forces icon and one of the world's top endurance athletes. The only man in history to complete elite training as a Navy SEAL, Army Ranger, and Air Force Tactical Air Controller, he went on to set records in numerous endurance events, inspiring Outside magazine to name him "The Fittest (Real) Man in America."
 
 In *Can't Hurt Me*, he shares his astonishing life story and reveals that most of us tap into only 40% of our capabilities. Goggins calls this The 40% Rule, and his story illuminates a path that anyone can follow to push past pain, demolish fear, and reach their full potential.
 
 <br>
-### Editorial Reviews
+## Editorial Reviews
 * * *
 <br>
-##### Review
+### Review
 "David Goggins is a being of pure will and inspiration. Just listening to this guy talk makes you want to run up a mountain. I firmly believe people like him can change the course of the world just by inspiring us to push harder and dig deeper in everything we do. His goal to be 'uncommon amongst uncommon people' is something we can all use to propel ourselves to fulfill our true potential. I'm a better man having met him." --**Joe Rogan**, Standup Comedian and Host of the Joe Rogan Experience Podcast 
 
 "David Goggins lives out every goal, every dream no matter what. PERIOD. He's unstoppable. There's no limit to him because he doesn't live in a comfort zone. His mental and physical capacity are equal. Goggins proves that your body can handle anything if you let your mind keep up. There's no way to stop something or someone that doesn't understand the concept of being beat." --**Marcus Luttrell**, Retired Navy SEAL, Author of New York Times Best Seller Lone Survivor
@@ -41,11 +41,11 @@ In *Can't Hurt Me*, he shares his astonishing life story and reveals that most o
 "Guaranteed to galvanize more than a few couch potatoes into action." -- **Kirkus Reviews**
 
 <br>
-##### About the Author
+### About the Author
 David Goggins is a retired Navy SEAL and the only member of the U.S. Armed Forces ever to complete SEAL training, U.S. Army Ranger School, and Air Force Tactical Air Controller training. Goggins has competed in more than sixty ultra-marathons, triathlons, and ultra-triathlons, setting new course records and regularly placing in the top five. A former Guinness World Record holder for completing 4,030 pull-ups in seventeen hours, he's a much-sought-after public speaker who's shared his story with the staffs of Fortune 500 companies, professional sports teams, and hundreds of thousands of students across the country.
 
 <br>
-### Book Details
+## Book Details
 * * *
 
 Author: David Goggins
@@ -57,7 +57,7 @@ Publisher: Lioncrest Publishing; Illustrated edition (December 10, 2018)
 Paperback: 364 pages
 
 <br>
-### My Comment
+## My Comment
 * * *
 This is a great motivational book that shows we have far more mental and physical capacities than we usually feel and we can achieve far greater goals if we try harder than usual, written by a man who has lived what he's talking about.
 
@@ -66,7 +66,7 @@ The 40% percent rule mentioned in the book is eye-opening, that most of us usual
 Goggins makes us more familiar with our powerful mind and body with his real-life experiences and stories that are beyond what most of us think are humanly possible yet almost all of us can achieve.
 
 <br>
-### _References_
+## _References_
 * * *
 [^1]: [The Book on Amazon Website](https://www.amazon.com/Cant-Hurt-Me-Master-Your/dp/1544512279)
 [^2]: [Personal Transformation Self-Help Category on Amazon](https://www.amazon.com/gp/bestsellers/books/4745)

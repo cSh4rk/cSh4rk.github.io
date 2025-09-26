@@ -13,7 +13,7 @@ image_height: "400"
 {% smart_image/books/assets/2021/bug_bounty_bootcamp_book.jpg 300 400 "" eager high %}
 <br>
 
-### Amazon[^1] Description
+## Amazon[^1] Description
 * * *
 **Bug Bounty Bootcamp teaches you how to hack web applications. You will learn how to perform reconnaissance on a target, how to identify vulnerabilities, and how to exploit them. You'll also learn how to navigate bug bounty programs set up by companies to reward security professionals for finding bugs in their web applications.**
 
@@ -24,10 +24,10 @@ You'll start by learning how to choose a program, write quality bug reports, and
 Finally, the book touches on advanced techniques rarely covered in introductory hacking books but that are crucial to understand to hack web applications. You'll learn how to hack mobile apps, review an application's source code for security issues, find vulnerabilities in APIs, and automate your hacking process. By the end of the book, you'll have learned the tools and techniques necessary to be a competent web hacker and find bugs on a bug bounty program.
 
 <br>
-### Editorial Reviews
+## Editorial Reviews
 * * *
 <br>
-##### Review
+### Review
 "A really good book for getting started in Bug Bounty, out at a time when something like this was really needed. You can take as many ethical hacking courses as you want, but when it comes to bug bounty, there is so much information and tools it can be imitating to start . . . This really should be the first book read by ANYONE looking to start in the bug bounty game."
 —Alex/Muldwych, The Security Noob
 
@@ -68,11 +68,11 @@ Finally, the book touches on advanced techniques rarely covered in introductory 
 —Anthony Ware, Advanced Reviewer
 
 <br>
-##### About the Author
+### About the Author
 Vickie Li is a developer and security researcher experienced in finding and exploiting vulnerabilities in web applications. She has reported vulnerabilities to firms such as Facebook, Yelp and Starbucks and contributes to a number of online training programs and technical blogs.
 
 <br>
-### Book Details
+## Book Details
 * * *
 Author: Vickie Li
 
@@ -83,12 +83,12 @@ Publisher: No Starch Press (December 7, 2021)
 Paperback: 416 pages
 
 <br>
-### My Comment
+## My Comment
 * * *
 If you want to start in the field of Bug Bounty Hunting or even if you are an experienced bug bounty hunter, you'll benefit tremendously from this book. Vickie Li is a great writer and she explains every concept very carefully. If you are a newcomer, you'll learn a huge amount from reading this book and this book is highly recommended for bug bounty newcomers who have enough networking and programming and http knowledge to understand the topics that are written in this book.
 
 <br>
-### _References_
+## _References_
 * * *
 [^1]: [The Book on Amazon Website](https://www.amazon.com/Bug-Bounty-Bootcamp-Reporting-Vulnerabilities-ebook/dp/B08YK368Y3)
 [^2]: [Computer Programming Debugging Category on Amazon](https://www.amazon.com/gp/bestsellers/books/3974/ref=pd_zg_hrsr_books)

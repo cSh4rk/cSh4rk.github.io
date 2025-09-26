@@ -13,12 +13,12 @@ image_height: "128"
 {% smart_image /blog/assets/2021/whonix-logo.png 388 128 "" eager high %}
 <br>
 
-### Whonix[^1] Tor Gateway
+## Whonix[^1] Tor Gateway
 * * *
 You can anonymize all of your web requests by using Whonix Tor Gateway[^2]. You download and use a Whonix VirtualBox VM which is a hardened Linux distro and this VM can act as your Tor gateway for all of your web requests, it is great because it prevents possible DNS and IP leaks which can happen with most of VPNs and it also uses Tor network.
 
 <br>
-### Using Whonix Tor Gateway with your VMware Workstation VMs
+## Using Whonix Tor Gateway with your VMware Workstation VMs
 * * *
 Whonix Tor gateway VM is a VirtualBox VM, you can use it with other VirtualBox VMs without any configuration but in order to use it with your VMware VMs you must set up your Whonix VM network and VMware network like the following:
 
@@ -49,7 +49,7 @@ Now you can use Whonix Tor Gateway in your VMware VMs. Just do the network confi
 After connection, use: WhatIsMyIPAddress[^3] and DNSLeakTest[^4] to make sure that you are using Tor gateway and there's no info leak.
 
 <br>
-### Tips
+## Tips
 * * *
 1. You must pay attention that this does not prevent browser leak and user mistakes that may happen while using web.
 
@@ -58,7 +58,7 @@ After connection, use: WhatIsMyIPAddress[^3] and DNSLeakTest[^4] to make sure th
 3. There are many ways to set up Whonix. Use Whonix Documentation[^5] for more info.  
 
 <br>
-### _References_
+## _References_
 * * *
 [^1]: [Whonix Website](https://www.whonix.org/)
 [^2]: [Whonix Tor Gateway Download](https://www.whonix.org/wiki/Download)

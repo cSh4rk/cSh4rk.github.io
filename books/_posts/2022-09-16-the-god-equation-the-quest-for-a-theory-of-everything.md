@@ -13,7 +13,7 @@ image_height: "400"
 {% smart_image /books/assets/2022/the_god_equation_book.jpg 260 400 "" eager high %}
 <br>
 
-### Amazon[^1] Description
+## Amazon[^1] Description
 * * *
 
 **#1 NEW YORK TIMES BEST SELLER • The epic story of the greatest quest in all of science—the holy grail of physics that would explain the creation of the universe—from renowned theoretical physicist and author of The Future of the Mind and The Future of Humanity**
@@ -27,10 +27,10 @@ Kaku also explains the intense controversy swirling around this theory, with Nob
 Written with Kaku’s trademark enthusiasm and clarity, this epic and engaging journey is the story of The God Equation.
 
 <br>
-### Editorial Reviews
+## Editorial Reviews
 * * *
 <br>
-##### Review
+### Review
 Praise for Michio Kaku's The God Equation:
 
 “This is an excellent book written by a masterful science communicator. . . . If there is anyone who can demystify the esoteric mathematics and physics of string theory, it is [Kaku]. And in this wonderful little book, that is precisely what he does—explain in clear and simple terms the conceptual breakthroughs, the blind alleys and the unanswered questions—in the search for a grand unified theory of everything. . . . The God Equation dazzles. . . . Kaku, a consummate storyteller, provides an engaging, unvarnished account. . . . His book presents cutting-edge ideas in theoretical physics, and primes readers to be ready when the next major breakthrough occurs.” —The Wall Street Journal
@@ -46,11 +46,11 @@ Praise for Michio Kaku's The God Equation:
 “An expert account of the search for 'the holy grail of physics.' . . . Illuminating. . . . An important work.” —Kirkus Reviews
 
 <br>
-##### About the Author
+### About the Author
 MICHIO KAKU is a professor of theoretical physics at the City University of New York, co-founder of string field theory, and the author of several widely acclaimed science books, including Beyond Einstein, The Future of Humanity, The Future of the Mind, Hyperspace, Physics of the Future, and Physics of the Impossible. He is the science correspondent for CBS This Morning, the host of the radio programs Science Fantastic and Exploration, and a host of several science TV specials for the BBC and the Discovery and Science Channels.
 
 <br>
-### Book Details
+## Book Details
 * * *
 
 Author: Michio Kaku
@@ -62,7 +62,7 @@ Publisher: Doubleday; First Edition (April 6, 2021)
 Paperback: 240 pages
 
 <br>
-### My Comment
+## My Comment
 * * *
 
 This book was very interesting, I really enjoyed reading it, this is the latest Michio Kaku's book about the quest for the "Theory of Everything", probably the last and most important theory than can explain every physical law and question in our universe. Our universe is made of four fundamental forces: the weak and strong nuclear forces, the electromagnetic force and the gravitational force. The theory of everything, tries to unite these four forces into a formula, probably no longer than an inch long.
@@ -72,7 +72,7 @@ Einstein's general relativity explains a part of the whole picture of the univer
 It is a very interesting book that has a brief and simple introduction of scientific achievements in this path to the latest formula from Newton all to way to the latest Scientists that are working hard to achieve this greatest breakthrough in the history of Science that can answer many questions of ours.
 
 <br>
-### _References_
+## _References_
 * * *
 [^1]: [The Book on Amazon Website](https://www.amazon.com/God-Equation-Quest-Theory-Everything/dp/0385542747)
 [^2]: [Relativity Physics Category on Amazon](https://www.amazon.com/gp/bestsellers/books/14592/ref=pd_zg_hrsr_books)

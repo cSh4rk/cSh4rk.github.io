@@ -16,11 +16,11 @@ image_height: "256"
 This article explains clearly the process of finding a sample gadget chain and then writing a small code to build the payload for insecure deserialization exploitation in cases where there are no existing pre-built gadget chains.
 
 <br>
-### _External Links_
+## _External Links_
 * * *
-* #### [Insecure Deserialization - How to trace down a gadget chain](https://blog.redteam-pentesting.de/2021/deserialization-gadget-chain/)
+* ### [Insecure Deserialization - How to trace down a gadget chain](https://blog.redteam-pentesting.de/2021/deserialization-gadget-chain/)
 
 <br>
-### _References_
+## _References_
 * * *
 [^1]: Icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)

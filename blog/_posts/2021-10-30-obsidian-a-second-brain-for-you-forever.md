@@ -63,7 +63,7 @@ I hope I have been able to show you some parts of this great program, try it for
 In order to get started, visit Obsidian website and download it, then start from its local help to get started fast.
 
 <br>
-### _References_
+## _References_
 * * *
 [^1]: [Obsidian Website](https://obsidian.md/)
 [^2]: [PrismJS](https://prismjs.com/)

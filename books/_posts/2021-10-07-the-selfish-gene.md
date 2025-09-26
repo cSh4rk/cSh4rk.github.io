@@ -12,7 +12,7 @@ image_height: "400"
 {% smart_image /books/assets/2021/the_selfish_gene_book.jpg 264 400 "" eager high %}
 <br>
 
-### Amazon[^1] Description
+## Amazon[^1] Description
 * * *
 "The million copy international bestseller, critically acclaimed and translated into over 25 languages.
 
@@ -23,7 +23,7 @@ This 40th anniversary edition includes a new epilogue from the author discussing
 Oxford Landmark Science books are 'must-read' classics of modern science writing which have crystallized big ideas, and shaped the way we think."
 
 <br>
-### Book Details
+## Book Details
 * * *
 Author: Richard Dawkins
 
@@ -32,7 +32,7 @@ Category: Evolution
 Publisher: OUP Oxford; 4th edition (June 2, 2016)
 
 <br>
-### My Comment
+## My Comment
 * * *
 Richard Dawkins is a prominent scientist and biologist, I've read several books of his, this one is probably one of his best and most well known books.
 
@@ -45,6 +45,6 @@ Highly Recommended if you are a critical thinker and have an open mind for new i
 Read [Virus of the Mind](/books/2021/virus-of-the-mind-the-new-science-of-the-meme) after this book, it's an expansion of Richard Dawkins' theory of memetics which he discusses on chapter 11 of this book. Very interesting theory that explains many things about human culture and human mind bugs and thinking flaws that exist today.
 
 <br>
-### _References_
+## _References_
 * * *
 [^1]: [The Book on Amazon Website](https://www.amazon.com/Selfish-Gene-Anniversary-Landmark-Science-ebook/dp/B01GI5F2FS)

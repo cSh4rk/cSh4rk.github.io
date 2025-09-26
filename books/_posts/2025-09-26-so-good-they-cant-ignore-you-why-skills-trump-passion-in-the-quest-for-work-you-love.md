@@ -86,7 +86,7 @@ Paperback: 304 pages
 
 * * *
 
-Not as good as Cal newport's other book, [Deep Work](/books/2021/deep-work-rules-for-focused-success-in-a-distracted-world), as in this book the author doesn't show solid evidence for his work and some of the conclusions are extracted just from a few people that he had studied but this book still contains significant pieces of information here and there that have the power to change someone's life especially if studied at earlier age, so this is still an important read and is recommended.
+Not as good as Cal Newport's other book, [Deep Work](/books/2021/deep-work-rules-for-focused-success-in-a-distracted-world), as in this book the author doesn't show solid evidence for his work and some of the conclusions are extracted just from a few people that he had studied but this book still contains significant pieces of information here and there that have the power to change someone's life especially if studied at earlier age, so this is still an important read and is recommended.
 
 <br>
 

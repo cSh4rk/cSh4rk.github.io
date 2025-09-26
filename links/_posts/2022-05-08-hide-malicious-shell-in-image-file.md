@@ -18,12 +18,12 @@ There are many ways to bypass flawed validation of file uploads to upload web sh
 Also you can practice this vulnerability in Web Security Academy, check the link below.
 
 <br>
-### _External Links_
+## _External Links_
 * * *
-* #### [Hide malicious shell in image file](https://rcenetsec.com/hide-malicious-shell-in-image-file/)
-* #### [Lab: Remote code execution via polyglot web shell upload](https://portswigger.net/web-security/file-upload/lab-file-upload-remote-code-execution-via-polyglot-web-shell-upload)
+* ### [Hide malicious shell in image file](https://rcenetsec.com/hide-malicious-shell-in-image-file/)
+* ### [Lab: Remote code execution via polyglot web shell upload](https://portswigger.net/web-security/file-upload/lab-file-upload-remote-code-execution-via-polyglot-web-shell-upload)
 
 <br>
-### _References_
+## _References_
 * * *
 [^1]: Icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)

@@ -16,11 +16,11 @@ image_height: "256"
 This course is a gold mine for every web application security enthusiast.
 
 <br>
-### _External Links_
+## _External Links_
 * * *
-* #### [Stanford CS 253 Web Security](https://web.stanford.edu/class/cs253/)
+* ### [Stanford CS 253 Web Security](https://web.stanford.edu/class/cs253/)
 
 <br>
-### _References_
+## _References_
 * * *
 [^1]: Icon made by [Muhammad Atif](https://www.flaticon.com/authors/muhammad-atif) from [www.flaticon.com](https://www.flaticon.com/)

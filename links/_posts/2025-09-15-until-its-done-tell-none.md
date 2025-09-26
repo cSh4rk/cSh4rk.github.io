@@ -32,12 +32,12 @@ You can follow the "Mindset Machine" page on X for more high quality motivationa
 
 <br>
 
-### _External Links_
+## _External Links_
 * * *
-* #### [Mindset Machine on X](https://x.com/Mindset_Machine/)
+* ### [Mindset Machine on X](https://x.com/Mindset_Machine/)
 
 <br>
 
-### _References_
+## _References_
 * * *
 [^1]: [X post](https://x.com/Mindset_Machine/status/1967475413099421883)

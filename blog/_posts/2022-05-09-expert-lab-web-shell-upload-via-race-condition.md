@@ -13,11 +13,11 @@ image_height: "256"
 [^1]
 <br>
 
-### Lab Link
+## Lab Link
 [Lab: Web shell upload via race condition](https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-race-condition)
 
 <br>
-### Lab Description
+## Lab Description
 * * *
 <br>
 This lab contains a vulnerable image upload function. Although it performs robust validation on any files that are uploaded, it is possible to bypass this validation entirely by exploiting a race condition in the way it processes them.
@@ -27,7 +27,7 @@ To solve the lab, upload a basic PHP web shell, then use it to exfiltrate the co
 You can log in to your own account using the following credentials: wiener:peter
 
 <br>
-### Lab Hint
+## Lab Hint
 * * *
 <br>
 The vulnerable code that introduces this race condition is as follows:
@@ -66,7 +66,7 @@ function checkFileType($fileName) {
 ```
 
 <br>
-### Solutions
+## Solutions
 * * *
 <br>
 ### Solution 1: My Solution
@@ -216,19 +216,19 @@ def handleResponse(req, interesting):
 *If you choose to build the `GET` request manually, make sure you terminate it properly with a `\r\n\r\n` sequence. Also remember that Python will preserve any whitespace within a multiline string, so you need to adjust your indentation accordingly to ensure that a valid request is sent.*
 
 <br>
-### My Comment
+## My Comment
 * * *
 1. Use Burp Turbo Intruder for race condition tests.
 
 2. There's always a risk for race condition and then remote code execution if the file upload mechanism uploads files on the server then validates them even if the file stays on the server for only a fraction of a second.
 
 <br>
-### _External Links_
+## _External Links_
 * * *
-* #### [Lab: Web shell upload via race condition](https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-race-condition)
+* ### [Lab: Web shell upload via race condition](https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-race-condition)
 
 <br>
-### _References_
+## _References_
 * * *
 [^1]: Icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)
 [^2]: [Turbo Intruder](https://portswigger.net/bappstore/9abaa233088242e8be252cd4ff534988)

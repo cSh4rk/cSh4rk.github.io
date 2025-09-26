@@ -13,11 +13,11 @@ image_height: "256"
 [^1]
 <br>
 
-### Lab Link
+## Lab Link
 [Lab: Developing a custom gadget chain for PHP deserialization](https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-developing-a-custom-gadget-chain-for-php-deserialization)
 
 <br>
-### Lab Description
+## Lab Description
 * * *
 <br>
 This lab uses a serialization-based session mechanism. By deploying a custom gadget chain, you can exploit its insecure deserialization to achieve remote code execution. To solve the lab, delete the morale.txt file from Carlos's home directory.
@@ -25,13 +25,13 @@ This lab uses a serialization-based session mechanism. By deploying a custom gad
 You can log in to your own account using the following credentials: wiener:peter
 
 <br>
-### Lab Hint
+## Lab Hint
 * * *
 <br>
 You can sometimes read source code by appending a tilde (~) to a filename to retrieve an editor-generated backup file.
 
 <br>
-### Solutions
+## Solutions
 * * *
 <br>
 ### Solution 1: My Solution
@@ -279,12 +279,12 @@ TzoxNDoiQ3VzdG9tVGVtcGxhdGUiOjI6e3M6MzM6IgBDdXN0b21UZW1wbGF0ZQBkZWZhdWx0X2Rlc2Nf
 
 
 <br>
-### _External Links_
+## _External Links_
 * * *
-* #### [Lab: Developing a custom gadget chain for PHP deserialization](https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-developing-a-custom-gadget-chain-for-php-deserialization)
+* ### [Lab: Developing a custom gadget chain for PHP deserialization](https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-developing-a-custom-gadget-chain-for-php-deserialization)
 
 <br>
-### _References_
+## _References_
 * * *
 [^1]: Icon made by [Paul J.](https://www.flaticon.com/authors/paul-j) from [www.flaticon.com](https://www.flaticon.com/)
 [^2]: [Insecure deserialization \| Web Security Academy](https://portswigger.net/web-security/deserialization)

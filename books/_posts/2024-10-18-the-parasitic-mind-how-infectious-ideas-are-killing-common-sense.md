@@ -16,7 +16,7 @@ image_height: "400"
 {% smart_image /books/assets/2024/the_parasitic_mind_book.jpg 262 400 "" eager high %}
 <br>
 
-### Amazon[^1] Description
+## Amazon[^1] Description
 * * *
 
 **"Read this book, strengthen your resolve, and help us all return to reason." —JORDAN PETERSON**
@@ -34,7 +34,7 @@ The danger is grave, but as Dr. Saad shows, politically correct dogma is riddled
 A provocative guide to defending reason and intellectual freedom and a battle cry for the preservation of our fundamental rights, The Parasitic Mind will be the most controversial and talked-about book of the year.
 
 <br>
-##### About the Author
+### About the Author
 Dr. Gad Saad is Professor of Marketing at Concordia University (Montreal, Canada), and former holder of the Concordia University Research Chair in Evolutionary Behavioral Sciences and Darwinian Consumption (2008-2018). He has held Visiting Associate Professorships at Cornell University, Dartmouth College, and the University of California–Irvine. Dr. Saad received the Faculty of Commerce’s Distinguished Teaching Award in June 2000, and was listed as one of the ‘hot’ professors of Concordia University in both the 2001 and 2002 Maclean’s reports on Canadian universities. Saad was appointed Newsmaker of the Week of Concordia University in five consecutive years (2011-2015), and is the co-recipient of the 2015 President’s Media Outreach Award-Research Communicator of the Year (International), which goes to the professor at Concordia University whose research receives the greatest amount of global media coverage.
 
 Professor Saad has pioneered the use of evolutionary psychology in marketing and consumer behavior. His works include The Consuming Instinct: What Juicy Burgers, Ferraris, Pornography, and Gift Giving Reveal About Human Nature (translated into Korean and Turkish); The Evolutionary Bases of Consumption; Evolutionary Psychology in the Business Sciences, along with 75+ scientific papers, many at the intersection of evolutionary psychology and a broad range of disciplines including consumer behavior, marketing, advertising, psychology, medicine, and economics. His Psychology Today blog (Homo Consumericus) and YouTube channel (THE SAAD TRUTH) have garnered 6.4+ million and 20.8+ million total views respectively. He recently started a podcast titled The Saad Truth with Dr. Saad, which is available on all leading podcast platforms.
@@ -44,7 +44,7 @@ In addition to his scientific work, Dr. Saad is a leading public intellectual wh
 He received a B.Sc. (1988) and an M.B.A. (1990) both from McGill University, and his M.S. (1993) and Ph.D. (1994) from Cornell University.
 
 <br>
-### Book Details
+## Book Details
 * * *
 
 Author: Gad Saad
@@ -56,14 +56,14 @@ Publisher: Regnery Publishing (October 5, 2021)
 Paperback: 264 pages
 
 <br>
-### My Comment
+## My Comment
 * * *
 I think this is a necessary read to become more familiar and immune to some dangerous mind viruses that threaten the very fabric of the free world that we have taken for granted. 
 
 Also praised[^5] and recommended[^6] by Elon Musk on X. 
 
 <br>
-### _References_
+## _References_
 * * *
 [^1]: [The Book on Amazon Website](https://www.amazon.com/Parasitic-Mind-Infectious-Killing-Common/dp/1684512298)
 [^2]: [Civil Rights & Liberties Category on Amazon](https://www.amazon.com/gp/bestsellers/books/10550)

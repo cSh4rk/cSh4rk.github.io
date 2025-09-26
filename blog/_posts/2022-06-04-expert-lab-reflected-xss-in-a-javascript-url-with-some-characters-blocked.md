@@ -13,11 +13,11 @@ image_height: "256"
 [^1]
 <br>
 
-### Lab Link
+## Lab Link
 [Lab: Reflected XSS in a JavaScript URL with some characters blocked](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-javascript-url-some-characters-blocked)
 
 <br>
-### Lab Description
+## Lab Description
 * * *
 <br>
 This lab reflects your input in a JavaScript URL, but all is not as it seems. This initially seems like a trivial challenge; however, the application is blocking some characters in an attempt to prevent XSS attacks.
@@ -25,7 +25,7 @@ This lab reflects your input in a JavaScript URL, but all is not as it seems. Th
 To solve the lab, perform a cross-site scripting attack that calls the alert function with the string 1337 contained somewhere in the alert message.
 
 <br>
-### Solutions
+## Solutions
 * * *
 <br>
 ### Solution 1:
@@ -148,13 +148,13 @@ As explained in Solution 1: `/**/` is used to bypass space restriction, also cli
 
 
 <br>
-### _External Links_
+## _External Links_
 * * *
-* #### [Lab: Reflected XSS in a JavaScript URL with some characters blocked](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-javascript-url-some-characters-blocked)
-* #### [Cross-site scripting (XSS) cheat sheet: Restricted characters](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet#restricted-characters)
+* ### [Lab: Reflected XSS in a JavaScript URL with some characters blocked](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-javascript-url-some-characters-blocked)
+* ### [Cross-site scripting (XSS) cheat sheet: Restricted characters](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet#restricted-characters)
 
 <br>
-### _References_
+## _References_
 * * *
 [^1]: Icon made by [Flat Icons](https://www.flaticon.com/authors/flat-icons) from [www.flaticon.com](https://www.flaticon.com/)
 [^2]: [Javascript window object, window+'', what does this code do](https://stackoverflow.com/questions/64416874/javascript-window-object-window-what-does-this-code-do)
