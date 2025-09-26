@@ -391,7 +391,7 @@ These are some tips to improve your website, examples are for Jekyll as my websi
   robocopy "_site" "." /E
 
   4️⃣ Stage and commit only the intended files
-  git status  (optional: to see if there's anything)
+  # git status  (optional: to see if there's any changes)
   git add .
   git commit -m "Update site from _site"
   git push origin gh-pages
