@@ -7,8 +7,8 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 Sep 2025 20:16:22 -0400</pubDate>
-    <lastBuildDate>Mon, 22 Sep 2025 20:16:22 -0400</lastBuildDate>
+    <pubDate>Fri, 26 Sep 2025 01:52:52 -0400</pubDate>
+    <lastBuildDate>Fri, 26 Sep 2025 01:52:52 -0400</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
     <image>
       <url>https://nima.ninja/assets/ninja.png</url>
@@ -17,11 +17,47 @@
     </image>
     
       <item>
+        <title>Quick tips for a better website</title>
+        <description>
+          <![CDATA[
+            
+              <p><img src="https://nima.ninja//blog/assets/2025/website-boost.png" alt="Quick tips for a better website" /></p>
+            
+            These are some tips to improve your website, examples are for Jekyll as my website is based on it but the main tips are technology agnostic. 1) Use Cloudflare Enable all useful page speed and performance options in Cloudflare panel:...
+          ]]>
+        </description>
+        <pubDate>Thu, 25 Sep 2025 00:00:00 -0400</pubDate>
+        <link>https://nima.ninja/blog/2025/quick-straightforward-tips-for-a-better-website</link>
+        <guid isPermaLink="true">https://nima.ninja/blog/2025/quick-straightforward-tips-for-a-better-website</guid>
+        
+          <media:content url="https://nima.ninja//blog/assets/2025/website-boost.png" medium="image" />
+        
+        
+          <category>blog</category>
+        
+        
+          <category>Website</category>
+        
+          <category>Website Performance</category>
+        
+          <category>Website Security</category>
+        
+          <category>Cloudflare</category>
+        
+          <category>Github Pages</category>
+        
+          <category>Jekyll</category>
+        
+          <category>PageSpeed Insights</category>
+        
+      </item>
+    
+      <item>
         <title>Until it&apos;s done, tell none.</title>
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//links/assets/tom.jpg" alt="Until it&#39;s done, tell none." /></p>
+              <p><img src="https://nima.ninja//links/assets/2025/tom.jpg" alt="Until it&#39;s done, tell none." /></p>
             
             My first post after a long time, although it seems like a purely fun post, it’s got a powerful psychological message: Don’t talk about your goals and what you’re doing unless they’re already done. You lose the motivation and mental...
           ]]>
@@ -30,7 +66,7 @@
         <link>https://nima.ninja/links/2025/until-its-done-tell-none</link>
         <guid isPermaLink="true">https://nima.ninja/links/2025/until-its-done-tell-none</guid>
         
-          <media:content url="https://nima.ninja//links/assets/tom.jpg" medium="image" />
+          <media:content url="https://nima.ninja//links/assets/2025/tom.jpg" medium="image" />
         
         
           <category>links</category>
@@ -51,7 +87,7 @@
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//books/assets/the_parasitic_mind_book.jpg" alt="The Parasitic Mind: How Infectious Ideas Are Killing Common Sense" /></p>
+              <p><img src="https://nima.ninja//books/assets/2024/the_parasitic_mind_book.jpg" alt="The Parasitic Mind: How Infectious Ideas Are Killing Common Sense" /></p>
             
             Amazon Description “Read this book, strengthen your resolve, and help us all return to reason.” —JORDAN PETERSON USA TODAY NATIONAL BESTSELLER There’s a war against truth… and if we don’t win it, intellectual freedom will be a casualty. The West’s...
           ]]>
@@ -60,7 +96,7 @@
         <link>https://nima.ninja/books/2024/the-parasitic-mind-how-infectious-ideas-are-killing-common-sense</link>
         <guid isPermaLink="true">https://nima.ninja/books/2024/the-parasitic-mind-how-infectious-ideas-are-killing-common-sense</guid>
         
-          <media:content url="https://nima.ninja//books/assets/the_parasitic_mind_book.jpg" medium="image" />
+          <media:content url="https://nima.ninja//books/assets/2024/the_parasitic_mind_book.jpg" medium="image" />
         
         
           <category>books</category>
@@ -83,7 +119,7 @@
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//books/assets/cant_hurt_me_book.jpg" alt="Can&#39;t Hurt Me: Master Your Mind and Defy the Odds" /></p>
+              <p><img src="https://nima.ninja//books/assets/2024/cant_hurt_me_book.jpg" alt="Can&#39;t Hurt Me: Master Your Mind and Defy the Odds" /></p>
             
             Amazon Description For David Goggins, childhood was a nightmare – poverty, prejudice, and physical abuse colored his days and haunted his nights. But through self-discipline, mental toughness, and hard work, Goggins transformed himself from a depressed, overweight young man with...
           ]]>
@@ -92,7 +128,7 @@
         <link>https://nima.ninja/books/2024/cant-hurt-me-master-your-mind-and-defy-the-odds</link>
         <guid isPermaLink="true">https://nima.ninja/books/2024/cant-hurt-me-master-your-mind-and-defy-the-odds</guid>
         
-          <media:content url="https://nima.ninja//books/assets/cant_hurt_me_book.jpg" medium="image" />
+          <media:content url="https://nima.ninja//books/assets/2024/cant_hurt_me_book.jpg" medium="image" />
         
         
           <category>books</category>
@@ -115,7 +151,7 @@
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//links/assets/websecurity.png" alt="Stanford Web Security Course" /></p>
+              <p><img src="https://nima.ninja//links/assets/2023/websecurity.png" alt="Stanford Web Security Course" /></p>
             
             This course is a gold mine for every web application security enthusiast.
 
@@ -141,7 +177,7 @@ References
         <link>https://nima.ninja/links/2023/stanford-web-security-course</link>
         <guid isPermaLink="true">https://nima.ninja/links/2023/stanford-web-security-course</guid>
         
-          <media:content url="https://nima.ninja//links/assets/websecurity.png" medium="image" />
+          <media:content url="https://nima.ninja//links/assets/2023/websecurity.png" medium="image" />
         
         
           <category>links</category>
@@ -162,7 +198,7 @@ References
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//links/assets/ai.png" alt="ChatGPT for Bug Bounty: Faster Hunting and Reporting" /></p>
+              <p><img src="https://nima.ninja//links/assets/2023/ai.png" alt="ChatGPT for Bug Bounty: Faster Hunting and Reporting" /></p>
             
             Nice sample prompts that will give you some ideas on how to use ChatGPT more effectively for Bug Hunting.
 
@@ -188,7 +224,7 @@ References
         <link>https://nima.ninja/links/2023/chatgpt-for-bug-bounty-faster-hunting-and-reporting</link>
         <guid isPermaLink="true">https://nima.ninja/links/2023/chatgpt-for-bug-bounty-faster-hunting-and-reporting</guid>
         
-          <media:content url="https://nima.ninja//links/assets/ai.png" medium="image" />
+          <media:content url="https://nima.ninja//links/assets/2023/ai.png" medium="image" />
         
         
           <category>links</category>
@@ -209,7 +245,7 @@ References
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//links/assets/hacker.png" alt="Beginner’s Guide To OSCP 2023" /></p>
+              <p><img src="https://nima.ninja//links/assets/2023/hacker.png" alt="Beginner’s Guide To OSCP 2023" /></p>
             
             A valuable guide for beginners on how to get prepared for the OSCP certification exam.
 
@@ -235,7 +271,7 @@ References
         <link>https://nima.ninja/links/2023/beginner-s-guide-to-oscp-2023</link>
         <guid isPermaLink="true">https://nima.ninja/links/2023/beginner-s-guide-to-oscp-2023</guid>
         
-          <media:content url="https://nima.ninja//links/assets/hacker.png" medium="image" />
+          <media:content url="https://nima.ninja//links/assets/2023/hacker.png" medium="image" />
         
         
           <category>links</category>
@@ -262,7 +298,7 @@ References
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//blog/assets/ssti-custom-exploit-twig.png" alt="Expert Lab: Server-side Template Injection with a Custom Exploit" /></p>
+              <p><img src="https://nima.ninja//blog/assets/2023/ssti-custom-exploit-twig.png" alt="Expert Lab: Server-side Template Injection with a Custom Exploit" /></p>
             
             Lab Link Lab: Server-side template injection with a custom exploit Lab Description This lab is vulnerable to server-side template injection. To solve the lab, create a custom exploit to delete the file /.ssh/id_rsa from Carlos’s home directory. You can log...
           ]]>
@@ -271,7 +307,7 @@ References
         <link>https://nima.ninja/blog/2023/expert-lab-server-side-template-injection-with-a-custom-exploit</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2023/expert-lab-server-side-template-injection-with-a-custom-exploit</guid>
         
-          <media:content url="https://nima.ninja//blog/assets/ssti-custom-exploit-twig.png" medium="image" />
+          <media:content url="https://nima.ninja//blog/assets/2023/ssti-custom-exploit-twig.png" medium="image" />
         
         
           <category>blog</category>
@@ -298,7 +334,7 @@ References
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//blog/assets/supply-chain2.png" alt="Expert Lab: Developing a custom gadget chain for PHP deserialization" /></p>
+              <p><img src="https://nima.ninja//blog/assets/2023/supply-chain2.png" alt="Expert Lab: Developing a custom gadget chain for PHP deserialization" /></p>
             
             Lab Link Lab: Developing a custom gadget chain for PHP deserialization Lab Description This lab uses a serialization-based session mechanism. By deploying a custom gadget chain, you can exploit its insecure deserialization to achieve remote code execution. To solve the...
           ]]>
@@ -307,7 +343,7 @@ References
         <link>https://nima.ninja/blog/2023/expert-lab-developing-a-custom-gadget-chain-for-php-deserialization</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2023/expert-lab-developing-a-custom-gadget-chain-for-php-deserialization</guid>
         
-          <media:content url="https://nima.ninja//blog/assets/supply-chain2.png" medium="image" />
+          <media:content url="https://nima.ninja//blog/assets/2023/supply-chain2.png" medium="image" />
         
         
           <category>blog</category>
@@ -334,7 +370,7 @@ References
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//links/assets/supply-chain2.png" alt="Insecure Deserialization - How to trace down a gadget chain - Other examples in Ruby" /></p>
+              <p><img src="https://nima.ninja//links/assets/2022/supply-chain2.png" alt="Insecure Deserialization - How to trace down a gadget chain - Other examples in Ruby" /></p>
             
             These are some Ruby examples equivalents of my previous post(about gadget chains in PHP), that show the process of finding gadget chains in Ruby programming language; also as mentioned in one of these articles, there may still be some undiscovered...
           ]]>
@@ -343,7 +379,7 @@ References
         <link>https://nima.ninja/links/2022/insecure-deserialization-how-to-trace-down-a-gadget-chain-other-examples-in-ruby</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/insecure-deserialization-how-to-trace-down-a-gadget-chain-other-examples-in-ruby</guid>
         
-          <media:content url="https://nima.ninja//links/assets/supply-chain2.png" medium="image" />
+          <media:content url="https://nima.ninja//links/assets/2022/supply-chain2.png" medium="image" />
         
         
           <category>links</category>
@@ -370,7 +406,7 @@ References
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//links/assets/supply-chain.png" alt="Insecure Deserialization - How to trace down a gadget chain" /></p>
+              <p><img src="https://nima.ninja//links/assets/2022/supply-chain.png" alt="Insecure Deserialization - How to trace down a gadget chain" /></p>
             
             This article explains clearly the process of finding a sample gadget chain and then writing a small code to build the payload for insecure deserialization exploitation in cases where there are no existing pre-built gadget chains. External Links Insecure Deserialization...
           ]]>
@@ -379,7 +415,7 @@ References
         <link>https://nima.ninja/links/2022/insecure-deserialization-how-to-trace-down-a-gadget-chain</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/insecure-deserialization-how-to-trace-down-a-gadget-chain</guid>
         
-          <media:content url="https://nima.ninja//links/assets/supply-chain.png" medium="image" />
+          <media:content url="https://nima.ninja//links/assets/2022/supply-chain.png" medium="image" />
         
         
           <category>links</category>
@@ -402,7 +438,7 @@ References
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//links/assets/parentheses.png" alt="Learn Regex step by step, from zero to advanced" /></p>
+              <p><img src="https://nima.ninja//links/assets/2022/parentheses.png" alt="Learn Regex step by step, from zero to advanced" /></p>
             
             Learning Regex is easier than you think. You can use this tool to easily learn, practice, test and share Regex.
 
@@ -428,7 +464,7 @@ References
         <link>https://nima.ninja/links/2022/learn-regex-step-by-step-from-zero-to-advanced</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/learn-regex-step-by-step-from-zero-to-advanced</guid>
         
-          <media:content url="https://nima.ninja//links/assets/parentheses.png" medium="image" />
+          <media:content url="https://nima.ninja//links/assets/2022/parentheses.png" medium="image" />
         
         
           <category>links</category>
@@ -449,7 +485,7 @@ References
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//books/assets/the_god_equation_book.jpg" alt="The God Equation: The Quest for a Theory of Everything" /></p>
+              <p><img src="https://nima.ninja//books/assets/2022/the_god_equation_book.jpg" alt="The God Equation: The Quest for a Theory of Everything" /></p>
             
             Amazon Description #1 NEW YORK TIMES BEST SELLER • The epic story of the greatest quest in all of science—the holy grail of physics that would explain the creation of the universe—from renowned theoretical physicist and author of The Future...
           ]]>
@@ -458,7 +494,7 @@ References
         <link>https://nima.ninja/books/2022/the-god-equation-the-quest-for-a-theory-of-everything</link>
         <guid isPermaLink="true">https://nima.ninja/books/2022/the-god-equation-the-quest-for-a-theory-of-everything</guid>
         
-          <media:content url="https://nima.ninja//books/assets/the_god_equation_book.jpg" medium="image" />
+          <media:content url="https://nima.ninja//books/assets/2022/the_god_equation_book.jpg" medium="image" />
         
         
           <category>books</category>
@@ -483,7 +519,7 @@ References
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//blog/assets/supply-chain.png" alt="Lab: Exploiting PHP deserialization with a pre-built gadget chain" /></p>
+              <p><img src="https://nima.ninja//blog/assets/2022/supply-chain.png" alt="Lab: Exploiting PHP deserialization with a pre-built gadget chain" /></p>
             
             Lab Link Lab: Exploiting PHP deserialization with a pre-built gadget chain Lab Description This lab has a serialization-based session mechanism that uses a signed cookie. It also uses a common PHP framework. Although you don’t have source code access, you...
           ]]>
@@ -492,7 +528,7 @@ References
         <link>https://nima.ninja/blog/2022/exploiting-php-deserialization-with-a-pre-built-gadget-chain</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2022/exploiting-php-deserialization-with-a-pre-built-gadget-chain</guid>
         
-          <media:content url="https://nima.ninja//blog/assets/supply-chain.png" medium="image" />
+          <media:content url="https://nima.ninja//blog/assets/2022/supply-chain.png" medium="image" />
         
         
           <category>blog</category>
@@ -521,7 +557,7 @@ References
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//links/assets/websocket.png" alt="Cross-site WebSocket hijacking (CSWSH)" /></p>
+              <p><img src="https://nima.ninja//links/assets/2022/websocket.png" alt="Cross-site WebSocket hijacking (CSWSH)" /></p>
             
             See the first link below to become familiar with various Cross-site WebSocket hijacking (CSWSH) attacks. If you are not familiar with Websocket vulnerabilities, take a look at the second link for more details. External Links Cross-site WebSocket hijacking (CSWSH) Testing...
           ]]>
@@ -530,7 +566,7 @@ References
         <link>https://nima.ninja/links/2022/cross-site-websocket-hijacking-cswsh</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/cross-site-websocket-hijacking-cswsh</guid>
         
-          <media:content url="https://nima.ninja//links/assets/websocket.png" medium="image" />
+          <media:content url="https://nima.ninja//links/assets/2022/websocket.png" medium="image" />
         
         
           <category>links</category>
@@ -553,7 +589,7 @@ References
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//blog/assets/hacker.png" alt="Expert Lab: Reflected XSS in a JavaScript URL with some characters blocked" /></p>
+              <p><img src="https://nima.ninja//blog/assets/2022/hacker.png" alt="Expert Lab: Reflected XSS in a JavaScript URL with some characters blocked" /></p>
             
             Lab Link Lab: Reflected XSS in a JavaScript URL with some characters blocked Lab Description This lab reflects your input in a JavaScript URL, but all is not as it seems. This initially seems like a trivial challenge; however, the...
           ]]>
@@ -562,7 +598,7 @@ References
         <link>https://nima.ninja/blog/2022/expert-lab-reflected-xss-in-a-javascript-url-with-some-characters-blocked</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2022/expert-lab-reflected-xss-in-a-javascript-url-with-some-characters-blocked</guid>
         
-          <media:content url="https://nima.ninja//blog/assets/hacker.png" medium="image" />
+          <media:content url="https://nima.ninja//blog/assets/2022/hacker.png" medium="image" />
         
         
           <category>blog</category>
@@ -587,7 +623,7 @@ References
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//blog/assets/console.png" alt="Expert Lab: Web Shell Upload via Race Condition" /></p>
+              <p><img src="https://nima.ninja//blog/assets/2022/console.png" alt="Expert Lab: Web Shell Upload via Race Condition" /></p>
             
             Lab Link Lab: Web shell upload via race condition Lab Description This lab contains a vulnerable image upload function. Although it performs robust validation on any files that are uploaded, it is possible to bypass this validation entirely by exploiting...
           ]]>
@@ -596,7 +632,7 @@ References
         <link>https://nima.ninja/blog/2022/expert-lab-web-shell-upload-via-race-condition</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2022/expert-lab-web-shell-upload-via-race-condition</guid>
         
-          <media:content url="https://nima.ninja//blog/assets/console.png" medium="image" />
+          <media:content url="https://nima.ninja//blog/assets/2022/console.png" medium="image" />
         
         
           <category>blog</category>
@@ -623,7 +659,7 @@ References
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//links/assets/beach.png" alt="Hide Malicious Shell in Image File" /></p>
+              <p><img src="https://nima.ninja//links/assets/2022/beach.png" alt="Hide Malicious Shell in Image File" /></p>
             
             There are many ways to bypass flawed validation of file uploads to upload web shells on web applications, this link explains some ways like creating a polyglot image file containing malicious code in its metadata using tools like exiftool, this...
           ]]>
@@ -632,7 +668,7 @@ References
         <link>https://nima.ninja/links/2022/hide-malicious-shell-in-image-file</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/hide-malicious-shell-in-image-file</guid>
         
-          <media:content url="https://nima.ninja//links/assets/beach.png" medium="image" />
+          <media:content url="https://nima.ninja//links/assets/2022/beach.png" medium="image" />
         
         
           <category>links</category>
@@ -657,7 +693,7 @@ References
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//links/assets/duolingo.png" alt="Duolingo: An Effective Way to Learn a New Language" /></p>
+              <p><img src="https://nima.ninja//links/assets/2022/duolingo.png" alt="Duolingo: An Effective Way to Learn a New Language" /></p>
             
             Learning a new language can be hard and time-consuming but with a proper method, it can be fun and smooth. Duolingo is a very fun and effective way to learn a new language. It has many great features. One of...
           ]]>
@@ -666,7 +702,7 @@ References
         <link>https://nima.ninja/links/2022/duolingo-an-effective-way-to-learn-a-new-language</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/duolingo-an-effective-way-to-learn-a-new-language</guid>
         
-          <media:content url="https://nima.ninja//links/assets/duolingo.png" medium="image" />
+          <media:content url="https://nima.ninja//links/assets/2022/duolingo.png" medium="image" />
         
         
           <category>links</category>
@@ -683,7 +719,7 @@ References
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//links/assets/web-icon.png" alt="COEP COOP CORP CORS CORB... that&#39;s a lot of new stuff!" /></p>
+              <p><img src="https://nima.ninja//links/assets/2022/web-icon.png" alt="COEP COOP CORP CORS CORB... that&#39;s a lot of new stuff!" /></p>
             
             Great article about some relatively new HTTP Security Headers.
 
@@ -709,7 +745,7 @@ References
         <link>https://nima.ninja/links/2022/coep-coop-corp-cors-corb-crap-thats-a-lot-of-new-stuff</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/coep-coop-corp-cors-corb-crap-thats-a-lot-of-new-stuff</guid>
         
-          <media:content url="https://nima.ninja//links/assets/web-icon.png" medium="image" />
+          <media:content url="https://nima.ninja//links/assets/2022/web-icon.png" medium="image" />
         
         
           <category>links</category>
@@ -734,7 +770,7 @@ References
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//blog/assets/chart-search-icon.png" alt="Handy Benchmarking Tools for your Website" /></p>
+              <p><img src="https://nima.ninja//blog/assets/2022/chart-search-icon.png" alt="Handy Benchmarking Tools for your Website" /></p>
             
             Here is a list of some handy benchmarking tools for your website: External Links Performance and Speed Testing GTmetrix PageSpeed Insights Structure check Domain Health Report Nu Html Checker W3C Feed Validation Service RSS Validator Security Check General Is your...
           ]]>
@@ -743,7 +779,7 @@ References
         <link>https://nima.ninja/blog/2022/handy-benchmarking-tools-for-your-website</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2022/handy-benchmarking-tools-for-your-website</guid>
         
-          <media:content url="https://nima.ninja//blog/assets/chart-search-icon.png" medium="image" />
+          <media:content url="https://nima.ninja//blog/assets/2022/chart-search-icon.png" medium="image" />
         
         
           <category>blog</category>
@@ -751,11 +787,13 @@ References
         
           <category>Web</category>
         
-          <category>Benchmarking Tools</category>
+          <category>Website</category>
         
-          <category>Web Application Security</category>
+          <category>Web Benchmarking Tools</category>
         
-          <category>Web Application Performance Testing</category>
+          <category>Website Performance</category>
+        
+          <category>Website Security</category>
         
           <category>DNSSEC</category>
         
@@ -772,7 +810,7 @@ References
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//books/assets/dopamine_nation_book.jpg" alt="Dopamine Nation: Finding Balance in the Age of Indulgence" /></p>
+              <p><img src="https://nima.ninja//books/assets/2022/dopamine_nation_book.jpg" alt="Dopamine Nation: Finding Balance in the Age of Indulgence" /></p>
             
             Amazon Description INSTANT NEW YORK TIMES and LOS ANGELES TIMES BESTSELLER “Brilliant… riveting, scary, cogent, and cleverly argued.”—Beth Macy, author of Dopesick As heard on Fresh Air This book is about pleasure. It’s also about pain. Most important, it’s about...
           ]]>
@@ -781,7 +819,7 @@ References
         <link>https://nima.ninja/books/2022/dopamine-nation-finding-balance-in-the-age-of-indulgence</link>
         <guid isPermaLink="true">https://nima.ninja/books/2022/dopamine-nation-finding-balance-in-the-age-of-indulgence</guid>
         
-          <media:content url="https://nima.ninja//books/assets/dopamine_nation_book.jpg" medium="image" />
+          <media:content url="https://nima.ninja//books/assets/2022/dopamine_nation_book.jpg" medium="image" />
         
         
           <category>books</category>
@@ -804,7 +842,7 @@ References
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//links/assets/neurosciencehacks.png" alt="11 Neurosciece Hacks to Wire Your Brain for Success" /></p>
+              <p><img src="https://nima.ninja//links/assets/2022/neurosciencehacks.png" alt="11 Neurosciece Hacks to Wire Your Brain for Success" /></p>
             
             A few simple but very important daily hacks for a sharper brain.
 
@@ -830,7 +868,7 @@ References
         <link>https://nima.ninja/links/2022/11-neuroscience-hacks-to-wire-your-brain-for-success</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/11-neuroscience-hacks-to-wire-your-brain-for-success</guid>
         
-          <media:content url="https://nima.ninja//links/assets/neurosciencehacks.png" medium="image" />
+          <media:content url="https://nima.ninja//links/assets/2022/neurosciencehacks.png" medium="image" />
         
         
           <category>links</category>
@@ -849,7 +887,7 @@ References
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//links/assets/powerfulbrain.png" alt="TED Talk: Your Can Grow New Brain Cells. Here is How" /></p>
+              <p><img src="https://nima.ninja//links/assets/2022/powerfulbrain.png" alt="TED Talk: Your Can Grow New Brain Cells. Here is How" /></p>
             
             Can we, as adults, grow new neurons? Neuroscientist Sandrine Thuret says that we can, and she offers research and practical advice on how we can help our brains better perform neurogenesis, improving mood, increasing memory formation and preventing the decline...
           ]]>
@@ -858,7 +896,7 @@ References
         <link>https://nima.ninja/links/2022/you-can-grow-new-brain-cells-here-is-how</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/you-can-grow-new-brain-cells-here-is-how</guid>
         
-          <media:content url="https://nima.ninja//links/assets/powerfulbrain.png" medium="image" />
+          <media:content url="https://nima.ninja//links/assets/2022/powerfulbrain.png" medium="image" />
         
         
           <category>links</category>
@@ -877,7 +915,7 @@ References
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//books/assets/the_china_study_book.jpg" alt="The China Study: The Most Comprehensive Study of Nutrition Ever Conducted And the Startling Implications for Diet, Weight Loss, And Long-term Health" /></p>
+              <p><img src="https://nima.ninja//books/assets/2022/the_china_study_book.jpg" alt="The China Study: The Most Comprehensive Study of Nutrition Ever Conducted And the Startling Implications for Diet, Weight Loss, And Long-term Health" /></p>
             
             Amazon Description Even today, as trendy diets and a weight-loss frenzy sweep the nation, two-thirds of adults are still obese and children are being diagnosed with Type 2 diabetes, typically an “adult” disease, at an alarming rate. If we’re obsessed...
           ]]>
@@ -886,7 +924,7 @@ References
         <link>https://nima.ninja/books/2022/the-china-study-the-most-comprehensive-study-of-nutrition-ever-conducted</link>
         <guid isPermaLink="true">https://nima.ninja/books/2022/the-china-study-the-most-comprehensive-study-of-nutrition-ever-conducted</guid>
         
-          <media:content url="https://nima.ninja//books/assets/the_china_study_book.jpg" medium="image" />
+          <media:content url="https://nima.ninja//books/assets/2022/the_china_study_book.jpg" medium="image" />
         
         
           <category>books</category>
@@ -907,7 +945,7 @@ References
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//books/assets/bug_bounty_bootcamp_book.jpg" alt="Bug Bounty Bootcamp: The Guide to Finding and Reporting Web Vulnerabilities" /></p>
+              <p><img src="https://nima.ninja//books/assets/2021/bug_bounty_bootcamp_book.jpg" alt="Bug Bounty Bootcamp: The Guide to Finding and Reporting Web Vulnerabilities" /></p>
             
             Amazon Description Bug Bounty Bootcamp teaches you how to hack web applications. You will learn how to perform reconnaissance on a target, how to identify vulnerabilities, and how to exploit them. You’ll also learn how to navigate bug bounty programs...
           ]]>
@@ -916,7 +954,7 @@ References
         <link>https://nima.ninja/books/2021/bug-bounty-bootcamp</link>
         <guid isPermaLink="true">https://nima.ninja/books/2021/bug-bounty-bootcamp</guid>
         
-          <media:content url="https://nima.ninja//books/assets/bug_bounty_bootcamp_book.jpg" medium="image" />
+          <media:content url="https://nima.ninja//books/assets/2021/bug_bounty_bootcamp_book.jpg" medium="image" />
         
         
           <category>books</category>
@@ -949,7 +987,7 @@ References
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//books/assets/penetration_testing_book.jpg" alt="Penetration Testing: A Hands-On Introduction to Hacking" /></p>
+              <p><img src="https://nima.ninja//books/assets/2021/penetration_testing_book.jpg" alt="Penetration Testing: A Hands-On Introduction to Hacking" /></p>
             
             Amazon Description Penetration testers simulate cyber attacks to find security weaknesses in networks, operating systems, and applications. Information security experts worldwide use penetration techniques to evaluate enterprise defenses. In Penetration Testing, security expert, researcher, and trainer Georgia Weidman introduces you...
           ]]>
@@ -958,7 +996,7 @@ References
         <link>https://nima.ninja/books/2021/penetration-testing-a-hands-on-introduction-to-hacking</link>
         <guid isPermaLink="true">https://nima.ninja/books/2021/penetration-testing-a-hands-on-introduction-to-hacking</guid>
         
-          <media:content url="https://nima.ninja//books/assets/penetration_testing_book.jpg" medium="image" />
+          <media:content url="https://nima.ninja//books/assets/2021/penetration_testing_book.jpg" medium="image" />
         
         
           <category>books</category>
@@ -987,7 +1025,7 @@ References
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//books/assets/linux_basics_for_hackers_book.jpg" alt="Linux Basics for Hackers: Getting Started with Networking, Scripting, and Security in Kali" /></p>
+              <p><img src="https://nima.ninja//books/assets/2021/linux_basics_for_hackers_book.jpg" alt="Linux Basics for Hackers: Getting Started with Networking, Scripting, and Security in Kali" /></p>
             
             Amazon Description This practical, tutorial-style book uses the Kali Linux distribution to teach Linux basics with a focus on how hackers would use them. Topics include Linux command line basics, filesystems, networking, BASH basics, package management, logging, and the Linux...
           ]]>
@@ -996,7 +1034,7 @@ References
         <link>https://nima.ninja/books/2021/linux-basics-for-hackers</link>
         <guid isPermaLink="true">https://nima.ninja/books/2021/linux-basics-for-hackers</guid>
         
-          <media:content url="https://nima.ninja//books/assets/linux_basics_for_hackers_book.jpg" medium="image" />
+          <media:content url="https://nima.ninja//books/assets/2021/linux_basics_for_hackers_book.jpg" medium="image" />
         
         
           <category>books</category>
@@ -1021,7 +1059,7 @@ References
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//books/assets/ceh_book.jpg" alt="CEH v11 Certified Ethical Hacker Study Guide" /></p>
+              <p><img src="https://nima.ninja//books/assets/2021/ceh_book.jpg" alt="CEH v11 Certified Ethical Hacker Study Guide" /></p>
             
             Amazon Description As protecting information continues to be a growing concern for today’s businesses, certifications in IT security have become highly desirable, even as the number of certifications has grown. Now you can set yourself apart with the Certified Ethical...
           ]]>
@@ -1030,7 +1068,7 @@ References
         <link>https://nima.ninja/books/2021/certified-ethical-hacker</link>
         <guid isPermaLink="true">https://nima.ninja/books/2021/certified-ethical-hacker</guid>
         
-          <media:content url="https://nima.ninja//books/assets/ceh_book.jpg" medium="image" />
+          <media:content url="https://nima.ninja//books/assets/2021/ceh_book.jpg" medium="image" />
         
         
           <category>books</category>
@@ -1055,7 +1093,7 @@ References
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//books/assets/network+_book.jpg" alt="CompTIA Network+ Study Guide: Exam N10-007" /></p>
+              <p><img src="https://nima.ninja//books/assets/2021/network+_book.jpg" alt="CompTIA Network+ Study Guide: Exam N10-007" /></p>
             
             Amazon Description To complement the CompTIA Network+ Study Guide: Exam N10-007, 4e, and the CompTIA Network+ Deluxe Study Guide: Exam N10-007, 4e, look at CompTIA Network+ Practice Tests: Exam N10-007 (9781119432128). Todd Lammle’s bestselling CompTIA Network+ Study Guide for the...
           ]]>
@@ -1064,7 +1102,7 @@ References
         <link>https://nima.ninja/books/2021/network+</link>
         <guid isPermaLink="true">https://nima.ninja/books/2021/network+</guid>
         
-          <media:content url="https://nima.ninja//books/assets/network+_book.jpg" medium="image" />
+          <media:content url="https://nima.ninja//books/assets/2021/network+_book.jpg" medium="image" />
         
         
           <category>books</category>
@@ -1089,7 +1127,7 @@ References
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//blog/assets/meme1.jpg" alt="Looking for iOS Kernel Bugs" /></p>
+              <p><img src="https://nima.ninja//blog/assets/2021/meme1.jpg" alt="Looking for iOS Kernel Bugs" /></p>
             
             References
 
@@ -1103,7 +1141,7 @@ References
         <link>https://nima.ninja/blog/2021/looking-for-ios-kernel-bugs</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2021/looking-for-ios-kernel-bugs</guid>
         
-          <media:content url="https://nima.ninja//blog/assets/meme1.jpg" medium="image" />
+          <media:content url="https://nima.ninja//blog/assets/2021/meme1.jpg" medium="image" />
         
         
           <category>blog</category>
@@ -1126,7 +1164,7 @@ References
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//blog/assets/obsidian1.png" alt="Obsidian: A second brain, for you, forever" /></p>
+              <p><img src="https://nima.ninja//blog/assets/2021/obsidian1.png" alt="Obsidian: A second brain, for you, forever" /></p>
             
             In rare moments, an application is found which works great and also feels great to work with; Obsidian is one of those rare gems. It is a powerful knowledge base on top of a local folder of plain text Markdown...
           ]]>
@@ -1135,7 +1173,7 @@ References
         <link>https://nima.ninja/blog/2021/obsidian-a-second-brain-for-you-forever</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2021/obsidian-a-second-brain-for-you-forever</guid>
         
-          <media:content url="https://nima.ninja//blog/assets/obsidian1.png" medium="image" />
+          <media:content url="https://nima.ninja//blog/assets/2021/obsidian1.png" medium="image" />
         
         
           <category>blog</category>
@@ -1158,7 +1196,7 @@ References
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//links/assets/techlore.png" alt="Techlore: Digital rights for all" /></p>
+              <p><img src="https://nima.ninja//links/assets/2021/techlore.png" alt="Techlore: Digital rights for all" /></p>
             
             This Youtube channel has great tips for Privacy and Anonymity.
 
@@ -1174,7 +1212,7 @@ External Links
         <link>https://nima.ninja/links/2021/techlore</link>
         <guid isPermaLink="true">https://nima.ninja/links/2021/techlore</guid>
         
-          <media:content url="https://nima.ninja//links/assets/techlore.png" medium="image" />
+          <media:content url="https://nima.ninja//links/assets/2021/techlore.png" medium="image" />
         
         
           <category>links</category>
@@ -1193,7 +1231,7 @@ External Links
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//blog/assets/whonix-logo.png" alt="Whonix: Software That Can Anonymize Everything You Do Online" /></p>
+              <p><img src="https://nima.ninja//blog/assets/2021/whonix-logo.png" alt="Whonix: Software That Can Anonymize Everything You Do Online" /></p>
             
             Whonix Tor Gateway You can anonymize all of your web requests by using Whonix Tor Gateway. You download and use a Whonix VirtualBox VM which is a hardened Linux distro and this VM can act as your Tor gateway for...
           ]]>
@@ -1202,7 +1240,7 @@ External Links
         <link>https://nima.ninja/blog/2021/whonix-tor-gateway</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2021/whonix-tor-gateway</guid>
         
-          <media:content url="https://nima.ninja//blog/assets/whonix-logo.png" medium="image" />
+          <media:content url="https://nima.ninja//blog/assets/2021/whonix-logo.png" medium="image" />
         
         
           <category>blog</category>
@@ -1227,7 +1265,7 @@ External Links
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//blog/assets/discord.png" alt="My Discord Server is Up and Running!" /></p>
+              <p><img src="https://nima.ninja//blog/assets/2021/discord.png" alt="My Discord Server is Up and Running!" /></p>
             
             At last I did it! I had Discord account and even a simple server for some years but never put in the necessary effort to fully set up and customize my server. Finally I’ve put some time this week (maybe...
           ]]>
@@ -1236,7 +1274,7 @@ External Links
         <link>https://nima.ninja/blog/2021/my-discord-server-is-up-and-running</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2021/my-discord-server-is-up-and-running</guid>
         
-          <media:content url="https://nima.ninja//blog/assets/discord.png" medium="image" />
+          <media:content url="https://nima.ninja//blog/assets/2021/discord.png" medium="image" />
         
         
           <category>blog</category>
@@ -1257,7 +1295,7 @@ External Links
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//links/assets/github.png" alt="Up and Running with GitHub Pages" /></p>
+              <p><img src="https://nima.ninja//links/assets/2021/github.png" alt="Up and Running with GitHub Pages" /></p>
             
             If you want to learn how to use Jekyll with Github pages to build your own website or blog, one of cool resources is these Up and Running series from Bill Raymond’s youtube page. He teaches great tips that can...
           ]]>
@@ -1266,7 +1304,7 @@ External Links
         <link>https://nima.ninja/links/2021/up-and-running-with-github-pages</link>
         <guid isPermaLink="true">https://nima.ninja/links/2021/up-and-running-with-github-pages</guid>
         
-          <media:content url="https://nima.ninja//links/assets/github.png" medium="image" />
+          <media:content url="https://nima.ninja//links/assets/2021/github.png" medium="image" />
         
         
           <category>links</category>
@@ -1299,7 +1337,7 @@ External Links
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//links/assets/oscp.png" alt="My OSCP Journey -  A Review" /></p>
+              <p><img src="https://nima.ninja//links/assets/2021/oscp.png" alt="My OSCP Journey -  A Review" /></p>
             
             Great tips on how to pass the OSCP exam.
 
@@ -1315,7 +1353,7 @@ External Links
         <link>https://nima.ninja/links/2021/my-oscp-journey-a-review</link>
         <guid isPermaLink="true">https://nima.ninja/links/2021/my-oscp-journey-a-review</guid>
         
-          <media:content url="https://nima.ninja//links/assets/oscp.png" medium="image" />
+          <media:content url="https://nima.ninja//links/assets/2021/oscp.png" medium="image" />
         
         
           <category>links</category>
@@ -1340,7 +1378,7 @@ External Links
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//books/assets/why_we_sleep_book.jpg" alt="Why We Sleep: Unlocking the Power of Sleep and Dreams" /></p>
+              <p><img src="https://nima.ninja//books/assets/2021/why_we_sleep_book.jpg" alt="Why We Sleep: Unlocking the Power of Sleep and Dreams" /></p>
             
             Amazon Description “Why We Sleep is an important and fascinating book…Walker taught me a lot about this basic activity that every person on Earth needs. I suspect his book will do the same for you.” —Bill Gates A New York...
           ]]>
@@ -1349,7 +1387,7 @@ External Links
         <link>https://nima.ninja/books/2021/why-we-sleep-unlocking-the-power-of-sleep-and-dreams</link>
         <guid isPermaLink="true">https://nima.ninja/books/2021/why-we-sleep-unlocking-the-power-of-sleep-and-dreams</guid>
         
-          <media:content url="https://nima.ninja//books/assets/why_we_sleep_book.jpg" medium="image" />
+          <media:content url="https://nima.ninja//books/assets/2021/why_we_sleep_book.jpg" medium="image" />
         
         
           <category>books</category>
@@ -1368,7 +1406,7 @@ External Links
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//books/assets/virus_of_the_mind_book.jpg" alt="Virus of the Mind: The New Science of the Meme" /></p>
+              <p><img src="https://nima.ninja//books/assets/2021/virus_of_the_mind_book.jpg" alt="Virus of the Mind: The New Science of the Meme" /></p>
             
             Amazon Description “Virus of the Mind is the first popular book devoted to the science of memetics, a controversial new field that transcends psychology, biology, anthropology, and cognitive science. Memetics is the science of memes, the invisible but very real...
           ]]>
@@ -1377,7 +1415,7 @@ External Links
         <link>https://nima.ninja/books/2021/virus-of-the-mind-the-new-science-of-the-meme</link>
         <guid isPermaLink="true">https://nima.ninja/books/2021/virus-of-the-mind-the-new-science-of-the-meme</guid>
         
-          <media:content url="https://nima.ninja//books/assets/virus_of_the_mind_book.jpg" medium="image" />
+          <media:content url="https://nima.ninja//books/assets/2021/virus_of_the_mind_book.jpg" medium="image" />
         
         
           <category>books</category>
@@ -1398,7 +1436,7 @@ External Links
         <description>
           <![CDATA[
             
-              <p><img src="https://nima.ninja//books/assets/the_talent_code_book.jpg" alt="The Talent Code: Greatness Isn&#39;t Born. It&#39;s Grown. Here&#39;s How." /></p>
+              <p><img src="https://nima.ninja//books/assets/2021/the_talent_code_book.jpg" alt="The Talent Code: Greatness Isn&#39;t Born. It&#39;s Grown. Here&#39;s How." /></p>
             
             Amazon Description “What is the secret of talent? How do we unlock it? In this groundbreaking work, journalist and New York Times bestselling author Daniel Coyle provides parents, teachers, coaches, businesspeople—and everyone else—with tools they can use to maximize potential...
           ]]>
@@ -1407,7 +1445,7 @@ External Links
         <link>https://nima.ninja/books/2021/the-talent-code-greatness-isnt-born-its-grown-heres-how</link>
         <guid isPermaLink="true">https://nima.ninja/books/2021/the-talent-code-greatness-isnt-born-its-grown-heres-how</guid>
         
-          <media:content url="https://nima.ninja//books/assets/the_talent_code_book.jpg" medium="image" />
+          <media:content url="https://nima.ninja//books/assets/2021/the_talent_code_book.jpg" medium="image" />
         
         
           <category>books</category>
@@ -1422,36 +1460,6 @@ External Links
           <category>Creativity</category>
         
           <category>Genius</category>
-        
-      </item>
-    
-      <item>
-        <title>The Selfish Gene: 40th Anniversary edition (Oxford Landmark Science)</title>
-        <description>
-          <![CDATA[
-            
-              <p><img src="https://nima.ninja//books/assets/the_selfish_gene_book.jpg" alt="The Selfish Gene: 40th Anniversary edition (Oxford Landmark Science)" /></p>
-            
-            Amazon Description “The million copy international bestseller, critically acclaimed and translated into over 25 languages. As influential today as when it was first published, The Selfish Gene has become a classic exposition of evolutionary thought. Professor Dawkins articulates a gene’s...
-          ]]>
-        </description>
-        <pubDate>Thu, 07 Oct 2021 00:00:00 -0400</pubDate>
-        <link>https://nima.ninja/books/2021/the-selfish-gene</link>
-        <guid isPermaLink="true">https://nima.ninja/books/2021/the-selfish-gene</guid>
-        
-          <media:content url="https://nima.ninja//books/assets/the_selfish_gene_book.jpg" medium="image" />
-        
-        
-          <category>books</category>
-        
-        
-          <category>Evolution</category>
-        
-          <category>Richard Dawkins</category>
-        
-          <category>Top Science Book</category>
-        
-          <category>Top Book</category>
         
       </item>
     

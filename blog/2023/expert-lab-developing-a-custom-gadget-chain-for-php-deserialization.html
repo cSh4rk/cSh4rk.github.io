@@ -24,16 +24,16 @@
 <link rel="canonical" href="https://nima.ninja/blog/2023/expert-lab-developing-a-custom-gadget-chain-for-php-deserialization" />
 <meta property="og:url" content="https://nima.ninja/blog/2023/expert-lab-developing-a-custom-gadget-chain-for-php-deserialization" />
 <meta property="og:site_name" content="Diaries of a Modern Ninja" />
-<meta property="og:image" content="https://nima.ninja/blog/assets/supply-chain2.png" />
+<meta property="og:image" content="https://nima.ninja/blog/assets/2023/supply-chain2.png" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2023-01-18T00:00:00-04:00" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="https://nima.ninja/blog/assets/supply-chain2.png" />
+<meta property="twitter:image" content="https://nima.ninja/blog/assets/2023/supply-chain2.png" />
 <meta property="twitter:title" content="Expert Lab: Developing a custom gadget chain for PHP deserialization" />
 <meta name="twitter:site" content="@cSh4rk" />
 <meta name="twitter:creator" content="@cSh4rk" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Nima"},"dateModified":"2023-01-18T00:00:00-04:00","datePublished":"2023-01-18T00:00:00-04:00","description":"Lab Description: This lab uses a serialization-based session mechanism. By deploying a custom gadget chain, you can exploit its insecure deserialization to achieve remote code execution.","headline":"Expert Lab: Developing a custom gadget chain for PHP deserialization","image":"https://nima.ninja/blog/assets/supply-chain2.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://nima.ninja/blog/2023/expert-lab-developing-a-custom-gadget-chain-for-php-deserialization"},"url":"https://nima.ninja/blog/2023/expert-lab-developing-a-custom-gadget-chain-for-php-deserialization"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Nima"},"dateModified":"2023-01-18T00:00:00-04:00","datePublished":"2023-01-18T00:00:00-04:00","description":"Lab Description: This lab uses a serialization-based session mechanism. By deploying a custom gadget chain, you can exploit its insecure deserialization to achieve remote code execution.","headline":"Expert Lab: Developing a custom gadget chain for PHP deserialization","image":"https://nima.ninja/blog/assets/2023/supply-chain2.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://nima.ninja/blog/2023/expert-lab-developing-a-custom-gadget-chain-for-php-deserialization"},"url":"https://nima.ninja/blog/2023/expert-lab-developing-a-custom-gadget-chain-for-php-deserialization"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -66,7 +66,7 @@
       <div class="container">
         <section id="main_content">
           <article>
-  <h2>Expert Lab: Developing a custom gadget chain for PHP deserialization</h2>
+  <h1>Expert Lab: Developing a custom gadget chain for PHP deserialization</h1>
   <div class="postitem">
     
       <a href="/blog/" class="no-decoration"><code class="language-plaintext highlighter-rouge-tag">blog</code></a>
@@ -91,12 +91,8 @@
   <time datetime="2023-01-18T00:00:00-04:00" class="by-line"><strong>Published: </strong>18 Jan 2023</time>
   
   <p><br /></p>
-<picture>
-  <source srcset="/blog/assets/supply-chain2.avif" type="image/avif" />
-<source srcset="/blog/assets/supply-chain2.webp" type="image/webp" />
-  <img src="/blog/assets/supply-chain2.png" width="256" height="256" alt="" loading="eager" fetchpriority="high" />
-</picture>
-
+<picture><source srcset="/blog/assets/2023/supply-chain2.avif" type="image/avif" />
+<source srcset="/blog/assets/2023/supply-chain2.webp" type="image/webp" /><img src="/blog/assets/2023/supply-chain2.png" width="256" height="256" alt="" loading="eager" fetchpriority="high" /></picture>
 <p><sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>
 <br /></p>
 
@@ -198,12 +194,8 @@ You can sometimes read source code by appending a tilde (~) to a filename to ret
 <p>So we might have a leak of some part the website code here. Also after we log in, we check the session cookie, and it turns out it is a serialized php object:</p>
 
 <p><br /></p>
-<picture>
-  <source srcset="/blog/assets/custom-gadget-chain-php1.avif" type="image/avif" />
-<source srcset="/blog/assets/custom-gadget-chain-php1.webp" type="image/webp" />
-  <img src="/blog/assets/custom-gadget-chain-php1.png" width="1260" height="823" alt="" loading="lazy" decoding="async" />
-</picture>
-
+<picture><source srcset="/blog/assets/2023/custom-gadget-chain-php1.avif" type="image/avif" />
+<source srcset="/blog/assets/2023/custom-gadget-chain-php1.webp" type="image/webp" /><img src="/blog/assets/2023/custom-gadget-chain-php1.png" width="1260" height="823" alt="" loading="lazy" decoding="async" /></picture>
 <p><br /></p>
 
 <p>So we can check if this website is vulnerable to insecure deserialization<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>.</p>
@@ -323,12 +315,8 @@ rather than a CHAR or TEXT field.
 <p>and paste it here in the session cookie in the Burp suite repeater:</p>
 
 <p><br /></p>
-<picture>
-  <source srcset="/blog/assets/custom-gadget-chain-php2.avif" type="image/avif" />
-<source srcset="/blog/assets/custom-gadget-chain-php2.webp" type="image/webp" />
-  <img src="/blog/assets/custom-gadget-chain-php2.png" width="1263" height="818" alt="" loading="lazy" decoding="async" />
-</picture>
-
+<picture><source srcset="/blog/assets/2023/custom-gadget-chain-php2.avif" type="image/avif" />
+<source srcset="/blog/assets/2023/custom-gadget-chain-php2.webp" type="image/webp" /><img src="/blog/assets/2023/custom-gadget-chain-php2.png" width="1263" height="818" alt="" loading="lazy" decoding="async" /></picture>
 <p><br /></p>
 
 <p>and click apply and send, then boom! the carlos’s morale.txt file is removed from the server and the lab is solved!</p>
@@ -456,12 +444,8 @@ rather than a CHAR or TEXT field.
       
         <!-- local HTB badge -->
         <a title="Hack The Box Profile" href="https://app.hackthebox.com/profile/768488">
-          <picture>
-  <source srcset="/assets/768488.avif" type="image/avif">
-<source srcset="/assets/768488.webp" type="image/webp">
-  <img src="/assets/768488.png" width="220" height="50" alt="Hack The Box Profile" loading="lazy" decoding="async" class="no-responsive">
-</picture>
-
+          <picture><source srcset="/assets/768488.avif" type="image/avif">
+<source srcset="/assets/768488.webp" type="image/webp"><img src="/assets/768488.png" width="220" height="50" alt="Hack The Box Profile" loading="lazy" decoding="async" class="no-responsive"></picture>
         </a>
       
     </li>
@@ -472,12 +456,8 @@ rather than a CHAR or TEXT field.
       
         <!-- local TryHackMe badge -->
         <a title="TryHackMe Profile" href="https://tryhackme.com/p/nima">
-          <picture>
-  <source srcset="/assets/nima.avif" type="image/avif">
-<source srcset="/assets/nima.webp" type="image/webp">
-  <img src="/assets/nima.png" width="329" height="88" alt="TryHackMe Profile" loading="lazy" decoding="async" class="no-responsive">
-</picture>
-
+          <picture><source srcset="/assets/nima.avif" type="image/avif">
+<source srcset="/assets/nima.webp" type="image/webp"><img src="/assets/nima.png" width="329" height="88" alt="TryHackMe Profile" loading="lazy" decoding="async" class="no-responsive"></picture>
         </a>
       
     </li>
