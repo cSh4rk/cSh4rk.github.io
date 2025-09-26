@@ -518,11 +518,11 @@ Untracked files like node_modules are automatically ignored because of .gitignor
 robocopy <span class="s2">"_site"</span> <span class="s2">"."</span> /E
 
 4️⃣ Stage and commit only the intended files
-git status  <span class="o">(</span>optional: to see <span class="k">if </span>there<span class="s1">'s anything)
-git add .
-git commit -m "Update site from _site"
+<span class="c"># git status  (optional: to see if there's any changes)</span>
+git add <span class="nb">.</span>
+git commit <span class="nt">-m</span> <span class="s2">"Update site from _site"</span>
 git push origin gh-pages
-</span></code></pre></div>    </div>
+</code></pre></div>    </div>
 
     <p>The result is built website code committed and pushed to the <code class="language-plaintext highlighter-rouge">gh-pages</code> branch of my website<sup id="fnref:14" role="doc-noteref"><a href="#fn:14" class="footnote" rel="footnote">14</a></sup> on GitHub.</p>
   </li>
