@@ -7,14 +7,46 @@
     <description>Nima&apos;s Diaries</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 26 Sep 2025 03:17:06 -0400</pubDate>
-    <lastBuildDate>Fri, 26 Sep 2025 03:17:06 -0400</lastBuildDate>
+    <pubDate>Fri, 26 Sep 2025 07:09:41 -0400</pubDate>
+    <lastBuildDate>Fri, 26 Sep 2025 07:09:41 -0400</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
     <image>
       <url>https://nima.ninja/assets/ninja.png</url>
       <title>Diaries of a Modern Ninja</title>
       <link>https://nima.ninja</link>
     </image>
+    
+      <item>
+        <title>So Good They Can&apos;t Ignore You: Why Skills Trump Passion in the Quest for Work You Love</title>
+        <description>
+          <![CDATA[
+            
+              <p><img src="https://nima.ninja//books/assets/2025/so_good_they_cant_ignore_you_book.jpg" alt="So Good They Can&#39;t Ignore You: Why Skills Trump Passion in the Quest for Work You Love" /></p>
+            
+            Amazon Description In this eye-opening account, Cal Newport debunks the long-held belief that “follow your passion” is good advice. Not only is the cliché flawed-preexisting passions are rare and have little to do with how most people end up loving...
+          ]]>
+        </description>
+        <pubDate>Fri, 26 Sep 2025 00:00:00 -0400</pubDate>
+        <link>https://nima.ninja/books/2025/so-good-they-cant-ignore-you-why-skills-trump-passion-in-the-quest-for-work-you-love</link>
+        <guid isPermaLink="true">https://nima.ninja/books/2025/so-good-they-cant-ignore-you-why-skills-trump-passion-in-the-quest-for-work-you-love</guid>
+        
+          <media:content url="https://nima.ninja//books/assets/2025/so_good_they_cant_ignore_you_book.jpg" medium="image" />
+        
+        
+          <category>books</category>
+        
+        
+          <category>Personal Transformation</category>
+        
+          <category>Performance Improvement</category>
+        
+          <category>Psychology</category>
+        
+          <category>Personal Success</category>
+        
+          <category>Business Decision-Making</category>
+        
+      </item>
     
       <item>
         <title>Quick tips for a better website</title>
@@ -1428,38 +1460,6 @@ External Links
           <category>Memetics</category>
         
           <category>Mind Viruses</category>
-        
-      </item>
-    
-      <item>
-        <title>The Talent Code: Greatness Isn&apos;t Born. It&apos;s Grown. Here&apos;s How.</title>
-        <description>
-          <![CDATA[
-            
-              <p><img src="https://nima.ninja//books/assets/2021/the_talent_code_book.jpg" alt="The Talent Code: Greatness Isn&#39;t Born. It&#39;s Grown. Here&#39;s How." /></p>
-            
-            Amazon Description “What is the secret of talent? How do we unlock it? In this groundbreaking work, journalist and New York Times bestselling author Daniel Coyle provides parents, teachers, coaches, businesspeople—and everyone else—with tools they can use to maximize potential...
-          ]]>
-        </description>
-        <pubDate>Thu, 07 Oct 2021 00:00:00 -0400</pubDate>
-        <link>https://nima.ninja/books/2021/the-talent-code-greatness-isnt-born-its-grown-heres-how</link>
-        <guid isPermaLink="true">https://nima.ninja/books/2021/the-talent-code-greatness-isnt-born-its-grown-heres-how</guid>
-        
-          <media:content url="https://nima.ninja//books/assets/2021/the_talent_code_book.jpg" medium="image" />
-        
-        
-          <category>books</category>
-        
-        
-          <category>Neuroscience</category>
-        
-          <category>Personal Transformation</category>
-        
-          <category>Psychology</category>
-        
-          <category>Creativity</category>
-        
-          <category>Genius</category>
         
       </item>
     
