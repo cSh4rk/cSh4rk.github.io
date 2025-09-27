@@ -61,8 +61,7 @@ header {
   justify-content: center;  /* center buttons horizontally */
   gap: 0.5em;               /* consistent spacing between buttons */
   text-align: center;
-  margin-top: 15px;
-  margin-bottom: 5px;
+  margin-top: 10px;
 }
 
 .header-link {
@@ -568,8 +567,8 @@ a.footnote:after {
   --glow-spread-color: rgba(136, 136, 136, 0.4);
   --enhanced-glow-color: #aaaaaa;
 
-  border: 0.25em solid var(--glow-color);
-  padding: 0.6em 2.5em;
+  border: 0.15em solid var(--glow-color);
+  padding: 0.4em 2em;
   color: var(--glow-color);
   font-size: 13px;
   font-weight: 500;
@@ -597,8 +596,8 @@ a.footnote:after {
   height: 100%;
   width: 100%;
   background-color: var(--glow-spread-color);
-  filter: blur(0.4em);
-  opacity: 0.3;
+  filter: blur(0.35em);
+  opacity: 0.25;
   transform: perspective(1.5em) rotateX(35deg) scale(1, 0.6);
 }
 
@@ -621,7 +620,7 @@ a.footnote:after {
 /* Mobile-specific button tweaks */
 @media only screen and (max-width: 600px) {
   .button {
-    padding: 0.5em 1.5em;
+    padding: 0.3em 1.5em;
     font-size: 12px;
     margin: 0.3em 0;  /* vertical spacing for stacked buttons */
     box-shadow: 
@@ -640,7 +639,7 @@ a.footnote:after {
 /* Optional: maintain spacing between buttons on medium+ screens */
 @media only screen and (min-width: 601px) {
   .button {
-    margin: 0.1em; /* small gaps for desktop/tablet */
+    margin: 0.2em; /* small gaps for desktop/tablet */
   }
 }
 
