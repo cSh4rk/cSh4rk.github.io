@@ -129,7 +129,7 @@
   <li>
     <p>Enable TLS 1.2 in addition to TLS 1.3:</p>
 
-    <p>I was able to retrieve my website feeds again in Newsflow<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup> and some other RSS feeds clients after enabling TLS 1.2 again, these clients don’t show any errors but still don’t load your feeds if you’ve only enabled TLS 1.3.</p>
+    <p>I was able to retrieve my website feeds again in Newsflow<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup> and some other RSS feeds clients after enabling TLS 1.2 again, these clients don’t show any errors but still don’t load your feeds if you enable only TLS 1.3.</p>
 
     <p>Use this setting in Cloudflare, SSL/TLS -&gt; Edge Certificates:</p>
 
@@ -151,7 +151,7 @@
   <li>
     <p>Use Cloudflare’s Email Address Obfuscation for your email address but use it only on one Contact page:</p>
 
-    <p>Remove email address from website footer and only use it in a Contact page to remove the overhead of Cloudflare JS used for email address obfuscation to only one page.</p>
+    <p>Remove email address from website footer and only use it in a Contact page to limit the overhead of Cloudflare JS used for email address obfuscation to only one page.</p>
 
     <blockquote>
       <p>A more solid solution is to use a local JS for email address obfuscation, the local solution can be more complicated but still suffers from lack of randomization. The Cloudflare email obfuscation solution is good enough, enable it if you haven’t already.</p>
@@ -178,7 +178,7 @@
     <p>Use hardcoded width and height for <code class="language-plaintext highlighter-rouge">img</code> and <code class="language-plaintext highlighter-rouge">video</code> tags.</p>
   </li>
   <li>
-    <p>Use a CSS class to still support responsive after doing no. 1.</p>
+    <p>Use a CSS class to still support responsive after previous tip.</p>
 
     <p>This is the way I handle it in my Jekyll website, in <code class="language-plaintext highlighter-rouge">base.scss</code> file:</p>
 
@@ -237,7 +237,7 @@ ffmpeg <span class="nt">-i</span> test.mp4 <span class="nt">-c</span>:v libaom-a
 
     <p>In the case of <code class="language-plaintext highlighter-rouge">AVIF</code> and <code class="language-plaintext highlighter-rouge">WebP</code> use, 96-97% of viewers are supported, for those with older legacy browsers or devices, fallback to original <code class="language-plaintext highlighter-rouge">PNG</code> or <code class="language-plaintext highlighter-rouge">JPG</code> formats.</p>
 
-    <p>I’ve written a Ruby plugin<sup id="fnref:7" role="doc-noteref"><a href="#fn:7" class="footnote" rel="footnote">7</a></sup> for my website to do just that(it’s open-sourced, you can see my whole website in GitHub<sup id="fnref:8" role="doc-noteref"><a href="#fn:8" class="footnote" rel="footnote">8</a></sup>) and added more arguments for more control.</p>
+    <p>I’ve written a Ruby plugin<sup id="fnref:7" role="doc-noteref"><a href="#fn:7" class="footnote" rel="footnote">7</a></sup> for my website to do just that and added more arguments for more control. It’s open-sourced, you can see my whole website in GitHub<sup id="fnref:8" role="doc-noteref"><a href="#fn:8" class="footnote" rel="footnote">8</a></sup>.</p>
   </li>
 </ul>
 
@@ -325,7 +325,7 @@ ffmpeg <span class="nt">-i</span> test.mp4 <span class="nt">-c</span>:v libaom-a
 <p><br /></p>
 
 <ul>
-  <li>Use explicit <code class="language-plaintext highlighter-rouge">width</code> &amp; <code class="language-plaintext highlighter-rouge">height</code> for images (already did that in no.2 tip).</li>
+  <li>Use explicit <code class="language-plaintext highlighter-rouge">width</code> &amp; <code class="language-plaintext highlighter-rouge">height</code> for images (we already did that for reducing Cumulative Layout Shift in tip number 2).</li>
 </ul>
 
 <p><br />
@@ -371,7 +371,7 @@ ffmpeg <span class="nt">-i</span> test.mp4 <span class="nt">-c</span>:v libaom-a
 
 <ul>
   <li>
-    <p>Use PurgeCSS<sup id="fnref:9" role="doc-noteref"><a href="#fn:9" class="footnote" rel="footnote">9</a></sup> post-build to remove css codes that are not used.</p>
+    <p>Use PurgeCSS<sup id="fnref:9" role="doc-noteref"><a href="#fn:9" class="footnote" rel="footnote">9</a></sup> post-build to remove CSS codes that are not used.</p>
 
     <p>If you build your website locally, create a workflow to run <code class="language-plaintext highlighter-rouge">PurgeCSS</code> after your website build to remove unused parts of your CSS file.</p>
   </li>
@@ -383,7 +383,7 @@ ffmpeg <span class="nt">-i</span> test.mp4 <span class="nt">-c</span>:v libaom-a
   <li>
     <p>Inline critical CSS:</p>
 
-    <p>Use a tool like Critical<sup id="fnref:10" role="doc-noteref"><a href="#fn:10" class="footnote" rel="footnote">10</a></sup> CSS(old, not maintained anymore), Penthouse<sup id="fnref:11" role="doc-noteref"><a href="#fn:11" class="footnote" rel="footnote">11</a></sup>, Critters<sup id="fnref:12" role="doc-noteref"><a href="#fn:12" class="footnote" rel="footnote">12</a></sup> or Crittr<sup id="fnref:13" role="doc-noteref"><a href="#fn:13" class="footnote" rel="footnote">13</a></sup>(recommended for Jekyll websites) to extract critical parts of your CSS that are essential for above the fold content of each of your important HTML pages and inline those parts of CSS for faster page loads.</p>
+    <p>Use a tool like Critical<sup id="fnref:10" role="doc-noteref"><a href="#fn:10" class="footnote" rel="footnote">10</a></sup> CSS(old, not maintained anymore), Penthouse<sup id="fnref:11" role="doc-noteref"><a href="#fn:11" class="footnote" rel="footnote">11</a></sup>, Critters<sup id="fnref:12" role="doc-noteref"><a href="#fn:12" class="footnote" rel="footnote">12</a></sup> or Crittr<sup id="fnref:13" role="doc-noteref"><a href="#fn:13" class="footnote" rel="footnote">13</a></sup>(recommended for Jekyll websites) to extract critical parts of CSS that are used for above the fold content of each of your important HTML pages and inline those parts of CSS for faster page loads.</p>
   </li>
 </ul>
 
@@ -480,11 +480,11 @@ So that you can optimize these pictures and use smaller and more modern image fo
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div>    </div>
 
-    <p><code class="language-plaintext highlighter-rouge">copy-css.js</code> copies the original css file so that I can compare it to the one PostCSS creates to make sure nothing necessary is removed.</p>
+    <p><code class="language-plaintext highlighter-rouge">copy-css.js</code> copies the original CSS file so that I can compare it to the one PostCSS creates to make sure nothing necessary is removed.</p>
 
-    <p>Codes for all of these files exist in my GitHub repo for my website.</p>
+    <p>Codes for all of these files exist in my website GitHub repo.</p>
 
-    <p>For <code class="language-plaintext highlighter-rouge">gh-pages</code> branch to publish website for GitHub Pages:</p>
+    <p>For <code class="language-plaintext highlighter-rouge">gh-pages</code> branch that is used for publishing website to GitHub Pages:</p>
 
     <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1️⃣ Prepare .gitignore <span class="k">in </span>gh-pages
 git checkout gh-pages
@@ -524,7 +524,7 @@ git commit <span class="nt">-m</span> <span class="s2">"Update site from _site"<
 git push origin gh-pages
 </code></pre></div>    </div>
 
-    <p>The result is built website code committed and pushed to the <code class="language-plaintext highlighter-rouge">gh-pages</code> branch of my website<sup id="fnref:14" role="doc-noteref"><a href="#fn:14" class="footnote" rel="footnote">14</a></sup> on GitHub.</p>
+    <p>The result: built website code is committed and pushed to the <code class="language-plaintext highlighter-rouge">gh-pages</code> branch of my website<sup id="fnref:14" role="doc-noteref"><a href="#fn:14" class="footnote" rel="footnote">14</a></sup> on GitHub.</p>
   </li>
 </ul>
 
