@@ -37,7 +37,7 @@ These are some tips to improve your website, examples are for Jekyll as my websi
 
 - Enable TLS 1.2 in addition to TLS 1.3:
 
-  I was able to retrieve my website feeds again in Newsflow[^2] and some other RSS feeds clients after enabling TLS 1.2 again, these clients don't show any errors but still don't load your feeds if you've only enabled TLS 1.3.
+  I was able to retrieve my website feeds again in Newsflow[^2] and some other RSS feeds clients after enabling TLS 1.2 again, these clients don't show any errors but still don't load your feeds if you enable only TLS 1.3.
 
   Use this setting in Cloudflare, SSL/TLS -> Edge Certificates: 
 
@@ -53,7 +53,7 @@ These are some tips to improve your website, examples are for Jekyll as my websi
 
 - Use Cloudflare's Email Address Obfuscation for your email address but use it only on one Contact page:
 
-  Remove email address from website footer and only use it in a Contact page to remove the overhead of Cloudflare JS used for email address obfuscation to only one page.
+  Remove email address from website footer and only use it in a Contact page to limit the overhead of Cloudflare JS used for email address obfuscation to only one page.
 
   > A more solid solution is to use a local JS for email address obfuscation, the local solution can be more complicated but still suffers from lack of randomization. The Cloudflare email obfuscation solution is good enough, enable it if you haven't already.
 
@@ -73,7 +73,7 @@ These are some tips to improve your website, examples are for Jekyll as my websi
 
 - Use hardcoded width and height for `img` and `video` tags.
 
-- Use a CSS class to still support responsive after doing no. 1. 
+- Use a CSS class to still support responsive after previous tip. 
 
   This is the way I handle it in my Jekyll website, in `base.scss` file:
 
@@ -134,7 +134,7 @@ These are some tips to improve your website, examples are for Jekyll as my websi
 
   In the case of `AVIF` and `WebP` use, 96-97% of viewers are supported, for those with older legacy browsers or devices, fallback to original `PNG` or `JPG` formats.
 
-  I've written a Ruby plugin[^7] for my website to do just that(it's open-sourced, you can see my whole website in GitHub[^8]) and added more arguments for more control.
+  I've written a Ruby plugin[^7] for my website to do just that and added more arguments for more control. It's open-sourced, you can see my whole website in GitHub[^8].
 
 <br>
 
@@ -207,7 +207,7 @@ These are some tips to improve your website, examples are for Jekyll as my websi
 
 <br>
 
-- Use explicit `width` & `height` for images (already did that in no.2 tip).
+- Use explicit `width` & `height` for images (we already did that for reducing Cumulative Layout Shift in tip number 2).
 
 <br>
 <br>
@@ -242,7 +242,7 @@ These are some tips to improve your website, examples are for Jekyll as my websi
 
 <br>
 
-- Use PurgeCSS[^9] post-build to remove css codes that are not used.
+- Use PurgeCSS[^9] post-build to remove CSS codes that are not used.
 
   If you build your website locally, create a workflow to run `PurgeCSS` after your website build to remove unused parts of your CSS file.
 
@@ -250,7 +250,7 @@ These are some tips to improve your website, examples are for Jekyll as my websi
 
 - Inline critical CSS:
 
-  Use a tool like Critical[^10] CSS(old, not maintained anymore), Penthouse[^11], Critters[^12] or Crittr[^13](recommended for Jekyll websites) to extract critical parts of your CSS that are essential for above the fold content of each of your important HTML pages and inline those parts of CSS for faster page loads. 
+  Use a tool like Critical[^10] CSS(old, not maintained anymore), Penthouse[^11], Critters[^12] or Crittr[^13](recommended for Jekyll websites) to extract critical parts of CSS that are used for above the fold content of each of your important HTML pages and inline those parts of CSS for faster page loads. 
 
 <br>
 <br>
@@ -351,11 +351,11 @@ These are some tips to improve your website, examples are for Jekyll as my websi
   ```
   {% endraw %}
 
-  `copy-css.js` copies the original css file so that I can compare it to the one PostCSS creates to make sure nothing necessary is removed. 
+  `copy-css.js` copies the original CSS file so that I can compare it to the one PostCSS creates to make sure nothing necessary is removed.
 
-  Codes for all of these files exist in my GitHub repo for my website.
+  Codes for all of these files exist in my website GitHub repo.
 
-  For `gh-pages` branch to publish website for GitHub Pages:
+  For `gh-pages` branch that is used for publishing website to GitHub Pages:
 
   {% raw %}
   ```bash
@@ -398,7 +398,7 @@ These are some tips to improve your website, examples are for Jekyll as my websi
   ```
   {% endraw %}
 
-  The result is built website code committed and pushed to the `gh-pages` branch of my website[^14] on GitHub.
+  The result: built website code is committed and pushed to the `gh-pages` branch of my website[^14] on GitHub.
 
 <br>
 <br>
