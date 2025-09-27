@@ -68,19 +68,31 @@ header {
   display: inline;
 }
 
-header h1 {
+.site-title {
   font-size: 24px;
   line-height: 1.5;
   margin: 0;
   text-align: center;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: $conifer;//$header;
+  color: $conifer;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
   letter-spacing: -1px;
   -webkit-font-smoothing: antialiased;
+}
+
+/* Hide visually but keep for screen readers */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 header h2 {
@@ -263,14 +275,9 @@ a:hover {
   text-shadow: 0 0 8px rgba(144, 215, 255, 0.8); /* stronger glow */
 }
 
-a:hover h1 {
+a:hover h1, a:hover h2 {
   color: #d6ff6b; /* lighter neon green */
   text-shadow: 0 0 8px rgba(181, 232, 83, 0.8); /* glowing green */
-}
-
-a:hover h2 {
-  color: #ffffff; /* gray → white */
-  text-shadow: 0 0 6px rgba(255, 255, 255, 0.6);
 }
 
 a:hover code.highlighter-rouge,
