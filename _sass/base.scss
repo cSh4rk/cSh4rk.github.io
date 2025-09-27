@@ -56,7 +56,13 @@ header {
 }
 
 .header-links {
+  display: flex;
+  flex-wrap: wrap;          /* buttons move to next line if needed */
+  justify-content: center;  /* center buttons horizontally */
+  gap: 0.5em;               /* consistent spacing between buttons */
   text-align: center;
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
 
 .header-link {
@@ -553,3 +559,88 @@ a.footnote:after {
 }
 
 // End of Footnotes
+
+// Buttons ( 09272025 Added )
+
+.button {
+  --btn-color: #151515;                       /* cod-grey */
+  --glow-color: #888888;                      /* gray glow */
+  --glow-spread-color: rgba(136, 136, 136, 0.4);
+  --enhanced-glow-color: #aaaaaa;
+
+  border: 0.25em solid var(--glow-color);
+  padding: 0.6em 2.5em;
+  color: var(--glow-color);
+  font-size: 13px;
+  font-weight: 500;
+  background-color: var(--btn-color);
+  border-radius: 2em;
+  outline: none;
+  text-decoration: none;
+
+  box-shadow: 
+      0 0 0.5em 0.1em var(--glow-color),
+      0 0 1.5em 0.5em var(--glow-spread-color),
+      inset 0 0 0.5em 0.1em var(--glow-color);
+  
+  text-shadow: 0 0 0.25em var(--glow-color);
+  position: relative;
+  transition: all 0.3s;
+}
+
+.button::after {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--glow-spread-color);
+  filter: blur(0.4em);
+  opacity: 0.3;
+  transform: perspective(1.5em) rotateX(35deg) scale(1, 0.6);
+}
+
+.button:hover {
+  color: var(--btn-color);
+  background-color: var(--glow-color);
+  box-shadow: 
+      0 0 0.5em 0.1em var(--glow-color),
+      0 0 2em 1em var(--glow-spread-color),
+      inset 0 0 0.5em 0.1em var(--glow-color);
+}
+
+.button:active {
+  box-shadow: 
+      0 0 0.3em 0.1em var(--glow-color),
+      0 0 1.2em 0.8em var(--glow-spread-color),
+      inset 0 0 0.3em 0.1em var(--glow-color);
+}
+
+/* Mobile-specific button tweaks */
+@media only screen and (max-width: 600px) {
+  .button {
+    padding: 0.5em 1.5em;
+    font-size: 12px;
+    margin: 0.3em 0;  /* vertical spacing for stacked buttons */
+    box-shadow: 
+        0 0 0.3em 0.05em var(--glow-color),
+        0 0 0.8em 0.3em var(--glow-spread-color),
+        inset 0 0 0.3em 0.05em var(--glow-color);
+  }
+
+  .button::after {
+    filter: blur(0.2em);
+    opacity: 0.15;
+    top: 110%;
+  }
+}
+
+/* Optional: maintain spacing between buttons on medium+ screens */
+@media only screen and (min-width: 601px) {
+  .button {
+    margin: 0.1em; /* small gaps for desktop/tablet */
+  }
+}
+
