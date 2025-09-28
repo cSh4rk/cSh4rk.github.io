@@ -576,12 +576,14 @@ a.footnote:after {
       0 0 0.3em 0.08em var(--glow-color),
       0 0 1.1em 0.3em var(--glow-spread-color),
       inset 0 0 0.3em 0.08em var(--glow-color);
-  
+
   text-shadow: 0 0 0.25em var(--glow-color);
   position: relative;
   transition: all 0.3s;
+  z-index: 1; /* keep text above everything */
 }
 
+/* Reflection below */
 .button::after {
   pointer-events: none;
   content: "";
@@ -596,15 +598,18 @@ a.footnote:after {
   transform: perspective(1.5em) rotateX(35deg) scale(1, 0.6);
 }
 
+/* Hover state */
 .button:hover {
   color: var(--btn-color);
   background-color: var(--glow-color);
+  transform: scale(1.05);
   box-shadow: 
       0 0 0.5em 0.1em var(--glow-color),
       0 0 2em 1em var(--glow-spread-color),
       inset 0 0 0.5em 0.1em var(--glow-color);
 }
 
+/* Active state */
 .button:active {
   box-shadow: 
       0 0 0.3em 0.1em var(--glow-color),
@@ -612,12 +617,48 @@ a.footnote:after {
       inset 0 0 0.3em 0.1em var(--glow-color);
 }
 
-/* Mobile-specific button tweaks */
+/* OUTER Pulse Layer */
+.button::before {
+  content: '';
+  position: absolute;
+  top: -12px;
+  left: -12px;
+  right: -12px;
+  bottom: -12px;
+  border-radius: inherit;
+  background: var(--glow-color);
+  opacity: 0.12;
+  z-index: -1;
+  filter: blur(15px);
+  animation: pulseGlow 3.5s ease-in-out infinite;
+}
+
+/* Pulse Animation */
+@keyframes pulseGlow {
+  0% {
+    transform: scale(1);
+    opacity: 0.12;
+  }
+  50% {
+    transform: scale(1.3);
+    opacity: 0.22;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.12;
+  }
+}
+
+.button:hover::before {
+  opacity: 0.2;
+}
+
+/* Mobile tweaks */
 @media only screen and (max-width: 600px) {
   .button {
     padding: 0.3em 1.5em;
     font-size: 12px;
-    margin: 0.3em 0;  /* vertical spacing for stacked buttons */
+    margin: 0.3em 0;
     box-shadow: 
         0 0 0.3em 0.05em var(--glow-color),
         0 0 0.8em 0.3em var(--glow-spread-color),
@@ -634,7 +675,6 @@ a.footnote:after {
 /* Optional: maintain spacing between buttons on medium+ screens */
 @media only screen and (min-width: 601px) {
   .button {
-    margin: 0.2em; /* small gaps for desktop/tablet */
+    margin: 0.2em;
   }
 }
-
