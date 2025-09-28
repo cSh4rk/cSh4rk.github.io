@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "Tags"
 permalink: /tags/
 image: /assets/robot4.png
@@ -11,7 +11,7 @@ hero-poster: /assets/robot4.avif
   <source src="/assets/robot4.webm" type="video/webm">
   <source src="/assets/robot4.mp4" type="video/mp4">
 </video>
-<br>
+
 <br>
 
 <h3 class="no-decoration">Search through all the topics and tags included in website posts:</h3>

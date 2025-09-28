@@ -68,7 +68,7 @@ header {
   display: inline;
 }
 
-.site-header {
+.site-title {
   font-size: 24px;
   line-height: 1.5;
   margin: 0;
@@ -81,6 +81,24 @@ header {
                0 0 10px rgba(181, 232, 83, 0.1);
   letter-spacing: -1px;
   -webkit-font-smoothing: antialiased;
+}
+
+/* Hide visually but keep for screen readers */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.page-title {
+  font-size: 2rem; /* match or slightly smaller than post titles */
+  font-weight: bold;
+  margin: 1em 0 0.5em;
 }
 
 header h2 {

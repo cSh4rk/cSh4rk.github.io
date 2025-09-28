@@ -10,7 +10,7 @@ hero-poster: /links/assets/robot3.avif
   <source src="/links/assets/robot3.webm" type="video/webm">
   <source src="/links/assets/robot3.mp4" type="video/mp4">
 </video>
-<br>
+
 <br>
 
 <h3 class="no-decoration">Here I share web links that I've found interesting:</h3>

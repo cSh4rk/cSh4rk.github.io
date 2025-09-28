@@ -10,7 +10,7 @@ hero-poster: /books/assets/robot2.avif
   <source src="/books/assets/robot2.webm" type="video/webm">
   <source src="/books/assets/robot2.mp4" type="video/mp4">
 </video>
-<br>
+
 <br>
 
 <h3 class="no-decoration">Here are my book recommendations:</h3>
