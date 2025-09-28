@@ -46,28 +46,6 @@ li {
   line-height: 1.4 ;
 }
 
-// Header
-
-header {
-  background: rgba(0, 0, 0, 0.1);
-  border-bottom: 1px dashed $conifer; //header;
-  padding: 20px;
-  margin: 0 0 40px 0;
-}
-
-.header-links {
-  display: flex;
-  flex-wrap: wrap;          /* buttons move to next line if needed */
-  justify-content: center;  /* center buttons horizontally */
-  gap: 0.5em;               /* consistent spacing between buttons */
-  text-align: center;
-  margin-top: 10px;
-}
-
-.header-link {
-  display: inline;
-}
-
 .site-title {
   font-size: 24px;
   line-height: 1.5;
@@ -99,6 +77,40 @@ header {
   font-size: 2rem; /* match or slightly smaller than post titles */
   font-weight: bold;
   margin: 1em 0 0.5em;
+}
+
+.memorial {
+  color: #999;
+  font-size: 1em;
+  font-weight: bold;
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  margin-bottom: 1.5em;
+}
+.memorial-text {
+  color: #999;
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+}
+
+// Header
+
+header {
+  background: rgba(0, 0, 0, 0.1);
+  border-bottom: 1px dashed $conifer; //header;
+  padding: 20px;
+  margin: 0 0 40px 0;
+}
+
+.header-links {
+  display: flex;
+  flex-wrap: wrap;          /* buttons move to next line if needed */
+  justify-content: center;  /* center buttons horizontally */
+  gap: 0.5em;               /* consistent spacing between buttons */
+  text-align: center;
+  margin-top: 10px;
+}
+
+.header-link {
+  display: inline;
 }
 
 header h2 {
