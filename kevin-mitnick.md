@@ -9,11 +9,11 @@ description: "Legends Never Die"
 
 <br>
 
-<p style="color:#999; font-size:1em; font-weight:bold; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); margin-bottom:1.5em;">
+<p style="color:#999 !important; font-weight:bold !important; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5) !important; margin-bottom:1.5em !important;">
 Legends Never Die
 </p>
 
-<p style="color:#999; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);">
+<p style="color:#999 !important; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5) !important;">
 Your passion brought life to Cybersecurity and inspired millions.<br><br>
 You will be remembered forever…
 </p>
