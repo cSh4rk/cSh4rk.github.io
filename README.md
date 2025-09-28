@@ -6,19 +6,21 @@ In this edition of the Hacker Theme:
 
 ✔ Even more features, some of them:
 
-  - More than one post categories, in my website template case: Blog, Books, Links (you can add as many categories as you want)
-  - Post tags (ability to use post tags and show all post tags and tag counts)
-  - Site footer
-  - Post references (footnotes)
-  - Additional social media options: Discord, Github, X, Mastodon and many more
-  - Ability to add TryHackMe and HackTheBox badges to website footer and get the link from these services or serve them locally
-  - Ability to show updated date for posts (in addition to published date)
-  - Smart image format selector plugin: this Ruby plugin is built for easier implementation of pictures on web pages, this plugin uses a fallback mechanism for pictures: it searches for the picture in avif format and uses it, if avif wasn't found, searches for webP and if it wasn't found either, it searches for original picture format(PNG,JPG...) AVIF -> webP -> Original format(PNG,JPG...) with the ability to set some attributes for images (`width` `height` `alt` `loading` `fetchpriority` `first_format` `decoding` `classname`)
-  - Expanded page style codes for more features: hover effects for different hyperlinks, fragment highlight animations, responsive classes and more
-  - Ability to use PurgeCSS post website build to remove unused CSS codes( use `npm install` in project folder )
-  - Favicon is chosen based on the viewer's device
-  - Fixed and completed RSS feed
-  - Added new options for page frontmatter, examples: robots: add robots rules for the page, hero-poster: add hero poster for hero videos on pages to use them with preload for faster load(it sets fetchpriority=high for hero poster)
+  - More than one post categories, in my website template case: Blog, Books, Links (you can add as many categories as you want).
+  - Post tags (ability to use post tags and show all post tags and tag counts).
+  - Site footer.
+  - Post references (footnotes).
+  - Additional social media options: Discord, Github, X, Mastodon and many more.
+  - Ability to add TryHackMe and HackTheBox badges to website footer and get the link from these services or serve them locally.
+  - Ability to show updated date for posts (in addition to published date).
+  - Smart image format selector plugin: this Ruby plugin is built for easier implementation of pictures on web pages, this plugin uses a fallback mechanism for pictures: it searches for the picture in avif format and uses it, if avif wasn't found, searches for webP and if it wasn't found either, it searches for original picture format(PNG,JPG...) AVIF -> webP -> Original format(PNG,JPG...) with the ability to set some attributes for images (`width` `height` `alt` `loading` `fetchpriority` `first_format` `decoding` `classname`).
+  - Expanded page style codes for more features: hover effects for different hyperlinks, fragment highlight animations, responsive classes and more.
+  - Ability to use PurgeCSS post website build to remove unused CSS codes( use `npm install` in project folder ).
+  - Favicon is chosen based on the viewer's device.
+  - Fixed and completed RSS feed.
+  - Added new options for page frontmatter, examples: robots: add robots rules for the page, hero-poster: add hero poster for hero videos on pages to use them with preload for faster load(it sets fetchpriority=high for hero poster).
+  - Modern Cyberpunk neon navigation buttons.
+  - Added security.txt file and a mechanism to automatically update the expire date in the file.
 
 ✔ Multiple bugs in the original theme are fixed. 
 
