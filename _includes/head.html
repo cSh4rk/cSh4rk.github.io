@@ -8,6 +8,9 @@
   {% if page.title %}
     {% if page.url == "/" or page.url contains "/page/" %}
       {{ site.title }} — {{ page.title }}
+      {% if paginator and paginator.page > 1 %}
+        — Page {{ paginator.page }}
+      {% endif %}
     {% else %}
       {{ page.title }} — {{ site.title }}
     {% endif %}
