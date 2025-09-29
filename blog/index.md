@@ -19,7 +19,7 @@ hero-poster: /blog/assets/robot1.avif
 
 <br>
 
-<h3 class="no-decoration">Here I talk about anything, mostly technical topics:</h3>
+<h2 class="section-intro no-decoration">Here I talk about anything, mostly technical topics:</h2>
 
 <br>
 <section>

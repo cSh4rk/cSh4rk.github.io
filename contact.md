@@ -14,7 +14,7 @@ hero-poster: /assets/robot5.avif
 <br>
 <br>
 
-<h3 class="no-decoration">Contact me through one of these channels:</h3>
+<h2 class="section-intro no-decoration">Contact me through one of these channels:</h2>
 <br>
 
 {% if site.social.email %}

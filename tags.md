@@ -14,7 +14,7 @@ hero-poster: /assets/robot4.avif
 
 <br>
 
-<h3 class="no-decoration">Search through all the topics and tags included in website posts:</h3>
+<h2 class="section-intro no-decoration">Search through all the topics and tags included in website posts:</h2>
 
 <br>
 <ul>

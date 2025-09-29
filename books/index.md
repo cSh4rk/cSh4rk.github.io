@@ -13,7 +13,7 @@ hero-poster: /books/assets/robot2.avif
 
 <br>
 
-<h3 class="no-decoration">Here are my book recommendations:</h3>
+<h2 class="section-intro no-decoration">Here are my book recommendations:</h2>
 
 <br>
 <section>

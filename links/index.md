@@ -13,7 +13,7 @@ hero-poster: /links/assets/robot3.avif
 
 <br>
 
-<h3 class="no-decoration">Here I share web links that I've found interesting:</h3>
+<h2 class="section-intro no-decoration">Here I share web links that I've found interesting:</h2>
 
 <br>
 <section>
