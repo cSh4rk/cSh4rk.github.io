@@ -6,7 +6,7 @@ image: /blog/assets/2022/chart-search-icon.png
 description: "These tools help you benchmark your website and find performance and technical issues."
 image_width: "256"
 image_height: "256"
-updated: 2025-09-28
+updated: 2025-09-29
 ---
 <br>
 {% smart_image /blog/assets/2022/chart-search-icon.png 256 256 "" eager high %}
@@ -31,7 +31,14 @@ Here is a list of some handy benchmarking tools for your website:
 * [Nu Html Checker](https://validator.w3.org/nu/)
 * [W3C Feed Validation Service](https://validator.w3.org/feed/)
 * [RSS Validator](https://www.rssboard.org/rss-validator/)
+
+<br>
+### SEO
+***
+* [Google SEO Checker 2.0](https://www.seoreviewtools.com/google-seo-checker/)
+* [Seobility Free SEO Checker](https://www.seobility.net/en/seocheck/)
 * [SEO Checker](https://www.semrush.com/siteaudit/)
+* [SEORCH](https://seorch.net/)
 
 <br>
 ### Security Check
