@@ -1,9 +1,10 @@
 ---
 layout: page
-title: Contact
+title: "Contact Nima — Reach Out for Questions, Feedback or Just to Say Hi"
+h1: "Contact"
 image: /assets/robot5.png
 robots: noindex,nofollow
-description: "Contact me through one of these channels."
+description: "Get in touch with Nima through various channels — ask questions, provide feedback, or just say hi on Diaries of a Modern Ninja."
 hero-poster: /assets/robot5.avif
 ---
 

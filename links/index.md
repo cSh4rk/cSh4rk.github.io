@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Links
+title: "Curated Web Links and Resources on Technology, Cybersecurity, Productivity and Life"
+h1: "Curated Web Links"
 image: /links/assets/robot3.png
-description: "Here I share web links that I've found interesting."
+description: "Explore Nima's curated web links and resources on Technology, Cybersecurity, Productivity, and Life to help you learn and grow."
 hero-poster: /links/assets/robot3.avif
 ---
 
@@ -13,7 +14,7 @@ hero-poster: /links/assets/robot3.avif
 
 <br>
 
-<h2 class="section-intro no-decoration">Here I share web links that I've found interesting:</h2>
+<h2 class="section-intro no-decoration">Here I share web links that I find interesting:</h2>
 
 <br>
 <section>

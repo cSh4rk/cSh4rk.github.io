@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Blog
+title: "Blog — Insights, Tutorials and Practical Notes on Technology, Cybersecurity, Personal Growth, and More"
+h1: "Blog"
 image: /blog/assets/robot1.png
-description: "Here I talk about anything, mostly technical topics."
+description: "Read practical insights, tutorials, and notes on Technology, Cybersecurity, Personal Growth, and More from Diaries of a Modern Ninja."
 hero-poster: /blog/assets/robot1.avif
 ---
 

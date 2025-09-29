@@ -4,7 +4,17 @@
   <meta name="generator" content="Jekyll">
   {% if page.robots %}<meta name="robots" content="{{ page.robots }}">{% endif %}
 
-  <title>{%if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>
+  {% if page.title %}
+    {% if page.url == "/" %}
+      {{ site.title }} — {{ page.title }}
+    {% else %}
+      {{ page.title }} — {{ site.title }}
+    {% endif %}
+  {% else %}
+    {{ site.title }}
+  {% endif %}
+  </title>
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | replace: '//', '/' }}">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">

@@ -1,6 +1,7 @@
 ---
 layout: page
-title: "RIP Kevin Mitnick 🖤" 
+title: "In Memory of Kevin Mitnick — Legendary Hacker and Security Pioneer" 
+h1: "RIP Kevin Mitnick 🖤"
 image: /assets/kevin-mitnick.jpg
 description: "Legends Never Die"
 ---

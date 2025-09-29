@@ -1,9 +1,10 @@
 ---
 layout: page
-title: About
+title: "About Nima — Personal Notes, Thoughts and Experiences"
+h1: "About Me"
 image: /assets/mask1_big.png
 robots: noindex,nofollow
-description: "This page is all about me!"
+description: "Learn about Nima — personal notes, thoughts, experiences, and insights shared on Diaries of a Modern Ninja."
 hero-poster: /assets/mask1.avif
 ---
 
