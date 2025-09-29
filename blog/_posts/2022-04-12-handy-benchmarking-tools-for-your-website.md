@@ -21,8 +21,10 @@ Here is a list of some handy benchmarking tools for your website:
 <br>
 ### Performance and Speed Testing
 * * *
+* [PageSpeed Insights](https://pagespeed.web.dev/)
+* [Website Performance and Optimization Test](https://www.webpagetest.org/)
 * [GTmetrix](https://gtmetrix.com/)
-* [PageSpeed Insights](https://pagespeed.web.dev/?utm_source=psi&utm_medium=redirect)
+* [Website Image Analysis Tool](https://webspeedtest.cloudinary.com/)
 
 <br>
 ### Structure check
