@@ -6,7 +6,7 @@
 
   <title>
   {% if page.title %}
-    {% if page.url == "/" %}
+    {% if page.url == "/" or page.url contains "/page/" %}
       {{ site.title }} — {{ page.title }}
     {% else %}
       {{ page.title }} — {{ site.title }}
