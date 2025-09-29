@@ -1,4 +1,4 @@
-## The Hacker Theme, Shark Edition ☕
+## The Hacker Theme, CyberShark Edition 🦈
 
 This is an updated version of [The Hacker-Blog Theme](https://github.com/tocttou/hacker-blog) which itself is a modified version of [Hacker Theme](https://github.com/pages-themes/hacker), a minimalistic, responsive jekyll theme built for hackers.
 
@@ -20,7 +20,7 @@ In this edition of the Hacker Theme:
   - Fixed and completed RSS feed.
   - Added new options for page frontmatter, examples: robots: add robots rules for the page, hero-poster: add hero poster for hero videos on pages to use them with preload for faster load(it sets fetchpriority=high for hero poster).
   - Modern Cyberpunk neon navigation buttons.
-  - Added security.txt file and a mechanism to automatically update the expire date in the file.
+  - security.txt file and a mechanism to automatically update the expire date in the file.
 
 ✔ Multiple bugs in the original theme are fixed. 
 
