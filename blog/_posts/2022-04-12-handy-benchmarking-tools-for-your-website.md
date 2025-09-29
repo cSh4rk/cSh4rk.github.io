@@ -40,6 +40,7 @@ Here is a list of some handy benchmarking tools for your website:
 * [Google SEO Checker 2.0](https://www.seoreviewtools.com/google-seo-checker/)
 * [Seobility Free SEO Checker](https://www.seobility.net/en/seocheck/)
 * [SEO Checker](https://www.semrush.com/siteaudit/)
+* [SEO Audit & Reporting Tool](https://www.seoptimer.com/)
 * [SEO Site Checkup](https://seositecheckup.com/)
 * [SEORCH](https://seorch.net/)
 
