@@ -13,7 +13,7 @@ In this edition of the Hacker Theme:
   - Additional social media options: Discord, Github, X, Mastodon and many more.
   - Ability to add TryHackMe and HackTheBox badges to website footer and get the link from these services or serve them locally.
   - Ability to show updated date for posts (in addition to published date).
-  - Smart image format selector plugin: this Ruby plugin is built for easier implementation of pictures on web pages, this plugin uses a fallback mechanism for pictures: it searches for the picture in avif format and uses it, if avif wasn't found, searches for webP and if it wasn't found either, it searches for original picture format(PNG,JPG...) AVIF -> webP -> Original format(PNG,JPG...) with the ability to set some attributes for images (`width` `height` `alt` `loading` `fetchpriority` `first_format` `decoding` `classname`).
+  - Smart image format selector Jekyll plugin: this Ruby plugin is built for easier implementation of pictures on web pages, this plugin uses a fallback mechanism for pictures: it searches for the picture in avif format and uses it, if avif wasn't found, searches for webP and if it wasn't found either, it searches for original picture format(PNG,JPG...) AVIF -> webP -> Original format(PNG,JPG...) with the ability to set some attributes for images (`width` `height` `alt` `loading` `fetchpriority` `first_format` `decoding` `classname`).
   - Expanded page style codes for more features: hover effects for different hyperlinks, fragment highlight animations, responsive classes and more.
   - Ability to use PurgeCSS post website build to remove unused CSS codes( use `npm install` in project folder ).
   - Favicon is chosen based on the viewer's device.
@@ -22,6 +22,8 @@ In this edition of the Hacker Theme:
   - Modern Cyberpunk neon navigation buttons.
   - security.txt file and a mechanism to automatically update the expire date in the file.
   - Some structural modifications for better SEO.
+  - Some changes for better accessibility: aria attributes for SVG images used in website footer and posts, and more.
+  - A Jekyll plugin to remove deprecated ARIA roles from Jekyll footnotes.
 
 ✔ Multiple bugs in the original theme are fixed. 
 
