@@ -16,7 +16,7 @@ image: /assets/ninja_big.png
             <code class="posttag"><a href="/tags/#{{ tag | replace: " " , "-" | downcase }}" class="no-decoration">{{ tag | xml_escape }}</a></code>
           {% endfor %}
         </div>
-        <span class="icon">{% include icon-calendar.svg %}</span>
+        <span class="icon">{% include icon-calendar.svg attr='aria-hidden="true" focusable="false"' %}</span>
         <time datetime="{{ post.date | date_to_xmlschema }}"><strong>Published: </strong>{{ post.date | date_to_string }}</time>
         {% if post.updated %}<time datetime="{{ post.updated | date_to_xmlschema }}" class="by-line">&nbsp;&nbsp;<strong>Updated: </strong>{{ post.updated | date_to_string }}</time>{% endif %}
         {% if post.image %}

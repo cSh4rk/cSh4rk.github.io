@@ -1,46 +1,112 @@
 <ul>
   {% if site.social.github %}
     <li class="social-media-list">
-      <a title="GitHub Profile" href="https://github.com/{{ site.social.github }}"><span class="icon">{% include icon-github.svg %}</span><span>{{ site.social.githubname }}</span></a>
+      <a 
+        href="https://github.com/{{ site.social.github }}" 
+        title="GitHub Profile" 
+        aria-label="GitHub profile for {{ site.social.githubname }}"
+      >
+        <span class="icon">
+          {% include icon-github.svg attr='aria-hidden="true" focusable="false"' %}
+        </span>
+        <span>{{ site.social.githubname }}</span>
+      </a>
     </li>
   {% endif %}
 
   {% if site.social.x %}
     <li class="social-media-list">
-      <a title="X Profile" href="https://x.com/{{ site.social.x }}"><span class="icon">{% include icon-twitterx.svg %}</span><span>{{ site.social.xname }}</span></a>
+      <a 
+        href="https://x.com/{{ site.social.x }}" 
+        title="X Profile" 
+        aria-label="X profile for {{ site.social.xname }}"
+      >
+        <span class="icon">
+          {% include icon-twitterx.svg attr='aria-hidden="true" focusable="false"' %}
+        </span>
+        <span>{{ site.social.xname }}</span>
+      </a>
     </li>
   {% endif %}
 
   {% if site.social.mastodon %}
     <li class="social-media-list">
-      <a rel="me" title="Mastodon Profile" href="{{ site.social.mastodon }}"><span class="icon">{% include icon-mastodon.svg %}</span><span>{{ site.social.mastodonname }}</span></a>
+      <a 
+        href="{{ site.social.mastodon }}" 
+        rel="me" 
+        title="Mastodon Profile" 
+        aria-label="Mastodon profile for {{ site.social.mastodonname }}"
+      >
+        <span class="icon">
+          {% include icon-mastodon.svg attr='aria-hidden="true" focusable="false"' %}
+        </span>
+        <span>{{ site.social.mastodonname }}</span>
+      </a>
     </li>
   {% endif %}
 
   {% if site.social.linkedin %}
     <li class="social-media-list">
-      <a title="LinkedIn Profile" href="https://linkedin.com/in/{{ site.social.linkedin }}"><span class="icon">{% include icon-linkedin.svg %}</span><span>{{ site.social.linkedin }}</span></a>
+      <a 
+        href="https://linkedin.com/in/{{ site.social.linkedin }}" 
+        title="LinkedIn Profile" 
+        aria-label="LinkedIn profile for {{ site.social.linkedin }}"
+      >
+        <span class="icon">
+          {% include icon-linkedin.svg attr='aria-hidden="true" focusable="false"' %}
+        </span>
+        <span>{{ site.social.linkedin }}</span>
+      </a>
     </li>
   {% endif %}
 
-
   {% if site.social.discordserver %}
     <li class="social-media-list">
-      <a title="Discord Server" href="https://discord.gg/{{ site.social.discordserver }}"><span class="icon">{% include icon-discord.svg %}</span><span>{{ site.social.discordservername }}</span></a>
+      <a 
+        href="https://discord.gg/{{ site.social.discordserver }}" 
+        title="Discord Server" 
+        aria-label="Discord server: {{ site.social.discordservername }}"
+      >
+        <span class="icon">
+          {% include icon-discord.svg attr='aria-hidden="true" focusable="false"' %}
+        </span>
+        <span>{{ site.social.discordservername }}</span>
+      </a>
     </li>
   {% elsif site.social.discorduser %}
     <li class="social-media-list">
-      <span class="icon">{% include icon-discord.svg %}</span><span>{{ site.social.discorduser }}</span>
+      <span class="icon">
+        {% include icon-discord.svg attr='aria-hidden="true" focusable="false"' %}
+      </span>
+      <span>{{ site.social.discorduser }}</span>
     </li>
   {% endif %}
 
   {% if site.social.pgpkey %}
     <li class="social-media-list">
-      <a title="PGP Key" href="/assets/{{ site.social.pgpkey }}.txt"><span class="icon">{% include icon-pgp.svg %}</span><span>pgp key</span></a>
+      <a 
+        href="/assets/{{ site.social.pgpkey }}.txt" 
+        title="PGP Key" 
+        aria-label="PGP key download"
+      >
+        <span class="icon">
+          {% include icon-pgp.svg attr='aria-hidden="true" focusable="false"' %}
+        </span>
+        <span>PGP Key</span>
+      </a>
     </li>
   {% endif %}
 
   <li class="social-media-list">
-    <a title="RSS Feed" href="{{ "/feed.xml" | prepend: site.baseurl | replace: '//', '/' }}"><span class="icon-nofill">{% include icon-rss.svg %}</span><span>rss</span></a>
+    <a 
+      href="{{ "/feed.xml" | prepend: site.baseurl | replace: '//', '/' }}" 
+      title="RSS Feed" 
+      aria-label="RSS feed"
+    >
+      <span class="icon-nofill">
+        {% include icon-rss.svg attr='aria-hidden="true" focusable="false"' %}
+      </span>
+      <span>RSS</span>
+    </a>
   </li>
 </ul>
