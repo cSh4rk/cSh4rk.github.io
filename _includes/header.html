@@ -2,16 +2,16 @@
   <div>
     <a href="{{ "/" | prepend: site.baseurl | replace: '//', '/' }}">
       {% assign owner_first_name = site.owner | split: " " %}
-      {% if page.url == "/" %}
+      {% if page.url == "/" or page.url contains "/page/" %}
         <h1 class="site-title">
           <span class="sr-only">{{ site.title }}</span>
           <!--email_off-->{{ owner_first_name[0] | downcase }}@home:~$<!--/email_off-->
         </h1>
       {% else %}
-        <h2 class="site-title">
+        <div class="site-title">
           <span class="sr-only">{{ site.title }}</span>
           <!--email_off-->{{ owner_first_name[0] | downcase }}@home:~$<!--/email_off-->
-        </h2>
+        </div>
       {% endif %}
     </a>
     <div class="header-links">
