@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Book Recommendations on Technology, Cybersecurity, Science, Personal Growth and More"
+title: "Cybersecurity, Science & Growth Books"
 h1: "Book Recommendations"
 image: /books/assets/robot2.png
-description: "Discover Nima's curated book recommendations on Technology, Cybersecurity, Science, Personal Growth, and other practical topics."
+description: "Discover Nima's Curated Book Recommendations on Technology, Cybersecurity, Science, Personal Growth, and Other Practical Topics for Learning and Growth."
 hero-poster: /books/assets/robot2.avif
 ---
 

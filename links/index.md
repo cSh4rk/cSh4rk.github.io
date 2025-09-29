@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Curated Web Links and Resources on Technology, Cybersecurity, Productivity and Life"
+title: "Curated Tech & Productivity Links"
 h1: "Curated Web Links"
 image: /links/assets/robot3.png
-description: "Explore Nima's curated web links and resources on Technology, Cybersecurity, Productivity, and Life to help you learn and grow."
+description: "Explore Nima's Curated Web Links and Resources on Technology, Cybersecurity, Productivity, and Life to Help You Learn, Grow, and Stay Inspired."
 hero-poster: /links/assets/robot3.avif
 ---
 

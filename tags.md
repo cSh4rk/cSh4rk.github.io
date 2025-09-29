@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "Explore All Topics and Tags Across Diaries of a Modern Ninja"
+title: "Browse All Topics & Post Tags"
 h1: "Topics & Tags"
 permalink: /tags/
 image: /assets/robot4.png
-description: "Browse all post Tags and Topics on Diaries of a Modern Ninja to easily find content on Technology, Cybersecurity, Personal Growth, and More."
+description: "Browse All Post Tags and Topics on the Diaries of a Modern Ninja to Easily Find Content on Technology, Cybersecurity, Personal Growth, and More."
 hero-poster: /assets/robot4.avif
 ---
 
