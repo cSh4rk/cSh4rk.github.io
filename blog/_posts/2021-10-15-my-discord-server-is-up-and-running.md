@@ -6,11 +6,12 @@ image: /blog/assets/2021/discord.png
 description: "I finally created my Discord server, Here are the details."
 image_width: "256"
 image_height: "256"
+image_alt: "Discord logo"
 updated: 2025-09-17
 ---
 
 <br>
-{% smart_image /blog/assets/2021/discord.png 256 256 "" eager high %}
+{% smart_image /blog/assets/2021/discord.png 256 256 "{{ page.image_alt }}" eager high %}
 <br>
 
 At last I did it! I had Discord account and even a simple server for some years but never put in the necessary effort to fully set up and customize my server. Finally I've put some time this week (maybe around 100 hours!! Yeah it's no joke if you want a great server!) to set up and complete my own Discord server[^1].

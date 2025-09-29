@@ -6,10 +6,11 @@ image: /blog/assets/2021/meme1.jpg
 description: "Not really!!! :))"
 image_width: "400"
 image_height: "447"
+image_alt: "A small deluded puppy chased after a big rhino then during the interview afterwards it says: yeah I was on drugs that day"
 ---
 
 <br>
-{% smart_image /blog/assets/2021/meme1.jpg 400 447 "" eager high %}
+{% smart_image /blog/assets/2021/meme1.jpg 400 447 "{{ page.image_alt }}" eager high %}
 [^1]
 <br>
 ## _References_

@@ -7,10 +7,11 @@ description: "When Newton discovered the law of gravity, he unified the rules go
 But perhaps the ultimate challenge is achieving a monumental synthesis of the two remaining theories—relativity and the quantum theory. This would be the crowning achievement of science, a profound merging of all the forces of nature into one beautiful, magnificent equation to unlock the deepest mysteries in science: What happened before the Big Bang? What lies on the other side of a black hole? Are there other universes and dimensions? Is time travel possible? Why are we here?"
 image_width: "260"
 image_height: "400"
+image_alt: "The God Equation book cover"
 ---
 
 <br>
-{% smart_image /books/assets/2022/the_god_equation_book.jpg 260 400 "" eager high %}
+{% smart_image /books/assets/2022/the_god_equation_book.jpg 260 400 "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Amazon[^1] Description

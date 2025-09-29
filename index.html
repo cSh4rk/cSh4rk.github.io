@@ -21,11 +21,11 @@ image: /assets/ninja_big.png
         {% if post.image %}
           {% if forloop.first %}
             <p>
-              {% smart_image "{{ post.image }}" "{{ post.image_width }}" "{{ post.image_height }}" "" eager high %}
+              {% smart_image "{{ post.image }}" "{{ post.image_width }}" "{{ post.image_height }}" "{{ post.image_alt }}" eager high %}
             </p>
           {% else %}
             <p>
-              {% smart_image "{{ post.image }}" "{{ post.image_width }}" "{{ post.image_height }}" "" lazy "" avif async %}
+              {% smart_image "{{ post.image }}" "{{ post.image_width }}" "{{ post.image_height }}" "{{ post.image_alt }}" lazy "" avif async %}
             </p>
           {% endif %}
         {% endif %}

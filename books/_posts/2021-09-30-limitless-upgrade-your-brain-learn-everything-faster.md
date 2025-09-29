@@ -6,10 +6,11 @@ image: /books/assets/2021/limitless_book.jpg
 description: "JIM KWIK, the world's #1 brain coach, has written the owner's manual for mental expansion and brain fitness. Limitless gives people the ability to accomplish more, more productivity, more transformation, more personal success, and business achievement, by changing their Mindset, Motivation, and Methods."
 image_width: "267"
 image_height: "400"
+image_alt: "Limitless book cover"
 ---
 
 <br>
-{% smart_image /books/assets/2021/limitless_book.jpg 267 400 "" eager high %}
+{% smart_image /books/assets/2021/limitless_book.jpg 267 400 "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Amazon[^1] Description

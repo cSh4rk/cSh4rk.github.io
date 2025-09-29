@@ -6,10 +6,11 @@ image: /links/assets/2021/networkchuck.png
 description: "NetworkChuck Youtube Channel: Interesting technical videos."
 image_width: "256"
 image_height: "256"
+image_alt: "NetworkChuck YouTube channel logo"
 ---
 
 <br>
-{% smart_image /links/assets/2021/networkchuck.png 256 256 "" eager high %}
+{% smart_image /links/assets/2021/networkchuck.png 256 256 "{{ page.image_alt }}" eager high %}
 <br>
 
 He produces super cool youtube videos about different aspects of tech, He is so passionate about IT, Computer Networks and Technology, I like this guy!

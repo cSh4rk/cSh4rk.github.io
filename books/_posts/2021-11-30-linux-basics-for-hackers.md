@@ -7,10 +7,11 @@ image: /books/assets/2021/linux_basics_for_hackers_book.jpg
 description: "This practical, tutorial-style book uses the Kali Linux distribution to teach Linux basics with a focus on how hackers would use them. Topics include Linux command line basics, filesystems, networking, BASH basics, package management, logging, and the Linux kernel and drivers."
 image_width: "303"
 image_height: "400"
+image_alt: "Linux Basics for Hackers book cover"
 ---
 
 <br>
-{% smart_image /books/assets/2021/linux_basics_for_hackers_book.jpg 303 400 "" eager high %}
+{% smart_image /books/assets/2021/linux_basics_for_hackers_book.jpg 303 400 "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Amazon[^1] Description

@@ -6,10 +6,11 @@ image: /books/assets/2021/compoundeffect_book.jpg
 description: "Do you want success? More success than you have now? And even more success than you ever imagined possible? That is what this book is about. Achieving it."
 image_width: "289"
 image_height: "400"
+image_alt: "The Compound Effect book cover"
 ---
 
 <br>
-{% smart_image /books/assets/2021/compoundeffect_book.jpg 289 400 "" eager high %}
+{% smart_image /books/assets/2021/compoundeffect_book.jpg 289 400 "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Amazon[^1] Description

@@ -7,10 +7,11 @@ image: /books/assets/2021/bug_bounty_bootcamp_book.jpg
 description: "Bug Bounty Bootcamp teaches you how to hack web applications. You will learn how to perform reconnaissance on a target, how to identify vulnerabilities, and how to exploit them. You'll also learn how to navigate bug bounty programs set up by companies to reward security professionals for finding bugs in their web applications."
 image_width: "300"
 image_height: "400"
+image_alt: "Bug Bounty Bootcamp book cover"
 ---
 
 <br>
-{% smart_image/books/assets/2021/bug_bounty_bootcamp_book.jpg 300 400 "" eager high %}
+{% smart_image/books/assets/2021/bug_bounty_bootcamp_book.jpg 300 400 "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Amazon[^1] Description

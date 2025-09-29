@@ -6,10 +6,11 @@ image: /links/assets/2021/oscp.png
 description: "Great tips on how to pass the OSCP exam."
 image_width: "256"
 image_height: "256"
+image_alt: "OffSec OSCP certification logo"
 ---
 
 <br>
-{% smart_image /links/assets/2021/oscp.png 256 256 "" eager high %}
+{% smart_image /links/assets/2021/oscp.png 256 256 "{{ page.image_alt }}" eager high %}
 <br>
 
 Great tips on how to pass the OSCP exam.

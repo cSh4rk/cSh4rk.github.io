@@ -6,11 +6,12 @@ image: /books/assets/2021/deepwork_book.jpg
 description: "Deep work is the ability to focus without distraction on a cognitively demanding task. It's a skill that allows you to quickly master complicated information and produce better results in less time. Deep Work will make you better at what you do and provide the sense of true fulfillment that comes from craftsmanship. In short, deep work is like a super power in our increasingly competitive twenty-first century economy. And yet, most people have lost the ability to go deep-spending their days instead in a frantic blur of e-mail and social media, not even realizing there's a better way."
 image_width: "265"
 image_height: "400"
+image_alt: "Deep Work book cover"
 updated: 2025-09-26
 ---
 
 <br>
-{% smart_image /books/assets/2021/deepwork_book.jp 265 400 "" eager high %}
+{% smart_image /books/assets/2021/deepwork_book.jp 265 400 "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Amazon[^1] Description

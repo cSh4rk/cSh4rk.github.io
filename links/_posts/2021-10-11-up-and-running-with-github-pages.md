@@ -6,10 +6,11 @@ image: /links/assets/2021/github.png
 description: "If you want to learn how to use Jekyll with Github pages to build your own website or blog, one of cool resources is these Up and Running series from Bill Raymond's youtube page."
 image_width: "256"
 image_height: "256"
+image_alt: "GitHub logo"
 ---
 
 <br>
-{% smart_image /links/assets/2021/github.png 256 256 "" eager high %}
+{% smart_image /links/assets/2021/github.png 256 256 "{{ page.image_alt }}" eager high %}
 <br>
 
 If you want to learn how to use Jekyll with Github pages to build your own website or blog, one of cool resources is these Up and Running series from Bill Raymond's youtube page. He teaches great tips that can really make your design process easier.  

@@ -6,10 +6,11 @@ image: /books/assets/2021/sandworm_book.jpg
 description: "The true story of the most devastating cyberattack in history and the desperate hunt to identify and track the elite Russian agents behind it, from Wired senior writer Andy Greenberg."
 image_width: "260"
 image_height: "400"
+image_alt: "Sandworm book cover"
 ---
 
 <br>
-{% smart_image /books/assets/2021/sandworm_book.jpg 260 400 "" eager high %}
+{% smart_image /books/assets/2021/sandworm_book.jpg 260 400 "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Amazon[^1] Description

@@ -10,10 +10,11 @@ The danger is grave, but as Dr. Saad shows, politically correct dogma is riddled
 A provocative guide to defending reason and intellectual freedom and a battle cry for the preservation of our fundamental rights, The Parasitic Mind will be the most controversial and talked-about book of the year."
 image_width: "262"
 image_height: "400"
+image_alt: "The Parasitic Mind book cover"
 ---
 
 <br>
-{% smart_image /books/assets/2024/the_parasitic_mind_book.jpg 262 400 "" eager high %}
+{% smart_image /books/assets/2024/the_parasitic_mind_book.jpg 262 400 "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Amazon[^1] Description

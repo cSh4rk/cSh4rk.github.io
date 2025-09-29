@@ -114,7 +114,7 @@ class DefaultMap {
 So we might have a leak of some part the website code here. Also after we log in, we check the session cookie, and it turns out it is a serialized php object:
 
 <br>
-{% smart_image /blog/assets/2023/custom-gadget-chain-php1.png 1260 823 "" lazy "" avif async %}
+{% smart_image /blog/assets/2023/custom-gadget-chain-php1.png 1260 823 "A request in Burp Suite repeater showing encoded and highlighted decoded session cookie values in Inspector section" lazy "" avif async %}
 <br>
 
 So we can check if this website is vulnerable to insecure deserialization[^2]. 
@@ -246,7 +246,7 @@ TzoxNDoiQ3VzdG9tVGVtcGxhdGUiOjI6e3M6MzM6IgBDdXN0b21UZW1wbGF0ZQBkZWZhdWx0X2Rlc2Nf
  and paste it here in the session cookie in the Burp suite repeater:
 
 <br>
-{% smart_image /blog/assets/2023/custom-gadget-chain-php2.png 1263 818 "" lazy "" avif async %}
+{% smart_image /blog/assets/2023/custom-gadget-chain-php2.png 1263 818 "A request in Burp Suite repeater with pasted session cookie value and apply changes buttons highlighted in inspector section" lazy "" avif async %}
 <br>
 
  and click apply and send, then boom! the carlos's morale.txt file is removed from the server and the lab is solved!

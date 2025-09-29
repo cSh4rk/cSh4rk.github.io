@@ -6,10 +6,11 @@ image: /books/assets/2021/flow_book.jpg
 description: "Legendary psychologist Mihaly Csikszentmihalyi's famous investigations of \"optimal experience\" have revealed that what makes an experience genuinely satisfying is a state of consciousness called flow. During flow, people typically experience deep enjoyment, creativity, and a total involvement with life. In this new edition of his groundbreaking classic work, Csikszentmihalyi (\"the leading researcher into ‘flow states’\" —Newsweek) demonstrates the ways this positive state can be controlled, not just left to chance."
 image_width: "264"
 image_height: "400"
+image_alt: "Flow book cover"
 ---
 
 <br>
-{% smart_image /books/assets/2021/flow_book.jpg 264 400 "" eager high %}
+{% smart_image /books/assets/2021/flow_book.jpg 264 400 "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Amazon[^1] Description

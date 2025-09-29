@@ -11,10 +11,11 @@ With a title taken from the comedian Steve Martin, who once said his advice for 
 SO GOOD THEY CAN'T IGNORE YOU will change the way we think about our careers, happiness, and the crafting of a remarkable life."
 image_width: "264"
 image_height: "400"
+image_alt: "So Good They Can't Ignore You book cover"
 ---
 
 <br>
-{% smart_image /books/assets/2025/so_good_they_cant_ignore_you_book.jpg 264 400 "" eager high %}
+{% smart_image /books/assets/2025/so_good_they_cant_ignore_you_book.jpg 264 400 "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Amazon[^1] Description

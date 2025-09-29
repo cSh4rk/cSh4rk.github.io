@@ -6,10 +6,11 @@ image: /books/assets/2022/the_china_study_book.jpg
 description: "In The China Study, Dr. T. Colin Campbell details the connection between nutrition and heart disease, diabetes, and cancer. The report also examines the source of nutritional confusion produced by powerful lobbies, government entities, and opportunistic scientists. The New York Times has recognized the study as the \"Grand Prix of epidemiology\" and the \"most comprehensive large study ever undertaken of the relationship between diet and the risk of developing disease.\""
 image_width: "267"
 image_height: "400"
+image_alt: "The China Study book cover"
 ---
 
 <br>
-{% smart_image /books/assets/2022/the_china_study_book.jpg 267 400 "" eager high %}
+{% smart_image /books/assets/2022/the_china_study_book.jpg 267 400 "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Amazon[^1] Description

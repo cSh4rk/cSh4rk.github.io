@@ -7,10 +7,11 @@ image: /books/assets/2021/ceh_book.jpg
 description: "As protecting information continues to be a growing concern for today’s businesses, certifications in IT security have become highly desirable, even as the number of certifications has grown. Now you can set yourself apart with the Certified Ethical Hacker (CEH v11) certification. The CEH v11 Certified Ethical Hacker Study Guide offers a comprehensive overview of the CEH certification requirements using concise and easy-to-follow instructions."
 image_width: "320"
 image_height: "400"
+image_alt: "CEH v11 Certified Ethical Hacker Study Guide book cover"
 ---
 
 <br>
-{% smart_image /books/assets/2021/ceh_book.jpg 320 400 "" eager high %}
+{% smart_image /books/assets/2021/ceh_book.jpg 320 400 "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Amazon[^1] Description
