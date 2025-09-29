@@ -107,7 +107,7 @@
   <source srcset="/blog/assets/2025/website-boost.webp" type="image/webp" />
   <img src="/blog/assets/2025/website-boost.png" width="256" height="256" alt="" loading="eager" fetchpriority="high" />
 </picture>
-<p><sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>
+<p><sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>
 <br /></p>
 
 <p>These are some tips to improve your website, examples are for Jekyll as my website is based on it but the main tips are technology agnostic.</p>
@@ -140,7 +140,7 @@
   <li>
     <p>Enable TLS 1.2 in addition to TLS 1.3:</p>
 
-    <p>I was able to retrieve my website feeds again in Newsflow<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup> and some other RSS feeds clients after enabling TLS 1.2 again, these clients don’t show any errors but still don’t load your feeds if you enable only TLS 1.3.</p>
+    <p>I was able to retrieve my website feeds again in Newsflow<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup> and some other RSS feeds clients after enabling TLS 1.2 again, these clients don’t show any errors but still don’t load your feeds if you enable only TLS 1.3.</p>
 
     <p>Use this setting in Cloudflare, SSL/TLS -&gt; Edge Certificates:</p>
 
@@ -151,7 +151,7 @@
     <p><br /></p>
 
     <blockquote>
-      <p>How I found it was TLS issue? I used RSS Validator<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup> for checking the validity of my website RSS feed after some changes and it returned TLS error, so I got suspicious that it might be due to only TLS 1.3 being enabled and I tested after enabling TLS 1.2 and voila! My RSS feed clients started working again!</p>
+      <p>How I found it was TLS issue? I used RSS Validator<sup id="fnref:3"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup> for checking the validity of my website RSS feed after some changes and it returned TLS error, so I got suspicious that it might be due to only TLS 1.3 being enabled and I tested after enabling TLS 1.2 and voila! My RSS feed clients started working again!</p>
     </blockquote>
   </li>
 </ul>
@@ -218,7 +218,7 @@
   <li>
     <p>Use more modern <code class="language-plaintext highlighter-rouge">AVIF</code>,<code class="language-plaintext highlighter-rouge">WebP</code> image formats instead of <code class="language-plaintext highlighter-rouge">PNG</code> or <code class="language-plaintext highlighter-rouge">JPG</code> and <code class="language-plaintext highlighter-rouge">MP4</code>,<code class="language-plaintext highlighter-rouge">WebM</code> video formats instead of heavy <code class="language-plaintext highlighter-rouge">GIF</code> files to significantly improve load speed and decrease file sizes.</p>
 
-    <p>You can use FFmpeg<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup>, cwebp<sup id="fnref:5" role="doc-noteref"><a href="#fn:5" class="footnote" rel="footnote">5</a></sup> and ImageMagick<sup id="fnref:6" role="doc-noteref"><a href="#fn:6" class="footnote" rel="footnote">6</a></sup> to convert <code class="language-plaintext highlighter-rouge">PNG</code>/<code class="language-plaintext highlighter-rouge">JPG</code> to more modern and web-friendly <code class="language-plaintext highlighter-rouge">AVIF</code>/<code class="language-plaintext highlighter-rouge">WebP</code> formats.</p>
+    <p>You can use FFmpeg<sup id="fnref:4"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup>, cwebp<sup id="fnref:5"><a href="#fn:5" class="footnote" rel="footnote">5</a></sup> and ImageMagick<sup id="fnref:6"><a href="#fn:6" class="footnote" rel="footnote">6</a></sup> to convert <code class="language-plaintext highlighter-rouge">PNG</code>/<code class="language-plaintext highlighter-rouge">JPG</code> to more modern and web-friendly <code class="language-plaintext highlighter-rouge">AVIF</code>/<code class="language-plaintext highlighter-rouge">WebP</code> formats.</p>
 
     <p>You can also use FFmpeg to resize <code class="language-plaintext highlighter-rouge">MP4</code> files or convert them to <code class="language-plaintext highlighter-rouge">WebM</code> format.</p>
 
@@ -248,7 +248,7 @@ ffmpeg <span class="nt">-i</span> test.mp4 <span class="nt">-c</span>:v libaom-a
 
     <p>In the case of <code class="language-plaintext highlighter-rouge">AVIF</code> and <code class="language-plaintext highlighter-rouge">WebP</code> use, 96-97% of viewers are supported, for those with older legacy browsers or devices, fallback to original <code class="language-plaintext highlighter-rouge">PNG</code> or <code class="language-plaintext highlighter-rouge">JPG</code> formats.</p>
 
-    <p>I’ve written a Ruby plugin<sup id="fnref:7" role="doc-noteref"><a href="#fn:7" class="footnote" rel="footnote">7</a></sup> for my website to do just that and added more arguments for more control. It’s open-sourced, you can see my whole website in GitHub<sup id="fnref:8" role="doc-noteref"><a href="#fn:8" class="footnote" rel="footnote">8</a></sup>.</p>
+    <p>I’ve written a Ruby plugin<sup id="fnref:7"><a href="#fn:7" class="footnote" rel="footnote">7</a></sup> for my website to do just that and added more arguments for more control. It’s open-sourced, you can see my whole website in GitHub<sup id="fnref:8"><a href="#fn:8" class="footnote" rel="footnote">8</a></sup>.</p>
   </li>
 </ul>
 
@@ -382,7 +382,7 @@ ffmpeg <span class="nt">-i</span> test.mp4 <span class="nt">-c</span>:v libaom-a
 
 <ul>
   <li>
-    <p>Use PurgeCSS<sup id="fnref:9" role="doc-noteref"><a href="#fn:9" class="footnote" rel="footnote">9</a></sup> post-build to remove CSS codes that are not used.</p>
+    <p>Use PurgeCSS<sup id="fnref:9"><a href="#fn:9" class="footnote" rel="footnote">9</a></sup> post-build to remove CSS codes that are not used.</p>
 
     <p>If you build your website locally, create a workflow to run <code class="language-plaintext highlighter-rouge">PurgeCSS</code> after your website build to remove unused parts of your CSS file.</p>
   </li>
@@ -394,7 +394,7 @@ ffmpeg <span class="nt">-i</span> test.mp4 <span class="nt">-c</span>:v libaom-a
   <li>
     <p>Inline critical CSS:</p>
 
-    <p>Use a tool like Critical<sup id="fnref:10" role="doc-noteref"><a href="#fn:10" class="footnote" rel="footnote">10</a></sup> CSS(old, not maintained anymore), Penthouse<sup id="fnref:11" role="doc-noteref"><a href="#fn:11" class="footnote" rel="footnote">11</a></sup>, Critters<sup id="fnref:12" role="doc-noteref"><a href="#fn:12" class="footnote" rel="footnote">12</a></sup> or Crittr<sup id="fnref:13" role="doc-noteref"><a href="#fn:13" class="footnote" rel="footnote">13</a></sup>(recommended for Jekyll websites) to extract critical parts of CSS that are used for above the fold content of each of your important HTML pages and inline those parts of CSS for faster page loads.</p>
+    <p>Use a tool like Critical<sup id="fnref:10"><a href="#fn:10" class="footnote" rel="footnote">10</a></sup> CSS(old, not maintained anymore), Penthouse<sup id="fnref:11"><a href="#fn:11" class="footnote" rel="footnote">11</a></sup>, Critters<sup id="fnref:12"><a href="#fn:12" class="footnote" rel="footnote">12</a></sup> or Crittr<sup id="fnref:13"><a href="#fn:13" class="footnote" rel="footnote">13</a></sup>(recommended for Jekyll websites) to extract critical parts of CSS that are used for above the fold content of each of your important HTML pages and inline those parts of CSS for faster page loads.</p>
   </li>
 </ul>
 
@@ -535,7 +535,7 @@ git commit <span class="nt">-m</span> <span class="s2">"Update site from _site"<
 git push origin gh-pages
 </code></pre></div>    </div>
 
-    <p>The result: built website code is committed and pushed to the <code class="language-plaintext highlighter-rouge">gh-pages</code> branch of my website<sup id="fnref:14" role="doc-noteref"><a href="#fn:14" class="footnote" rel="footnote">14</a></sup> on GitHub.</p>
+    <p>The result: built website code is committed and pushed to the <code class="language-plaintext highlighter-rouge">gh-pages</code> branch of my website<sup id="fnref:14"><a href="#fn:14" class="footnote" rel="footnote">14</a></sup> on GitHub.</p>
   </li>
 </ul>
 
@@ -544,49 +544,49 @@ git push origin gh-pages
 
 <h2 id="references"><em>References</em></h2>
 <hr />
-<div class="footnotes" role="doc-endnotes">
+<div class="footnotes">
   <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>Icon made by <a href="https://www.flaticon.com/authors/zero-wing">zero_wing</a> from <a href="https://www.flaticon.com/">www.flaticon.com</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    <li id="fn:1">
+      <p>Icon made by <a href="https://www.flaticon.com/authors/zero-wing">zero_wing</a> from <a href="https://www.flaticon.com/">www.flaticon.com</a> <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
     </li>
-    <li id="fn:2" role="doc-endnote">
-      <p><a href="https://apps.microsoft.com/detail/9nblggh58s5r">Newsflow - Free download and install on Windows</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    <li id="fn:2">
+      <p><a href="https://apps.microsoft.com/detail/9nblggh58s5r">Newsflow - Free download and install on Windows</a> <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
     </li>
-    <li id="fn:3" role="doc-endnote">
-      <p><a href="https://www.rssboard.org/rss-validator/">RSS Validator</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    <li id="fn:3">
+      <p><a href="https://www.rssboard.org/rss-validator/">RSS Validator</a> <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
     </li>
-    <li id="fn:4" role="doc-endnote">
-      <p><a href="https://ffmpeg.org/download.html">Download FFmpeg</a> <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    <li id="fn:4">
+      <p><a href="https://ffmpeg.org/download.html">Download FFmpeg</a> <a href="#fnref:4" class="reversefootnote">&#8617;</a></p>
     </li>
-    <li id="fn:5" role="doc-endnote">
-      <p><a href="https://developers.google.com/speed/webp/download">Download cwebp</a> <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    <li id="fn:5">
+      <p><a href="https://developers.google.com/speed/webp/download">Download cwebp</a> <a href="#fnref:5" class="reversefootnote">&#8617;</a></p>
     </li>
-    <li id="fn:6" role="doc-endnote">
-      <p><a href="https://imagemagick.org/script/download.php">Download ImageMAgick</a> <a href="#fnref:6" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    <li id="fn:6">
+      <p><a href="https://imagemagick.org/script/download.php">Download ImageMAgick</a> <a href="#fnref:6" class="reversefootnote">&#8617;</a></p>
     </li>
-    <li id="fn:7" role="doc-endnote">
-      <p><a href="https://github.com/cSh4rk/cSh4rk.github.io/blob/main/_plugins/smart_image.rb">My Ruby plugin for AVIF/WebP image format selection and fallback to PNG/JPG</a> <a href="#fnref:7" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    <li id="fn:7">
+      <p><a href="https://github.com/cSh4rk/cSh4rk.github.io/blob/main/_plugins/smart_image.rb">My Ruby plugin for AVIF/WebP image format selection and fallback to PNG/JPG</a> <a href="#fnref:7" class="reversefootnote">&#8617;</a></p>
     </li>
-    <li id="fn:8" role="doc-endnote">
-      <p><a href="https://github.com/cSh4rk/cSh4rk.github.io">My website on GitHub</a> <a href="#fnref:8" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    <li id="fn:8">
+      <p><a href="https://github.com/cSh4rk/cSh4rk.github.io">My website on GitHub</a> <a href="#fnref:8" class="reversefootnote">&#8617;</a></p>
     </li>
-    <li id="fn:9" role="doc-endnote">
-      <p><a href="https://purgecss.com/">PurgeCSS - Remove unused CSS</a> <a href="#fnref:9" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    <li id="fn:9">
+      <p><a href="https://purgecss.com/">PurgeCSS - Remove unused CSS</a> <a href="#fnref:9" class="reversefootnote">&#8617;</a></p>
     </li>
-    <li id="fn:10" role="doc-endnote">
-      <p><a href="https://github.com/addyosmani/critical">Critical: Extract &amp; Inline Critical-path CSS in HTML pages</a> <a href="#fnref:10" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    <li id="fn:10">
+      <p><a href="https://github.com/addyosmani/critical">Critical: Extract &amp; Inline Critical-path CSS in HTML pages</a> <a href="#fnref:10" class="reversefootnote">&#8617;</a></p>
     </li>
-    <li id="fn:11" role="doc-endnote">
-      <p><a href="https://github.com/pocketjoso/penthouse">Penthouse: Generate critical css for your web pages</a> <a href="#fnref:11" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    <li id="fn:11">
+      <p><a href="https://github.com/pocketjoso/penthouse">Penthouse: Generate critical css for your web pages</a> <a href="#fnref:11" class="reversefootnote">&#8617;</a></p>
     </li>
-    <li id="fn:12" role="doc-endnote">
-      <p><a href="https://github.com/GoogleChromeLabs/critters">Critters: A Webpack plugin to inline your critical CSS and lazy-load the rest.</a> <a href="#fnref:12" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    <li id="fn:12">
+      <p><a href="https://github.com/GoogleChromeLabs/critters">Critters: A Webpack plugin to inline your critical CSS and lazy-load the rest.</a> <a href="#fnref:12" class="reversefootnote">&#8617;</a></p>
     </li>
-    <li id="fn:13" role="doc-endnote">
-      <p><a href="https://github.com/philipp-winterle/crittr">Crittr: High performance critical css extraction with a great configuration abilities</a> <a href="#fnref:13" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    <li id="fn:13">
+      <p><a href="https://github.com/philipp-winterle/crittr">Crittr: High performance critical css extraction with a great configuration abilities</a> <a href="#fnref:13" class="reversefootnote">&#8617;</a></p>
     </li>
-    <li id="fn:14" role="doc-endnote">
-      <p><a href="https://github.com/cSh4rk/cSh4rk.github.io/tree/gh-pages">The gh-pages branch of my website on GitHub</a> <a href="#fnref:14" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    <li id="fn:14">
+      <p><a href="https://github.com/cSh4rk/cSh4rk.github.io/tree/gh-pages">The gh-pages branch of my website on GitHub</a> <a href="#fnref:14" class="reversefootnote">&#8617;</a></p>
     </li>
   </ol>
 </div>
