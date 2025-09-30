@@ -314,6 +314,118 @@ a:active, a:focus {
   -moz-outline-style: none
 }
 
+// Post Titles 
+
+//// Steady Neon Glow
+
+.post-title {
+  text-decoration: none;
+  color: #63c0f5;
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.post-title:hover {
+  color: #7fdcff;
+  text-shadow:
+    0 0 5px #7fdcff,
+    0 0 10px #63f5ff,
+    0 0 20px #63f5ff,
+    0 0 40px #63f5ff;
+  cursor: pointer;
+}
+
+//// Flickering Neon Glow
+
+.post-title-flicker {
+  text-decoration: none;
+  color: #63c0f5; /* base cyan */
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+.post-title-flicker:hover {
+  color: #63f0ff; /* hover color */
+  text-shadow:
+    0 0 2px #63f0ff,
+    0 0 5px #63f5ff,
+    0 0 10px #63f5ff,
+    0 0 20px #63f5ff;
+  cursor: pointer;
+  animation: flicker 1.5s infinite;
+}
+
+
+
+@keyframes flicker {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% { 
+    text-shadow: 
+      0 0 2px currentColor,
+      0 0 5px #63f5ff,
+      0 0 10px #63f5ff,
+      0 0 20px #63f5ff; 
+  }
+  20%, 22%, 24%, 55% { 
+    text-shadow: 
+      0 0 1px #63c0f5,
+      0 0 3px #63c0f5; 
+  }
+}
+
+//// Cyberpunk Neon Glow
+
+.post-title-cyberglow {
+  text-decoration: none;
+  color: #63c0f5;
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.post-title-cyberglow:hover {
+  color: #ff4fd8;
+  text-shadow:
+    0 0 5px #ff4fd8,
+    0 0 10px #ff4fd8,
+    0 0 20px #ff00ff,
+    0 0 40px #ff00ff,
+    0 0 80px #ff00ff;
+  cursor: pointer;
+}
+
+// Flickering Neon Glow – dynamic alive version 
+.post-title-flicker-alive {
+  text-decoration: none;
+  color: #63c0f5; /* base cyan */
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+.post-title-flicker-alive:hover {
+  color: #63f0ff; /* hover color */
+  cursor: pointer;
+  animation: flicker-alive 1.5s infinite;
+}
+
+/* Keyframes with dynamic glow shifting */
+@keyframes flicker-alive {
+  0%, 20%, 40%, 60%, 80%, 100% {
+    text-shadow:
+      0 0 2px #63f0ff,
+      0 0 5px #63f5ff,
+      0 0 10px #63f5ff,
+      0 0 20px #63f5ff;
+  }
+  10%, 30%, 50%, 70%, 90% {
+    text-shadow:
+      0 0 1px #63c0f5,  /* shifts back to base cyan */
+      0 0 3px #63c0f5,
+      0 0 6px #63f0ff,
+      0 0 12px #63f5ff;
+  }
+}
+
+// End of Post Titles
+
 /* Clearfix (10052021 Commented Out)
 
 .cf:before, .cf:after {
@@ -483,10 +595,13 @@ a:active, a:focus {
 
 .no-decoration {
   text-decoration: none;
-  color: #999;
   /*&:hover {
     text-decoration: underline;
   }*/
+}
+
+.neutral-color {
+  color: #999;
 }
 
 .default-color {
@@ -712,3 +827,5 @@ a.footnote:after {
     margin: 0.2em;
   }
 }
+
+// End of Buttons
