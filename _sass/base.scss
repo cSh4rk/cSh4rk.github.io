@@ -337,38 +337,77 @@ a:active, a:focus {
 
 //// Flickering Neon Glow
 
+/* Flickering Neon Glow – Pale Magenta Version */
 .post-title-flicker {
   text-decoration: none;
-  color: #63c0f5; /* base cyan */
+  color: #63c0f5;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
   transition: color 0.2s ease, text-shadow 0.2s ease;
 }
 
 .post-title-flicker:hover {
-  color: #63f0ff; /* hover color */
-  text-shadow:
-    0 0 2px #63f0ff,
-    0 0 5px #63f5ff,
-    0 0 10px #63f5ff,
-    0 0 20px #63f5ff;
   cursor: pointer;
-  animation: flicker 1.5s infinite;
+  animation: flicker-magenta-pale 1.8s infinite;
 }
 
-
-
-@keyframes flicker {
-  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% { 
-    text-shadow: 
-      0 0 2px currentColor,
-      0 0 5px #63f5ff,
-      0 0 10px #63f5ff,
-      0 0 20px #63f5ff; 
+@keyframes flicker-magenta-pale {
+  /* Brightest frames */
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    color: #ff99dd; /* pale neon pink-magenta */
+    text-shadow:
+      0 0 2px #ff99dd,
+      0 0 5px #ff80d4,
+      0 0 10px #ff66cc,
+      0 0 20px #ff66cc,
+      0 0 35px rgba(255, 102, 204, 0.3);
   }
-  20%, 22%, 24%, 55% { 
-    text-shadow: 
-      0 0 1px #63c0f5,
-      0 0 3px #63c0f5; 
+
+  /* Flicker dips */
+  20%, 22%, 24%, 55% {
+    color: #f28fcf; /* softer pastel magenta */
+    text-shadow:
+      0 0 1px #e070ba,
+      0 0 3px #e070ba,
+      0 0 6px #f28fcf,
+      0 0 12px #ff80d4,
+      0 0 18px rgba(255, 128, 212, 0.25);
+  }
+}
+
+/* Flickering Neon Glow – Pale Cyan Version */
+.post-title-flicker-cyan {
+  text-decoration: none;
+  color: #63c0f5;
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+.post-title-flicker-cyan:hover {
+  cursor: pointer;
+  animation: flicker-cyan-pale 1.8s infinite;
+}
+
+@keyframes flicker-cyan-pale {
+  /* Brightest frames */
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    color: #99e6ff; /* pale neon cyan */
+    text-shadow:
+      0 0 2px #99e6ff,
+      0 0 5px #80ddff,
+      0 0 10px #66d4ff,
+      0 0 20px #66d4ff,
+      0 0 35px rgba(102, 212, 255, 0.3);
+  }
+
+  /* Flicker dips */
+  20%, 22%, 24%, 55% {
+    color: #8fdcf2; /* softer pastel cyan */
+    text-shadow:
+      0 0 1px #70c8e0,
+      0 0 3px #70c8e0,
+      0 0 6px #8fdcf2,
+      0 0 12px #80ddff,
+      0 0 18px rgba(128, 221, 255, 0.25);
   }
 }
 
@@ -423,6 +462,9 @@ a:active, a:focus {
       0 0 12px #63f5ff;
   }
 }
+
+////
+
 
 // End of Post Titles
 
