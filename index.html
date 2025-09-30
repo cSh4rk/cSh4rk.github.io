@@ -7,7 +7,7 @@ image: /assets/ninja_big.png
 <ul>
     {% for post in paginator.posts %}
       <li>
-        <h2><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" class="post-title-flicker">{{ post.title }}</a></h2>
+        <h2><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" class="post-title-cyberglow">{{ post.title }}</a></h2>
         <div class="postitem">
           {% for cat in post.categories %}
             <a href="/{{ cat | xml_escape | downcase }}/" class="no-decoration"><code class="language-plaintext highlighter-rouge-tag">{{ cat | xml_escape }}</code></a>
