@@ -316,8 +316,7 @@ a:active, a:focus {
 
 // Post Titles 
 
-//// Steady Neon Glow
-
+/* Steady Neon Glow */
 .post-title {
   text-decoration: none;
   color: #63c0f5;
@@ -335,7 +334,7 @@ a:active, a:focus {
   cursor: pointer;
 }
 
-//// Flickering Neon Glow
+// Flickering Neon Glow Category
 
 /* Flickering Neon Glow – Pale Magenta Version */
 .post-title-flicker {
@@ -411,8 +410,149 @@ a:active, a:focus {
   }
 }
 
-//// Cyberpunk Neon Glow
+/* Flickering Neon Glow – Warm Pink Magenta */
+.post-title-flicker-pink-magenta {
+  text-decoration: none;
+  color: #63c0f5;
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  transition: color 0.2s ease, text-shadow 0.2s ease;
+}
 
+.post-title-flicker-pink-magenta:hover {
+  cursor: pointer;
+  animation: flicker-pink-magenta 1.8s infinite;
+}
+
+@keyframes flicker-pink-magenta {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    color: #ff80aa; /* warm neon pink-magenta */
+    text-shadow:
+      0 0 2px #ff80aa,
+      0 0 5px #ff6699,
+      0 0 10px #ff4d88,
+      0 0 20px #ff4d88,
+      0 0 35px rgba(255, 77, 136, 0.3);
+  }
+  20%, 22%, 24%, 55% {
+    color: #f2709e;
+    text-shadow:
+      0 0 1px #d95c89,
+      0 0 3px #d95c89,
+      0 0 6px #f2709e,
+      0 0 12px #ff6699,
+      0 0 18px rgba(255, 102, 153, 0.25);
+  }
+}
+
+/* Flickering Neon Glow – Light Pastel Magenta */
+.post-title-flicker-magenta-pastel {
+  text-decoration: none;
+  color: #63c0f5;
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+.post-title-flicker-magenta-pastel:hover {
+  cursor: pointer;
+  animation: flicker-magenta-pastel 1.8s infinite;
+}
+
+@keyframes flicker-magenta-pastel {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    color: #ffb3e6; /* very light pastel magenta */
+    text-shadow:
+      0 0 2px #ffb3e6,
+      0 0 5px #ff99dd,
+      0 0 10px #ff80d4,
+      0 0 20px #ff80d4,
+      0 0 35px rgba(255, 128, 212, 0.25);
+  }
+  20%, 22%, 24%, 55% {
+    color: #f2a1d9;
+    text-shadow:
+      0 0 1px #d988c0,
+      0 0 3px #d988c0,
+      0 0 6px #f2a1d9,
+      0 0 12px #ff99dd,
+      0 0 18px rgba(255, 153, 221, 0.25);
+  }
+}
+
+/* Flickering Neon Glow – Toxic Neon Green */
+.post-title-flicker-green {
+  text-decoration: none;
+  color: #63c0f5;
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+.post-title-flicker-green:hover {
+  cursor: pointer;
+  animation: flicker-green 1.8s infinite;
+}
+
+@keyframes flicker-green {
+  /* Brightest frames */
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    color: #39ff14; /* toxic neon green */
+    text-shadow:
+      0 0 2px #39ff14,
+      0 0 5px #32e612,
+      0 0 10px #29cc0f,
+      0 0 20px #29cc0f,
+      0 0 35px rgba(41, 204, 15, 0.3);
+  }
+
+  /* Flicker dips */
+  20%, 22%, 24%, 55% {
+    color: #2bd90f; /* slightly dimmer */
+    text-shadow:
+      0 0 1px #24b30d,
+      0 0 3px #24b30d,
+      0 0 6px #2bd90f,
+      0 0 12px #32e612,
+      0 0 18px rgba(50, 230, 18, 0.25);
+  }
+}
+
+/* Flickering Neon Glow – Minty Pastel Green */
+.post-title-flicker-mint {
+  text-decoration: none;
+  color: #63c0f5;
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+.post-title-flicker-mint:hover {
+  cursor: pointer;
+  animation: flicker-mint 1.8s infinite;
+}
+
+@keyframes flicker-mint {
+  /* Brightest frames */
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    color: #9effc7; /* pastel mint green */
+    text-shadow:
+      0 0 2px #9effc7,
+      0 0 5px #7dffb5,
+      0 0 10px #66ffab,
+      0 0 20px #66ffab,
+      0 0 35px rgba(102, 255, 171, 0.3);
+  }
+
+  /* Flicker dips */
+  20%, 22%, 24%, 55% {
+    color: #85e6ad; /* slightly dimmer mint */
+    text-shadow:
+      0 0 1px #6fcf98,
+      0 0 3px #6fcf98,
+      0 0 6px #85e6ad,
+      0 0 12px #7dffb5,
+      0 0 18px rgba(125, 255, 181, 0.25);
+  }
+}
+
+/* Cyberpunk Neon Glow */
 .post-title-cyberglow {
   text-decoration: none;
   color: #63c0f5;
@@ -431,7 +571,7 @@ a:active, a:focus {
   cursor: pointer;
 }
 
-// Flickering Neon Glow – dynamic alive version 
+/* Flickering Neon Glow – dynamic alive version */
 .post-title-flicker-alive {
   text-decoration: none;
   color: #63c0f5; /* base cyan */
@@ -462,9 +602,6 @@ a:active, a:focus {
       0 0 12px #63f5ff;
   }
 }
-
-////
-
 
 // End of Post Titles
 
