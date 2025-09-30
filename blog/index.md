@@ -20,7 +20,7 @@ hero-poster: /blog/assets/robot1.avif
 
 <br>
 
-<h2 class="section-intro no-decoration">Here I talk about anything, mostly technical topics:</h2>
+<h2 class="section-intro no-decoration neutral-color">Here I talk about anything, mostly technical topics:</h2>
 
 <br>
 <section>
@@ -51,7 +51,7 @@ hero-poster: /blog/assets/robot1.avif
               <span class="postitem">
                 <span class="icon-small">{% include icon-tag.svg %}</span>
                 {% for tag in post.tags %}
-                  <code class="posttag"><a href="/tags/#{{ tag | replace: " " , "-" | downcase }}" class="no-decoration">{{ tag | xml_escape }}</a></code>
+                  <code class="posttag"><a href="/tags/#{{ tag | replace: " " , "-" | downcase }}" class="no-decoration neutral-color">{{ tag | xml_escape }}</a></code>
                 {% endfor %}
               </span>
             {% endif %}

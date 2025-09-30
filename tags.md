@@ -15,7 +15,7 @@ hero-poster: /assets/robot4.avif
 
 <br>
 
-<h2 class="section-intro no-decoration">Search through all the topics and tags included in website posts:</h2>
+<h2 class="section-intro no-decoration neutral-color">Search through all the topics and tags included in website posts:</h2>
 
 <br>
 <ul>
@@ -42,7 +42,7 @@ hero-poster: /assets/robot4.avif
 
       <li>
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date:"%d %b %Y" }} - </time>
-        <a href="/{{ post.categories[0] | xml_escape | downcase }}/" class="no-decoration">{{ post.categories[0] | xml_escape | capitalize }}</a> -
+        <a href="/{{ post.categories[0] | xml_escape | downcase }}/" class="neutral-color">{{ post.categories[0] | xml_escape | capitalize }}</a> -
         <a href="{{ post.url }}">{{ post.title }}</a>
       </li>
     {% endfor %}

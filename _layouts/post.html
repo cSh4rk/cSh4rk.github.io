@@ -9,7 +9,7 @@ layout: default
       <a href="/{{ cat | xml_escape | downcase }}/" class="no-decoration"><code class="language-plaintext highlighter-rouge-tag">{{ cat | xml_escape }}</code></a>
     {% endfor %}
     {% for tag in page.tags %}
-      <code class="posttag"><a href="/tags/#{{ tag | replace: " " , "-" | downcase }}" class="no-decoration">{{ tag | xml_escape }}</a></code>
+      <code class="posttag"><a href="/tags/#{{ tag | replace: " " , "-" | downcase }}" class="no-decoration neutral-color">{{ tag | xml_escape }}</a></code>
     {% endfor %}
   </div>
   <span class="icon">{% include icon-calendar.svg attr='aria-hidden="true" focusable="false"' %}</span>

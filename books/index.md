@@ -14,7 +14,7 @@ hero-poster: /books/assets/robot2.avif
 
 <br>
 
-<h2 class="section-intro no-decoration">Here are my book recommendations:</h2>
+<h2 class="section-intro no-decoration neutral-color">Here are my book recommendations:</h2>
 
 <br>
 <section>
@@ -45,7 +45,7 @@ hero-poster: /books/assets/robot2.avif
               <span class="postitem">
                 <span class="icon-small">{% include icon-tag.svg %}</span>
                 {% for tag in book.tags %}
-                  <code class="posttag"><a href="/tags/#{{ tag | replace: " " , "-" | downcase }}" class="no-decoration">{{ tag | xml_escape }}</a></code>
+                  <code class="posttag"><a href="/tags/#{{ tag | replace: " " , "-" | downcase }}" class="no-decoration neutral-color">{{ tag | xml_escape }}</a></code>
                 {% endfor %}
               </span>
             {% endif %}

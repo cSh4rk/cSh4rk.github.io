@@ -14,7 +14,7 @@ hero-poster: /links/assets/robot3.avif
 
 <br>
 
-<h2 class="section-intro no-decoration">Here I share web links that I find interesting:</h2>
+<h2 class="section-intro no-decoration neutral-color">Here I share web links that I find interesting:</h2>
 
 <br>
 <section>
@@ -45,7 +45,7 @@ hero-poster: /links/assets/robot3.avif
               <span class="postitem">
                 <span class="icon-small">{% include icon-tag.svg %}</span>
                 {% for tag in link.tags %}
-                  <code class="posttag"><a href="/tags/#{{ tag | replace: " " , "-" | downcase }}" class="no-decoration">{{ tag | xml_escape }}</a></code>
+                  <code class="posttag"><a href="/tags/#{{ tag | replace: " " , "-" | downcase }}" class="no-decoration neutral-color">{{ tag | xml_escape }}</a></code>
                 {% endfor %}
               </span>
             {% endif %}
