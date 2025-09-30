@@ -4,8 +4,8 @@ published: true
 tags: [Network, IT, Youtube Channel, Fun]
 image: /links/assets/2021/networkchuck.png
 description: "NetworkChuck Youtube Channel: Interesting technical videos."
-image_width: "256"
-image_height: "256"
+image_width: "130"
+image_height: "130"
 image_alt: "NetworkChuck YouTube channel logo"
 ---
 

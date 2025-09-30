@@ -4,8 +4,8 @@ published: true
 tags: [Penetration Testing, Hacking, Offsec, Certifications, OSCP, Hack the Box]
 image: /links/assets/2021/oscp.png
 description: "Great tips on how to pass the OSCP exam."
-image_width: "256"
-image_height: "256"
+image_width: "130"
+image_height: "130"
 image_alt: "OffSec OSCP certification logo"
 ---
 

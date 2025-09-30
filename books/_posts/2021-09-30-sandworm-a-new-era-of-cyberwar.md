@@ -4,8 +4,8 @@ published: true
 tags: [Cybersecurity, Story, Cyberattacks, Cyberwar, Hackers, Top Hackers, Misc., Ransomware, ICS, APT]
 image: /books/assets/2021/sandworm_book.jpg
 description: "The true story of the most devastating cyberattack in history and the desperate hunt to identify and track the elite Russian agents behind it, from Wired senior writer Andy Greenberg."
-image_width: "260"
-image_height: "400"
+image_width: "104"
+image_height: "160"
 image_alt: "Sandworm book cover"
 ---
 

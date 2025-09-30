@@ -4,8 +4,8 @@ published: true
 tags: [Fun, iOS, Kernel, Bugs, Memes]
 image: /blog/assets/2021/meme1.jpg
 description: "Not really!!! :))"
-image_width: "400"
-image_height: "447"
+image_width: "120"
+image_height: "134"
 image_alt: "A small deluded puppy chased after a big rhino then during the interview afterwards it says: yeah I was on drugs that day"
 ---
 

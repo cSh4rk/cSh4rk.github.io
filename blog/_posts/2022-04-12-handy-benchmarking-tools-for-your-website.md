@@ -4,8 +4,8 @@ published: true
 tags: [Web, Website, Web Benchmarking Tools, Website Performance, Website Security, DNSSEC, TLS, HTTP Headers, Security Headers]
 image: /blog/assets/2022/chart-search-icon.png
 description: "These tools help you benchmark your website and find performance and technical issues."
-image_width: "256"
-image_height: "256"
+image_width: "130"
+image_height: "130"
 updated: 2025-09-29
 ---
 <br>

@@ -4,8 +4,8 @@ published: true
 tags: [Neuroscience, Neurogenesis, Performance Improvement]
 image: /links/assets/2022/powerfulbrain.png
 description: "Can we, as adults, grow new neurons? Neuroscientist Sandrine Thuret says that we can, and she offers research and practical advice on how we can help our brains better perform neurogenesis, improving mood, increasing memory formation and preventing the decline associated with aging along the way."
-image_width: "256"
-image_height: "256"
+image_width: "130"
+image_height: "130"
 ---
 
 <br>

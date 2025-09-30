@@ -8,8 +8,8 @@ The West’s commitment to freedom, reason, and true liberalism has never been m
 Dr. Gad Saad, the host of the enormously popular YouTube show THE SAAD TRUTH, exposes the bad ideas—what he calls “idea pathogens”—that are killing common sense and rational debate. Incubated in our universities and spread through the tyranny of political correctness, these ideas are endangering our most basic freedoms—including freedom of thought and speech.
 The danger is grave, but as Dr. Saad shows, politically correct dogma is riddled with logical fallacies. We have powerful weapons to fight back with—if we have the courage to use them.
 A provocative guide to defending reason and intellectual freedom and a battle cry for the preservation of our fundamental rights, The Parasitic Mind will be the most controversial and talked-about book of the year."
-image_width: "262"
-image_height: "400"
+image_width: "105"
+image_height: "160"
 image_alt: "The Parasitic Mind book cover"
 ---
 

@@ -9,8 +9,8 @@ Matching your job to a preexisting passion does not matter, he reveals. Passion 
 In other words, what you do for a living is much less important than how you do it.
 With a title taken from the comedian Steve Martin, who once said his advice for aspiring entertainers was to \"be so good they can't ignore you,\" Cal Newport's clearly written manifesto is mandatory reading for anyone fretting about what to do with their life, or frustrated by their current job situation and eager to find a fresh new way to take control of their livelihood. He provides an evidence-based blueprint for creating work you love.
 SO GOOD THEY CAN'T IGNORE YOU will change the way we think about our careers, happiness, and the crafting of a remarkable life."
-image_width: "264"
-image_height: "400"
+image_width: "106"
+image_height: "160"
 image_alt: "So Good They Can't Ignore You book cover"
 ---
 

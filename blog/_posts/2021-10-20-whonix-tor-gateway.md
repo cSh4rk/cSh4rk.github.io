@@ -5,8 +5,8 @@ date: 2021-10-20 00:00:01
 tags: [Whonix, Privacy, Anonymity, Tor, Linux, Advanced]
 image: /blog/assets/2021/whonix-logo.png
 description: "What is Whonix Tor gateway and how to use it?"
-image_width: "388"
-image_height: "128"
+image_width: "272"
+image_height: "90"
 image_alt: "Whonix logo"
 ---
 

@@ -4,8 +4,8 @@ published: true
 tags: [Github, Github Pages, Jekyll, Youtube Channel, Static Site Generator, Website, Blog, Open Source Software, Tutorial, Markdown]
 image: /links/assets/2021/github.png
 description: "If you want to learn how to use Jekyll with Github pages to build your own website or blog, one of cool resources is these Up and Running series from Bill Raymond's youtube page."
-image_width: "256"
-image_height: "256"
+image_width: "130"
+image_height: "130"
 image_alt: "GitHub logo"
 ---
 

@@ -4,8 +4,8 @@ published: true
 tags: [Web Application Security, Web Security Academy, Labs, Insecure Deserialization, Remote Code Execution, Gadget Chains, Ruby]
 image: /links/assets/2022/supply-chain2.png
 description: "These are some Ruby examples that show the process of finding gadget chains in Ruby programming language."
-image_width: "256"
-image_height: "256"
+image_width: "130"
+image_height: "130"
 ---
 
 <br>

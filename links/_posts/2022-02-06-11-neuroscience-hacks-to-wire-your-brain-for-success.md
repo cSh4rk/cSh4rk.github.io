@@ -4,8 +4,8 @@ published: true
 tags: [Neuroscience, Performance Improvement, Biohacks]
 image: /links/assets/2022/neurosciencehacks.png
 description: "A few simple but very important daily hacks for a sharper brain."
-image_width: "256"
-image_height: "256"
+image_width: "130"
+image_height: "130"
 ---
 
 <br>

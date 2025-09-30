@@ -4,8 +4,8 @@ published: true
 tags: [Regex, Useful Skills, Programming, Linux]
 image: /links/assets/2022/parentheses.png
 description: "Learning Regex is easier than you think. You can use this tool to easily learn, practice, test and share Regex."
-image_width: "256"
-image_height: "256"
+image_width: "130"
+image_height: "130"
 ---
 
 <br>

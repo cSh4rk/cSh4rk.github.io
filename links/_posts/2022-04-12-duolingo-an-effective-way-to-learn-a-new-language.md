@@ -4,8 +4,8 @@ published: true
 tags: [Languages, Learning Languages]
 image: /links/assets/2022/duolingo.png
 description: "Duolingo is a very fun and effective way to learn a new language."
-image_width: "256"
-image_height: "256"
+image_width: "130"
+image_height: "130"
 image_alt: "Some Duolingo characters in a happy playful mood"
 ---
 

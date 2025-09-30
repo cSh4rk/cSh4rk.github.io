@@ -4,8 +4,8 @@ published: true
 tags: [Website, Website Performance, Website Security, Cloudflare, Github Pages, Jekyll, PageSpeed Insights]
 image: /blog/assets/2025/website-boost.png
 description: "Some quick no fluff tips and commands for a faster and more secure website"
-image_width: "256"
-image_height: "256"
+image_width: "130"
+image_height: "130"
 ---
 
 <br>

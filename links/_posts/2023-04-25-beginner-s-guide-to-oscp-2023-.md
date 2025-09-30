@@ -4,8 +4,8 @@ published: true
 tags: [Penetration Testing, Hacking, Prerequisite, Newcomers, Offsec, Certifications, OSCP]
 image: /links/assets/2023/hacker.png
 description: "A valuable guide for beginners on how to get prepared for the OSCP certification exam."
-image_width: "256"
-image_height: "256"
+image_width: "130"
+image_height: "130"
 ---
 
 <br>

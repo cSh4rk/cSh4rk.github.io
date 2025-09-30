@@ -4,8 +4,8 @@ published: true
 tags: [Personal Transformation, Performance Improvement, Habits, Top Book]
 image: /books/assets/2021/atomichabits_book.jpg
 description: "No matter your goals, Atomic Habits offers a proven framework for improving--every day. James Clear, one of the world's leading experts on habit formation, reveals practical strategies that will teach you exactly how to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results..."
-image_width: "265"
-image_height: "400"
+image_width: "102"
+image_height: "160"
 image_alt: "Atomic Habits book cover"
 ---
 

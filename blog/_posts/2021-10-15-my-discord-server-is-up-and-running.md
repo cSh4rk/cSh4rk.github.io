@@ -4,8 +4,8 @@ published: true
 tags: [Discord, Bots, Zapier, Social Networking]
 image: /blog/assets/2021/discord.png
 description: "I finally created my Discord server, Here are the details."
-image_width: "256"
-image_height: "256"
+image_width: "130"
+image_height: "130"
 image_alt: "Discord logo"
 updated: 2025-09-17
 ---
