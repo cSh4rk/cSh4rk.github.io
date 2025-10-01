@@ -1,6 +1,7 @@
 ---
 title: "Duolingo: An Effective Way to Learn a New Language"
 published: true
+robots: noindex,follow
 tags: [Languages, Learning Languages]
 image: /links/assets/2022/duolingo.png
 description: "Duolingo is a very fun and effective way to learn a new language."

@@ -3,7 +3,7 @@ layout: page
 title: "Contact Nima — Questions & Feedback"
 h1: "Contact"
 image: /assets/robot5.png
-robots: noindex,nofollow
+robots: noindex,follow
 description: "Get in Touch with Nima Through Various Channels — Ask Questions, Provide Feedback, or Just Say Hi via the Diaries of a Modern Ninja."
 hero-poster: /assets/robot5.avif
 ---
