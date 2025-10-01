@@ -180,6 +180,8 @@
   </li>
 </ul>
 
+<p>There are many more Cloudflare features that can help us run a more fast, optimized and secure website. I may write a post in the future dedicated to the most useful Cloudflare settings for websites.</p>
+
 <p><br /></p>
 
 <h2 id="2-reduce-cumulative-layout-shiftcls">2) Reduce Cumulative Layout Shift(CLS)</h2>
@@ -226,8 +228,11 @@
 
     <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># for images</span>
 <span class="c">## mainly used</span>
+<span class="c">### convert png/jpg to webp/avif:</span>
 cwebp <span class="nt">-q</span> 90 <span class="nt">-near_lossless</span> 95 <span class="nt">-m</span> 6 test.png <span class="nt">-o</span> test.webp
 magick test.png <span class="nt">-quality</span> 80 test.avif
+<span class="c">### resize png/jpg, keep aspect ratio(example: use 130x for width: 130, use x130 for height: 130 ):</span>
+magick why-we-sleep-book.jpg <span class="nt">-resize</span> 130x why-we-sleep-book-thumb.jpg
 
 <span class="c">## some other variations that had good results for me</span>
 ffmpeg <span class="nt">-i</span> test.png <span class="nt">-c</span>:v libaom-av1 <span class="nt">-crf</span> 20 <span class="nt">-b</span>:v 0 test.avif
