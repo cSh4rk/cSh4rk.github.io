@@ -9,7 +9,7 @@ image_height: "256"
 thumb_path: /blog/assets/2025/website-boost-thumb.png
 thumb_width: "130"
 thumb_height: "130"
-update: 2025-10-01
+updated: 2025-10-01
 ---
 
 <br>
