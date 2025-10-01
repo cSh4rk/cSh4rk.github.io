@@ -3,15 +3,18 @@ title: "Linux Basics for Hackers: Getting Started with Networking, Scripting, an
 published: true
 date: 2021-11-30 00:00:02
 tags: [OccupyTheWeb, Linux, Hacking, Prerequisite, Newcomers, Top Book]
-image: /books/assets/2021/linux_basics_for_hackers_book.jpg
 description: "This practical, tutorial-style book uses the Kali Linux distribution to teach Linux basics with a focus on how hackers would use them. Topics include Linux command line basics, filesystems, networking, BASH basics, package management, logging, and the Linux kernel and drivers."
-image_width: "121"
-image_height: "160"
+image: /books/assets/2021/linux-basics-for-hackers-book.jpg
+image_width: "303"
+image_height: "400"
+thumb_path: /books/assets/2021/linux-basics-for-hackers-book-thumb.jpg
+thumb_width: "121"
+thumb_height: "160"
 image_alt: "Linux Basics for Hackers book cover"
 ---
 
 <br>
-{% smart_image /books/assets/2021/linux_basics_for_hackers_book.jpg 303 400 "{{ page.image_alt }}" eager high %}
+{% smart_image "{{ page.image }}" "{{ page.image_width }}" "{{ page.image_height }}" "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Amazon[^1] Description
@@ -79,4 +82,4 @@ Read every article and book this author writes because his writing style is grea
 ## _References_
 * * *
 [^1]: [The Book on Amazon Website](https://www.amazon.com/Linux-Basics-Hackers-Networking-Scripting/dp/1593278551)
-[^2]: [Linux Networking & System Administration Category on Amazon](https://www.amazon.com/gp/bestsellers/books/291380/ref=pd_zg_hrsr_books)
+[^2]: [Linux Networking & System Administration Category on Amazon](https://www.amazon.com/gp/bestsellers/books/291380)

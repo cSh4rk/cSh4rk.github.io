@@ -2,15 +2,18 @@
 title: "The Compound Effect: Jumpstart Your Income, Your Life, Your Success"
 published: true
 tags: [Personal Transformation, Performance Improvement, Top Book]
-image: /books/assets/2021/compoundeffect_book.jpg
 description: "Do you want success? More success than you have now? And even more success than you ever imagined possible? That is what this book is about. Achieving it."
-image_width: "116"
-image_height: "160"
+image: /books/assets/2021/the-compound-effect-book.jpg
+image_width: "289"
+image_height: "400"
+thumb_path: /books/assets/2021/the-compound-effect-book-thumb.jpg
+thumb_width: "116"
+thumb_height: "160"
 image_alt: "The Compound Effect book cover"
 ---
 
 <br>
-{% smart_image /books/assets/2021/compoundeffect_book.jpg 289 400 "{{ page.image_alt }}" eager high %}
+{% smart_image "{{ page.image }}" "{{ page.image_width }}" "{{ page.image_height }}" "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Amazon[^1] Description

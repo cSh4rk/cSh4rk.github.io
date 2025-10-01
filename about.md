@@ -2,7 +2,7 @@
 layout: page
 title: "About Nima — Background & Notes"
 h1: "About Me"
-image: /assets/mask1_big.png
+image: /assets/mask1-big.png
 robots: noindex,nofollow
 description: "Learn About Nima — Personal Notes, Thoughts, Experiences, and Insights Shared on the Diaries of a Modern Ninja."
 hero-poster: /assets/mask1.avif

@@ -3,15 +3,18 @@ title: "Obsidian: A second brain, for you, forever"
 published: true
 date: 2021-10-30 00:00:00
 tags: [Obsidian, Knowledge Base, Personal Knowledge Management, Note Taking, Markdown]
-image: /blog/assets/2021/obsidian1.png
 description: "Here are some details about this gorgeous modern note taking and knowledge management app."
-image_width: "130"
-image_height: "130"
+image: /blog/assets/2021/obsidian1.png
+image_width: "256"
+image_height: "256"
+thumb_path: /blog/assets/2021/obsidian1-thumb.png
+thumb_width: "130"
+thumb_height: "130"
 image_alt: "Obsidian logo"
 ---
 
 <br>
-{% smart_image /blog/assets/2021/obsidian1.png 256 256 "{{ page.image_alt }}" eager high %}
+{% smart_image "{{ page.image }}" "{{ page.image_width }}" "{{ page.image_height }}" "{{ page.image_alt }}" eager high %}
 <br>
 
 In rare moments, an application is found which works great and also feels great to work with; Obsidian[^1] is one of those rare gems. It is a powerful knowledge base on top of a local folder of plain text Markdown files. If you want to start a project, research on a topic or prepare for an exam, you can use it as your personal knowledge management to store your notes and organize your thinking and have a more effective learning experience.

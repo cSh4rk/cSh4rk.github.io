@@ -2,14 +2,17 @@
 title: "Stanford Web Security Course"
 published: true
 tags: [Web Applications, Web Application Security, Hacking, Courses]
-image: /links/assets/2023/websecurity.png
 description: "This course from Stanford university is a gold mine for every web application security enthusiast."
-image_width: "130"
-image_height: "130"
+image: /links/assets/2023/web-security.png
+image_width: "256"
+image_height: "256"
+thumb_path: /links/assets/2023/web-security-thumb.png
+thumb_width: "130"
+thumb_height: "130"
 ---
 
 <br>
-{% smart_image /links/assets/2023/websecurity.png 256 256 "" eager high %}
+{% smart_image "{{ page.image }}" "{{ page.image_width }}" "{{ page.image_height }}" "{{ page.image_alt }}" eager high %}
 [^1]
 <br>
 

@@ -3,15 +3,18 @@ title: "CompTIA Network+ Study Guide: Exam N10-007"
 published: true
 date: 2021-11-30 00:00:00
 tags: [CompTIA, Network, Network+, Certifications, Prerequisite, Newcomers]
-image: /books/assets/2021/network+_book.jpg
 description: "CompTIA's Network+ certification tells the world you have the skills to install, configure, and troubleshoot today's basic networking hardware peripherals and protocols. First, however, you have to pass the exam! This detailed CompTIA Authorized study guide by networking guru Todd Lammle has everything you need to prepare for the CompTIA Network+ Exam N10-007."
-image_width: "128"
-image_height: "160"
+image: /books/assets/2021/network-plus-book.jpg
+image_width: "320"
+image_height: "400"
+thumb_path: /books/assets/2021/network-plus-book-thumb.jpg
+thumb_width: "128"
+thumb_height: "160"
 image_alt: "CompTIA Network+ Study Guide book cover"
 ---
 
 <br>
-{% smart_image /books/assets/2021/network+_book.jpg 320 400 "{{ page.image_alt }}" eager high %}
+{% smart_image "{{ page.image }}" "{{ page.image_width }}" "{{ page.image_height }}" "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Amazon[^1] Description
@@ -84,5 +87,5 @@ This is a huge book about computer networking and it is absolutely necessary for
 ## _References_
 * * *
 [^1]: [The Book on Amazon Website](https://www.amazon.com/CompTIA-Network-Study-Guide-Authorized/dp/1119432251)
-[^2]: [Computer Networks Category on Amazon](https://www.amazon.com/gp/bestsellers/books/3747/ref=pd_zg_hrsr_books)
-[^3]: [Computer & Technology Certification Guides Category on Amazon](https://www.amazon.com/gp/bestsellers/books/3448/ref=pd_zg_hrsr_books)
+[^2]: [Computer Networks Category on Amazon](https://www.amazon.com/gp/bestsellers/books/3747)
+[^3]: [Computer & Technology Certification Guides Category on Amazon](https://www.amazon.com/gp/bestsellers/books/3448)

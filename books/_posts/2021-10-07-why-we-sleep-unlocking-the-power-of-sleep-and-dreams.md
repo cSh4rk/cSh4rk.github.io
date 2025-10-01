@@ -2,15 +2,18 @@
 title: "Why We Sleep: Unlocking the Power of Sleep and Dreams"
 published: true
 tags: [Neuroscience, Sleep, Top Science Book]
-image: /books/assets/2021/why_we_sleep_book.jpg
 description: "Sleep is one of the most important but least understood aspects of our life, wellness, and longevity. Until very recently, science had no answer to the question of why we sleep, or what good it served, or why we suffer such devastating health consequences when we don't sleep. Compared to the other basic drives in life—eating, drinking, and reproducing—the purpose of sleep remained elusive."
-image_width: "105"
-image_height: "160"
+image: /books/assets/2021/why-we-sleep-book.jpg
+image_width: "263"
+image_height: "400"
+thumb_path: /books/assets/2021/why-we-sleep-book-thumb.jpg
+thumb_width: "105"
+thumb_height: "160"
 image_alt: "Why We Sleep book cover"
 ---
 
 <br>
-{% smart_image /books/assets/2021/why_we_sleep_book.jpg 263 400 "{{ page.image_alt }}" eager high %}
+{% smart_image "{{ page.image }}" "{{ page.image_width }}" "{{ page.image_height }}" "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Amazon[^1] Description
@@ -87,4 +90,4 @@ In this book you'll find answers to these and many other important questions abo
 ## _References_
 * * *
 [^1]: [The Book on Amazon Website](https://www.amazon.com/Why-We-Sleep-Unlocking-Dreams/dp/1501144316)
-[^2]: [Sleep Disorders Category on Amazon](https://www.amazon.com/gp/bestsellers/books/282817/ref=pd_zg_hrsr_books)
+[^2]: [Sleep Disorders Category on Amazon](https://www.amazon.com/gp/bestsellers/books/282817)

@@ -3,15 +3,18 @@ title: "Whonix: Software That Can Anonymize Everything You Do Online"
 published: true
 date: 2021-10-20 00:00:01
 tags: [Whonix, Privacy, Anonymity, Tor, Linux, Advanced]
-image: /blog/assets/2021/whonix-logo.png
 description: "What is Whonix Tor gateway and how to use it?"
-image_width: "272"
-image_height: "90"
+image: /blog/assets/2021/whonix-logo.png
+image_width: "388"
+image_height: "128"
+thumb_path: /blog/assets/2021/whonix-logo-thumb.png
+thumb_width: "273"
+thumb_height: "90"
 image_alt: "Whonix logo"
 ---
 
 <br>
-{% smart_image /blog/assets/2021/whonix-logo.png 388 128 "{{ page.image_alt }}" eager high %}
+{% smart_image "{{ page.image }}" "{{ page.image_width }}" "{{ page.image_height }}" "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Whonix[^1] Tor Gateway

@@ -2,16 +2,19 @@
 title: "The God Equation: The Quest for a Theory of Everything"
 published: true
 tags: [Physics, Michio Kaku, String Theory, Quantum Physics, Top Book, Top Science Book]
-image: /books/assets/2022/the_god_equation_book.jpg
 description: "When Newton discovered the law of gravity, he unified the rules governing the heavens and the Earth. Since then, physicists have been placing new forces into ever-grander theories.
 But perhaps the ultimate challenge is achieving a monumental synthesis of the two remaining theories—relativity and the quantum theory. This would be the crowning achievement of science, a profound merging of all the forces of nature into one beautiful, magnificent equation to unlock the deepest mysteries in science: What happened before the Big Bang? What lies on the other side of a black hole? Are there other universes and dimensions? Is time travel possible? Why are we here?"
-image_width: "104"
-image_height: "160"
+image: /books/assets/2022/the-god-equation-book.jpg
+image_width: "260"
+image_height: "400"
+thumb_path: /books/assets/2022/the-god-equation-book-thumb.jpg
+thumb_width: "104"
+thumb_height: "160"
 image_alt: "The God Equation book cover"
 ---
 
 <br>
-{% smart_image /books/assets/2022/the_god_equation_book.jpg 260 400 "{{ page.image_alt }}" eager high %}
+{% smart_image "{{ page.image }}" "{{ page.image_width }}" "{{ page.image_height }}" "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Amazon[^1] Description
@@ -76,5 +79,5 @@ It is a very interesting book that has a brief and simple introduction of scient
 ## _References_
 * * *
 [^1]: [The Book on Amazon Website](https://www.amazon.com/God-Equation-Quest-Theory-Everything/dp/0385542747)
-[^2]: [Relativity Physics Category on Amazon](https://www.amazon.com/gp/bestsellers/books/14592/ref=pd_zg_hrsr_books)
-[^3]: [Quantum Theory Category on Amazon](https://www.amazon.com/gp/bestsellers/books/14581/ref=pd_zg_hrsr_books)
+[^2]: [Relativity Physics Category on Amazon](https://www.amazon.com/gp/bestsellers/books/14592)
+[^3]: [Quantum Theory Category on Amazon](https://www.amazon.com/gp/bestsellers/books/14581)

@@ -2,15 +2,18 @@
 title: "Flow: The Psychology of Optimal Experience"
 published: true
 tags: [Psychology, Creativity, Genius]
-image: /books/assets/2021/flow_book.jpg
 description: "Legendary psychologist Mihaly Csikszentmihalyi's famous investigations of \"optimal experience\" have revealed that what makes an experience genuinely satisfying is a state of consciousness called flow. During flow, people typically experience deep enjoyment, creativity, and a total involvement with life. In this new edition of his groundbreaking classic work, Csikszentmihalyi (\"the leading researcher into ‘flow states’\" —Newsweek) demonstrates the ways this positive state can be controlled, not just left to chance."
-image_width: "106"
-image_height: "160"
+image: /books/assets/2021/flow-book.jpg
+image_width: "264"
+image_height: "400"
+thumb_path: /books/assets/2021/flow-book-thumb.jpg
+thumb_width: "106"
+thumb_height: "160"
 image_alt: "Flow book cover"
 ---
 
 <br>
-{% smart_image /books/assets/2021/flow_book.jpg 264 400 "{{ page.image_alt }}" eager high %}
+{% smart_image "{{ page.image }}" "{{ page.image_width }}" "{{ page.image_height }}" "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Amazon[^1] Description

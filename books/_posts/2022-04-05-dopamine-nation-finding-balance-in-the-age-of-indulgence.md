@@ -2,15 +2,18 @@
 title: "Dopamine Nation: Finding Balance in the Age of Indulgence"
 published: true
 tags: [Health, Neuroscience, Performance Improvement, Top Book, Top Science Book]
-image: /books/assets/2022/dopamine_nation_book.jpg
 description: "This book is about pleasure. It’s also about pain. Most important, it’s about how to find the delicate balance between the two, and why now more than ever finding balance is essential. We’re living in a time of unprecedented access to high-reward, high-dopamine stimuli: drugs, food, news, gambling, shopping, gaming, texting, sexting, Facebooking, Instagramming, YouTubing, tweeting… The increased numbers, variety, and potency is staggering. The smartphone is the modern-day hypodermic needle, delivering digital dopamine 24/7 for a wired generation. As such we’ve all become vulnerable to compulsive overconsumption."
-image_width: "106"
-image_height: "160"
+image: /books/assets/2022/dopamine-nation-book.jpg
+image_width: "265"
+image_height: "400"
+thumb_path: /books/assets/2022/dopamine-nation-book-thumb.jpg
+thumb_width: "106"
+thumb_height: "160"
 image_alt: "Dopamine Nation book cover"
 ---
 
 <br>
-{% smart_image /books/assets/2022/dopamine_nation_book.jpg 265 400 "{{ page.image_alt }}" eager high %}
+{% smart_image "{{ page.image }}" "{{ page.image_width }}" "{{ page.image_height }}" "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Amazon[^1] Description
@@ -73,6 +76,6 @@ This is an important topic in this day and age, especially for the tech savvy an
 ## _References_
 * * *
 [^1]: [The Book on Amazon Website](https://www.amazon.com/Dopamine-Nation-Finding-Balance-Indulgence/dp/152474672X)
-[^2]: [Sociological Study of Medicine Category on Amazon](https://www.amazon.com/gp/bestsellers/books/16311191/ref=pd_zg_hrsr_books)
-[^3]: [Medical Clinical Psychology Category on Amazon](https://www.amazon.com/gp/bestsellers/books/11143/ref=pd_zg_hrsr_books)
-[^4]: [Emotional Mental Health Category on Amazon](https://www.amazon.com/gp/bestsellers/books/11170/ref=pd_zg_hrsr_books)
+[^2]: [Sociological Study of Medicine Category on Amazon](https://www.amazon.com/gp/bestsellers/books/16311191)
+[^3]: [Medical Clinical Psychology Category on Amazon](https://www.amazon.com/gp/bestsellers/books/11143)
+[^4]: [Emotional Mental Health Category on Amazon](https://www.amazon.com/gp/bestsellers/books/11170)

@@ -3,15 +3,18 @@ title: "CEH v11 Certified Ethical Hacker Study Guide"
 published: true
 date: 2021-11-30 00:00:01
 tags: [EC-Council, CEH, Certifications, Hacking, Prerequisite, Newcomers]
-image: /books/assets/2021/ceh_book.jpg
 description: "As protecting information continues to be a growing concern for today’s businesses, certifications in IT security have become highly desirable, even as the number of certifications has grown. Now you can set yourself apart with the Certified Ethical Hacker (CEH v11) certification. The CEH v11 Certified Ethical Hacker Study Guide offers a comprehensive overview of the CEH certification requirements using concise and easy-to-follow instructions."
-image_width: "128"
-image_height: "160"
+image: /books/assets/2021/ceh-book.jpg
+image_width: "320"
+image_height: "400"
+thumb_path: /books/assets/2021/ceh-book-thumb.jpg
+thumb_width: "128"
+thumb_height: "160"
 image_alt: "CEH v11 Certified Ethical Hacker Study Guide book cover"
 ---
 
 <br>
-{% smart_image /books/assets/2021/ceh_book.jpg 320 400 "{{ page.image_alt }}" eager high %}
+{% smart_image "{{ page.image }}" "{{ page.image_width }}" "{{ page.image_height }}" "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Amazon[^1] Description
@@ -76,5 +79,5 @@ I had read the CEH v9 Paperback – January 1, 2017 by Sean-Philip Oriyano[^3] s
 ## _References_
 * * *
 [^1]: [The Book on Amazon Website](https://www.amazon.com/Certified-Ethical-Hacker-Study-Guide/dp/1119800285)
-[^2]: [Security Certifications Category on Amazon](https://www.amazon.com/gp/bestsellers/books/10806585011/ref=pd_zg_hrsr_books)
+[^2]: [Security Certifications Category on Amazon](https://www.amazon.com/gp/bestsellers/books/10806585011)
 [^3]: [CEH v9 Paperback Book – January 1, 2017 by Sean-Philip Oriyano on Amazon](https://www.amazon.com/CEH-v9-Sean-Philip-Oriyano/dp/B076Y99WV1)

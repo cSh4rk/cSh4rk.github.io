@@ -2,15 +2,18 @@
 title: "Think and Grow Rich"
 published: true
 tags: [Classic, Personal Success, Top Book]
-image: /books/assets/2021/thinkandgrowrich_book.jpg
 description: "The most famous of all teachers of success spent \"a fortune and the better part of a lifetime of effort\" to produce the \"Law of Success\" philosophy that forms the basis of his books and that is so powerfully summarized and explained for the general public in this book."
-image_width: "103"
-image_height: "160"
+image: /books/assets/2021/think-and-grow-rich-book.jpg
+image_width: "258"
+image_height: "400"
+thumb_path: /books/assets/2021/think-and-grow-rich-book-thumb.jpg
+thumb_width: "103"
+thumb_height: "160"
 image_alt: "Think and Grow Rich book cover"
 ---
 
 <br>
-{% smart_image /books/assets/2021/thinkandgrowrich_book.jpg 258 400 "{{ page.image_alt }}" eager high %}
+{% smart_image "{{ page.image }}" "{{ page.image_width }}" "{{ page.image_height }}" "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Amazon[^1] Description

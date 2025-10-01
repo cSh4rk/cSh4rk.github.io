@@ -3,15 +3,18 @@ title: "Bug Bounty Bootcamp: The Guide to Finding and Reporting Web Vulnerabilit
 published: true
 date: 2021-11-30 00:00:04
 tags: [Web Application Security, Bug Bounty, Hacking, Prerequisite, Newcomers, Top Book, Top Hacking Book, HTTP, HTTP Headers, Security Headers]
-image: /books/assets/2021/bug_bounty_bootcamp_book.jpg
 description: "Bug Bounty Bootcamp teaches you how to hack web applications. You will learn how to perform reconnaissance on a target, how to identify vulnerabilities, and how to exploit them. You'll also learn how to navigate bug bounty programs set up by companies to reward security professionals for finding bugs in their web applications."
-image_width: "120"
-image_height: "160"
+image: /books/assets/2021/bug-bounty-bootcamp-book.jpg
+image_width: "300"
+image_height: "400"
+thumb_path: /books/assets/2021/bug-bounty-bootcamp-book-thumb.jpg
+thumb_width: "120"
+thumb_height: "160"
 image_alt: "Bug Bounty Bootcamp book cover"
 ---
 
 <br>
-{% smart_image/books/assets/2021/bug_bounty_bootcamp_book.jpg 300 400 "{{ page.image_alt }}" eager high %}
+{% smart_image "{{ page.image }}" "{{ page.image_width }}" "{{ page.image_height }}" "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Amazon[^1] Description
@@ -92,6 +95,6 @@ If you want to start in the field of Bug Bounty Hunting or even if you are an ex
 ## _References_
 * * *
 [^1]: [The Book on Amazon Website](https://www.amazon.com/Bug-Bounty-Bootcamp-Reporting-Vulnerabilities-ebook/dp/B08YK368Y3)
-[^2]: [Computer Programming Debugging Category on Amazon](https://www.amazon.com/gp/bestsellers/books/3974/ref=pd_zg_hrsr_books)
-[^3]: [Software Testing Category on Amazon](https://www.amazon.com/gp/bestsellers/books/4133/ref=pd_zg_hrsr_books)
-[^4]: [Computer Networking Category on Amazon](https://www.amazon.com/gp/bestsellers/books/491302/ref=pd_zg_hrsr_books)
+[^2]: [Computer Programming Debugging Category on Amazon](https://www.amazon.com/gp/bestsellers/books/3974)
+[^3]: [Software Testing Category on Amazon](https://www.amazon.com/gp/bestsellers/books/4133)
+[^4]: [Computer Networking Category on Amazon](https://www.amazon.com/gp/bestsellers/books/491302)

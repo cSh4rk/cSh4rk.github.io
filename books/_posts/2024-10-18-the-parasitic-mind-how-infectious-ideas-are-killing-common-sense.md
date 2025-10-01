@@ -2,19 +2,22 @@
 title: "The Parasitic Mind: How Infectious Ideas Are Killing Common Sense"
 published: true
 tags: [Personal Transformation, Psychology, Evolution, Memetics, Mind Viruses]
-image: /books/assets/2024/the_parasitic_mind_book.jpg
 description: "There's a war against truth... and if we don't win it, intellectual freedom will be a casualty.
 The West’s commitment to freedom, reason, and true liberalism has never been more seriously threatened than it is today by the stifling forces of political correctness.
 Dr. Gad Saad, the host of the enormously popular YouTube show THE SAAD TRUTH, exposes the bad ideas—what he calls “idea pathogens”—that are killing common sense and rational debate. Incubated in our universities and spread through the tyranny of political correctness, these ideas are endangering our most basic freedoms—including freedom of thought and speech.
 The danger is grave, but as Dr. Saad shows, politically correct dogma is riddled with logical fallacies. We have powerful weapons to fight back with—if we have the courage to use them.
 A provocative guide to defending reason and intellectual freedom and a battle cry for the preservation of our fundamental rights, The Parasitic Mind will be the most controversial and talked-about book of the year."
-image_width: "105"
-image_height: "160"
+image: /books/assets/2024/the-parasitic-mind-book.jpg
+image_width: "262"
+image_height: "400"
+thumb_path: /books/assets/2024/the-parasitic-mind-book-thumb.jpg
+thumb_width: "105"
+thumb_height: "160"
 image_alt: "The Parasitic Mind book cover"
 ---
 
 <br>
-{% smart_image /books/assets/2024/the_parasitic_mind_book.jpg 262 400 "{{ page.image_alt }}" eager high %}
+{% smart_image "{{ page.image }}" "{{ page.image_width }}" "{{ page.image_height }}" "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Amazon[^1] Description

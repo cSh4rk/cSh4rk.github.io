@@ -2,15 +2,18 @@
 title: "The Selfish Gene: 40th Anniversary edition (Oxford Landmark Science)"
 published: true
 tags: [Evolution, Richard Dawkins, Top Science Book, Top Book]
-image: /books/assets/2021/the_selfish_gene_book.jpg
 description: "As influential today as when it was first published, The Selfish Gene has become a classic exposition of evolutionary thought. Professor Dawkins articulates a gene's eye view of evolution - a view giving centre stage to these persistent units of information, and in which organisms can be seen as vehicles for their replication. This imaginative, powerful, and stylistically brilliant work not only brought the insights of Neo-Darwinism to a wide audience, but galvanized the biology community, generating much debate and stimulating whole new areas of research. Forty years later, its insights remain as relevant today as on the day it was published."
-image_width: "106"
-image_height: "160"
+image: /books/assets/2021/the-selfish-gene-book.jpg
+image_width: "264"
+image_height: "400"
+thumb_path: /books/assets/2021/the-selfish-gene-book-thumb.jpg
+thumb_width: "106"
+thumb_height: "160"
 image_alt: "The Selfish Gene book cover"
 ---
 
 <br>
-{% smart_image /books/assets/2021/the_selfish_gene_book.jpg 264 400 "{{ page.image_alt }}" eager high %}
+{% smart_image "{{ page.image }}" "{{ page.image_width }}" "{{ page.image_height }}" "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Amazon[^1] Description

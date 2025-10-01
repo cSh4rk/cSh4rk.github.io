@@ -4,13 +4,17 @@ published: true
 tags: [Languages, Learning Languages]
 image: /links/assets/2022/duolingo.png
 description: "Duolingo is a very fun and effective way to learn a new language."
-image_width: "130"
-image_height: "130"
+image: /links/assets/2022/duolingo.png
+image_width: "256"
+image_height: "256"
+thumb_path: /links/assets/2022/duolingo-thumb.png
+thumb_width: "130"
+thumb_height: "130"
 image_alt: "Some Duolingo characters in a happy playful mood"
 ---
 
 <br>
-{% smart_image /links/assets/2022/duolingo.png 256 256 "{{ page.image_alt }}" eager high %}
+{% smart_image "{{ page.image }}" "{{ page.image_width }}" "{{ page.image_height }}" "{{ page.image_alt }}" eager high %}
 <br>
 
 Learning a new language can be hard and time-consuming but with a proper method, it can be fun and smooth. 

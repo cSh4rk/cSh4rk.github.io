@@ -2,15 +2,18 @@
 title: "Virus of the Mind: The New Science of the Meme"
 published: true
 tags: [Sociology, Evolution, Memetics, Mind Viruses]
-image: /books/assets/2021/virus_of_the_mind_book.jpg
 description: "Virus of the Mind is the first popular book devoted to the science of memetics, a controversial new field that transcends psychology, biology, anthropology, and cognitive science. Memetics is the science of memes, the invisible but very real DNA of human society. In Virus of the Mind, Richard Brodie carefully builds on the work of scientists Richard Dawkins, Douglas Hofstadter, Daniel Dennett, and others who have become fascinated with memes and their potential impact on our lives. But Richard goes beyond science and dives into the meat of the issue."
-image_width: "107"
-image_height: "160"
+image: /books/assets/2021/virus-of-the-mind-book.jpg
+image_width: "267"
+image_height: "400"
+thumb_path: /books/assets/2021/virus-of-the-mind-book-thumb.jpg
+thumb_width: "107"
+thumb_height: "160"
 image_alt: "Virus of the Mind book cover"
 ---
 
 <br>
-{% smart_image /books/assets/2021/virus_of_the_mind_book.jpg 267 400 "{{ page.image_alt }}" eager high %}
+{% smart_image "{{ page.image }}" "{{ page.image_width }}" "{{ page.image_height }}" "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Amazon[^1] Description

@@ -2,15 +2,18 @@
 title: "The China Study: The Most Comprehensive Study of Nutrition Ever Conducted And the Startling Implications for Diet, Weight Loss, And Long-term Health"
 published: true
 tags: [Nutrition, Health, Performance Improvement, Top Book]
-image: /books/assets/2022/the_china_study_book.jpg
 description: "In The China Study, Dr. T. Colin Campbell details the connection between nutrition and heart disease, diabetes, and cancer. The report also examines the source of nutritional confusion produced by powerful lobbies, government entities, and opportunistic scientists. The New York Times has recognized the study as the \"Grand Prix of epidemiology\" and the \"most comprehensive large study ever undertaken of the relationship between diet and the risk of developing disease.\""
-image_width: "107"
-image_height: "160"
+image: /books/assets/2022/the-china-study-book.jpg
+image_width: "267"
+image_height: "400"
+thumb_path: /books/assets/2022/the-china-study-book-thumb.jpg
+thumb_width: "107"
+thumb_height: "160"
 image_alt: "The China Study book cover"
 ---
 
 <br>
-{% smart_image /books/assets/2022/the_china_study_book.jpg 267 400 "{{ page.image_alt }}" eager high %}
+{% smart_image "{{ page.image }}" "{{ page.image_width }}" "{{ page.image_height }}" "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Amazon[^1] Description
@@ -71,6 +74,6 @@ I had read this book many years ago when I'd put a lot of effort into bodybuildi
 ## _References_
 * * *
 [^1]: [The Book on Amazon Website](https://www.amazon.com/China-Study-Comprehensive-Nutrition-Implications/dp/1932100660)
-[^2]: [Food Science Category on Amazon](https://www.amazon.com/gp/bestsellers/books/14494/ref=pd_zg_hrsr_books)
-[^3]: [Nutrition Category on Amazon](https://www.amazon.com/gp/bestsellers/books/282861/ref=pd_zg_hrsr_books)
+[^2]: [Food Science Category on Amazon](https://www.amazon.com/gp/bestsellers/books/14494)
+[^3]: [Nutrition Category on Amazon](https://www.amazon.com/gp/bestsellers/books/282861)
 [^4]: [The Revised and Expanded Edition of the Book on Amazon](https://www.amazon.com/China-Study-Comprehensive-Nutrition-Implications/dp/1941631568)

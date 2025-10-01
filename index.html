@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Into the Cyber Rabbit Hole"
-image: /assets/ninja_big.png
+image: /assets/ninja-big.png
 ---
 
 <ul>
@@ -19,14 +19,14 @@ image: /assets/ninja_big.png
         <span class="icon">{% include icon-calendar.svg attr='aria-hidden="true" focusable="false"' %}</span>
         <time datetime="{{ post.date | date_to_xmlschema }}"><strong>Published: </strong>{{ post.date | date_to_string }}</time>
         {% if post.updated %}<time datetime="{{ post.updated | date_to_xmlschema }}" class="by-line">&nbsp;&nbsp;<strong>Updated: </strong>{{ post.updated | date_to_string }}</time>{% endif %}
-        {% if post.image %}
+        {% if post.thumb_path %}
           {% if forloop.first %}
             <p>
-              {% smart_image "{{ post.image }}" "{{ post.image_width }}" "{{ post.image_height }}" "{{ post.image_alt }}" eager high %}
+              {% smart_image "{{ post.thumb_path }}" "{{ post.thumb_width }}" "{{ post.thumb_height }}" "{{ post.image_alt }}" eager high %}
             </p>
           {% else %}
             <p>
-              {% smart_image "{{ post.image }}" "{{ post.image_width }}" "{{ post.image_height }}" "{{ post.image_alt }}" lazy "" avif async %}
+              {% smart_image "{{ post.thumb_path }}" "{{ post.thumb_width }}" "{{ post.thumb_height }}" "{{ post.image_alt }}" lazy "" avif async %}
             </p>
           {% endif %}
         {% endif %}

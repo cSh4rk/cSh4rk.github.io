@@ -2,15 +2,18 @@
 title: "Limitless: Upgrade Your Brain, Learn Anything Faster, and Unlock Your Exceptional Life"
 published: true
 tags: [Personal Transformation, Performance Improvement, Genius]
-image: /books/assets/2021/limitless_book.jpg
 description: "JIM KWIK, the world's #1 brain coach, has written the owner's manual for mental expansion and brain fitness. Limitless gives people the ability to accomplish more, more productivity, more transformation, more personal success, and business achievement, by changing their Mindset, Motivation, and Methods."
-image_width: "107"
-image_height: "160"
+image: /books/assets/2021/limitless-book.jpg
+image_width: "267"
+image_height: "400"
+thumb_path: /books/assets/2021/limitless-book-thumb.jpg
+thumb_width: "107"
+thumb_height: "160"
 image_alt: "Limitless book cover"
 ---
 
 <br>
-{% smart_image /books/assets/2021/limitless_book.jpg 267 400 "{{ page.image_alt }}" eager high %}
+{% smart_image "{{ page.image }}" "{{ page.image_width }}" "{{ page.image_height }}" "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Amazon[^1] Description

@@ -3,15 +3,18 @@ title: "Penetration Testing: A Hands-On Introduction to Hacking"
 published: true
 date: 2021-11-30 00:00:03
 tags: [Penetration Testing, Hacking, Hands-On, Prerequisite, Newcomers, Top Book, Top Hacking Book, OSCP]
-image: /books/assets/2021/penetration_testing_book.jpg
 description: "In Penetration Testing, security expert, researcher, and trainer Georgia Weidman introduces you to the core skills and techniques that every pentester needs. Using a virtual machine–based lab that includes Kali Linux and vulnerable operating systems, you’ll run through a series of practical lessons with tools like Wireshark, Nmap, and Burp Suite. As you follow along with the labs and launch attacks, you’ll experience the key stages of an actual assessment—including information gathering, finding exploitable vulnerabilities, gaining access to systems, post exploitation, and more."
-image_width: "121"
-image_height: "160"
+image: /books/assets/2021/penetration-testing-book.jpg
+image_width: "303"
+image_height: "400"
+thumb_path: /books/assets/2021/penetration-testing-book-thumb.jpg
+thumb_width: "121"
+thumb_height: "160"
 image_alt: "Penetration Testing: A Hands-On Introduction to Hacking book cover"
 ---
 
 <br>
-{% smart_image /books/assets/2021/penetration_testing_book.jpg 303 400 "{{ page.image_alt }}" eager high %}
+{% smart_image "{{ page.image }}" "{{ page.image_width }}" "{{ page.image_height }}" "{{ page.image_alt }}" eager high %}
 <br>
 
 ## Amazon[^1] Description

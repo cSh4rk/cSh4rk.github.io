@@ -2,14 +2,17 @@
 title: "Expert Lab: Reflected XSS in a JavaScript URL with some characters blocked"
 published: true
 tags: [Web Application Security, Web Security Academy, Expert Labs, Cross-Site Scripting, XSS, Javascript]
-image: /blog/assets/2022/hacker.png
 description: "Lab Description: This lab reflects your input in a JavaScript URL, but all is not as it seems. This initially seems like a trivial challenge; however, the application is blocking some characters in an attempt to prevent XSS attacks."
-image_width: "130"
-image_height: "130"
+image: /blog/assets/2022/hacker.png
+image_width: "256"
+image_height: "256"
+thumb_path: /blog/assets/2022/hacker-thumb.png
+thumb_width: "130"
+thumb_height: "130"
 ---
 
 <br>
-{% smart_image /blog/assets/2022/hacker.png 256 256 "" eager high %}
+{% smart_image "{{ page.image }}" "{{ page.image_width }}" "{{ page.image_height }}" "{{ page.image_alt }}" eager high %}
 [^1]
 <br>
 
