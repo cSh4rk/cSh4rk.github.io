@@ -9,6 +9,7 @@ image_height: "256"
 thumb_path: /blog/assets/2025/website-boost-thumb.png
 thumb_width: "130"
 thumb_height: "130"
+update: 2025-10-01
 ---
 
 <br>
@@ -70,6 +71,8 @@ These are some tips to improve your website, examples are for Jekyll as my websi
   {% smart_image /blog/assets/2025/website-boost-cloudflare3.png 1031 542 "Scrape Shield settings in Cloudflare web panel" lazy "" webp async "" list %}
   <br>
 
+There are many more Cloudflare features that can help us run a more fast, optimized and secure website. I may write a post in the future dedicated to the most useful Cloudflare settings for websites.
+
 <br>
 
 ## 2) Reduce Cumulative Layout Shift(CLS)
@@ -114,8 +117,11 @@ These are some tips to improve your website, examples are for Jekyll as my websi
   ```bash
   # for images
   ## mainly used
+  ### convert png/jpg to webp/avif:
   cwebp -q 90 -near_lossless 95 -m 6 test.png -o test.webp
   magick test.png -quality 80 test.avif
+  ### resize png/jpg, keep aspect ratio(example: use 130x for width: 130, use x130 for height: 130 ):
+  magick why-we-sleep-book.jpg -resize 130x why-we-sleep-book-thumb.jpg
 
   ## some other variations that had good results for me
   ffmpeg -i test.png -c:v libaom-av1 -crf 20 -b:v 0 test.avif
