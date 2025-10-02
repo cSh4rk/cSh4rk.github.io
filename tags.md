@@ -36,7 +36,7 @@ hero-poster: /assets/robot4.avif
 {% assign taglist = site.tags | sort %}
 {% for tag in taglist %}
   <div class="tags" id="{{ tag[0] | replace: " " , "-" | downcase }}">{{ tag[0] }}</div>
-  <ul>
+  <ul class="topic-list">
     {% assign list = tag[1] %}  
     {% for post in list %}
 

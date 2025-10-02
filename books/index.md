@@ -36,7 +36,7 @@ hero-poster: /books/assets/robot2.avif
           <h3>{{ book.date | date: '%Y' }}</h3>
         {% endif %}
       {% endif %}
-        <ul>
+        <ul  class="topic-list-subtle">
           <li><time datetime="{{ book.date | date_to_xmlschema }}">{{ book.date | date:"%d %b" }} - </time>
             <a href="{{ book.url | prepend: site.baseurl | replace: '//', '/' }}">
               {{ book.title }}

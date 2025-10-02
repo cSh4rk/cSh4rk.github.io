@@ -36,7 +36,7 @@ hero-poster: /links/assets/robot3.avif
           <h3>{{ link.date | date: '%Y' }}</h3>
         {% endif %}
       {% endif %}
-        <ul>
+        <ul  class="topic-list-subtle">
           <li><time datetime="{{ link.date | date_to_xmlschema }}">{{ link.date | date:"%d %b" }} - </time>
             <a href="{{ link.url | prepend: site.baseurl | replace: '//', '/' }}">
               {{ link.title }}
