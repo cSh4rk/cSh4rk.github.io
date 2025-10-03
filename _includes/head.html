@@ -19,7 +19,41 @@
   {% endif %}
   </title>
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | replace: '//', '/' }}">
+  {%- assign skip_critical = false -%}
+  {%- if page.layout == "post" and page.categories contains "links" -%}
+    {%- assign skip_critical = true -%}
+  {%- elsif page.url == "/kevin-mitnick" or page.url == "/kevin-mitnick/" -%}
+    {%- assign skip_critical = true -%}
+  {%- endif -%}
+
+  {% if skip_critical %}
+    <!-- Skip critical CSS, load full CSS -->
+    <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
+  {% else %}
+    {% if page.layout == "post" %}
+      <style>
+        @media (max-width: 600px) { {% include critical-post-mobile.css %} }
+        @media (min-width: 601px) and (max-width: 840px) { {% include critical-post-tablet.css %} }
+        @media (min-width: 841px) { {% include critical-post-desktop.css %} }
+      </style>
+    {% elsif page.layout == "page" %}
+      <style>
+        @media (max-width: 600px) { {% include critical-page-mobile.css %} }
+        @media (min-width: 601px) and (max-width: 840px) { {% include critical-page-tablet.css %} }
+        @media (min-width: 841px) { {% include critical-page-desktop.css %} }
+      </style>
+    {% else %}
+      <style>
+        @media (max-width: 600px) { {% include critical-home-mobile.css %} }
+        @media (min-width: 601px) and (max-width: 840px) { {% include critical-home-tablet.css %} }
+        @media (min-width: 841px) { {% include critical-home-desktop.css %} }
+      </style>
+    {% endif %}
+
+    <link rel="preload" href="{{ '/css/main.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}"></noscript>
+  {% endif %}
+
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">

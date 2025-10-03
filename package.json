@@ -6,11 +6,28 @@
     "build:jekyll": "bundle exec jekyll build",
     "copy-css": "node copy-css.js",
     "build:postcss": "postcss \"_site/css/main.css\" -o \"_site/css/main.css\"",
-    "build": "npm run build:jekyll && npm run copy-css && npm run build:postcss"
+    "critical:home:mobile": "npx critical _site/index.html --base=_site --css=_site/css/main.css --width=412 --height=667 --rebase > _includes/critical-home-mobile.css || echo 'Skipped home mobile critical'",
+    "critical:home:tablet": "npx critical _site/index.html --base=_site --css=_site/css/main.css --width=768 --height=800 --rebase > _includes/critical-home-tablet.css || echo 'Skipped home tablet critical'",
+    "critical:home:desktop": "npx critical _site/index.html --base=_site --css=_site/css/main.css --width=1440 --height=800 --rebase > _includes/critical-home-desktop.css || echo 'Skipped home desktop critical'",
+    "critical:post:mobile": "npx critical _site/blog/2025/quick-tips-for-a-better-website.html --base=_site --css=_site/css/main.css --width=412 --height=667 --rebase > _includes/critical-post-mobile.css || echo 'Skipped post mobile critical'",
+    "critical:post:tablet": "npx critical _site/blog/2025/quick-tips-for-a-better-website.html --base=_site --css=_site/css/main.css --width=768 --height=800 --rebase > _includes/critical-post-tablet.css || echo 'Skipped post tablet critical'",
+    "critical:post:desktop": "npx critical _site/blog/2025/quick-tips-for-a-better-website.html --base=_site --css=_site/css/main.css --width=1440 --height=800 --rebase > _includes/critical-post-desktop.css || echo 'Skipped post desktop critical'",
+    "critical:page:mobile": "npx critical _site/blog/index.html --base=_site --css=_site/css/main.css --width=412 --height=667 --rebase > _includes/critical-page-mobile.css || echo 'Skipped page mobile critical'",
+    "critical:page:tablet": "npx critical _site/blog/index.html --base=_site --css=_site/css/main.css --width=768 --height=800 --rebase > _includes/critical-page-tablet.css || echo 'Skipped page tablet critical'",
+    "critical:page:desktop": "npx critical _site/blog/index.html --base=_site --css=_site/css/main.css --width=1440 --height=800 --rebase > _includes/critical-page-desktop.css || echo 'Skipped page desktop critical'",
+    "critical:home": "npm run critical:home:mobile && npm run critical:home:tablet && npm run critical:home:desktop",
+    "critical:post": "npm run critical:post:mobile && npm run critical:post:tablet && npm run critical:post:desktop",
+    "critical:page": "npm run critical:page:mobile && npm run critical:page:tablet && npm run critical:page:desktop",
+    "critical": "npm run critical:home && npm run critical:post && npm run critical:page",
+    "build": "npm run build:jekyll && npm run copy-css && npm run build:postcss && npm run critical && npm run build:jekyll"
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "7.0.2",
+    "critical": "7.2.1",
     "postcss": "8.5.6",
-    "postcss-cli": "11.0.1",
-    "@fullhuman/postcss-purgecss": "7.0.2"
+    "postcss-cli": "11.0.1"
   }
 }
+
+
+
