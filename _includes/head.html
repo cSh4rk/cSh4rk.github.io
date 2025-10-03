@@ -28,7 +28,7 @@
 
   {% if skip_critical %}
     <!-- Skip critical CSS, load full CSS -->
-    <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl | replace: '//', '/' }}">
   {% else %}
     {% if page.layout == "post" %}
       <style>
@@ -50,8 +50,8 @@
       </style>
     {% endif %}
 
-    <link rel="preload" href="{{ '/css/main.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}"></noscript>
+    <link rel="preload" href="{{ '/css/main.css' | prepend: site.baseurl | replace: '//', '/' }}" as="style">
+    <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl | replace: '//', '/' }}">
   {% endif %}
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
