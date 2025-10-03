@@ -38,7 +38,7 @@ $tablet: 600px;
 body {
   margin: 0;
   padding: 0;
-  background: $body-background url("../assets/bkg.png") 0 0;
+  background: $body-background url("/assets/bkg.png") 0 0;
   color: $body-foreground;
   font-size: 16px;
   line-height: 1.5;
@@ -217,7 +217,7 @@ dt {
 }
 
 ul li {
-  list-style-image:url('../assets/bullet.png');
+  list-style-image:url('/assets/bullet.png');
 }
 
 .topic-list {
@@ -322,7 +322,7 @@ hr {
 
 .btn-github .icon {
   opacity: 0.6;
-  background: url("../images/blacktocat.png") 0 0 no-repeat;
+  background: url("/assets/blacktocat.png") 0 0 no-repeat;
 }
 
 // Links
