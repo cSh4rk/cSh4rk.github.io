@@ -24,7 +24,7 @@ image: /assets/ninja-big.png
             <p>
               {% smart_image "{{ post.thumb_path }}" "{{ post.thumb_width }}" "{{ post.thumb_height }}" "{{ post.image_alt }}" eager high %}
             </p>
-          {% elsif forloop.index == 2 or forloop.index == 3 %}
+          {% elsif forloop.index == 2 %}
             <p>
               {% smart_image "{{ post.thumb_path }}" "{{ post.thumb_width }}" "{{ post.thumb_height }}" "{{ post.image_alt }}" eager "" avif async %}
             </p>
