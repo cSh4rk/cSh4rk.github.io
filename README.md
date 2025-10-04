@@ -15,7 +15,7 @@ In this edition of the Hacker Theme:
   - Ability to show updated date for posts (in addition to published date).
   - Smart image format selector Jekyll plugin: this Ruby plugin is built for easier implementation of pictures on web pages, this plugin uses a fallback mechanism for pictures: it searches for the picture in avif format and uses it, if avif wasn't found, searches for webP and if it wasn't found either, it searches for original picture format(PNG,JPG...) AVIF -> webP -> Original format(PNG,JPG...) with the ability to set some attributes for images (`width` `height` `alt` `loading` `fetchpriority` `first_format` `decoding` `classname`).
   - Expanded page style codes for more features: hover effects for different hyperlinks, fragment highlight animations, responsive classes and more.
-  - Ability to use PurgeCSS post website build to remove unused CSS codes( use `npm install` in project folder ).
+  - Contains code to use PurgeCSS post website build to remove unused CSS codes( use `npm install` in project folder ).
   - Favicon is chosen based on the viewer's device.
   - Fixed and completed RSS feed.
   - Added new options for page frontmatter, examples: robots: add robots rules for the page, hero-poster: add hero poster for hero videos on pages to use them with preload for faster load(it sets fetchpriority=high for hero poster).
@@ -24,6 +24,7 @@ In this edition of the Hacker Theme:
   - Some structural modifications for better SEO.
   - Some changes for better accessibility: aria attributes for SVG images used in website footer and posts, and more.
   - A Jekyll plugin to remove deprecated ARIA roles from Jekyll footnotes.
+  - Contains code to use Critical post-build to inline critical CSS for different webpages. 
 
 ✔ Multiple bugs in the original theme are fixed. 
 
