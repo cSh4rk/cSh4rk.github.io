@@ -18,7 +18,7 @@ In this edition of the Hacker Theme:
   - Contains code to use PurgeCSS post website build to remove unused CSS codes( use `npm install` in project folder ).
   - Favicon is chosen based on the viewer's device.
   - Fixed and completed RSS feed.
-  - Added new options for page frontmatter, examples: robots: add robots rules for the page, hero-poster: add hero poster for hero videos on pages to use them with preload for faster load(it sets fetchpriority=high for hero poster).
+  - Added new options for page frontmatter, examples: post image thumbnails, robots: add robots rules for the page, hero-poster: add hero poster for hero videos on pages to use them with preload for faster load(it sets fetchpriority=high for hero poster).
   - Modern Cyberpunk neon navigation buttons.
   - security.txt file and a mechanism to automatically update the expire date in the file.
   - Some structural modifications for better SEO.
