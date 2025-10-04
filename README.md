@@ -24,7 +24,7 @@ In this edition of the Hacker Theme:
   - Some structural modifications for better SEO.
   - Some changes for better accessibility: aria attributes for SVG images used in website footer and posts, and more.
   - A Jekyll plugin to remove deprecated ARIA roles from Jekyll footnotes.
-  - Contains code to use Critical post-build to inline critical CSS for different webpages. 
+  - Contains code to use Critical post-build to inline critical CSS for different page layouts. 
 
 ✔ Multiple bugs in the original theme are fixed. 
 
