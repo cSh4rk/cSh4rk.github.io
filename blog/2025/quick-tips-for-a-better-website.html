@@ -110,7 +110,7 @@
   </div>
   <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 3H18V1H16V3H8V1H6V3H5C3.9 3 3 3.89 3 5V19C3 20.11 3.9 21 5 21H19C20.11 21 21 20.11 21 19V5C21 3.89 20.11 3 19 3M19 19H5V9H19V19M19 7H5V5H19M7 11H12V16H7" /></svg></span>
   <time datetime="2025-09-25T00:00:00-04:00" class="by-line"><strong>Published: </strong>25 Sep 2025</time>
-  <time datetime="2025-10-01T00:00:00-04:00" class="by-line">&nbsp;&nbsp;<strong>Updated: </strong>01 Oct 2025</time>
+  <time datetime="2025-10-04T00:00:00-04:00" class="by-line">&nbsp;&nbsp;<strong>Updated: </strong>04 Oct 2025</time>
   <p><br /></p>
 <picture>
   <source srcset="/blog/assets/2025/website-boost.avif" type="image/avif" />
@@ -479,7 +479,7 @@ So that you can optimize these pictures and use smaller and more modern image fo
   <li>
     <p>Create a clean workflow for website build in <code class="language-plaintext highlighter-rouge">main</code> branch and publish in <code class="language-plaintext highlighter-rouge">gh-pages</code> branch:</p>
 
-    <p>Example: Here is mine so far, I build my Jekyll website locally. I’ll add critical CSS extraction later to my current build.</p>
+    <p>Example: Here is my build workflow:</p>
 
     <p>For <code class="language-plaintext highlighter-rouge">main</code> branch and site build:</p>
 
@@ -496,26 +496,44 @@ So that you can optimize these pictures and use smaller and more modern image fo
     </span><span class="nl">"build:jekyll"</span><span class="p">:</span><span class="w"> </span><span class="s2">"bundle exec jekyll build"</span><span class="p">,</span><span class="w">
     </span><span class="nl">"copy-css"</span><span class="p">:</span><span class="w"> </span><span class="s2">"node copy-css.js"</span><span class="p">,</span><span class="w">
     </span><span class="nl">"build:postcss"</span><span class="p">:</span><span class="w"> </span><span class="s2">"postcss </span><span class="se">\"</span><span class="s2">_site/css/main.css</span><span class="se">\"</span><span class="s2"> -o </span><span class="se">\"</span><span class="s2">_site/css/main.css</span><span class="se">\"</span><span class="s2">"</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"build"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npm run build:jekyll &amp;&amp; npm run copy-css &amp;&amp; npm run build:postcss"</span><span class="w">
+    </span><span class="nl">"critical:home:mobile"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx critical _site/index.html --base=_site --css=_site/css/main.css --width=412 --height=667 &gt; _includes/critical-home-mobile.css || echo 'Skipped home mobile critical'"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"critical:home:tablet"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx critical _site/index.html --base=_site --css=_site/css/main.css --width=768 --height=800 &gt; _includes/critical-home-tablet.css || echo 'Skipped home tablet critical'"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"critical:home:desktop"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx critical _site/index.html --base=_site --css=_site/css/main.css --width=1440 --height=800 &gt; _includes/critical-home-desktop.css || echo 'Skipped home desktop critical'"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"critical:post:mobile"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx critical _site/blog/2025/quick-tips-for-a-better-website.html --base=_site --css=_site/css/main.css --width=412 --height=667 &gt; _includes/critical-post-mobile.css || echo 'Skipped post mobile critical'"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"critical:post:tablet"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx critical _site/blog/2025/quick-tips-for-a-better-website.html --base=_site --css=_site/css/main.css --width=768 --height=800 &gt; _includes/critical-post-tablet.css || echo 'Skipped post tablet critical'"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"critical:post:desktop"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx critical _site/blog/2025/quick-tips-for-a-better-website.html --base=_site --css=_site/css/main.css --width=1440 --height=800 &gt; _includes/critical-post-desktop.css || echo 'Skipped post desktop critical'"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"critical:page:mobile"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx critical _site/books/index.html --base=_site --css=_site/css/main.css --width=412 --height=667 &gt; _includes/critical-page-mobile.css || echo 'Skipped page mobile critical'"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"critical:page:tablet"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx critical _site/books/index.html --base=_site --css=_site/css/main.css --width=768 --height=800 &gt; _includes/critical-page-tablet.css || echo 'Skipped page tablet critical'"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"critical:page:desktop"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx critical _site/books/index.html --base=_site --css=_site/css/main.css --width=1440 --height=800 &gt; _includes/critical-page-desktop.css || echo 'Skipped page desktop critical'"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"critical:home"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npm run critical:home:mobile &amp;&amp; npm run critical:home:tablet &amp;&amp; npm run critical:home:desktop"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"critical:post"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npm run critical:post:mobile &amp;&amp; npm run critical:post:tablet &amp;&amp; npm run critical:post:desktop"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"critical:page"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npm run critical:page:mobile &amp;&amp; npm run critical:page:tablet &amp;&amp; npm run critical:page:desktop"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"critical"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npm run critical:home &amp;&amp; npm run critical:post &amp;&amp; npm run critical:page"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"build"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npm run build:jekyll &amp;&amp; npm run copy-css &amp;&amp; npm run build:postcss &amp;&amp; npm run critical &amp;&amp; npm run build:jekyll"</span><span class="w">
   </span><span class="p">},</span><span class="w">
   </span><span class="nl">"devDependencies"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"@fullhuman/postcss-purgecss"</span><span class="p">:</span><span class="w"> </span><span class="s2">"7.0.2"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"critical"</span><span class="p">:</span><span class="w"> </span><span class="s2">"7.2.1"</span><span class="p">,</span><span class="w">
     </span><span class="nl">"postcss"</span><span class="p">:</span><span class="w"> </span><span class="s2">"8.5.6"</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"postcss-cli"</span><span class="p">:</span><span class="w"> </span><span class="s2">"11.0.1"</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"@fullhuman/postcss-purgecss"</span><span class="p">:</span><span class="w"> </span><span class="s2">"7.0.2"</span><span class="w">
+    </span><span class="nl">"postcss-cli"</span><span class="p">:</span><span class="w"> </span><span class="s2">"11.0.1"</span><span class="w">
   </span><span class="p">}</span><span class="w">
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div>    </div>
 
-    <p><code class="language-plaintext highlighter-rouge">copy-css.js</code> copies the original CSS file so that I can compare it to the one PostCSS creates to make sure nothing necessary is removed.</p>
+    <p><code class="language-plaintext highlighter-rouge">copy-css</code> copies the original CSS file so that I can compare it to the one PostCSS creates to make sure nothing necessary is removed.</p>
+
+    <p><code class="language-plaintext highlighter-rouge">build:postcss</code> removes unused CSS lines.</p>
+
+    <p><code class="language-plaintext highlighter-rouge">critical</code> lines extract critical CSS for desktop, tablet and mobile viewports for website layouts: home(default), post and page, since all website pages use one of these layouts.</p>
 
     <p>Codes for all of these files exist in my website GitHub repo.</p>
 
-    <p>For <code class="language-plaintext highlighter-rouge">gh-pages</code> branch that is used for publishing website to GitHub Pages:</p>
+    <p>For <code class="language-plaintext highlighter-rouge">gh-pages</code> branch that is used for publishing website files for GitHub Pages:</p>
 
-    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1️⃣ Prepare .gitignore <span class="k">in </span>gh-pages
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 1️⃣ Prepare .gitignore in gh-pages</span>
 git checkout gh-pages
 
-Make sure .gitignore exists and includes only what you want ignored:
+<span class="c"># Make sure .gitignore exists and includes only what you want ignored:</span>
 _site/
 CNAME
 css/main.original.css
@@ -526,28 +544,35 @@ node_modules/
 <span class="c"># Jekyll build cache</span>
 .jekyll-cache/
 
-Commit <span class="k">if </span>needed:
+<span class="c"># Commit if needed:</span>
 git add .gitignore
 git commit <span class="nt">-m</span> <span class="s2">"Fix .gitignore for gh-pages"</span>
 
-2️⃣ Clean the branch safely
-Remove all tracked files except .gitignore and CNAME:
-git ls-files | Where-Object <span class="o">{</span> <span class="nv">$_</span> <span class="nt">-notin</span> @<span class="o">(</span><span class="s1">'.gitignore'</span>, <span class="s1">'CNAME'</span><span class="o">)</span> <span class="o">}</span> | ForEach-Object <span class="o">{</span> git <span class="nb">rm</span> <span class="nt">-r</span> <span class="nt">--cached</span> <span class="nv">$_</span> <span class="o">}</span>
+<span class="c"># 2️⃣ Clean branch root but keep .git, .gitignore, CNAME, node_modules</span>
+Get-ChildItem <span class="nt">-Force</span> | Where-Object <span class="o">{</span>
+    <span class="nv">$_</span>.Name <span class="nt">-notin</span> @<span class="o">(</span><span class="s1">'.git'</span>, <span class="s1">'.gitignore'</span>, <span class="s1">'node_modules'</span>, <span class="s1">'_site'</span><span class="o">)</span>
+<span class="o">}</span> | Remove-Item <span class="nt">-Recurse</span> <span class="nt">-Force</span>
 
-Optional: delete temporary or cache files:
+<span class="c"># Optional: delete temporary or cache files:</span>
 <span class="k">if</span> <span class="o">(</span>Test-Path <span class="s2">".jekyll-cache"</span><span class="o">)</span> <span class="o">{</span> Remove-Item <span class="nt">-Recurse</span> <span class="nt">-Force</span> .jekyll-cache <span class="o">}</span>
 <span class="k">if</span> <span class="o">(</span>Test-Path <span class="s2">"_site/css/main.original.css"</span><span class="o">)</span> <span class="o">{</span> Remove-Item <span class="nt">-Force</span> <span class="s2">"_site/css/main.original.css"</span> <span class="o">}</span>
 
-Untracked files like node_modules are automatically ignored because of .gitignore.
-
-3️⃣ Copy _site contents into branch root
+<span class="c"># 3️⃣ Copy fresh _site contents into repo root</span>
 robocopy <span class="s2">"_site"</span> <span class="s2">"."</span> /E
 
-4️⃣ Stage and commit only the intended files
-<span class="c"># git status  (optional: to see if there's any changes)</span>
+<span class="c"># 4️⃣ Stage all changes</span>
 git add <span class="nb">.</span>
-git commit <span class="nt">-m</span> <span class="s2">"Update site from _site"</span>
-git push origin gh-pages
+
+<span class="c"># 5️⃣ Show what will be committed</span>
+git status
+
+<span class="c"># 6️⃣ Commit &amp; push automatically if there are changes</span>
+<span class="k">if</span> <span class="o">(</span><span class="nt">-not</span> <span class="o">(</span>git diff <span class="nt">--cached</span> <span class="nt">--quiet</span><span class="o">))</span> <span class="o">{</span>
+    git commit <span class="nt">-m</span> <span class="s2">"Update site from _site"</span>
+    git push origin gh-pages
+<span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+    Write-Output <span class="s2">"No changes to commit. Nothing to push."</span>
+<span class="o">}</span>
 </code></pre></div>    </div>
 
     <p>The result: built website code is committed and pushed to the <code class="language-plaintext highlighter-rouge">gh-pages</code> branch of my website<sup id="fnref:14"><a href="#fn:14" class="footnote" rel="footnote">14</a></sup> on GitHub.</p>
