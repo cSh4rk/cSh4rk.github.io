@@ -9,7 +9,7 @@ image_height: "256"
 thumb_path: /blog/assets/2025/website-boost-thumb.png
 thumb_width: "130"
 thumb_height: "130"
-updated: 2025-10-01
+updated: 2025-10-04
 ---
 
 <br>
@@ -327,7 +327,7 @@ There are many more Cloudflare features that can help us run a more fast, optimi
 
 - Create a clean workflow for website build in `main` branch and publish in `gh-pages` branch:
 
-  Example: Here is mine so far, I build my Jekyll website locally. I'll add critical CSS extraction later to my current build.
+  Example: Here is my build workflow:
 
   For `main` branch and site build:
 
@@ -349,29 +349,47 @@ There are many more Cloudflare features that can help us run a more fast, optimi
       "build:jekyll": "bundle exec jekyll build",
       "copy-css": "node copy-css.js",
       "build:postcss": "postcss \"_site/css/main.css\" -o \"_site/css/main.css\"",
-      "build": "npm run build:jekyll && npm run copy-css && npm run build:postcss"
+      "critical:home:mobile": "npx critical _site/index.html --base=_site --css=_site/css/main.css --width=412 --height=667 > _includes/critical-home-mobile.css || echo 'Skipped home mobile critical'",
+      "critical:home:tablet": "npx critical _site/index.html --base=_site --css=_site/css/main.css --width=768 --height=800 > _includes/critical-home-tablet.css || echo 'Skipped home tablet critical'",
+      "critical:home:desktop": "npx critical _site/index.html --base=_site --css=_site/css/main.css --width=1440 --height=800 > _includes/critical-home-desktop.css || echo 'Skipped home desktop critical'",
+      "critical:post:mobile": "npx critical _site/blog/2025/quick-tips-for-a-better-website.html --base=_site --css=_site/css/main.css --width=412 --height=667 > _includes/critical-post-mobile.css || echo 'Skipped post mobile critical'",
+      "critical:post:tablet": "npx critical _site/blog/2025/quick-tips-for-a-better-website.html --base=_site --css=_site/css/main.css --width=768 --height=800 > _includes/critical-post-tablet.css || echo 'Skipped post tablet critical'",
+      "critical:post:desktop": "npx critical _site/blog/2025/quick-tips-for-a-better-website.html --base=_site --css=_site/css/main.css --width=1440 --height=800 > _includes/critical-post-desktop.css || echo 'Skipped post desktop critical'",
+      "critical:page:mobile": "npx critical _site/books/index.html --base=_site --css=_site/css/main.css --width=412 --height=667 > _includes/critical-page-mobile.css || echo 'Skipped page mobile critical'",
+      "critical:page:tablet": "npx critical _site/books/index.html --base=_site --css=_site/css/main.css --width=768 --height=800 > _includes/critical-page-tablet.css || echo 'Skipped page tablet critical'",
+      "critical:page:desktop": "npx critical _site/books/index.html --base=_site --css=_site/css/main.css --width=1440 --height=800 > _includes/critical-page-desktop.css || echo 'Skipped page desktop critical'",
+      "critical:home": "npm run critical:home:mobile && npm run critical:home:tablet && npm run critical:home:desktop",
+      "critical:post": "npm run critical:post:mobile && npm run critical:post:tablet && npm run critical:post:desktop",
+      "critical:page": "npm run critical:page:mobile && npm run critical:page:tablet && npm run critical:page:desktop",
+      "critical": "npm run critical:home && npm run critical:post && npm run critical:page",
+      "build": "npm run build:jekyll && npm run copy-css && npm run build:postcss && npm run critical && npm run build:jekyll"
     },
     "devDependencies": {
+      "@fullhuman/postcss-purgecss": "7.0.2",
+      "critical": "7.2.1",
       "postcss": "8.5.6",
-      "postcss-cli": "11.0.1",
-      "@fullhuman/postcss-purgecss": "7.0.2"
+      "postcss-cli": "11.0.1"
     }
   }
   ```
   {% endraw %}
 
-  `copy-css.js` copies the original CSS file so that I can compare it to the one PostCSS creates to make sure nothing necessary is removed.
+  `copy-css` copies the original CSS file so that I can compare it to the one PostCSS creates to make sure nothing necessary is removed.
+
+  `build:postcss` removes unused CSS lines.
+
+  `critical` lines extract critical CSS for desktop, tablet and mobile viewports for website layouts: home(default), post and page, since all website pages use one of these layouts. 
 
   Codes for all of these files exist in my website GitHub repo.
 
-  For `gh-pages` branch that is used for publishing website to GitHub Pages:
+  For `gh-pages` branch that is used for publishing website files for GitHub Pages:
 
   {% raw %}
   ```bash
-  1️⃣ Prepare .gitignore in gh-pages
+  # 1️⃣ Prepare .gitignore in gh-pages
   git checkout gh-pages
 
-  Make sure .gitignore exists and includes only what you want ignored:
+  # Make sure .gitignore exists and includes only what you want ignored:
   _site/
   CNAME
   css/main.original.css
@@ -382,28 +400,35 @@ There are many more Cloudflare features that can help us run a more fast, optimi
   # Jekyll build cache
   .jekyll-cache/
 
-  Commit if needed:
+  # Commit if needed:
   git add .gitignore
   git commit -m "Fix .gitignore for gh-pages"
 
-  2️⃣ Clean the branch safely
-  Remove all tracked files except .gitignore and CNAME:
-  git ls-files | Where-Object { $_ -notin @('.gitignore', 'CNAME') } | ForEach-Object { git rm -r --cached $_ }
+  # 2️⃣ Clean branch root but keep .git, .gitignore, CNAME, node_modules
+  Get-ChildItem -Force | Where-Object {
+      $_.Name -notin @('.git', '.gitignore', 'node_modules', '_site')
+  } | Remove-Item -Recurse -Force
 
-  Optional: delete temporary or cache files:
+  # Optional: delete temporary or cache files:
   if (Test-Path ".jekyll-cache") { Remove-Item -Recurse -Force .jekyll-cache }
   if (Test-Path "_site/css/main.original.css") { Remove-Item -Force "_site/css/main.original.css" }
 
-  Untracked files like node_modules are automatically ignored because of .gitignore.
-
-  3️⃣ Copy _site contents into branch root
+  # 3️⃣ Copy fresh _site contents into repo root
   robocopy "_site" "." /E
 
-  4️⃣ Stage and commit only the intended files
-  # git status  (optional: to see if there's any changes)
+  # 4️⃣ Stage all changes
   git add .
-  git commit -m "Update site from _site"
-  git push origin gh-pages
+
+  # 5️⃣ Show what will be committed
+  git status
+
+  # 6️⃣ Commit & push automatically if there are changes
+  if (-not (git diff --cached --quiet)) {
+      git commit -m "Update site from _site"
+      git push origin gh-pages
+  } else {
+      Write-Output "No changes to commit. Nothing to push."
+  }
   ```
   {% endraw %}
 
