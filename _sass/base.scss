@@ -693,7 +693,7 @@ a.footnote:after {
 
 // End of Footnotes
 
-// Buttons ( 09272025 Added )
+// Buttons ( 09272025 Added, 10052025 Edited)
 
 .button {
   --glow-color: rgb(176, 252, 255);
@@ -710,21 +710,25 @@ a.footnote:after {
   border-radius: 2em;
   outline: none;
   text-decoration: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 
+  /* Baseline glow */
   box-shadow: 
-      0 0 0.3em 0.08em var(--glow-color),
-      0 0 1.1em 0.3em var(--glow-spread-color),
-      inset 0 0 0.3em 0.08em var(--glow-color);
+    0 0 0.3em 0.08em var(--glow-color),
+    0 0 1.1em 0.3em var(--glow-spread-color),
+    inset 0 0 0.3em 0.08em var(--glow-color);
 
   text-shadow: 0 0 0.25em var(--glow-color);
   position: relative;
-  transition: all 0.3s;
-  z-index: 1; /* keep text above everything */
-
-  /* Optional: maintain spacing between buttons on medium+ screens */
+  transition: box-shadow 0.3s cubic-bezier(0.4,0,0.2,1),
+              transform 0.25s cubic-bezier(0.4,0,0.2,1),
+              color 0.25s;
+  will-change: box-shadow, transform, opacity;
+  z-index: 1;
   margin: 0.2em;
 
-  /* Reflection below */
+  /* Reflection */
   &::after {
     pointer-events: none;
     content: "";
@@ -737,9 +741,11 @@ a.footnote:after {
     filter: blur(0.25em);
     opacity: 0.15;
     transform: perspective(1.5em) rotateX(35deg) scale(1, 0.6);
+    transition: opacity 0.3s;
+    z-index: 0;
   }
 
-  /* OUTER Pulse Layer */
+  /* Outer pulse */
   &::before {
     content: '';
     position: absolute;
@@ -755,51 +761,71 @@ a.footnote:after {
     animation: pulseGlow 3.5s ease-in-out infinite;
   }
 
-  /* Hover state */
-  &:hover {
+  /* Hover / focus */
+  &:hover,
+  &:focus-within {
     color: var(--btn-color);
     background-color: var(--glow-color);
     transform: scale(1.05);
     box-shadow: 
-        0 0 0.5em 0.1em var(--glow-color),
-        0 0 2em 1em var(--glow-spread-color),
-        inset 0 0 0.5em 0.1em var(--glow-color);
-    
-    &::before {
-      opacity: 0.2;
-    }
+      0 0 0.5em 0.1em var(--glow-color),
+      0 0 2em 1em var(--glow-spread-color),
+      inset 0 0 0.5em 0.1em var(--glow-color);
+
+    &::before { opacity: 0.2; }
+    &::after { opacity: 0.18; }
   }
 
-  /* Active state */
+  /* Active */
   &:active {
+    transform: scale(0.98);
     box-shadow: 
-        0 0 0.3em 0.1em var(--glow-color),
-        0 0 1.2em 0.8em var(--glow-spread-color),
-        inset 0 0 0.3em 0.1em var(--glow-color);
+      0 0 0.3em 0.1em var(--glow-color),
+      0 0 1.2em 0.8em var(--glow-spread-color),
+      inset 0 0 0.3em 0.1em var(--glow-color);
+  }
+
+  /* Focus-visible accessibility */
+  &:focus-visible {
+    outline: 3px solid var(--enhanced-glow-color);
+    outline-offset: 4px;
+    box-shadow:
+      0 0 0.6em 0.12em var(--enhanced-glow-color),
+      0 0 2.2em 0.5em var(--glow-spread-color),
+      inset 0 0 0.4em 0.1em var(--enhanced-glow-color);
   }
 
   /* Mobile tweaks */
   @include mobile {
-      padding: 0.3em 1.5em;
-      font-size: 12px;
-      margin: 0.3em 0;
-      box-shadow: 
-          0 0 0.3em 0.05em var(--glow-color),
-          0 0 0.8em 0.3em var(--glow-spread-color),
-          inset 0 0 0.3em 0.05em var(--glow-color);
+    padding: 0.3em 1.5em;
+    font-size: 12px;
+    margin: 0.3em 0;
+    box-shadow:
+      0 0 0.3em 0.05em var(--glow-color),
+      0 0 0.8em 0.3em var(--glow-spread-color),
+      inset 0 0 0.3em 0.05em var(--glow-color);
 
-      &::after {
-        filter: blur(0.2em);
-        opacity: 0.15;
-        top: 110%;
-      }
+    &::after {
+      filter: blur(0.2em);
+      opacity: 0.15;
+      top: 110%;
+    }
   }
 
-  /* Pulse Animation */
+  /* Respect reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    & {
+      transition: none;
+      transform: none;
+    }
+    &::before { animation: none; }
+  }
+
+  /* Pulse animation */
   @keyframes pulseGlow {
-    0% { transform: scale(1); opacity: 0.12; }
-    50% { transform: scale(1.3); opacity: 0.22; }
-    100% { transform: scale(1); opacity: 0.12; }
+    0%   { transform: scale(1);   opacity: 0.12; }
+    50%  { transform: scale(1.3); opacity: 0.22; }
+    100% { transform: scale(1);   opacity: 0.12; }
   }
 }
 
