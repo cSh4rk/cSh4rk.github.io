@@ -9,7 +9,7 @@ image_height: "256"
 thumb_path: /blog/assets/2022/chart-search-icon-thumb.png
 thumb_width: "130"
 thumb_height: "130"
-updated: 2025-09-29
+updated: 2025-10-05
 ---
 
 <br>
@@ -33,26 +33,26 @@ Here is a list of some handy benchmarking tools for your website:
 <br>
 ### Structure check
 * * *
-* [Domain Health Report](https://mxtoolbox.com/domain/)
 * [Nu Html Checker](https://validator.w3.org/nu/)
 * [W3C Feed Validation Service](https://validator.w3.org/feed/)
 * [RSS Validator](https://www.rssboard.org/rss-validator/)
+* [Domain Health Report](https://mxtoolbox.com/domain/)
 
 <br>
 ### SEO
 ***
 * [Google SEO Checker 2.0](https://www.seoreviewtools.com/google-seo-checker/)
 * [Seobility Free SEO Checker](https://www.seobility.net/en/seocheck/)
-* [SEO Checker](https://www.semrush.com/siteaudit/)
-* [SEO Audit & Reporting Tool](https://www.seoptimer.com/)
 * [SEO Site Checkup](https://seositecheckup.com/)
+* [Seoptimer SEO Audit & Reporting Tool](https://www.seoptimer.com/)
 * [SEORCH](https://seorch.net/)
+* [Semrush SEO Checker](https://www.semrush.com/siteaudit/)
 
 <br>
 ### Security Check
 * * *
 #### General
-* [Is your Internet UP to Date?](https://en.internet.nl/)
+* [Internet.nl: Is your Internet UP to Date?](https://en.internet.nl/)
 * [The Mozilla Observatory](https://observatory.mozilla.org/)
 
 <br>
@@ -63,8 +63,8 @@ Here is a list of some handy benchmarking tools for your website:
 <br>
 #### HTTP Security Headers Check
 * [Security Headers](https://securityheaders.com/)
-* [CSP Evaluator](https://csp-evaluator.withgoogle.com/)
 * [CSP Analyser](https://report-uri.com/home/analyse/)
+* [CSP Evaluator](https://csp-evaluator.withgoogle.com/)
 
 <br>
 #### Email Security
