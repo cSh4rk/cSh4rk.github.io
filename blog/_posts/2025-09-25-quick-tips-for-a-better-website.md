@@ -9,7 +9,7 @@ image_height: "256"
 thumb_path: /blog/assets/2025/website-boost-thumb.png
 thumb_width: "130"
 thumb_height: "130"
-updated: 2025-10-04
+updated: 2025-10-05
 ---
 
 <br>
@@ -259,7 +259,7 @@ There are many more Cloudflare features that can help us run a more fast, optimi
 
 - Inline critical CSS:
 
-  Use a tool like Critical[^10] CSS(old, not maintained anymore), Penthouse[^11], Critters[^12] or Crittr[^13](recommended for Jekyll websites) to extract critical parts of CSS that are used for above the fold content of each of your important HTML pages and inline those parts of CSS for faster page loads. 
+  Use a tool like Critical[^10] CSS, Penthouse[^11], Critters[^12] or Crittr[^13] to extract critical parts of CSS that are used for above the fold content of each of your important HTML pages and inline those parts of CSS for faster page loads. 
 
 <br>
 <br>
