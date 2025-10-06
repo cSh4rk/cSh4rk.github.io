@@ -337,7 +337,7 @@ a:hover {
   text-shadow: 0 0 8px rgba(144, 215, 255, 0.8); /* stronger glow */
 }
 
-a:hover h1, a:hover h2 {
+a:hover h1, a:hover h2, a:hover .site-title {
   color: #d6ff6b; /* lighter neon green */
   text-shadow: 0 0 8px rgba(181, 232, 83, 0.8); /* glowing green */
 }
