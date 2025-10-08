@@ -110,7 +110,7 @@
   </div>
   <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 3H18V1H16V3H8V1H6V3H5C3.9 3 3 3.89 3 5V19C3 20.11 3.9 21 5 21H19C20.11 21 21 20.11 21 19V5C21 3.89 20.11 3 19 3M19 19H5V9H19V19M19 7H5V5H19M7 11H12V16H7" /></svg></span>
   <time datetime="2025-09-25T00:00:00-04:00" class="by-line"><strong>Published: </strong>25 Sep 2025</time>
-  <time datetime="2025-10-05T00:00:00-04:00" class="by-line">&nbsp;&nbsp;<strong>Updated: </strong>05 Oct 2025</time>
+  <time datetime="2025-10-07T00:00:00-04:00" class="by-line">&nbsp;&nbsp;<strong>Updated: </strong>07 Oct 2025</time>
   <p><br /></p>
 <picture>
   <source srcset="/blog/assets/2025/website-boost.avif" type="image/avif" />
@@ -479,7 +479,7 @@ So that you can optimize these pictures and use smaller and more modern image fo
   <li>
     <p>Create a clean workflow for website build in <code class="language-plaintext highlighter-rouge">main</code> branch and publish in <code class="language-plaintext highlighter-rouge">gh-pages</code> branch:</p>
 
-    <p>Example: Here is my build workflow:</p>
+    <p>Example: Here is my local build pipeline, fully automated:</p>
 
     <p>For <code class="language-plaintext highlighter-rouge">main</code> branch and site build:</p>
 
@@ -493,38 +493,61 @@ So that you can optimize these pictures and use smaller and more modern image fo
   </span><span class="nl">"version"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1.0.0"</span><span class="p">,</span><span class="w">
   </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"module"</span><span class="p">,</span><span class="w">
   </span><span class="nl">"scripts"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-    </span><span class="nl">"build:jekyll"</span><span class="p">:</span><span class="w"> </span><span class="s2">"bundle exec jekyll build"</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"copy-css"</span><span class="p">:</span><span class="w"> </span><span class="s2">"node copy-css.js"</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"build:postcss"</span><span class="p">:</span><span class="w"> </span><span class="s2">"postcss </span><span class="se">\"</span><span class="s2">_site/css/main.css</span><span class="se">\"</span><span class="s2"> -o </span><span class="se">\"</span><span class="s2">_site/css/main.css</span><span class="se">\"</span><span class="s2">"</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"critical:home:mobile"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx critical _site/index.html --base=_site --css=_site/css/main.css --width=412 --height=667 &gt; _includes/critical-home-mobile.css || echo 'Skipped home mobile critical'"</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"critical:home:tablet"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx critical _site/index.html --base=_site --css=_site/css/main.css --width=768 --height=800 &gt; _includes/critical-home-tablet.css || echo 'Skipped home tablet critical'"</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"critical:home:desktop"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx critical _site/index.html --base=_site --css=_site/css/main.css --width=1440 --height=800 &gt; _includes/critical-home-desktop.css || echo 'Skipped home desktop critical'"</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"critical:post:mobile"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx critical _site/blog/2025/quick-tips-for-a-better-website.html --base=_site --css=_site/css/main.css --width=412 --height=667 &gt; _includes/critical-post-mobile.css || echo 'Skipped post mobile critical'"</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"critical:post:tablet"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx critical _site/blog/2025/quick-tips-for-a-better-website.html --base=_site --css=_site/css/main.css --width=768 --height=800 &gt; _includes/critical-post-tablet.css || echo 'Skipped post tablet critical'"</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"critical:post:desktop"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx critical _site/blog/2025/quick-tips-for-a-better-website.html --base=_site --css=_site/css/main.css --width=1440 --height=800 &gt; _includes/critical-post-desktop.css || echo 'Skipped post desktop critical'"</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"critical:page:mobile"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx critical _site/books/index.html --base=_site --css=_site/css/main.css --width=412 --height=667 &gt; _includes/critical-page-mobile.css || echo 'Skipped page mobile critical'"</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"critical:page:tablet"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx critical _site/books/index.html --base=_site --css=_site/css/main.css --width=768 --height=800 &gt; _includes/critical-page-tablet.css || echo 'Skipped page tablet critical'"</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"critical:page:desktop"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npx critical _site/books/index.html --base=_site --css=_site/css/main.css --width=1440 --height=800 &gt; _includes/critical-page-desktop.css || echo 'Skipped page desktop critical'"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"build:jekyll:1"</span><span class="p">:</span><span class="w"> </span><span class="s2">"bundle exec jekyll build"</span><span class="p">,</span><span class="w">
+
+    </span><span class="nl">"postcss"</span><span class="p">:</span><span class="w"> </span><span class="s2">"postcss </span><span class="se">\"</span><span class="s2">_site/css/main.css</span><span class="se">\"</span><span class="s2"> -o </span><span class="se">\"</span><span class="s2">_site/css/main.css</span><span class="se">\"</span><span class="s2">"</span><span class="p">,</span><span class="w">
+
+    </span><span class="nl">"copy:minified-css"</span><span class="p">:</span><span class="w"> </span><span class="s2">"node copy-css.js </span><span class="se">\"</span><span class="s2">_site/css/main.css</span><span class="se">\"</span><span class="s2"> </span><span class="se">\"</span><span class="s2">css/temp.main.css</span><span class="se">\"</span><span class="s2">"</span><span class="p">,</span><span class="w">
+
+    </span><span class="nl">"postcss:critical"</span><span class="p">:</span><span class="w"> </span><span class="s2">"postcss </span><span class="se">\"</span><span class="s2">_site/css/main.css</span><span class="se">\"</span><span class="s2"> -o </span><span class="se">\"</span><span class="s2">_site/css/main-critical.css</span><span class="se">\"</span><span class="s2"> --env critical"</span><span class="p">,</span><span class="w">
+
+    </span><span class="nl">"critical:home:mobile"</span><span class="p">:</span><span class="w"> </span><span class="s2">"critical _site/index.html --base=_site --css=_site/css/main-critical.css --width=412 --height=667 &gt; _includes/critical-home-mobile.css || echo 'Skipped home mobile critical'"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"critical:home:tablet"</span><span class="p">:</span><span class="w"> </span><span class="s2">"critical _site/index.html --base=_site --css=_site/css/main-critical.css --width=768 --height=800 &gt; _includes/critical-home-tablet.css || echo 'Skipped home tablet critical'"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"critical:home:desktop"</span><span class="p">:</span><span class="w"> </span><span class="s2">"critical _site/index.html --base=_site --css=_site/css/main-critical.css --width=1440 --height=800 &gt; _includes/critical-home-desktop.css || echo 'Skipped home desktop critical'"</span><span class="p">,</span><span class="w">
+
+    </span><span class="nl">"critical:post:mobile"</span><span class="p">:</span><span class="w"> </span><span class="s2">"critical _site/blog/2025/quick-tips-for-a-better-website.html --base=_site --css=_site/css/main-critical.css --width=412 --height=667 &gt; _includes/critical-post-mobile.css || echo 'Skipped post mobile critical'"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"critical:post:tablet"</span><span class="p">:</span><span class="w"> </span><span class="s2">"critical _site/blog/2025/quick-tips-for-a-better-website.html --base=_site --css=_site/css/main-critical.css --width=768 --height=800 &gt; _includes/critical-post-tablet.css || echo 'Skipped post tablet critical'"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"critical:post:desktop"</span><span class="p">:</span><span class="w"> </span><span class="s2">"critical _site/blog/2025/quick-tips-for-a-better-website.html --base=_site --css=_site/css/main-critical.css --width=1440 --height=800 &gt; _includes/critical-post-desktop.css || echo 'Skipped post desktop critical'"</span><span class="p">,</span><span class="w">
+
+    </span><span class="nl">"critical:page:mobile"</span><span class="p">:</span><span class="w"> </span><span class="s2">"critical _site/books/index.html --base=_site --css=_site/css/main-critical.css --width=412 --height=667 &gt; _includes/critical-page-mobile.css || echo 'Skipped page mobile critical'"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"critical:page:tablet"</span><span class="p">:</span><span class="w"> </span><span class="s2">"critical _site/books/index.html --base=_site --css=_site/css/main-critical.css --width=768 --height=800 &gt; _includes/critical-page-tablet.css || echo 'Skipped page tablet critical'"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"critical:page:desktop"</span><span class="p">:</span><span class="w"> </span><span class="s2">"critical _site/books/index.html --base=_site --css=_site/css/main-critical.css --width=1440 --height=800 &gt; _includes/critical-page-desktop.css || echo 'Skipped page desktop critical'"</span><span class="p">,</span><span class="w">
+
     </span><span class="nl">"critical:home"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npm run critical:home:mobile &amp;&amp; npm run critical:home:tablet &amp;&amp; npm run critical:home:desktop"</span><span class="p">,</span><span class="w">
     </span><span class="nl">"critical:post"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npm run critical:post:mobile &amp;&amp; npm run critical:post:tablet &amp;&amp; npm run critical:post:desktop"</span><span class="p">,</span><span class="w">
     </span><span class="nl">"critical:page"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npm run critical:page:mobile &amp;&amp; npm run critical:page:tablet &amp;&amp; npm run critical:page:desktop"</span><span class="p">,</span><span class="w">
     </span><span class="nl">"critical"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npm run critical:home &amp;&amp; npm run critical:post &amp;&amp; npm run critical:page"</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"build"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npm run build:jekyll &amp;&amp; npm run copy-css &amp;&amp; npm run build:postcss &amp;&amp; npm run critical &amp;&amp; npm run build:jekyll"</span><span class="w">
+
+    </span><span class="nl">"build:jekyll:2"</span><span class="p">:</span><span class="w"> </span><span class="s2">"bundle exec jekyll build"</span><span class="p">,</span><span class="w">
+
+    </span><span class="nl">"minify:js"</span><span class="p">:</span><span class="w"> </span><span class="s2">"terser </span><span class="se">\"</span><span class="s2">_site/js/back-to-top.js</span><span class="se">\"</span><span class="s2"> -o </span><span class="se">\"</span><span class="s2">_site/js/back-to-top.js</span><span class="se">\"</span><span class="s2"> -c -m"</span><span class="p">,</span><span class="w">
+
+    </span><span class="nl">"copy:back"</span><span class="p">:</span><span class="w"> </span><span class="s2">"node copy-css.js </span><span class="se">\"</span><span class="s2">css/temp.main.css</span><span class="se">\"</span><span class="s2"> </span><span class="se">\"</span><span class="s2">_site/css/main.css</span><span class="se">\"</span><span class="s2">"</span><span class="p">,</span><span class="w">
+
+    </span><span class="nl">"build"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npm run build:jekyll:1 &amp;&amp; npm run postcss &amp;&amp; npm run copy:minified-css &amp;&amp; npm run postcss:critical &amp;&amp; npm run critical &amp;&amp; npm run build:jekyll:2 &amp;&amp; npm run minify:js &amp;&amp; npm run copy:back"</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"scriptsComments"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"build:jekyll:1"</span><span class="p">:</span><span class="w"> </span><span class="s2">"First Jekyll build: generate HTML pages."</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"postcss"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Run PostCSS with PurgeCSS to remove unused CSS for live site."</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"copy:minified-css"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Save a temp copy of main.css so it can be restored later."</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"postcss:critical"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Run PostCSS again to generate main-critical.css, removing selectors that should not be inlined by Critical (like #toTopButton)."</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"critical:*"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Generate critical CSS for different breakpoints and pages, reading main-critical.css."</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"build:jekyll:2"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Second Jekyll build: inject generated Critical CSS includes into HTML pages."</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"minify:js"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Minify JS files."</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"copy:back"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Restore the full PurgeCSS main.css to _site for live site."</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"build"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Full build pipeline: build site, process CSS, generate Critical CSS, rebuild HTML with critical CSS, minify JS, restore main CSS."</span><span class="w">
   </span><span class="p">},</span><span class="w">
   </span><span class="nl">"devDependencies"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
     </span><span class="nl">"@fullhuman/postcss-purgecss"</span><span class="p">:</span><span class="w"> </span><span class="s2">"7.0.2"</span><span class="p">,</span><span class="w">
     </span><span class="nl">"critical"</span><span class="p">:</span><span class="w"> </span><span class="s2">"7.2.1"</span><span class="p">,</span><span class="w">
     </span><span class="nl">"postcss"</span><span class="p">:</span><span class="w"> </span><span class="s2">"8.5.6"</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"postcss-cli"</span><span class="p">:</span><span class="w"> </span><span class="s2">"11.0.1"</span><span class="w">
+    </span><span class="nl">"postcss-cli"</span><span class="p">:</span><span class="w"> </span><span class="s2">"11.0.1"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"terser"</span><span class="p">:</span><span class="w"> </span><span class="s2">"5.44.0"</span><span class="w">
   </span><span class="p">}</span><span class="w">
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div>    </div>
 
-    <p><code class="language-plaintext highlighter-rouge">copy-css</code> copies the original CSS file so that I can compare it to the one PostCSS creates to make sure nothing necessary is removed.</p>
-
-    <p><code class="language-plaintext highlighter-rouge">build:postcss</code> removes unused CSS lines.</p>
-
-    <p><code class="language-plaintext highlighter-rouge">critical</code> lines extract critical CSS for desktop, tablet and mobile viewports for website layouts: home(default), post and page, since all website pages use one of these layouts.</p>
+    <p>The script comments are clear about each of those build lines.</p>
 
     <p>Codes for all of these files exist in my website GitHub repo.</p>
 
@@ -536,7 +559,6 @@ git checkout gh-pages
 <span class="c"># Make sure .gitignore exists and includes only what you want ignored:</span>
 _site/
 CNAME
-css/main.original.css
 
 <span class="c"># Node modules</span>
 node_modules/
@@ -805,7 +827,7 @@ git status
 
 </button>
 
-<script src="/js/back-to-top.js"></script>
+<script defer src="/js/back-to-top.js"></script>
 
   </body>
 </html>
