@@ -148,7 +148,7 @@
         </div>
         <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 3H18V1H16V3H8V1H6V3H5C3.9 3 3 3.89 3 5V19C3 20.11 3.9 21 5 21H19C20.11 21 21 20.11 21 19V5C21 3.89 20.11 3 19 3M19 19H5V9H19V19M19 7H5V5H19M7 11H12V16H7" /></svg></span>
         <time datetime="2025-09-25T00:00:00-04:00"><strong>Published: </strong>25 Sep 2025</time>
-        <time datetime="2025-10-07T00:00:00-04:00" class="by-line">&nbsp;&nbsp;<strong>Updated: </strong>07 Oct 2025</time>
+        <time datetime="2025-10-08T00:00:00-04:00" class="by-line">&nbsp;&nbsp;<strong>Updated: </strong>08 Oct 2025</time>
         
           
             <p>
@@ -739,26 +739,7 @@ References
 </button>
 
 <script nonce="__CSP_NONCE__">
-  function loadScript(src) {
-    const script = document.createElement('script');
-    script.src = src;
-    script.async = true;
-    script.onerror = () => console.error(`Failed to load script: ${src}`);
-    document.body.appendChild(script);
-  }
-
-  let scriptLoaded = false;
-  const showAfter = 800;
-
-  function checkScroll() {
-    if (!scriptLoaded && window.scrollY > showAfter - 200) {
-      scriptLoaded = true;
-      loadScript('/js/back-to-top.js');
-      window.removeEventListener('scroll', checkScroll);
-    }
-  }
-
-  window.addEventListener('scroll', checkScroll, { passive: true });
+  function loadScript(e){const o=document.createElement("script");o.src=e,o.async=!0,o.onerror=()=>console.error(`Failed to load script: ${e}`),document.body.appendChild(o)}let scriptLoaded=!1;const showAfter=800;function checkScroll(){!scriptLoaded&&window.scrollY>600&&(scriptLoaded=!0,loadScript('/js/back-to-top.js'),window.removeEventListener("scroll",checkScroll))}window.addEventListener("scroll",checkScroll,{passive:!0});
 </script>
 
   </body>

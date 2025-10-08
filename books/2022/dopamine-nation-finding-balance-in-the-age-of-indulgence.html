@@ -365,26 +365,7 @@ As heard on Fresh Air</p>
 </button>
 
 <script nonce="__CSP_NONCE__">
-  function loadScript(src) {
-    const script = document.createElement('script');
-    script.src = src;
-    script.async = true;
-    script.onerror = () => console.error(`Failed to load script: ${src}`);
-    document.body.appendChild(script);
-  }
-
-  let scriptLoaded = false;
-  const showAfter = 800;
-
-  function checkScroll() {
-    if (!scriptLoaded && window.scrollY > showAfter - 200) {
-      scriptLoaded = true;
-      loadScript('/js/back-to-top.js');
-      window.removeEventListener('scroll', checkScroll);
-    }
-  }
-
-  window.addEventListener('scroll', checkScroll, { passive: true });
+  function loadScript(e){const o=document.createElement("script");o.src=e,o.async=!0,o.onerror=()=>console.error(`Failed to load script: ${e}`),document.body.appendChild(o)}let scriptLoaded=!1;const showAfter=800;function checkScroll(){!scriptLoaded&&window.scrollY>600&&(scriptLoaded=!0,loadScript('/js/back-to-top.js'),window.removeEventListener("scroll",checkScroll))}window.addEventListener("scroll",checkScroll,{passive:!0});
 </script>
 
   </body>
