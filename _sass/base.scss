@@ -869,19 +869,22 @@ a.footnote:after {
     transform: none;
   }
 
-  &:not(:hover) {
-    background-color: rgba(#000000, 0.2);
-  }
-  
   &:active {
     transform: scale(0.96);
+  }
+
+  // Target touch devices specifically
+  @media (hover: none) and (pointer: coarse) {
+    &:hover, &:focus, &:focus-visible {
+      background-color: rgba(#000000, 0.2); // Force reset on touch devices
+    }
   }
 
   @include mobile {
     width: 50px;
     height: 50px;
     bottom: 70px;
-    right: 20px;
+    right: 30px;
 
     svg {
       width: 24px;
