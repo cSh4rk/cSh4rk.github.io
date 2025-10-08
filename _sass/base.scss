@@ -869,6 +869,10 @@ a.footnote:after {
     transform: none;
   }
 
+  &:not(:hover) {
+    background-color: rgba(#000000, 0.2);
+  }
+  
   &:active {
     transform: scale(0.96);
   }
