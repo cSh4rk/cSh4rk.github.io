@@ -31,19 +31,19 @@
     <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl | replace: '//', '/' }}">
   {% else %}
     {% if page.layout == "post" %}
-      <style nonce="__CRITICAL_NONCE__">
+      <style nonce="__CSP_NONCE__">
         @media (max-width: 600px) { {% include critical-post-mobile.css %} }
         @media (min-width: 601px) and (max-width: 840px) { {% include critical-post-tablet.css %} }
         @media (min-width: 841px) { {% include critical-post-desktop.css %} }
       </style>
     {% elsif page.layout == "page" %}
-      <style nonce="__CRITICAL_NONCE__">
+      <style nonce="__CSP_NONCE__">
         @media (max-width: 600px) { {% include critical-page-mobile.css %} }
         @media (min-width: 601px) and (max-width: 840px) { {% include critical-page-tablet.css %} }
         @media (min-width: 841px) { {% include critical-page-desktop.css %} }
       </style>
     {% else %}
-      <style nonce="__CRITICAL_NONCE__">
+      <style nonce="__CSP_NONCE__">
         @media (max-width: 600px) { {% include critical-home-mobile.css %} }
         @media (min-width: 601px) and (max-width: 840px) { {% include critical-home-tablet.css %} }
         @media (min-width: 841px) { {% include critical-home-desktop.css %} }

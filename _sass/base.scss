@@ -832,6 +832,7 @@ a.footnote:after {
 // Back-to-top button
 
 #toTopButton {
+  display: none;
   position: fixed;
   bottom: 30px;
   right: 30px;
@@ -842,7 +843,6 @@ a.footnote:after {
   border: none;
   border-radius: 50%;
   cursor: pointer;
-  display: flex;
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -859,6 +859,7 @@ a.footnote:after {
   }
 
   &.visible {
+    display: flex;
     opacity: 1;
     pointer-events: auto;
   }
@@ -870,10 +871,6 @@ a.footnote:after {
 
   &:active {
     transform: scale(0.96);
-  }
-
-  &:focus-visible {
-    outline: none;
   }
 
   @include mobile {

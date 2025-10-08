@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", () => {
+// Check if DOM is ready before running
+function initBackToTop() {
   const btn = document.getElementById("toTopButton");
   if (!btn) return; // Exit gracefully if button is missing
 
@@ -37,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
     { passive: true }
   );
 
-  toggleBtn();
+  toggleBtn(); // Run immediately to check initial state
 
   // Smooth non-linear scroll (easeInOutCubic)
   function scrollToTopSmooth() {
@@ -75,4 +76,11 @@ document.addEventListener("DOMContentLoaded", () => {
     scrollToTopSmooth();
     btn.blur();
   });
-});
+}
+
+// Run immediately if DOM is ready, or wait for DOMContentLoaded
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initBackToTop);
+} else {
+  initBackToTop();
+}
