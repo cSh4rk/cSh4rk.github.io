@@ -878,6 +878,12 @@ a.footnote:after {
     &:hover, &:focus, &:focus-visible {
       background-color: rgba(#000000, 0.2); // Force reset on touch devices
     }
+
+    &:active {
+      background-color: $gulf-stream;
+      transform: scale(0.97);
+      transition: transform 0.05s ease;
+    }
   }
 
   @include mobile {
