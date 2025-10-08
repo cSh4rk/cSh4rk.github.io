@@ -391,7 +391,7 @@ There are many more Cloudflare features that can help us run a more fast, optimi
       "build:jekyll:2": "Second Jekyll build: inject generated Critical CSS includes and generated inline JS scripts includes into HTML pages.",
       "minify:js": "Minify JS files.",
       "copy:back": "Restore the full PurgeCSS main.css to _site for live site.",
-      "build": "Full build pipeline: build site, process CSS, generate Critical CSS, rebuild HTML with critical CSS, minify JS, restore main CSS."
+      "build": "Full build pipeline: build site, process CSS, generate Critical CSS, rebuild HTML with critical CSS and minified inline scripts, minify JS files, restore main CSS."
     },
     "devDependencies": {
       "@fullhuman/postcss-purgecss": "7.0.2",
