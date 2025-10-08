@@ -1,8 +1,20 @@
 import fs from 'fs';
 import path from 'path';
 
-const src = path.resolve('./_site/css/main.css');
-const dest = path.resolve('./_site/css/main.original.css');
+const [,, srcArg, destArg] = process.argv;
 
-fs.copyFileSync(src, dest);
-console.log('Copied main.css → main.original.css');
+if (!srcArg || !destArg) {
+  console.error('Usage: node copy-css.js <source> <destination>');
+  process.exit(1);
+}
+
+const src = path.resolve(srcArg);
+const dest = path.resolve(destArg);
+
+try {
+  fs.copyFileSync(src, dest);
+  console.log(`Copied: ${src} → ${dest}`);
+} catch (err) {
+  console.error('Error copying file:', err);
+  process.exit(1);
+}

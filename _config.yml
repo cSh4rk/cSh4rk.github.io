@@ -33,6 +33,8 @@ exclude:
   - package-lock.json
   - postcss.config.js
   - copy-css.js
+  - css/temp.main.css
+  - postcss-remove-for-critical.js
   
 sass:
   style: compressed
