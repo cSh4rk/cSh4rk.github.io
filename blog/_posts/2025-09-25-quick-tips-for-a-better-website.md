@@ -9,7 +9,7 @@ image_height: "256"
 thumb_path: /blog/assets/2025/website-boost-thumb.png
 thumb_width: "130"
 thumb_height: "130"
-updated: 2025-10-05
+updated: 2025-10-07
 ---
 
 <br>
@@ -327,7 +327,7 @@ There are many more Cloudflare features that can help us run a more fast, optimi
 
 - Create a clean workflow for website build in `main` branch and publish in `gh-pages` branch:
 
-  Example: Here is my build workflow:
+  Example: Here is my local build pipeline, fully automated:
 
   For `main` branch and site build:
 
@@ -346,39 +346,62 @@ There are many more Cloudflare features that can help us run a more fast, optimi
     "version": "1.0.0",
     "type": "module",
     "scripts": {
-      "build:jekyll": "bundle exec jekyll build",
-      "copy-css": "node copy-css.js",
-      "build:postcss": "postcss \"_site/css/main.css\" -o \"_site/css/main.css\"",
-      "critical:home:mobile": "npx critical _site/index.html --base=_site --css=_site/css/main.css --width=412 --height=667 > _includes/critical-home-mobile.css || echo 'Skipped home mobile critical'",
-      "critical:home:tablet": "npx critical _site/index.html --base=_site --css=_site/css/main.css --width=768 --height=800 > _includes/critical-home-tablet.css || echo 'Skipped home tablet critical'",
-      "critical:home:desktop": "npx critical _site/index.html --base=_site --css=_site/css/main.css --width=1440 --height=800 > _includes/critical-home-desktop.css || echo 'Skipped home desktop critical'",
-      "critical:post:mobile": "npx critical _site/blog/2025/quick-tips-for-a-better-website.html --base=_site --css=_site/css/main.css --width=412 --height=667 > _includes/critical-post-mobile.css || echo 'Skipped post mobile critical'",
-      "critical:post:tablet": "npx critical _site/blog/2025/quick-tips-for-a-better-website.html --base=_site --css=_site/css/main.css --width=768 --height=800 > _includes/critical-post-tablet.css || echo 'Skipped post tablet critical'",
-      "critical:post:desktop": "npx critical _site/blog/2025/quick-tips-for-a-better-website.html --base=_site --css=_site/css/main.css --width=1440 --height=800 > _includes/critical-post-desktop.css || echo 'Skipped post desktop critical'",
-      "critical:page:mobile": "npx critical _site/books/index.html --base=_site --css=_site/css/main.css --width=412 --height=667 > _includes/critical-page-mobile.css || echo 'Skipped page mobile critical'",
-      "critical:page:tablet": "npx critical _site/books/index.html --base=_site --css=_site/css/main.css --width=768 --height=800 > _includes/critical-page-tablet.css || echo 'Skipped page tablet critical'",
-      "critical:page:desktop": "npx critical _site/books/index.html --base=_site --css=_site/css/main.css --width=1440 --height=800 > _includes/critical-page-desktop.css || echo 'Skipped page desktop critical'",
+      "build:jekyll:1": "bundle exec jekyll build",
+
+      "postcss": "postcss \"_site/css/main.css\" -o \"_site/css/main.css\"",
+
+      "copy:minified-css": "node copy-css.js \"_site/css/main.css\" \"css/temp.main.css\"",
+
+      "postcss:critical": "postcss \"_site/css/main.css\" -o \"_site/css/main-critical.css\" --env critical",
+
+      "critical:home:mobile": "critical _site/index.html --base=_site --css=_site/css/main-critical.css --width=412 --height=667 > _includes/critical-home-mobile.css || echo 'Skipped home mobile critical'",
+      "critical:home:tablet": "critical _site/index.html --base=_site --css=_site/css/main-critical.css --width=768 --height=800 > _includes/critical-home-tablet.css || echo 'Skipped home tablet critical'",
+      "critical:home:desktop": "critical _site/index.html --base=_site --css=_site/css/main-critical.css --width=1440 --height=800 > _includes/critical-home-desktop.css || echo 'Skipped home desktop critical'",
+
+      "critical:post:mobile": "critical _site/blog/2025/quick-tips-for-a-better-website.html --base=_site --css=_site/css/main-critical.css --width=412 --height=667 > _includes/critical-post-mobile.css || echo 'Skipped post mobile critical'",
+      "critical:post:tablet": "critical _site/blog/2025/quick-tips-for-a-better-website.html --base=_site --css=_site/css/main-critical.css --width=768 --height=800 > _includes/critical-post-tablet.css || echo 'Skipped post tablet critical'",
+      "critical:post:desktop": "critical _site/blog/2025/quick-tips-for-a-better-website.html --base=_site --css=_site/css/main-critical.css --width=1440 --height=800 > _includes/critical-post-desktop.css || echo 'Skipped post desktop critical'",
+
+      "critical:page:mobile": "critical _site/books/index.html --base=_site --css=_site/css/main-critical.css --width=412 --height=667 > _includes/critical-page-mobile.css || echo 'Skipped page mobile critical'",
+      "critical:page:tablet": "critical _site/books/index.html --base=_site --css=_site/css/main-critical.css --width=768 --height=800 > _includes/critical-page-tablet.css || echo 'Skipped page tablet critical'",
+      "critical:page:desktop": "critical _site/books/index.html --base=_site --css=_site/css/main-critical.css --width=1440 --height=800 > _includes/critical-page-desktop.css || echo 'Skipped page desktop critical'",
+
       "critical:home": "npm run critical:home:mobile && npm run critical:home:tablet && npm run critical:home:desktop",
       "critical:post": "npm run critical:post:mobile && npm run critical:post:tablet && npm run critical:post:desktop",
       "critical:page": "npm run critical:page:mobile && npm run critical:page:tablet && npm run critical:page:desktop",
       "critical": "npm run critical:home && npm run critical:post && npm run critical:page",
-      "build": "npm run build:jekyll && npm run copy-css && npm run build:postcss && npm run critical && npm run build:jekyll"
+
+      "build:jekyll:2": "bundle exec jekyll build",
+
+      "minify:js": "terser \"_site/js/back-to-top.js\" -o \"_site/js/back-to-top.js\" -c -m",
+
+      "copy:back": "node copy-css.js \"css/temp.main.css\" \"_site/css/main.css\"",
+
+      "build": "npm run build:jekyll:1 && npm run postcss && npm run copy:minified-css && npm run postcss:critical && npm run critical && npm run build:jekyll:2 && npm run minify:js && npm run copy:back"
+    },
+    "scriptsComments": {
+      "build:jekyll:1": "First Jekyll build: generate HTML pages.",
+      "postcss": "Run PostCSS with PurgeCSS to remove unused CSS for live site.",
+      "copy:minified-css": "Save a temp copy of main.css so it can be restored later.",
+      "postcss:critical": "Run PostCSS again to generate main-critical.css, removing selectors that should not be inlined by Critical (like #toTopButton).",
+      "critical:*": "Generate critical CSS for different breakpoints and pages, reading main-critical.css.",
+      "build:jekyll:2": "Second Jekyll build: inject generated Critical CSS includes into HTML pages.",
+      "minify:js": "Minify JS files.",
+      "copy:back": "Restore the full PurgeCSS main.css to _site for live site.",
+      "build": "Full build pipeline: build site, process CSS, generate Critical CSS, rebuild HTML with critical CSS, minify JS, restore main CSS."
     },
     "devDependencies": {
       "@fullhuman/postcss-purgecss": "7.0.2",
       "critical": "7.2.1",
       "postcss": "8.5.6",
-      "postcss-cli": "11.0.1"
+      "postcss-cli": "11.0.1",
+      "terser": "5.44.0"
     }
   }
   ```
   {% endraw %}
 
-  `copy-css` copies the original CSS file so that I can compare it to the one PostCSS creates to make sure nothing necessary is removed.
-
-  `build:postcss` removes unused CSS lines.
-
-  `critical` lines extract critical CSS for desktop, tablet and mobile viewports for website layouts: home(default), post and page, since all website pages use one of these layouts. 
+  The script comments are clear about each of those build lines.
 
   Codes for all of these files exist in my website GitHub repo.
 
@@ -392,7 +415,6 @@ There are many more Cloudflare features that can help us run a more fast, optimi
   # Make sure .gitignore exists and includes only what you want ignored:
   _site/
   CNAME
-  css/main.original.css
 
   # Node modules
   node_modules/
