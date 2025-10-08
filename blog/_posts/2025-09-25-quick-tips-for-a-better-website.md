@@ -9,7 +9,7 @@ image_height: "256"
 thumb_path: /blog/assets/2025/website-boost-thumb.png
 thumb_width: "130"
 thumb_height: "130"
-updated: 2025-10-07
+updated: 2025-10-08
 ---
 
 <br>
@@ -371,13 +371,15 @@ There are many more Cloudflare features that can help us run a more fast, optimi
       "critical:page": "npm run critical:page:mobile && npm run critical:page:tablet && npm run critical:page:desktop",
       "critical": "npm run critical:home && npm run critical:post && npm run critical:page",
 
+      "minify:inlinejs": "terser \"_includes/lazy-load-back-to-top.js\" -o \"_includes/lazy-load-back-to-top.min.js\" -c -m",
+
       "build:jekyll:2": "bundle exec jekyll build",
 
       "minify:js": "terser \"_site/js/back-to-top.js\" -o \"_site/js/back-to-top.js\" -c -m",
 
       "copy:back": "node copy-css.js \"css/temp.main.css\" \"_site/css/main.css\"",
 
-      "build": "npm run build:jekyll:1 && npm run postcss && npm run copy:minified-css && npm run postcss:critical && npm run critical && npm run build:jekyll:2 && npm run minify:js && npm run copy:back"
+      "build": "npm run build:jekyll:1 && npm run postcss && npm run copy:minified-css && npm run postcss:critical && npm run critical && npm run minify:inlinejs && npm run build:jekyll:2 && npm run minify:js && npm run copy:back"
     },
     "scriptsComments": {
       "build:jekyll:1": "First Jekyll build: generate HTML pages.",
@@ -385,7 +387,8 @@ There are many more Cloudflare features that can help us run a more fast, optimi
       "copy:minified-css": "Save a temp copy of main.css so it can be restored later.",
       "postcss:critical": "Run PostCSS again to generate main-critical.css, removing selectors that should not be inlined by Critical (like #toTopButton).",
       "critical:*": "Generate critical CSS for different breakpoints and pages, reading main-critical.css.",
-      "build:jekyll:2": "Second Jekyll build: inject generated Critical CSS includes into HTML pages.",
+      "minify:inlinejs": "Minify inline JS scripts",
+      "build:jekyll:2": "Second Jekyll build: inject generated Critical CSS includes and generated inline JS scripts includes into HTML pages.",
       "minify:js": "Minify JS files.",
       "copy:back": "Restore the full PurgeCSS main.css to _site for live site.",
       "build": "Full build pipeline: build site, process CSS, generate Critical CSS, rebuild HTML with critical CSS, minify JS, restore main CSS."
