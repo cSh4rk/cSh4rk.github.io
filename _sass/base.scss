@@ -33,6 +33,12 @@ $tablet: 600px;
   }
 }
 
+@mixin touch {
+  @media (hover: none) and (pointer: coarse) {
+    @content;
+  }
+}
+
 //
 
 body {
@@ -865,7 +871,7 @@ a.footnote:after {
   }
 
   &:hover {
-    background-color: $gulf-stream; // bright pop when hovered
+    background-color: $raw-sienna; // bright pop when hovered
     transform: none;
   }
 
@@ -873,14 +879,16 @@ a.footnote:after {
     transform: scale(0.96);
   }
 
-  // Target touch devices specifically
-  @media (hover: none) and (pointer: coarse) {
-    &:hover, &:focus, &:focus-visible {
-      background-color: rgba(#000000, 0.2); // Force reset on touch devices
+  // Remove hover color stickiness bug in touch devices
+  @include touch {
+    &:hover,
+    &:focus,
+    &:focus-visible {
+      background-color: rgba(#000000, 0.2); // reset default
     }
 
     &:active {
-      background-color: $gulf-stream;
+      background-color: $raw-sienna; // quick feedback on tap
       transform: scale(0.97);
       transition: transform 0.05s ease;
     }
