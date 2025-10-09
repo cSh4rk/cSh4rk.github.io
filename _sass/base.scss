@@ -1,11 +1,11 @@
-@import "rouge-base16-dark";
-@import "default_colors";
+@use "rouge-base16-dark";
+@use "default_colors";
 
-$body-background: $cod-grey !default;
-$body-foreground: $gallery !default;
-$header: $conifer !default;
-$blockquote-color: $silver-chalice !default;
-$blockquote-border: $dove-grey !default;
+$body-background: default_colors.$cod-grey !default;
+$body-foreground: default_colors.$gallery !default;
+$header: default_colors.$conifer !default;
+$blockquote-color: default_colors.$silver-chalice !default;
+$blockquote-border: default_colors.$dove-grey !default;
 
 // Devices
 
@@ -88,7 +88,7 @@ li {
 
 header {
   background: rgba(0, 0, 0, 0.1);
-  border-bottom: 1px dashed $conifer; //header;
+  border-bottom: 1px dashed default_colors.$conifer; //header;
   padding: 20px;
   margin: 0 0 40px 0;
 }
@@ -119,7 +119,7 @@ header h2 {
   text-align: center;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: $conifer;
+  color: default_colors.$conifer;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
@@ -486,13 +486,13 @@ a:active, a:focus {
   height: 100px;
   line-height: 50px;
   text-align: center;
-  border-top: 1px dashed $dove-grey;
+  border-top: 1px dashed default_colors.$dove-grey;
 }*/
 
 .site-footer {
   //height: 0px;
   //line-height: 0px;
-  border-top: 1px dashed $dove-grey;
+  border-top: 1px dashed default_colors.$dove-grey;
 }
 
 .footer-wrapper{
@@ -566,7 +566,7 @@ a:active, a:focus {
         vertical-align: middle;
 
         path {
-            fill: $silver-chalice; //#009423
+            fill: default_colors.$silver-chalice; //#009423
         }
     }
 }
@@ -873,7 +873,7 @@ a.footnote:after {
   }
 
   &:hover {
-    background-color: $raw-sienna; // bright pop when hovered
+    background-color: default_colors.$raw-sienna; // bright pop when hovered
     transform: none;
   }
 
@@ -882,7 +882,7 @@ a.footnote:after {
   }
 
   &:focus-visible {
-    outline: 2px solid $raw-sienna;
+    outline: 2px solid default_colors.$raw-sienna;
     outline-offset: 2px;
   }
 
@@ -895,7 +895,7 @@ a.footnote:after {
     }
 
     &:active {
-      background-color: $raw-sienna; // quick feedback on tap
+      background-color: default_colors.$raw-sienna; // quick feedback on tap
       transform: scale(0.97);
       transition: transform 0.05s ease;
     }

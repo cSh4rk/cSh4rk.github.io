@@ -2,9 +2,7 @@
 
 source "https://rubygems.org"
 
-#git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
-
-gem "jekyll"
+gem "jekyll", "~> 4.4"
 
 group :jekyll_plugins do
   gem "jekyll-seo-tag"
@@ -13,7 +11,7 @@ group :jekyll_plugins do
 end
 
 gem "webrick"
-gem 'wdm', '~> 0.1.1', :install_if => Gem.win_platform?
+gem 'wdm', '~> 0.2.0', :install_if => Gem.win_platform?
 gem "tzinfo"
 gem "tzinfo-data"
-# gem "rails"
+gem "logger", "~> 1.6"
