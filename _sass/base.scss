@@ -838,7 +838,8 @@ a.footnote:after {
 // Back-to-top button
 
 #toTopButton {
-  display: none;
+  will-change: opacity, transform;
+  visibility: hidden;
   position: fixed;
   bottom: 30px;
   right: 30px;
@@ -854,9 +855,10 @@ a.footnote:after {
   opacity: 0;
   pointer-events: none;
   transition:
-  opacity 0.3s ease,
-  background-color 0.35s ease,
-  transform 0.25s ease;
+    opacity 0.3s ease,
+    visibility 0.3s ease,
+    background-color 0.35s ease,
+    transform 0.25s ease;
 
   svg {
     width: 30px;
@@ -865,7 +867,7 @@ a.footnote:after {
   }
 
   &.visible {
-    display: flex;
+    visibility: visible;
     opacity: 1;
     pointer-events: auto;
   }
@@ -877,6 +879,11 @@ a.footnote:after {
 
   &:active {
     transform: scale(0.96);
+  }
+
+  &:focus-visible {
+    outline: 2px solid $raw-sienna;
+    outline-offset: 2px;
   }
 
   // Remove hover color stickiness bug in touch devices
