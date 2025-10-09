@@ -10,7 +10,7 @@ baseurl: ""
 source: .
 destination: ./_site
 permalink: /:categories/:year/:title
-paginate: 10
+paginate: 8
 paginate_path: /page/:num/
 timezone: America/New_York
 
