@@ -283,6 +283,7 @@ code.highlighter-rouge {
   margin: 0px -3px;
   color: #aa759f;
   border-radius: 2px;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 table {
@@ -638,6 +639,7 @@ code.posttag{
 code.highlighter-rouge-tag {
   @extend .posttag;
   color: #aa759f;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 .postitem {
