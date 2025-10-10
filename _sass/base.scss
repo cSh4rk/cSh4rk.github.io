@@ -348,11 +348,12 @@ hr {
 a {
   color: #63c0f5;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 a:hover {
-  color: #90d7ff; /* brighter blue */
-  text-shadow: 0 0 8px rgba(144, 215, 255, 0.8); /* stronger glow */
+  color: #ffa64d; /* warm orange */
+  text-shadow: 0 0 8px rgba(255, 166, 77, 0.8); /* soft warm glow */
 }
 
 a:hover h1, a:hover h2, a:hover .site-title {
