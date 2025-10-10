@@ -26,7 +26,7 @@ layout: null
         <description>
           <![CDATA[
             {% if post.image %}
-              <p><img src="{{ site.url }}{{ post.image | prepend: '/' }}" alt="{{ post.title | escape }}" /></p>
+              <p><img src="{{ site.url }}{{ post.image | prepend: '/' | replace: '//', '/' }}" alt="{{ post.title | escape }}" /></p>
             {% endif %}
 
             {{ post.content | clean_for_rss }}
@@ -38,7 +38,7 @@ layout: null
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
 
         {% if post.image %}
-          <media:content url="{{ site.url }}{{ post.image | prepend: '/' }}" medium="image" />
+          <media:content url="{{ site.url }}{{ post.image | prepend: '/' | replace: '//', '/' }}" medium="image" />
         {% endif %}
 
         {% for cat in post.categories %}
