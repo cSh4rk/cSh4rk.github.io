@@ -6,6 +6,7 @@ image: /assets/mask1-big.png
 robots: noindex,follow
 description: "Learn About Nima — Personal Notes, Thoughts, Experiences, and Insights Shared on the Diaries of a Modern Ninja."
 hero-poster: /assets/mask1.avif
+effect: "particles"
 ---
 
 <br>

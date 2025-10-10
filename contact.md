@@ -6,6 +6,8 @@ image: /assets/robot5.png
 robots: noindex,follow
 description: "Get in Touch with Nima Through Various Channels — Ask Questions, Provide Feedback, or Just Say Hi via the Diaries of a Modern Ninja."
 hero-poster: /assets/robot5.avif
+effect: "particles"
+particle_palette: "hacker"
 ---
 
 <video autoplay muted loop playsinline width="410" height="410" poster="{{ page.hero-poster }}">
