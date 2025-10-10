@@ -15,3 +15,4 @@ gem 'wdm', '~> 0.2.0', :install_if => Gem.win_platform?
 gem "tzinfo"
 gem "tzinfo-data"
 gem "logger", "~> 1.6"
+gem "nokogiri", "~> 1.16"

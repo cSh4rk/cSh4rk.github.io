@@ -22,22 +22,17 @@ layout: null
     {% for post in site.posts limit:40 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
+
         <description>
           <![CDATA[
             {% if post.image %}
               <p><img src="{{ site.url }}{{ post.image | prepend: '/' }}" alt="{{ post.title | escape }}" /></p>
             {% endif %}
 
-            {%- assign safe_content = post.content 
-               | replace_regex: '<div class="footnotes">.*?</div>', '' 
-               | replace_regex: '<sup[^>]*>.*?</sup>', '' 
-               | replace_regex: '<script[^>]*>.*?</script>', '' 
-               | replace_regex: '<form[^>]*>.*?</form>', '' 
-            -%}
-            
-            {{ safe_content }}
+            {{ post.content | clean_for_rss }}
           ]]>
         </description>
+
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
