@@ -4,28 +4,58 @@ require 'nokogiri'
 module Jekyll
   module RSSCleaner
     def clean_for_rss(html)
-      return '' if html.nil?
+      return '' if html.nil? || html.strip.empty?
 
-      # Parse HTML fragment
       doc = Nokogiri::HTML::DocumentFragment.parse(html)
 
-      # Remove footnote references
+      # --- Remove unwanted or duplicate content ---
+      # Footnotes and references
       doc.css('sup > a[role="doc-noteref"]').each { |a| a.parent.remove }
-
-      # Remove footnotes container
       doc.css('div.footnotes').remove
 
-      # Remove scripts, forms, style tags
+      # Scripts, forms, and styles
       doc.css('script, form, style').remove
 
-      # Remove only the first <picture> element (top post image)
+      # Remove only the first <picture> (post header image)
       first_picture = doc.at_css('picture')
       first_picture.remove if first_picture
 
-      # Optionally, remove comments
+      # --- Fix relative resource URLs ---
+      site = @context.registers[:site]
+      site_url  = site.config['url'].to_s.chomp('/')
+      baseurl   = site.config['baseurl'].to_s
+      full_base = "#{site_url}#{baseurl}".gsub(%r{([^:])/+}, '\1/')
+
+      # Convert relative <img src>
+      doc.css('img').each do |img|
+        src = img['src']
+        next if src.nil? || src =~ %r{^https?://}i
+        img['src'] = "#{full_base}/#{src}".gsub(%r{([^:])/+}, '\1/')
+      end
+
+      # Convert relative <source srcset>
+      doc.css('source').each do |source|
+        srcset = source['srcset']
+        next if srcset.nil?
+        source['srcset'] = srcset.split(',').map do |s|
+          url, *rest = s.strip.split(' ')
+          next s if url =~ %r{^https?://}i
+          abs = "#{full_base}/#{url}".gsub(%r{([^:])/+}, '\1/')
+          ([abs] + rest).join(' ')
+        end.join(', ')
+      end
+
+      # Convert relative <a href> (skip mailto:, #, and already absolute)
+      doc.css('a').each do |a|
+        href = a['href']
+        next if href.nil? || href =~ %r{^https?://}i || href.start_with?('#', 'mailto:')
+        a['href'] = "#{full_base}/#{href}".gsub(%r{([^:])/+}, '\1/')
+      end
+
+      # Remove HTML comments
       doc.xpath('//comment()').remove
 
-      # Return cleaned HTML
+      # Return cleaned HTML fragment
       doc.to_html
     end
   end
