@@ -15,14 +15,12 @@ module Jekyll
       # Remove footnotes container
       doc.css('div.footnotes').remove
 
-      # Remove scripts
-      doc.css('script').remove
+      # Remove scripts, forms, style tags
+      doc.css('script, form, style').remove
 
-      # Remove forms
-      doc.css('form').remove
-
-      # Remove style tags
-      doc.css('style').remove
+      # Remove only the first <picture> element (top post image)
+      first_picture = doc.at_css('picture')
+      first_picture.remove if first_picture
 
       # Optionally, remove comments
       doc.xpath('//comment()').remove
