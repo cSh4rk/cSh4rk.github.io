@@ -55,8 +55,12 @@ module Jekyll
       # Remove HTML comments
       doc.xpath('//comment()').remove
 
+      # --- Remove stray </source> tags ---
+      html_str = doc.to_html
+      html_str.gsub!('</source>', '')   # remove any closing </source>
+
       # Return cleaned HTML fragment
-      doc.to_html
+      html_str
     end
   end
 end
