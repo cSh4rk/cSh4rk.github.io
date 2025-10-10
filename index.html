@@ -31,11 +31,11 @@ image: /assets/ninja-big.png
           {% endif %}
         {% endif %}
         <p>{{ post.content | 
-          replace_first: 'rel="footnote">1</a>' , 'rel="footnote"></a>' |
-          replace_first: 'rel="footnote">2</a>' , 'rel="footnote"></a>' |
-          replace_first: 'rel="footnote">3</a>' , 'rel="footnote"></a>' |
-          replace_first: 'rel="footnote">4</a>' , 'rel="footnote"></a>' |
-          replace_first: 'rel="footnote">5</a>' , 'rel="footnote"></a>' |
+          replace_first: 'role="doc-noteref">1</a>' , 'role="doc-noteref"></a>' |
+          replace_first: 'role="doc-noteref">2</a>' , 'role="doc-noteref"></a>' |
+          replace_first: 'role="doc-noteref">3</a>' , 'role="doc-noteref"></a>' |
+          replace_first: 'role="doc-noteref">4</a>' , 'role="doc-noteref"></a>' |
+          replace_first: 'role="doc-noteref">5</a>' , 'role="doc-noteref"></a>' |
           strip_html | normalize_whitespace | truncatewords:50 }}</p>
         <br>
       </li>
