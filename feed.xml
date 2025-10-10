@@ -7,8 +7,8 @@
     <description>Nima&apos;s Diaries about Cybersecurity, Red Teaming, Tooling, Tutorials, and Personal Notes — Practical Guides, Walkthroughs, and Resources for Curious Minds.</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 09 Oct 2025 22:29:19 -0400</pubDate>
-    <lastBuildDate>Thu, 09 Oct 2025 22:29:19 -0400</lastBuildDate>
+    <pubDate>Thu, 09 Oct 2025 23:37:17 -0400</pubDate>
+    <lastBuildDate>Thu, 09 Oct 2025 23:37:17 -0400</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
     <image>
       <url>https://nima.ninja/assets/ninja.png</url>
@@ -161,7 +161,7 @@ In other words, what you do for a living is much less important than how you do 
     <p>Speed -&gt; Settings: (In the Site Recommendations section): Enable/Disable according to the picture:</p>
 
     <p><br></p>
-    <picture><source srcset="https://nima.ninja/blog/assets/2025/website-boost-cloudflare.webp" type="image/webp"></source><img src="https://nima.ninja/blog/assets/2025/website-boost-cloudflare.png" width="1059" height="1136" alt="Site Recommendations section in Cloudflare web panel" loading="lazy" decoding="async"></picture>
+    <picture><source srcset="https://nima.ninja/blog/assets/2025/website-boost-cloudflare.webp" type="image/webp"><img src="https://nima.ninja/blog/assets/2025/website-boost-cloudflare.png" width="1059" height="1136" alt="Site Recommendations section in Cloudflare web panel" loading="lazy" decoding="async"></picture>
     <p><br></p>
 
     <p>Enable: HTTP/2, HTTP/3, HTTP/2 to Origin, Always use HTTPS, TLS 1.3, Early Hints</p>
@@ -185,7 +185,7 @@ In other words, what you do for a living is much less important than how you do 
     <p>Minimum TLS version: TLS 1.2</p>
 
     <p><br></p>
-    <picture><source srcset="https://nima.ninja/blog/assets/2025/website-boost-cloudflare2.webp" type="image/webp"></source><img src="https://nima.ninja/blog/assets/2025/website-boost-cloudflare2.png" width="1034" height="196" alt="Minimum TLS version setting in Cloudflare web panel" loading="lazy" decoding="async"></picture>
+    <picture><source srcset="https://nima.ninja/blog/assets/2025/website-boost-cloudflare2.webp" type="image/webp"><img src="https://nima.ninja/blog/assets/2025/website-boost-cloudflare2.png" width="1034" height="196" alt="Minimum TLS version setting in Cloudflare web panel" loading="lazy" decoding="async"></picture>
     <p><br></p>
 
     <blockquote>
@@ -213,7 +213,7 @@ In other words, what you do for a living is much less important than how you do 
     <p>While there you can also enable Hotlink Protection.</p>
 
     <p><br></p>
-    <picture><source srcset="https://nima.ninja/blog/assets/2025/website-boost-cloudflare3.webp" type="image/webp"></source><img src="https://nima.ninja/blog/assets/2025/website-boost-cloudflare3.png" width="1031" height="542" alt="Scrape Shield settings in Cloudflare web panel" loading="lazy" decoding="async"></picture>
+    <picture><source srcset="https://nima.ninja/blog/assets/2025/website-boost-cloudflare3.webp" type="image/webp"><img src="https://nima.ninja/blog/assets/2025/website-boost-cloudflare3.png" width="1031" height="542" alt="Scrape Shield settings in Cloudflare web panel" loading="lazy" decoding="async"></picture>
     <p><br></p>
   </li>
 </ul>
@@ -1174,8 +1174,8 @@ So we should search for developer-created objects, this is tip #1.</p>
 
 <p><br></p>
 <picture>
-  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig1.webp" type="image/webp"></source>
-  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig1.avif" type="image/avif"></source>
+  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig1.webp" type="image/webp">
+  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig1.avif" type="image/avif">
   <img src="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig1.png" width="717" height="185" alt="" loading="lazy" decoding="async">
 </picture>
 <p><br></p>
@@ -1186,8 +1186,8 @@ So we should search for developer-created objects, this is tip #1.</p>
 
 <p><br></p>
 <picture>
-  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig2.webp" type="image/webp"></source>
-  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig2.avif" type="image/avif"></source>
+  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig2.webp" type="image/webp">
+  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig2.avif" type="image/avif">
   <img src="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig2.png" width="767" height="449" alt="" loading="lazy" decoding="async">
 </picture>
 <p><br></p>
@@ -1203,8 +1203,8 @@ So we should search for developer-created objects, this is tip #1.</p>
 
 <p><br></p>
 <picture>
-  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig3.webp" type="image/webp"></source>
-  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig3.avif" type="image/avif"></source>
+  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig3.webp" type="image/webp">
+  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig3.avif" type="image/avif">
   <img src="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig3.png" width="1384" height="332" alt="Internal server error PHP fatal error multiple lines mentioning twig" loading="lazy" decoding="async">
 </picture>
 <p><br></p>
@@ -1218,8 +1218,8 @@ So we should search for developer-created objects, this is tip #1.</p>
 
 <p><br></p>
 <picture>
-  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig4.webp" type="image/webp"></source>
-  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig4.avif" type="image/avif"></source>
+  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig4.webp" type="image/webp">
+  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig4.avif" type="image/avif">
   <img src="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig4.png" width="727" height="442" alt="The result Peter49 is shown as the name in post comments" loading="lazy" decoding="async">
 </picture>
 <p><br></p>
@@ -1253,8 +1253,8 @@ So we should search for developer-created objects, this is tip #1.</p>
 
 <p><br></p>
 <picture>
-  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig5.webp" type="image/webp"></source>
-  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig5.avif" type="image/avif"></source>
+  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig5.webp" type="image/webp">
+  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig5.avif" type="image/avif">
   <img src="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig5.png" width="714" height="179" alt="" loading="lazy" decoding="async">
 </picture>
 <p><br></p>
@@ -1263,8 +1263,8 @@ So we should search for developer-created objects, this is tip #1.</p>
 
 <p><br></p>
 <picture>
-  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig6.webp" type="image/webp"></source>
-  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig6.avif" type="image/avif"></source>
+  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig6.webp" type="image/webp">
+  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig6.avif" type="image/avif">
   <img src="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig6.png" width="752" height="123" alt="PHP fatal error: error in file upload, /home/carlos/avatar_upload.php" loading="lazy" decoding="async">
 </picture>
 <p><br></p>
@@ -1273,8 +1273,8 @@ So we should search for developer-created objects, this is tip #1.</p>
 
 <p><br></p>
 <picture>
-  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig7.webp" type="image/webp"></source>
-  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig7.avif" type="image/avif"></source>
+  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig7.webp" type="image/webp">
+  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig7.avif" type="image/avif">
   <img src="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig7.png" width="981" height="110" alt="PHP fatal error, uploaded file mime type is not an image" loading="lazy" decoding="async">
 </picture>
 <p><br></p>
@@ -1288,8 +1288,8 @@ So we should search for developer-created objects, this is tip #1.</p>
 
 <p><br></p>
 <picture>
-  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig8.webp" type="image/webp"></source>
-  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig8.avif" type="image/avif"></source>
+  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig8.webp" type="image/webp">
+  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig8.avif" type="image/avif">
   <img src="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig8.png" width="1224" height="300" alt="Internal Server Error, PHP fatal error: Too few arguments" loading="lazy" decoding="async">
 </picture>
 <p><br></p>
@@ -1303,8 +1303,8 @@ So we should search for developer-created objects, this is tip #1.</p>
 
 <p><br></p>
 <picture>
-  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig9.webp" type="image/webp"></source>
-  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig9.avif" type="image/avif"></source>
+  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig9.webp" type="image/webp">
+  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig9.avif" type="image/avif">
   <img src="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig9.png" width="1156" height="325" alt="Internal server error, PHP fatal error: uploaded file mime type is not an image" loading="lazy" decoding="async">
 </picture>
 <p><br></p>
@@ -1318,8 +1318,8 @@ So we should search for developer-created objects, this is tip #1.</p>
 
 <p><br></p>
 <picture>
-  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig10.webp" type="image/webp"></source>
-  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig10.avif" type="image/avif"></source>
+  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig10.webp" type="image/webp">
+  <source srcset="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig10.avif" type="image/avif">
   <img src="https://nima.ninja/blog/assets/2023/ssti-custom-exploit-twig10.png" width="743" height="109" alt="Broken image icon is shown instead of person name in comments section" loading="lazy" decoding="async">
 </picture>
 <p><br></p>
@@ -1668,8 +1668,8 @@ You can sometimes read source code by appending a tilde (~) to a filename to ret
 
 <p><br></p>
 <picture>
-  <source srcset="https://nima.ninja/blog/assets/2023/custom-gadget-chain-php1.avif" type="image/avif"></source>
-  <source srcset="https://nima.ninja/blog/assets/2023/custom-gadget-chain-php1.webp" type="image/webp"></source>
+  <source srcset="https://nima.ninja/blog/assets/2023/custom-gadget-chain-php1.avif" type="image/avif">
+  <source srcset="https://nima.ninja/blog/assets/2023/custom-gadget-chain-php1.webp" type="image/webp">
   <img src="https://nima.ninja/blog/assets/2023/custom-gadget-chain-php1.png" width="1260" height="823" alt="A request in Burp Suite repeater showing encoded and highlighted decoded session cookie values in Inspector section" loading="lazy" decoding="async">
 </picture>
 <p><br></p>
@@ -1792,8 +1792,8 @@ rather than a CHAR or TEXT field.
 
 <p><br></p>
 <picture>
-  <source srcset="https://nima.ninja/blog/assets/2023/custom-gadget-chain-php2.avif" type="image/avif"></source>
-  <source srcset="https://nima.ninja/blog/assets/2023/custom-gadget-chain-php2.webp" type="image/webp"></source>
+  <source srcset="https://nima.ninja/blog/assets/2023/custom-gadget-chain-php2.avif" type="image/avif">
+  <source srcset="https://nima.ninja/blog/assets/2023/custom-gadget-chain-php2.webp" type="image/webp">
   <img src="https://nima.ninja/blog/assets/2023/custom-gadget-chain-php2.png" width="1263" height="818" alt="A request in Burp Suite repeater with pasted session cookie value and apply changes buttons highlighted in inspector section" loading="lazy" decoding="async">
 </picture>
 <p><br></p>
@@ -2220,8 +2220,8 @@ This lab has a serialization-based session mechanism that uses a signed cookie. 
 
 <p><br></p>
 <picture>
-  <source srcset="https://nima.ninja/blog/assets/2022/web-security-academy-php-deserialization-secret-key.webp" type="image/webp"></source>
-  <source srcset="https://nima.ninja/blog/assets/2022/web-security-academy-php-deserialization-secret-key.avif" type="image/avif"></source>
+  <source srcset="https://nima.ninja/blog/assets/2022/web-security-academy-php-deserialization-secret-key.webp" type="image/webp">
+  <source srcset="https://nima.ninja/blog/assets/2022/web-security-academy-php-deserialization-secret-key.avif" type="image/avif">
   <img src="https://nima.ninja/blog/assets/2022/web-security-academy-php-deserialization-secret-key.png" width="995" height="424" alt="Environment section of phpinfo page showing secret_key value" loading="lazy" decoding="async">
 </picture>
 <p><br></p>
@@ -2245,8 +2245,8 @@ This lab has a serialization-based session mechanism that uses a signed cookie. 
 
 <p><br></p>
 <picture>
-  <source srcset="https://nima.ninja/blog/assets/2022/web-security-academy-php-deserialization-zend-engine.avif" type="image/avif"></source>
-  <source srcset="https://nima.ninja/blog/assets/2022/web-security-academy-php-deserialization-zend-engine.webp" type="image/webp"></source>
+  <source srcset="https://nima.ninja/blog/assets/2022/web-security-academy-php-deserialization-zend-engine.avif" type="image/avif">
+  <source srcset="https://nima.ninja/blog/assets/2022/web-security-academy-php-deserialization-zend-engine.webp" type="image/webp">
   <img src="https://nima.ninja/blog/assets/2022/web-security-academy-php-deserialization-zend-engine.png" width="952" height="75" alt="zendengine logo and version details in phpinfo page" loading="lazy" decoding="async">
 </picture>
 <p><br></p>
@@ -2269,8 +2269,8 @@ This lab has a serialization-based session mechanism that uses a signed cookie. 
 
 <p><br></p>
 <picture>
-  <source srcset="https://nima.ninja/blog/assets/2022/web-security-academy-php-deserialization-phpggc.avif" type="image/avif"></source>
-  <source srcset="https://nima.ninja/blog/assets/2022/web-security-academy-php-deserialization-phpggc.webp" type="image/webp"></source>
+  <source srcset="https://nima.ninja/blog/assets/2022/web-security-academy-php-deserialization-phpggc.avif" type="image/avif">
+  <source srcset="https://nima.ninja/blog/assets/2022/web-security-academy-php-deserialization-phpggc.webp" type="image/webp">
   <img src="https://nima.ninja/blog/assets/2022/web-security-academy-php-deserialization-phpggc.png" width="822" height="238" alt="List of existing gadget chains for symfony framework" loading="lazy" decoding="async">
 </picture>
 <p><br></p>
@@ -4250,8 +4250,8 @@ Each has its own pros and cons, Obsidian has some great characteristics that I r
 
 <p><br></p>
 <picture>
-  <source srcset="https://nima.ninja/blog/assets/2021/obsidian2.avif" type="image/avif"></source>
-  <source srcset="https://nima.ninja/blog/assets/2021/obsidian2.webp" type="image/webp"></source>
+  <source srcset="https://nima.ninja/blog/assets/2021/obsidian2.avif" type="image/avif">
+  <source srcset="https://nima.ninja/blog/assets/2021/obsidian2.webp" type="image/webp">
   <img src="https://nima.ninja/blog/assets/2021/obsidian2.png" width="800" height="492" alt="An Obsidian page showing name and preview picture of some themes" loading="eager" decoding="async">
 </picture>
 <p><br></p>
@@ -4266,8 +4266,8 @@ Each has its own pros and cons, Obsidian has some great characteristics that I r
 
 <p><br></p>
 <picture>
-  <source srcset="https://nima.ninja/blog/assets/2021/obsidian5.avif" type="image/avif"></source>
-  <source srcset="https://nima.ninja/blog/assets/2021/obsidian5.webp" type="image/webp"></source>
+  <source srcset="https://nima.ninja/blog/assets/2021/obsidian5.avif" type="image/avif">
+  <source srcset="https://nima.ninja/blog/assets/2021/obsidian5.webp" type="image/webp">
   <img src="https://nima.ninja/blog/assets/2021/obsidian5.png" width="817" height="498" alt="Obsidian help page" loading="lazy" decoding="async">
 </picture>
 <p><br></p>
@@ -4279,7 +4279,7 @@ Each has its own pros and cons, Obsidian has some great characteristics that I r
 
 <p><br></p>
 <picture>
-  <source srcset="https://nima.ninja/blog/assets/2021/obsidian3.avif" type="image/avif"></source>
+  <source srcset="https://nima.ninja/blog/assets/2021/obsidian3.avif" type="image/avif">
   <img src="https://nima.ninja/blog/assets/2021/obsidian3.jpg" width="514" height="500" alt="Obsidian notes graph" loading="lazy" decoding="async">
 </picture>
 <p><br></p>
@@ -4288,7 +4288,7 @@ Each has its own pros and cons, Obsidian has some great characteristics that I r
 
 <p><br></p>
 <picture>
-  <source srcset="https://nima.ninja/blog/assets/2021/obsidian4.avif" type="image/avif"></source>
+  <source srcset="https://nima.ninja/blog/assets/2021/obsidian4.avif" type="image/avif">
   <img src="https://nima.ninja/blog/assets/2021/obsidian4.jpg" width="794" height="472" alt="Obsidian notes graph zoomed in" loading="lazy" decoding="async">
 </picture>
 <p><br></p>
@@ -4301,8 +4301,8 @@ Each has its own pros and cons, Obsidian has some great characteristics that I r
 
 <p><br></p>
 <picture>
-  <source srcset="https://nima.ninja/blog/assets/2021/obsidian6.avif" type="image/avif"></source>
-  <source srcset="https://nima.ninja/blog/assets/2021/obsidian6.webp" type="image/webp"></source>
+  <source srcset="https://nima.ninja/blog/assets/2021/obsidian6.avif" type="image/avif">
+  <source srcset="https://nima.ninja/blog/assets/2021/obsidian6.webp" type="image/webp">
   <img src="https://nima.ninja/blog/assets/2021/obsidian6.png" width="818" height="371" alt="a GitHub web page listing my public and private repositories" loading="lazy" decoding="async">
 </picture>
 <p><br></p>
@@ -4419,8 +4419,8 @@ In order to get started, visit Obsidian website and download it, then start from
 
 <p><br></p>
 <picture>
-  <source srcset="https://nima.ninja/blog/assets/2021/whonix1.webp" type="image/webp"></source>
-  <source srcset="https://nima.ninja/blog/assets/2021/whonix1.avif" type="image/avif"></source>
+  <source srcset="https://nima.ninja/blog/assets/2021/whonix1.webp" type="image/webp">
+  <source srcset="https://nima.ninja/blog/assets/2021/whonix1.avif" type="image/avif">
   <img src="https://nima.ninja/blog/assets/2021/whonix1.png" width="641" height="525" alt="Adapter 1 tab in network section of Whonix gateway settings containing a field named attached to with the value of NAT" loading="eager" decoding="async">
 </picture>
 <p><br></p>
@@ -4429,8 +4429,8 @@ In order to get started, visit Obsidian website and download it, then start from
 
 <p><br></p>
 <picture>
-  <source srcset="https://nima.ninja/blog/assets/2021/whonix2.webp" type="image/webp"></source>
-  <source srcset="https://nima.ninja/blog/assets/2021/whonix2.avif" type="image/avif"></source>
+  <source srcset="https://nima.ninja/blog/assets/2021/whonix2.webp" type="image/webp">
+  <source srcset="https://nima.ninja/blog/assets/2021/whonix2.avif" type="image/avif">
   <img src="https://nima.ninja/blog/assets/2021/whonix2.png" width="647" height="529" alt="Adapter 2 tab in network section of Whonix gateway settings containing a field named attached to with the value of Host-only adapter" loading="lazy" decoding="async">
 </picture>
 <p><br></p>
@@ -4441,8 +4441,8 @@ In order to get started, visit Obsidian website and download it, then start from
 
 <p><br></p>
 <picture>
-  <source srcset="https://nima.ninja/blog/assets/2021/vmware1.webp" type="image/webp"></source>
-  <source srcset="https://nima.ninja/blog/assets/2021/vmware1.avif" type="image/avif"></source>
+  <source srcset="https://nima.ninja/blog/assets/2021/vmware1.webp" type="image/webp">
+  <source srcset="https://nima.ninja/blog/assets/2021/vmware1.avif" type="image/avif">
   <img src="https://nima.ninja/blog/assets/2021/vmware1.png" width="602" height="525" alt="Virtual Network Editor in VMware showing a network bridged to Adapter 2 which was previously added in VirtualBox" loading="lazy" decoding="async">
 </picture>
 <p><br></p>
