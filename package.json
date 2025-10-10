@@ -32,7 +32,7 @@
 
     "build:jekyll:2": "bundle exec jekyll build",
 
-    "minify:js": "terser \"_site/js/back-to-top.js\" -o \"_site/js/back-to-top.js\" -c -m",
+    "minify:js": "terser \"_site/js/back-to-top.js\" -o \"_site/js/back-to-top.js\" -c -m && terser \"_site/js/particles.js\" -o \"_site/js/particles.js\" -c -m",
 
     "copy:back": "node copy-css.js \"css/temp.main.css\" \"_site/css/main.css\"",
 

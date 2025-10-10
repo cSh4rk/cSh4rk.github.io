@@ -1,0 +1,5 @@
+<canvas class="particles"></canvas>
+<script defer src='{{ "/js/particles.js" | prepend: site.baseurl | replace: "//", "/" }}'></script>
+<script defer nonce="__CSP_NONCE__">
+  {% include particles-init.js.liquid %}
+</script>

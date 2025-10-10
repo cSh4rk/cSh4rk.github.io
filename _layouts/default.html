@@ -41,5 +41,9 @@
     {% endif %}
 
     {% include back-to-top.html %}
+
+    {% if page.effect == "particles" %}
+      {% include particles.html %}
+    {% endif %}
   </body>
 </html>
