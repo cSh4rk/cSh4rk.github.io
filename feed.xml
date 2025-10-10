@@ -18,6 +18,7 @@ layout: null
       <title>{{ site.title | xml_escape }}</title>
       <link>{{ site.url }}{{ site.baseurl }}</link>
     </image>
+
     {% for post in site.posts limit:40 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
@@ -26,23 +27,25 @@ layout: null
             {% if post.image %}
               <p><img src="{{ site.url }}{{ post.image | prepend: '/' }}" alt="{{ post.title | escape }}" /></p>
             {% endif %}
-            {{ post.content
-               | replace_first: 'rel="footnote">1</a>' , 'rel="footnote"></a>' |
-                 replace_first: 'rel="footnote">2</a>' , 'rel="footnote"></a>' |
-                 replace_first: 'rel="footnote">3</a>' , 'rel="footnote"></a>' |
-                 replace_first: 'rel="footnote">4</a>' , 'rel="footnote"></a>' |
-                 replace_first: 'rel="footnote">5</a>' , 'rel="footnote"></a>' |
-               strip_html |
-               truncatewords:40 |
-               strip }}
+
+            {%- assign safe_content = post.content 
+               | replace_regex: '<div class="footnotes">.*?</div>', '' 
+               | replace_regex: '<sup[^>]*>.*?</sup>', '' 
+               | replace_regex: '<script[^>]*>.*?</script>', '' 
+               | replace_regex: '<form[^>]*>.*?</form>', '' 
+            -%}
+            
+            {{ safe_content }}
           ]]>
         </description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+
         {% if post.image %}
           <media:content url="{{ site.url }}{{ post.image | prepend: '/' }}" medium="image" />
         {% endif %}
+
         {% for cat in post.categories %}
           <category>{{ cat | xml_escape }}</category>
         {% endfor %}
