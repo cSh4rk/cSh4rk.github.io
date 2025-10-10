@@ -26,14 +26,25 @@ module Jekyll
       baseurl   = site.config['baseurl'].to_s
       full_base = "#{site_url}#{baseurl}".gsub(%r{([^:])/+}, '\1/')
 
-      # Convert relative <img src>
+      # Convert relative <img src> and strip unwanted attributes
       doc.css('img').each do |img|
         src = img['src']
         next if src.nil? || src =~ %r{^https?://}i
         img['src'] = "#{full_base}/#{src}".gsub(%r{([^:])/+}, '\1/')
+        # Remove validator-flagged attributes
+        img.remove_attribute('loading')
+        img.remove_attribute('decoding')
+        img.remove_attribute('fetchpriority')
       end
 
-      # Convert relative <source srcset>
+      # Convert <picture> to fallback <img>
+      doc.css('picture').each do |pic|
+        # Prefer the first <img> inside <picture>
+        img = pic.at_css('img')
+        pic.replace(img) if img
+      end
+
+      # Convert relative <source srcset> to self-closing <source/>
       doc.css('source').each do |source|
         srcset = source['srcset']
         next if srcset.nil?
@@ -43,9 +54,11 @@ module Jekyll
           abs = "#{full_base}/#{url}".gsub(%r{([^:])/+}, '\1/')
           ([abs] + rest).join(' ')
         end.join(', ')
+        # Make source self-closing
+        source.inner_html = nil
       end
 
-      # Convert relative <a href> (skip mailto:, #, and already absolute)
+      # Convert relative <a href> (skip mailto:, #, and absolute)
       doc.css('a').each do |a|
         href = a['href']
         next if href.nil? || href =~ %r{^https?://}i || href.start_with?('#', 'mailto:')
@@ -55,12 +68,8 @@ module Jekyll
       # Remove HTML comments
       doc.xpath('//comment()').remove
 
-      # --- Remove stray </source> tags ---
-      html_str = doc.to_html
-      html_str.gsub!('</source>', '')   # remove any closing </source>
-
-      # Return cleaned HTML fragment
-      html_str
+      # Return cleaned XHTML fragment (self-closing tags)
+      doc.to_xhtml
     end
   end
 end
