@@ -326,5 +326,7 @@ If you’re serious about living an extraordinary life, use the power of The Com
   function loadScript(e){const o=document.createElement("script");o.src=e,o.async=!0,o.onerror=()=>console.error(`Failed to load script: ${e}`),document.body.appendChild(o)}let scriptLoaded=!1;const showAfter=800;function checkScroll(){!scriptLoaded&&window.scrollY>600&&(scriptLoaded=!0,loadScript('/js/back-to-top.js'),window.removeEventListener("scroll",checkScroll))}window.addEventListener("scroll",checkScroll,{passive:!0});
 </script>
 
+
+    
   </body>
 </html>
