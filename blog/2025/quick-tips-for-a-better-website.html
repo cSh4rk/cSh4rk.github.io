@@ -110,7 +110,7 @@
   </div>
   <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 3H18V1H16V3H8V1H6V3H5C3.9 3 3 3.89 3 5V19C3 20.11 3.9 21 5 21H19C20.11 21 21 20.11 21 19V5C21 3.89 20.11 3 19 3M19 19H5V9H19V19M19 7H5V5H19M7 11H12V16H7" /></svg></span>
   <time datetime="2025-09-25T00:00:00-04:00" class="by-line"><strong>Published: </strong>25 Sep 2025</time>
-  <time datetime="2025-10-08T00:00:00-04:00" class="by-line">&nbsp;&nbsp;<strong>Updated: </strong>08 Oct 2025</time>
+  <time datetime="2025-10-12T00:00:00-04:00" class="by-line">&nbsp;&nbsp;<strong>Updated: </strong>12 Oct 2025</time>
   <p><br /></p>
 <picture>
   <source srcset="/blog/assets/2025/website-boost.avif" type="image/avif" />
@@ -522,7 +522,7 @@ So that you can optimize these pictures and use smaller and more modern image fo
 
     </span><span class="nl">"build:jekyll:2"</span><span class="p">:</span><span class="w"> </span><span class="s2">"bundle exec jekyll build"</span><span class="p">,</span><span class="w">
 
-    </span><span class="nl">"minify:js"</span><span class="p">:</span><span class="w"> </span><span class="s2">"terser </span><span class="se">\"</span><span class="s2">_site/js/back-to-top.js</span><span class="se">\"</span><span class="s2"> -o </span><span class="se">\"</span><span class="s2">_site/js/back-to-top.js</span><span class="se">\"</span><span class="s2"> -c -m"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"minify:js"</span><span class="p">:</span><span class="w"> </span><span class="s2">"terser </span><span class="se">\"</span><span class="s2">_site/js/back-to-top.js</span><span class="se">\"</span><span class="s2"> -o </span><span class="se">\"</span><span class="s2">_site/js/back-to-top.js</span><span class="se">\"</span><span class="s2"> -c -m &amp;&amp; terser </span><span class="se">\"</span><span class="s2">_site/js/particles.js</span><span class="se">\"</span><span class="s2"> -o </span><span class="se">\"</span><span class="s2">_site/js/particles.js</span><span class="se">\"</span><span class="s2"> -c -m"</span><span class="p">,</span><span class="w">
 
     </span><span class="nl">"copy:back"</span><span class="p">:</span><span class="w"> </span><span class="s2">"node copy-css.js </span><span class="se">\"</span><span class="s2">css/temp.main.css</span><span class="se">\"</span><span class="s2"> </span><span class="se">\"</span><span class="s2">_site/css/main.css</span><span class="se">\"</span><span class="s2">"</span><span class="p">,</span><span class="w">
 
@@ -580,7 +580,6 @@ Get-ChildItem <span class="nt">-Force</span> | Where-Object <span class="o">{</s
 
 <span class="c"># Optional: delete temporary or cache files:</span>
 <span class="k">if</span> <span class="o">(</span>Test-Path <span class="s2">".jekyll-cache"</span><span class="o">)</span> <span class="o">{</span> Remove-Item <span class="nt">-Recurse</span> <span class="nt">-Force</span> .jekyll-cache <span class="o">}</span>
-<span class="k">if</span> <span class="o">(</span>Test-Path <span class="s2">"_site/css/main.original.css"</span><span class="o">)</span> <span class="o">{</span> Remove-Item <span class="nt">-Force</span> <span class="s2">"_site/css/main.original.css"</span> <span class="o">}</span>
 
 <span class="c"># 3️⃣ Copy fresh _site contents into repo root</span>
 robocopy <span class="s2">"_site"</span> <span class="s2">"."</span> /E
