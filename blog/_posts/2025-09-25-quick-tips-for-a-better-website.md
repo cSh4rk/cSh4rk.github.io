@@ -9,7 +9,7 @@ image_height: "256"
 thumb_path: /blog/assets/2025/website-boost-thumb.png
 thumb_width: "130"
 thumb_height: "130"
-updated: 2025-10-08
+updated: 2025-10-12
 ---
 
 <br>
@@ -375,7 +375,7 @@ There are many more Cloudflare features that can help us run a more fast, optimi
 
       "build:jekyll:2": "bundle exec jekyll build",
 
-      "minify:js": "terser \"_site/js/back-to-top.js\" -o \"_site/js/back-to-top.js\" -c -m",
+      "minify:js": "terser \"_site/js/back-to-top.js\" -o \"_site/js/back-to-top.js\" -c -m && terser \"_site/js/particles.js\" -o \"_site/js/particles.js\" -c -m",
 
       "copy:back": "node copy-css.js \"css/temp.main.css\" \"_site/css/main.css\"",
 
@@ -436,7 +436,6 @@ There are many more Cloudflare features that can help us run a more fast, optimi
 
   # Optional: delete temporary or cache files:
   if (Test-Path ".jekyll-cache") { Remove-Item -Recurse -Force .jekyll-cache }
-  if (Test-Path "_site/css/main.original.css") { Remove-Item -Force "_site/css/main.original.css" }
 
   # 3️⃣ Copy fresh _site contents into repo root
   robocopy "_site" "." /E
