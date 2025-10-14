@@ -29,6 +29,7 @@ In this edition of the Hacker Theme:
   - Custom PostCSS script to use as pre-Critical CSS sanitizing stage, instead of Critical `--ignore` flag that may not always work as intended, to remove custom CSS selectors that shouldn't be in Critical CSS output.
   - Fully automated local build pipeline including CSS minification with PurgeCSS, JS minification with Terser, Custom PostCSS plugin for pre-Critical CSS sanitizing, Critical CSS inlining for different page layouts and viewports, with full comments for each build line. 
   - Contains code to use particles effect with various color palettes on desired pages.
+  - Contains code to use Table of Contents for posts.
   
 ✔ Multiple bugs in the original theme are fixed. 
 

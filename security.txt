@@ -1,5 +1,5 @@
 Contact: https://nima.ninja/contact
 Encryption: https://nima.ninja/assets/CEE9A66A2F5C6187E4242B0425669795B037FEF2.asc.txt
 Preferred-Languages: en
-Expires: 2026-10-12T00:00:00Z
+Expires: 2026-10-13T00:00:00Z
 Canonical: https://nima.ninja/security.txt

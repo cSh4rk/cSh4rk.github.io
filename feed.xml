@@ -7,8 +7,8 @@
     <description>Nima&apos;s Diaries about Cybersecurity, Red Teaming, Tooling, Tutorials, and Personal Notes — Practical Guides, Walkthroughs, and Resources for Curious Minds.</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 12 Oct 2025 22:22:16 -0400</pubDate>
-    <lastBuildDate>Sun, 12 Oct 2025 22:22:16 -0400</lastBuildDate>
+    <pubDate>Mon, 13 Oct 2025 21:57:32 -0400</pubDate>
+    <lastBuildDate>Mon, 13 Oct 2025 21:57:32 -0400</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
     <image>
       <url>https://nima.ninja/assets/ninja.png</url>
@@ -172,11 +172,17 @@ In other words, what you do for a living is much less important than how you do 
   <br />
 </p>
 
+<!--TOC-->
+
+<p>
+  <br />
+</p>
+
 <h2 id="1-use-cloudflare">1) Use Cloudflare</h2>
 
 <ul>
   <li>
-    <p>Enable all useful page speed and performance options in Cloudflare panel:</p>
+    <h3 id="enable-all-useful-page-speed-and-performance-options-in-cloudflare-panel">Enable all useful page speed and performance options in Cloudflare panel</h3>
 
     <p>Speed -&gt; Settings: (In the Site Recommendations section): Enable/Disable according to the picture:</p>
 
@@ -194,11 +200,9 @@ In other words, what you do for a living is much less important than how you do 
   <br />
 </p>
 
-<h3 id="another-less-noticed-but-still-very-important-tip">Another less noticed but still very important tip:</h3>
-
 <ul>
   <li>
-    <p>Enable TLS 1.2 in addition to TLS 1.3:</p>
+    <h3 id="less-noticed-but-still-very-important-enable-tls-12-in-addition-to-tls-13">Less noticed but still very important: Enable TLS 1.2 in addition to TLS 1.3</h3>
 
     <p>I was able to retrieve my website feeds again in Newsflow and some other RSS feeds clients after enabling TLS 1.2 again, these clients don’t show any errors but still don’t load your feeds if you enable only TLS 1.3.</p>
 
@@ -222,7 +226,9 @@ In other words, what you do for a living is much less important than how you do 
 
 <ul>
   <li>
-    <p>Use Cloudflare’s Email Address Obfuscation for your email address but use it only on one Contact page:</p>
+    <h3 id="use-cloudflares-email-address-obfuscation">Use Cloudflare’s Email Address Obfuscation</h3>
+
+    <p>Use it for your email address but use it only on one Contact page:</p>
 
     <p>Remove email address from website footer and only use it in a Contact page to limit the overhead of Cloudflare JS used for email address obfuscation to only one page.</p>
 
@@ -252,10 +258,10 @@ In other words, what you do for a living is much less important than how you do 
 
 <ul>
   <li>
-    <p>Use hardcoded width and height for <code class="language-plaintext highlighter-rouge">img</code> and <code class="language-plaintext highlighter-rouge">video</code> tags.</p>
+    <h3 id="use-hardcoded-width-and-height-for-img-and-video-tags">Use hardcoded width and height for <code class="language-plaintext highlighter-rouge">img</code> and <code class="language-plaintext highlighter-rouge">video</code> tags</h3>
   </li>
   <li>
-    <p>Use a CSS class to still support responsive after previous tip.</p>
+    <h3 id="use-a-css-class-to-still-support-responsive-after-previous-tip">Use a CSS class to still support responsive after previous tip</h3>
 
     <p>This is the way I handle it in my Jekyll website, in <code class="language-plaintext highlighter-rouge">base.scss</code> file:</p>
 
@@ -282,7 +288,8 @@ In other words, what you do for a living is much less important than how you do 
 
 <ul>
   <li>
-    <p>Use more modern <code class="language-plaintext highlighter-rouge">AVIF</code>,<code class="language-plaintext highlighter-rouge">WebP</code> image formats instead of <code class="language-plaintext highlighter-rouge">PNG</code> or <code class="language-plaintext highlighter-rouge">JPG</code> and <code class="language-plaintext highlighter-rouge">MP4</code>,<code class="language-plaintext highlighter-rouge">WebM</code> video formats instead of heavy <code class="language-plaintext highlighter-rouge">GIF</code> files to significantly improve load speed and decrease file sizes.</p>
+    <h3 id="use-more-modern-media-formats">Use more modern media formats</h3>
+    <p>Use <code class="language-plaintext highlighter-rouge">AVIF</code>,<code class="language-plaintext highlighter-rouge">WebP</code> image formats instead of <code class="language-plaintext highlighter-rouge">PNG</code> or <code class="language-plaintext highlighter-rouge">JPG</code> and <code class="language-plaintext highlighter-rouge">MP4</code>,<code class="language-plaintext highlighter-rouge">WebM</code> video formats instead of heavy <code class="language-plaintext highlighter-rouge">GIF</code> files to significantly improve load speed and decrease file sizes.</p>
 
     <p>You can use FFmpeg, cwebp and ImageMagick to convert <code class="language-plaintext highlighter-rouge">PNG</code>/<code class="language-plaintext highlighter-rouge">JPG</code> to more modern and web-friendly <code class="language-plaintext highlighter-rouge">AVIF</code>/<code class="language-plaintext highlighter-rouge">WebP</code> formats.</p>
 
@@ -326,7 +333,10 @@ ffmpeg <span class="nt">-i</span> test.mp4 <span class="nt">-c</span>:v libaom-a
 </p>
 
 <ul>
-  <li>Use <code class="language-plaintext highlighter-rouge">fetchpriority="high"</code> for your largest contentful paint (LCP) image or video that is <strong>immediately visible</strong> above the fold.</li>
+  <li>
+    <h3 id="use-fetchpriorityhigh">Use <code class="language-plaintext highlighter-rouge">fetchpriority="high"</code></h3>
+    <p>Use it for your largest contentful paint (LCP) image or video that is <strong>immediately visible</strong> above the fold.</p>
+  </li>
 </ul>
 
 <p>
@@ -335,7 +345,7 @@ ffmpeg <span class="nt">-i</span> test.mp4 <span class="nt">-c</span>:v libaom-a
 
 <ul>
   <li>
-    <p>Use <code class="language-plaintext highlighter-rouge">loading</code> attribute for <code class="language-plaintext highlighter-rouge">img</code> tag:</p>
+    <h3 id="use-loading-attribute-for-img-tag">Use <code class="language-plaintext highlighter-rouge">loading</code> attribute for <code class="language-plaintext highlighter-rouge">img</code> tag</h3>
 
     <p><strong><code class="language-plaintext highlighter-rouge">loading="lazy"</code></strong>: Great for images <strong>below the fold</strong>, but <strong>never on your LCP image</strong> (causes delays).</p>
 
@@ -355,7 +365,7 @@ ffmpeg <span class="nt">-i</span> test.mp4 <span class="nt">-c</span>:v libaom-a
 
 <ul>
   <li>
-    <p>Use <code class="language-plaintext highlighter-rouge">decoding="async"</code> for secondary images:</p>
+    <h3 id="use-decodingasync-for-secondary-images">Use <code class="language-plaintext highlighter-rouge">decoding="async"</code> for secondary images</h3>
 
     <p>Usually improves main-thread responsiveness.</p>
 
@@ -371,7 +381,7 @@ ffmpeg <span class="nt">-i</span> test.mp4 <span class="nt">-c</span>:v libaom-a
 
 <ul>
   <li>
-    <p>Preload LCP image via <code class="language-plaintext highlighter-rouge">&lt;link rel="preload"&gt;</code>.</p>
+    <h3 id="preload-lcp-image-via-link-relpreload">Preload LCP image via <code class="language-plaintext highlighter-rouge">&lt;link rel="preload"&gt;</code></h3>
 
     <p>Jekyll Example: This is how I use <code class="language-plaintext highlighter-rouge">Preload</code> for my hero poster images(hero images that are loaded before video content is fully downloaded) in the <code class="language-plaintext highlighter-rouge">head.html</code> file of my Jekyll website:</p>
 
@@ -395,8 +405,9 @@ ffmpeg <span class="nt">-i</span> test.mp4 <span class="nt">-c</span>:v libaom-a
 </code></pre></div>    </div>
 
     <p><br /></p>
-
-    <h3 id="rule-of-thumb-for-safe-optimization">Rule of thumb for safe optimization</h3>
+  </li>
+  <li>
+    <h3 id="rule-of-thumb-for-safe-optimization"><strong>Rule of thumb for safe optimization</strong></h3>
 
     <p><strong>LCP/hero image: preload + fetchpriority=”high” + eager (no async).</strong></p>
 
@@ -415,7 +426,11 @@ ffmpeg <span class="nt">-i</span> test.mp4 <span class="nt">-c</span>:v libaom-a
 </p>
 
 <ul>
-  <li>Use explicit <code class="language-plaintext highlighter-rouge">width</code> &amp; <code class="language-plaintext highlighter-rouge">height</code> for images (we already did that for reducing Cumulative Layout Shift in tip number 2).</li>
+  <li>
+    <h3 id="use-explicit-width--height-for-images">Use explicit <code class="language-plaintext highlighter-rouge">width</code> &amp; <code class="language-plaintext highlighter-rouge">height</code> for images</h3>
+
+    <p>we already did that for reducing Cumulative Layout Shift in tip number 2.</p>
+  </li>
 </ul>
 
 <p><br />
@@ -425,7 +440,7 @@ ffmpeg <span class="nt">-i</span> test.mp4 <span class="nt">-c</span>:v libaom-a
 
 <ul>
   <li>
-    <p>Compress the CSS file and disable source maps.</p>
+    <h3 id="compress-the-css-file-and-disable-source-maps">Compress the CSS file and disable source maps</h3>
 
     <p>Example: in a Jekyll website, in  <code class="language-plaintext highlighter-rouge">_config.yaml</code>:</p>
 
@@ -463,7 +478,7 @@ ffmpeg <span class="nt">-i</span> test.mp4 <span class="nt">-c</span>:v libaom-a
 
 <ul>
   <li>
-    <p>Use PurgeCSS post-build to remove CSS codes that are not used.</p>
+    <h3 id="use-purgecss-post-build-to-remove-css-codes-that-are-not-used">Use PurgeCSS post-build to remove CSS codes that are not used</h3>
 
     <p>If you build your website locally, create a workflow to run <code class="language-plaintext highlighter-rouge">PurgeCSS</code> after your website build to remove unused parts of your CSS file.</p>
   </li>
@@ -475,20 +490,27 @@ ffmpeg <span class="nt">-i</span> test.mp4 <span class="nt">-c</span>:v libaom-a
 
 <ul>
   <li>
-    <p>Inline critical CSS:</p>
+    <h3 id="inline-critical-css">Inline critical CSS</h3>
 
-    <p>Use a tool like Critical CSS, Penthouse, Critters or Crittr to extract critical parts of CSS that are used for above the fold content of each of your important HTML pages and inline those parts of CSS for faster page loads.</p>
+    <p>Use a tool like Critical CSS, Penthouse, Critters or Crittr to extract critical parts of CSS that are used for above the fold content of each of your important HTML pages and inline those parts of CSS for faster page loads. Use nonce for inline styles.</p>
   </li>
 </ul>
 
 <p><br />
 <br /></p>
 
-<h2 id="5-some-other-tips">5) Some other tips</h2>
+<h2 id="5-minify-js-scripts">5) Minify JS scripts</h2>
+
+<p>Minify inline and external JS scripts with a tool like Terser. Also use nonce for inline scripts.</p>
+
+<p><br />
+<br /></p>
+
+<h2 id="6-some-other-tips">6) Some other tips</h2>
 
 <ul>
   <li>
-    <p>Load resources locally:</p>
+    <h3 id="load-resources-locally">Load resources locally</h3>
 
     <p>If you use some website profile badges on your website (like the TryHackMe and HackTheBox badges on my website footer), it’s better to download the image and serve it from your own website resources instead of direct requests for them.
 So that you can optimize these pictures and use smaller and more modern image formats and also prevent additional requests and cookies of third party services you send requests to.</p>
@@ -547,11 +569,12 @@ So that you can optimize these pictures and use smaller and more modern image fo
 
 <ul>
   <li>
-    <p>Create a clean workflow for website build in <code class="language-plaintext highlighter-rouge">main</code> branch and publish in <code class="language-plaintext highlighter-rouge">gh-pages</code> branch:</p>
+    <h3 id="create-clean-workflows-for-website-build-and-publish">Create clean workflows for website build and publish</h3>
+    <p>You can have two branches, one for website build and another for publish.</p>
 
-    <p>Example: Here is my local build pipeline, fully automated:</p>
+    <p>Example: I use <code class="language-plaintext highlighter-rouge">main</code> branch for build and <code class="language-plaintext highlighter-rouge">gh-pages</code> for publish.</p>
 
-    <p>For <code class="language-plaintext highlighter-rouge">main</code> branch and site build:</p>
+    <p>Here is my local build pipeline for <code class="language-plaintext highlighter-rouge">main</code> branch , fully automated:</p>
 
     <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm run build
 </code></pre></div>    </div>
@@ -624,7 +647,7 @@ So that you can optimize these pictures and use smaller and more modern image fo
 
     <p>Codes for all of these files exist in my website GitHub repo.</p>
 
-    <p>For <code class="language-plaintext highlighter-rouge">gh-pages</code> branch that is used for publishing website files for GitHub Pages:</p>
+    <p>For <code class="language-plaintext highlighter-rouge">gh-pages</code> branch which is used for publishing website files for GitHub Pages:</p>
 
     <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 1️⃣ Prepare .gitignore in gh-pages</span>
 git checkout gh-pages
@@ -1241,7 +1264,14 @@ git status
 <p>
 <br /></p>
 
+<!--TOC-->
+
+<p>
+  <br />
+</p>
+
 <h2 id="lab-link">Lab Link</h2>
+<hr />
 <p>
   <a href="https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-with-a-custom-exploit">Lab: Server-side template injection with a custom exploit</a>
 </p>
@@ -1249,6 +1279,7 @@ git status
 <p>
   <br />
 </p>
+
 <h2 id="lab-description">Lab Description</h2>
 <hr />
 <p><br />
@@ -1818,7 +1849,14 @@ So we should search for developer-created objects, this is tip #1.</p>
 <p>
 <br /></p>
 
+<!--TOC-->
+
+<p>
+  <br />
+</p>
+
 <h2 id="lab-link">Lab Link</h2>
+<hr />
 <p>
   <a href="https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-developing-a-custom-gadget-chain-for-php-deserialization">Lab: Developing a custom gadget chain for PHP deserialization</a>
 </p>
@@ -2581,7 +2619,14 @@ rather than a CHAR or TEXT field.
 <p>
 <br /></p>
 
+<!--TOC-->
+
+<p>
+  <br />
+</p>
+
 <h2 id="lab-link">Lab Link</h2>
+<hr />
 <p>
   <a href="https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-exploiting-php-deserialization-with-a-pre-built-gadget-chain">Lab: Exploiting PHP deserialization with a pre-built gadget chain</a>
 </p>
@@ -3007,7 +3052,14 @@ This lab has a serialization-based session mechanism that uses a signed cookie. 
 <p>
 <br /></p>
 
+<!--TOC-->
+
+<p>
+  <br />
+</p>
+
 <h2 id="lab-link">Lab Link</h2>
+<hr />
 <p>
   <a href="https://portswigger.net/web-security/cross-site-scripting/contexts/lab-javascript-url-some-characters-blocked">Lab: Reflected XSS in a JavaScript URL with some characters blocked</a>
 </p>
@@ -3030,7 +3082,7 @@ This lab reflects your input in a JavaScript URL, but all is not as it seems. Th
 <p>
   <br />
 </p>
-<h3 id="solution-1">Solution 1:</h3>
+<h3 id="solution-1">Solution 1</h3>
 <p>Visit the following URL, replacing your-lab-id with your lab ID:</p>
 
 <div class="language-plaintext highlighter-rouge">
@@ -3187,7 +3239,7 @@ Here is the full code with explanation and formatting for clarity:</p>
 <p>
   <br />
 </p>
-<h3 id="solution-2">Solution 2:</h3>
+<h3 id="solution-2">Solution 2</h3>
 <p>Another interesting solution is to use <em>JavaScript without parentheses using DOMMatrix</em> which is explained in detail by Gareth Heyes in a great post. To solve this lab with DOMMatrix payload, use:</p>
 
 <div class="language-plaintext highlighter-rouge">
@@ -3282,7 +3334,14 @@ Here is the full code with explanation and formatting for clarity:</p>
 <p>
 <br /></p>
 
+<!--TOC-->
+
+<p>
+  <br />
+</p>
+
 <h2 id="lab-link">Lab Link</h2>
+<hr />
 <p>
   <a href="https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-race-condition">Lab: Web shell upload via race condition</a>
 </p>
@@ -3464,7 +3523,7 @@ The vulnerable code that introduces this race condition is as follows:</p>
 <p>
   <br />
 </p>
-<h4 id="note">Note</h4>
+<h4 id="note-1">Note 1</h4>
 <p>
   <em>Due to the generous time window for this race condition, it is possible to solve this lab by manually sending two requests in quick succession using Burp Repeater. The solution described here teaches you a practical approach for exploiting similar vulnerabilities in the wild, where the window may only be a few milliseconds.</em>
 </p>
@@ -3560,7 +3619,7 @@ The vulnerable code that introduces this race condition is as follows:</p>
 <p>
   <br />
 </p>
-<h4 id="note-1">Note</h4>
+<h4 id="note-2">Note 2</h4>
 <p>
   <em>If you choose to build the <code class="language-plaintext highlighter-rouge">GET</code> request manually, make sure you terminate it properly with a <code class="language-plaintext highlighter-rouge">\r\n\r\n</code> sequence. Also remember that Python will preserve any whitespace within a multiline string, so you need to adjust your indentation accordingly to ensure that a valid request is sent.</em>
 </p>
@@ -3858,6 +3917,13 @@ It has many great features. One of them is streak, which is built if you complet
 <p>
   <br />
 </p>
+
+<!--TOC-->
+
+<p>
+  <br />
+</p>
+
 <h2 id="external-links">
   <em>External Links</em>
 </h2>
