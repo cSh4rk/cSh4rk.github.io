@@ -9,7 +9,8 @@ image_height: "256"
 thumb_path: /blog/assets/2025/website-boost-thumb.png
 thumb_width: "130"
 thumb_height: "130"
-updated: 2025-10-12
+updated: 2025-10-13
+toc: true
 ---
 
 <br>
@@ -21,9 +22,13 @@ These are some tips to improve your website, examples are for Jekyll as my websi
 
 <br>
 
+<!--TOC-->
+
+<br>
+
 ## 1) Use Cloudflare
 
-- Enable all useful page speed and performance options in Cloudflare panel:
+- ### Enable all useful page speed and performance options in Cloudflare panel
 
   Speed -> Settings: (In the Site Recommendations section): Enable/Disable according to the picture:
 
@@ -37,9 +42,7 @@ These are some tips to improve your website, examples are for Jekyll as my websi
 
 <br>
 
-### Another less noticed but still very important tip:
-
-- Enable TLS 1.2 in addition to TLS 1.3:
+- ### Less noticed but still very important: Enable TLS 1.2 in addition to TLS 1.3
 
   I was able to retrieve my website feeds again in Newsflow[^2] and some other RSS feeds clients after enabling TLS 1.2 again, these clients don't show any errors but still don't load your feeds if you enable only TLS 1.3.
 
@@ -55,7 +58,9 @@ These are some tips to improve your website, examples are for Jekyll as my websi
 
 <br>
 
-- Use Cloudflare's Email Address Obfuscation for your email address but use it only on one Contact page:
+- ### Use Cloudflare's Email Address Obfuscation 
+  
+  Use it for your email address but use it only on one Contact page:
 
   Remove email address from website footer and only use it in a Contact page to limit the overhead of Cloudflare JS used for email address obfuscation to only one page.
 
@@ -77,9 +82,9 @@ There are many more Cloudflare features that can help us run a more fast, optimi
 
 ## 2) Reduce Cumulative Layout Shift(CLS)
 
-- Use hardcoded width and height for `img` and `video` tags.
+- ### Use hardcoded width and height for `img` and `video` tags
 
-- Use a CSS class to still support responsive after previous tip. 
+- ### Use a CSS class to still support responsive after previous tip
 
   This is the way I handle it in my Jekyll website, in `base.scss` file:
 
@@ -105,7 +110,8 @@ There are many more Cloudflare features that can help us run a more fast, optimi
 
 ## 3) Reduce Largest Contentful Paint(LCP)
 
-- Use more modern `AVIF`,`WebP` image formats instead of `PNG` or `JPG` and `MP4`,`WebM` video formats instead of heavy `GIF` files to significantly improve load speed and decrease file sizes. 
+- ### Use more modern media formats
+  Use `AVIF`,`WebP` image formats instead of `PNG` or `JPG` and `MP4`,`WebM` video formats instead of heavy `GIF` files to significantly improve load speed and decrease file sizes. 
 
   You can use FFmpeg[^4], cwebp[^5] and ImageMagick[^6] to convert `PNG`/`JPG` to more modern and web-friendly `AVIF`/`WebP` formats.
 
@@ -147,11 +153,12 @@ There are many more Cloudflare features that can help us run a more fast, optimi
 
 <br>
 
-- Use `fetchpriority="high"` for your largest contentful paint (LCP) image or video that is **immediately visible** above the fold.
+- ### Use `fetchpriority="high"` 
+  Use it for your largest contentful paint (LCP) image or video that is **immediately visible** above the fold.
 
 <br>
 
-- Use `loading` attribute for `img` tag:
+- ### Use `loading` attribute for `img` tag
 
   **`loading="lazy"`**: Great for images **below the fold**, but **never on your LCP image** (causes delays).
 
@@ -161,7 +168,7 @@ There are many more Cloudflare features that can help us run a more fast, optimi
 
 <br>
 
-- Use `decoding="async"` for secondary images:
+- ### Use `decoding="async"` for secondary images
 
   Usually improves main-thread responsiveness.
 
@@ -171,7 +178,7 @@ There are many more Cloudflare features that can help us run a more fast, optimi
 
 <br>
 
-- Preload LCP image via `<link rel="preload">`.
+- ### Preload LCP image via `<link rel="preload">`
 
   Jekyll Example: This is how I use `Preload` for my hero poster images(hero images that are loaded before video content is fully downloaded) in the `head.html` file of my Jekyll website:
 
@@ -202,7 +209,7 @@ There are many more Cloudflare features that can help us run a more fast, optimi
 
   <br> 
 
-  ### Rule of thumb for safe optimization
+- ### **Rule of thumb for safe optimization**
 
   **LCP/hero image: preload + fetchpriority="high" + eager (no async).**
 
@@ -216,14 +223,16 @@ There are many more Cloudflare features that can help us run a more fast, optimi
 
 <br>
 
-- Use explicit `width` & `height` for images (we already did that for reducing Cumulative Layout Shift in tip number 2).
+- ### Use explicit `width` & `height` for images 
+
+  we already did that for reducing Cumulative Layout Shift in tip number 2.
 
 <br>
 <br>
 
 ## 4) Optimize CSS
 
-- Compress the CSS file and disable source maps.
+- ### Compress the CSS file and disable source maps
 
   Example: in a Jekyll website, in  `_config.yaml`:
 
@@ -251,22 +260,29 @@ There are many more Cloudflare features that can help us run a more fast, optimi
 
 <br>
 
-- Use PurgeCSS[^9] post-build to remove CSS codes that are not used.
+- ### Use PurgeCSS post-build to remove CSS codes that are not used
 
-  If you build your website locally, create a workflow to run `PurgeCSS` after your website build to remove unused parts of your CSS file.
-
-<br>
-
-- Inline critical CSS:
-
-  Use a tool like Critical[^10] CSS, Penthouse[^11], Critters[^12] or Crittr[^13] to extract critical parts of CSS that are used for above the fold content of each of your important HTML pages and inline those parts of CSS for faster page loads. 
+  If you build your website locally, create a workflow to run `PurgeCSS`[^9] after your website build to remove unused parts of your CSS file.
 
 <br>
+
+- ### Inline critical CSS
+
+  Use a tool like Critical[^10] CSS, Penthouse[^11], Critters[^12] or Crittr[^13] to extract critical parts of CSS that are used for above the fold content of each of your important HTML pages and inline those parts of CSS for faster page loads. Use nonce for inline styles.
+
+<br>
 <br>
 
-## 5) Some other tips
+## 5) Minify JS scripts
+  
+  Minify inline and external JS scripts with a tool like Terser[^14]. Also use nonce for inline scripts.
 
-- Load resources locally:
+<br>
+<br>
+
+## 6) Some other tips
+
+- ### Load resources locally
 
   If you use some website profile badges on your website (like the TryHackMe and HackTheBox badges on my website footer), it's better to download the image and serve it from your own website resources instead of direct requests for them.
   So that you can optimize these pictures and use smaller and more modern image formats and also prevent additional requests and cookies of third party services you send requests to. 
@@ -325,11 +341,12 @@ There are many more Cloudflare features that can help us run a more fast, optimi
 
 <br>
 
-- Create a clean workflow for website build in `main` branch and publish in `gh-pages` branch:
+- ### Create clean workflows for website build and publish
+  You can have two branches, one for website build and another for publish.
 
-  Example: Here is my local build pipeline, fully automated:
-
-  For `main` branch and site build:
+  Example: I use `main` branch for build and `gh-pages` for publish.
+  
+  Here is my local build pipeline for `main` branch , fully automated:
 
   {% raw %}
   ```bash
@@ -408,7 +425,7 @@ There are many more Cloudflare features that can help us run a more fast, optimi
 
   Codes for all of these files exist in my website GitHub repo.
 
-  For `gh-pages` branch that is used for publishing website files for GitHub Pages:
+  For `gh-pages` branch which is used for publishing website files for GitHub Pages:
 
   {% raw %}
   ```bash
@@ -456,7 +473,7 @@ There are many more Cloudflare features that can help us run a more fast, optimi
   ```
   {% endraw %}
 
-  The result: built website code is committed and pushed to the `gh-pages` branch of my website[^14] on GitHub.
+  The result: built website code is committed and pushed to the `gh-pages` branch of my website[^15] on GitHub.
 
 <br>
 <br>
@@ -476,4 +493,5 @@ There are many more Cloudflare features that can help us run a more fast, optimi
 [^11]: [Penthouse: Generate critical css for your web pages](https://github.com/pocketjoso/penthouse)
 [^12]: [Critters: A Webpack plugin to inline your critical CSS and lazy-load the rest.](https://github.com/GoogleChromeLabs/critters)
 [^13]: [Crittr: High performance critical css extraction with a great configuration abilities](https://github.com/philipp-winterle/crittr)
-[^14]: [The gh-pages branch of my website on GitHub](https://github.com/cSh4rk/cSh4rk.github.io/tree/gh-pages)
+[^14]: [Terser: JavaScript parser, mangler and compressor toolkit for ES6+](https://github.com/terser/terser)
+[^15]: [The gh-pages branch of my website on GitHub](https://github.com/cSh4rk/cSh4rk.github.io/tree/gh-pages)

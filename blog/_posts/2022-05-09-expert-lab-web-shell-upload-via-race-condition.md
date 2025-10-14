@@ -9,6 +9,8 @@ image_height: "256"
 thumb_path: /blog/assets/2022/console-thumb.png
 thumb_width: "130"
 thumb_height: "130"
+updated: 2025-10-13
+toc: true
 ---
 
 <br>
@@ -16,7 +18,12 @@ thumb_height: "130"
 [^1]
 <br>
 
+<!--TOC-->
+
+<br>
+
 ## Lab Link
+***
 [Lab: Web shell upload via race condition](https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-race-condition)
 
 <br>
@@ -154,7 +161,7 @@ The Web Security Academy solved this lab in a better and more precise way that c
 As you can see from the hint source code above, the uploaded file is moved to an accessible folder, where it is checked for viruses. Malicious files are only removed once the virus check is complete. This means it's possible to execute the file in the small time-window before it is removed.
 
 <br>
-#### Note
+#### Note 1
 *Due to the generous time window for this race condition, it is possible to solve this lab by manually sending two requests in quick succession using Burp Repeater. The solution described here teaches you a practical approach for exploiting similar vulnerabilities in the wild, where the window may only be a few milliseconds.*
 
 <br>
@@ -215,7 +222,7 @@ def handleResponse(req, interesting):
 12.  Submit the secret to solve the lab.
 
 <br>
-#### Note
+#### Note 2
 *If you choose to build the `GET` request manually, make sure you terminate it properly with a `\r\n\r\n` sequence. Also remember that Python will preserve any whitespace within a multiline string, so you need to adjust your indentation accordingly to ensure that a valid request is sent.*
 
 <br>

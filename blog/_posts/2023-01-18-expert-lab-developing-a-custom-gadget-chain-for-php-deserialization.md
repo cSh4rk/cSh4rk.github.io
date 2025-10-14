@@ -9,6 +9,8 @@ image_height: "256"
 thumb_path: /blog/assets/2023/supply-chain2-thumb.png
 thumb_width: "130"
 thumb_height: "130"
+updated: 2025-10-13
+toc: true
 ---
 
 <br>
@@ -16,7 +18,12 @@ thumb_height: "130"
 [^1]
 <br>
 
+<!--TOC-->
+
+<br>
+
 ## Lab Link
+***
 [Lab: Developing a custom gadget chain for PHP deserialization](https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-developing-a-custom-gadget-chain-for-php-deserialization)
 
 <br>

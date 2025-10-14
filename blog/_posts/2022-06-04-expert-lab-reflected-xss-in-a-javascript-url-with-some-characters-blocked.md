@@ -9,6 +9,8 @@ image_height: "256"
 thumb_path: /blog/assets/2022/hacker-thumb.png
 thumb_width: "130"
 thumb_height: "130"
+updated: 2025-10-13
+toc: true
 ---
 
 <br>
@@ -16,7 +18,12 @@ thumb_height: "130"
 [^1]
 <br>
 
+<!--TOC-->
+
+<br>
+
 ## Lab Link
+***
 [Lab: Reflected XSS in a JavaScript URL with some characters blocked](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-javascript-url-some-characters-blocked)
 
 <br>
@@ -31,7 +38,7 @@ To solve the lab, perform a cross-site scripting attack that calls the alert fun
 ## Solutions
 * * *
 <br>
-### Solution 1:
+### Solution 1
 Visit the following URL, replacing your-lab-id with your lab ID:
 
 ```
@@ -134,7 +141,7 @@ window + '';
 ```
 
 <br>
-### Solution 2:
+### Solution 2
 Another interesting solution is to use _JavaScript without parentheses using DOMMatrix_ which is explained in detail by Gareth Heyes in a great post[^3]. To solve this lab with DOMMatrix payload, use:
 
 ```

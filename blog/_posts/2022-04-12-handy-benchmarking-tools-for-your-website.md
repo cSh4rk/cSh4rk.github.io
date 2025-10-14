@@ -9,7 +9,8 @@ image_height: "256"
 thumb_path: /blog/assets/2022/chart-search-icon-thumb.png
 thumb_width: "130"
 thumb_height: "130"
-updated: 2025-10-05
+updated: 2025-10-13
+toc: true
 ---
 
 <br>
@@ -20,6 +21,11 @@ updated: 2025-10-05
 Here is a list of some handy benchmarking tools for your website:
 
 <br>
+
+<!--TOC-->
+
+<br>
+
 ## _External Links_
 * * *
 <br>
