@@ -27,6 +27,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-toc
   
 exclude:
   - package.json

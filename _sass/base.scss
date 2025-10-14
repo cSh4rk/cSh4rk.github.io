@@ -930,3 +930,13 @@ a.footnote:after {
 }
 
 // End of Buttons
+
+
+// Table of Contents
+
+#toc,
+.section-nav {
+  li {
+    margin: 0.2em 0; /* adds spacing between lines */
+  }
+}

@@ -15,5 +15,14 @@ layout: default
   <span class="icon">{% include icon-calendar.svg attr='aria-hidden="true" focusable="false"' %}</span>
   <time datetime="{{ page.date | date_to_xmlschema }}" class="by-line"><strong>Published: </strong>{{ page.date | date_to_string }}</time>
   {% if page.updated %}<time datetime="{{ page.updated | date_to_xmlschema }}" class="by-line">&nbsp;&nbsp;<strong>Updated: </strong>{{ page.updated | date_to_string }}</time>{% endif %}
-  {{ content }}
+  
+  {% assign toc_html = content | toc_only %}
+  {% capture toc_filtered %}
+    {%- unless toc_html == "" -%}
+      <h2 id="table-of-contents">Table of contents</h2>
+      {{ toc_html }}
+    {%- endunless -%}
+  {% endcapture %}
+
+  {{ content | inject_anchors | replace: '<!--TOC-->', toc_filtered }}
 </article>
