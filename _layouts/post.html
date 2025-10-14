@@ -22,5 +22,10 @@ layout: default
       {{ toc_html }}
     {%- endunless -%}
   {% endcapture %}
-  {{ content | inject_anchors | replace: '<!--TOC-->', toc_filtered | replace: '</source>', ''}}
+  {{ content 
+    | inject_anchors
+    | replace: '<!--TOC-->', toc_filtered 
+    | replace: '</source>', ''
+    | replace: '<a class="anchor" href="', '<a class="anchor" tabindex="-1" href="'
+  }} 
 </article>
