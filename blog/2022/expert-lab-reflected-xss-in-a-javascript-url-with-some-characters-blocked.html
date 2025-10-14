@@ -154,13 +154,13 @@
 <p><br></p>
 
 <h2 id="lab-link">
-<a class="anchor" href="#lab-link" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lab Link</h2>
+<a class="anchor" tabindex="-1" href="#lab-link" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lab Link</h2>
 <hr>
 <p><a href="https://portswigger.net/web-security/cross-site-scripting/contexts/lab-javascript-url-some-characters-blocked">Lab: Reflected XSS in a JavaScript URL with some characters blocked</a></p>
 
 <p><br></p>
 <h2 id="lab-description">
-<a class="anchor" href="#lab-description" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lab Description</h2>
+<a class="anchor" tabindex="-1" href="#lab-description" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lab Description</h2>
 <hr>
 <p><br>
 This lab reflects your input in a JavaScript URL, but all is not as it seems. This initially seems like a trivial challenge; however, the application is blocking some characters in an attempt to prevent XSS attacks.</p>
@@ -169,11 +169,11 @@ This lab reflects your input in a JavaScript URL, but all is not as it seems. Th
 
 <p><br></p>
 <h2 id="solutions">
-<a class="anchor" href="#solutions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Solutions</h2>
+<a class="anchor" tabindex="-1" href="#solutions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Solutions</h2>
 <hr>
 <p><br></p>
 <h3 id="solution-1">
-<a class="anchor" href="#solution-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Solution 1</h3>
+<a class="anchor" tabindex="-1" href="#solution-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Solution 1</h3>
 <p>Visit the following URL, replacing your-lab-id with your lab ID:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://your-lab-id.web-security-academy.net/post?postId=5&amp;%27},x=x=%3E{throw/**/onerror=alert,1337},toString=x,window%2b%27%27,{x:%27
@@ -204,22 +204,22 @@ Here are some explanations about the Javascript code used above<sup id="fnref:2"
 
 <p><br></p>
 <h4 id="brief-note-about-implicit-globals">
-<a class="anchor" href="#brief-note-about-implicit-globals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Brief Note about Implicit Globals</h4>
+<a class="anchor" tabindex="-1" href="#brief-note-about-implicit-globals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Brief Note about Implicit Globals</h4>
 <p>This is going to be relevant for most of the below sections, so I want to clear it up first. Any time you assign to any name you haven’t declared with <code class="language-plaintext highlighter-rouge">var</code>, <code class="language-plaintext highlighter-rouge">let</code>, or <code class="language-plaintext highlighter-rouge">const</code> it implicitly assigns to a property on the global object. In the browser, the global object is <code class="language-plaintext highlighter-rouge">window</code>, so any implicit globals go there.</p>
 
 <p><br></p>
 <h4 id="an-arrow-function">
-<a class="anchor" href="#an-arrow-function" aria-hidden="true"><span class="octicon octicon-link"></span></a>An Arrow Function</h4>
+<a class="anchor" tabindex="-1" href="#an-arrow-function" aria-hidden="true"><span class="octicon octicon-link"></span></a>An Arrow Function</h4>
 <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">x</span><span class="o">=</span><span class="nx">x</span><span class="o">=&gt;</span><span class="p">{</span><span class="nx">onerror</span><span class="o">=</span><span class="nx">alert</span><span class="p">;</span> <span class="k">throw</span> <span class="mi">1337</span><span class="p">}</span>
 </code></pre></div></div>
 
 <h5 id="definition">
-<a class="anchor" href="#definition" aria-hidden="true"><span class="octicon octicon-link"></span></a>Definition</h5>
+<a class="anchor" tabindex="-1" href="#definition" aria-hidden="true"><span class="octicon octicon-link"></span></a>Definition</h5>
 <p>This will create a new arrow function and assign it to <code class="language-plaintext highlighter-rouge">x</code>. Since there is no variable declaration, <code class="language-plaintext highlighter-rouge">x</code> will be an implicit global and thus attached to <code class="language-plaintext highlighter-rouge">window</code>. This isn’t extremely useful, it’s likely done to save a few characters. The function also takes a single parameter called <code class="language-plaintext highlighter-rouge">x</code> but does nothing with it. Again, nothing useful, saves up a single character, otherwise it needs to be defined as <code class="language-plaintext highlighter-rouge">()=&gt;</code>.</p>
 
 <p><br></p>
 <h4 id="overriding-tostring">
-<a class="anchor" href="#overriding-tostring" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overriding <code class="language-plaintext highlighter-rouge">toString</code>
+<a class="anchor" tabindex="-1" href="#overriding-tostring" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overriding <code class="language-plaintext highlighter-rouge">toString</code>
 </h4>
 <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">toString</span><span class="o">=</span><span class="nx">x</span>
 </code></pre></div></div>
@@ -238,7 +238,7 @@ Here are some explanations about the Javascript code used above<sup id="fnref:2"
 
 <p><br></p>
 <h4 id="converting-window-to-string">
-<a class="anchor" href="#converting-window-to-string" aria-hidden="true"><span class="octicon octicon-link"></span></a>Converting <code class="language-plaintext highlighter-rouge">window</code> to String</h4>
+<a class="anchor" tabindex="-1" href="#converting-window-to-string" aria-hidden="true"><span class="octicon octicon-link"></span></a>Converting <code class="language-plaintext highlighter-rouge">window</code> to String</h4>
 <p>In JavaScript, when you try to concatenate any value with a string, the value will be implicitly also be converted to a string. This is usually done by calling the <code class="language-plaintext highlighter-rouge">toString()</code> method.</p>
 
 <p>The same thing happens in the last part of the code:</p>
@@ -259,7 +259,7 @@ Here are some explanations about the Javascript code used above<sup id="fnref:2"
 
 <p><br></p>
 <h4 id="why-omitting-window-doesnt-throw-an-error">
-<a class="anchor" href="#why-omitting-window-doesnt-throw-an-error" aria-hidden="true"><span class="octicon octicon-link"></span></a>Why omitting <code class="language-plaintext highlighter-rouge">window+''</code> doesn’t Throw an Error</h4>
+<a class="anchor" tabindex="-1" href="#why-omitting-window-doesnt-throw-an-error" aria-hidden="true"><span class="octicon octicon-link"></span></a>Why omitting <code class="language-plaintext highlighter-rouge">window+''</code> doesn’t Throw an Error</h4>
 <p>Hopefully clear from the above, but to address it directly, that code is needed to set off the whole chain of reactions defined before it.
 Here is the full code with explanation and formatting for clarity:</p>
 
@@ -278,7 +278,7 @@ Here is the full code with explanation and formatting for clarity:</p>
 
 <p><br></p>
 <h3 id="solution-2">
-<a class="anchor" href="#solution-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Solution 2</h3>
+<a class="anchor" tabindex="-1" href="#solution-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Solution 2</h3>
 <p>Another interesting solution is to use <em>JavaScript without parentheses using DOMMatrix</em> which is explained in detail by Gareth Heyes in a great post<sup id="fnref:3"><a href="#fn:3" class="footnote" rel="footnote" role="doc-noteref">3</a></sup>. To solve this lab with DOMMatrix payload, use:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://your-lab-id.web-security-academy.net/post?postId=5&amp;%27},x=z=%3E{x=new/**/DOMMatrix;matrix=alert;x.a=1337;location='javascript'%2b':'%2bx},toString=x,window%2b%27%27,{x:%27
@@ -293,25 +293,25 @@ Here is the full code with explanation and formatting for clarity:</p>
 
 <p><br></p>
 <h2 id="external-links">
-<a class="anchor" href="#external-links" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>External Links</em>
+<a class="anchor" tabindex="-1" href="#external-links" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>External Links</em>
 </h2>
 <hr>
 <ul>
   <li>
     <h3 id="lab-reflected-xss-in-a-javascript-url-with-some-characters-blocked">
-<a class="anchor" href="#lab-reflected-xss-in-a-javascript-url-with-some-characters-blocked" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://portswigger.net/web-security/cross-site-scripting/contexts/lab-javascript-url-some-characters-blocked">Lab: Reflected XSS in a JavaScript URL with some characters blocked</a>
+<a class="anchor" tabindex="-1" href="#lab-reflected-xss-in-a-javascript-url-with-some-characters-blocked" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://portswigger.net/web-security/cross-site-scripting/contexts/lab-javascript-url-some-characters-blocked">Lab: Reflected XSS in a JavaScript URL with some characters blocked</a>
 </h3>
   </li>
   <li>
     <h3 id="cross-site-scripting-xss-cheat-sheet-restricted-characters">
-<a class="anchor" href="#cross-site-scripting-xss-cheat-sheet-restricted-characters" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://portswigger.net/web-security/cross-site-scripting/cheat-sheet#restricted-characters">Cross-site scripting (XSS) cheat sheet: Restricted characters</a>
+<a class="anchor" tabindex="-1" href="#cross-site-scripting-xss-cheat-sheet-restricted-characters" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://portswigger.net/web-security/cross-site-scripting/cheat-sheet#restricted-characters">Cross-site scripting (XSS) cheat sheet: Restricted characters</a>
 </h3>
   </li>
 </ul>
 
 <p><br></p>
 <h2 id="references">
-<a class="anchor" href="#references" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>References</em>
+<a class="anchor" tabindex="-1" href="#references" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>References</em>
 </h2>
 <hr>
 <div class="footnotes" role="doc-endnotes">
@@ -327,7 +327,7 @@ Here is the full code with explanation and formatting for clarity:</p>
     </li>
   </ol>
 </div>
-
+ 
 </article>
         </section>
       </div>
