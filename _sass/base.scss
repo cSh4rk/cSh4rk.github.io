@@ -506,7 +506,9 @@ a:active, a:focus {
 .site-footer {
   //height: 0px;
   //line-height: 0px;
+  background: rgba(0, 0, 0, 0.1);
   border-top: 1px dashed default_colors.$dove-grey;
+  padding: 10px;
 }
 
 .footer-wrapper{
