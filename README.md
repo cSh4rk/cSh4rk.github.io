@@ -15,7 +15,7 @@ In this edition of the Hacker Theme:
   - Ability to show updated date for posts (in addition to published date).
   - Smart image format selector Jekyll plugin: this Ruby plugin is built for easier implementation of pictures on web pages, this plugin uses a fallback mechanism for pictures: it searches for the picture in avif format and uses it, if avif wasn't found, searches for webP and if it wasn't found either, it searches for original picture format(PNG,JPG...) AVIF -> webP -> Original format(PNG,JPG...) with the ability to set some attributes for images (`width` `height` `alt` `loading` `fetchpriority` `first_format` `decoding` `classname`).
   - Expanded page style codes for more features: hover effects for different hyperlinks, fragment highlight animations, responsive classes and more.
-  - Contains code to use PurgeCSS post website build to remove unused CSS codes( use `npm install` in project folder ).
+  - Code in build pipeline to use PurgeCSS post website build to remove unused CSS codes( use `npm install` in project folder ).
   - Favicon is chosen based on the viewer's device.
   - Fixed and completed RSS feed.
   - Added new options for page frontmatter, examples: post image thumbnails, robots: add robots rules for the page, hero-poster: add hero poster for hero videos on pages to use them with preload for faster load(it sets fetchpriority=high for hero poster).
@@ -24,12 +24,12 @@ In this edition of the Hacker Theme:
   - Some structural modifications for better SEO.
   - Some changes for better accessibility: aria attributes for SVG images used in website footer and posts, and more.
   - A Jekyll plugin to remove deprecated ARIA roles from Jekyll footnotes.
-  - Contains code to use Critical post-build to inline critical CSS for different page layouts.
+  - Code in build pipeline to use Critical post-build to inline critical CSS for different page layouts.
   - Back to Top button for scrolled pages.
   - Custom PostCSS script to use as pre-Critical CSS sanitizing stage, instead of Critical `--ignore` flag that may not always work as intended, to remove custom CSS selectors that shouldn't be in Critical CSS output.
   - Fully automated local build pipeline including CSS minification with PurgeCSS, JS minification with Terser, Custom PostCSS plugin for pre-Critical CSS sanitizing, Critical CSS inlining for different page layouts and viewports, with full comments for each build line. 
-  - Contains code to use particles effect with various color palettes on desired pages.
-  - Contains code to use Table of Contents for posts.
+  - Particles effect with various color palettes for desired pages.
+  - Automatic Table of Contents with the ability to choose the ToC place in page for desired posts.
   
 ✔ Multiple bugs in the original theme are fixed. 
 
