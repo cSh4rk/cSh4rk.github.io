@@ -19,7 +19,7 @@
           {% if paginator.previous_page %}
             <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Previous page">&laquo;</a>
           {% else %}
-            <span aria-disabled="true" aria-label="No previous page">&laquo;</span>
+            <span aria-disabled="true">&laquo;</span>
           {% endif %}
         </li>
 
@@ -37,7 +37,7 @@
           {% if paginator.next_page %}
             <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Next page">&raquo;</a>
           {% else %}
-            <span aria-disabled="true" aria-label="No next page">&raquo;</span>
+            <span aria-disabled="true">&raquo;</span>
           {% endif %}
         </li>
       </ul>
