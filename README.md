@@ -23,11 +23,11 @@ In this edition of the Hacker Theme:
   - security.txt file and a mechanism to automatically update the expire date in the file.
   - Some structural modifications for better SEO.
   - Some changes for better accessibility: aria attributes for SVG images used in website footer and posts, and more.
-  - A Jekyll plugin to remove deprecated ARIA roles from Jekyll footnotes.
+  - A Jekyll plugin to remove deprecated ARIA roles from Jekyll footnotes(used for older Jekyll versions).
   - Code in build pipeline to use Critical post-build to inline critical CSS for different page layouts.
   - Back to Top button for scrolled pages.
-  - Custom PostCSS script to use as pre-Critical CSS sanitizing stage, instead of Critical `--ignore` flag that may not always work as intended, to remove custom CSS selectors that shouldn't be in Critical CSS output.
-  - Fully automated local build pipeline including CSS minification with PurgeCSS, JS minification with Terser, Custom PostCSS plugin for pre-Critical CSS sanitizing, Critical CSS inlining for different page layouts and viewports, with full comments for each build line. 
+  - Custom PostCSS script to remove custom CSS selectors that are unnecessary for Critical CSS, instead of Critical `--ignore` flag that may not always work as intended.
+  - Fully automated local build pipeline including CSS minification with PurgeCSS, JS minification with Terser, Custom PostCSS plugin for pre-Critical CSS sanitizing, Critical CSS inlining for different page layouts and viewports.
   - Particles effect with various color palettes for desired pages.
   - Automatic Table of Contents with the ability to choose the ToC place in page for desired posts.
   - Improved pagination.
