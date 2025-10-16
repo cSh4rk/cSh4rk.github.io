@@ -9,6 +9,7 @@ image_height: "256"
 thumb_path: /links/assets/2022/websocket-thumb.png
 thumb_width: "130"
 thumb_height: "130"
+updated: 2025-10-16
 ---
 
 <br>
