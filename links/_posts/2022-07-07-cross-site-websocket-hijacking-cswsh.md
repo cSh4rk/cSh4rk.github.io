@@ -23,8 +23,8 @@ If you are not familiar with Websocket vulnerabilities, take a look at the secon
 <br>
 ## _External Links_
 * * *
-* ### [Cross-site WebSocket hijacking (CSWSH)](https://book.hacktricks.xyz/pentesting-web/cross-site-websocket-hijacking-cswsh)
-* ### [Testing for WebSockets security vulnerabilities](https://portswigger.net/web-security/websockets)
+* ### [Cross-site WebSocket hijacking (CSWSH) — PortSwigger](https://portswigger.net/web-security/websockets/cross-site-websocket-hijacking)
+* ### [Testing for WebSockets security vulnerabilities — PortSwigger](https://portswigger.net/web-security/websockets)
 
 <br>
 ## _References_

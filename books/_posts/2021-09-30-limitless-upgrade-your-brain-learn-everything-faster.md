@@ -10,6 +10,7 @@ thumb_path: /books/assets/2021/limitless-book-thumb.jpg
 thumb_width: "107"
 thumb_height: "160"
 image_alt: "Limitless book cover"
+updated: 2025-10-16
 ---
 
 <br>
@@ -53,4 +54,4 @@ Jim Kwik is a very good mentor, he teaches the latest and most effective methods
 <br>
 ## _References_
 * * *
-[^1]: [The Book on Amazon Website](https://www.amazon.com/Limitless-Upgrade-Anything-Faster-Exceptional-ebook/dp/B082ZQDH63){: rel="nofollow"}
+[^1]: [The Book on Amazon Website](https://www.amazon.com/Limitless-Upgrade-Anything-Faster-Exceptional/dp/1401958230){: rel="nofollow"}
