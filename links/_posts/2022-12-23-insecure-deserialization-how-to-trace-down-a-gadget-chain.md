@@ -26,4 +26,4 @@ This article explains clearly the process of finding a sample gadget chain and t
 <br>
 ## _References_
 * * *
-[^1]: Icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)
+[^1]: Icon made by [Freepik](https://www.flaticon.com/authors/freepik){: rel="nofollow" } from [www.flaticon.com](https://www.flaticon.com/){: rel="nofollow" }

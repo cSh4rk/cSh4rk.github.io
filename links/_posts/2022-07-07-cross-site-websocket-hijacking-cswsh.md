@@ -29,6 +29,6 @@ If you are not familiar with Websocket vulnerabilities, take a look at the secon
 <br>
 ## _References_
 * * *
-[^1]: Icon made by [Three musketeers](https://www.flaticon.com/authors/three-musketeers) from [www.flaticon.com](https://www.flaticon.com/)
+[^1]: Icon made by [Three musketeers](https://www.flaticon.com/authors/three-musketeers){: rel="nofollow" } from [www.flaticon.com](https://www.flaticon.com/){: rel="nofollow" }
 
 

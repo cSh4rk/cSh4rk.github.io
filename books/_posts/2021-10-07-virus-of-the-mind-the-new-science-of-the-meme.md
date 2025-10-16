@@ -47,4 +47,4 @@ The author is a former Microsoft developer who has dedicated his life to this an
 <br>
 ## _References_
 * * *
-[^1]: [The Book on Amazon Website](https://www.amazon.com/Virus-Mind-New-Science-Meme/dp/1401924697)
+[^1]: [The Book on Amazon Website](https://www.amazon.com/Virus-Mind-New-Science-Meme/dp/1401924697){: rel="nofollow"}

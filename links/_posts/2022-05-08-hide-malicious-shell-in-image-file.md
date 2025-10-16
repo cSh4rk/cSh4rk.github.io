@@ -23,10 +23,10 @@ Also you can practice this vulnerability in Web Security Academy, check the link
 <br>
 ## _External Links_
 * * *
-* ### [Hide malicious shell in image file](https://rcenetsec.com/hide-malicious-shell-in-image-file/)
+* ### [Hide malicious shell in image file](https://rcenetsec.com/hide-malicious-shell-in-image-file/){: rel="nofollow" }
 * ### [Lab: Remote code execution via polyglot web shell upload](https://portswigger.net/web-security/file-upload/lab-file-upload-remote-code-execution-via-polyglot-web-shell-upload)
 
 <br>
 ## _References_
 * * *
-[^1]: Icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)
+[^1]: Icon made by [Freepik](https://www.flaticon.com/authors/freepik){: rel="nofollow"} from [www.flaticon.com](https://www.flaticon.com/){: rel="nofollow"}

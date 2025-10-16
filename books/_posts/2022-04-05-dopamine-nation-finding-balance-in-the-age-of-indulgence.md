@@ -75,7 +75,7 @@ This is an important topic in this day and age, especially for the tech savvy an
 <br>
 ## _References_
 * * *
-[^1]: [The Book on Amazon Website](https://www.amazon.com/Dopamine-Nation-Finding-Balance-Indulgence/dp/152474672X)
-[^2]: [Sociological Study of Medicine Category on Amazon](https://www.amazon.com/gp/bestsellers/books/16311191)
-[^3]: [Medical Clinical Psychology Category on Amazon](https://www.amazon.com/gp/bestsellers/books/11143)
-[^4]: [Emotional Mental Health Category on Amazon](https://www.amazon.com/gp/bestsellers/books/11170)
+[^1]: [The Book on Amazon Website](https://www.amazon.com/Dopamine-Nation-Finding-Balance-Indulgence/dp/152474672X){: rel="nofollow"}
+[^2]: [Sociological Study of Medicine Category on Amazon](https://www.amazon.com/gp/bestsellers/books/16311191){: rel="nofollow"}
+[^3]: [Medical Clinical Psychology Category on Amazon](https://www.amazon.com/gp/bestsellers/books/11143){: rel="nofollow"}
+[^4]: [Emotional Mental Health Category on Amazon](https://www.amazon.com/gp/bestsellers/books/11170){: rel="nofollow"}

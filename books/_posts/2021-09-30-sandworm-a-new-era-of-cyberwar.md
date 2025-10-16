@@ -45,4 +45,4 @@ This book was very fun to read. It is a non-technical story that shows how impor
 <br>
 ## _References_
 * * *
-[^1]: [The Book on Amazon Website](https://www.amazon.com/Sandworm-Cyberwar-Kremlins-Dangerous-Hackers-ebook/dp/B07GD4MFW2)
+[^1]: [The Book on Amazon Website](https://www.amazon.com/Sandworm-Cyberwar-Kremlins-Dangerous-Hackers-ebook/dp/B07GD4MFW2){: rel="nofollow"}

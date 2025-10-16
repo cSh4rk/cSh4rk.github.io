@@ -55,4 +55,4 @@ This book is in the same category as some other books that I suggested here like
 <br>
 ## _References_
 * * *
-[^1]: [The Book on Amazon Website](https://www.amazon.com/Talent-Code-Greatness-Born-Grown/dp/055380684X)
+[^1]: [The Book on Amazon Website](https://www.amazon.com/Talent-Code-Greatness-Born-Grown/dp/055380684X){: rel="nofollow"}

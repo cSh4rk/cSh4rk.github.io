@@ -78,6 +78,6 @@ I had read the CEH v9 Paperback – January 1, 2017 by Sean-Philip Oriyano[^3] s
 <br>
 ## _References_
 * * *
-[^1]: [The Book on Amazon Website](https://www.amazon.com/Certified-Ethical-Hacker-Study-Guide/dp/1119800285)
-[^2]: [Security Certifications Category on Amazon](https://www.amazon.com/gp/bestsellers/books/10806585011)
-[^3]: [CEH v9 Paperback Book – January 1, 2017 by Sean-Philip Oriyano on Amazon](https://www.amazon.com/CEH-v9-Sean-Philip-Oriyano/dp/B076Y99WV1)
+[^1]: [The Book on Amazon Website](https://www.amazon.com/Certified-Ethical-Hacker-Study-Guide/dp/1119800285){: rel="nofollow"}
+[^2]: [Security Certifications Category on Amazon](https://www.amazon.com/gp/bestsellers/books/10806585011){: rel="nofollow"}
+[^3]: [CEH v9 Paperback Book – January 1, 2017 by Sean-Philip Oriyano on Amazon](https://www.amazon.com/CEH-v9-Sean-Philip-Oriyano/dp/B076Y99WV1){: rel="nofollow"}

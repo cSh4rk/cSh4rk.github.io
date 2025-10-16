@@ -99,4 +99,4 @@ This book is one of the greatest books for newcomers to get their hands dirty wi
 <br>
 ## _References_
 * * *
-[^1]: [The Book on Amazon Website](https://www.amazon.com/Penetration-Testing-Hands-Introduction-Hacking/dp/1593275641)
+[^1]: [The Book on Amazon Website](https://www.amazon.com/Penetration-Testing-Hands-Introduction-Hacking/dp/1593275641){: rel="nofollow"}

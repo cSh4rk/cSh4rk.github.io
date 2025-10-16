@@ -86,6 +86,6 @@ This is a huge book about computer networking and it is absolutely necessary for
 <br>
 ## _References_
 * * *
-[^1]: [The Book on Amazon Website](https://www.amazon.com/CompTIA-Network-Study-Guide-Authorized/dp/1119432251)
-[^2]: [Computer Networks Category on Amazon](https://www.amazon.com/gp/bestsellers/books/3747)
-[^3]: [Computer & Technology Certification Guides Category on Amazon](https://www.amazon.com/gp/bestsellers/books/3448)
+[^1]: [The Book on Amazon Website](https://www.amazon.com/CompTIA-Network-Study-Guide-Authorized/dp/1119432251){: rel="nofollow"}
+[^2]: [Computer Networks Category on Amazon](https://www.amazon.com/gp/bestsellers/books/3747){: rel="nofollow"}
+[^3]: [Computer & Technology Certification Guides Category on Amazon](https://www.amazon.com/gp/bestsellers/books/3448){: rel="nofollow"}

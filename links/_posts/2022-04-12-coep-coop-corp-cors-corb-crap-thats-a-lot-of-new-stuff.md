@@ -26,4 +26,4 @@ Great article about some relatively new HTTP Security Headers.
 <br>
 ## _References_
 * * *
-[^1]: Icon made by [Aha-Soft](https://iconarchive.com/artist/aha-soft.html) from [www.iconarchive.com](https://www.iconarchive.com/)
+[^1]: Icon made by [Aha-Soft](https://iconarchive.com/artist/aha-soft.html){: rel="nofollow"} from [www.iconarchive.com](https://www.iconarchive.com/){: rel="nofollow"}

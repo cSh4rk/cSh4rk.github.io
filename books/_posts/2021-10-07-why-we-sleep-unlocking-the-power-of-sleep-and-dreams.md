@@ -89,5 +89,5 @@ In this book you'll find answers to these and many other important questions abo
 <br>
 ## _References_
 * * *
-[^1]: [The Book on Amazon Website](https://www.amazon.com/Why-We-Sleep-Unlocking-Dreams/dp/1501144316)
-[^2]: [Sleep Disorders Category on Amazon](https://www.amazon.com/gp/bestsellers/books/282817)
+[^1]: [The Book on Amazon Website](https://www.amazon.com/Why-We-Sleep-Unlocking-Dreams/dp/1501144316){: rel="nofollow"}
+[^2]: [Sleep Disorders Category on Amazon](https://www.amazon.com/gp/bestsellers/books/282817){: rel="nofollow"}

@@ -26,4 +26,4 @@ This course is a gold mine for every web application security enthusiast.
 <br>
 ## _References_
 * * *
-[^1]: Icon made by [Muhammad Atif](https://www.flaticon.com/authors/muhammad-atif) from [www.flaticon.com](https://www.flaticon.com/)
+[^1]: Icon made by [Muhammad Atif](https://www.flaticon.com/authors/muhammad-atif){: rel="nofollow" } from [www.flaticon.com](https://www.flaticon.com/){: rel="nofollow" }

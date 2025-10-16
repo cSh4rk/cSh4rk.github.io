@@ -480,7 +480,7 @@ There are many more Cloudflare features that can help us run a more fast, optimi
 
 ## _References_
 * * *
-[^1]: Icon made by [zero_wing](https://www.flaticon.com/authors/zero-wing) from [www.flaticon.com](https://www.flaticon.com/)
+[^1]: Icon made by [zero_wing](https://www.flaticon.com/authors/zero-wing){: rel="nofollow"} from [www.flaticon.com](https://www.flaticon.com/){: rel="nofollow"}
 [^2]: [Newsflow - Free download and install on Windows](https://apps.microsoft.com/detail/9nblggh58s5r)
 [^3]: [RSS Validator](https://www.rssboard.org/rss-validator/)
 [^4]: [Download FFmpeg](https://ffmpeg.org/download.html)

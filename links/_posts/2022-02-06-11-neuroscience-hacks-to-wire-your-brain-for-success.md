@@ -26,4 +26,4 @@ A few simple but very important daily hacks for a sharper brain.
 <br>
 ## _References_
 * * *
-[^1]: Icon made by [Paul J.](https://www.flaticon.com/authors/paul-j) from [www.flaticon.com](https://www.flaticon.com/)
+[^1]: Icon made by [Paul J.](https://www.flaticon.com/authors/paul-j){: rel="nofollow"} from [www.flaticon.com](https://www.flaticon.com/){: rel="nofollow"}

@@ -39,4 +39,4 @@ At the very least, this book helps to expand our models of thinking and looking 
 <br>
 ## _References_
 * * *
-[^1]: [The Book on Amazon Website](https://www.amazon.com/Prometheus-Rising-Robert-Anton-Wilson-dp-1561840564/dp/1561840564/ref=dp_ob_title_bk)
+[^1]: [The Book on Amazon Website](https://www.amazon.com/Prometheus-Rising-Robert-Anton-Wilson-dp-1561840564/dp/1561840564){: rel="nofollow"}

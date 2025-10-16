@@ -46,4 +46,4 @@ This one was simply the best book that I read last year. This book should be rea
 <br>
 ## _References_
 * * *
-[^1]: [The Book on Amazon Website](https://www.amazon.com/Compound-Effect-Jumpstart-Income-Success-ebook/dp/B089GM2W99/ref=sr_1_2?dchild=1&keywords=compund+effect&qid=1632986805&s=digital-text&sr=1-2)
+[^1]: [The Book on Amazon Website](https://www.amazon.com/Compound-Effect-Jumpstart-Income-Success-ebook/dp/B089GM2W99){: rel="nofollow"}

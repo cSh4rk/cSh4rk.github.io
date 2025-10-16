@@ -166,6 +166,6 @@ As explained in Solution 1: `/**/` is used to bypass space restriction, also cli
 <br>
 ## _References_
 * * *
-[^1]: Icon made by [Flat Icons](https://www.flaticon.com/authors/flat-icons) from [www.flaticon.com](https://www.flaticon.com/)
+[^1]: Icon made by [Flat Icons](https://www.flaticon.com/authors/flat-icons){: rel="nofollow"} from [www.flaticon.com](https://www.flaticon.com/){: rel="nofollow"}
 [^2]: [Javascript window object, window+'', what does this code do](https://stackoverflow.com/questions/64416874/javascript-window-object-window-what-does-this-code-do)
 [^3]: [JavaScript without parentheses using DOMMatrix](https://portswigger.net/research/javascript-without-parentheses-using-dommatrix), also see: [XSS without parentheses and semi-colons](https://portswigger.net/research/xss-without-parentheses-and-semi-colons)

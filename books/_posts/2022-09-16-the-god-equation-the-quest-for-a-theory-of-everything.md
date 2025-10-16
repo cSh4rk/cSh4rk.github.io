@@ -78,6 +78,6 @@ It is a very interesting book that has a brief and simple introduction of scient
 <br>
 ## _References_
 * * *
-[^1]: [The Book on Amazon Website](https://www.amazon.com/God-Equation-Quest-Theory-Everything/dp/0385542747)
-[^2]: [Relativity Physics Category on Amazon](https://www.amazon.com/gp/bestsellers/books/14592)
-[^3]: [Quantum Theory Category on Amazon](https://www.amazon.com/gp/bestsellers/books/14581)
+[^1]: [The Book on Amazon Website](https://www.amazon.com/God-Equation-Quest-Theory-Everything/dp/0385542747){: rel="nofollow"}
+[^2]: [Relativity Physics Category on Amazon](https://www.amazon.com/gp/bestsellers/books/14592){: rel="nofollow"}
+[^3]: [Quantum Theory Category on Amazon](https://www.amazon.com/gp/bestsellers/books/14581){: rel="nofollow"}

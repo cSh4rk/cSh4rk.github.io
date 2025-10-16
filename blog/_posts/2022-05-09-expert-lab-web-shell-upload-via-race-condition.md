@@ -240,5 +240,5 @@ def handleResponse(req, interesting):
 <br>
 ## _References_
 * * *
-[^1]: Icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)
+[^1]: Icon made by [Freepik](https://www.flaticon.com/authors/freepik){: rel="nofollow"} from [www.flaticon.com](https://www.flaticon.com/){: rel="nofollow"}
 [^2]: [Turbo Intruder](https://portswigger.net/bappstore/9abaa233088242e8be252cd4ff534988)

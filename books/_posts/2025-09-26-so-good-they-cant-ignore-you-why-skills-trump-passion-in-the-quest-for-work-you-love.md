@@ -96,7 +96,7 @@ Not as strong as Cal Newport’s [Deep Work](/books/2021/deep-work-rules-for-foc
 
 ### _References_
 * * *
-[^1]: [The Book on Amazon Website](https://www.amazon.com/Good-They-Cant-Ignore-You/dp/1455509124)
-[^2]: [Career Advancement & Professional Development Category on Amazon](https://www.amazon.com/gp/bestsellers/books/206206485011)
-[^3]: [Job Hunting (Books) Category on Amazon](https://www.amazon.com/gp/bestsellers/books/2576)
-[^4]: [Success Self-Help Category on Amazon](https://www.amazon.com/gp/bestsellers/books/4749)
+[^1]: [The Book on Amazon Website](https://www.amazon.com/Good-They-Cant-Ignore-You/dp/1455509124){: rel="nofollow"}
+[^2]: [Career Advancement & Professional Development Category on Amazon](https://www.amazon.com/gp/bestsellers/books/206206485011){: rel="nofollow"}
+[^3]: [Job Hunting (Books) Category on Amazon](https://www.amazon.com/gp/bestsellers/books/2576){: rel="nofollow"}
+[^4]: [Success Self-Help Category on Amazon](https://www.amazon.com/gp/bestsellers/books/4749){: rel="nofollow"}

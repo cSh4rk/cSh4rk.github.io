@@ -296,7 +296,7 @@ TzoxNDoiQ3VzdG9tVGVtcGxhdGUiOjI6e3M6MzM6IgBDdXN0b21UZW1wbGF0ZQBkZWZhdWx0X2Rlc2Nf
 <br>
 ## _References_
 * * *
-[^1]: Icon made by [Paul J.](https://www.flaticon.com/authors/paul-j) from [www.flaticon.com](https://www.flaticon.com/)
+[^1]: Icon made by [Paul J.](https://www.flaticon.com/authors/paul-j){: rel="nofollow"} from [www.flaticon.com](https://www.flaticon.com/){: rel="nofollow"}
 [^2]: [Insecure deserialization \| Web Security Academy](https://portswigger.net/web-security/deserialization)
 [^3]: [PHP:serialize - Manual](https://www.php.net/manual/en/function.serialize.php)
 

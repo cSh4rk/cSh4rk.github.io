@@ -47,12 +47,12 @@ Here is a list of some handy benchmarking tools for your website:
 <br>
 ### SEO
 ***
-* [Google SEO Checker 2.0](https://www.seoreviewtools.com/google-seo-checker/)
-* [Seobility Free SEO Checker](https://www.seobility.net/en/seocheck/)
-* [SEO Site Checkup](https://seositecheckup.com/)
-* [Seoptimer SEO Audit & Reporting Tool](https://www.seoptimer.com/)
-* [SEORCH](https://seorch.net/)
-* [Semrush SEO Checker](https://www.semrush.com/siteaudit/)
+* [Google SEO Checker 2.0](https://www.seoreviewtools.com/google-seo-checker/){: rel="nofollow"}
+* [Seobility Free SEO Checker](https://www.seobility.net/en/seocheck/){: rel="nofollow"}
+* [SEO Site Checkup](https://seositecheckup.com/){: rel="nofollow"}
+* [Seoptimer SEO Audit & Reporting Tool](https://www.seoptimer.com/){: rel="nofollow"}
+* [SEORCH](https://seorch.net/){: rel="nofollow"}
+* [Semrush SEO Checker](https://www.semrush.com/siteaudit/){: rel="nofollow"}
 
 <br>
 ### Security Check
@@ -102,4 +102,4 @@ Here is a list of some handy benchmarking tools for your website:
 <br>
 ## _References_
 * * *
-[^1]: Icon made by [Lokas Software](https://iconarchive.com/artist/awicons.html) from [www.iconarchive.com](https://www.iconarchive.com/)
+[^1]: Icon made by [Lokas Software](https://iconarchive.com/artist/awicons.html){: rel="nofollow"} from [www.iconarchive.com](https://www.iconarchive.com/){: rel="nofollow"}

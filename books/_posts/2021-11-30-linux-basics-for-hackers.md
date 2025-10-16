@@ -81,5 +81,5 @@ Read every article and book this author writes because his writing style is grea
 <br>
 ## _References_
 * * *
-[^1]: [The Book on Amazon Website](https://www.amazon.com/Linux-Basics-Hackers-Networking-Scripting/dp/1593278551)
-[^2]: [Linux Networking & System Administration Category on Amazon](https://www.amazon.com/gp/bestsellers/books/291380)
+[^1]: [The Book on Amazon Website](https://www.amazon.com/Linux-Basics-Hackers-Networking-Scripting/dp/1593278551){: rel="nofollow"}
+[^2]: [Linux Networking & System Administration Category on Amazon](https://www.amazon.com/gp/bestsellers/books/291380){: rel="nofollow"}

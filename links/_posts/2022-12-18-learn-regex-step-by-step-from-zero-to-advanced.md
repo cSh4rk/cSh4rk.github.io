@@ -21,9 +21,9 @@ Learning Regex is easier than you think. You can use this tool to easily learn, 
 <br>
 ## _External Links_
 * * *
-* ### [Learn Regex step by step, from zero to advanced.](https://regexlearn.com)
+* ### [Learn Regex step by step, from zero to advanced.](https://regexlearn.com){: rel="nofollow" }
 
 <br>
 ## _References_
 * * *
-[^1]: Icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/)
+[^1]: Icon made by [Freepik](https://www.flaticon.com/authors/freepik){: rel="nofollow" } from [www.flaticon.com](https://www.flaticon.com/){: rel="nofollow" }

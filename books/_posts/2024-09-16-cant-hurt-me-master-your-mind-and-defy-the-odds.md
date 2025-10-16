@@ -72,7 +72,7 @@ Goggins makes us more familiar with our powerful mind and body with his real-lif
 <br>
 ## _References_
 * * *
-[^1]: [The Book on Amazon Website](https://www.amazon.com/Cant-Hurt-Me-Master-Your/dp/1544512279)
-[^2]: [Personal Transformation Self-Help Category on Amazon](https://www.amazon.com/gp/bestsellers/books/4745)
-[^3]: [Success Self-Help Category on Amazon](https://www.amazon.com/gp/bestsellers/books/4749)
-[^4]: [Motivational Self-Help Category on Amazon](https://www.amazon.com/gp/bestsellers/books/4744)
+[^1]: [The Book on Amazon Website](https://www.amazon.com/Cant-Hurt-Me-Master-Your/dp/1544512279){: rel="nofollow"}
+[^2]: [Personal Transformation Self-Help Category on Amazon](https://www.amazon.com/gp/bestsellers/books/4745){: rel="nofollow"}
+[^3]: [Success Self-Help Category on Amazon](https://www.amazon.com/gp/bestsellers/books/4749){: rel="nofollow"}
+[^4]: [Motivational Self-Help Category on Amazon](https://www.amazon.com/gp/bestsellers/books/4744){: rel="nofollow"}

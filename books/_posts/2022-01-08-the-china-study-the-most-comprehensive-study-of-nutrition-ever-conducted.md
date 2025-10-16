@@ -73,7 +73,7 @@ I had read this book many years ago when I'd put a lot of effort into bodybuildi
 <br>
 ## _References_
 * * *
-[^1]: [The Book on Amazon Website](https://www.amazon.com/China-Study-Comprehensive-Nutrition-Implications/dp/1932100660)
-[^2]: [Food Science Category on Amazon](https://www.amazon.com/gp/bestsellers/books/14494)
-[^3]: [Nutrition Category on Amazon](https://www.amazon.com/gp/bestsellers/books/282861)
-[^4]: [The Revised and Expanded Edition of the Book on Amazon](https://www.amazon.com/China-Study-Comprehensive-Nutrition-Implications/dp/1941631568)
+[^1]: [The Book on Amazon Website](https://www.amazon.com/China-Study-Comprehensive-Nutrition-Implications/dp/1932100660){: rel="nofollow"}
+[^2]: [Food Science Category on Amazon](https://www.amazon.com/gp/bestsellers/books/14494){: rel="nofollow"}
+[^3]: [Nutrition Category on Amazon](https://www.amazon.com/gp/bestsellers/books/282861){: rel="nofollow"}
+[^4]: [The Revised and Expanded Edition of the Book on Amazon](https://www.amazon.com/China-Study-Comprehensive-Nutrition-Implications/dp/1941631568){: rel="nofollow"}

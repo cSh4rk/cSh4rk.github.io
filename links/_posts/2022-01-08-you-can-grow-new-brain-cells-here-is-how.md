@@ -26,4 +26,4 @@ Can we, as adults, grow new neurons? Neuroscientist Sandrine Thuret says that we
 <br>
 ## _References_
 * * *
-[^1]: Icon made by [Maxim Basinski Premium](https://www.flaticon.com/authors/maxim-basinski-premium) from [www.flaticon.com](https://www.flaticon.com/)
+[^1]: Icon made by [Maxim Basinski Premium](https://www.flaticon.com/authors/maxim-basinski-premium){: rel="nofollow"} from [www.flaticon.com](https://www.flaticon.com/){: rel="nofollow"}

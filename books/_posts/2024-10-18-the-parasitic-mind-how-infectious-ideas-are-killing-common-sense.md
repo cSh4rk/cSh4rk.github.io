@@ -69,9 +69,9 @@ Also praised[^5] and recommended[^6] by Elon Musk on X.
 <br>
 ## _References_
 * * *
-[^1]: [The Book on Amazon Website](https://www.amazon.com/Parasitic-Mind-Infectious-Killing-Common/dp/1684512298)
-[^2]: [Civil Rights & Liberties Category on Amazon](https://www.amazon.com/gp/bestsellers/books/10550)
-[^3]: [Political Commentary & Opinion Category on Amazon](https://www.amazon.com/gp/bestsellers/books/5571260011)
-[^4]: [Political Conservatism & Liberalism Category on Amazon](https://www.amazon.com/gp/bestsellers/books/5571265011)
+[^1]: [The Book on Amazon Website](https://www.amazon.com/Parasitic-Mind-Infectious-Killing-Common/dp/1684512298){: rel="nofollow"}
+[^2]: [Civil Rights & Liberties Category on Amazon](https://www.amazon.com/gp/bestsellers/books/10550){: rel="nofollow"}
+[^3]: [Political Commentary & Opinion Category on Amazon](https://www.amazon.com/gp/bestsellers/books/5571260011){: rel="nofollow"}
+[^4]: [Political Conservatism & Liberalism Category on Amazon](https://www.amazon.com/gp/bestsellers/books/5571265011){: rel="nofollow"}
 [^5]: [Elon Musk praises The Parasitic Mind on X](https://x.com/elonmusk/status/1733761970807943230)
 [^6]: [Elon Musk recommends The Parasitic Mind on X](https://x.com/elonmusk/status/1818364618412376140)

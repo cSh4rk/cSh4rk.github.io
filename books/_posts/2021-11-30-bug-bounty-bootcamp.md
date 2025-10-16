@@ -94,7 +94,7 @@ If you want to start in the field of Bug Bounty Hunting or even if you are an ex
 <br>
 ## _References_
 * * *
-[^1]: [The Book on Amazon Website](https://www.amazon.com/Bug-Bounty-Bootcamp-Reporting-Vulnerabilities-ebook/dp/B08YK368Y3)
-[^2]: [Computer Programming Debugging Category on Amazon](https://www.amazon.com/gp/bestsellers/books/3974)
-[^3]: [Software Testing Category on Amazon](https://www.amazon.com/gp/bestsellers/books/4133)
-[^4]: [Computer Networking Category on Amazon](https://www.amazon.com/gp/bestsellers/books/491302)
+[^1]: [The Book on Amazon Website](https://www.amazon.com/Bug-Bounty-Bootcamp-Reporting-Vulnerabilities-ebook/dp/B08YK368Y3){: rel="nofollow"}
+[^2]: [Computer Programming Debugging Category on Amazon](https://www.amazon.com/gp/bestsellers/books/3974){: rel="nofollow"}
+[^3]: [Software Testing Category on Amazon](https://www.amazon.com/gp/bestsellers/books/4133){: rel="nofollow"}
+[^4]: [Computer Networking Category on Amazon](https://www.amazon.com/gp/bestsellers/books/491302){: rel="nofollow"}

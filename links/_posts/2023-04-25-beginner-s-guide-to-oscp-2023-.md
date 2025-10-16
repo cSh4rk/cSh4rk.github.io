@@ -21,9 +21,9 @@ A valuable guide for beginners on how to get prepared for the OSCP certification
 <br>
 ## _External Links_
 * * *
-* ### [Beginner’s Guide To OSCP 2023](https://infosecwriteups.com/guide-to-oscp-2023-37c0aea0dec0)
+* ### [Beginner’s Guide To OSCP 2023](https://infosecwriteups.com/guide-to-oscp-2023-37c0aea0dec0){: rel="nofollow" }
 
 <br>
 ## _References_
 * * *
-[^1]: Icon made by [Graphiqa](https://www.flaticon.com/authors/graphiqa) from [www.flaticon.com](https://www.flaticon.com/)
+[^1]: Icon made by [Graphiqa](https://www.flaticon.com/authors/graphiqa){: rel="nofollow" } from [www.flaticon.com](https://www.flaticon.com/){: rel="nofollow" }

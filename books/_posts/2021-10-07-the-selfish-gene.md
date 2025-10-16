@@ -51,4 +51,4 @@ Read [Virus of the Mind](/books/2021/virus-of-the-mind-the-new-science-of-the-me
 <br>
 ## _References_
 * * *
-[^1]: [The Book on Amazon Website](https://www.amazon.com/Selfish-Gene-Anniversary-Landmark-Science-ebook/dp/B01GI5F2FS)
+[^1]: [The Book on Amazon Website](https://www.amazon.com/Selfish-Gene-Anniversary-Landmark-Science-ebook/dp/B01GI5F2FS){: rel="nofollow"}
