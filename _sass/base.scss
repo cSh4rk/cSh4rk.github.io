@@ -514,9 +514,8 @@ a:active, a:focus {
 
 .footer-col-copyright a {
   display: inline-block;       // allows padding to increase touch area
-  padding: 6px 8px;            // small padding to expand tap target
+  padding: 4px 0px;            // small padding to expand tap target
   line-height: 1.4;            // ensures vertical spacing
-  text-decoration: underline;  // optional, improves discoverability
 }
 
 .social-media-list {
