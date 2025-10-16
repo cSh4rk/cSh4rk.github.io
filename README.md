@@ -30,6 +30,7 @@ In this edition of the Hacker Theme:
   - Fully automated local build pipeline including CSS minification with PurgeCSS, JS minification with Terser, Custom PostCSS plugin for pre-Critical CSS sanitizing, Critical CSS inlining for different page layouts and viewports, with full comments for each build line. 
   - Particles effect with various color palettes for desired pages.
   - Automatic Table of Contents with the ability to choose the ToC place in page for desired posts.
+  - Improved pagination.
   
 ✔ Multiple bugs in the original theme are fixed. 
 
