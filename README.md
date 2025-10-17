@@ -19,7 +19,7 @@ In this edition of the Hacker Theme:
   - Favicon is chosen based on the viewer's device.
   - Fixed and completed RSS feed.
   - Added new options for page frontmatter, examples: post image thumbnails, robots: add robots rules for the page, hero-poster: add hero poster for hero videos on pages to use them with preload for faster load(it sets fetchpriority=high for hero poster).
-  - Modern Cyberpunk neon navigation buttons.
+  - Modern Cyberpunk Neon navigation buttons.
   - security.txt file and a mechanism to automatically update the expire date in the file.
   - Some structural modifications for better SEO.
   - Some changes for better accessibility: aria attributes for SVG images used in website footer and posts, and more.
@@ -30,7 +30,8 @@ In this edition of the Hacker Theme:
   - Fully automated local build pipeline including CSS minification with PurgeCSS, JS minification with Terser, Custom PostCSS plugin for pre-Critical CSS sanitizing, Critical CSS inlining for different page layouts and viewports.
   - Particles effect with various color palettes for desired pages.
   - Automatic Table of Contents with the ability to choose the ToC place in page for desired posts.
-  - Improved pagination.
+  - Accessible, Responsive Pagination with Uniform Buttons and Neon Glow.
+  - Smooth Fragment Scroll — animates scrolling between page anchors using a cubic ease-in-out function for a natural acceleration/deceleration effect.
   
 ✔ Multiple bugs in the original theme are fixed. 
 
