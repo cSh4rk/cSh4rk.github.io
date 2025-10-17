@@ -55,5 +55,9 @@
     {% if page.effect == "particles" %}
       {% include particles.html %}
     {% endif %}
+
+    {% if page.layout == "post" or page.smooth-fragments %}
+      <script src="/js/smooth-fragments.js"></script>
+    {% endif %}
   </body>
 </html>
