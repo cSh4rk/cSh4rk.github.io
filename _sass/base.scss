@@ -657,13 +657,26 @@ a.footnote:after {
     content: "]";
 }
 
+:target,
+.target-highlight {
+  background: rgba(197, 247, 188, 0.2);
+  border-radius: 0.3em;
+  padding: 0.3em;
+  //transition: background-color 0.5s;
+}
+
+/* Optional: Fade out highlight */
 :target {
-  //border:#151515 solid 1px;
-  //box-shadow:0 0 0 .1em #666;
-  background: rgba(92,92,92,0.2);
-  border-radius:.3em;
-  padding:.3em;
-  transition: background-color 0.5s;
+  animation: highlight 3s ease-in-out forwards;
+}
+
+@keyframes highlight {
+  0% {
+    background: rgba(197, 247, 188, 0.2);
+  }
+  100% {
+    background: transparent;
+  }
 }
 
 .tiny {
