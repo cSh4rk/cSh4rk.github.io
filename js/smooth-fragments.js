@@ -1,5 +1,12 @@
 const offset = 25; // pixels above scrolled element
 
+// Cubic easing for natural acceleration/deceleration
+function easeInOutCubic(t) {
+  return t < 0.5
+    ? 4 * t * t * t
+    : 1 - Math.pow(-2 * t + 2, 3) / 2;
+}
+
 // Function to handle smooth scrolling and highlighting
 function handleFragment(targetID) {
   if (!targetID) return;
@@ -7,11 +14,27 @@ function handleFragment(targetID) {
   const targetEl = document.getElementById(targetID);
   if (!targetEl) return;
 
-  // Compute top position with offset
-  const targetY = targetEl.getBoundingClientRect().top + window.scrollY - offset;
+  // Calculate target position with offset
+  const startY = window.scrollY;
+  const targetRect = targetEl.getBoundingClientRect();
+  const targetY = targetRect.top + window.scrollY - offset;
+  const distance = Math.abs(targetY - startY);
+  const baseDuration = 1500; // milliseconds
+  const duration = Math.min(baseDuration, 300 + distance * 0.4); // Dynamic duration based on distance
+  const startTime = performance.now();
 
-  // Smooth scroll
-  window.scrollTo({ top: targetY, behavior: "smooth" });
+  function animate(now) {
+    const elapsed = now - startTime;
+    const progress = Math.min(elapsed / duration, 1);
+    const eased = easeInOutCubic(progress);
+    const newY = startY + (targetY - startY) * eased;
+    window.scrollTo({ top: newY, behavior: "auto" });
+    if (progress < 1) {
+      requestAnimationFrame(animate);
+    }
+  }
+
+  requestAnimationFrame(animate);
 
   // Remove previous footnote highlights
   document.querySelectorAll(".target-highlight").forEach(el => {
