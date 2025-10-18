@@ -657,26 +657,27 @@ a.footnote:after {
     content: "]";
 }
 
-:target,
-.target-highlight {
+/* Default :target styles for pages without smooth scrolling */
+:target {
   background: rgba(197, 247, 188, 0.2);
   border-radius: 0.3em;
   padding: 0.3em;
-  //transition: background-color 0.5s;
+  transition: background-color 0.5s;
 }
 
-/* Optional: Fade out highlight */
-:target {
-  animation: highlight 3s ease-in-out forwards;
+/* Disable :target styles when smooth-fragments is active */
+.smooth-fragments :target {
+  background: none;
+  padding: 0;
+  border-radius: 0;
 }
 
-@keyframes highlight {
-  0% {
-    background: rgba(197, 247, 188, 0.2);
-  }
-  100% {
-    background: transparent;
-  }
+/* Styles for JavaScript-controlled highlights */
+.target-highlight {
+  background: rgba(197, 247, 188, 0.2);
+  border-radius: 0.3em;
+  box-shadow: 0 0 0 0.3em rgba(197, 247, 188, 0.2);
+  transition: background-color 0.3s;
 }
 
 .tiny {

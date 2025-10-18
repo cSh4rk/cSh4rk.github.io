@@ -1,74 +1,50 @@
-// Smooth scroll for in-page fragment links (used with TOC or anywhere smooth scrolling is needed)
-(function () {
-  // Run when DOM is ready
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initSmoothFragmentScroll);
-  } else {
-    initSmoothFragmentScroll();
+const offset = 25; // pixels above scrolled element
+
+// Function to handle smooth scrolling and highlighting
+function handleFragment(targetID) {
+  if (!targetID) return;
+
+  const targetEl = document.getElementById(targetID);
+  if (!targetEl) return;
+
+  // Compute top position with offset
+  const targetY = targetEl.getBoundingClientRect().top + window.scrollY - offset;
+
+  // Smooth scroll
+  window.scrollTo({ top: targetY, behavior: "smooth" });
+
+  // Remove previous footnote highlights
+  document.querySelectorAll(".target-highlight").forEach(el => {
+    el.classList.remove("target-highlight");
+  });
+
+  // Apply highlight only for footnotes
+  if (/^fn(:|ref:)/.test(targetID)) {
+    targetEl.classList.add("target-highlight");
   }
+}
 
-  function initSmoothFragmentScroll() {
-    // Select all anchor links that start with "#" but are not just "#"
-    const links = document.querySelectorAll('a[href^="#"]:not([href="#"])');
-    if (!links.length) return;
+// Add smooth-fragments class to body
+document.addEventListener("DOMContentLoaded", () => {
+  document.body.classList.add("smooth-fragments");
 
-    const baseDuration = 1500; // milliseconds
-    const offset = 25; // Adjust this value based on fixed header height or desired margin
-
-    // Cubic easing for natural acceleration/deceleration
-    function easeInOutCubic(t) {
-      return t < 0.5
-        ? 4 * t * t * t
-        : 1 - Math.pow(-2 * t + 2, 3) / 2;
-    }
-
-    links.forEach(link => {
-      link.addEventListener('click', e => {
-        const id = link.getAttribute('href').slice(1);
-        const target = document.getElementById(id);
-        if (!target) return;
-
-        e.preventDefault(); // Prevent default to control scroll
-
-        // Add a temporary class to apply :target-like styles before scrolling
-        target.classList.add('target-highlight');
-
-        // Calculate target position with offset
-        const startY = window.scrollY;
-        const targetRect = target.getBoundingClientRect();
-        const targetY = targetRect.top + window.scrollY - offset; // Subtract offset
-        const distance = Math.abs(targetY - startY);
-        const duration = Math.min(baseDuration, 300 + distance * 0.4);
-        const startTime = performance.now();
-
-        // Temporarily clear hash to avoid jump
-        history.replaceState(null, null, ' ');
-
-        function animate(now) {
-          const elapsed = now - startTime;
-          const progress = Math.min(elapsed / duration, 1);
-          const eased = easeInOutCubic(progress);
-          const newY = startY + (targetY - startY) * eased;
-          window.scrollTo({ top: newY, behavior: 'auto' });
-          if (progress < 1) {
-            requestAnimationFrame(animate);
-          } else {
-            // Set hash to trigger :target
-            location.hash = id;
-            // Ensure scroll position accounts for offset
-            window.scrollTo({ top: targetY, behavior: 'auto' });
-            // Remove temporary class and rely on :target
-            target.classList.remove('target-highlight');
-            // Make target focusable for accessibility
-            if (!target.hasAttribute('tabindex')) {
-              target.setAttribute('tabindex', '-1');
-            }
-            target.focus({ preventScroll: true });
-          }
-        }
-
-        requestAnimationFrame(animate);
-      });
-    });
+  // Handle page load with fragment in URL
+  const targetID = window.location.hash.substring(1);
+  if (targetID) {
+    handleFragment(targetID);
   }
-})();
+});
+
+// Handle click events on fragment links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener("click", function (event) {
+    const targetID = this.getAttribute("href").substring(1);
+    if (!targetID) return;
+
+    event.preventDefault();
+    handleFragment(targetID);
+
+    // Update URL hash without jumping
+    history.pushState(null, "", `#${targetID}`);
+  });
+});
