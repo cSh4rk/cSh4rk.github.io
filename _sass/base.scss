@@ -512,9 +512,15 @@ a:active, a:focus {
   margin-bottom: 8px;
 }
 
+// Add extra space above the last line (Nima © 2025)
+.footer-col-copyright span:last-child {
+  display: block;
+  margin-top: 4px;
+}
+
 .footer-col-copyright a {
   display: inline-block;       // allows padding to increase touch area
-  padding: 4px 0px;            // small padding to expand tap target
+  padding: 2px 0px;            // small padding to expand tap target
   line-height: 1.4;            // ensures vertical spacing
 }
 
