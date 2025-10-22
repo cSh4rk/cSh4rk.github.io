@@ -95,4 +95,6 @@ In other words in this way you work with two branches, the main/master branch is
 
 ## License
 
-CC0 1.0 Universal
+- **Templates & website code (including modifications to CC0-based Hacker Theme derivatives):** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) — free to use, modify, and redistribute with no obligations.  
+- **Posts, Articles & Tutorials (all topics):** [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/) — free to use, modify, and redistribute **with attribution to Nima**.  
+- **Third-party resources:** retain their original licenses; see references in posts, pages, or code files.
