@@ -58,6 +58,7 @@ It is powered by CyberShark Edition, a custom enhanced version of the Jekyll Hac
 - Jekyll — fast static site generator
 - Ruby — programming language for Jekyll
 - GitHub Pages — hosting platform
+- Cloudflare — CDN and security layer for performance and protection
 - Modern cyberpunk/neon aesthetics
 - Developer-friendly features: pagination, table of contents, automated RSS, smart image handling
 
@@ -123,7 +124,7 @@ After the build completes, the fully optimized site is ready in `_site` and can 
 git checkout gh-pages
 
 # Ensure .gitignore contains only:
-# _site/, CNAME, css/main.original.css, node_modules/, .jekyll-cache/
+# _site/, CNAME, node_modules/, .jekyll-cache/
 git add .gitignore
 git commit -m "Fix .gitignore for gh-pages"
 
@@ -132,7 +133,7 @@ Get-ChildItem -Force | Where-Object {
     $_.Name -notin @('.git', '.gitignore', 'node_modules', '_site')
 } | Remove-Item -Recurse -Force
 
-# Remove temporary Jekyll cache if exists
+# Remove temporary Jekyll cache if exists(optional)
 if (Test-Path ".jekyll-cache") { Remove-Item -Recurse -Force .jekyll-cache }
 
 # Copy freshly built _site contents into repo root
@@ -141,7 +142,7 @@ robocopy "_site" "." /E
 # Stage all changes
 git add .
 
-# Show staged changes
+# Show staged changes(optional)
 git status
 
 # Commit & push automatically if there are changes
@@ -172,7 +173,7 @@ if (-not (git diff --cached --quiet)) {
   <a href="https://github.com/toshimaru/jekyll-toc"><img src="https://img.shields.io/badge/Plugin-jekyll--toc-lightgreen?logo=jekyll&logoColor=white" alt="Jekyll TOC"></a>
 </p>
 
-CyberShark Edition is a fully open-source, enhanced version of [The Hacker Theme](https://github.com/pages-themes/hacker) and [The Hacker-Blog Theme](https://github.com/tocttou/hacker-blog). It introduces multiple improvements while preserving the minimalistic, hacker-friendly design:
+CyberShark Edition is a fully open-source, enhanced version of [the Hacker theme](https://github.com/pages-themes/hacker) and [the Hacker-Blog theme](https://github.com/tocttou/hacker-blog). It introduces multiple improvements while preserving the minimalistic, hacker-friendly design:
 
 ## Key Features
 
@@ -185,13 +186,14 @@ CyberShark Edition is a fully open-source, enhanced version of [The Hacker Theme
 - ✔ Fully automated local build pipeline: PurgeCSS for CSS, Terser for JS, custom PostCSS for pre-Critical CSS sanitizing, Critical CSS inlining for multiple layouts/viewports.
 - ✔ Favicon automatically chosen based on device.
 - ✔ Fixed and completed RSS feed.
-- ✔ Modern Cyberpunk Neon navigation buttons.
+- ✔ Modern Cyberpunk neon navigation buttons.
 - ✔ security.txt file with automated expire date update.
 - ✔ SEO and accessibility improvements: ARIA attributes, robots rules, pagination, smooth fragment scroll.
 - ✔ Jekyll plugin to remove deprecated ARIA roles from footnotes.
 - ✔ Back to Top button for scrolled pages.
 - ✔ Particles effect with customizable color palettes.
 - ✔ Automatic Table of Contents with selectable placement per post.
+- ✔ Accessible, responsive pagination with uniform buttons and neon glow.
 
 All changes are made with ❤. Feel free to use this theme for your own projects.
 
