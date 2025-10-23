@@ -5,45 +5,23 @@ Personal cybersecurity & growth website + open-source CyberShark Jekyll theme wi
 <!-- Website Features / Core -->
 <p align="center">
   <!-- Core website features -->
-  <a href="https://pages.github.com">
-    <img src="https://img.shields.io/badge/Hosted_on-GitHub_Pages-181717?logo=github&logoColor=white" alt="GitHub Pages">
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/Privacy-Focused-brightgreen?logo=lock&logoColor=white" alt="No Tracking / Privacy-Respecting">
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/Performance-Lightning%20Fast-yellow?logo=zap&logoColor=white" alt="Optimized & Lightning Fast">
-  </a>
-  <a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide">
-    <img src="https://img.shields.io/badge/SEO-Optimized-00cc88?logo=google&logoColor=white" alt="SEO Optimized">
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design">
-    <img src="https://img.shields.io/badge/Responsive-Design-blue?logo=css3&logoColor=white" alt="Responsive Design">
-  </a>
+  <a href="https://pages.github.com"><img src="https://img.shields.io/badge/Hosted_on-GitHub_Pages-181717?logo=github&logoColor=white" alt="GitHub Pages"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Privacy-Focused-brightgreen?logo=lock&logoColor=white" alt="No Tracking / Privacy-Respecting"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Performance-Lightning%20Fast-yellow?logo=zap&logoColor=white" alt="Optimized & Lightning Fast"></a>
+  <a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide"><img src="https://img.shields.io/badge/SEO-Optimized-00cc88?logo=google&logoColor=white" alt="SEO Optimized"></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design"><img src="https://img.shields.io/badge/Responsive-Design-blue?logo=css3&logoColor=white" alt="Responsive Design"></a>
 </p>
 
 <!-- Maintenance / Versions / Quick Demo -->
 <p align="center">
-  <a href="#">
-    <img src="https://img.shields.io/badge/Last_Updated-2025--10--23-lightgrey?logo=github&logoColor=white" alt="Last Updated">
-  </a>
-  <a href="https://nima.ninja">
-    <img src="https://img.shields.io/badge/Quick_Demo-Live%20Site-00bfff?logo=firefox&logoColor=white" alt="Quick Demo / Live Site">
-  </a>
+  <a href="#"><img src="https://img.shields.io/badge/Last_Updated-2025--10--23-lightgrey?logo=github&logoColor=white" alt="Last Updated"></a>
+  <a href="https://nima.ninja"><img src="https://img.shields.io/badge/Quick_Demo-Live%20Site-00bfff?logo=firefox&logoColor=white" alt="Quick Demo / Live Site"></a>
   <br>
   <!-- Dependencies -->
-  <a href="https://www.ruby-lang.org/">
-    <img src="https://img.shields.io/badge/Ruby-3.4.6-cc342d?logo=ruby&logoColor=white" alt="Ruby Version">
-  </a>
-  <a href="https://jekyllrb.com/">
-    <img src="https://img.shields.io/badge/Jekyll-4.4.1-f06529?logo=jekyll&logoColor=white" alt="Jekyll Version">
-  </a>
-  <a href="https://nodejs.org/">
-    <img src="https://img.shields.io/badge/Node-22.19.0-339933?logo=node.js&logoColor=white" alt="Node Version">
-  </a>
-  <a href="https://www.npmjs.com/">
-    <img src="https://img.shields.io/badge/npm-11.6.2-blue?logo=npm&logoColor=white" alt="npm Version">
-  </a>
+  <a href="https://www.ruby-lang.org/"><img src="https://img.shields.io/badge/Ruby-3.4.6-cc342d?logo=ruby&logoColor=white" alt="Ruby Version"></a>
+  <a href="https://jekyllrb.com/"><img src="https://img.shields.io/badge/Jekyll-4.4.1-f06529?logo=jekyll&logoColor=white" alt="Jekyll Version"></a>
+  <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node-22.19.0-339933?logo=node.js&logoColor=white" alt="Node Version"></a>
+  <a href="https://www.npmjs.com/"><img src="https://img.shields.io/badge/npm-11.6.2-blue?logo=npm&logoColor=white" alt="npm Version"></a>
 </p>
 
 This repository hosts my personal website, **https://nima.ninja**, a digital diary and knowledge hub for practical cybersecurity, technology, and personal growth.
@@ -170,32 +148,16 @@ if (-not (git diff --cached --quiet)) {
 
 <!-- Theme / Tech Stack -->
 <p align="center">
-  <a href="https://jekyllrb.com">
-    <img src="https://img.shields.io/badge/Jekyll-Theme-f06529?logo=jekyll&logoColor=white" alt="Jekyll Theme">
-  </a>
-  <a href="https://www.ruby-lang.org/">
-    <img src="https://img.shields.io/badge/Built_with-Ruby-cc342d?logo=ruby&logoColor=white" alt="Ruby">
-  </a>
-  <a href="https://en.wikipedia.org/wiki/Cyberpunk">
-    <img src="https://img.shields.io/badge/Style-Cyberpunk-ff00ff?logo=css3&logoColor=white" alt="Cyberpunk Style">
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/Variant-CyberShark-00ffff?logo=shark&logoColor=black" alt="CyberShark Variant">
-  </a>
+  <a href="https://jekyllrb.com"><img src="https://img.shields.io/badge/Jekyll-Theme-f06529?logo=jekyll&logoColor=white" alt="Jekyll Theme"></a>
+  <a href="https://www.ruby-lang.org/"><img src="https://img.shields.io/badge/Built_with-Ruby-cc342d?logo=ruby&logoColor=white" alt="Ruby"></a>
+  <a href="https://en.wikipedia.org/wiki/Cyberpunk"><img src="https://img.shields.io/badge/Style-Cyberpunk-ff00ff?logo=css3&logoColor=white" alt="Cyberpunk Style"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Variant-CyberShark-00ffff?logo=shark&logoColor=black" alt="CyberShark Variant"></a>
   <br>
   <!-- Jekyll Plugins -->
-  <a href="https://jekyll.github.io/jekyll-seo-tag/">
-    <img src="https://img.shields.io/badge/Plugin-jekyll--seo--tag-orange?logo=jekyll&logoColor=white" alt="Jekyll SEO Tag">
-  </a>
-  <a href="https://github.com/jekyll/jekyll-paginate">
-    <img src="https://img.shields.io/badge/Plugin-jekyll--paginate-blue?logo=jekyll&logoColor=white" alt="Jekyll Paginate">
-  </a>
-  <a href="https://github.com/jekyll/jekyll-sitemap">
-    <img src="https://img.shields.io/badge/Plugin-jekyll--sitemap-lightgrey?logo=jekyll&logoColor=white" alt="Jekyll Sitemap">
-  </a>
-  <a href="https://github.com/allejo/jekyll-toc">
-    <img src="https://img.shields.io/badge/Plugin-jekyll--toc-lightgreen?logo=jekyll&logoColor=white" alt="Jekyll TOC">
-  </a>
+  <a href="https://jekyll.github.io/jekyll-seo-tag/"><img src="https://img.shields.io/badge/Plugin-jekyll--seo--tag-orange?logo=jekyll&logoColor=white" alt="Jekyll SEO Tag"></a>
+  <a href="https://github.com/jekyll/jekyll-paginate"><img src="https://img.shields.io/badge/Plugin-jekyll--paginate-blue?logo=jekyll&logoColor=white" alt="Jekyll Paginate"></a>
+  <a href="https://github.com/jekyll/jekyll-sitemap"><img src="https://img.shields.io/badge/Plugin-jekyll--sitemap-lightgrey?logo=jekyll&logoColor=white" alt="Jekyll Sitemap"></a>
+  <a href="https://github.com/allejo/jekyll-toc"><img src="https://img.shields.io/badge/Plugin-jekyll--toc-lightgreen?logo=jekyll&logoColor=white" alt="Jekyll TOC"></a>
 </p>
 
 CyberShark Edition is a fully open-source, enhanced version of [the Hacker theme](https://github.com/pages-themes/hacker) and [the Hacker-Blog theme](https://github.com/tocttou/hacker-blog). It introduces multiple improvements while preserving the minimalistic, hacker-friendly design:
