@@ -156,7 +156,7 @@ if (-not (git diff --cached --quiet)) {
 <br>
 <br>
 
-# About the Theme: CyberShark Edition Hacker Theme 🦈
+# About the Theme: The Hacker Theme, CyberShark Edition 🦈
 
 <!-- Theme / Tech Stack -->
 <p align="center">
@@ -169,10 +169,10 @@ if (-not (git diff --cached --quiet)) {
   <a href="https://jekyll.github.io/jekyll-seo-tag/"><img src="https://img.shields.io/badge/Plugin-jekyll--seo--tag-orange?logo=jekyll&logoColor=white" alt="Jekyll SEO Tag"></a>
   <a href="https://github.com/jekyll/jekyll-paginate"><img src="https://img.shields.io/badge/Plugin-jekyll--paginate-blue?logo=jekyll&logoColor=white" alt="Jekyll Paginate"></a>
   <a href="https://github.com/jekyll/jekyll-sitemap"><img src="https://img.shields.io/badge/Plugin-jekyll--sitemap-lightgrey?logo=jekyll&logoColor=white" alt="Jekyll Sitemap"></a>
-  <a href="https://github.com/allejo/jekyll-toc"><img src="https://img.shields.io/badge/Plugin-jekyll--toc-lightgreen?logo=jekyll&logoColor=white" alt="Jekyll TOC"></a>
+  <a href="https://github.com/toshimaru/jekyll-toc"><img src="https://img.shields.io/badge/Plugin-jekyll--toc-lightgreen?logo=jekyll&logoColor=white" alt="Jekyll TOC"></a>
 </p>
 
-CyberShark Edition is a fully open-source, enhanced version of [the Hacker theme](https://github.com/pages-themes/hacker) and [the Hacker-Blog theme](https://github.com/tocttou/hacker-blog). It introduces multiple improvements while preserving the minimalistic, hacker-friendly design:
+CyberShark Edition is a fully open-source, enhanced version of [The Hacker Theme](https://github.com/pages-themes/hacker) and [The Hacker-Blog Theme](https://github.com/tocttou/hacker-blog). It introduces multiple improvements while preserving the minimalistic, hacker-friendly design:
 
 ## Key Features
 
