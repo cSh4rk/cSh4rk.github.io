@@ -36,6 +36,9 @@ exclude:
   - copy-css.js
   - css/temp.main.css
   - postcss-remove-for-critical.js
+  - README.md
+  - license.md
+  - update-badges.js
   
 sass:
   style: compressed
