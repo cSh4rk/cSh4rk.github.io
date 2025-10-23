@@ -1,6 +1,6 @@
 <!-- ⚙️ TEMPLATE NOTICE ⚙️
-This file (README.template.md) is the source template used to generate README.md.
-The script update-badges.js replaces placeholders like {{LAST_UPDATED}}, {{RUBY_VERSION}}, etc.
+The README.template.md file is the source template used to generate README.md.
+The script update-badges.js replaces placeholders like { {LAST_UPDATED} }, { {RUBY_VERSION} }, etc.
 ⚠️ Do NOT edit README.md directly — it is automatically overwritten.
 Only edit README.template.md file if you want to change content or badge layout. -->
 
