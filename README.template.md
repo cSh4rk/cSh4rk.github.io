@@ -1,6 +1,6 @@
 <!-- ⚙️ TEMPLATE NOTICE ⚙️
 The README.template.md file is the source template used to generate README.md.
-The script update-badges.js replaces placeholders like { {LAST_UPDATED} }, { {RUBY_VERSION} }, etc.
+The script update-badges.js replaces placeholders like `LAST_UPDATED`, `RUBY_VERSION`, etc.
 ⚠️ Do NOT edit README.md directly — it is automatically overwritten.
 Only edit README.template.md file if you want to change content or badge layout. -->
 
@@ -104,6 +104,7 @@ npm run build
 
 This will:
 
+- Generate `README.md` from `README.template.md` by replacing placeholders like `LAST_UPDATED`, `RUBY_VERSION`, `JEKYLL_VERSION`, `NODE_VERSION`, and `NPM_VERSION` with real values. Do not edit `README.md` directly — only edit `README.template.md`.
 - Build the site with Jekyll (first pass).
 - Remove unused CSS via PostCSS + PurgeCSS.
 - Copy a temporary minified CSS backup.

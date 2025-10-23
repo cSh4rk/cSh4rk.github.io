@@ -7,8 +7,8 @@
     <description>Nima&apos;s Diaries about Cybersecurity, Red Teaming, Tooling, Tutorials, and Personal Notes — Practical Guides, Walkthroughs, and Resources for Curious Minds.</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Oct 2025 08:01:40 -0400</pubDate>
-    <lastBuildDate>Thu, 23 Oct 2025 08:01:40 -0400</lastBuildDate>
+    <pubDate>Thu, 23 Oct 2025 08:59:10 -0400</pubDate>
+    <lastBuildDate>Thu, 23 Oct 2025 08:59:10 -0400</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
     <image>
       <url>https://nima.ninja/assets/ninja.png</url>
@@ -586,6 +586,8 @@ So that you can optimize these pictures and use smaller and more modern image fo
   </span><span class="nl">"version"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1.0.0"</span><span class="p">,</span><span class="w">
   </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"module"</span><span class="p">,</span><span class="w">
   </span><span class="nl">"scripts"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"update:badges"</span><span class="p">:</span><span class="w"> </span><span class="s2">"node update-badges.js"</span><span class="p">,</span><span class="w">
+
     </span><span class="nl">"build:jekyll:1"</span><span class="p">:</span><span class="w"> </span><span class="s2">"bundle exec jekyll build"</span><span class="p">,</span><span class="w">
 
     </span><span class="nl">"postcss"</span><span class="p">:</span><span class="w"> </span><span class="s2">"postcss </span><span class="se">\"</span><span class="s2">_site/css/main.css</span><span class="se">\"</span><span class="s2"> -o </span><span class="se">\"</span><span class="s2">_site/css/main.css</span><span class="se">\"</span><span class="s2">"</span><span class="p">,</span><span class="w">
@@ -615,13 +617,14 @@ So that you can optimize these pictures and use smaller and more modern image fo
 
     </span><span class="nl">"build:jekyll:2"</span><span class="p">:</span><span class="w"> </span><span class="s2">"bundle exec jekyll build"</span><span class="p">,</span><span class="w">
 
-    </span><span class="nl">"minify:js"</span><span class="p">:</span><span class="w"> </span><span class="s2">"terser </span><span class="se">\"</span><span class="s2">_site/js/back-to-top.js</span><span class="se">\"</span><span class="s2"> -o </span><span class="se">\"</span><span class="s2">_site/js/back-to-top.js</span><span class="se">\"</span><span class="s2"> -c -m &amp;&amp; terser </span><span class="se">\"</span><span class="s2">_site/js/particles.js</span><span class="se">\"</span><span class="s2"> -o </span><span class="se">\"</span><span class="s2">_site/js/particles.js</span><span class="se">\"</span><span class="s2"> -c -m"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"minify:js"</span><span class="p">:</span><span class="w"> </span><span class="s2">"terser </span><span class="se">\"</span><span class="s2">_site/js/back-to-top.js</span><span class="se">\"</span><span class="s2"> -o </span><span class="se">\"</span><span class="s2">_site/js/back-to-top.js</span><span class="se">\"</span><span class="s2"> -c -m &amp;&amp; terser </span><span class="se">\"</span><span class="s2">_site/js/particles.js</span><span class="se">\"</span><span class="s2"> -o </span><span class="se">\"</span><span class="s2">_site/js/particles.js</span><span class="se">\"</span><span class="s2"> -c -m &amp;&amp; terser </span><span class="se">\"</span><span class="s2">_site/js/smooth-fragments.js</span><span class="se">\"</span><span class="s2"> -o </span><span class="se">\"</span><span class="s2">_site/js/smooth-fragments.js</span><span class="se">\"</span><span class="s2"> -c -m"</span><span class="p">,</span><span class="w">
 
     </span><span class="nl">"copy:back"</span><span class="p">:</span><span class="w"> </span><span class="s2">"node copy-css.js </span><span class="se">\"</span><span class="s2">css/temp.main.css</span><span class="se">\"</span><span class="s2"> </span><span class="se">\"</span><span class="s2">_site/css/main.css</span><span class="se">\"</span><span class="s2">"</span><span class="p">,</span><span class="w">
 
-    </span><span class="nl">"build"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npm run build:jekyll:1 &amp;&amp; npm run postcss &amp;&amp; npm run copy:minified-css &amp;&amp; npm run postcss:critical &amp;&amp; npm run critical &amp;&amp; npm run minify:inlinejs &amp;&amp; npm run build:jekyll:2 &amp;&amp; npm run minify:js &amp;&amp; npm run copy:back"</span><span class="w">
+    </span><span class="nl">"build"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npm run update:badges &amp;&amp; npm run build:jekyll:1 &amp;&amp; npm run postcss &amp;&amp; npm run copy:minified-css &amp;&amp; npm run postcss:critical &amp;&amp; npm run critical &amp;&amp; npm run minify:inlinejs &amp;&amp; npm run build:jekyll:2 &amp;&amp; npm run minify:js &amp;&amp; npm run copy:back"</span><span class="w">
   </span><span class="p">},</span><span class="w">
   </span><span class="nl">"scriptsComments"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"update:badges"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Generates README.md from README.template.md by replacing placeholders ({{LAST_UPDATED}}, {{RUBY_VERSION}}, {{JEKYLL_VERSION}}, {{NODE_VERSION}}, {{NPM_VERSION}}) with real values. Do not edit README.md directly — edit README.template.md instead."</span><span class="p">,</span><span class="w">
     </span><span class="nl">"build:jekyll:1"</span><span class="p">:</span><span class="w"> </span><span class="s2">"First Jekyll build: generate HTML pages."</span><span class="p">,</span><span class="w">
     </span><span class="nl">"postcss"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Run PostCSS with PurgeCSS to remove unused CSS for live site."</span><span class="p">,</span><span class="w">
     </span><span class="nl">"copy:minified-css"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Save a temp copy of main.css so it can be restored later."</span><span class="p">,</span><span class="w">
@@ -631,7 +634,7 @@ So that you can optimize these pictures and use smaller and more modern image fo
     </span><span class="nl">"build:jekyll:2"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Second Jekyll build: inject generated Critical CSS includes and generated inline JS scripts includes into HTML pages."</span><span class="p">,</span><span class="w">
     </span><span class="nl">"minify:js"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Minify JS files."</span><span class="p">,</span><span class="w">
     </span><span class="nl">"copy:back"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Restore the full PurgeCSS main.css to _site for live site."</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"build"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Full build pipeline: build site, process CSS, generate Critical CSS, rebuild HTML with critical CSS and minified inline scripts, minify JS files, restore main CSS."</span><span class="w">
+    </span><span class="nl">"build"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Full build pipeline: update badges, build site, process CSS, generate Critical CSS, rebuild HTML with critical CSS and minified inline scripts, minify JS files, restore main CSS."</span><span class="w">
   </span><span class="p">},</span><span class="w">
   </span><span class="nl">"devDependencies"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
     </span><span class="nl">"@fullhuman/postcss-purgecss"</span><span class="p">:</span><span class="w"> </span><span class="s2">"7.0.2"</span><span class="p">,</span><span class="w">
