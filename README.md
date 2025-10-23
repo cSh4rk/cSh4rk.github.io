@@ -1,99 +1,232 @@
-## The Hacker Theme, CyberShark Edition 🦈
+Personal cybersecurity & growth website + open-source CyberShark Jekyll theme with hacker/cyberpunk aesthetic.
 
-This is an updated version of [The Hacker-Blog Theme](https://github.com/tocttou/hacker-blog) which itself is a modified version of [Hacker Theme](https://github.com/pages-themes/hacker), a minimalistic, responsive jekyll theme built for hackers.
+# Nima’s Website ⚔
 
-In this edition of the Hacker Theme: 
+<!-- Website Features / Core -->
+<p align="center">
+  <!-- Core website features -->
+  <a href="https://pages.github.com">
+    <img src="https://img.shields.io/badge/Hosted_on-GitHub_Pages-181717?logo=github&logoColor=white" alt="GitHub Pages">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Privacy-Focused-brightgreen?logo=lock&logoColor=white" alt="No Tracking / Privacy-Respecting">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Performance-Lightning%20Fast-yellow?logo=zap&logoColor=white" alt="Optimized & Lightning Fast">
+  </a>
+  <a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide">
+    <img src="https://img.shields.io/badge/SEO-Optimized-00cc88?logo=google&logoColor=white" alt="SEO Optimized">
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design">
+    <img src="https://img.shields.io/badge/Responsive-Design-blue?logo=css3&logoColor=white" alt="Responsive Design">
+  </a>
+</p>
 
-✔ Even more features, some of them:
+<!-- Maintenance / Versions / Quick Demo -->
+<p align="center">
+  <a href="#">
+    <img src="https://img.shields.io/badge/Last_Updated-2025--10--23-lightgrey?logo=github&logoColor=white" alt="Last Updated">
+  </a>
+  <a href="https://nima.ninja">
+    <img src="https://img.shields.io/badge/Quick_Demo-Live%20Site-00bfff?logo=firefox&logoColor=white" alt="Quick Demo / Live Site">
+  </a>
+  <br>
+  <!-- Dependencies -->
+  <a href="https://www.ruby-lang.org/">
+    <img src="https://img.shields.io/badge/Ruby-3.4.6-cc342d?logo=ruby&logoColor=white" alt="Ruby Version">
+  </a>
+  <a href="https://jekyllrb.com/">
+    <img src="https://img.shields.io/badge/Jekyll-4.4.1-f06529?logo=jekyll&logoColor=white" alt="Jekyll Version">
+  </a>
+  <a href="https://nodejs.org/">
+    <img src="https://img.shields.io/badge/Node-22.19.0-339933?logo=node.js&logoColor=white" alt="Node Version">
+  </a>
+  <a href="https://www.npmjs.com/">
+    <img src="https://img.shields.io/badge/npm-11.6.2-blue?logo=npm&logoColor=white" alt="npm Version">
+  </a>
+</p>
 
-  - More than one post categories, in my website template case: Blog, Books, Links (you can add as many categories as you want).
-  - Post tags (ability to use post tags and show all post tags and tag counts).
-  - Site footer.
-  - Post references (footnotes).
-  - Additional social media options: Discord, Github, X, Mastodon and many more.
-  - Ability to add TryHackMe and HackTheBox badges to website footer and get the link from these services or serve them locally.
-  - Ability to show updated date for posts (in addition to published date).
-  - Smart image format selector Jekyll plugin: this Ruby plugin is built for easier implementation of pictures on web pages, this plugin uses a fallback mechanism for pictures: it searches for the picture in avif format and uses it, if avif wasn't found, searches for webP and if it wasn't found either, it searches for original picture format(PNG,JPG...) AVIF -> webP -> Original format(PNG,JPG...) with the ability to set some attributes for images (`width` `height` `alt` `loading` `fetchpriority` `first_format` `decoding` `classname`).
-  - Expanded page style codes for more features: hover effects for different hyperlinks, fragment highlight animations, responsive classes and more.
-  - Code in build pipeline to use PurgeCSS post website build to remove unused CSS codes( use `npm install` in project folder ).
-  - Favicon is chosen based on the viewer's device.
-  - Fixed and completed RSS feed.
-  - Added new options for page frontmatter, examples: post image thumbnails, robots: add robots rules for the page, hero-poster: add hero poster for hero videos on pages to use them with preload for faster load(it sets fetchpriority=high for hero poster).
-  - Modern Cyberpunk Neon navigation buttons.
-  - security.txt file and a mechanism to automatically update the expire date in the file.
-  - Some structural modifications for better SEO.
-  - Some changes for better accessibility: aria attributes for SVG images used in website footer and posts, and more.
-  - A Jekyll plugin to remove deprecated ARIA roles from Jekyll footnotes(used for older Jekyll versions).
-  - Code in build pipeline to use Critical post-build to inline critical CSS for different page layouts.
-  - Back to Top button for scrolled pages.
-  - Custom PostCSS script to remove custom CSS selectors that are unnecessary for Critical CSS, instead of Critical `--ignore` flag that may not always work as intended.
-  - Fully automated local build pipeline including CSS minification with PurgeCSS, JS minification with Terser, Custom PostCSS plugin for pre-Critical CSS sanitizing, Critical CSS inlining for different page layouts and viewports.
-  - Particles effect with various color palettes for desired pages.
-  - Automatic Table of Contents with the ability to choose the ToC place in page for desired posts.
-  - Accessible, Responsive Pagination with Uniform Buttons and Neon Glow.
-  - Smooth Fragment Scroll — animates scrolling between page anchors using a cubic ease-in-out function for a natural acceleration/deceleration effect.
-  
-✔ Multiple bugs in the original theme are fixed. 
+This repository hosts my personal website, **https://nima.ninja**, a digital diary and knowledge hub for practical cybersecurity, technology, and personal growth.
 
-✔ Updates and improvements are constantly coming, and new bugs are getting fixed when found.
+The website is organized into three main sections:
 
-All changes are made with ❤, Feel free to use this updated edition.
+- Blog: Practical insights, tutorials, and notes on technology, cybersecurity, personal growth, and more.
+- Books: Curated book recommendations covering technology, cybersecurity, science, personal growth, and other practical learning topics.
+- Links: Curated web resources on technology, cybersecurity, productivity, and life, designed to help you learn, grow, and stay inspired.
 
-## Technology Introduction
+The website is:
 
-[Jekyll](https://jekyllrb.com/) is a very fast static site generator technology that's supported by Github-Pages by default. It takes text written in your favorite markup language and uses layouts to create a static website. Jekyll is written in Ruby.
+- Fully open-source — reusable theme
+- Privacy-focused — no tracking by default
+- Lightning-fast — optimized build & critical CSS
+- Responsive — works on mobile & desktop
+- SEO-friendly — structured for discoverability
 
-### Gems
-Gems are code you can include in Ruby projects. Gems package specific functionality. You can share gems across multiple projects or with other people. Gems can perform actions like:
+It is powered by CyberShark Edition, a custom enhanced version of the Jekyll Hacker Theme, combining minimalistic hacker aesthetics with modern features, cyberpunk neon styling, and developer-friendly optimizations.
 
-* Converting a Ruby object to JSON
-* Pagination
-* Interacting with APIs such as GitHub
+## Technology Overview
 
-Jekyll is a gem. Many Jekyll plugins are also gems, including jekyll-feed, jekyll-seo-tag and jekyll-archives.
+- Jekyll — fast static site generator
+- Ruby — programming language for Jekyll
+- GitHub Pages — hosting platform
+- Modern cyberpunk/neon aesthetics
+- Developer-friendly features: pagination, table of contents, automated RSS, smart image handling
 
-### Gemfile
-A Gemfile is a list of gems used by your site. Every Jekyll site has a Gemfile in the main folder.
+The site uses Jekyll plugins like: `jekyll-seo-tag`, `jekyll-paginate`, `jekyll-sitemap`, `jekyll-toc` for optimized functionality.
+
+## Usage / Local Build & Deployment Instructions
+
+You can preview your changes locally, run the full automated build pipeline, and deploy the site to `gh-pages`. The site uses Jekyll for static site generation, PostCSS & PurgeCSS for optimized CSS, Critical CSS inlining, and JS minification via npm scripts.
+
+### 0. Clone the repository
+
+```bash
+git clone https://github.com/cSh4rk/cSh4rk.github.io.git
+cd nima.ninja
+```
+
+### 1. Install dependencies
+
+```bash
+bundle install     # Install Ruby gems (including Jekyll)
+npm install        # Install Node dependencies
+```
+
+### 2. Preview changes locally
+
+To see your changes live before final build:
+
+```bash
+bundle exec jekyll serve
+```
+
+- Access the site at `http://127.0.0.1:4000`.
+- Make edits, then refresh the page to preview updates.
+
+Note: Local preview rewrites URLs to `127.0.0.1`, so do not use this version for final deployment.
+
+### 3. Build the website
+
+Run the full automated build pipeline:
+
+```bash
+npm run build
+```
+
+This will:
+
+- Build the site with Jekyll (first pass).
+- Remove unused CSS via PostCSS + PurgeCSS.
+- Copy a temporary minified CSS backup.
+- Generate critical CSS for home, posts, and pages (mobile, tablet, desktop).
+- Minify inline JS scripts.
+- Rebuild Jekyll site (second pass) to inject critical CSS and inline JS.
+- Minify JS files.
+- Restore the full PurgeCSS-generated CSS to the `_site` folder.
+
+After the build completes, the fully optimized site is ready in `_site` and can be deployed.
+
+### 4. Deploy to `gh-pages` branch
+
+```powershell
+# Switch to gh-pages branch
+git checkout gh-pages
+
+# Ensure .gitignore contains only:
+# _site/, CNAME, css/main.original.css, node_modules/, .jekyll-cache/
+git add .gitignore
+git commit -m "Fix .gitignore for gh-pages"
+
+# Clean branch root while keeping .git, .gitignore, CNAME, node_modules
+Get-ChildItem -Force | Where-Object {
+    $_.Name -notin @('.git', '.gitignore', 'node_modules', '_site')
+} | Remove-Item -Recurse -Force
+
+# Remove temporary Jekyll cache if exists
+if (Test-Path ".jekyll-cache") { Remove-Item -Recurse -Force .jekyll-cache }
+
+# Copy freshly built _site contents into repo root
+robocopy "_site" "." /E
+
+# Stage all changes
+git add .
+
+# Show staged changes
+git status
+
+# Commit & push automatically if there are changes
+if (-not (git diff --cached --quiet)) {
+    git commit -m "Update site from _site"
+    git push origin gh-pages
+} else {
+    Write-Output "No changes to commit. Nothing to push."
+}
+```
 
 <br>
-You can create your own personal website, Weblog... by one of your code repositories using [Github-Pages](https://docs.github.com/en/pages).
+<br>
 
-The default theme used in a new Jekyll project is [Minima](https://github.com/jekyll/minima).
+# About the Theme: CyberShark Edition Hacker Theme 🦈
 
-## Usage
+<!-- Theme / Tech Stack -->
+<p align="center">
+  <a href="https://jekyllrb.com">
+    <img src="https://img.shields.io/badge/Jekyll-Theme-f06529?logo=jekyll&logoColor=white" alt="Jekyll Theme">
+  </a>
+  <a href="https://www.ruby-lang.org/">
+    <img src="https://img.shields.io/badge/Built_with-Ruby-cc342d?logo=ruby&logoColor=white" alt="Ruby">
+  </a>
+  <a href="https://en.wikipedia.org/wiki/Cyberpunk">
+    <img src="https://img.shields.io/badge/Style-Cyberpunk-ff00ff?logo=css3&logoColor=white" alt="Cyberpunk Style">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Variant-CyberShark-00ffff?logo=shark&logoColor=black" alt="CyberShark Variant">
+  </a>
+  <br>
+  <!-- Jekyll Plugins -->
+  <a href="https://jekyll.github.io/jekyll-seo-tag/">
+    <img src="https://img.shields.io/badge/Plugin-jekyll--seo--tag-orange?logo=jekyll&logoColor=white" alt="Jekyll SEO Tag">
+  </a>
+  <a href="https://github.com/jekyll/jekyll-paginate">
+    <img src="https://img.shields.io/badge/Plugin-jekyll--paginate-blue?logo=jekyll&logoColor=white" alt="Jekyll Paginate">
+  </a>
+  <a href="https://github.com/jekyll/jekyll-sitemap">
+    <img src="https://img.shields.io/badge/Plugin-jekyll--sitemap-lightgrey?logo=jekyll&logoColor=white" alt="Jekyll Sitemap">
+  </a>
+  <a href="https://github.com/allejo/jekyll-toc">
+    <img src="https://img.shields.io/badge/Plugin-jekyll--toc-lightgreen?logo=jekyll&logoColor=white" alt="Jekyll TOC">
+  </a>
+</p>
 
-There are three different methods to use a custom, pre-built Jekyll theme on your project:
+CyberShark Edition is a fully open-source, enhanced version of [the Hacker theme](https://github.com/pages-themes/hacker) and [the Hacker-Blog theme](https://github.com/tocttou/hacker-blog). It introduces multiple improvements while preserving the minimalistic, hacker-friendly design:
 
-1) Using Remote Theme Gem Files (in Gemfile file), in this method, your theme is automatically updated whenever the original theme builder updates her/his theme files. I don't like it this way because you are dependent on a foreign repository for your websites and if you have updates in your code, you might get a conflict with the new updated theme files in the original repository. And also you don't have full control and customization option on your project.
+## Key Features
 
-2) Using a Local Theme and make Github Pages to use theme Gem files. Github can also make your pages on the fly with Jekyll technology.
+- ✔ Multiple post categories (Blog, Books, Links, or more).
+- ✔ Post tags with counts display.
+- ✔ Site footer with social media links: Discord, GitHub, X, Mastodon, and optional TryHackMe and HackTheBox profile badges, configurable via `_config.yml`.
+- ✔ Show updated date in posts in addition to published date.
+- ✔ Smart image format selector plugin: AVIF → WebP → original format, with customizable attributes (`width`, `height`, `alt`, `loading`, `fetchpriority`, `first_format`, `decoding`, `classname`).
+- ✔ Expanded page styles: hover effects, fragment highlight animations, responsive classes, and more.
+- ✔ Fully automated local build pipeline: PurgeCSS for CSS, Terser for JS, custom PostCSS for pre-Critical CSS sanitizing, Critical CSS inlining for multiple layouts/viewports.
+- ✔ Favicon automatically chosen based on device.
+- ✔ Fixed and completed RSS feed.
+- ✔ Modern Cyberpunk Neon navigation buttons.
+- ✔ security.txt file with automated expire date update.
+- ✔ SEO and accessibility improvements: ARIA attributes, robots rules, pagination, smooth fragment scroll.
+- ✔ Jekyll plugin to remove deprecated ARIA roles from footnotes.
+- ✔ Back to Top button for scrolled pages.
+- ✔ Particles effect with customizable color palettes.
+- ✔ Automatic Table of Contents with selectable placement per post.
 
-  The downside is [Github-Pages only supports a limited number of themes that you can choose](https://pages.github.com/themes/), each theme has its own Gem files and [not all  Gem files are supported by Github Pages](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll#plugins), so you cannot use  every Jekyll theme that you see online. If you like one of the themes that Github-Pages supports, use this method.
+All changes are made with ❤. Feel free to use this theme for your own projects.
 
-3) Use whatever Jekyll theme you see and like on the web with any custom Gem files then Jekyll build your website locally, preferably on a different branch, for example mine is named `gh-pages` branch, then use this branch instead of master/main branch for Github pages website, in this branch you have the Jekyll built website files: no Ruby Gem files and only html (no Markdown md files either).
+<br>
+<br>
 
-In other words in this way you work with two branches, the main/master branch is used for your local editing and website changes and seeing your changes locally with `bundle exec Jekyll serve` command, then when finished editing, build your website with `bundle exec Jekyll build` (always use [bundler](https://jekyllrb.com/docs/ruby-101/#bundler) to handle your Gem file dependencies and avoid dependency hell), then your website files are ready in a `_site` folder, use the contents of this folder in your second branch (for example gh-pages) for your website files.
-
-## Notes
-
-1) Always use a local clone to work on your project using a text editor and git or github desktop then commit and push your changes to your online Github Repositories. You can also edit it directly on Github but it is recommended that you do most of your changes in a local build.
-
-2) [You can use your custom domain with Github-Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site).
-
-3) You can use [CloudFlare](https://www.cloudflare.com/) or [Namecheap](https://www.namecheap.com/domains/freedns/) as your nameserver provider for your custom domain. CloudFlare has also nice security and firewall features and it is also a caching proxy that speeds up your website speed.
-
-4) For more info on how to create your website using Github-Pages and Jekyll themes use the following resources:
-
-* https://docs.github.com/en/pages
-
-* https://jekyllrb.com/docs/ and for more themes and resources: https://jekyllrb.com/resources/
-
-* https://medium.com/@samdutton/github-pages-cloudflare-custom-domain-checklist-e86c786194a4
-
-* https://www.youtube.com/playlist?list=PLWzwUIYZpnJuT0sH4BN56P5oWTdHJiTNq
-
-
-## License
+# License
+[![CC0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 - **Templates & website code (including modifications to CC0-based Hacker Theme derivatives):** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) — free to use, modify, and redistribute with no obligations.  
 - **Posts, Articles & Tutorials (all topics):** [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/) — free to use, modify, and redistribute **with attribution to Nima**.  
