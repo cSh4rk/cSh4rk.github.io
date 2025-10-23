@@ -11,5 +11,5 @@ You may copy, distribute, or modify this content **for any purpose**, provided t
 **The work is provided “as-is”, without any warranty or liability. I assume no responsibility for its use.**
 
 ## Third-Party Resources
-Some content, assets, or resources (icons, images, videos, scripts, fonts, or libraries) may be created by third parties and retain their own licenses.  
+Some content or assets may be created by third parties and retain their own licenses.  
 Attributions for these resources are included where appropriate in posts, pages, or code files. Users must comply with the license terms of these third-party materials.

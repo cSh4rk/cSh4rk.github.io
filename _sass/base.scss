@@ -501,7 +501,7 @@ a:active, a:focus {
   font-size: 14px;
   float: right;
   //padding-left: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .footer-col-copyright {
@@ -513,9 +513,14 @@ a:active, a:focus {
 }
 
 // Add extra space above the last line (Nima © 2025)
-.footer-col-copyright span:last-child {
-  display: block;
+.footer-col-copyright p:last-child {
   margin-top: 4px;
+}
+
+// Override default <p> margins to maintain tight spacing
+.footer-col-copyright p {
+  margin: 0;
+  line-height: 1.4; // Match <a> line-height for consistency
 }
 
 .footer-col-copyright a {
