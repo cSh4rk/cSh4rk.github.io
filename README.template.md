@@ -1,6 +1,6 @@
 <!-- ⚙️ TEMPLATE NOTICE ⚙️
 This file (README.template.md) is the source template used to generate README.md.
-The script update-badges.js replaces placeholders like 2025--10--23, 3.4.6, etc.
+The script update-badges.js replaces placeholders like {{LAST_UPDATED}}, {{RUBY_VERSION}}, etc.
 ⚠️ Do NOT edit README.md directly — it is automatically overwritten.
 Only edit README.template.md file if you want to change content or badge layout. -->
 
@@ -21,18 +21,18 @@ Personal cybersecurity & growth website + open-source CyberShark Jekyll theme wi
 <!-- Maintenance / Versions / Quick Demo -->
 <p align="center">
   <!-- ⚠️ This badge is auto-updated by update-badges.js. Do NOT manually edit the date! -->
-  <a href="#"><img src="https://img.shields.io/badge/Last_Updated-2025--10--23-lightgrey?logo=github&logoColor=white" alt="Last Updated"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Last_Updated-{{LAST_UPDATED}}-lightgrey?logo=github&logoColor=white" alt="Last Updated"></a>
   <a href="https://nima.ninja"><img src="https://img.shields.io/badge/Quick_Demo-Live%20Site-00bfff?logo=firefox&logoColor=white" alt="Quick Demo / Live Site"></a>
   <br>
   <!-- Dependencies -->
   <!-- ⚠️ This badge is auto-updated by update-badges.js. Do NOT manually edit the version! -->
-  <a href="https://www.ruby-lang.org/"><img src="https://img.shields.io/badge/Ruby-3.4.6-cc342d?logo=ruby&logoColor=white" alt="Ruby Version"></a>
+  <a href="https://www.ruby-lang.org/"><img src="https://img.shields.io/badge/Ruby-{{RUBY_VERSION}}-cc342d?logo=ruby&logoColor=white" alt="Ruby Version"></a>
   <!-- ⚠️ This badge is auto-updated by update-badges.js. Do NOT manually edit the version! -->
-  <a href="https://jekyllrb.com/"><img src="https://img.shields.io/badge/Jekyll-4.4.1-f06529?logo=jekyll&logoColor=white" alt="Jekyll Version"></a>
+  <a href="https://jekyllrb.com/"><img src="https://img.shields.io/badge/Jekyll-{{JEKYLL_VERSION}}-f06529?logo=jekyll&logoColor=white" alt="Jekyll Version"></a>
   <!-- ⚠️ This badge is auto-updated by update-badges.js. Do NOT manually edit the version! -->
-  <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node-22.19.0-339933?logo=node.js&logoColor=white" alt="Node Version"></a>
+  <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node-{{NODE_VERSION}}-339933?logo=node.js&logoColor=white" alt="Node Version"></a>
   <!-- ⚠️ This badge is auto-updated by update-badges.js. Do NOT manually edit the version! -->
-  <a href="https://www.npmjs.com/"><img src="https://img.shields.io/badge/npm-11.6.2-blue?logo=npm&logoColor=white" alt="npm Version"></a>
+  <a href="https://www.npmjs.com/"><img src="https://img.shields.io/badge/npm-{{NPM_VERSION}}-blue?logo=npm&logoColor=white" alt="npm Version"></a>
 </p>
 
 This repository hosts my personal website, **https://nima.ninja**, a digital diary and knowledge hub for practical cybersecurity, technology, and personal growth.
