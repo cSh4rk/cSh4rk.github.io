@@ -512,21 +512,15 @@ a:active, a:focus {
   margin-bottom: 8px;
 }
 
-// Add extra space above the last line (Nima © 2025)
-.footer-col-copyright p:last-child {
-  margin-top: 4px;
-}
-
 // Override default <p> margins to maintain tight spacing
 .footer-col-copyright p {
   margin: 0;
   line-height: 1.4; // Match <a> line-height for consistency
+  padding: 2px 0px;      // small padding to expand tap target
 }
 
 .footer-col-copyright a {
-  display: inline-block;       // allows padding to increase touch area
-  padding: 2px 0px;            // small padding to expand tap target
-  line-height: 1.4;            // ensures vertical spacing
+  display: inline-block; // allows padding to increase touch area
 }
 
 .social-media-list {
