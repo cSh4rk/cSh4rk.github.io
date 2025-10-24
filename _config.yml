@@ -34,7 +34,7 @@ exclude:
   - package-lock.json
   - postcss.config.js
   - build
-  - src/css/temp.main.css
+  - css/temp.main.css
   
 sass:
   style: compressed
