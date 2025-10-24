@@ -15,7 +15,7 @@ Personal cybersecurity & growth website + open-source CyberShark Jekyll theme wi
   <a href="#"><img src="https://img.shields.io/badge/Privacy-Focused-brightgreen?logo=lock&logoColor=white" alt="No Tracking / Privacy-Respecting"></a>
   <a href="#"><img src="https://img.shields.io/badge/Performance-Lightning%20Fast-yellow?logo=zap&logoColor=white" alt="Optimized & Lightning Fast"></a>
   <a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide"><img src="https://img.shields.io/badge/SEO-Optimized-00cc88?logo=google&logoColor=white" alt="SEO Optimized"></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design"><img src="https://img.shields.io/badge/Responsive-Design-ff69b4?logo=css3&logoColor=white" alt="Responsive Design"></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design"><img src="https://img.shields.io/badge/Responsive-Design-d46eff?logo=css3&logoColor=white" alt="Responsive Design"></a>
 </p>
 
 <!-- Maintenance / Versions / Quick Demo -->
