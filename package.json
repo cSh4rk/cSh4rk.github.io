@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "update:badges": "node update-badges.js",
+    "update:badges": "node build/update-badges.js",
 
     "build:jekyll:1": "bundle exec jekyll build",
 
     "postcss": "postcss \"_site/css/main.css\" -o \"_site/css/main.css\"",
 
-    "copy:minified-css": "node copy-css.js \"_site/css/main.css\" \"css/temp.main.css\"",
+    "copy:minified-css": "node build/copy-css.js \"_site/css/main.css\" \"css/temp.main.css\"",
 
     "postcss:critical": "postcss \"_site/css/main.css\" -o \"_site/css/main-critical.css\" --env critical",
 
@@ -36,7 +36,7 @@
 
     "minify:js": "terser \"_site/js/back-to-top.js\" -o \"_site/js/back-to-top.js\" -c -m && terser \"_site/js/particles.js\" -o \"_site/js/particles.js\" -c -m && terser \"_site/js/smooth-fragments.js\" -o \"_site/js/smooth-fragments.js\" -c -m",
 
-    "copy:back": "node copy-css.js \"css/temp.main.css\" \"_site/css/main.css\"",
+    "copy:back": "node build/copy-css.js \"css/temp.main.css\" \"_site/css/main.css\"",
 
     "build": "npm run update:badges && npm run build:jekyll:1 && npm run postcss && npm run copy:minified-css && npm run postcss:critical && npm run critical && npm run minify:inlinejs && npm run build:jekyll:2 && npm run minify:js && npm run copy:back"
   },

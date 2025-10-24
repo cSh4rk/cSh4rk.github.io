@@ -1,5 +1,5 @@
 import purgecssPkg from '@fullhuman/postcss-purgecss';
-import removeForCritical from './postcss-remove-for-critical.js';
+import removeForCritical from './build/postcss-remove-for-critical.js';
 const purgecss = purgecssPkg.default;
 
 export default (ctx) => ({
