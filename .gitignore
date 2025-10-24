@@ -1,6 +1,5 @@
 _site/
-CNAME
-css/temp.main.css
+src/css/temp.main.css
 
 # Node modules
 node_modules/

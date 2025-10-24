@@ -7,8 +7,8 @@ author:
 url: "https://nima.ninja"
 baseurl: ""
 
-source: .
-destination: ./_site
+source: src
+destination: _site
 permalink: /:categories/:year/:title
 paginate: 10
 paginate_path: /page/:num/
@@ -34,7 +34,7 @@ exclude:
   - package-lock.json
   - postcss.config.js
   - build
-  - css/temp.main.css
+  - src/css/temp.main.css
   
 sass:
   style: compressed

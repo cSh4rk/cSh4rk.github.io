@@ -3,8 +3,8 @@ import { execSync } from "child_process";
 import fs from "fs";
 import path from "path";
 
-const templatePath = path.resolve("./README.template.md");
-const outputPath = path.resolve("./README.md");
+const templatePath = path.resolve("build/README.template.md");
+const outputPath = path.resolve("src/README.md");
 
 // Helper to safely run commands
 const runCmd = (cmd, fallback = "unknown") => {
