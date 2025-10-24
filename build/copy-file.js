@@ -4,7 +4,7 @@ import path from 'path';
 const [,, srcArg, destArg] = process.argv;
 
 if (!srcArg || !destArg) {
-  console.error('Usage: node copy-css.js <source> <destination>');
+  console.error('Usage: node copy-file.js <source> <destination>');
   process.exit(1);
 }
 
