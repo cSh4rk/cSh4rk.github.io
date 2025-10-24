@@ -7,8 +7,8 @@
     <description>Nima&apos;s Diaries about Cybersecurity, Red Teaming, Tooling, Tutorials, and Personal Notes — Practical Guides, Walkthroughs, and Resources for Curious Minds.</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Oct 2025 17:38:37 -0400</pubDate>
-    <lastBuildDate>Thu, 23 Oct 2025 17:38:37 -0400</lastBuildDate>
+    <pubDate>Fri, 24 Oct 2025 09:28:58 -0400</pubDate>
+    <lastBuildDate>Fri, 24 Oct 2025 09:28:58 -0400</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
     <image>
       <url>https://nima.ninja/assets/ninja.png</url>
@@ -624,7 +624,7 @@ So that you can optimize these pictures and use smaller and more modern image fo
     </span><span class="nl">"build"</span><span class="p">:</span><span class="w"> </span><span class="s2">"npm run update:badges &amp;&amp; npm run build:jekyll:1 &amp;&amp; npm run postcss &amp;&amp; npm run copy:minified-css &amp;&amp; npm run postcss:critical &amp;&amp; npm run critical &amp;&amp; npm run minify:inlinejs &amp;&amp; npm run build:jekyll:2 &amp;&amp; npm run minify:js &amp;&amp; npm run copy:back"</span><span class="w">
   </span><span class="p">},</span><span class="w">
   </span><span class="nl">"scriptsComments"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-    </span><span class="nl">"update:badges"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Generates README.md from README.template.md by replacing placeholders ({{LAST_UPDATED}}, {{RUBY_VERSION}}, {{JEKYLL_VERSION}}, {{NODE_VERSION}}, {{NPM_VERSION}}) with real values. Do not edit README.md directly — edit README.template.md instead."</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"update:badges"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Generate README.md from README.template.md by replacing placeholders ({{LAST_UPDATED}}, {{RUBY_VERSION}}, {{JEKYLL_VERSION}}, {{NODE_VERSION}}, {{NPM_VERSION}}) with real values. Do not edit README.md directly — edit README.template.md instead."</span><span class="p">,</span><span class="w">
     </span><span class="nl">"build:jekyll:1"</span><span class="p">:</span><span class="w"> </span><span class="s2">"First Jekyll build: generate HTML pages."</span><span class="p">,</span><span class="w">
     </span><span class="nl">"postcss"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Run PostCSS with PurgeCSS to remove unused CSS for live site."</span><span class="p">,</span><span class="w">
     </span><span class="nl">"copy:minified-css"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Save a temp copy of main.css so it can be restored later."</span><span class="p">,</span><span class="w">
@@ -652,48 +652,39 @@ So that you can optimize these pictures and use smaller and more modern image fo
 
     <p>For <code class="language-plaintext highlighter-rouge">gh-pages</code> branch which is used for publishing website files for GitHub Pages:</p>
 
-    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 1️⃣ Prepare .gitignore in gh-pages</span>
-git checkout gh-pages
+    <div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Switch to gh-pages branch</span><span class="w">
+</span><span class="n">git</span><span class="w"> </span><span class="nx">checkout</span><span class="w"> </span><span class="nx">gh-pages</span><span class="w">
 
-<span class="c"># Make sure .gitignore exists and includes only what you want ignored:</span>
-_site/
-CNAME
+</span><span class="c"># Ensure .gitignore contains only:</span><span class="w">
+</span><span class="c"># _site/, CNAME, node_modules/, .jekyll-cache/</span><span class="w">
+</span><span class="n">git</span><span class="w"> </span><span class="nx">add</span><span class="w"> </span><span class="o">.</span><span class="nf">gitignore</span><span class="w">
+</span><span class="nx">git</span><span class="w"> </span><span class="nx">commit</span><span class="w"> </span><span class="nt">-m</span><span class="w"> </span><span class="s2">"Fix .gitignore for gh-pages"</span><span class="w">
 
-<span class="c"># Node modules</span>
-node_modules/
+</span><span class="c"># Clean branch root while keeping .git, .gitignore, node_modules and _site</span><span class="w">
+</span><span class="n">Get-ChildItem</span><span class="w"> </span><span class="nt">-Force</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">Where-Object</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="bp">$_</span><span class="o">.</span><span class="nf">Name</span><span class="w"> </span><span class="nt">-notin</span><span class="w"> </span><span class="p">@(</span><span class="s1">'.git'</span><span class="p">,</span><span class="w"> </span><span class="s1">'.gitignore'</span><span class="p">,</span><span class="w"> </span><span class="s1">'node_modules'</span><span class="p">,</span><span class="w"> </span><span class="s1">'_site'</span><span class="p">)</span><span class="w">
+</span><span class="p">}</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">Remove-Item</span><span class="w"> </span><span class="nt">-Recurse</span><span class="w"> </span><span class="nt">-Force</span><span class="w">
 
-<span class="c"># Jekyll build cache</span>
-.jekyll-cache/
+</span><span class="c"># Optional: Remove temporary Jekyll cache if exists</span><span class="w">
+</span><span class="kr">if</span><span class="w"> </span><span class="p">(</span><span class="n">Test-Path</span><span class="w"> </span><span class="s2">".jekyll-cache"</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">Remove-Item</span><span class="w"> </span><span class="nt">-Recurse</span><span class="w"> </span><span class="nt">-Force</span><span class="w"> </span><span class="o">.</span><span class="nf">jekyll-cache</span><span class="w"> </span><span class="p">}</span><span class="w">
 
-<span class="c"># Commit if needed:</span>
-git add .gitignore
-git commit <span class="nt">-m</span> <span class="s2">"Fix .gitignore for gh-pages"</span>
+</span><span class="c"># Copy freshly built _site contents into repo root</span><span class="w">
+</span><span class="n">robocopy</span><span class="w"> </span><span class="s2">"_site"</span><span class="w"> </span><span class="s2">"."</span><span class="w"> </span><span class="nx">/E</span><span class="w">
 
-<span class="c"># 2️⃣ Clean branch root but keep .git, .gitignore, CNAME, node_modules</span>
-Get-ChildItem <span class="nt">-Force</span> | Where-Object <span class="o">{</span>
-    <span class="nv">$_</span>.Name <span class="nt">-notin</span> @<span class="o">(</span><span class="s1">'.git'</span>, <span class="s1">'.gitignore'</span>, <span class="s1">'node_modules'</span>, <span class="s1">'_site'</span><span class="o">)</span>
-<span class="o">}</span> | Remove-Item <span class="nt">-Recurse</span> <span class="nt">-Force</span>
+</span><span class="c"># Stage all changes</span><span class="w">
+</span><span class="n">git</span><span class="w"> </span><span class="nx">add</span><span class="w"> </span><span class="o">.</span><span class="w">
 
-<span class="c"># Optional: delete temporary or cache files:</span>
-<span class="k">if</span> <span class="o">(</span>Test-Path <span class="s2">".jekyll-cache"</span><span class="o">)</span> <span class="o">{</span> Remove-Item <span class="nt">-Recurse</span> <span class="nt">-Force</span> .jekyll-cache <span class="o">}</span>
+</span><span class="c"># Optional: Show staged changes</span><span class="w">
+</span><span class="n">git</span><span class="w"> </span><span class="nx">status</span><span class="w">
 
-<span class="c"># 3️⃣ Copy fresh _site contents into repo root</span>
-robocopy <span class="s2">"_site"</span> <span class="s2">"."</span> /E
-
-<span class="c"># 4️⃣ Stage all changes</span>
-git add <span class="nb">.</span>
-
-<span class="c"># 5️⃣ Show what will be committed</span>
-git status
-
-<span class="c"># 6️⃣ Commit &amp; push automatically if there are changes</span>
-<span class="k">if</span> <span class="o">(</span><span class="nt">-not</span> <span class="o">(</span>git diff <span class="nt">--cached</span> <span class="nt">--quiet</span><span class="o">))</span> <span class="o">{</span>
-    git commit <span class="nt">-m</span> <span class="s2">"Update site from _site"</span>
-    git push origin gh-pages
-<span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
-    Write-Output <span class="s2">"No changes to commit. Nothing to push."</span>
-<span class="o">}</span>
-</code></pre></div>    </div>
+</span><span class="c"># Commit &amp; push automatically if there are changes</span><span class="w">
+</span><span class="kr">if</span><span class="w"> </span><span class="p">(</span><span class="o">-not</span><span class="w"> </span><span class="p">(</span><span class="n">git</span><span class="w"> </span><span class="nx">diff</span><span class="w"> </span><span class="nt">--cached</span><span class="w"> </span><span class="nt">--quiet</span><span class="p">))</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="n">git</span><span class="w"> </span><span class="nx">commit</span><span class="w"> </span><span class="nt">-m</span><span class="w"> </span><span class="s2">"Update site from _site"</span><span class="w">
+    </span><span class="n">git</span><span class="w"> </span><span class="nx">push</span><span class="w"> </span><span class="nx">origin</span><span class="w"> </span><span class="nx">gh-pages</span><span class="w">
+</span><span class="p">}</span><span class="w"> </span><span class="kr">else</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="n">Write-Output</span><span class="w"> </span><span class="s2">"No changes to commit. Nothing to push."</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>    </div>
 
     <p>The result: built website code is committed and pushed to the <code class="language-plaintext highlighter-rouge">gh-pages</code> branch of my website on GitHub.</p>
   </li>
