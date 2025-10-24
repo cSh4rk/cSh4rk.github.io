@@ -128,12 +128,12 @@ git checkout gh-pages
 git add .gitignore
 git commit -m "Fix .gitignore for gh-pages"
 
-# Clean branch root while keeping .git, .gitignore, CNAME, node_modules
+# Clean branch root while keeping .git, .gitignore, node_modules and _site
 Get-ChildItem -Force | Where-Object {
     $_.Name -notin @('.git', '.gitignore', 'node_modules', '_site')
 } | Remove-Item -Recurse -Force
 
-# Remove temporary Jekyll cache if exists(optional)
+# Optional: Remove temporary Jekyll cache if exists
 if (Test-Path ".jekyll-cache") { Remove-Item -Recurse -Force .jekyll-cache }
 
 # Copy freshly built _site contents into repo root
@@ -142,7 +142,7 @@ robocopy "_site" "." /E
 # Stage all changes
 git add .
 
-# Show staged changes(optional)
+# Optional: Show staged changes
 git status
 
 # Commit & push automatically if there are changes
