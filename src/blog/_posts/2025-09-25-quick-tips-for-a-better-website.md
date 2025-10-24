@@ -363,42 +363,44 @@ There are many more Cloudflare features that can help us run a more fast, optimi
     "version": "1.0.0",
     "type": "module",
     "scripts": {
-      "update:badges": "node update-badges.js",
+      "update:badges": "node build/update-badges.js",
 
       "build:jekyll:1": "bundle exec jekyll build",
 
       "postcss": "postcss \"_site/css/main.css\" -o \"_site/css/main.css\"",
 
-      "copy:minified-css": "node copy-css.js \"_site/css/main.css\" \"css/temp.main.css\"",
+      "copy:minified-css": "node build/copy-file.js \"_site/css/main.css\" \"src/css/temp.main.css\"",
 
       "postcss:critical": "postcss \"_site/css/main.css\" -o \"_site/css/main-critical.css\" --env critical",
 
-      "critical:home:mobile": "critical _site/index.html --base=_site --css=_site/css/main-critical.css --width=412 --height=667 > _includes/critical-home-mobile.css || echo 'Skipped home mobile critical'",
-      "critical:home:tablet": "critical _site/index.html --base=_site --css=_site/css/main-critical.css --width=768 --height=800 > _includes/critical-home-tablet.css || echo 'Skipped home tablet critical'",
-      "critical:home:desktop": "critical _site/index.html --base=_site --css=_site/css/main-critical.css --width=1440 --height=800 > _includes/critical-home-desktop.css || echo 'Skipped home desktop critical'",
+      "critical:home:mobile": "critical _site/index.html --base=_site --css=_site/css/main-critical.css --width=412 --height=667 > src/_includes/critical-home-mobile.css || echo 'Skipped home mobile critical'",
+      "critical:home:tablet": "critical _site/index.html --base=_site --css=_site/css/main-critical.css --width=768 --height=800 > src/_includes/critical-home-tablet.css || echo 'Skipped home tablet critical'",
+      "critical:home:desktop": "critical _site/index.html --base=_site --css=_site/css/main-critical.css --width=1440 --height=800 > src/_includes/critical-home-desktop.css || echo 'Skipped home desktop critical'",
 
-      "critical:post:mobile": "critical _site/blog/2025/quick-tips-for-a-better-website.html --base=_site --css=_site/css/main-critical.css --width=412 --height=667 > _includes/critical-post-mobile.css || echo 'Skipped post mobile critical'",
-      "critical:post:tablet": "critical _site/blog/2025/quick-tips-for-a-better-website.html --base=_site --css=_site/css/main-critical.css --width=768 --height=800 > _includes/critical-post-tablet.css || echo 'Skipped post tablet critical'",
-      "critical:post:desktop": "critical _site/blog/2025/quick-tips-for-a-better-website.html --base=_site --css=_site/css/main-critical.css --width=1440 --height=800 > _includes/critical-post-desktop.css || echo 'Skipped post desktop critical'",
+      "critical:post:mobile": "critical _site/blog/2025/quick-tips-for-a-better-website.html --base=_site --css=_site/css/main-critical.css --width=412 --height=667 > src/_includes/critical-post-mobile.css || echo 'Skipped post mobile critical'",
+      "critical:post:tablet": "critical _site/blog/2025/quick-tips-for-a-better-website.html --base=_site --css=_site/css/main-critical.css --width=768 --height=800 > src/_includes/critical-post-tablet.css || echo 'Skipped post tablet critical'",
+      "critical:post:desktop": "critical _site/blog/2025/quick-tips-for-a-better-website.html --base=_site --css=_site/css/main-critical.css --width=1440 --height=800 > src/_includes/critical-post-desktop.css || echo 'Skipped post desktop critical'",
 
-      "critical:page:mobile": "critical _site/books/index.html --base=_site --css=_site/css/main-critical.css --width=412 --height=667 > _includes/critical-page-mobile.css || echo 'Skipped page mobile critical'",
-      "critical:page:tablet": "critical _site/books/index.html --base=_site --css=_site/css/main-critical.css --width=768 --height=800 > _includes/critical-page-tablet.css || echo 'Skipped page tablet critical'",
-      "critical:page:desktop": "critical _site/books/index.html --base=_site --css=_site/css/main-critical.css --width=1440 --height=800 > _includes/critical-page-desktop.css || echo 'Skipped page desktop critical'",
+      "critical:page:mobile": "critical _site/books/index.html --base=_site --css=_site/css/main-critical.css --width=412 --height=667 > src/_includes/critical-page-mobile.css || echo 'Skipped page mobile critical'",
+      "critical:page:tablet": "critical _site/books/index.html --base=_site --css=_site/css/main-critical.css --width=768 --height=800 > src/_includes/critical-page-tablet.css || echo 'Skipped page tablet critical'",
+      "critical:page:desktop": "critical _site/books/index.html --base=_site --css=_site/css/main-critical.css --width=1440 --height=800 > src/_includes/critical-page-desktop.css || echo 'Skipped page desktop critical'",
 
       "critical:home": "npm run critical:home:mobile && npm run critical:home:tablet && npm run critical:home:desktop",
       "critical:post": "npm run critical:post:mobile && npm run critical:post:tablet && npm run critical:post:desktop",
       "critical:page": "npm run critical:page:mobile && npm run critical:page:tablet && npm run critical:page:desktop",
       "critical": "npm run critical:home && npm run critical:post && npm run critical:page",
 
-      "minify:inlinejs": "terser \"_includes/lazy-load-back-to-top.js\" -o \"_includes/lazy-load-back-to-top.min.js\" -c -m",
+      "minify:inlinejs": "terser \"src/_includes/lazy-load-back-to-top.js\" -o \"src/_includes/lazy-load-back-to-top.min.js\" -c -m",
 
       "build:jekyll:2": "bundle exec jekyll build",
 
       "minify:js": "terser \"_site/js/back-to-top.js\" -o \"_site/js/back-to-top.js\" -c -m && terser \"_site/js/particles.js\" -o \"_site/js/particles.js\" -c -m && terser \"_site/js/smooth-fragments.js\" -o \"_site/js/smooth-fragments.js\" -c -m",
 
-      "copy:back": "node copy-css.js \"css/temp.main.css\" \"_site/css/main.css\"",
+      "copy:back": "node build/copy-file.js \"src/css/temp.main.css\" \"_site/css/main.css\"",
 
-      "build": "npm run update:badges && npm run build:jekyll:1 && npm run postcss && npm run copy:minified-css && npm run postcss:critical && npm run critical && npm run minify:inlinejs && npm run build:jekyll:2 && npm run minify:js && npm run copy:back"
+      "copy:root-files": "node build/copy-file.js src/README.md README.md && node build/copy-file.js src/license.md license.md",
+
+      "build": "npm run update:badges && npm run build:jekyll:1 && npm run postcss && npm run copy:minified-css && npm run postcss:critical && npm run critical && npm run minify:inlinejs && npm run build:jekyll:2 && npm run minify:js && npm run copy:back && npm run copy:root-files"
     },
     "scriptsComments": {
       "update:badges": "Generate README.md from README.template.md by replacing placeholders ({{LAST_UPDATED}}, {{RUBY_VERSION}}, {{JEKYLL_VERSION}}, {{NODE_VERSION}}, {{NPM_VERSION}}) with real values. Do not edit README.md directly — edit README.template.md instead.",
@@ -411,6 +413,7 @@ There are many more Cloudflare features that can help us run a more fast, optimi
       "build:jekyll:2": "Second Jekyll build: inject generated Critical CSS includes and generated inline JS scripts includes into HTML pages.",
       "minify:js": "Minify JS files.",
       "copy:back": "Restore the full PurgeCSS main.css to _site for live site.",
+      "copy:root-files": "Copy README.md and license.md from src/ to repository root so they exist at the repo root for GitHub display and are not only in _site",
       "build": "Full build pipeline: update badges, build site, process CSS, generate Critical CSS, rebuild HTML with critical CSS and minified inline scripts, minify JS files, restore main CSS."
     },
     "devDependencies": {
