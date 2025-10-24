@@ -15,7 +15,7 @@ Personal cybersecurity & growth website + open-source CyberShark Jekyll theme wi
   <a href="#"><img src="https://img.shields.io/badge/Privacy-Focused-brightgreen?logo=lock&logoColor=white" alt="No Tracking / Privacy-Respecting"></a>
   <a href="#"><img src="https://img.shields.io/badge/Performance-Lightning%20Fast-yellow?logo=zap&logoColor=white" alt="Optimized & Lightning Fast"></a>
   <a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide"><img src="https://img.shields.io/badge/SEO-Optimized-00cc88?logo=google&logoColor=white" alt="SEO Optimized"></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design"><img src="https://img.shields.io/badge/Responsive-Design-blue?logo=css3&logoColor=white" alt="Responsive Design"></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design"><img src="https://img.shields.io/badge/Responsive-Design-ff69b4?logo=css3&logoColor=white" alt="Responsive Design"></a>
 </p>
 
 <!-- Maintenance / Versions / Quick Demo -->
@@ -167,7 +167,7 @@ if (-not (git diff --cached --quiet)) {
   <a href="#"><img src="https://img.shields.io/badge/Variant-CyberShark-00ffff?logo=shark&logoColor=black" alt="CyberShark Variant"></a>
   <br>
   <!-- Jekyll Plugins -->
-  <a href="https://jekyll.github.io/jekyll-seo-tag/"><img src="https://img.shields.io/badge/Plugin-jekyll--seo--tag-orange?logo=jekyll&logoColor=white" alt="Jekyll SEO Tag"></a>
+  <a href="https://jekyll.github.io/jekyll-seo-tag/"><img src="https://img.shields.io/badge/Plugin-jekyll--seo--tag-ffcc33?logo=jekyll&logoColor=white" alt="Jekyll SEO Tag"></a>
   <a href="https://github.com/jekyll/jekyll-paginate"><img src="https://img.shields.io/badge/Plugin-jekyll--paginate-blue?logo=jekyll&logoColor=white" alt="Jekyll Paginate"></a>
   <a href="https://github.com/jekyll/jekyll-sitemap"><img src="https://img.shields.io/badge/Plugin-jekyll--sitemap-lightgrey?logo=jekyll&logoColor=white" alt="Jekyll Sitemap"></a>
   <a href="https://github.com/toshimaru/jekyll-toc"><img src="https://img.shields.io/badge/Plugin-jekyll--toc-lightgreen?logo=jekyll&logoColor=white" alt="Jekyll TOC"></a>
