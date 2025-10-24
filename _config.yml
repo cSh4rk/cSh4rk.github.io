@@ -33,6 +33,7 @@ exclude:
   - package.json
   - package-lock.json
   - postcss.config.js
+  - node_modules
   - build
   - css/temp.main.css
   
