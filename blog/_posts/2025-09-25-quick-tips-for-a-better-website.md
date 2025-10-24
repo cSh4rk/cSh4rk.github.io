@@ -9,7 +9,7 @@ image_height: "256"
 thumb_path: /blog/assets/2025/website-boost-thumb.png
 thumb_width: "130"
 thumb_height: "130"
-updated: 2025-10-23
+updated: 2025-10-24
 toc: true
 ---
 
@@ -401,7 +401,7 @@ There are many more Cloudflare features that can help us run a more fast, optimi
       "build": "npm run update:badges && npm run build:jekyll:1 && npm run postcss && npm run copy:minified-css && npm run postcss:critical && npm run critical && npm run minify:inlinejs && npm run build:jekyll:2 && npm run minify:js && npm run copy:back"
     },
     "scriptsComments": {
-      "update:badges": "Generates README.md from README.template.md by replacing placeholders ({{LAST_UPDATED}}, {{RUBY_VERSION}}, {{JEKYLL_VERSION}}, {{NODE_VERSION}}, {{NPM_VERSION}}) with real values. Do not edit README.md directly — edit README.template.md instead.",
+      "update:badges": "Generate README.md from README.template.md by replacing placeholders ({{LAST_UPDATED}}, {{RUBY_VERSION}}, {{JEKYLL_VERSION}}, {{NODE_VERSION}}, {{NPM_VERSION}}) with real values. Do not edit README.md directly — edit README.template.md instead.",
       "build:jekyll:1": "First Jekyll build: generate HTML pages.",
       "postcss": "Run PostCSS with PurgeCSS to remove unused CSS for live site.",
       "copy:minified-css": "Save a temp copy of main.css so it can be restored later.",
@@ -431,42 +431,33 @@ There are many more Cloudflare features that can help us run a more fast, optimi
   For `gh-pages` branch which is used for publishing website files for GitHub Pages:
 
   {% raw %}
-  ```bash
-  # 1️⃣ Prepare .gitignore in gh-pages
+  ```powershell
+  # Switch to gh-pages branch
   git checkout gh-pages
 
-  # Make sure .gitignore exists and includes only what you want ignored:
-  _site/
-  CNAME
-
-  # Node modules
-  node_modules/
-
-  # Jekyll build cache
-  .jekyll-cache/
-
-  # Commit if needed:
+  # Ensure .gitignore contains only:
+  # _site/, CNAME, node_modules/, .jekyll-cache/
   git add .gitignore
   git commit -m "Fix .gitignore for gh-pages"
 
-  # 2️⃣ Clean branch root but keep .git, .gitignore, CNAME, node_modules
+  # Clean branch root while keeping .git, .gitignore, node_modules and _site
   Get-ChildItem -Force | Where-Object {
       $_.Name -notin @('.git', '.gitignore', 'node_modules', '_site')
   } | Remove-Item -Recurse -Force
 
-  # Optional: delete temporary or cache files:
+  # Optional: Remove temporary Jekyll cache if exists
   if (Test-Path ".jekyll-cache") { Remove-Item -Recurse -Force .jekyll-cache }
 
-  # 3️⃣ Copy fresh _site contents into repo root
+  # Copy freshly built _site contents into repo root
   robocopy "_site" "." /E
 
-  # 4️⃣ Stage all changes
+  # Stage all changes
   git add .
 
-  # 5️⃣ Show what will be committed
+  # Optional: Show staged changes
   git status
 
-  # 6️⃣ Commit & push automatically if there are changes
+  # Commit & push automatically if there are changes
   if (-not (git diff --cached --quiet)) {
       git commit -m "Update site from _site"
       git push origin gh-pages
