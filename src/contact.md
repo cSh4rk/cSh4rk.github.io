@@ -27,7 +27,7 @@ particle_palette: "hacker"
 {% endif %}
 
 {% if site.social.linkedin %}
-  - LinkedIn: <a href="https://linkedin.com/in/{{ site.social.linkedin }}"><span>https://www.linkedin.com/in/{{ site.social.linkedin }}</span></a>
+  - LinkedIn: <a href="https://linkedin.com/in/{{ site.social.linkedin }}"><span>https://linkedin.com/in/{{ site.social.linkedin }}</span></a>
 {% endif %}
 
 {% if site.social.github %}
