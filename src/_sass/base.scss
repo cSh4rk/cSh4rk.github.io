@@ -698,6 +698,12 @@ a.footnote:after {
   color: #999 !important;
 }
 
+/* Footnote backlink fix for better accessibility (10292025) */
+a.reversefootnote {
+  padding: 1em;
+  margin: -0.5em;
+}
+
 // End of Footnotes
 
 // Buttons ( 09272025 Added )
