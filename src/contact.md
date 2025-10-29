@@ -27,19 +27,19 @@ particle_palette: "hacker"
 {% endif %}
 
 {% if site.social.linkedin %}
-  - LinkedIn: <a href="https://linkedin.com/in/{{ site.social.linkedin }}"><span>{{ site.social.linkedin }}</span></a>
+  - LinkedIn: <a href="https://linkedin.com/in/{{ site.social.linkedin }}"><span>https://www.linkedin.com/in/{{ site.social.linkedin }}</span></a>
 {% endif %}
 
 {% if site.social.github %}
-  - GitHub: <a href="https://github.com/{{ site.social.github }}"><span>{{ site.social.github }}</span></a>
+  - GitHub: <a href="https://github.com/{{ site.social.github }}"><span>https://github.com/{{ site.social.github }}</span></a>
 {% endif %}
 
 {% if site.social.x %}
-  - X: <a href="https://x.com/{{ site.social.x }}"><span>@{{ site.social.x }}</span></a>
+  - X: <a href="https://x.com/{{ site.social.x }}"><span>https://x.com/{{ site.social.x }}</span></a>
 {% endif %}
 
 {% if site.social.mastodon %}
-  - Mastodon: <a href="{{ site.social.mastodon }}"><span>{{ site.social.mastodonhandle }}</span></a>
+  - Mastodon: <a href="{{ site.social.mastodon }}"><span>{{ site.social.mastodon }}</span></a>
 {% endif %}
 
 <!--{% if site.social.wickrme %}
@@ -47,7 +47,7 @@ particle_palette: "hacker"
 {% endif %}-->
 
 {% if site.social.linktree %}
-  - Linktree: <a href="https://linktr.ee/{{ site.social.linktree }}"><span>@{{ site.social.linktree }}</span></a>
+  - Linktree: <a href="https://linktr.ee/{{ site.social.linktree }}"><span>https://linktr.ee/{{ site.social.linktree }}</span></a>
 {% endif %}
 
 {% if site.social.discordserver or site.social.discorduser %}
@@ -57,7 +57,7 @@ particle_palette: "hacker"
   {% endif %}
 
   {% if site.social.discordserver %}
-    - Server: <a href="https://discord.gg/{{ site.social.discordserver }}"><span>{{ site.social.discordservername }}</span></a>
+    - Server: <a href="https://discord.com/invite/{{ site.social.discordserver }}"><span>https://discord.com/invite/{{ site.social.discordserver }}</span></a>
   {% endif %}
 {% endif %}
 
@@ -66,15 +66,15 @@ particle_palette: "hacker"
 {% endif %}-->
 
 {% if site.social.whispa %}
-  - Whispa: <a href="https://whispa.sh/@{{ site.social.whispa }}"><span>@{{ site.social.whispa }}</span></a>
+  - Whispa: <a href="https://whispa.sh/@{{ site.social.whispa }}"><span>https://whispa.sh/@{{ site.social.whispa }}</span></a>
 {% endif %}
 
 <!--{% if site.social.tellonym %}
-  - Send Anonymous Message: <a href="https://tellonym.me/{{ site.social.tellonym }}"><span>@{{ site.social.tellonym | replace: "_", "\_" }}</span></a>
+  - Send Anonymous Message: <a href="https://tellonym.me/{{ site.social.tellonym }}"><span>https://tellonym.me/{{ site.social.tellonym | replace: "_", "\_" }}</span></a>
 {% endif %}-->
 
 {% if site.social.pgpkey %}
-  - PGP Key: <a href="/assets/{{ site.social.pgpkey }}.txt"><span>{{ site.social.pgpkey }}.txt</span></a>
+  - PGP Key: <a href="/assets/{{ site.social.pgpkey }}.txt"><span>{{ site.url }}/{{ site.social.pgpkey }}.txt</span></a>
 {% endif %}
 
 
