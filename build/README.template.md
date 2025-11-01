@@ -108,7 +108,7 @@ This will:
 - Generate `README.md` from `README.template.md` by replacing placeholders like `LAST_UPDATED`, `RUBY_VERSION`, `JEKYLL_VERSION`, `NODE_VERSION`, and `NPM_VERSION` with real values. Do not edit `README.md` directly — only edit `README.template.md`.
 - Build the site with Jekyll (first pass).
 - Remove unused CSS via PostCSS + PurgeCSS.
-- Copy a temporary minified CSS backup.
+- Save a temp copy of minified PurgeCSS-generated CSS so it can be restored later.
 - Generate critical CSS for home, posts, and pages (mobile, tablet, desktop).
 - Minify inline JS scripts.
 - Rebuild Jekyll site (second pass) to inject critical CSS and inline JS.

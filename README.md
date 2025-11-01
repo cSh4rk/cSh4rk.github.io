@@ -21,7 +21,7 @@ Personal cybersecurity & growth website + open-source CyberShark Jekyll theme wi
 <!-- Maintenance / Versions / Quick Demo -->
 <p align="center">
   <!-- ⚠️ This badge is auto-updated by update-badges.js. Do NOT manually edit the date! -->
-  <a href="#"><img src="https://img.shields.io/badge/Last_Updated-2025--10--30-lightgrey?logo=github&logoColor=white" alt="Last Updated"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Last_Updated-2025--11--01-lightgrey?logo=github&logoColor=white" alt="Last Updated"></a>
   <a href="https://nima.ninja"><img src="https://img.shields.io/badge/Quick_Demo-Live%20Site-00bfff?logo=firefox&logoColor=white" alt="Quick Demo / Live Site"></a>
   <br>
   <!-- Dependencies -->
@@ -108,7 +108,7 @@ This will:
 - Generate `README.md` from `README.template.md` by replacing placeholders like `LAST_UPDATED`, `RUBY_VERSION`, `JEKYLL_VERSION`, `NODE_VERSION`, and `NPM_VERSION` with real values. Do not edit `README.md` directly — only edit `README.template.md`.
 - Build the site with Jekyll (first pass).
 - Remove unused CSS via PostCSS + PurgeCSS.
-- Copy a temporary minified CSS backup.
+- Save a temp copy of minified PurgeCSS-generated CSS so it can be restored later.
 - Generate critical CSS for home, posts, and pages (mobile, tablet, desktop).
 - Minify inline JS scripts.
 - Rebuild Jekyll site (second pass) to inject critical CSS and inline JS.
