@@ -9,7 +9,7 @@ image_height: "256"
 thumb_path: /blog/assets/2025/website-boost-thumb.png
 thumb_width: "130"
 thumb_height: "130"
-updated: 2025-10-24
+updated: 2025-11-05
 toc: true
 ---
 
@@ -483,7 +483,7 @@ There are many more Cloudflare features that can help us run a more fast, optimi
 [^4]: [Download FFmpeg](https://ffmpeg.org/download.html)
 [^5]: [Download cwebp](https://developers.google.com/speed/webp/download)
 [^6]: [Download ImageMAgick](https://imagemagick.org/script/download.php)
-[^7]: [My Ruby plugin for AVIF/WebP image format selection and fallback to PNG/JPG](https://github.com/cSh4rk/cSh4rk.github.io/blob/main/_plugins/smart_image.rb)
+[^7]: [My Ruby plugin for AVIF/WebP image format selection and fallback to PNG/JPG](https://github.com/cSh4rk/cSh4rk.github.io/blob/main/src/_plugins/smart_image.rb)
 [^8]: [My website on GitHub](https://github.com/cSh4rk/cSh4rk.github.io)
 [^9]: [PurgeCSS - Remove unused CSS](https://purgecss.com/)
 [^10]: [Critical: Extract & Inline Critical-path CSS in HTML pages](https://github.com/addyosmani/critical)
