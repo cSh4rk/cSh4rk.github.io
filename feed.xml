@@ -7,8 +7,8 @@
     <description>Nima&apos;s Diaries about Cybersecurity, Red Teaming, Tooling, Tutorials, and Personal Notes — Practical Guides, Walkthroughs, and Resources for Curious Minds.</description>
     <link>https://nima.ninja</link>
     <atom:link href="https://nima.ninja/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 31 Oct 2025 21:59:19 -0400</pubDate>
-    <lastBuildDate>Fri, 31 Oct 2025 21:59:19 -0400</lastBuildDate>
+    <pubDate>Tue, 04 Nov 2025 21:03:25 -0500</pubDate>
+    <lastBuildDate>Tue, 04 Nov 2025 21:03:25 -0500</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
     <image>
       <url>https://nima.ninja/assets/ninja.png</url>
@@ -126,7 +126,7 @@ In other words, what you do for a living is much less important than how you do 
           ]]>
         </description>
 
-        <pubDate>Fri, 26 Sep 2025 00:00:00 -0400</pubDate>
+        <pubDate>Fri, 26 Sep 2025 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/books/2025/so-good-they-cant-ignore-you-why-skills-trump-passion-in-the-quest-for-work-you-love</link>
         <guid isPermaLink="true">https://nima.ninja/books/2025/so-good-they-cant-ignore-you-why-skills-trump-passion-in-the-quest-for-work-you-love</guid>
 
@@ -705,7 +705,7 @@ So that you can optimize these pictures and use smaller and more modern image fo
           ]]>
         </description>
 
-        <pubDate>Thu, 25 Sep 2025 00:00:00 -0400</pubDate>
+        <pubDate>Thu, 25 Sep 2025 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/blog/2025/quick-tips-for-a-better-website</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2025/quick-tips-for-a-better-website</guid>
 
@@ -798,7 +798,7 @@ So that you can optimize these pictures and use smaller and more modern image fo
           ]]>
         </description>
 
-        <pubDate>Mon, 15 Sep 2025 00:00:00 -0400</pubDate>
+        <pubDate>Mon, 15 Sep 2025 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/links/2025/until-its-done-tell-none</link>
         <guid isPermaLink="true">https://nima.ninja/links/2025/until-its-done-tell-none</guid>
 
@@ -905,7 +905,7 @@ So that you can optimize these pictures and use smaller and more modern image fo
           ]]>
         </description>
 
-        <pubDate>Fri, 18 Oct 2024 00:00:00 -0400</pubDate>
+        <pubDate>Fri, 18 Oct 2024 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/books/2024/the-parasitic-mind-how-infectious-ideas-are-killing-common-sense</link>
         <guid isPermaLink="true">https://nima.ninja/books/2024/the-parasitic-mind-how-infectious-ideas-are-killing-common-sense</guid>
 
@@ -1020,7 +1020,7 @@ So that you can optimize these pictures and use smaller and more modern image fo
           ]]>
         </description>
 
-        <pubDate>Mon, 16 Sep 2024 00:00:00 -0400</pubDate>
+        <pubDate>Mon, 16 Sep 2024 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/books/2024/cant-hurt-me-master-your-mind-and-defy-the-odds</link>
         <guid isPermaLink="true">https://nima.ninja/books/2024/cant-hurt-me-master-your-mind-and-defy-the-odds</guid>
 
@@ -1087,7 +1087,7 @@ So that you can optimize these pictures and use smaller and more modern image fo
           ]]>
         </description>
 
-        <pubDate>Sat, 06 May 2023 00:00:00 -0400</pubDate>
+        <pubDate>Sat, 06 May 2023 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/links/2023/stanford-web-security-course</link>
         <guid isPermaLink="true">https://nima.ninja/links/2023/stanford-web-security-course</guid>
 
@@ -1152,7 +1152,7 @@ So that you can optimize these pictures and use smaller and more modern image fo
           ]]>
         </description>
 
-        <pubDate>Tue, 25 Apr 2023 00:00:00 -0400</pubDate>
+        <pubDate>Tue, 25 Apr 2023 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/links/2023/chatgpt-for-bug-bounty-faster-hunting-and-reporting</link>
         <guid isPermaLink="true">https://nima.ninja/links/2023/chatgpt-for-bug-bounty-faster-hunting-and-reporting</guid>
 
@@ -1217,7 +1217,7 @@ So that you can optimize these pictures and use smaller and more modern image fo
           ]]>
         </description>
 
-        <pubDate>Tue, 25 Apr 2023 00:00:00 -0400</pubDate>
+        <pubDate>Tue, 25 Apr 2023 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/links/2023/beginner-s-guide-to-oscp-2023</link>
         <guid isPermaLink="true">https://nima.ninja/links/2023/beginner-s-guide-to-oscp-2023</guid>
 
@@ -1802,7 +1802,7 @@ So we should search for developer-created objects, this is tip #1.</p>
           ]]>
         </description>
 
-        <pubDate>Mon, 24 Apr 2023 00:00:00 -0400</pubDate>
+        <pubDate>Mon, 24 Apr 2023 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/blog/2023/expert-lab-server-side-template-injection-with-a-custom-exploit</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2023/expert-lab-server-side-template-injection-with-a-custom-exploit</guid>
 
@@ -2239,7 +2239,7 @@ rather than a CHAR or TEXT field.
           ]]>
         </description>
 
-        <pubDate>Wed, 18 Jan 2023 00:00:00 -0400</pubDate>
+        <pubDate>Wed, 18 Jan 2023 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/blog/2023/expert-lab-developing-a-custom-gadget-chain-for-php-deserialization</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2023/expert-lab-developing-a-custom-gadget-chain-for-php-deserialization</guid>
 
@@ -2315,7 +2315,7 @@ rather than a CHAR or TEXT field.
           ]]>
         </description>
 
-        <pubDate>Sun, 25 Dec 2022 00:00:00 -0400</pubDate>
+        <pubDate>Sun, 25 Dec 2022 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/links/2022/insecure-deserialization-how-to-trace-down-a-gadget-chain-other-examples-in-ruby</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/insecure-deserialization-how-to-trace-down-a-gadget-chain-other-examples-in-ruby</guid>
 
@@ -2386,7 +2386,7 @@ rather than a CHAR or TEXT field.
           ]]>
         </description>
 
-        <pubDate>Fri, 23 Dec 2022 00:00:00 -0400</pubDate>
+        <pubDate>Fri, 23 Dec 2022 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/links/2022/insecure-deserialization-how-to-trace-down-a-gadget-chain</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/insecure-deserialization-how-to-trace-down-a-gadget-chain</guid>
 
@@ -2453,7 +2453,7 @@ rather than a CHAR or TEXT field.
           ]]>
         </description>
 
-        <pubDate>Sun, 18 Dec 2022 00:00:00 -0400</pubDate>
+        <pubDate>Sun, 18 Dec 2022 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/links/2022/learn-regex-step-by-step-from-zero-to-advanced</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/learn-regex-step-by-step-from-zero-to-advanced</guid>
 
@@ -2574,7 +2574,7 @@ rather than a CHAR or TEXT field.
           ]]>
         </description>
 
-        <pubDate>Fri, 16 Sep 2022 00:00:00 -0400</pubDate>
+        <pubDate>Fri, 16 Sep 2022 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/books/2022/the-god-equation-the-quest-for-a-theory-of-everything</link>
         <guid isPermaLink="true">https://nima.ninja/books/2022/the-god-equation-the-quest-for-a-theory-of-everything</guid>
 
@@ -2930,7 +2930,7 @@ This lab has a serialization-based session mechanism that uses a signed cookie. 
           ]]>
         </description>
 
-        <pubDate>Thu, 11 Aug 2022 00:00:00 -0400</pubDate>
+        <pubDate>Thu, 11 Aug 2022 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/blog/2022/exploiting-php-deserialization-with-a-pre-built-gadget-chain</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2022/exploiting-php-deserialization-with-a-pre-built-gadget-chain</guid>
 
@@ -3009,7 +3009,7 @@ This lab has a serialization-based session mechanism that uses a signed cookie. 
           ]]>
         </description>
 
-        <pubDate>Thu, 07 Jul 2022 00:00:00 -0400</pubDate>
+        <pubDate>Thu, 07 Jul 2022 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/links/2022/cross-site-websocket-hijacking-cswsh</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/cross-site-websocket-hijacking-cswsh</guid>
 
@@ -3289,7 +3289,7 @@ Here is the full code with explanation and formatting for clarity:</p>
           ]]>
         </description>
 
-        <pubDate>Sat, 04 Jun 2022 00:00:00 -0400</pubDate>
+        <pubDate>Sat, 04 Jun 2022 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/blog/2022/expert-lab-reflected-xss-in-a-javascript-url-with-some-characters-blocked</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2022/expert-lab-reflected-xss-in-a-javascript-url-with-some-characters-blocked</guid>
 
@@ -3660,7 +3660,7 @@ The vulnerable code that introduces this race condition is as follows:</p>
           ]]>
         </description>
 
-        <pubDate>Mon, 09 May 2022 00:00:00 -0400</pubDate>
+        <pubDate>Mon, 09 May 2022 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/blog/2022/expert-lab-web-shell-upload-via-race-condition</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2022/expert-lab-web-shell-upload-via-race-condition</guid>
 
@@ -3736,7 +3736,7 @@ The vulnerable code that introduces this race condition is as follows:</p>
           ]]>
         </description>
 
-        <pubDate>Sun, 08 May 2022 00:00:00 -0400</pubDate>
+        <pubDate>Sun, 08 May 2022 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/links/2022/hide-malicious-shell-in-image-file</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/hide-malicious-shell-in-image-file</guid>
 
@@ -3806,7 +3806,7 @@ It has many great features. One of them is streak, which is built if you complet
           ]]>
         </description>
 
-        <pubDate>Tue, 12 Apr 2022 00:00:00 -0400</pubDate>
+        <pubDate>Tue, 12 Apr 2022 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/links/2022/duolingo-an-effective-way-to-learn-a-new-language</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/duolingo-an-effective-way-to-learn-a-new-language</guid>
 
@@ -3867,7 +3867,7 @@ It has many great features. One of them is streak, which is built if you complet
           ]]>
         </description>
 
-        <pubDate>Tue, 12 Apr 2022 00:00:00 -0400</pubDate>
+        <pubDate>Tue, 12 Apr 2022 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/links/2022/coep-coop-corp-cors-corb-crap-thats-a-lot-of-new-stuff</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/coep-coop-corp-cors-corb-crap-thats-a-lot-of-new-stuff</guid>
 
@@ -4052,7 +4052,7 @@ It has many great features. One of them is streak, which is built if you complet
           ]]>
         </description>
 
-        <pubDate>Tue, 12 Apr 2022 00:00:00 -0400</pubDate>
+        <pubDate>Tue, 12 Apr 2022 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/blog/2022/handy-benchmarking-tools-for-your-website</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2022/handy-benchmarking-tools-for-your-website</guid>
 
@@ -4179,7 +4179,7 @@ As heard on Fresh Air</p>
           ]]>
         </description>
 
-        <pubDate>Tue, 05 Apr 2022 00:00:00 -0400</pubDate>
+        <pubDate>Tue, 05 Apr 2022 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/books/2022/dopamine-nation-finding-balance-in-the-age-of-indulgence</link>
         <guid isPermaLink="true">https://nima.ninja/books/2022/dopamine-nation-finding-balance-in-the-age-of-indulgence</guid>
 
@@ -4246,7 +4246,7 @@ As heard on Fresh Air</p>
           ]]>
         </description>
 
-        <pubDate>Sun, 06 Feb 2022 00:00:00 -0400</pubDate>
+        <pubDate>Sun, 06 Feb 2022 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/links/2022/11-neuroscience-hacks-to-wire-your-brain-for-success</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/11-neuroscience-hacks-to-wire-your-brain-for-success</guid>
 
@@ -4309,7 +4309,7 @@ As heard on Fresh Air</p>
           ]]>
         </description>
 
-        <pubDate>Sat, 08 Jan 2022 00:00:00 -0400</pubDate>
+        <pubDate>Sat, 08 Jan 2022 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/links/2022/you-can-grow-new-brain-cells-here-is-how</link>
         <guid isPermaLink="true">https://nima.ninja/links/2022/you-can-grow-new-brain-cells-here-is-how</guid>
 
@@ -4422,7 +4422,7 @@ I had read this book many years ago when I’d put a lot of effort into bodybuil
           ]]>
         </description>
 
-        <pubDate>Sat, 08 Jan 2022 00:00:00 -0400</pubDate>
+        <pubDate>Sat, 08 Jan 2022 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/books/2022/the-china-study-the-most-comprehensive-study-of-nutrition-ever-conducted</link>
         <guid isPermaLink="true">https://nima.ninja/books/2022/the-china-study-the-most-comprehensive-study-of-nutrition-ever-conducted</guid>
 
@@ -4559,7 +4559,7 @@ I had read this book many years ago when I’d put a lot of effort into bodybuil
           ]]>
         </description>
 
-        <pubDate>Mon, 29 Nov 2021 20:00:04 -0400</pubDate>
+        <pubDate>Mon, 29 Nov 2021 19:00:04 -0500</pubDate>
         <link>https://nima.ninja/books/2021/bug-bounty-bootcamp</link>
         <guid isPermaLink="true">https://nima.ninja/books/2021/bug-bounty-bootcamp</guid>
 
@@ -4711,7 +4711,7 @@ I had read this book many years ago when I’d put a lot of effort into bodybuil
           ]]>
         </description>
 
-        <pubDate>Mon, 29 Nov 2021 20:00:03 -0400</pubDate>
+        <pubDate>Mon, 29 Nov 2021 19:00:03 -0500</pubDate>
         <link>https://nima.ninja/books/2021/penetration-testing-a-hands-on-introduction-to-hacking</link>
         <guid isPermaLink="true">https://nima.ninja/books/2021/penetration-testing-a-hands-on-introduction-to-hacking</guid>
 
@@ -4839,7 +4839,7 @@ Read every article and book this author writes because his writing style is grea
           ]]>
         </description>
 
-        <pubDate>Mon, 29 Nov 2021 20:00:02 -0400</pubDate>
+        <pubDate>Mon, 29 Nov 2021 19:00:02 -0500</pubDate>
         <link>https://nima.ninja/books/2021/linux-basics-for-hackers</link>
         <guid isPermaLink="true">https://nima.ninja/books/2021/linux-basics-for-hackers</guid>
 
@@ -4966,7 +4966,7 @@ Read every article and book this author writes because his writing style is grea
           ]]>
         </description>
 
-        <pubDate>Mon, 29 Nov 2021 20:00:01 -0400</pubDate>
+        <pubDate>Mon, 29 Nov 2021 19:00:01 -0500</pubDate>
         <link>https://nima.ninja/books/2021/certified-ethical-hacker</link>
         <guid isPermaLink="true">https://nima.ninja/books/2021/certified-ethical-hacker</guid>
 
@@ -5103,7 +5103,7 @@ Plus, receive one year of FREE access to a robust set of online interactive lear
           ]]>
         </description>
 
-        <pubDate>Mon, 29 Nov 2021 20:00:00 -0400</pubDate>
+        <pubDate>Mon, 29 Nov 2021 19:00:00 -0500</pubDate>
         <link>https://nima.ninja/books/2021/network-plus</link>
         <guid isPermaLink="true">https://nima.ninja/books/2021/network-plus</guid>
 
@@ -5149,7 +5149,7 @@ Plus, receive one year of FREE access to a robust set of online interactive lear
           ]]>
         </description>
 
-        <pubDate>Thu, 11 Nov 2021 00:00:00 -0400</pubDate>
+        <pubDate>Thu, 11 Nov 2021 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/blog/2021/looking-for-ios-kernel-bugs</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2021/looking-for-ios-kernel-bugs</guid>
 
@@ -5277,7 +5277,7 @@ In order to get started, visit Obsidian website and download it, then start from
           ]]>
         </description>
 
-        <pubDate>Fri, 29 Oct 2021 20:00:00 -0400</pubDate>
+        <pubDate>Fri, 29 Oct 2021 19:00:00 -0500</pubDate>
         <link>https://nima.ninja/blog/2021/obsidian-a-second-brain-for-you-forever</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2021/obsidian-a-second-brain-for-you-forever</guid>
 
@@ -5336,7 +5336,7 @@ In order to get started, visit Obsidian website and download it, then start from
           ]]>
         </description>
 
-        <pubDate>Wed, 20 Oct 2021 00:00:00 -0400</pubDate>
+        <pubDate>Wed, 20 Oct 2021 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/links/2021/techlore</link>
         <guid isPermaLink="true">https://nima.ninja/links/2021/techlore</guid>
 
@@ -5451,7 +5451,7 @@ In order to get started, visit Obsidian website and download it, then start from
           ]]>
         </description>
 
-        <pubDate>Tue, 19 Oct 2021 20:00:01 -0400</pubDate>
+        <pubDate>Tue, 19 Oct 2021 19:00:01 -0500</pubDate>
         <link>https://nima.ninja/blog/2021/whonix-tor-gateway</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2021/whonix-tor-gateway</guid>
 
@@ -5581,7 +5581,7 @@ And much more.</li>
           ]]>
         </description>
 
-        <pubDate>Fri, 15 Oct 2021 00:00:00 -0400</pubDate>
+        <pubDate>Fri, 15 Oct 2021 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/blog/2021/my-discord-server-is-up-and-running</link>
         <guid isPermaLink="true">https://nima.ninja/blog/2021/my-discord-server-is-up-and-running</guid>
 
@@ -5647,7 +5647,7 @@ And much more.</li>
           ]]>
         </description>
 
-        <pubDate>Mon, 11 Oct 2021 00:00:00 -0400</pubDate>
+        <pubDate>Mon, 11 Oct 2021 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/links/2021/up-and-running-with-github-pages</link>
         <guid isPermaLink="true">https://nima.ninja/links/2021/up-and-running-with-github-pages</guid>
 
@@ -5716,7 +5716,7 @@ And much more.</li>
           ]]>
         </description>
 
-        <pubDate>Thu, 07 Oct 2021 00:00:00 -0400</pubDate>
+        <pubDate>Thu, 07 Oct 2021 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/links/2021/my-oscp-journey-a-review</link>
         <guid isPermaLink="true">https://nima.ninja/links/2021/my-oscp-journey-a-review</guid>
 
@@ -5855,7 +5855,7 @@ And much more.</li>
           ]]>
         </description>
 
-        <pubDate>Thu, 07 Oct 2021 00:00:00 -0400</pubDate>
+        <pubDate>Thu, 07 Oct 2021 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/books/2021/why-we-sleep-unlocking-the-power-of-sleep-and-dreams</link>
         <guid isPermaLink="true">https://nima.ninja/books/2021/why-we-sleep-unlocking-the-power-of-sleep-and-dreams</guid>
 
@@ -5935,7 +5935,7 @@ And much more.</li>
           ]]>
         </description>
 
-        <pubDate>Thu, 07 Oct 2021 00:00:00 -0400</pubDate>
+        <pubDate>Thu, 07 Oct 2021 00:00:00 -0500</pubDate>
         <link>https://nima.ninja/books/2021/virus-of-the-mind-the-new-science-of-the-meme</link>
         <guid isPermaLink="true">https://nima.ninja/books/2021/virus-of-the-mind-the-new-science-of-the-meme</guid>
 
