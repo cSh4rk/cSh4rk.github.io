@@ -50,7 +50,7 @@ Publisher: Avery (October 16, 2018)
 ## My Comment
 * * *
 Some books are good, some are exceptional. This one was one of the best books that I read last year.
-It is highly recommended. Read it with [The Compound Effect](/books/2021/compound-effect-jumpstart-your-income-your-life-your-success), these two books should be read together.
+It is highly recommended. Read it with [The Compound Effect](/books/2021/the-compound-effect-jumpstart-your-income-your-life-your-success), these two books should be read together.
 
 <br>
 ## _References_
