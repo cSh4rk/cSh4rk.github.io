@@ -86,3 +86,4 @@ particle_palette: "hacker"
 {% endif %}
 
 
+For the fastest response, please reach me via my ProtonMail email, as I may not check messages frequently.
