@@ -42,12 +42,12 @@ particle_palette: "hacker"
   - HackTheBox: <a href="https://app.hackthebox.com/profile/{{ site.badges.hackthebox }}"><span>https://app.hackthebox.com/profile/{{ site.badges.hackthebox }}</span></a>
 {% endif %}
 
-{% if site.social.mastodon %}
-  - Mastodon: <a href="{{ site.social.mastodon }}"><span>{{ site.social.mastodon }}</span></a>
-{% endif %}
-
 {% if site.social.x %}
   - X: <a href="https://x.com/{{ site.social.x }}"><span>https://x.com/{{ site.social.x }}</span></a>
+{% endif %}
+
+{% if site.social.mastodon %}
+  - Mastodon: <a href="{{ site.social.mastodon }}"><span>{{ site.social.mastodon }}</span></a>
 {% endif %}
 
 <!--{% if site.social.wickrme %}
