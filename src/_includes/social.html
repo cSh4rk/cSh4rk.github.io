@@ -29,22 +29,6 @@
     </li>
   {% endif %}
 
-  {% if site.social.mastodon %}
-    <li class="social-media-list">
-      <a 
-        href="{{ site.social.mastodon }}" 
-        rel="me" 
-        title="Mastodon Profile" 
-        aria-label="Mastodon profile for {{ site.social.mastodonname }}"
-      >
-        <span class="icon">
-          {% include icon-mastodon.svg attr='aria-hidden="true" focusable="false"' %}
-        </span>
-        <span>{{ site.social.mastodonname }}</span>
-      </a>
-    </li>
-  {% endif %}
-
   {% if site.social.linkedin %}
     <li class="social-media-list">
       <a 
@@ -57,28 +41,6 @@
         </span>
         <span>{{ site.social.linkedin }}</span>
       </a>
-    </li>
-  {% endif %}
-
-  {% if site.social.discordserver %}
-    <li class="social-media-list">
-      <a 
-        href="https://discord.com/invite/{{ site.social.discordserver }}" 
-        title="Discord Server" 
-        aria-label="Discord server: {{ site.social.discordservername }}"
-      >
-        <span class="icon">
-          {% include icon-discord.svg attr='aria-hidden="true" focusable="false"' %}
-        </span>
-        <span>{{ site.social.discordservername }}</span>
-      </a>
-    </li>
-  {% elsif site.social.discorduser %}
-    <li class="social-media-list">
-      <span class="icon">
-        {% include icon-discord.svg attr='aria-hidden="true" focusable="false"' %}
-      </span>
-      <span>{{ site.social.discorduser }}</span>
     </li>
   {% endif %}
 
