@@ -77,8 +77,8 @@ social:
     - https://github.com/cSh4rk
 
 badges:
-  hackthebox: "768488"
+  hackthebox:
   selfhost_hackthebox: true
-  tryhackme: "nima"
+  tryhackme:
   selfhost_tryhackme: true
 # End of Contact
