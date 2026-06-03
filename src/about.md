@@ -54,15 +54,17 @@ I like almost all technical fields of Cybersecurity but prefer Offensive Securit
 ### Some of my Experiences
 * * *
 
-* In the PortSwigger's Web Security Academy Hall of Fame (Top 50, [Jan 2024: Ranked #13](https://web.archive.org/web/20240121103136/https://portswigger.net/web-security/hall-of-fame),[Aug 2024: Ranked #5](https://web.archive.org/web/20240810053949/https://portswigger.net/web-security/hall-of-fame))
+* In the PortSwigger's Web Security Academy Hall of Fame (Top 50, [Jan 2024: Ranked #13](https://web.archive.org/web/20240121103136/https://portswigger.net/web-security/hall-of-fame),[Aug 2024: Ranked #5](https://web.archive.org/web/20240810053949/https://portswigger.net/web-security/hall-of-fame)).
 
-* In the top 1000 of [TryHackMe](https://tryhackme.com/p/nima).
+* In the top 1000 of [TryHackMe](https://tryhackme.com/p/nima)([2025](/assets/nima.png)).
 
 * Currently learning German as my fourth language.
 
-* Multiple VoIP Certifications ( ECE: Elastix Certified Engineer, ESM: Elastix Security Master, Asterisk Programming(AMI,AGI, Dial Plans Scripting, PHP, .NET Core APIs...) ).
+* Multiple VoIP Certifications (ECE: Elastix Certified Engineer, ESM: Elastix Security Master, Asterisk Programming(AMI,AGI, Dial Plans Scripting, PHP, .NET Core APIs...)).
 
-* Years of experience in Bodybuilding, Nutrition and Human Anatomy. 
+* Years of experience in Bodybuilding, Nutrition and Human Anatomy.
+
+* Still a lot to learn and experience... 
 
 <br>
 ### Certifications (that I'm interested in)
