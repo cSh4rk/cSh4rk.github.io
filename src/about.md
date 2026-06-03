@@ -64,7 +64,7 @@ I like almost all technical fields of Cybersecurity but prefer Offensive Securit
 
 * Years of experience in Bodybuilding, Nutrition and Human Anatomy.
 
-* Still a lot to learn and experience... 
+* Still a lot more to learn and experience... 
 
 <br>
 ### Certifications (that I'm interested in)
