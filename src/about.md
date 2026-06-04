@@ -56,7 +56,7 @@ I like almost all technical fields of Cybersecurity but prefer Offensive Securit
 
 * In the PortSwigger's Web Security Academy Hall of Fame (Top 50, [Jan 2024: Ranked #13](https://web.archive.org/web/20240121103136/https://portswigger.net/web-security/hall-of-fame),[Aug 2024: Ranked #5](https://web.archive.org/web/20240810053949/https://portswigger.net/web-security/hall-of-fame)).
 
-* In the top 1000 of [TryHackMe](https://tryhackme.com/p/nima)([2025](/assets/nima.png)).
+* In the top 1000 of [TryHackMe](https://tryhackme.com/p/nima)([Sep 2025](/assets/nima.png)).
 
 * Currently learning German as my fourth language.
 
@@ -64,10 +64,11 @@ I like almost all technical fields of Cybersecurity but prefer Offensive Securit
 
 * Years of experience in Bodybuilding, Nutrition and Human Anatomy.
 
-* Still a lot more to learn and experience... 
+<br>
+Still a lot more to learn and experience... 
 
 <br>
-### Certifications (that I'm interested in)
+### Certifications (that I'm interested in to get)
 * * *
 
 - Some OffSec certifications:
