@@ -75,14 +75,6 @@ particle_palette: "hacker"
 
 <h2 class="section-intro no-decoration neutral-color">Other Platforms:</h2>
 
-{% if site.social.linktree %}
-  - Linktree: <a href="https://linktr.ee/{{ site.social.linktree }}"><span>https://linktr.ee/{{ site.social.linktree }}</span></a>
-{% endif %}
-
-{% if site.social.linkme %}
-  - Linkme: <a href="https://link.me/{{ site.social.linkme }}"><span>https://link.me/{{ site.social.linkme }}</span></a>
-{% endif %}
-
 {% if site.social.github %}
   - GitHub: <a href="https://github.com/{{ site.social.github }}"><span>https://github.com/{{ site.social.github }}</span></a>
 {% endif %}
@@ -93,6 +85,14 @@ particle_palette: "hacker"
 
 {% if site.badges.hackthebox %}
   - HackTheBox: <a href="https://app.hackthebox.com/profile/{{ site.badges.hackthebox }}"><span>https://app.hackthebox.com/profile/{{ site.badges.hackthebox }}</span></a>
+{% endif %}
+
+{% if site.social.linktree %}
+  - Linktree: <a href="https://linktr.ee/{{ site.social.linktree }}"><span>https://linktr.ee/{{ site.social.linktree }}</span></a>
+{% endif %}
+
+{% if site.social.linkme %}
+  - Linkme: <a href="https://link.me/{{ site.social.linkme }}"><span>https://link.me/{{ site.social.linkme }}</span></a>
 {% endif %}
 
 <br> 
