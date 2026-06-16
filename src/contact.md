@@ -96,6 +96,7 @@ particle_palette: "hacker"
 For the fastest response, please reach me via my ProtonMail email, as I may not check messages frequently.
 
 <br>
-#### _References_
+
+### _References_
 * * *
 <span class="tiny">Icon by <a href="https://www.flaticon.com/authors/maxicons" rel="nofollow">max.icons</a> from <a href="https://www.flaticon.com" rel="nofollow">Flaticon</a></span>

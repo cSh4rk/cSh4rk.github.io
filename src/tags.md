@@ -50,6 +50,6 @@ smooth-fragments: true
 <br>
 {% assign taglist = nil %}
 
-#### _References_
+### _References_
 * * *
 <span class="tiny">Icon by <a href="https://www.flaticon.com/authors/maxicons" rel="nofollow">max.icons</a> from <a href="https://www.flaticon.com" rel="nofollow">Flaticon</a></span>

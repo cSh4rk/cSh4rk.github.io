@@ -52,6 +52,7 @@ description: "Discover Nima's Curated Book Recommendations on Technology, Cybers
 </section>
 
 <br>
-#### _References_
+
+### _References_
 * * *
 <span class="tiny">Icon by <a href="https://www.flaticon.com/authors/maxicons" rel="nofollow">max.icons</a> from <a href="https://www.flaticon.com" rel="nofollow">Flaticon</a></span>
