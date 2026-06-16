@@ -2,11 +2,11 @@
 layout: page
 title: "Cybersecurity, Science & Growth Books"
 h1: "Book Recommendations"
-image: /books/assets/robot2.png
+image: /books/assets/skull2.png
 description: "Discover Nima's Curated Book Recommendations on Technology, Cybersecurity, Science, Personal Growth, and Other Practical Topics for Learning and Growth."
 ---
 
-{% smart_image /books/assets/robot2.png 384 256 "" eager high %}
+{% smart_image /books/assets/skull2.png 128 128 "" eager high %}
 
 <br>
 
@@ -50,3 +50,8 @@ description: "Discover Nima's Curated Book Recommendations on Technology, Cybers
     {% endfor %}
   {% endif %}
 </section>
+
+<br>
+#### _References_
+* * *
+<span class="tiny">Icon by <a href="https://www.flaticon.com/authors/freepik" rel="nofollow">Freepik</a> from <a href="https://www.flaticon.com" rel="nofollow">Flaticon</a></span>

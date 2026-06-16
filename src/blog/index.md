@@ -2,11 +2,11 @@
 layout: page
 title: "Tech Insights & Tutorials Blog"
 h1: "Blog"
-image: /blog/assets/robot1.png
+image: /blog/assets/skull1.png
 description: "Read Practical Insights, Tutorials, and Notes on Technology, Cybersecurity, Personal Growth, and More from the Diaries of a Modern Ninja."
 ---
 
-{% smart_image /blog/assets/robot1.png 256 384 "" eager high %}
+{% smart_image /blog/assets/skull1.png 128 128 "" eager high %}
 
 <br>
 
@@ -50,3 +50,8 @@ description: "Read Practical Insights, Tutorials, and Notes on Technology, Cyber
     {% endfor %}
   {% endif %}
 </section>
+
+<br>
+#### _References_
+* * *
+<span class="tiny">Icon by <a href="https://www.flaticon.com/authors/maxicons" rel="nofollow">max.icons</a> from <a href="https://www.flaticon.com" rel="nofollow">Flaticon</a></span>

@@ -2,7 +2,7 @@
 layout: page
 title: "About Nima — Background & Notes"
 h1: "About Me"
-image: /assets/mask1.png
+image: /assets/skull0.png
 robots: noindex,follow
 sitemap: false
 description: "Learn About Nima — Personal Notes, Thoughts, Experiences, and Insights Shared on the Diaries of a Modern Ninja."
@@ -14,7 +14,7 @@ effect: "particles"
 ## ~$ whoami
 * * *
 
-{% smart_image /assets/mask1.png 256 256 "" eager high %}
+{% smart_image /assets/skull0.png 128 128 "" eager high %}
 
 Hello. My name is Nima, Welcome to my Website!
 
@@ -94,3 +94,8 @@ Still a lot more to learn and experience...
 ### Other Areas of Interest
 * * *
 `Anonymization`, `Online Privacy and Invisibility`, `OSINT`, `Linux`, `OS Hardening`, `Covert Cyber-Attacks`, `Side-Channel Attacks`, `Bypassing Air-Gaps`, `Automation`, `Github and Open-Source Software`, `CTFs`, `Blockchain`, `ICS`, `AI`, `Quantum Computing`, `Neuroscience`, `Evolution`, `Personal Transformation`, `Performance Improvement`...
+
+<br>
+#### _References_
+* * *
+<span class="tiny">Icon by <a href="https://www.flaticon.com/authors/wanicon" rel="nofollow">wanicon</a> from <a href="https://www.flaticon.com" rel="nofollow">Flaticon</a></span>
