@@ -9,14 +9,12 @@ description: "Learn About Nima — Personal Notes, Thoughts, Experiences, and In
 effect: "particles"
 ---
 
-<br>
-
 ## ~$ whoami
 * * *
 
 {% smart_image /assets/ares.png 128 128 "" eager high %}
 
-My name is Nima. I am a Penetration Tester, Cybersecurity Researcher and I also used to be a Software Developer.
+My name is Nima. I am a Penetration Tester, Cybersecurity Researcher and Ex-Software Developer.
 
 <br>
 ### My Prior Roles and Works in the Software Field
