@@ -2,11 +2,11 @@
 layout: page
 title: "Curated Tech & Productivity Links"
 h1: "Curated Web Links"
-image: /links/assets/skull3.png
+image: /links/assets/atlas.png
 description: "Explore Nima's Curated Web Links and Resources on Technology, Cybersecurity, Productivity, and Life to Help You Learn, Grow, and Stay Inspired."
 ---
 
-{% smart_image /links/assets/skull3.png 128 128 "" eager high %}
+{% smart_image /links/assets/atlas.png 128 128 "" eager high %}
 
 <br>
 
@@ -55,4 +55,4 @@ description: "Explore Nima's Curated Web Links and Resources on Technology, Cybe
 <br>
 #### _References_
 * * *
-<span class="tiny">Icon by <a href="https://www.flaticon.com/authors/freepik" rel="nofollow">Freepik</a> from <a href="https://www.flaticon.com" rel="nofollow">Flaticon</a></span>
+<span class="tiny">Icon by <a href="https://www.flaticon.com/authors/maxicons" rel="nofollow">max.icons</a> from <a href="https://www.flaticon.com" rel="nofollow">Flaticon</a></span>

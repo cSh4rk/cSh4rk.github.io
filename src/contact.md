@@ -2,7 +2,7 @@
 layout: page
 title: "Contact Nima — Questions & Feedback"
 h1: "Contact"
-image: /assets/skull5.png
+image: /assets/dove.png
 robots: noindex,follow
 sitemap: false
 description: "Get in Touch with Nima Through Various Channels — Ask Questions, Provide Feedback, or Just Say Hi via the Diaries of a Modern Ninja."
@@ -10,7 +10,7 @@ effect: "particles"
 particle_palette: "hacker"
 ---
 
-{% smart_image /assets/skull5.png 128 128 "" eager high %}
+{% smart_image /assets/dove.png 128 128 "" eager high %}
 
 <br>
 
@@ -98,4 +98,4 @@ For the fastest response, please reach me via my ProtonMail email, as I may not 
 <br>
 #### _References_
 * * *
-<span class="tiny">Icon by <a href="https://www.flaticon.com/authors/freepik" rel="nofollow">Freepik</a> from <a href="https://www.flaticon.com" rel="nofollow">Flaticon</a></span>
+<span class="tiny">Icon by <a href="https://www.flaticon.com/authors/maxicons" rel="nofollow">max.icons</a> from <a href="https://www.flaticon.com" rel="nofollow">Flaticon</a></span>

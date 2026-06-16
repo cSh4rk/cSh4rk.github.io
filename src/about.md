@@ -2,7 +2,7 @@
 layout: page
 title: "About Nima — Background & Notes"
 h1: "About Me"
-image: /assets/skull0.png
+image: /assets/ares.png
 robots: noindex,follow
 sitemap: false
 description: "Learn About Nima — Personal Notes, Thoughts, Experiences, and Insights Shared on the Diaries of a Modern Ninja."
@@ -14,7 +14,7 @@ effect: "particles"
 ## ~$ whoami
 * * *
 
-{% smart_image /assets/skull0.png 128 128 "" eager high %}
+{% smart_image /assets/ares.png 128 128 "" eager high %}
 
 Hello. My name is Nima, Welcome to my Website!
 
@@ -98,4 +98,4 @@ Still a lot more to learn and experience...
 <br>
 #### _References_
 * * *
-<span class="tiny">Icon by <a href="https://www.flaticon.com/authors/wanicon" rel="nofollow">wanicon</a> from <a href="https://www.flaticon.com" rel="nofollow">Flaticon</a></span>
+<span class="tiny">Icon by <a href="https://www.flaticon.com/authors/maxicons" rel="nofollow">max.icons</a> from <a href="https://www.flaticon.com" rel="nofollow">Flaticon</a></span>

@@ -2,11 +2,11 @@
 layout: page
 title: "Tech Insights & Tutorials Blog"
 h1: "Blog"
-image: /blog/assets/skull1.png
+image: /blog/assets/hades.png
 description: "Read Practical Insights, Tutorials, and Notes on Technology, Cybersecurity, Personal Growth, and More from the Diaries of a Modern Ninja."
 ---
 
-{% smart_image /blog/assets/skull1.png 128 128 "" eager high %}
+{% smart_image /blog/assets/hades.png 128 128 "" eager high %}
 
 <br>
 

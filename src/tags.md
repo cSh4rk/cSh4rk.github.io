@@ -3,12 +3,12 @@ layout: page
 title: "Browse All Topics & Post Tags"
 h1: "Topics & Tags"
 permalink: /tags/
-image: /assets/skull4.png
+image: /assets/pandora.png
 description: "Browse All Post Tags and Topics on the Diaries of a Modern Ninja to Easily Find Content on Technology, Cybersecurity, Personal Growth, and More."
 smooth-fragments: true
 ---
 
-{% smart_image /assets/skull4.png 128 128 "" eager high %}
+{% smart_image /assets/pandora.png 128 128 "" eager high %}
 
 <br>
 
@@ -52,4 +52,4 @@ smooth-fragments: true
 
 #### _References_
 * * *
-<span class="tiny">Icon by <a href="https://www.flaticon.com/authors/good-ware" rel="nofollow">Good Ware</a> from <a href="https://www.flaticon.com" rel="nofollow">Flaticon</a></span>
+<span class="tiny">Icon by <a href="https://www.flaticon.com/authors/maxicons" rel="nofollow">max.icons</a> from <a href="https://www.flaticon.com" rel="nofollow">Flaticon</a></span>
