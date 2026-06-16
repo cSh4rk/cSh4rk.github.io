@@ -6,7 +6,7 @@ image: /assets/kevin-mitnick.jpg
 description: "In Memory of Kevin Mitnick — Legendary Hacker and Security Pioneer Who Inspired Curiosity, Learning, and Exploration in the World of Cybersecurity."
 ---
 
-{% smart_image /assets/kevin.jpg 720 378 "" eager high %}
+{% smart_image /assets/kevin.jpg 488 256 "" eager high %}
 
 <br>
 
