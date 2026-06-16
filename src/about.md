@@ -16,9 +16,7 @@ effect: "particles"
 
 {% smart_image /assets/ares.png 128 128 "" eager high %}
 
-Hello. My name is Nima, Welcome to my Website!
-
-I am a Penetration Tester, Cybersecurity Researcher and I also used to be a Software Developer.
+My name is Nima. I am a Penetration Tester, Cybersecurity Researcher and I also used to be a Software Developer.
 
 <br>
 ### My Prior Roles and Works in the Software Field
@@ -61,7 +59,7 @@ I like almost all technical fields of Cybersecurity but prefer Offensive Securit
 * Years of experience in Bodybuilding, Nutrition and Human Anatomy.
 
 <br>
-Still a lot more to learn and experience... 
+And still a lot more to learn and experience... 
 
 <br>
 ### Certifications (that I'm interested in to get)
