@@ -4,13 +4,9 @@ title: "Curated Tech & Productivity Links"
 h1: "Curated Web Links"
 image: /links/assets/robot3.png
 description: "Explore Nima's Curated Web Links and Resources on Technology, Cybersecurity, Productivity, and Life to Help You Learn, Grow, and Stay Inspired."
-hero-poster: /links/assets/robot3.avif
 ---
 
-<video autoplay muted loop playsinline width="308" height="462" poster="{{ page.hero-poster }}">
-  <source src="/links/assets/robot3.webm" type="video/webm">
-  <source src="/links/assets/robot3.mp4" type="video/mp4">
-</video>
+{% smart_image /links/assets/robot3.png 256 384 "" eager high %}
 
 <br>
 

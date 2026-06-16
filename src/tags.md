@@ -5,14 +5,10 @@ h1: "Topics & Tags"
 permalink: /tags/
 image: /assets/robot4.png
 description: "Browse All Post Tags and Topics on the Diaries of a Modern Ninja to Easily Find Content on Technology, Cybersecurity, Personal Growth, and More."
-hero-poster: /assets/robot4.avif
 smooth-fragments: true
 ---
 
-<video autoplay muted loop playsinline width="462" height="308" poster="{{ page.hero-poster }}">
-  <source src="/assets/robot4.webm" type="video/webm">
-  <source src="/assets/robot4.mp4" type="video/mp4">
-</video>
+{% smart_image /assets/robot4.png 384 256 "" eager high %}
 
 <br>
 

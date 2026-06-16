@@ -4,19 +4,9 @@ title: "Tech Insights & Tutorials Blog"
 h1: "Blog"
 image: /blog/assets/robot1.png
 description: "Read Practical Insights, Tutorials, and Notes on Technology, Cybersecurity, Personal Growth, and More from the Diaries of a Modern Ninja."
-hero-poster: /blog/assets/robot1.avif
 ---
 
-<!-- 
-  Using AVIF poster only:
-  - ~95% of users see the poster correctly (modern browsers).
-  - Older browsers that don't support AVIF just see a blank before playback.
-  - Video still plays fine, so UX impact is minimal.
--->
-<video autoplay muted loop playsinline width="308" height="462" poster="{{ page.hero-poster }}">
-  <source src="/blog/assets/robot1.webm" type="video/webm">
-  <source src="/blog/assets/robot1.mp4" type="video/mp4">
-</video>
+{% smart_image /blog/assets/robot1.png 256 384 "" eager high %}
 
 <br>
 

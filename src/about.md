@@ -6,7 +6,6 @@ image: /assets/mask1-big.png
 robots: noindex,follow
 sitemap: false
 description: "Learn About Nima — Personal Notes, Thoughts, Experiences, and Insights Shared on the Diaries of a Modern Ninja."
-hero-poster: /assets/mask1.avif
 effect: "particles"
 ---
 
@@ -15,10 +14,7 @@ effect: "particles"
 ## ~$ whoami
 * * *
 
-<video autoplay muted loop playsinline width="256" height="256" poster="{{ page.hero-poster }}">
-  <source src="/assets/mask1.webm" type="video/webm">
-  <source src="/assets/mask1.mp4" type="video/mp4">
-</video>
+{% smart_image /assets/mask1.png 256 256 "" eager high %}
 
 Hello. My name is Nima, Welcome to my Website!
 

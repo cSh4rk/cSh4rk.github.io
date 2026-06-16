@@ -4,13 +4,9 @@ title: "Cybersecurity, Science & Growth Books"
 h1: "Book Recommendations"
 image: /books/assets/robot2.png
 description: "Discover Nima's Curated Book Recommendations on Technology, Cybersecurity, Science, Personal Growth, and Other Practical Topics for Learning and Growth."
-hero-poster: /books/assets/robot2.avif
 ---
 
-<video autoplay muted loop playsinline width="462" height="308" poster="{{ page.hero-poster }}">
-  <source src="/books/assets/robot2.webm" type="video/webm">
-  <source src="/books/assets/robot2.mp4" type="video/mp4">
-</video>
+{% smart_image /books/assets/robot2.png 384 256 "" eager high %}
 
 <br>
 
