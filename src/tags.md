@@ -5,7 +5,6 @@ h1: "Topics & Tags"
 permalink: /tags/
 image: /assets/pandora.png
 description: "Browse All Post Tags and Topics on the Diaries of a Modern Ninja to Easily Find Content on Technology, Cybersecurity, Personal Growth, and More."
-smooth-fragments: true
 ---
 
 {% smart_image /assets/pandora.png 128 128 "" eager high %}
