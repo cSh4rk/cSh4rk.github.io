@@ -2,7 +2,7 @@
 layout: page
 title: "About Nima — Background & Notes"
 h1: "About Me"
-image: /assets/ares.png
+image: /assets/hephaestus.png
 robots: noindex,follow
 sitemap: false
 description: "Learn About Nima — Personal Notes, Thoughts, Experiences, and Insights Shared on the Diaries of a Modern Ninja."
@@ -12,7 +12,7 @@ effect: "particles"
 ## ~$ whoami
 * * *
 
-{% smart_image /assets/ares.png 128 128 "" eager high %}
+{% smart_image /assets/hephaestus.png 128 128 "" eager high %}
 
 My name is Nima. I am a Penetration Tester, Cybersecurity Researcher and Ex-Software Developer.
 
