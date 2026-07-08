@@ -53,26 +53,26 @@ twitter:
 # Contact
 social:
   name: cSh4rk
-  email: "nima@nima.ninja"
-  email2: "csh4rk0x00@protonmail.com"
+  email: "csh4rk0x00@protonmail.com"
+  email2: 
   github: "cSh4rk"
   githubname: "Shark"
   x: "cSh4rk"
   xname: "Shark"
-  mastodon: "https://infosec.exchange/@cSh4rk"
-  mastodonhandle: "@cSh4rk"
-  mastodonname: "Shark"
+  mastodon:
+  mastodonhandle:
+  mastodonname:
   linkedin: 
   pgpkey: "CEE9A66A2F5C6187E4242B0425669795B037FEF2.asc"
-  discorduser: "csh4rk"
-  discordserver: "4btHxXWwgQ"
-  discordservername: "Sharks"
-  wickrme: "csh4rk"
-  linktree: "cSh4rk"
-  linkme: "cSh4rk"
-  tally: "wgrO5K"
+  discorduser:
+  discordserver:
+  discordservername:
+  wickrme:
+  linktree:
+  linkme:
+  tally:
   whispa: "csh4rk"
-  tellonym: "__nima__"
+  tellonym:
   links:
     - https://twitter.com/cSh4rk
     - https://github.com/cSh4rk
