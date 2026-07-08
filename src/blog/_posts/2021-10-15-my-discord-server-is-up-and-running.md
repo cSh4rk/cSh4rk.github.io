@@ -10,17 +10,11 @@ thumb_path: /blog/assets/2021/discord-thumb.png
 thumb_width: "130"
 thumb_height: "130"
 image_alt: "Discord logo"
-updated: 2025-09-17
+updated: 2026-07-08
 ---
 
 <br>
 {% smart_image "{{ page.image }}" "{{ page.image_width }}" "{{ page.image_height }}" "{{ page.image_alt }}" eager high %}
-<br>
-
-At last I did it! I had Discord account and even a simple server for some years but never put in the necessary effort to fully set up and customize my server. Finally I've put some time this week (maybe around 100 hours!! Yeah it's no joke if you want a great server!) to set up and complete my own Discord server[^1].
-For those of you who may not know, Discord is a VoIP platform for being in touch with friends, teammates and new people, build your own community and..., It was initially launched for gamers for them to have real-time communications in online team games but it has expanded more and now includes many other work, research, teamwork communities. It has all the capabilities of Whatsapp, Signal, Telegram... combined and even many more! It's very amazing, I really can't understand why it hasn't got enough publicity and recognition that it deserves. I guess it will in the following years.
-
-As you may already know from [About Me](/about) section, one area of my expertise is VoIP systems and I confirm that this platform has almost all of the VoIP capabilities, and the great thing is that it's free! Yeah you can pay and boost your server but you don't have to and you can have a fully functioning server for free! And the limitation in customizing your server is in your own imagination!
 
 <br>
 ## Capabilities of Discord
@@ -40,16 +34,7 @@ Leveling bots to add more fun to your server and give XP to active persons in ch
 * You can build private channels for important bot logs for server management.
 And much more.
 
-I'm really excited about this platform as it has unlimited features but although the whole process of building a simple server is easy and fast, it takes time to fully customize and configure your server but it is definitely worth the effort. So start building your own Discord server now! :)
-
-<br>
-## My Discord Server
-* * *
-Have a look at my Discord server and join if you like.
-
-The default role is Guest now with limited permissions and most of my server rooms and services are hidden to guest role but I give roles with more permissions to anyone who wants to explore more so come and join me on my Discord journey ;)!    
-
-I should also mention that this platform has normal encryption mechanisms and is not intended for secure end-to-end encryption connections but it's ok for normal use if you properly set up your server security mechanisms and use a trusted VPN for your connections.
+I'm really excited about this platform as it has unlimited features but although the whole process of building a simple server is easy and fast, it takes time to fully customize and configure your server but it is definitely worth the effort. So start building your own Discord server now!
 
 <br>
 ## Useful Discord Bots Tips
@@ -80,9 +65,4 @@ Update 12/25/2022:
 
 8) FredBoat and 24/7 bots are used for playing music in channels.
 
-9) IFTTT is used for automation, I use it now to announce my new website posts and my latest Github commits in some announcement channels in the Discord server. Also I use IFTTT service to announce my latest website posts in my X. 
-
-<br>
-## _References_
-* * *
-[^1]: My Discord Server: {% if site.social.discordserver %}<a href="https://discord.gg/{{ site.social.discordserver }}"><span>{{ site.social.discordservername }}</span></a>{% endif %}
+9) IFTTT is used for automation, I use it now to announce my new website posts and my latest Github commits in some announcement channels in the Discord server. Also I use IFTTT service to announce my latest website posts in my X.
