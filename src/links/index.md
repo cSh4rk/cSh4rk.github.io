@@ -51,9 +51,3 @@ description: "Explore Nima's Curated Web Links and Resources on Technology, Cybe
 
   {% endif %}
 </section>
-
-<br>
-
-### _References_
-* * *
-<span class="tiny">Icon by <a href="https://www.flaticon.com/authors/maxicons" rel="nofollow">max.icons</a> from <a href="https://www.flaticon.com" rel="nofollow">Flaticon</a></span>
