@@ -13,6 +13,7 @@ particle_palette: "hacker"
 {% smart_image /assets/dove.png 128 128 "" eager high %}
 
 <br>
+<br>
 
 {% if site.social.email %}
   - Email: <a href="mailto:{{ site.social.email }}"><span>{{ site.social.email }}</span></a> {% if site.social.email2 %}or <a href="mailto:{{ site.social.email2 }}"><span>{{ site.social.email2 }}</span></a>{% endif %}
