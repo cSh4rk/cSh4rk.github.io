@@ -9,6 +9,7 @@ image_height: "433"
 thumb_path: /links/assets/2025/tom-thumb.jpg
 thumb_width: "128"
 thumb_height: "160"
+updated: 2026-07-10
 ---
 
 <br>
@@ -38,10 +39,10 @@ You can follow the "Mindset Machine" page on X for more high quality motivationa
 
 ## _External Links_
 * * *
-* ### [Mindset Machine on X](https://x.com/Mindset_Machine/)
+* ### [Mindset Machine on X](https://x.com/mindsetmachine/)
 
 <br>
 
 ## _References_
 * * *
-[^1]: [X post](https://x.com/Mindset_Machine/status/1967475413099421883)
+[^1]: [X post](https://x.com/mindsetmachine/status/1967475413099421883)
