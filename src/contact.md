@@ -2,7 +2,7 @@
 layout: page
 title: "Contact Nima — Questions & Feedback"
 h1: "Contact"
-image: /assets/dove.png
+image: /assets/bottle.png
 robots: noindex,follow
 sitemap: false
 description: "Get in Touch with Nima Through Various Channels — Ask Questions, Provide Feedback, or Just Say Hi via the Diaries of a Modern Ninja."
@@ -10,7 +10,7 @@ effect: "particles"
 particle_palette: "hacker"
 ---
 
-{% smart_image /assets/dove.png 128 128 "" eager high %}
+{% smart_image /assets/bottle.png 128 128 "" eager high %}
 
 <br>
 <br>
