@@ -15,6 +15,7 @@ thumb_path: /books/assets/2025/so-good-they-cant-ignore-you-book-thumb.jpg
 thumb_width: "106"
 thumb_height: "160"
 image_alt: "So Good They Can't Ignore You book cover"
+updated: 2026-08-01
 ---
 
 <br>
@@ -90,7 +91,11 @@ Paperback: 304 pages
 
 * * *
 
-Not as strong as Cal Newport’s [Deep Work](/books/2021/deep-work-rules-for-focused-success-in-a-distracted-world), this book lacks solid evidence for some of its claims, and certain conclusions are drawn from only a small number of people he studied. Nevertheless, it still contains valuable insights that can be life-changing, especially if read at a younger age. Overall, it remains an important and worthwhile read.
+Not as strong as Cal Newport’s [Deep Work](/books/2021/deep-work-rules-for-focused-success-in-a-distracted-world) or the fantastic [Digital Minimalism](/books/2026/digital-minimalism-choosing-a-focused-life-in-a-noisy-world), this book lacks solid evidence for some of its claims, and certain conclusions are drawn from only a small number of people he studied.
+
+The part I had the most problem with is the central idea of the book that "Follow your Passion" is wrong advice on many levels.
+
+It didn't make sense for me as passion is just part of a loop: you like something, you do it more, you become more expert and it again helps you have even more passion for it, I carefully studied the part the author started explaining his claim, instead of first explaining it then giving example, he started with an example: a random person that started following his passion: becoming a monk then regretting it, the reasoning is weak, so the follow your passion is wrong advice didn't click for me but overall, it's still a very worthwhile read and it still contains valuable insights that can be life-changing, especially if read at a younger age.
 
 <br>
 

@@ -10,7 +10,7 @@ thumb_path: /books/assets/2021/deep-work-book-thumb.jpg
 thumb_width: "106"
 thumb_height: "160"
 image_alt: "Deep Work book cover"
-updated: 2025-09-26
+updated: 2026-08-01
 ---
 
 <br>
@@ -50,7 +50,7 @@ Publisher: Grand Central Publishing; 1st edition (January 5, 2016)
 * * *
 This is also one of the best books that I've read. It has very good points on what life distractions are and how to remove them, that's the only way to have a meaningful life and to lead a career that makes a difference.
 
-Also check the author's other book: [So Good They Can't Ignore You](/books/2025/so-good-they-cant-ignore-you-why-skills-trump-passion-in-the-quest-for-work-you-love).
+Also check the author's other books: [Digital Minimalism: Choosing a Focused Life in a Noisy World](/books/2026/digital-minimalism-choosing-a-focused-life-in-a-noisy-world), [So Good They Can't Ignore You](/books/2025/so-good-they-cant-ignore-you-why-skills-trump-passion-in-the-quest-for-work-you-love).
 
 <br>
 ## _References_
