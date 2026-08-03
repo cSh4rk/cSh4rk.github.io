@@ -12,6 +12,7 @@ thumb_path: /books/assets/2026/four-thousand-weeks-book-thumb.jpg
 thumb_width: "104"
 thumb_height: "160"
 image_alt: "Four Thousand Weeks book cover"
+updated: 2026-08-03
 ---
 
 <br>
@@ -130,7 +131,7 @@ This is probably the most powerful book that I've read so far on Time Management
 
 It's different from all other self-help or motivation books that I've read so far and contains more powerful tips than most of them.
 
-How someone views his/her death and end of life can have profound effect on his/her quality of life, we all have around four thousand weeks from the moment we are born, it's a constant reminder that we have too little time to waste on trivialities. 
+How people view their death and end of life can have profound effect on their quality of life, we all have around four thousand weeks from the moment we are born, it's a constant reminder that we have too little time to waste on trivialities. 
 
 So let's use it to make a rich and beautiful life, Memento Mori and Memento Vivere!
 

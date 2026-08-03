@@ -15,6 +15,7 @@ thumb_path: /books/assets/2026/digital-minimalism-book-thumb.jpg
 thumb_width: "106"
 thumb_height: "160"
 image_alt: "Digital Minimalism book cover"
+updated: 2026-08-03
 ---
 
 <br>
@@ -119,9 +120,9 @@ Paperback: 304 pages
 
 This is the kind of material that should be taught in schools. 
 
-**The problem with modern life especially the online part is that it has got complicated yet there is no user manual for it**; so most users: are clueless, become victims and stop short of achieving their life dreams without ever knowing the reason.
+**The problem with modern life especially the online part is that it's got complicated yet there is no user manual for it**; so most users: are clueless, become victims and stop short of achieving their life dreams without ever knowing the reason.
 
-This book is somehow the continuation of another Cal's great book: [Deep Work](/books/2021/deep-work-rules-for-focused-success-in-a-distracted-world), I highly recommend both to anyone who is serious enough to follow his/her dreams and life goals and to anyone who wants to live a happier and more fulfilling life. 
+This book is somehow the continuation of another Cal's great book: [Deep Work](/books/2021/deep-work-rules-for-focused-success-in-a-distracted-world), I highly recommend both to anyone who is committed to pursuing their dreams, achieving their life goals, and creating a happier, more meaningful, and fulfilling life. 
 
 **These two books can definitely be the ultimate user manual for your digital life.**
 
